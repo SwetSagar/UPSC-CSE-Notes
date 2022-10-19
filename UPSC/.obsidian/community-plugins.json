@@ -61,5 +61,6 @@
   "obsidian-local-images",
   "obsidian-kanban",
   "obsidian-emoji-toolbar",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "obsidian-git"
 ]

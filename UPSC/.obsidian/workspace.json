@@ -11,16 +11,26 @@
             "id": "2e203cc8d1cecbb3",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "1 - Historical Background.pdf"
+              }
+            }
+          },
+          {
+            "id": "2f2f15750366d74a",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "08.3 Modern-History/10. Constituional-Dev_/Constitutional Development between 1858-1935.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "stacked": true
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -80,7 +90,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08.3 Modern-History/10. Constituional-Dev_/Constitutional Development between 1858-1935.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -122,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "08.3 Modern-History/10. Constituional-Dev_/Constitutional Development between 1858-1935.md",
+                "file": "Untitled.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "08.3 Modern-History/10. Constituional-Dev_/Constitutional Development between 1858-1935.md",
+                "file": "Untitled.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -177,22 +187,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 368
+    "width": 368,
+    "collapsed": true
   },
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "2e203cc8d1cecbb3",
+  "active": "2f2f15750366d74a",
   "lastOpenFiles": [
+    "1 - Historical Background.pdf",
+    "Untitled.md",
+    "08.3 Modern-History/10. Constituional-Dev_/Constitutional Development between 1858-1935.md",
+    "00 Homepage/Homepage.md",
     "08.1 Ancient-History/1. Sources/1.1 Archaeological-Sources.md",
     "02 Prelims/Prelims Facts 1 April-2019-Feb-2020.md",
     "02 Prelims/Prelims Facts 2 March 2020-March 2021.md",
     "01 Subject Wise Notes/🍃 Environment and Disaster Management/5. Acts, Orgs, Convention, Env Issues/Acts and Policies.md",
     "08.4 World-History/2. Modern Politics Origin/French Revolution and aftermath 1789 1815.md",
-    "08.4 World-History/2. Modern Politics Origin/American Revolution and the Constitution.md",
-    "08.4 World-History/2. Modern Politics Origin/European State System.md",
-    "03 Essay/Important Topics Content, Intro, Conclusion.md",
-    "03 Essay/Quotes Topic Wise.md",
-    "00 Homepage/Bookshelf.md"
+    "08.4 World-History/2. Modern Politics Origin/American Revolution and the Constitution.md"
   ]
 }

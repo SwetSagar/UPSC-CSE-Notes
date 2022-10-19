@@ -17,7 +17,7 @@
 -   Per Metcalfe new attitude of caution and conservatism
 -   Assertion of racial superiority
 
-> Anand Yang : limited raj regime depended on local power elites viz zamindars for admn of interiors
+> **Anand Yang** : limited raj regime depended on local power elites viz zamindars for admn of interiors
 
 > **Bernard Cohn** - B became insiders by vesting their monarch sovereignty of IN
  
