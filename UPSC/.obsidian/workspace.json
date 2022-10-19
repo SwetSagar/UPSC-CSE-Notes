@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "cb5d38c84c97a581",
+    "type": "split",
+    "children": [
+      {
+        "id": "09a93be080d437ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2e203cc8d1cecbb3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "08.3 Modern-History/10. Constituional-Dev_/Constitutional Development between 1858-1935.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6bd1d9bde059dfa0",
+    "type": "split",
+    "children": [
+      {
+        "id": "afe3cc9c5d742a1b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "54c28f3b240feb0a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "byCreatedTime"
+              }
+            }
+          },
+          {
+            "id": "0803f948315da93b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 269.50418853759766
+  },
+  "right": {
+    "id": "5683b48c38d8adc9",
+    "type": "split",
+    "children": [
+      {
+        "id": "101698b123868760",
+        "type": "tabs",
+        "dimension": 53.125,
+        "children": [
+          {
+            "id": "4fddf2ce530b1d83",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "08.3 Modern-History/10. Constituional-Dev_/Constitutional Development between 1858-1935.md"
+              }
+            }
+          },
+          {
+            "id": "976bca1b430c70b1",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "679babaf7eec71cb",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "648c4cb924dbca26",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "548a9e20c43e4ddf",
+        "type": "tabs",
+        "dimension": 46.87500000000001,
+        "children": [
+          {
+            "id": "03884fd20c5354ee",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "08.3 Modern-History/10. Constituional-Dev_/Constitutional Development between 1858-1935.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "880e880cbd93cb17",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "22d771889f36216a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "08.3 Modern-History/10. Constituional-Dev_/Constitutional Development between 1858-1935.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "043cda7ccca3b4ef",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "fac01df896eac843",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 368
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "2e203cc8d1cecbb3",
+  "lastOpenFiles": [
+    "08.1 Ancient-History/1. Sources/1.1 Archaeological-Sources.md",
+    "02 Prelims/Prelims Facts 1 April-2019-Feb-2020.md",
+    "02 Prelims/Prelims Facts 2 March 2020-March 2021.md",
+    "01 Subject Wise Notes/🍃 Environment and Disaster Management/5. Acts, Orgs, Convention, Env Issues/Acts and Policies.md",
+    "08.4 World-History/2. Modern Politics Origin/French Revolution and aftermath 1789 1815.md",
+    "08.4 World-History/2. Modern Politics Origin/American Revolution and the Constitution.md",
+    "08.4 World-History/2. Modern Politics Origin/European State System.md",
+    "03 Essay/Important Topics Content, Intro, Conclusion.md",
+    "03 Essay/Quotes Topic Wise.md",
+    "00 Homepage/Bookshelf.md"
+  ]
+}

@@ -1,0 +1,20 @@
+# Rangpur Dhing Rebellion 1783
+2020-04-26 19:37:45
+            
+---
+
+
+-   1783 north Bengal due to very high demand of revenue by the Govt.
+-   Pressed by rev farming sys, contractors like Debi Singh or Ganga Singh, illegal cess
+-   Initial petition unheeded
+-   Raised huge army w/ bows, arrows, swords attacked Cutchery, looted grains, released prisoners
+-   Hindu Muslims Unity
+>  Sugata Bose : invoked symbols of precolonial era
+-   Called their leader nawab, started own gov
+-   Suppressed, reforms in revenue farming sys
+-   Imposed levy for insurrection on peasantry
+-   Public conferences, assemblies, planning
+
+
+
+

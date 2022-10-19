@@ -1,0 +1,457 @@
+# Prelims April 2019 - Feb 2020
+2019-05-03 20:25:26
+            
+---
+-   INDO will shift to east Kalimantan will be called as Nusantara, Borneo - congested, sinking, prone flooding, financial inequality.
+-   Green Car loan by SBI, 1st bank in India to do so.
+-   Oldest footprint in Chile more than 15000yrs old.
+-   Floating nuclear reactor Admiral Lomonosov - Russia
+-   Bharati script - alternative script for 9 languages, uses OCR by IIT Madras
+-   IN ASAT test Mission Shakti 4th country, 350km impact Kessler syndrome debris decay 45 days
+-   May 1 - International Labour Day, 1st celeb IN 1923 in Chennai Labour Kisan Party of Hindustan; origin 1884 to commemorate the Haymarket affair of Chicago.
+-   4000 yr coffin - containing dal, rice, shields, swords, chariots **Sanauli** in Upper Ganga doab UP biggest necropolis suggest warrior culture late mature Harappa period
+-   IN FR naval exercise Varuna 19.1 Goa Coast, 1st 1983
+-   Hangul aka Kashmir stag **Critically endangered** now only in Dachigam NP
+-   Meghalaya- Mawmluh cave (stalagmite)
+-   UK Modern Slavery Innovation Fund for countries like RSA IN.
+-   CN IN trade begins from Nathu La (Sikkim)
+-   World Press Freedom day May 3 by UN, Guillermo Cano prize given. **Windhoek Declaration** by African journalists press freedom principles
+-   Gujarat Shops and establishment Act, 2019, can open 24*7 now.
+-   INS Ranjit guided missile destroyer retires, Kashin class USSR
+-   Anti-dumping duty of Saccharine artificial sweeteners from Indonesia
+-   Bisphenol-A, in baby food, products, bottles, carcinogenic
+-   CN does not border JP sea
+-   4th Kalvari Class diesel attack sub INS Vela launched, project 75, French scorpene class
+-   Purple Frog - endangered
+-   Reddish brown pit viper discovered in Arunachal 2nd after Crying Keelback snake
+-   Barn owls in Laskhdweep - fight rat infestation
+-   AH 64E Apache guardian replace Mi35
+-   Chilka 2nd largest brackish water lake in world after New Caledonian, biodiversity hotspot, 1st Ramsar site
+-   National Technology day on 11 May - Shakti 1, flight test of Hansa 3 indigenous plane, launch of Trishul BM
+-   ASEAN Maritime Security Field Training Ex. (ADMM MS-FTX), Singapore - South Korea head. **[MBBS CLIP TV]**
+-   Thrissur Pooram held in Kerela Vadakumnatham temple, elephants carry idols.
+-   parasitic orchid Lecanorchis Taiwaniana in Assam, 1st time in IN, feeds on fungus, smallest orchid recorded, Japan - Laos
+-   Rudraksh trees in Uttarakhand, broad leaved evergreen tree.
+-   Army Scouts Masters Competition co-host IN, Jaisalmer, part of Russia led International Army Games
+-   NEFT 24*7 : est 2005 not real time was set up and managed by Inst for Dev and Research in Banking Tech IDRBT. RTGS
+-   Vande Bharat from Delhi - Varanasi
+-   Mt. Makalu 4th highest Nepal, 8463m, Bakun valley foothills
+-   Mt Tenchenkhang Sikkim 6010m
+-   SIMBEX-2019 Andaman-BoB, IN-Singapore maritime
+-   Buddha Purnima, May, birth, enlighten, nirvana on same day aka Vesak
+-   Vayoshreshta samman, Elderly estd 2005 1st Oct per UN 1999 yr of old
+-   Int Biological diversity day may 22 by UN theme "Our Biodiveristy food health" since 2000
+-   Indo-Myanmar Coordinated Patrol (IMCOR) naval ex 8th edition
+-   Jokha Alharthi - Man booker International arabic novel Celestial Bodies
+-   **White throated rail** only flightless bird IOR, indigenous Madagascar
+-   Air version BrahMos test Car Nicobar SU30MKI, MTCR 490km, cleared for induction
+-   Article 83(2) dissolution LS
+-   Elephant Bond undisclosed income 50% invest mandatory 25 yr sovereign infra
+-   Mt. Agung Bali, Indonesia erupts.
+-   Aakash 1S SAM 25km 60kg alt. 18km phased array 'Rajendra' radar
+-   Kappapychus Alvarezzi seaweed invasive kill coral in Gulf Mannar, Palk Bay
+-   IN JN(soft loan) $700mil East Container Terminal in SL(100% owner)
+-   Puerto William southern-most city, Chile near **Beagle channel**
+-   Kudakrumia Rangnekari new wasp species, Goa near Cotigao Wildlife sanc
+-   Siachin, Karakorum range, south of Eurasia-IN plate, source Nubra river,
+-   Mt Etna, Sicily Italy erupts b/w African and Ionian microplate, heritage site, horse shoe shape
+-   Parthenogenesis develop gamete(egg/sperm) to zygote w/o fertilization ex Anaconda
+-   Ancient North Siberian link Native American later Pleistocene(ice age)
+-   7 June World Food Safety day WHO, Food Safety Index by FSSAI Chandigarh 1st launch Raman 1.0 - detect adulteration
+-   IN 6.49% world fauna 5% flora
+-   NITI Aayog initiative 15yr road map,7 yr vision, strategy & action plan, AMRUT, Digital IN, AIM
+-   National Strategy for Wellbeing 2031- UAE
+-   HK (special admin region) extradition to CN bill for criminal cases
+-   El Salvador : forests living entities
+-   IN+POR marine museum Lothal Gujarat & Lisbon by MoShipping Sagarmala program
+-   Kheer Bhawani mela Kashmir big for Pandits
+-   TomTom NGO Amsterdam Traffic Index Mumbai most congested 4th Delhi
+-   End of Childhood index Save Children(19yr) NPO IN 113/176 (Child marriage + teen birth decreased)
+-   NASAMS 2 is US SAM has AIM AMRAAMS 3D sentinel radar~ SPYDER sam sys
+-   Mansarovar lake highest freshwater
+-   Paddy frog 'Aishani' Assam genus Micryletta
+-   World day against Child labour June 12
+-   Amitav Ghosh 1st English (added after 49t) writer 54-Jnanipath Award(1961)
+-   Hypersonic Tech demonstrator vehicle(HSTDV) DRDO cruise missile+ sat
+-   Asiatic golden cat Arunachal-Nepal area 6 diff coat types
+-   J&K reservation bill Pahari community passed gov jobs
+-   Strait of Hormuz connect Gulf of Oman + Arabian sea 30% oil trade
+-   Sheath Blight diseases in rice fungus id as Rhizoctonia solani help counter
+-   Per + Polutfluoroalkyl used anti stick cookware paints food packaging human food chain carcinogenic unregulated IN
+-   **G Peace Index (GPI)** AUS Institute Economic & Peace IN 141, based climate terrorism military expenditure
+-   Juneteenth(June 19th) oldest commemoration ending Slavery in US
+-   RADARSAT(3 sats) - Canada daily to ID ships etc
+-   Highest weather station Mt Everest is Death Zone record data temp pressure jet streams wind
+-   Balsam/jewel weeds are sensitive to sun drought perennial herbs succulent plant
+-   World Food IN biennial event promote food processing IN world food factory
+-   Solanum Plastisexum - sex changing tomato
+-   Hidden Hunger= malnutrition + obesity exists together
+-   Kolhapur Chappal GI tag, hand-made tanned using vegetable dyes
+-   Varunastra torpedo by Bharat Dynamics 40km range, 74kph speed, GPS based locating aid
+-   Op. Sankalp Persian Gulf + Gulf Oman, assist IN flagged vessels amidst IR-US tnsn, Strait of Hormuz
+-   June 21 int yoga day, 'yoga for climate action'
+-   Bihar Bans tree falling in public areas due heat wave
+-   Trafficking In Person(TIP) US report, IN Tier2 (/3) working significantly reduce.
+-   Odisha special flood hazard atlas, ISRO+ National Remote Sensing Centre
+-   Subtropical Gyres by Ocean cleanup NPO to trap ocean plastic
+-   Arogypacha (Trichopus Zeylanicus) medicinal plant decoded genetic make up
+-   Vaishno Devi Shrine get own Disaster response force located Trikuta hills
+-   Int Olympic committee NPO HQ in Switzerland
+-   **Normalized Difference Vegetation #Index(NDVI)** - ground under Veg to estimate food available to herbivores not accurate
+-   RUS extends ban EU goods till 2020 response against sanction 2014
+-   Plastic Parks to manage plastic waste env statutory approval
+-   Agri Processed Food products export authority (APEDA) export promotion of scheduled products, monitor import of Sugar
+-   UNHCR (High commission Refugees) Ibelong campaign end statelessness '24
+-   Proton beam therapy treat cancer - uses radiation
+-   Yamuna Waterway project 16km 5 locations
+-   'Impressed' tortoise found Arunachal
+-   Refugees : Bidoon, Faily kurds -Iraq; Thai: Yao, Hmong, Karen, sea gypsies
+-   Sister city agree b/w Kobe, JP + Ahmedabad (1st World Heritage city IN)
+-   Track Child + Khoya Paya portal MoWCD
+-   Centre Inland Coastal Maritime Tech (CICMT) IIT kgp under Sagarmala, ship design cryogenic cargo etc
+-   June 29 Statistics day(PC Mahalanobis B'day) ' 'SDG IN commitment'
+-   Grievance Against Misleading Advertisement(GAMA) portal by Mo Consumer Affairs, Food.
+-   Go Tribal campaign by TRIFED for collab w different org
+-   IN RUS deal Strum Ataka anti-tank missile for Mi35
+-   NASA Dragonfly drone robot - Saturn's Titan moon part of New Frontier prgrm
+-   Tamil Yeoman endemic Western Ghat National butterfly TN
+-   Nat Skill Develop Fund(NSDF) for skilling youth
+-   Rashtriya Avishkar Abhiyan 2015 6-18 yr motivate create curiosity #scheme 
+-   Shodhganga digital repository research scholars share research/thesis
+-   Garuda VI bilateral ex b/w IAF + French AF in France
+-   Henley Passport #Index(HPI) IN rank86(access 58 count) 1st JN+SIN AFG last
+-   Aadhar Seva Kendra -UIDAI (statutory under MEITY)
+-   MoAgriFW + IBM to start using AI+ weather sol in agriculture
+-   Ashadhi Beej fest : UP Guj to predict monsoon - Kutch new year
+-   Export Credit Guarantee Corp ECGC to protect non-payment dues from foreign buyers
+-   Operation Sudarshan BSF fortify anti infliltration grid IN PAK border PUNJ + JK
+-   Mangdecchu Hydro project Bhutan w help IN
+-   National Youth Corps volunteer scheme 5k/month
+-   Kaushal Yuva Samwad(dialogue) launched Youth Skill by MSDE day 15th July
+-   Op Milap rescue trafficked children
+-   IN RUS strategic economic dialogue in St Petersberg
+-   Plan BEE use humming of bees to keep elephants away from railway tracks
+-   Utkarsha 3 yr roadmap by RBI strengthen regulatory and supervision
+-   FR imposes green tax on air tickets only outgoing flights
+-   July 11 World Population Day
+-   Kharchi Puja in Tripura
+-   GAFA(Google Apple FB Amazon) tax 3% total revenue by FR
+-   Meghalaya 1st state have water policy
+-   Botanical survey of IN finds 1256 orchids in IN
+-   Jan Jagrukta Abhiyan against vector borne diseases Malaria Dengue etc #scheme 
+-   Markandeshwar Temple Maharashtra Nagara style restoration complete aka Khajuraho of Vidharbha, Shaiva Vaishnava Shakti all worshipped 12-13 cent
+-   IN rank 52 in Global Innovation #index by WIPO
+-   Limboo + Tamang (Nepal Gurkha) communities seeking reservatn in Sikkim
+-   KVIC - Honey mission ^6a4773
+-   30 meter Telescope in Hawaii to observe near Ultraviolet mid infra radiation
+-   Red Mud Solid waste generated during Al production process
+-   Gharial IUCN red list, East IN- Irrawaddy area, Chambal + Katerniaghat sanct also in Girwa, Ken, Son, Mahanadi, Ramganga
+-   JATAN virtual museum digital collectn and archival tool
+-   Chrysomallon squamiferum snail endangered bcoz deep sea mining 1st case
+-   National Inst Miner Health merged w ICMR-Nat Inst of Occupational Health
+-   Colistin a last resort antibiotic drug in humans banned for animal use
+-   American Pocket shark : Mollisquama mississippensis lumionus in Gulf o Mex
+-   1st Dragon Tree species found in Assam
+-   CARE4U app IIT-kgp connect old people to caregivers, remind of medicines.
+-   1st private Chinese coy ispace rocket Hyperbola-1
+-   CISF encyclopaedia called Securitypedia :security related practice worldwide
+-   Microdots - microscopic paint sprayed on vehicles etc as identifier, help check theft etc
+-   Infosys cyber defence centre in Romania
+-   National Centre for disease control estd 1963 to contain epidemics etc
+-   US federal reserve rate cut to help IN
+-   ISRO technical liaison unit in Moscow already there w US,FR capitals
+-   Khanij Bidesh IN ltd(KABIL) by 3 PSUs(NALCO, HCL & MECL) mining supply strategic minerals from overseas
+-   Samarth #scheme by Flipkart to help weavers, artisans, handicraft makers
+-   Virgin Hyperloop mum-pune in 25min
+-   Narrowest part in English Channel is Dover strait it is 6km.
+-   Tungabhadra doab aka rice bowl of Karnataka
+-   Meghdoot mobile app to assist farmers; provide forecast by Metrological dep
+-   Mt Elburz volcanic mt in Georgia, highest in Eu continent
+-   National Handloom day August 7 to commemorate Swadeshi Movement
+-   [Vikram Sarabhai](http://www.wikipedia.org/wiki/Vikram_Sarabhai) founder 1st Chairman INCOSPAR, IIM A etc
+-   Nat. Agricultural Co-op Federation Of IN ltd([NAFED](https://en.wikipedia.org/wiki/National_Agricultural_Cooperative_Marketing_Federation_of_India)) promotes agri marketing, process, storage, distri machines etc
+-   Maritime Board in Odisha single window dev org non nationalised inland waterways and non-major ports
+-   e-Rozgar Samachar MoInfo and Broadcasting for gov job aspirants is e-version of employment news
+-   MoHRD integrated online junctn for-School education 'Shagun'(Shala+Gunvatta) improve school ed sys
+-   MoHUA e-course on vulnerability atlas of IN info about natural hazards, ID vulnerable areas etc
+-   Know IN program MEA IN origin youth(18-30) grad + English req
+-   San-Sadhan Hackathon ease lives of disable for innovative toilets
+-   Biometric seafarer identity document(BSID) facial/biometric data; chip embedded w facial data
+-   [Bharat Ratna](http://www.wikipedia.org/wiki/Bharat_Ratna) to Nanaji Deshmukh, Bhupen Hazarika, Pranab Mukherjee
+-   Van Mahotsav started KM Munshi in 1950 to plant new tree
+-   Aadi Mahotsav under MoTribal Affaris+ TRIFED theme 'celebrate tribal craft culture commerce' show primal factors
+-   Navroz Parsi new year aka Pateti on August 17
+-   CORAS(Commando for Railway Security) staff RPF/RPSF in Naxal affected areas
+-   Falaq mobile radar RUS range 400km protect from Ballistic missiles/drones
+-   Recession when output of country is -ve for 2 successive quarters
+-   Baltic states are Latvia, Lithuania & Estonia mem UN, NATO, EU
+-   Kajin Sara Lake in NEP world's highest
+-   Okjokull glacier ICE dead, not thick enough to move
+-   Sri Krishna temple in BAH 200 yo 1st and oldest temple in gulf
+-   Gogabeel ox bow lake in Bihar its 1st community reserve by river Mahananda and Kankhar
+-   Special Tiger Force for Corbett Tiger Reserve act as 2nd layer of protection
+-   **IN State of Forest #report**, 24.49% forest cover least Haryana 6.79, Pun, Raj most Lakshdweep 97 in states Manipur, AruP; loss in NE due to shift cultiv; mangrove inc, KTK grows most forest
+-   New burrowing from species Spahaerotheca Magadha discover in Jharkhand's Koderma
+-   New freshwater fishe Glyptothorax gopii - Kaladan river Mizoram Garra simbalbaraensis Simbalbara rive HP
+-   [Marmoset](http://www.wikipedia.org/wiki/Marmoset) Mico munduruku new species of primates discovered in Amazon
+-   Adratiklit Boulahfa extinct speices of stegosaurus' oldest known mem found in Morocco
+-   Rare tarantula peacock parachute spider, Poecilotheria species endemic to Western Ghats, Pakkamalai reserve(TN)
+-   Dindigul lock Kandangi Saree, Palani Panchamitram prasad of Murugan temple all from TN get GI tag
+-   Nigeria 1st country approve open cultivation of GM seed Bt Cowpea, pest resistant has gene Cry1Ab toxic to liver
+-   Mizoram - Tawlhlopuan coloured leaves, Puanchei shawls, Kerala's Tirur betel leaves get GI tag
+-   Sericin - silk protein, protect from skin diseases eg cancer ex from silkworm
+-   Curiosity rover, Insight lander experience solar conjunction, Earth Mars opp side of sun/2yrs,causes electrical disturbance
+-   Soho House, Statue of Unity in Time's 100 greatest places
+-   Jan Soochna Portal by Raj gov mandating public authorities to disclose information under section 4(2)of RTI act
+-   Project Replan by KVIC; make plastic w/ 20% processed plastic 80% cotton fibre rags ^083c3c
+-   Central Advisory Board of Education (CABE) revived 1935 highest advisory body for State/Centre mem are nominated LS, RS, LA's etc
+-   Bal Basera/ Creche for children of construction worker at AIIMS Rishikesh
+-   National Waterway-1 (River Ganga) under Jal Marg Vikas Project (JMVP) aided by WB 1st multimodal terminal in Varanasi
+-   Jeevan Kaushal - Curriculum for life skills designed by UGC to strengthen knowledge, skills
+-   Central Equipment Id register (CEIR) sys under DoT to block, trace, lost/stolen mobile phones prevent theft/counterfeiting
+-   Waste mgt Accelerator for aspiring Women Entrepreneurs by AICTE and IIWM promote part of women in waste mgt
+-   Mochi Swabhiman Initiative Leather Sector Skill Council (LSSC) a non-profit
+-   Survey of India is national mapping and survey org under DST oldest scientific dept set up 1767
+-   Special Expenditure Observers appointed by ECI under article 324 and 20B of RPA 1951
+-   IMD colour codes Green - No warning, Yellow - watch, Orange - Alert, Red- Warning
+-   [KVIC](https://en.wikipedia.org/wiki/Khadi_and_Village_Industries_Commission) launched terracotta grinders at Varanasi, reduce cost of production and solve shortage issue
+-   Bathukamma festival of flowers Telangana by women(Set-Oct)
+-   Galo tribes : Arunachal prefix second syllable of fathers name to son, help trace their origin.
+-   Ladakhi Shondol dance enter Guinness world record for largest Ladakhi dance aka royal dance of Ladakh
+-   Nuakhai is harvesting festival of Odisha by farmers
+-   Time Bank : learn a skill an hour worth of currency is swapped w/ someone who knows the skill
+-   Imported inflation : due to inc in price of imported good, in IN Gold and Crude oil
+-   Mo Commerce and Industry has launched digital platform to issue electronic certificates of origin
+-   [Economic Advisory council to the PM (PMEAC)](https://en.wikipedia.org/wiki/Economic_Advisory_Council)
+-   [Nasscom's](https://en.wikipedia.org/wiki/NASSCOM) Data Security Council of India (DSCI) launched campaign 'Digital Payment Abhiyan' on its benefits, safety and security
+-   Teaser Loan - fixed interest rate for few year then changes to floating
+-   ['Leadership Group for Industry Transition'](https://vajiramias.com/current-affairs/leadership-group-for-industry-transition/5d8af6f91d5def270db6b937/)
+-   Man Portable ATGM developed by DRDO - NAG, Amogha etc
+-   Himvijay in Arunachal to test abilities of 17 Mountain Strike Corps and M777, Chinooks
+-   Yudh Abhyas IN-US mil ex held in Joint Base Lewis Mc Chord, Washington, USA.
+-   Maitree : IN-THAI mil ex held in Meghalaya
+-   KAZIND - Kazakhstan IN mil ex held in Pithorgarh Uttarakhand
+-   1st ship of project 17A stealth frigate INS Nilgiri launched
+-   INS Khanderi : Kalvari class diesel electric sub was commissioned built by Mazagaon docks ltd (MDL)
+-   CORPAT IN-THAI naval mil ex, also for IN-INDO
+-   Samudra Lakshmana b/w IN MAL navies
+-   SITMEX - SIN, IN, THAI maritime ex held in Andaman sea
+-   Malabar Exercise : IN, JP(since 2015), US(1992) maritime ex, AUS being considered
+-   ASEAN-US Maritime ex (AUMX) held in THAI
+-   TSENTR 2019 mil ex hosted by RUS forces from IN CN PAK KAZ UZB KYR are participating
+-   Saving [Snow Leopard](https://en.wikipedia.org/wiki/Snow_leopard) lead grassland for its prey base and help combating land degradation per UNCCD, [Bishkek Decl.](https://www.snowleopard.org/the-bishkek-declaration-on-the-conservation-of-the-snow-leopard/)
+-   Cryodrakon Boreas 77mil yrs ago one of largest flying animals
+-   New species of snakes in Western Maha name Boiga Thackerayi commonly called cat snakes
+-   Microhyla Eos new Frog in Arunachal, Namdapha
+-   Bamboonomics movt to combat desertification, climate change ensure tribal livelihoods
+-   Drought Toolbox launched in 14th CoP of UNCCD has case studies and other resources for stakeholders access
+-   **ANGAN** (Augmenting Nature by Green Affordable New habitat) focus on energy efficiency in Building sector
+-   Glyphosphate kills insects which protect ecosystem
+-   Nonyphenol bio accumulative toxin found in detergents banned in many countries
+-   **Paraquat** toxic chem used as herbicide banned in 32 countries caused kidney, liver problems in humans
+-   Lignin organic compound found in trees rich in polyphenols and antimicrobial qualities by-product of paper mfd
+-   Pusa Yashasvi new variety of wheat by IARI high content of protein +gluten, fungi resistant, fast maturity
+-   Happy Seeder/Turbo Happy Seeder machine by Punjab Agri Univ direct seed sowing for managing stubble
+-   Goldschmidtite new mineral discovered
+-   Saggitarius A* a supermassive black hole feeding on nearby stars
+-   Mt Kun 2nd highest peak in Zanskar and Kargil region Mt Nun is 1st
+-   Hurricane Dorian affected Bahamas
+-   **Pangong Tso lake salt water** formed from Tethys geosyncline
+-   IN- NEP pipeline b/w Motihari and Amalekhgunj transport petroleum fuel
+-   Daucha Panchami coal block is Birbhum is World's second largest
+-   Gandan Tegchenling Monsatery in Ulaanbatar Mongolia unveiled by PM
+-   [Travel and Tourism Competitiveness #report](https://en.wikipedia.org/wiki/Travel_and_Tourism_Competitiveness_Report#2019_Ranking) by WEC IN ranked at 34, SPA FR GER top 3
+-   World University Ranking by TIMES IN 5th most represent w/ 56 insti IISC Bang topped
+-   1st World Patient Safety day observed
+-   IN 10th largest Gold w/ 618 tonnes reserve US, GER and IMF are top 3
+-   National Crisis Mgt Committee NCMC for implementation of relief measures during national calamity Cabinet Secy is Chair ^a58e42
+-   Ancient palaeochannel/ river that joins Yamuna and Ganga was excavated at Prayagraj
+-   Military Nursing Service - only all women corps in IN, estd in 1888
+-   HRD min set up National Council for promotion of Urdu and Sindhi
+-   D 28 iceberg recently broke off Antarctica
+-   Ex Ekuverin mil ex b/w IN and Maldives
+-   Nomadic Elephant is IN MON joint mil ex
+-   New Vande Bharat b/w Delhi Katra route
+-   PRAKASH (Power Rail Koyla Availability through Supply Harmony) portal for transparent and better coordination
+-   Elephant Endotheliotropic Herpesvirus EEHV killed 5 elephants in Odisha affects young ones 1-12 yrs
+-   IN 1st e-waste clinic for segregating, processing in Bhopal
+-   Indian Council of World Affairs ICWA for the study of int relations and foreign affairs estd 1943
+-   Ganga Amantran Abhiyan is month long open water rafting and kayaking expedition by the NMCG
+-   Saturn has the highest number of moons - 20 new ones discovered earlier Jupiter w/ 79 was top.
+-   Meghalaya excluded 'unrepresented tribes' from provision of 6th Schedule. Bodo-Kachari, Hajong, Koch, Mann and Rabba they are indigenous
+-   Gagan Enabled Mariners Instrument for Navigation and Information GEMINI device dissemination of emergency info on disaster warning through GAGAN sat
+-   Carpet Export Promotion Council CEPC non-profit by Mo Textiles promote its exports in 1982
+-   Phazolicin new antibiotic in soil of tropical forest in Mexico
+-   Elastocaloric effect : cooling effect produced when rubber bands are twisted and untwisted can replace refrigerants.
+-   Emperor Penguins IUCN Near threatened
+-   Dharma Guardian mil ex b/w IN JP
+-   Mobile app 'mHariyali' by Mo HUA to encourage planting trees, geo tagging
+-   SARAS Aajeevika mela under DAY-NRLM to bring the rural women SHGs under one platform by CAPART NGO
+-   Hagibis typhoon in JP
+-   **LOTUS-HR** : Local Treatment of Urban Sewage streams for Healthy Reuse
+-  National Blindness and Visual impairment survey India 2015-19 : looks at district wise prevalence, untreated cataract main cause
+-   **Maritime states development Council MSDC** apex advisory body for development major and non-major ports. 
+-   GOAL- digital skill training program for tribal women by MoTA and Facebook
+-   Air Quality index dissemination of air quality info to the people, 6 AQI categories from Good to Severe
+-   Mount Kilimanjaro Tanzania highest in Africa 4900mts
+-   Saharan silver ants - fastest
+-   Mt Paektu or Changbai border b/w DPRK and CN also the highest peak in Korean peninsula
+-   Acute Flaccid Myelitis AFM is a neurological illness like polio
+-   Ex Eastern Bridge V b/w IAF and RAFO (Oman)
+-   1st Graduate level research based AI univ in UAE
+-   Merchant Discount Rate MDR business w/ annual turnover of 50cr will have to mandatorily offer electronic mode of payments to their customer
+-   DANX 19 Defence of Andaman and Nicobar Islands 2019 held by Army Navy and Air Force
+-   Worlds 1st all female spacewalk included Christina Koch and Jessica Meir
+-   Shirui Lily festival Manipur 5 day state festival in Ukhrul district it is the state flower
+-   Meteor shower - earth passes the trail debris of a meteor
+-   Thylacine aka Tasmanian tiger new sightings in AUS
+-   Defence Acquisition Council DAC to expedite procurement for Armed forces, headed by Defence Minister
+-   Defence Technologies and trade initiative DTTI to expedite co-op b/w partner countries on defence tech.
+-   IN's apex oil trade body Solvent Extractors Association of IN SEA
+-   US-IN Strategic Partnership Forum USISPF NPO for sharing bilateral and strategic partnership
+-   Deepotsav Mela by UP gov given status of state fair
+-   Col Chewang Rinchen Setu is IN highest altitude all weather permanent bridge on Shyok river.
+-   1st Nat Protocol to Enumerate Snow Leopard Pop on occasion of Int Snow Leopard day
+-   East Antarctic Marine Protected Area by AUS FR to create sanctuary there. CN and Russia opposing
+-   Chenani Nashri tunnel aka Shyama Prasad Mookerjee - JK on NH 44
+-   Open General Export License OGELs export of certain parts and components one time export licence to a coy
+-   Thotlakonda Monastery, Vizag - Hinayana complex during Satvahana dyansty, Roman coins, Brahmi inscriptions also found
+-   Kyarr 1st super cyclone in Arabian Sea in 12 yrs
+-   Shakti 2019 biennial joint ex b/w IN FR held in RAJ
+-   INS Baaz southernmost air station of IAF in Campbell Islands of Great Nicobar island
+-   IN KSA strategic partnership Council SPC 4th country to sign one w/ KSA
+-   SEED award by UN for start ups
+-   Malware hit Kudankulam Nuclear Power plant by D Track North Korean virus
+-   IIIT Hyderabad creates 1st IN brain atlas, 1st digital brain atlas was created by Montreal Neurological Institue MNI
+-   National Waterway 2 Brahmaputra river; 1st time river cargo movt took place
+-   IN-BAN using Indo Bangladesh Protocol (IBP) routes to develop NW 1,2 and 16 to tackle heavy traffic
+-   India International Science Festival IISF in Kolkata
+-   Dustlik 2019 b/w IND-UZB mil exercise 1st ever
+-   ICEDASH : EoDB monitoring dashboard of IN customs. ATITHI app for hassle free faster clearance
+-   Polypedates Bengalensis newly discovered frog from WB
+-   Danakil depression, Ethiopia 1 of hottest places active and natural life cannot sustain
+-   Mamulanar tamil poet of Sangam era mentions Tiruvalluvar as the greatest Tamil scholar
+-   Shaala Darpan portal by Mo HRD an end to end e-governance school automation mgt sys for Navodaya Vidyalaya
+-   Samudra Shakti b/w IN and INDO maritime ex
+-   Pliosaur largest aquatic carnivorous reptiles to ever live
+-   NZ passed Zero Carbon bill to become carbon neutral by 2020
+-   Maternal mortality ratio report - 113 of IN, most in Assam 215 least in Kerala 43, deaths per 100,000 births.
+-   NASA unveils 1st experimental electric plane X-57 Maxwell twin-engine propeller.
+-   Tiger Triumph IN US tri services Humanitarian assistance and disaster relief (HADR) maiden ex held in IN
+-   Project Zero by Amazon to block selling of counterfeit goods on it.
+-   Chile - referendum to replace its constitution
+-   Online Child Sexual Abuse and Exploitation (OCSAE) prevention/investigation unit by CBI
+-   European Investment Bank to stop funding oil, coal projects from 2021
+-   Ultima Thule farthest object in Solar sys renamed to Arrokot
+-   Sisseri River bridge under Project Brahmank of BRO at Dibang Valley Arunachal
+-   IOCL dev winter grade diesel for Ladakh does not lose fluidity at extremely low temps
+-   Za'ir Al Bahr(Roar of the Sea) maritime ex b/w IN and QAT navies
+-   New species of Mexican wasps named Idris Elba
+-   National Institute of Sowa-Rigpa NISR at Leh under Mo AYUSH; is a traditional system of medicine from Tibet
+-   Bacteriophages are viruses that kill bacteria; possible to use them against multi drug resistant strains, McrBC, Phages
+-   Malabar Tree toad in Western Ghats very rare and endemic is endangered.
+-   Johads in Haryana are community owned rainwater storage wetland for harnessing water.
+-   Golden rice GMV contains beta carotene has golden colored grains to fight Vit A deficiency
+-   Sumatran Rhino is smallest of all other 5 species only 80 left
+-   Daman and Diue and Dadra and Nagar Haveli to be merged
+-   Secretagogin SCGN a protein shown to inc insulin in obesity induced diabetes
+-   Rohtang tunnel in HP connects Kullu w/ Lahaul and Spiti valley in Pir Panjal range
+-   Assam roofed turtle endangered small freshwater under Schedule I of WPA act
+-   Chhattisgarh's 4th tiger reserve is Guru Ghasidas National Park
+-   Trashishium apteii newly discovered snake species from Arunachal in Tally Valley wildlife sanct mostly live underground
+-   HIM VIJAY mil ex in Arunachal will include mobilisation, mountain assault, air assault.
+-   YuWaah - Initiative by UNICEF, brings young people together w/ private sector, gov, local org to prep them for fast changing world
+-   IN cold wave zone covers PUN, HP, UKD, DEL, HAR
+-   Operation Clean Art crackdown on smuggling of mongoose hair, listed in Schedule II of WPA
+-   Power of Siberia gas pipeline 3000km to supply CN
+-   Hornbill festival in Nagaland to celebrate heritage aka Festival of Festivals.
+-   Meteor Air to Air missile BVRAAM
+-   Maharaja Duleep Singh last sikh ruler of PUN signed the Treaty of Lahore ceded empire, Koh-i-noor
+-   Right to livelihood award aka Alternative Nobel for offering practical solutions to urgent challenges
+-   Supaika distributary of Mahanadi is suffering riverbed erosion and hyacinth infection
+-   Victoria falls in Zambia in the Zambezi river facing severe drought
+-   Green Good deeds launched by MoEFCC for school kids
+-   Crystal Award by WEF recog achievements of leading artists
+-   StrandHogg Malware makes malware applications pose as genuine software can access all types of data
+-   Ex Apharan by IN Navy anti hijacking exercise collab w/ Coast Guard
+-   Houbara Bustard IUCN status Vulnerable 2 distinct species in North Africa and Asia.
+-   Balimela reservoir in R. Sileru in Maikangiri dist Odisha drains into Sabari a tributary of Godavari
+-   Operation twist - sale of short term securities to buy long term securities, to bring down long term interest rate by RBI
+-   8 West African countries changed name of their common currency to Eco
+-   Hunar Hatt by Mo Minority Affairs under USTTAD - preserving and promoting rich heritage of traditional arts and crafts of minorities.
+-   Oxygen Parlour in Nashik Railway Station to combat air pollution
+-   Bar headed goose one of the highest flying bird, migrates crossing the Himalayas IUCN : Least concerned.
+-   Tibetan Gazelles IUCN status near threatened their fur lacks an undercoat
+-   Typhoon Phanfone aka Ursula in Phillipines
+-   Dec 27 1911 National Anthem was 1st sung in Calcutta session of Congress
+-   **Drake passage** b/w Antarctica and Cape Horn of South America shortest crossing to Antarctica named after Francis Drake 1st Englishman to circumnavigate the Globe
+-   E-bkry portal under Mo Fin enable online auction by banks of attached assets.
+-   1st elephant colony in Bandhavgarh forest
+-   Central Equipment Identity Register CEIR- blocking and tracing of stolen/ lost mobile phones in DEL 1st launched in MUM
+-   RBI - MANI app to id currency notes by Visually impaired.
+-   Senna Spectabilis - invasive species of trees in Nilgiri, Wayanad; deciduous native to tropical America
+-   World Health Assembly has designated 2020 the International Year of the Nurse and the Midwife
+-   Red brittle Star, Sea Urchins see without eye known as extraocular vision
+-   Turtle rehab center - Bhagalpur
+-   Chinese Yaddlefish functionally extinct found in Yangtze
+-   Mugger IUCN - Vulnerable freshwater species, Gharial IUCN is Cr Endangered and Saltwater Crocodile are Least Concern
+-   Great Indian Bustards are found in Desert NP in Rajasthan, Rollapadu WS in Andhra P and Karera WS in MP.
+-   National Assessment and Accredition Council NAAC does not include institutes providing technical education
+-   Habitable Zone aka Goldilocks Zone is where liquid water can exist.
+-   Op Sankalp by India to ensure safe passage through Strait of Hormuz
+-   Milan multilateral naval excersise will be held in Vizag
+-   Kolkata port only riverine port in the country, Farakka Barrage is built in it
+-   Mission Purvodaya to develop eastern region into an integrated steel hub
+-   Island development authority head Home Minister
+-   Taal Volcano, Phillipines, it is a complex volcano
+-   Saksham fuel conservation campaign by Petroleum ministry
+-   Yada Yada virus is a novel virus that affects mosquitoes
+-   Z morh tunnel is located in JK
+-   Sahyog Kaijin is coastal guard ex b/w IN and JP
+-   Steppe Eagle was sighted in Vijaywada IUCN status : Endangered
+-   Gati portal by Mo Road Transport, highways for contractors to raise project related issues
+-   National Data and Analytics platform by NITI to make public access of data easy
+-   Archae : single celled eukaryotic micro-organisms found in hot springs, salt lakes and human gut, help in production of anti-bodies
+-   Underwater metro has completed construction in Kolkata
+-   Op Vanilla is IN Navys HADR operations in Madagascar
+-   6 classical languages Tamil, Sanskrit, Kannada, Telugu, Malayalam and Odiya.
+-   100% FDI coal mining activities for sale
+-   Shamlat in PUN is land owned by Panchayat
+-   Flame throated bulbul state bird of Goa, endemic to South India IUCN status is Least Concern.
+-   Ujh tributary of Ravi Origin Bhaderwah hills, Kailash; multipurpose project to utilise IN share of Indus water treaty
+-   Burhi Dihing tributary of Brahmaputra originates in Patkai hill, Arunachal and ends in Dihingmukh.
+-   Mukti Caravan was flagged in Rajasthan to mobilise people against child trafficking
+-   Bhutan Sustainable Development Fee SDF from Indian, Bangladeshi and Maldivian tourists only in popular tourist places.
+-   **Lucknow Declaration** b/w India and Africa for Defence cooperation
+-   **Mt Aconcagua** highest peak of Andes Mountain.
+-   **Pangolin** only scaly mammal in planet. Chinese Pangolin Cr. Endangered Indian Pangolin 'Endangered' both in red list
+-   **Chindu Yakshaganam** : form of theatre in Telangana done by nomadic community Chindus. Talamaddale Yakshaganam - does not have dance, costumes etc has impromptu debate
+-   Safer Internet Day is org Insafe/INHOPE of the EU
+-   Most Indian living abroad - ==UAE - KSA - US==
+-   **2 billion km safety** campaign launched by UNHCR acknowledge resilience, strength of refugees
+-   Rajasthan, Bihar, Punjab, Delhi, Tamil Nadu and West Bengal and now Maharashtra will follow 5 days a week working.
+-   Urban bent toed gecko new species discovered in Assam
+-   Wayanad WS has 75-80 tigers part of Nilgiri Biosphere reserve.
+-   Punjab largest producer of **Kinnow** in the country.
+-   **ERONET** : database for all states/ UTs automates electoral roll mgt.
+-   **Kala Kumbh** to promote GI tagging of crafts and heritage of India launched by Mo Textiles.
+-   Pakke or Pakhui tiger reserve hosted **Hornbill Nest Adoption** program bound by Kameng river in west and Pakke in east
+-   Olive ridley 2nd smallest most abundant sea turtles. IUCN : Vulnerable, Operation Kacchapa
+-   **Surajkund Mela** is largest crafts fair in the world.
+-   **Malai Mahadeshwara** WS will become a Tiger reserve. Ktaka will now have 6.
+-   **Yongle Blue Hole YBH** is the deepest known marine cavern located in the SCS
+-   **ICoSDiTAUS** was held to improve diagnosis in traditional medicine
+-   RAISE 2020 stands for Responsible AI for social empowerment 2020 held in New Delhi
+-   MIEWS Market Intelligence and Early Warning System portal - real time monitoring prices of ==TOP under Op Greens==
+-   2020 CD3 asteroid aka mini moon/ second moon, Temporary Captured Object TCO orbits Earth
+-   Henneguya salminicola non-oxygen breathing animal it a parasite it relied on anaerobic respiration.
+-   India - Uzbekistan signed Security Cooperation Agreement
+-   MoU between India-Indonesia and India-KSA on combating ==illicit trafficking in narcotic drugs, psychotropic substances== and its precursors
+-   Ind-Myanmar MoU for prevention of Trafficking in persons.
+-   MoU between **India and USA** to access tip line reports on Missing and Exploited Children
+-   5th Kalvari class Diesel electric sub INS Vagir built under Project 75
+
+
+
+
+[^1]: 

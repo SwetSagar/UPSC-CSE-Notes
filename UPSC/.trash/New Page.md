@@ -1,0 +1,1 @@
+![[New Page 2022-08-31 19.48.08.excalidraw]]

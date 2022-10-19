@@ -1,0 +1,32 @@
+# Linguistic Reorganisation of States 1935-1947
+2020-04-27 15:26:30
+            
+---
+- Boundaries of states pre British were drawn in haphazard manner, no culutral or linguistic cohesion.
+- lanugage for administraion, politics and people were not strong. 
+- Gandhiji suggested that redistribution of provinces on linguistic basis was necessary.
+- Many other problems immediately after partition were to be given precedence over it.
+- Dhar Commission -> JVP commission -> Fazl Ali.
+- Patti Sriramulu's fast unto death for Andhra P.
+
+**Refer Laxmikanth**
+
+
+
+
+The linguistic reorganisation of States (1935-1947); Regionalism and
+regional inequality
+
+
+1. "The reorganization resulted in rationalizing the political map of India without seriously
+weakening its unity. If anything, its result has been functional, in as much as it removed what had been a major source of discord, and created homogeneous political units which could be administered through a medium that vast majority of the population understood. Indeed, it can be said with the benefit of hindsight that language, rather than being a force for division has proved a cementing and integrating influence." Examine. [2013, 25m]
+
+
+
+
+
+
+
+
+2. "States's reorganization did not, of course, resolve all the problems relating to linguistic
+conflicts." Critically examine. [2018, 10 Marks]

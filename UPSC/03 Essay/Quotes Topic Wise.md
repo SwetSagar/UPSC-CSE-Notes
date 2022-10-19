@@ -1,0 +1,468 @@
+
+# Quotes 
+2020-10-30 13:12:28
+            
+```toc
+```
+---
+
+
+## Gender Equality
+ 
+
+ >"A gender-equal society would be one where the word 'gender' does not exist: where everyone can be themselves"
+ --- GLORIA STEINEM
+ 
+
+ >***"**Gender equality is more than a goal in itself. It is a precondition for meeting the challenge of reducing poverty, promoting sustainable development and building good governance**"***
+ **---
+KOFI ANNAN**
+ 
+
+ >***"**I measure the progress of a community by the degree of progress which women have achieved**"***
+ **---
+B. R. AMBEDKAR**
+ 
+
+## Women
+
+
+ >***"**You educate a man, you educate a man. You educate a woman, you educate a generation**"***
+ **--- BRIGHAM YOUNG**
+ 
+
+ >***"**To educate girls is to reduce poverty**"***
+ **--- KOFI ANNAN**
+ 
+
+ >***"**Empower a woman - Empower a community**"***
+ **--- KOFI ANNAN**
+ 
+
+ >***"**When women do better economies do better**"***
+ **--- CHRISTINA LAGARDE**
+ 
+
+ >***"**The measure of any society is how it treats its women and girls**"***
+ **--- MICHELLE OBAMA**
+ 
+
+> "If women are expected to do the same work as men, we must teach them the same things." **Plato**
+ 
+
+ 
+
+ 
+
+## Humanity
+
+
+ >"You must not lose faith in humanity. Humanity is an ocean; if a few drops of the ocean are dirty, the ocean does not become dirty." -- Mahatma Gandhi
+ 
+
+ >"To deny people their human rights is to challenge their very humanity." -- Nelson Mandela
+ 
+
+> "Love and compassion are necessities, not luxuries. Without them, humanity cannot survive." -- [Dalai Lama](https://borgenproject.org/10-facts-dalai-lama/)
+ 
+
+ >"An individual has not started living until he can rise above the narrow confines of his individualistic concerns to the broader concerns of all humanity." -- [Martin Luther King, Jr.](https://borgenproject.org/5-interesting-facts-about-martin-luther-king-jr/)
+ 
+
+ >"The sole meaning of life is to serve humanity." -- Leo Tolstoy
+ 
+
+> "The greatness of humanity is not in being human, but in being humane." -- Mahatma Gandhi
+ 
+
+
+
+## Poverty
+
+
+ >***"**Poverty is like a punishment for a crime you didn't commit.**"***
+ **--- ELI KHAMAROV**
+ 
+
+ >"As long as poverty, injustice and gross inequality exist in the world, none of us can truly exist." *-- Nelson Mandela*
+ 
+
+ >"Extreme poverty anywhere is a threat to human security everywhere." *-- Kofi Annan*
+ 
+
+> "Poverty is the parent of revolution and crime." *-- Aristotle*
+ 
+
+> "You can't get rid of poverty by giving people money." *-- J. O'Rourke*
+ 
+
+
+
+## Health
+ 
+
+ >***"**It is the health that is real wealth and not pieces of gold and silver**"***
+ **--- MAHATMA GANDHI**
+ 
+
+ >"Physical fitness is the first requisite of happiness." -- Joseph Pilates
+ 
+
+ >"To keep the body in good health is a duty...otherwise we shall not be able to keep the mind strong and clear." -- Buddha
+ 
+
+ >"Divide each difficulty into as many parts as is feasible and necessary to resolve it, and watch the whole transform." -- Rene Descartes
+ 
+
+ >"Healthy citizens are the greatest asset any country can have." -- Winston Churchil
+ 
+
+## Environment and Climate Change
+ 
+
+ >***"**What we are doing to the forests of the world is but a mirror reflection of what we are doing to ourselves and to one another**"***
+ **--- MAHATMA GANDHI**
+ 
+
+> ***"**Climate change is simply, the greatest collective challenge we face as a human family**"***
+ **--- BAN KI MOON**
+ 
+
+ >"I only feel angry when I see waste. When I see people throwing away things we could use."
+ ---Mother Teresa
+ 
+
+ >"The Earth is what we all have in common."
+ ---Wendell Berry
+ 
+
+ >"Time spent among trees is never time wasted."
+ ---Anonymous
+ 
+
+> "He that plants trees loves others besides himself."
+ ---Thomas Fuller
+ 
+
+ >"One of the first conditions of happiness is that the link between man and nature shall not be broken."
+ ---Leo Tolstoy
+ 
+
+ >"Nature is painting for us, day after day, pictures of infinite beauty."
+ ---John Ruskin
+ 
+
+ 
+
+## Sustainable Dev
+
+
+ >"The best way to predict the future is to create it." ~ Peter Drucker
+ 
+
+> "There are no passengers on spaceship earth. We are all crew." ~ Marshall McLuhan
+ 
+
+> "Sustainability is here to stay or we may not be" ~ Niall FitzGerald
+ 
+
+ >"Ownership is a sine qua non of sustainable development." ~ James Wolfensohn
+ 
+
+## Youth
+
+
+ >We cannot always build the future for our youth, but we can build our youth for the future. - Franklin D. Roosevelt
+ 
+
+ >Preventing the conflicts of tomorrow means changing the mindset of youth today. - Graça Mache
+ 
+
+ >The foundation of every state is the education of its youth. - Diogenes
+ 
+
+> Youth is a quality, not a matter of circumstances. - Frank Lloyd Wright
+ 
+
+ >Youth lives on hope, old age on memories. - Unknown
+
+
+## Education
+
+
+> "Live as if you were to die tomorrow. Learn as if you were to live forever."
+**Mahatma Gandhi**
+ 
+
+ >"Children must be taught how to think, not what to think."
+**Margaret Mead**
+ 
+
+ >"I have never let my schooling interfere with my Education."
+**Mark Twain**
+ 
+
+> "Education is what remains after one has forgotten what one has learnt in school."
+**Einstein**
+ 
+
+ >"It is the mark of an educated mind to be able to entertain a thought without accepting it."
+**Aristotle**
+ 
+
+ >"Education is the manifestation of perfection already in man."
+**Swami Vivekananda**
+ 
+
+## Ethics
+
+
+ >***"**Happiness is when what you think, what you say, and what you do are in a harmony**"***
+ **--- MAHATMA GANDHI**
+ 
+
+ >***"**Be truthful, gentle and fearless**"***
+ **--- MAHATMA GANDHI**
+ 
+
+## Children
+
+
+ >Children are one third of our population and all of our future.
+ 
+
+ >History will judge us by the difference we make in the everyday lives of children. Nelson Mandela
+ 
+
+ >Let us sacrifice our today so that our children can have a better tomorrow. A. P. J. Abdul Kalam
+ 
+
+ >You can learn many things from how much patience have for instance. franklin p jones wisdom
+ 
+
+ >You are the bows from which your children as living arrows are sent forth. Kahlil Gibran
+
+
+## Science and Tech
+
+
+> "The science of today is the technology of tomorrow." ~ Edward Teller
+ 
+
+ >"One machine can do the work of fifty ordinary men. No machine can do the work of one extraordinary man." ~ Elbert Hubbard
+ 
+
+> "It has become appallingly obvious that our technology has exceeded our humanity." ~ Albert Einstein
+ 
+
+ >"The saddest aspect of life right now is that science gathers knowledge faster than society gathers wisdom." ~ Isaac Asimov
+ 
+
+> "Science is the great antidote to the poison of enthusiasm and superstition." ~ Adam Smith
+ 
+
+ >"Science without religion is lame, religion without science is blind." ~ Albert Einstein
+
+
+ >"Computers are useless. They can only give you answers." ~ Pablo Picasso
+ 
+
+> "We have guided missiles and misguided men." ~ Martin Luther King, Jr.
+ 
+
+ >"Any sufficiently advanced technology is indistinguishable from magic." ~ Arthur C. Clarke
+ 
+
+## Agriculture
+ 
+
+ >Earth is here so kind, that just tickle her with a hoe and she laughs with a harvest.
+ Douglas Jerrold
+ 
+
+ >Agriculture is the foundation of manufactures, since the productions of nature are the materials of art. - Edward Gibbon
+ 
+
+> Agriculture was the first occupation of man, and as it embraces the whole earth, it is the foundation of all other industries.
+ Edward W. Stewart
+ 
+
+> If farm ecology and economics go wrong, nothing else will go right in agriculture.
+ M. S. Swaminathan
+ 
+
+> Agriculture is the process of turning eco-systems into people.
+ Toby Hemenway
+ 
+
+> A sustainable agriculture is one which depletes neither the people nor the land.
+ Wendell Berry
+ 
+
+## Religion
+
+
+> "All thinking men are atheists."
+**Ernst Hemingway
+**
+ 
+
+ >"The notion that Science and Spirituality are somehow mutually exclusive does a disservice to both."
+**Carl Sagan**
+ 
+
+ >"Science without Religion is lame and Religion without Science is blind"
+**Einstein**
+ 
+
+> "What can be asserted without evidence can be dismissed without evidence."
+**Christopher Hitchens**
+
+
+## Democracy
+ 
+
+ >The best argument against democracy is a five-minute conversation with the average voter."
+**Churchill**
+ 
+
+> "The tyranny of a prince in an oligarchy is not so much dangerous to the public welfare as the apathy of a citizen in a democracy"
+**Montesquieu**
+ 
+
+> "The ballot is stronger than the bullet."
+**Abraham Lincoln**
+ 
+
+ >"There cannot be daily democracy without daily citizenship."
+**Ralph Nader**
+ 
+
+> " I understand democracy as something that gives the weak the same chance as the strong."
+**Mahatma Gandhi**
+ 
+
+ >"Democracy is not law of the majority but protection of the minority."
+**Albert Camus**
+ 
+
+ >"In a democracy, the individual enjoys not only the ultimate power, but carries the ultimate responsibility."
+**Norman Cousins**
+ 
+
+## Peace Justice
+
+
+ >"When the power of love overcomes the love of power, the world will know peace." William Gladstone
+ 
+
+ >"Peace and Justice are two sides of the same coin."
+**Eisenhower**
+ 
+
+> "Poverty is the worst form of violence."
+**Mahatma Gandhi**
+
+
+## Liberty
+
+
+> "They who can give up essential liberty to obtain a little temporary safety deserve neither liberty nor safety."
+**Benjamin Franklin**
+ 
+
+ >"If liberty means anything at all, it means the right to tell people what they do not want to hear."
+**George Orwell**
+ 
+
+ >"Liberty means responsibility. That is why most men dread it." **George B. Shaw**
+ 
+
+> "When governments fear the people, there is liberty. When the people fear the government, there is tyranny." **Thomas Jefferson**
+
+
+## Mahatma Gandhi's Quotes
+2020-11-22 13:08:02
+            
+---
+
+
+>"Happiness is when what you think, what you say, and what you do are in a harmony"
+
+<br>
+
+>"Be truthful, gentle and fearless"
+
+<br>
+
+
+
+>"We must become the change we want to see"
+
+<br>
+
+
+
+>"To believe in something, and not live it, is dishonest"
+
+<br>
+
+
+> SEVEN DANGERS/Sins TO HUMAN VIRTUE
+1. Wealth without work
+2. Pleasure without conscience
+3. Knowledge without character
+4. Business without ethics
+5. Science without humanity
+6. Religion without sacrifice
+7. Politics without principle
+
+<br>
+
+>"You must not lose faith in humanity. Humanity is an ocean; if a few drops of the ocean area dirty, the ocean does not become dirty"
+
+<br>
+
+
+
+>"The best way to find yourself is to lose yourself in the service of others"
+
+
+<br>
+
+
+>"An eye for an eye only ends up making the whole world blind"
+
+
+<br>
+
+
+>"Strength does not come from physical capacity. It comes from an indomitable will"
+
+
+<br>
+
+
+>"It has always been a mystery to me how men can feel themselves honored by the humiliation of their fellow beings"
+
+
+<br>
+
+
+>"Peace is its own reward"
+
+<br>
+
+>"The mind is everything. What you think, you become"
+
+<br>
+
+
+
+
+
+
+
+
+
+

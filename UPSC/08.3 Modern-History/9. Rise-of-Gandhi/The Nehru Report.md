@@ -1,0 +1,41 @@
+# The Nehru Report
+2020-04-27 15:20:26
+```toc
+```
+---
+
+
+##  Nehru Report 
+Main Recommendations were
+-   Dominion Status like Canada, Australia
+-   Rejection of separate electorates but reserved seats
+-   Linguistic Provinces
+-   19 Fundamental rights ex equal rights for women, universal suffrage etc.
+-   Resp gov at centre and provinces.
+-   IN parliament at centre to have 500 mem reps tenure 5yrs and 7yrs for Senate.
+-   Full protection of cultural and religious interest of Muslims
+-   Complete dissociation of **State** from religion.
+
+```ad-Note
+**Dominion Status** : It implied giving a semi autonomous status to India and not full independence where India would still accept British sovereignty and British monarch as the head of the state. 
+- It implied working as autonomous British entities within the British Empire.
+- It was a constitutional term used to signify an independent Commonwealth realm.
+
+```
+
+---
+-   conservative gov believed that IN not able to formulate a path towards further constitutional reforms
+-   Jinnah unhappy with this put forward his 14 points
+-   Young leftists like J Nehru wanted complete independence instead of dominion status
+-   Gandhiji did not want to give away the demand for Dominion status. He gave the gov 1 year time to accept the demands or a CDM would be launched
+-   Compromise resolution of MG passed, complete inde Bose lost
+-   **Brown** : MG wanted to assume leadership on own terms
+-   Second resolution MG
+    -   Detailed program of constructive work, removal untouch, boycott foreign cloth, khadi, temperance, village reconstruction, removal of disabilities of women
+
+ 
+
+
+
+
+

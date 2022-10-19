@@ -1,0 +1,75 @@
+# Charter Act of 1833
+2020-04-27 15:00:54
+```toc
+```
+---
+
+
+![[Charter Act of 1833 2022-09-09 15.31.49.excalidraw | 700]]
+
+- was the final step towards **centralisation** of British India.
+
+## Features of the Act of 1833
+-   made the Governor-General of Bengal as the Governor-General of India and vested in him all civil and military powers
+-   created for the ==1st time a Government of India==
+-   deprived the governor of Bombay and Madras of their legislative powers
+-   Gov Gen of India was given ==exclusive legislative powers== in entire British India
+-   Ended the activities of the EIC as commercial body became a purely administrative/political body
+-   territories in India were held by it 'in trust for His Majesty'
+-   attempted to introduce a system of open competition for selection of civil servants - negated after opposition from Court of Directors.
+-   Law mem was added to GG's executive council for professional advice
+-   Took steps to ameliorate condition of slaves and abolish slavery (1843)
+-   Prez of BoC became Minister for IN Affairs
+- The act said that "No native of India or any natural born subject of His majesty should be disabled from holding any place, office, or employment, by reason of his religion, place of birth, descent or colour."
+
+# Charter Act of 1853
+-   separated, for the first time, the **legislative** and **executive** functions of the Governor-General's council - ==1st step towards Parliamentary form of Gov==.
+	- Discussions in the GG's Council when acting in its legislative capacity became oral instead of writing. Bills passed through the usual 3 stages were referred to select committees.
+	- Legislative functions were conducted in public instead of in secret and reports of proceedings was officially published.
+	- Standing orders were taken to conduct and regulate proceedings.
+	- It was also a miniature representative assembly for purpose of enquiry into redress of grievances.
+	- Legislature has the right to frame its own rules and procedure.
+	- Public was allowed to witness the proceedings of Council and press reporting was permitted in 1856.  
+-   addition of 6 new members called legislative councillors to the council.
+-   This created GGI's legislative council aka Indian(Central) Legislative Council which functioned as a mini parliament.
+-   Introduced an ==open competition system of selection and recruitment of civil servants== and **Macaulay Committee** was appointed in 1854 for it.
+-   extended the Company's rule and allowed it to retain the possession of Indian territories in trust of her majesty but did not specify any time.
+-   Of the 6 new members to appointed to Central Legislative Council of GGI 4 members were appointed by the local gov of Madras, Bombay, Bengal and Agra.
+
+
+
+
+
+
+
+
+1. "The object of the Act (Regulating) was good, but system that it established was imperfect." Comment. [2004, 20m]
+-   [Regulating Act of 1773](onenote:[[Regulating]]%20Act%20of%201773%20&section-id={54CE4946-F610-4788-AADF-7A455FA668C1}&page-id={537B98F4-9410-4E9D-9460-71644C5A4DD9}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Early%20Structure%20of%20the%20Raj.one)
+
+
+
+
+
+
+2."The Charter Act of 1833 rung down the curtain on the company's trade and introduced a new concept of  in India." Substantiate. [2011, 20m]
+-   [Charter Act of 1833](onenote:[[Charter]]%20Act%20of%201833&section-id={54CE4946-F610-4788-AADF-7A455FA668C1}&page-id={7A5E8B8F-B1E5-44F3-9CFD-AD30B0FC28A1}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Early%20Structure%20of%20the%20Raj.one)
+
+
+
+
+
+
+3. "The Regulating Act (1773), the Pitt's India Act (1784) and eventually the Charter Act of 1833 left the East India Company as a mere shadow of its earlier political and economic power in India." Critically examine. [2015, 10m]
+-   [Regulating Act of 1773](onenote:[[Regulating]]%20Act%20of%201773%20&section-id={54CE4946-F610-4788-AADF-7A455FA668C1}&page-id={537B98F4-9410-4E9D-9460-71644C5A4DD9}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Early%20Structure%20of%20the%20Raj.one)
+-   [Pitts India Act of 1784](onenote:[[Pitts]]%20India%20Act%20of%201784&section-id={54CE4946-F610-4788-AADF-7A455FA668C1}&page-id={3B05B8E8-2CD7-43F0-967C-0E6AF984E9F9}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Early%20Structure%20of%20the%20Raj.one)
+-   [Charter Act of 1833](onenote:[[Charter]]%20Act%20of%201833&section-id={54CE4946-F610-4788-AADF-7A455FA668C1}&page-id={7A5E8B8F-B1E5-44F3-9CFD-AD30B0FC28A1}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Early%20Structure%20of%20the%20Raj.one)
+
+
+
+
+
+
+4. "The need to impose greater parliamentary control over the Company's affairs increased during the decades (1773 -- 1853) after Plassey." Elucidate. [2016, 20m]
+-   [Regulating Act of 1773](onenote:[[Regulating]]%20Act%20of%201773%20&section-id={54CE4946-F610-4788-AADF-7A455FA668C1}&page-id={537B98F4-9410-4E9D-9460-71644C5A4DD9}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Early%20Structure%20of%20the%20Raj.one)
+-   [Pitts India Act of 1784](onenote:[[Pitts]]%20India%20Act%20of%201784&section-id={54CE4946-F610-4788-AADF-7A455FA668C1}&page-id={3B05B8E8-2CD7-43F0-967C-0E6AF984E9F9}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Early%20Structure%20of%20the%20Raj.one)
+-   [Charter Act of 1833](onenote:[[Charter]]%20Act%20of%201833&section-id={54CE4946-F610-4788-AADF-7A455FA668C1}&page-id={7A5E8B8F-B1E5-44F3-9CFD-AD30B0FC28A1}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Early%20Structure%20of%20the%20Raj.one) onwards

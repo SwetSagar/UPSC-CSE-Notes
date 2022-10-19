@@ -1,0 +1,148 @@
+# Bengal - Mir Jafar and Mir Kasim
+2020-04-26 19:36:50
+            
+```toc
+```
+---
+
+-   Murshid Kuli Khan founded independent Bengal
+-   Succeeded 1727 by his son Shuja-ud-din-> Sarfaraz Khan-> Alivardi Khan 1740-> Siraj Ud Daula-> Mir Jafar
+
+
+## Mir Jafar
+- Jafar agreed to pay 1 lkh/ month for the time the Army was active
+- Assigned certain portions of Burdwan and Nadia for 2 yrs to EIC but income from these were inadequate -> mounting arrears
+- Was charged by Holwell for harbouring anti-English activities with Shah Alam II.  
+- Mir Jafar conspired with the Dutch at Chinsurah near Hoogly but the Dutch Armada was soundly defeated in 1759 by the English. This crushed the Dutch ambition in India.
+
+
+## Mir Kasim
+- Was Son-in-Law of Jafar. He promised to take measures immediately to relieve financial stress of the EIC.
+- Clive departed Howell gave Vansittart governorship of Bengal
+
+###   Vansittart treaty 
+> - Done with Mir Kasim in 1760 by the English to oust Mir Jafar for conspiring with the Dutch - this is aka Revolution of Bengal
+> -   Agreed to cede to EIC districts of Burdwan, Midnapur and Chittagong
+> -   Company got half share in chunam trade of Sylhet
+> -   Kasim pay off outstanding dues
+> -   5 lakh towards Company’s war efforts in south
+> -   Mir Kasim's enemies were Company's enemies
+> -   tenants of nawab’s territory not be allowed to settle in the lands of the Company, and vice-versa
+
+- On Becoming Nawab he heavily bribed the Kingmakers
+
+### Mir Kasim as an Administrator
+-   Mir Kasim shifted capital from Murshidabad to Munger away from the atmosphere and intrigues of Bengal and also to dec influence of EIC on him
+- Seeked to Modernise Army on European Model to expand north towards Nepal and keep political opponents at bay
+- He started suppressing dissident Zamindars ex Ramnarayan was put to death
+- Corrupt officers were heavily fined
+- New cesses were levied, additional taxes imposed, abolished internal duties
+- Mir Jafar was again appointed Nawab
+
+[ROBERT CLIVE](https://www.britannica.com/biography/Robert-Clive)
+
+## Clive's 2nd Governorship of Bengal 
+- sent after he led victory at Buxar to consolidate rule. 
+- Was concerned about political system of North and degraded moral character of EIC servants affecting trade.
+
+### Political Settlements
+
+#### Settlement with Awadh and Shah Alam II
+![[The Battle of Buxar#Treaty of Allahabad]]
+- Nawab also entered an offensive defence treaty to send help when Company needed.
+- Clive did not annex them as it would have put an obligation on EIC to protect a large fronteir.
+- Awadh became a buffer state, both the Emperor and Nawab became a great friend of the Company
+ 
+#### Settlement of Bengal/ Dual System
+![[Early Administrative Structure#Dual system of Government]]
+- The power practically lay with the EIC. They appointed 2 deputy diwans Reza Khan for Bengal and Raja Shitab Roy for Bihar. Reza Khan also acted as Deputy Nazim. 
+- Both the Nizamat and Diwani functions were exercised by Indian agencies while real power rested w/ EIC
+
+##### Clive's justification of Dual System
+- open assumption of authority might have united some Indian princes against EIC -> war.
+- French, Dutch, Danes would start paying duties on trade with this new settlement since new firman would supersed older ones
+- Open assumption would also complicate England's diplomatic relations w/ France, Hollan, Portugal and Sweden -> anti-British alliance. It would also bring British parliaments direct interference in EIC matters.
+- EIC did not have trained personnel to take over and run adm work. 
+- CoD opposed acquisition of territories that could cause interference w/ trade and profit.
+
+##### Ill Effects of Dual System
+- Adm of law and order virtually broke down. Dacoits and Sanyasi raiders roamed freely. George Cornewall in 1858 called this systems(1765 - 1784) more corrupt, more perfidious and more rapacious to ever exist on face of the Earth.
+- Agriculture was laid to waste. Revenue give to highest bidder. Over-assessment and harshness in collection accompanied by famine in 1770.
+- Agricultural depression, Issue of Dastaks -> virtuall monopoly of English merchants. Clive said that EIC traders traded as sovereigns of land and took the bread out of the mouths of thousands of merchants who formerly traded.
+- Weaving industry received setback as silk industry in Bengal was discouraged. Weavers compelled to work in Silk factories to export raw silk who later cut off their thumbs. William Bolts tells that Gomasthas or Companies agents flogged, fined, weavers. Made them forcibly sign contracts and transferred them from one merchant to others like slaves. 
+- Moral degradation of society. Farmers worked only for those hours that was absolutely necessary, weavers also did the same since there was no incentive for work.
+
+### Administrative Reforms
+
+1. **Civil reforms**
+	- compelled EIC servants to sign covenants prohibiting acceptance of presents. Forbade private trade for thema and made payment of internal duties obligatory.
+	- Society of Trade was formed w/ monopoly of trade in Salt, betelnut, Tobacco. Profit form these were to be divided among servants on the basis of their ranks -> was soon abolished in 1767.
+2. **Military Reforms** 
+	- Reduction of double bhatta or field allowance. Now only to be paid for service outside Bengal and Bihar.
+	- White brigades at Allahabad and Monghyr decided to resign in masse. Their resignation was accepted they were arrested and tried.
+	
+### Estimate of Clive 	
+- He was charge by British parliament for exacting illegal presents, he joined the general plunder by organising the Society of Trade.
+
+```ad-Views
+collapse: open
+
+**Percival Spear** : Clive was a harbinger of the furture who revealed some of the possibilities that might come. He was forerunner of British Indian Empire
+
+**KM Pannikar** : 1765-1772 the Company estd a robber state. British imperialism showed its worst side. Clive failed to rise as a statesman.
+
+**Lord Macaulay** : His 2nd visit to India dates the political ascendancy of the English in this country far exceeding any pro-consul of rome
+
+**Alfred Lyall** : High spirited, couragious, indefatigable man. English are indebted for foundation of their Empire to him.
+
+**Nandalal Chatterji** : Changes he brought only worsened the situation; evils of inland trade remained incorrected, further aggravated scarcity of silver. System he laid down was short sighted opportunism that reveals his failure to rise to heights of a statesman.
+
+```
+
+ 
+
+
+
+
+
+
+
+1. "Buxar takes rank amongst the most decisive battles ever fought." Comment. [1982, 20m]
+-   [The Battle of Buxar](onenote:[[The]]%20Battle%20of%20Buxar&section-id={5E4A9EBB-1AE5-4DC9-A50C-4BAC4568E9A7}&page-id={3849DFD1-CFF0-46F4-93EA-431E1498ECB7}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/British%20Expansion.one)
+
+
+
+
+2. "Thus ended the famous battle of Buxar, on which depended the fate of India and which was as gallantly disputed as was important in its results." Comment. [1985, 20m]
+-   [The Battle of Buxar](onenote:[[The]]%20Battle%20of%20Buxar&section-id={5E4A9EBB-1AE5-4DC9-A50C-4BAC4568E9A7}&page-id={3849DFD1-CFF0-46F4-93EA-431E1498ECB7}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/British%20Expansion.one)
+
+
+
+
+3. "The revolution of 1760 (Bengal) was really no revolution." Comment. [1987, 20m]
+-   [Vansittart, treaty with Mir Kasim in 1760 to oust Mir](onenote:[[Bengal]]%20-%20Mir%20Jafar%20and%20Mir%20Kasim&section-id={5E4A9EBB-1AE5-4DC9-A50C-4BAC4568E9A7}&page-id={8241054F-037B-4037-B76E-51B661C34895}&object-id={F9DA211E-47D4-4134-9306-BDDE9A30744E}&C&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/British%20Expansion.one)
+
+
+
+
+4. "By certain of his actions Clive has marred both the glory and usefulness of his work." Comment. [1995, 20m]
+-   More Content Needed
+
+
+5. "The verdict of Plassey was confirmed by the English victory at Buxar." Comment. [1996,
+20m]
+-   [The Battle of Buxar](onenote:[[The]]%20Battle%20of%20Buxar&section-id={5E4A9EBB-1AE5-4DC9-A50C-4BAC4568E9A7}&page-id={3849DFD1-CFF0-46F4-93EA-431E1498ECB7}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/British%20Expansion.one) analysis needed on this
+
+
+
+
+6. "The verdict at Plassey was confirmed by the English victory at Buxar." Comment. [2002,
+20m]
+-   [The Battle of Buxar](onenote:[[The]]%20Battle%20of%20Buxar&section-id={5E4A9EBB-1AE5-4DC9-A50C-4BAC4568E9A7}&page-id={3849DFD1-CFF0-46F4-93EA-431E1498ECB7}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/British%20Expansion.one) analysis needed on this
+
+
+
+
+7. How far is it correct to say that if Clive was the founder of the British Empire in India Warren Hastings was its administrative organizer? [2016, 20m]
+-   Clive
+-   Warren Hastings

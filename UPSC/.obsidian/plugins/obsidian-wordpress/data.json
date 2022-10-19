@@ -1,0 +1,8 @@
+{
+  "apiType": "xml-rpc",
+  "endpoint": "",
+  "saveUserName": true,
+  "showRibbonIcon": true,
+  "defaultPostStatus": "draft",
+  "userName": ""
+}

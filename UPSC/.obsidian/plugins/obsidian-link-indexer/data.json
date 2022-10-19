@@ -1,0 +1,16 @@
+{
+  "usedLinks": [
+    {
+      "strictLineBreaks": true,
+      "includeEmbeds": false,
+      "linkToFiles": true,
+      "nonexistentOnly": false,
+      "excludeToFilenames": [],
+      "excludeToGlobs": [],
+      "excludeFromFilenames": [],
+      "excludeFromGlobs": [],
+      "name": "GS-1",
+      "path": "./used_links1626864965289.md"
+    }
+  ]
+}

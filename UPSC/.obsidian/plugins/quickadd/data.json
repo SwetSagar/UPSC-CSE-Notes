@@ -1,0 +1,34 @@
+{
+  "choices": [
+    {
+      "id": "4daf908b-ab17-4db6-b459-9e30d6807d12",
+      "name": "Add New Book",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Templates/bookshelf_temp.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Books"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
+    }
+  ],
+  "macros": [],
+  "inputPrompt": "single-line"
+}

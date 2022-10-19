@@ -1,0 +1,66 @@
+# Swadeshi Movement
+2020-04-27 15:16:42
+```toc
+```
+---
+
+  
+-   Anti-Partition movement was a prelude to the Swadeshi movt because its roots lie in it.
+-   On August 7, 1905 - passage of the Boycott Resolution meeting in the Calcutta Townhall, the formal proclamation of Swadeshi Movement was made. 
+-   Boycott of Manchester cloth and Liverpool salt started.
+-   Various techniques propped up during the Swadeshi movement were non-cooperation, passive resistance, 
+-   filling up of jails, social reform and constructive work but failed to give them a disciplined focus.
+-   Various legislations passed during Swadeshi Movement to crack down on extremists were :
+	-   Seditious Meetings Act, 1907; 
+	-   Indian Newspapers (Incitement to Offences) Act, 1908; 
+	-   Criminal Law Amendment Act , 1908; 
+	-   Indian Press Act , 1910
+-   For the first time large sections of people came to participate in politics. Some Zamindari sections, lower middle class, women were imp ones.
+-   Political extremism, conservative moderation, terrorism also had origin in this movement.
+-   Tilak led in Poona and Bombay; Ajit Singh and Lala Lajpat Rai in Punjab; Syed Haidar Raza in Delhi; Chidambram Pillai in Madras.
+-   The Extremists in Lal Bal Pal and Aurobindo Ghosh wanted to extend the movement all over India and wanted the goal now to be Swaraj. The Moderates were not able to make such a commitment. Leading to the Surat split of 1906.
+-   It was particularly effective in Bengal where it was against British offialdom and Commerce.
+-   Corps of volunteers called samitis were set up viz **Swadesh Bandhab Samiti** by Ashwini Kumar Dutt.
+-   Another imp aspect was the idea of Atmasakhi ie self-reliance in various fields to instil pride and honour.
+-   Schools were established, National Council of Education was estd. **Bengal National College** was founded by Aurobindo as principal.
+-   Various soaps, textile, match factories were set up.
+-   Songs written by Rabindranath Tagore, Rajani Kanta Sen, Dwijendralal Ray, Mukunda Das, Syed Abu Mohammed etc became popular.
+-   Main limitation was that it was not able to gain the support of Muslims esp. peasantry.
+-   The use of religious symbols to mobilise masses led to rise of communalism.
+-   lacked an effective organisation and party structure or give the movement a disciplined and focused direction.
+-   The masses could not sustain long term self-sacrifice and militancy against severe repression.
+-   took the idea of nationalism to people who were untouched by it
+-   Unwieldy size, to destroy political opposition, separated Assam, 1901 census pop Bengal 78.5 mil, Risley Paper blueprint
+-   New province of East Bengal and Assam, demographic peculiarity shown by Francis Buchanan
+-   Sumit Sarkar - arguments of adm convenience are fallacious
+-   Assam planters given cheaper maritime outlet, alternative proposals division on linguistic lines etc were rejected
+-   Anti- Bengali feelings
+-   Ignored emerging Bengali identity, strengthened due to opposition to Partition
+-   Struggle per Rajat Ray - was nothing less than a revolution in political structure of Bengal Society
+-   Sumit Sarkar - 4 trends in movt -
+    -   Moderate - prayers, petitions, meetings, 1st time Surendranath b gave call for Boycott goods and institutions, C town hall formal resolution, mobilise the non-literate masses, national education movt
+    -   Constructive - emphasis self-reliance, self-dev was non-political was also revivalist in nature R Tagore proponent, 
+	    - passive resistance was political extremism; national education, arbitrary courts, Bengal Chemical 1893, 
+	    - Natinonal ed Movt by Bhagabat Chatuspati by Satishchandra Mukherjee 
+	    - Dawn Society, Saraswat Ayatan, Santiniketan Ashram
+    -   political extremism - after 1906 Pal, Aurobindo G, Brahmabandhab Upadh, goal changed to complete independence/ swaraj, program included 4 things
+        -   Boycott B goods institutions
+        -   indigenous alternatives
+        -   Violation of unjust laws
+        -   Violent agitation
+ - Religious revivalism, Shakti images, Bhagvadgita,
+ > -  **Barbara Southard** - alienated Muslims, failed to attract low caste peasants
+ - Samitis organise, social coercion people to participate, failed
+-   revolutionary terrorism - 1908 onwards
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+

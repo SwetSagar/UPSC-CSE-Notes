@@ -1,0 +1,104 @@
+# Ryotwari Settlement
+2020-04-27 15:01:56
+```toc
+```
+---
+
+![[Drawing 2022-09-10 10.31.39 Ryotwari Settlement.excalidraw | 900]]
+
+## Overview
+ 
+-   Introduced in parts of Madras and Bombay presidency.
+-   Cultivator was to be recognised as owner of land
+-   The rights to Mirasdars or mem of village community and the peasants who directly paid taxes to state.
+-   Mirasdars became small landowners
+-   directly settled with ryot,
+-   avg income from different types of soils was estimated,
+-   a proportion of it fixed as the share of state, land resurveyed every 30 yr
+-  52 % of cult land
+
+##  Problems
+-   Exorbitant land revenue
+-   Govt right to enhance revenue at will
+-   Payment by ryots even when produce was partially/wholly destroyed
+-   poor soil, fluctuating rainfall,
+-   severity of collection,
+-   famine in 1832-34,
+-   mounting debts from loans
+ 
+
+## Analysis and Historians Views [^1] 
+-   Sindh, Assam, Coorg
+-   Absence of Z class in Madras -> RS
+-   Intro 1801 - 1807
+-   ==Local poligars recog as Z==
+-   Villages aggregated sold in auction to highest bidder
+-   **Scottish Enlightenment** : primacy of agri, importance of Yeoman farmers
+-   **Utilitarian ideas** influenced Munro, **Elphinstone** took initiative
+-   **Ricardo's theory of rent** : state had legitimate share to surplus from land
+-   ==1st started by Alexander Reed in Baramahal in 1792==
+-   Revenue directly from village
+-   Asses each ciltivator/ryots separately
+
+> **Ludden** : State was supreme landlord peasants were landowners who obtained title by paying annual cash rent
+
+-   Rent to be premanently assesed through general survey of all lands
+-   Required detailed land survey - not done in practice
+-   ==Abandoned in 1807 reinstated in 1820 Munro== back argued Ryotwari was ancient IN
+-   Rev fixed on entire farm not field
+-   Privileges of Mirasidars, Brahmanas was respected
+-   Revenue officials combined police duties -> inc bribery, coercion, corruption as shown in **Madras Torture Commission Report 1855**
+-   After 1855 scientific fresh survey undertaken, rate 1/2 net value of produce made for 30 yrs intro 1864
+
+###   Impact
+-   Luddens study of Tirunelveli : mirasidars ==manipulated sys to convert collective right to individual property==
+-   Willem van Schendel study Kaveri delta Thanjavur : showed a polarised society, golden age for mirasidars
+-   **A Satyanarayan** : rise of peasant-bourgeoisie
+-   Brought in Bombay by Elphinstone in 1818
+-   Rates high -> frequent crop failure -> increased prices
+-   ==Bombay Survey Sys to fix land rates lowered demand to reasonable limit==
+
+####   Impact in rural society
+-   Rural uprising 1875
+-   Neil Charlesworth : 
+	- Bombay survey sys did not cause any dramatic change in west IN, 
+	- village patil - ordinary peasant this process was already started, 
+	- rights of Bhagadars, narudars were respected in Guj, 
+	- political vacuum only in central deccan filled by Marwari, Gujarati banias
+-   **H Fukazawa** : no evidence land being bought by money lenders
+-   **Catanach** : dispossession did occur but did not cause uprising
+-   **Ravinder Kumar, Sumit Guha** : social upheaval/ status rev caused riots
+-   Social effects were less dramatic vis a vis PS
+
+
+ 
+
+ 
+
+
+
+
+
+[^1]: From Sekhan Bandyopadhyay
+
+1. Explain the essential features of the ryotwari system of land revenue with special
+reference to Thomas Munro's contribution to its evolution. [1984, 60m]
+-   [Introduced in parts of Madras and Bombay presidency.](onenote:[[Ryotwari]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={ABF07ED1-9C9B-4FD5-84A4-E34231F1102D}&object-id={01E68BDD-A1B6-4AF3-AF6D-F6D86D9140F2}&C&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+-   [Utilitarian ideas influenced Munro, Elphinstone took initiative](onenote:[[Ryotwari]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={ABF07ED1-9C9B-4FD5-84A4-E34231F1102D}&object-id={6BDF00B1-0AFB-499E-81AD-89CC1E99E55D}&1F&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+ 
+
+
+
+2. Discuss the main features of the 'Raiyatwari Settlement' in South India. Did it satisfy the
+aspirations of the peasantry? [2001, 60m]
+-   [Introduced in parts of Madras and Bombay presidency.](onenote:[[Ryotwari]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={ABF07ED1-9C9B-4FD5-84A4-E34231F1102D}&object-id={01E68BDD-A1B6-4AF3-AF6D-F6D86D9140F2}&C&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+-   [Ryotwari system - directly settled with ryot,](onenote:[[Ryotwari]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={ABF07ED1-9C9B-4FD5-84A4-E34231F1102D}&object-id={4D026A67-DFCA-4FA0-BEBB-9CA180E6ACEA}&1E&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+-   [Sindh, Assam, Coorg](onenote:[[Ryotwari]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={ABF07ED1-9C9B-4FD5-84A4-E34231F1102D}&object-id={77A1A397-F05B-4522-894E-05912C22A118}&B&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+
+
+
+
+3. "Ryotwari falls into three stages -- early, middle and late, and the only description
+common to all is that it is a mode of settlement with small farmers, so small, indeed, that their average holding is, on recent figures, only about 6 ½ acres," Critically examine. [2013,
+10m]
+-   [1st started by Alexander Reed in Baramahal in 1792](onenote:[[Ryotwari]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={ABF07ED1-9C9B-4FD5-84A4-E34231F1102D}&object-id={6BDF00B1-0AFB-499E-81AD-89CC1E99E55D}&2A&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)

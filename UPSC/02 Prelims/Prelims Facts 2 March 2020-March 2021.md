@@ -1,0 +1,329 @@
+# Prelims Facts March 2020 - May 2021
+2020-04-02 23:12:18
+            
+---
+
+
+-   **Scotland** - sanitary products free for women 
+-   **EKAM** fest under National Handicapped Finance Dev Corporation NHFDC promote craftsmanship
+-   Eurasian Otter a Near Threatened - spotted in Chilka lake
+-   **Sahyadri Megha** - paddy, resistant to blast disease, rich in nutrients.
+-   Kishori Shakti Karyakram by young girls in Odisha to empower girls in slums 
+-  Women Transforming India Awards under ==NITI-Aayog==
+-   **WISTEMM** program is implemented by DST to provide opportunities to Women Scientists
+-   **Attukal Pongala** - large congregation of women in Bhagavathy temple aka Women's Sabarimala, Trivandrum, Kerala #festival
+-   **CPCB** - statutory org under Water Prevention and Control Act 1974 and also works under Air Prev and Control act of 1981. 
+-   **Shared economy** - peer to peer based sharing ie rent or borrow goods rather than buy and own them
+-   **Gaur** largest extant bovine - IUCN Vulnerable .
+-   Right to property is both ==human and constitutional== right.
+-   Cri MAC or Crime Multi Agency centre to share info b/w police forces on ==heinous crimes==
+-   Giraffes IUCN Vulnerable
+-   Oculudentavis khaungraae - smallest dinosaur discovered yet
+-   A **vulture restaurant** was opened in PongDam Lake in HP.
+-   Circuit breaker to prevent market from crashing - halts trading of stocks.
+-   Central Board of Indirect Taxes and Customs responsible for the collection of excise duty
+-   MoEFCC has designated industries on the basis of Pollution index into Red, Orange, Green and White
+-   University for Peace UPEACE is an intergov university estd by under UNGA and HQ Costa Rica
+-   **Devonian** geological period 419 mya aka Number of years of Fishes
+-   Rushikulya rookery coast is located in Odisha, Olive Ridleys nest there.
+-   **Cheti Chand** - new year fest of Sindhi's; Sajibu Cheiraoba of the Manipuris.
+-   **Arr Rinam** - lockdown ritual observed in Arunachal by Galo tribes. Motor similar - Adi tribes in East Siang and Lower Dibang valleys
+-   Operation Namaste by Army to combat Corona
+-   Sodium Hypochlorite - bleaching agent
+-   Op Sanjeevani - delivering medicines to Maldives
+-   AarogySetu dev in PPP model
+-   April 7 is world Health day
+-   **Gamosa** - traditional cloth/cotton towel Assam
+-   **Samadhan** - test ability of students to innovate
+-   Bharat Padhe online - MHRD improve online education
+-   **Technology development Board TDB** helps IN coys for adaptation of imported technology
+-   **YUKTI** portal to monitor and record MHRD initiatives against COVID
+-   Primordial Black Holes formed due to collapsing radiations during Big Bang phase
+-   **Virosomes** : enveloped virus like particle - lack genetic material to replicate - used in vaccines
+-   Kisan Rath app to facilitate foodgrains and perishables during lockdown
+-   Blazars - celestial bodies that emit very bright lights 
+-   **Milk Tea Alliance** is pro-democracy alliance against Chinese propaganda
+-   West Texas intermediate is a crude oil type #PrelimsPYQ 
+-    **Matterhorn** mountain in Alps range borders b/w Italy and Switzerland
+-   Education for Justice E4J by **UNDOC** to promote culture of lawfulness
+-   Anthurium - air purifying plant
+-   Bank of Schemes, Ideas, Innovation and Research portal by Mo MSME to crowd source ideas etc
+-   Kashmir Saffron GI tag - ==Laccha, Mongra and Gucchi== are types
+-   **KISAN SABHA** APP - connect farmers to supply chain and freight transportation mgt sys by CSIR
+-   Thikri Pehra - community guarding in PUN, HAR
+-   Atulya microwave steriliser for coronavirus
+-   Saras Collection on Govt e-Marketplace for SHGs to list their products
+-   **Bishnu Sendra Parva** - hunting festival in Jharkhand, Odisha and WB.
+-   Arktika M sat by RUS to monitor Arctic climate
+-   GARUD portal for drones operation clearances
+-   Samudra Setu by IN Navy repatriate citizens from overseas
+-   Vande Bharat to bring back IN citizens stranded abroad
+-   Variola major and Variola minor causes **Smallpox**
+-   Elongated tortoise and Sal forest tortoise - ==Critically Endangered== found in SE Asia, NE India
+-   ELISA - testing kit for corona
+-   **Champions** portal by MSME - make smaller units big, grievance redressal
+-   Sohrai Khova painting - Hazaribagh GI tag
+-   Telia Rumal Saree - Telangana
+-   Dibang multipurpose project hydro-electric largest ever
+-   Quinine Nongladew village in Meghalaya Quinine is extracted from bark of Cinchona, acts as antiarrhythmic agent
+-   **GOAL** Going Online as Leader program by Mo Tribal Affairs w/ Facebook
+-   NMIS - National Migrant Info sys by NDMA
+-   Troglomyces Twitteri - parasitic ==fungus==
+-   **Pinanga Andamanensis**, critically endangered palm tree of Andaman
+-   Cicadas - insects age b/w 17yr or 13 yr
+-   Adenovirus - weak common cold virus #PrelimsPYQ 
+-   Industry status to sport by Mizoram
+-   Shahi Litchi from Muzaffarpur, Zardalu Mango from Bhagalpur GI tag
+-   75 PVTGs - Katkari tribe of Gujarat, 9 are in Jharkhand #PrelimsPYQ 
+-   Puntius Sanctus new species of small freshwater fish
+-   Bug bounty program for arogya setu app - rewards for Indians only
+-   **Charru Mussel** mollusks invasive species native to South and Central America found in Kerala
+-   WHO Foundation estd by WHO HQ in Geneva provide funds to WHO is legally separate from it
+-   Committee meeting in RS and LS cannot be held on video conference. Rule 266 mandates it be held in Private
+-   Band tail scorpionfish - Gulf of Mannar
+-   National Career Service Project NCS by Mo Labour
+-   **National Productivity Council NPC** - non-profit under Mo Industry estd 1958, reps from employers, workers, org and Gov.
+-   **Global Economic Prospects** by World Bank #report 
+-   **Changpa** community rear Pashmina goats
+-   **Jaya Jaitly** #Committee- examine issues related to Women age of motherhood, lower MMR, improve nutrition
+-   **Gairsain** - summer Capital of Uttarakhand
+-   3 mega ecological complexes ==Congo Basin, Amazon Rainforest and Coral Triangle==
+-   Karkabhat--Megalithic burial site.
+-   Dipadih--Temple Chattisgarh - 7th Century
+-   Athirappilly hydro project Kerala - Chalakudy river
+-   **HeiQ Viroblock** - textile technology added in final stage to tackle COVID
+-   **Lonar lake** - meteorological strike created, pink coz salinity inc and bacterial growth(haloarchae)
+-   **PK Mohanty** panel - review guidelines of ownership of private sector Banks #committee 
+-   Malathion - pesticide that is carcinogenic, kills insects by attacking nervous system used for locust prevention and is water soluble. 
+-   Petroleum and Natural Gas Regulatory Board (PNGRB) - does not regulates ==production of crude oil and natural gas==. ^146725
+-   Schizothorax sikusirumensis - new species of fish in Arunachal P
+-   Dexamethasone - anti-inflammatory helps reduce deaths in certain COVID patients
+-   Golden Langur - western Assam and Bhutan
+-   **Kumhar Sashaktikaran** Program - KVIC ^e06589
+-   **Gaia hypothesis** - living creatures and the physical world are in complex interacting system that maintains equilibrium
+-   **MP** largest wheat producer in 2019 surpassing Punjab #important 
+-   Navigating the new normal - NITI AAyog
+-   Sankalp Parva - Mo Culture to plant  = 5 trees ^9293ea
+-   **CogX** worlds largest event on AI in London
+-   GLobba andersonii -plant rediscovered in Teesta river valley in Sikkim and West Bengal  
+-   **Accelerate Vigyan** #Scheme - thrust to high end scientific research by MST
+-   Okavango delta, Kalahari desert, African Elephants, Cyanobacteria - Botswana
+-   Karan 4 - sugarcane variety
+-   **Kisanrath** - app by Do Agri and NIC identify transport facility for movt of farm produce
+-   **Atmanirbhar Bharat** - innovation challenge, promotion of existing app and dev of new apps.
+-   **Vaartavali** - Sanskrit news magazine by DD News
+-   **Golden Birdwing** - largest butterfly in IN
+-   Aatmanirbhar ==Skilled Employee Employer== Mapping ASEEM portal by MSDE
+-   **Itolizumab** (rDNA origin), a monoclonal antibody
+-   Ophiocordyceps sinensis - Himalayan viagra/aphrodisiac, fungus world's most costliest
+-   **Ground Orchid** rediscovered in Dudhwa TR - critically Endangered
+-   Swarna Sub1 - rice variety water resistant
+-   International Rice Institute - Manila
+-   Longest sub-sea power cable b/w ==Britain - Denmark==
+-   Tangams - tribe of Arunachal
+-   **APT29** cyber espionage group based in RUS, WellMess and WellMail are their malware names
+-   Vertically transmitted infection - mother to child
+-   Bathynomus raksasa supergiant isopod
+-   Metamaterials - artificially crafted materials w/ unique microstructure, have non-natural properties
+-   **Indian Bullfrog** - largest in Subcontinent
+-   INDSAT - scholarship grant and admission to foreign students
+-   Mausam app IMD
+-   Periyar, Bharathapuzha, Pampa/Pamba are 3 longest rivers of Kerala
+-   **Connect Central Asia** by IN started 2012 political, security, economic and cultural
+-   **SKOCH** is highest civilian honour by an independent org in the country
+-   United Nations Economic Commission for Europe (UNECE) set up by ECOSOC in 1947 promote pan European economic integration,
+-   Smart IN Hackathon by MHRD, AICTE every year
+-   **Dhole** - Asiatic Wild Dog IUCN Endangered, KTaka, Maha, MP, CITES Appendix II, Sched II of WPA.
+-   **Agatti Island** situated on coral atoll in Lakshadweep
+-   Galapagos part of Ecuador
+-   Pokkali rice, Kerala - saltwater resistant GI tag
+-   Gandagi Mukt Bharat on 15 Aug
+-   **Suraksha National** portal on Human Elephant Conflict
+-   Business Confidence Index by National Council for Applied Economic Research (NCAER), indicates Business sentiment
+-   **Loya Jigra** - assembly of Aghan tribes, non-official decision making body
+-   August 12 - 1st world Elephant Day
+-   **Papum** Reserve Forest in Arunachal, hornbill habitat undergoing deforestation
+-   **SRIJAN** MoD portal for indigenous production
+-   Swasthya Portal by MoTA
+-   Millenium Alliance - to test and scale COVID innovation by DST
+-   Hari Path - NHAI to monitor plantation of trees along NH
+-   **Nuakhai Johar** in Odisha - agricultural festival
+-   National Council for transgender under 2019 Act, Chair - Mo Social Justice
+-   Flavonoids phytonutrients responsbile for colours of fruits and vegetables
+-   **Bondas** are tribal community living in Malkangiri hills of Odisha - PVTG
+-   **Pulikkali** 'play of the tigers' folk art of Kerala
+-   5 PVTGs in Andamans : Great Andamanese, Jarwas, Onges, Shompens and North Sentinelese
+-   **Channapatna** toys GI tag Karnataka
+-   Mundra port - Gulf of Kutch
+-   **Yanomami** tribes that live in Brazil, Venezuela threat from Gold Miners
+-   Gurupriya bridge Odisha
+-   NSO data on literacy 2017-18; IN avg literacy rate is **77.7%** Kerala most
+-   data on education - 1/5 students take private coaching
+-   **Real Mango** - illegal software for fast booking of railway reservation
+-   Shikshak parv initiative by Mo Education
+-   Reciprocal provision for supplies and services agreement b/w India - Japan
+-   **1619** project to commemorate 1st enslavement of African and their arrival in Virginia
+-   Typhoon Haishen - Japan
+-   Nioghalvfjerdsfjorden glacier
+-   **Phosphine** flammable gas occurs from breakdwon of organic matter
+-   Kharai camels aka Swimming Camels, separate breed
+-   Nuclear power gen in IN by NPCIL, BHAVINI.
+-   **Vaishvik Bharitiya Vaigyanik VAIBHAV**- summit of overseas and resident IN scientist
+-   Chendamangalam Saree from Kerala GI tag
+-   Didayi - PVTGs - Odisha
+-   **PASSEX** exercise b/w IN and US
+-   Worlds longest high altitude **Shinkun La** tunnel in HP
+-   Javan, Sumatran and Black Rhinos are Critically End
+-   Komodo dragon IUCN status is Vulnerable
+-   JIMEX 20 b/w IN and JP
+-   **Saathi** app by Mo Tourism,
+-   biodiversity mapping in Mumbai
+-   **Naturopathy** - combination of healthy diet, self help, breathing exercises, promote body's own ability to heal itself
+-   Decarbonisation and Energy transition agenda b/w IN Netherlands
+-   Coalition for Epidemic Preparedness Innovations CEPI multilateral org to ==accelerate dev of vaccines==
+-   **Adjuvant** - immunological agent that improves immune response of vaccine
+-   Purchasing Managers Index PMI for manufacturers and services sector, monthly
+-   Abortelphusa Namdaphaensis - freshwater crab species
+-   IN ==2nd largest== cotton producer, largest consumer 6 mil ton 23%
+-   International Barcode of Life iBOL to unite DNA barcoding
+-   Rudram - Anti-Radiation Missile
+-   **Kyrgyztan** - Central Asia's only democracy
+-   **Goa** declared 1st Har Ghar Jal State, tap water connection to every household
+-   Aquaponics both fishes and plants grown in integrated manner
+-   **Karman line** - space begins here 100km, New Shepard - rocket to take tourist to space by Blue Origin
+-   Red Light on Gadi off campaign - Delhi Gov
+-   **Rashtriya Ajeevika Mission** - organise rural poor women into SHGs, supporting them to take economic activities
+-   Israel Bahrain UAE to formalise diplomatic ties
+-   Sadhana Pass - J&K
+-   **SCALE** - Skill Certification Assessment for leather Employees India Android app
+-   Asafoetida not cultivated in IN, imported from AFG, IR
+-   Ind Spring Board to fund start ups
+-   INS Kavaratti ASW corvette
+-   CPI - Industrial Workers IW revised to 2016
+-   Harpoon Coastal defense sys
+-   Meri Saheli security of women by Railways
+-   POWER - Promote Opportunities for Women in Exploratory research #scheme. To remove gender disparity. Launched by Science and Engineering Research Board of DST.
+-   DHARMA ==Dam Health and Rehabilitation== Monitoring system, SHAISYS - Seismic hazard info system
+-   **16 psyche** is an asteroid b/w Mars + Jupiter can be made entirely of metal
+-   Nurturing neighborhoods challenge by MoHUA to imp life of young children, families etc
+-   **Luhri** Hydro project on R. Satluj in HP
+-   Data Maturity Assessment Framework DMAF by **MoHUA**
+-   India Mobile Congress - by Do Telecom and Cellular Operators Association of IN
+-   Silk production starting in NE states viz Sikkim
+-   European Mink is Critically End
+-   Urban Mobility IN conference by MoHUA
+-   Haiderpur wetland in UP b/w Ganga and Solani rivers
+-   26th CAA inserted Art 363A which is abolition of Privy Purse
+-   **Safaimitra Suraksha** challenge by MoHUA for cities to switch to mechanised cleaning of sewers
+-   Willow Warbler sighted first time in IN in Kerala. IUCN : LC.
+-   PARAM Siddhi is largest mos powerful supercomputer in IN
+-   2020 Booker prize to Douglas Stuart
+-   Atal Faculty Dev Program train teachers of higher ed institutions
+-   15th G20 summit in KSA
+-   **Sahakar Pragya** help primary coop to play bigger role in Atmanirbhar bharat training by National Coop Dev Coorp NCDC
+-   Ili Lewotolok erupted in Indonesia
+-   **Avadhanam** - literary performance in Telugu, Kannada
+-   National Monsoon Mission by Mo Earth Sciences
+-   Indian peacock softshell turtle - Vulnerable
+-   Green Charcoal Hackathon by NTPC
+-   HL 2M ==Tokamak is CN largest nuclear== fusion reactor aka artificial sun
+-   **Tharu** tribes live in Terai lowlands of Himalayas
+-   Vadhvan port project to be IN 13th major port, Gujarat
+-   Lakshdweep 1st UT to become organic after Sikkim
+-   Investment promotion award by UNCTAD to Invest India
+-   **Partners in Population Development PPD** - intergov org for south south coop, Secretariat in Dhaka,in the fields of reproductive health and family planning
+-   **Pobitora** WS aka Mini Kaziranga in Assam
+-   Better than cash alliance under UN capital Dev Fund
+-   WHO pre qualification to find efficacy of vaccines
+-   SEBI required top 1000 listed coys to have woman board mem
+-   **Dkapay** - digital payment instrument by Do Post and Payment
+-   Himalayan serow found in cold desert, IUCN Vulnerable also spotted in Assam
+-   CMS 01 Com sat
+-   Central Electricity Regulatory Commission CERC - statutory body, promote competition, efficiency, imp quality, promote investment etc
+-   SolarWinds - Trojan cyberattack
+-   Great Conjunction aka Christmas star when ==Saturn Jupiter== appear to meet together
+-   Himalayan Trillium - herb IUCN Endangered
+-   Leopards : IUCN Vulnerable, total pop is 12,852 (2018) most in MP > Ktaka > Maha in Schedule I of WPA 1972, Appendix I of CITES has 9 sub species of Leopard.   
+-   100% FDI in DTH
+-   Mandatory physical verification of business premises for obtaining GST regtn
+-   Kialuea Volcano - Hawaii
+-   Good Governance Day Dec 25
+-   **BBX11** gene in plants helps facilitate greening
+-   Monpa Handmade paper - Arunachal P
+-   My Stamp scheme by India Post for personalised stamp
+-   Dibru Saikhowa WS - known for White winged wood ducks and feral horses
+-   8 Core Industries in decreasing order of weightage: Refinery Products > Electricity > Steel > Coal > Crude Oil >  Natural Gas > Cement > Fertilizers.
+-   Bharati and Maitry are 2 research stations of IN in Antarctica
+-   TRIFOOD parks - food processing centre to promote food processing under Van Dhan Yojana MoTA
+-   Market infrastructure Institutions MIIs - are stock exchanges, depositories etc.
+-   **Magnetotelluric** survey - uses natural time variation b/w Earths magnetic and electric field to understand geological structure and process, used to design quake proof building
+-   Naval Innovation and Indigenisation Org NIIO launched
+-   Vanadium largest deposit in CN RUS RSA
+-   Dzukou valley - located at Nagaland Manipur border
+-   Makaravilakkau fest in Kerala
+-   Desert Knight 21 bilateral air exercise b/w IAF and French Air Force
+-   Indian Star Tortoise - Vulnerable
+-   **Risa** - customary cloth from Tripura
+-   Ex Kavach involving Army, Navy, AF and Coast Guard
+-   Shramshakti Digital Data solution by MoTA + Goa Govt
+-   Bharat Parv Organised during Republic Day Celebration under Mo Tourism
+-   MSP for **Copra** given approval
+-   **Kala Utsav** by Mo Education to promote arts in education
+-   2.2 % of IN population suffers from some physical/mental disability
+-   **Global Economic Freedom** Index 2020 - IN rank 105 by Fraser Institute
+-   IN ranked 5th in global installed renewable energy capacity
+-   **Orobanche** - hidden parasitic weed in mustard
+-   **KAPILA** - program for IPR literacy
+-   National Safety Council under Mo Labour
+-   Brookesia nana - one of the smallest chameleons/reptiles
+-   Sessa Orchid sanctuary in Arunachal P
+-   Shatoot Dam build in AFG on Maidan river tributary of Kabul R.
+-   Tholapavakkoothu - ==shadow puppetry== Kerala
+-   **Vigyan Jyoti** Program - by DST to encourage girls to take STEM
+-   Mandarin Duck spotted in Maguri Motapung beel in Assam
+-   Dickinsonia - earliest known living animal's fossil found in Bhimbetka
+-   **Sandes** - instant messaging app by National Informatics Centre
+-   **Karlapat** Sanctuary - Odisha, Barking Deer, MGS, Pangolin etc
+-   E-Chhawani portal for all cantonment boards
+-   Charminar built by Quli Qutb Shah in 1591
+-   Tree City Status to **Hyderabad** #PrelimsPYQ 
+-   Black Footed forest cloned in US
+-   **Zolgensma** - type of gene therapy
+-  ** National Urban Digital Mission NUDM** by MoHUA to make urban governance and service delivery as citizen centric
+-   International Commission on Large Dams - NGO for exchange knowledge in Dam engineering, HQ in Paris
+-   **Asia Economic Dialogue AED** - flagship of MEA
+-   Surcharge is additional tax levied on existing tax, levied on income tax payable, rev solely retained by Centre
+-   Waste to Wealth mission under PMSTIAC
+-   Marine Spatial Planning agreement b/w IN and NOR
+-  **Udyog Manthan** by DPIIT under Mo Commerce and Industry
+-   Desert Flag hosted by UAE, IN participating for the first time
+-   Bao Dhaan is red rice grown in Brahmaputra valley in Assam
+-   Ramjet - used atmospheric O2, can carry bigger warhead as Oxidiser is not required
+-   Pochampally Ikat given GI tag
+-   Whale Shark IUCN Endangered
+-  **Maitri Setu** built over Feni river flowing b/w IN and Ban
+-   IN biggest floating solar power plant built in **Ramagundam** in Telangana
+-   **Atmanirbhar Niveshak Mitra** by DPIIT to facilitate info dissemination to domestic investor
+-   Project RE HAB - create bee fences to thwart elephant attacks by KVIC ^08401f
+-   **World Energy Transitions Outlook** #Report by IRENA ^cfc24f
+-   Van Dhan Vikas Yojana - Manipur emerged as model state
+-   Catch the rain campaign by Mo Jal Shakti
+-   **Jaapi** - Bamboo hat used in Assam
+-   **Pakal Dul** Hydro project located in Marusudar river tributary of Chenab
+-   UN Institute of Training and Research to train young diplomats.
+-   **Central Scrutiny Centre CSC** by Mo Corporate Affairs for filings by users.
+-   **Shigmo** - paddy harvest festival in Goa
+-   Giga Mesh - wireless product for Low cost internet in rural areas.
+-   **Corbet** has highest number of Tigers - 231
+-   Saharan cheetah : Critically Endangered
+-   Global Tiger Forum - only inter-governmental org promoting conservation of tiger
+-   Leather back sea turtle worlds biggest sea turtle
+-   Koalas become IUCN Endangered after bush fires
+-   Asiatic Lions - Endangered <!--SR:!2021-09-17,3,250!2021-09-15,1,230!2021-09-15,1,230!2021-09-17,3,250!2021-09-17,3,250!2021-09-15,1,230!2021-09-17,3,250!2021-09-17,3,250!2021-09-17,3,250!2021-09-17,3,250!2021-09-17,3,250!2021-09-17,3,250!2021-09-17,3,250!2021-09-15,1,230!2021-09-17,3,250!2021-09-15,1,230!2021-09-17,3,250!2021-09-17,3,250!2021-09-15,1,230!2021-09-17,3,250!2021-09-17,3,250!2021-09-17,3,250!2021-09-15,1,230!2021-09-15,1,230!2021-09-17,3,250!2021-09-15,1,230!2021-09-17,3,250!2021-09-17,3,250!2021-09-15,1,230!2021-09-17,3,250!2021-09-17,3,250!2021-09-17,3,250!2021-09-17,3,250!2021-09-15,1,230!2021-09-15,1,230!2021-09-17,3,250!2021-09-17,3,250!2021-09-17,3,250!2021-09-17,3,250!2021-09-17,3,250!2021-09-17,3,250!2021-09-15,1,230!2021-09-17,3,250!2021-09-15,1,230!2021-09-15,1,230!2021-09-17,3,250!2021-09-15,1,230!2021-09-15,1,230!2021-09-17,3,250!2021-09-17,3,250!2021-09-15,1,230!2021-09-17,3,250!2021-09-17,3,250!2021-09-15,1,230!2021-09-15,1,230!2021-09-15,1,230!2021-09-15,1,230!2021-09-15,1,230!2021-09-15,1,230!2021-09-17,3,250!2021-09-17,3,250!2021-09-17,3,250!2021-09-15,1,230!2021-09-15,1,230!2021-09-15,1,230!2021-09-15,1,230!2021-09-15,1,230!2021-09-15,1,230!2021-09-17,3,250!2021-09-17,3,250!2021-09-15,1,230!2021-09-17,3,250!2021-09-17,3,250!2021-09-17,3,250!2021-09-15,1,230!2021-09-17,3,250!2021-09-17,3,250!2021-09-15,1,230!2021-09-15,1,230!2021-09-17,3,250!2021-09-17,3,250!2021-09-17,3,250!2021-09-17,3,250!2021-09-17,3,250!2021-09-17,3,250!2021-09-17,3,250!2021-09-15,1,230!2021-09-17,3,250!2021-09-17,3,250!2021-09-17,3,250!2021-09-15,1,230!2021-09-15,1,230!2021-09-15,1,230!2021-09-15,1,230!2021-09-15,1,230!2021-09-17,3,250!2021-09-15,1,230!2021-09-15,1,230!2021-09-15,1,230!2021-09-17,3,250!2021-09-17,3,250!2021-09-15,1,230!2021-09-17,3,250!2021-09-15,1,230!2021-09-17,3,250!2021-09-15,1,230!2021-09-15,1,230!2021-09-15,1,230!2021-09-17,3,250!2021-09-17,3,250!2021-09-15,1,230!2021-09-17,3,250!2021-09-15,1,230!2021-09-17,3,250!2021-09-15,1,230!2021-09-15,1,230!2021-09-15,1,230!2021-09-15,1,230!2021-09-15,1,230!2021-09-17,3,250!2021-09-17,3,250!2021-09-15,1,230!2021-09-15,1,230!2021-09-15,1,230!2021-09-15,1,230!2021-09-15,1,230!2021-09-17,3,250-->
+
+ 
+
+
+
+
+

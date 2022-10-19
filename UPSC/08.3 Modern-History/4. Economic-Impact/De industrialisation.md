@@ -1,0 +1,59 @@
+---
+number headings: first-level 1, max 6, 1.1
+banner: "![[Quotefancy-353935-3840x2160.jpg]]"
+banner_y: 0.5
+---
+# De industrialisation
+2020-04-27 15:04:22
+```toc
+```
+---
+
+## 1.1 Introduction
+-   destruction of traditional Indian industries was earliest consequence of colonialism.
+-   British gradually removed all of their competitors French, Dutch which put the artisans in a bad bargaining position with only one entity to sell to.
+-   Monopoly in the market, exploited the artisans to sell at a lower price so that their profit margins would be high
+-   This left them with little money to invest in newer technology
+
+## 1.2 Effects of British Industrialisation on Indian Industry [^1] 
+-   Industrial revolution in Europe wiped out the market for Indian artisans due to mass production of goods.
+-   also led the home market be invaded by cheap mass produced goods.
+-   In Gangetic Bihar ratio of industrial population to total pop dec from 18.6 in 1809 to 8.5% in 1901
+-   Industrial pop dec from 62.3% to 15.1 %
+-   Real income per worker in industry inc b/w 1900 - 1947
+
+```ad-Views
+collapse: open
+**Tirthankar Roy** on real income increase 
+- achieved due to tech specialisation and industrial reorganisation like substitution of family labour w/ wage labour, 
+- inc commercialisation and inc labour productivity in small scale industry that catered to non local markets
+```
+-   Agri 80%, Mfd 10% and services 10-15%
+-   Discriminatory intervention
+-   IN money market was dominated by EU banking house
+-   Investment only in railway, jute, tea plantation and mining
+-   Chamber of commerce, Managing agency houses influenced gov policy - control 75% industrial capital
+
+```ad-Views
+collapse: open
+
+-   **RC Dutt and MM Malviya** showed that there was a significant increase in the value of Manchester cloth from 1860-1900.
+
+-   Recent economic historians like **Sarda Raju for Madras, NK Sinha for Bengal, Bagchi for Bihar** have given considerable evidence of de-industrialisation
+
+-   **Deniel Thorner** has tried to show that there was **no de-industrialisation** from 1881-1931.  A/C to him male work force increased and different industries should be lumped together so that now the decline does not look very high.
+
+```
+
+### 1.2.1 Criticism of No Deindustrialisation theory :
+> -   damage had already been done before the census
+> -   completely dismissed the workforce of women as being erroneous which is not true as women are significant contributors to Indian agriculture
+> -   Certain imperialist openly admitted the need and desire for de-industrialisation of India viz John Maynard Keynes who wanted India to become prosperous by supplying agricultural good to the industrialised west
+
+
+
+ 
+
+ 
+
+[^1]: From Sekhar Bandyopadhyay

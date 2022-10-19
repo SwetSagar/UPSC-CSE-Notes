@@ -1,0 +1,204 @@
+{
+  "main": {
+    "id": "cb5d38c84c97a581",
+    "type": "split",
+    "children": [
+      {
+        "id": "40e876d9d8d0156e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "01 Subject Wise Notes/🍃 Environment and Disaster Management/6. Disaster and DM/Disaster-and-DM.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6bd1d9bde059dfa0",
+    "type": "split",
+    "children": [
+      {
+        "id": "afe3cc9c5d742a1b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "54c28f3b240feb0a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "meiji",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "byCreatedTime"
+              }
+            }
+          },
+          {
+            "id": "0803f948315da93b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 364.5287284851074
+  },
+  "right": {
+    "id": "5683b48c38d8adc9",
+    "type": "split",
+    "children": [
+      {
+        "id": "101698b123868760",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4fddf2ce530b1d83",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01 Subject Wise Notes/🍃 Environment and Disaster Management/6. Disaster and DM/Disaster-and-DM.md"
+              }
+            }
+          },
+          {
+            "id": "ad38ed8bbba294c6",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "7c9d62419f26160d",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "aef4a4deef8e92b9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "171967fb9c2babea",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "548a9e20c43e4ddf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "03884fd20c5354ee",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01 Subject Wise Notes/🍃 Environment and Disaster Management/6. Disaster and DM/Disaster-and-DM.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "880e880cbd93cb17",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "22d771889f36216a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "01 Subject Wise Notes/🍃 Environment and Disaster Management/6. Disaster and DM/Disaster-and-DM.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "043cda7ccca3b4ef",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "fac01df896eac843",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "546f233159158372",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "173dc1cd1ef06f14",
+            "type": "leaf",
+            "state": {
+              "type": "map-of-content",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 367.1822509765625,
+    "collapsed": true
+  },
+  "active": "40e876d9d8d0156e",
+  "lastOpenFiles": [
+    "01 Subject Wise Notes/🌏 Geography/2. Indian Geography/Soils.md",
+    "01 Subject Wise Notes/🌏 Geography/2. Indian Geography/Indian Forests.md",
+    "01 Subject Wise Notes/🌏 Geography/2. Indian Geography/Indian Geography.md",
+    "01 Subject Wise Notes/🌏 Geography/1. Geomorphology and Climatology/Moon and the Universe.md",
+    "01 Subject Wise Notes/🌏 Geography/1. Geomorphology and Climatology/Oceans.md",
+    "Daily Notes and Todos/13-08-2022.md",
+    "Daily Notes and Todos/25-07-2022.md",
+    "Daily Notes and Todos/10-04-2022.md",
+    "Daily Notes and Todos/29-01-2022.md",
+    "Daily Notes and Todos/09-12-2021.md"
+  ]
+}

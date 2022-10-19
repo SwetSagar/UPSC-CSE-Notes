@@ -1,0 +1,21 @@
+# The Hindu Mahasabha
+2020-04-27 15:25:14
+            
+---
+
+
+-   HM leaders remained within Cong framework and ==tried to operate as sep pressure group to marginalise secularist==, destroy any possibility of understanding w/ Muslims
+-   Secularists in ==INC compromised w/ HM on major issues making M apprehensive/ suspicious== -> growing alienation of Muslims  
+-   MM Malviya :  riots in Allahabad, Lucknow in 1924
+
+```ad-Views
+
+**Jaffrelot** : constant contest b/w rival concepts of nationalism, one base on idea of composite culture ie nation above community other on racial domination of Hindus
+
+```
+
+
+
+
+
+

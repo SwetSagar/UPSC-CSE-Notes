@@ -1,0 +1,27 @@
+# Contribution of Indian Renaissance to growth of Modern India
+2020-04-27 15:09:31
+            
+---
+
+-   Reform Hinduism from within in light post enlightenment rationalism aka Bengal Renaissance, 19th cent IN Renaissance
+-   RR Roy started, influenced persio arabic literature
+-   Atmiya Sabha, Brahmo Samaj.
+-   1833 leader Debendranath Tagore.
+-   Bijoy Krishna Goswami bridged b/w Brahmoism + Vaishnavism
+-   Keshub Chandra sen reach larger no of non-westernised Bengalis, radicalism, formed Brahmo Samaj of India later became orthodox
+    -   His followers Sadharan Brahmo Samak 1881
+-   West IN 2 types Orientalist method - KT Telang, VN Mandalik, RG Bhandarkar
+-   Direct attack on social institutions - Mehtaji Durgaram Mancharam, Karsondas Mujli, Dadoba Pandurang, Manav Dharma Sabha 1844, secret societies
+-   Pratharna samaj - gradual change in structure of society
+
+
+ 
+
+ 
+
+ 
+
+
+
+
+

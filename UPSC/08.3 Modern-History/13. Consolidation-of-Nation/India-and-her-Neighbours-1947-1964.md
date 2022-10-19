@@ -1,0 +1,37 @@
+# India and her Neighbours 1947-1964
+2020-04-27 15:26:12
+```toc
+```
+---
+
+## Pakistan
+- Invasion of Kashmir in 1947 further strained relation after Communal riots and migration on an unprecendented scale.
+- Scared that popular verdict in Kashmir was not likely to go in favour of Pakistan it sent Frontier Corps vield as tribesmen. 
+- 2 precondition for holding plebicite was Pakistan withdraw its forces and Srinagar Administration be restored
+- Constituent Assembly voted for accession and State elections were held thus debate over pebiscite was rendered irrelevant.
+- Chance over plebiscite arose when Nehru agreed for it in 1953. It soon disappeared when US gave mil aid to Pak and appointed Admiral Nimitz as plebiscite administrator whereas IN wanted someone from a small neighbouring country.
+- Pak foreign policy was not better than ours.
+>    The net result of Pakistan’s diplomacy, however, was that Ayub Khan lost his job, Yahya Khan lost his freedom and Pakistan lost half its territory - KPS Menon
+
+## China
+- IN first to recognised PRC. Nehru pressed for permanent seat at UNSC for CN. 
+- IN recognised right of CN over Tibet -> 2 countries signed Panch Sheel agreement. Border disputes could have been solved but CN maintained that it had yet to study Kuomintang maps.
+- 1959 revolt in Tibet and fleeing of Dalai Lama soured relations. Lama was however not allowed to set up a govt in exile and dissuaded from carrying on political activities.
+
+### 1942 Attack and its aftermath
+- Started on Sept 8 1962 w/ attack on Thagla ridge. CN army overran IN posts in eastern sector in NEFA/ Arunachal. 
+- 13 forward posts were captured in Galwan valley.
+- Nehru desperately asked for help from Kennedy and UK. 24 hours later Chinese decl unilateral ceasefire and withdrew.
+- Blow to self respect. Nehru never really recovered from it and hastened his death in may 1964.
+- US UK wanted IN to surrender Kashmir in lieu of military aid. US also put impossible conditions for niggardly amount of aids.
+- One view blames Nehru seeing him as a naive fool in face of an inveitable communist betrayal.
+> Neville Maxwell - makes Nehru as a stubborn nationalist who pused by jingoist public pressure refused to settle border w/ CN and followed a forward policy that led CN to attack in self defence.
+-  Nehru did not want ot give up dev for spending too much on military. Was shocked at Scale of the attack anticipated only border skirmishes. Another mistake was panic appeal to US, UK for help as a knee jerk response.
+-  Most agree that N faith in CN friendship and Utopian pacifism and neglect of defence preparation was reason for defeat. 
+-  Army echleons were not  aware about Sino Soviet differences and thought that USSR would fully back CN in case of a full scale war.
+-  Interference by IAF was not considered since CN did not have any air presence in the area.
+-  Was no proper system of higher defence command and mgt, no sys of defence planning. Logistical failure to terrain over Himalayas. Intelligence failure.
+-  CN own issues w/ Soviets, US, Tibet could have been the reason.
+
+
+

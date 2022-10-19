@@ -1,0 +1,33 @@
+# The beginning of Revolutionary Extremism in India
+2020-04-27 15:16:57
+```toc
+```
+---
+
+-   Proponents of the Military school of thought were Lal Bal Pal as well as Raj Narain Bose, Ashwini Kumar Datta, Aurobindo Ghosh, Vishnu Shastri Chiplunkar.
+	- Chiplunkar wrote Kavyetihas Sangraha with objective of better familiarisation of poetry and history of Maharashtra.
+-   Ramosi Peasant Force was organised by Vasudev Balwant Phadke in 1879, which aimed to rid the country of the British by instigating an armed revolt.
+-   Tilak propagated militant nationalism through Ganapati and Shivaji festivals and through his journals Kesari and Maharatta .
+-   Chapekar brothers killed the Plague commissioner in Poona in 1897.
+-   Savarkar organised Mitra Mela as a secret society in 1899 it merged with Abhinav Bharat in 1904. 
+-   Nasik, Poona and Bombay emerged as centres of bomb manufature.
+-   In Punjab Lala Lajpat Rai who brought out Punjabee and Ajit Singh (Bhagat Singh’s uncle) who organised the extremist Anjuman-i-Mohisban-i-Watan in Lahore with its journal, Bharat Mata.
+-   Shyamjii Krishnavarma founded the Indian Home Rule Society -  'India House' in 1905 as a schoarship scheme to bring out radical youth from India he also started a journal The Indian Sociologist.
+-   Bhikaji Cama brought out Bande Mataram journal.
+-   Prior to Ghadr, revolutionaries had set up Swadesh Sevak Home at Vancouver and United India House at Seattle.
+-   political mendicancy of the moderates and the failure of the extremists to give a positive lead to the people.
+-   Assassination of unpopular British officials and use their trial as method to spread their revolutionary idea .
+-   dacoities to raise funds for arms and ammunitions.
+-   extremists also failed to give a positive energy to the young revolutionary minds, they also did not opposed them politically or ideologically.
+-   Rev. lacked a mass base and severe repression from the colonial state led to their demise.
+-   Sumit Sarkar - shift from non-violence to violence, mass action to elite action, necessitated by failure of mass mob efforts
+-   West - Ramosi peasant force, Chapekar brothers, youth clubs,
+-   East - Akhadas/ gyms,
+-   Real Beginning \- Bengal 1902 Midnapur Society, Gym by Sarala Ghosal, Atomonnoti Samiti, Ansushilan Samiti by Satishchandra Basu, Dacca Anushilan Samiti 1906 - Pulin Behari Ghosh, Yugantar, Calcutta Anushilan Sam
+-   Rangpur robbery, assassination of spies, officials, K Bose + Chaki Kingsford
+-   After manikatal bomb conspiracy trial rev activity went underground
+-   1911 Rev act moved to Pun + UP
+-   1912 - ass attempt Hardinge
+-   1914 Komagata Maru
+
+

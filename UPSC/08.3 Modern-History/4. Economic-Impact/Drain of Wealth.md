@@ -1,0 +1,68 @@
+
+# Drain of Wealth
+2020-04-27 15:04:38
+            
+---
+
+```ad-quote
+
+  "Our system acts very much like a sponge, drawing up all the good things from the banks of the Ganges and squeezing them down on the banks of the Thames." - **Lawrence Sullivan, Deputy Chairman, Court of Directors**.
+
+```
+
+-   Drain Theory was the focal point of critique of Indian Nationalists.
+-   Dadabhai Naoroji put the theory forward in May 1867.
+-   Other proponents were **RC Dutt and MG Ranade** who said that drain had caused innumerable famines, draught which were more fatal that any known before 
+- amounted to 1/2 of gov revenues, 1/3 of total savings of the country
+-   was a high watermark for Indian nationalists since the theory was easily graspable by the common public
+-   As per Naoroji's calculation 12mil pound per yr, per capita at Rs 20.
+-   30 mil per William Digby calc per capita inc to Rs 18.
+-   Led to overburdening of agri, further impoverishment.
+
+## How Indian wealth was drained
+1. in the form of salaries and pensions of British officers
+2.  interest on loans taken by Indian Gov 
+3. profits of British capitalists 
+4. Home Charges/ expenses of Indian gov in Britain 
+5. Excess exports over imports.
+6. Transfer of money took place through sale of Council Bills that was sold in London
+7. Free trade and foreign capital investment were used as garb for resource extraction
+
+---
+
+
+
+
+
+
+
+
+1. Trace the course and explain the consequences of the drain of wealth from Bengal in the
+eighteenth century. [1982, 60m]
+-   [Drain Theory was the focal point of critique of Indian](onenote:[[Drain]]%20of%20Wealth&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={30FC6807-0D41-4CBE-B99E-2BEA042F6152}&object-id={CD78D47B-7638-4B36-A05F-925F6650EB47}&C&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+
+
+
+
+
+
+2. "Our system acts very much like a sponge, drawing up all the good things from the banks
+of the Ganges, and squeezing them down on the banks of the Thames." Comment. [1985,
+20m]
+-   [Drain of Wealth](onenote:[[Drain]]%20of%20Wealth&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={30FC6807-0D41-4CBE-B99E-2BEA042F6152}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+
+
+
+
+3. Write a critique on the impact of the Drain Theory of Dadabhai Nauroji in the growth of
+economic nationalism. [2008, 60m]
+-   [Drain of Wealth](onenote:[[Drain]]%20of%20Wealth&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={30FC6807-0D41-4CBE-B99E-2BEA042F6152}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+
+
+
+
+
+
+4. "The need for a unilateral transfer of funds to Britain was constant factor and, in fact,
+progressively increased over time." Critically evaluate. [2011, 20m]
+-   [Drain of Wealth](onenote:[[Drain]]%20of%20Wealth&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={30FC6807-0D41-4CBE-B99E-2BEA042F6152}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)

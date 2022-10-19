@@ -1,0 +1,22 @@
+{
+  "theme": "theme-light",
+  "accentHue": 201,
+  "accentSat": 17,
+  "lightStyle": "minimal-light-tonal",
+  "darkStyle": "minimal-dark",
+  "textFont": "-apple-system,BlinkMacSystemFont,\"Segoe UI Emoji\",\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,sans-serif",
+  "editorFont": "-apple-system,BlinkMacSystemFont,\"Segoe UI Emoji\",\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,sans-serif",
+  "monoFont": "Menlo,SFMono-Regular,Consolas,Roboto Mono,monospace",
+  "bordersToggle": true,
+  "fancyCursor": true,
+  "focusMode": true,
+  "lineWidth": 40,
+  "textNormal": 16,
+  "textSmall": 13,
+  "underlineInternal": true,
+  "underlineExternal": true,
+  "useSystemTheme": false,
+  "folding": false,
+  "relationLinesPreview": false,
+  "relationLinesEdit": false
+}

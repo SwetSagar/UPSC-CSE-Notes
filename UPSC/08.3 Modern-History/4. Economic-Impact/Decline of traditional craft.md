@@ -1,0 +1,127 @@
+# Decline of traditional craft
+2020-04-27 15:04:31
+            
+---
+
+
+-   Was taken as a deliberate policy of stamping out Indian industries in the interests of British manufacturers
+-   growth in foreign trade and rapid construction of railway had a negative impact as it was meant to export raw materials and import finished goods.
+-   Railways ushered a commercial revolution alright but only to enable imported foreign goods to undersell domestic products.
+-   Free trade was pitting India's nascent modern Industries against the advanced state of the art modern Industries of the west.
+-  Before B rule 25% all mfg goods in the world came from India this was chief export of EU trade
+-   Deindustrialisation -> destruction of handicraft
+-   Industrial rev, preferential tariff b/w 1878 - 1895 -> inc pressure on land and pauperisation of artisans like weavers etc
+- [x] Page 443 BL Grover #todo 
+- Some scholars such as **Morris and Thorner** have argued that decline in handicraft industries was inevitable and a worldwide phenomena.
+- 19th century India experience a steep decline of handicrafts that continued till 20th century.
+- unlike the European countries India was not compensated by a sufficient rise of modern industry.
+- Decline in Indian handicrafts was not universal and occured at different times for different parts of India ex in Rajasthan it occured after introduction of Railways in 1911.
+- But the it did not completely disappear and saw some revival after the Swadeshi movt. 
+- ~ This process of deindustrialisation occured even after rise of modern industry. There was a fall in percentage of workers in industry and inc in percentage of agriculture working force.
+- **Morris** has put forth argument that colonial rule probably stimulated economic activity in India in a way that had never been possible before. 
+- **Thorner** has compared census data to show that Industrial distribution of modern working force stood still from 1881 - 1931
+- **Nationalist writers** have put forh argument that Britain developed those aspects of the economy like railways, ports and irrigation that served their economic interest.
+- Deindustrialisation was used as a rallying slogan in the anti-colonial struggle.  
+
+
+
+1. Assess critically the economic impact of the British rule in India till the end of the
+nineteenth century. [1979, 60m]
+-   Whole Module
+ 
+
+
+
+
+
+2. Write a critical note on: "Consequences of the ruin of handicraft industries under the rule of the East India Company." [1981, 20m]
+-   [Decline of traditional craft](onenote:[[Decline]]%20of%20traditional%20craft&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={E1CDB8C6-BAD1-4B73-AD13-A6171F04EFCC}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+
+
+
+
+3. Give a brief account of the industrial and agricultural policy of the Government of India
+between 1858 and 1914. How far is it correct to say that it was more in the interest of British capital than the Indian people? [1981, 60m]
+-   [TISCO started produced 66% locally consumed steel](onenote:[[Economic]]%20Transformation%20of%20India&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={50954FE7-0B10-424C-850D-7C3F7D96387B}&object-id={62EA3610-8C3F-4983-9BCE-6F8CE11F939F}&10&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+-   [After 1855 scientific fresh survey undertaken, rate 1/2 net](onenote:[[Ryotwari]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={ABF07ED1-9C9B-4FD5-84A4-E34231F1102D}&object-id={6BDF00B1-0AFB-499E-81AD-89CC1E99E55D}&52&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+-   [De industrialisation](onenote:[[De]]%20industrialisation&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={2B51B644-B301-47EC-9F5A-3BBEE0BAEB7E}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+-   
+
+
+
+
+
+4. Trace the gradual decline of the Indian town handicrafts between 1757 and 1880. In what way did it contribute to the economic unification of India? [1987, 60m]
+-   [Decline of traditional craft](onenote:[[Decline]]%20of%20traditional%20craft&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={E1CDB8C6-BAD1-4B73-AD13-A6171F04EFCC}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+
+
+
+
+5. "The hey-day of the British power in India was also the high noon of laissez faire'
+economic doctrine." Comment. [1990, 20m]
+-   [Inter war period factors that affected industrial enterprise](onenote:[[Economic]]%20Transformation%20of%20India&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={50954FE7-0B10-424C-850D-7C3F7D96387B}&object-id={35D1C634-0B73-45C5-95AB-5FDFD5E1F36D}&F&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+
+
+
+
+6. "The role of the East India Company proved disastrous to the handicraft industry in India
+for a number of reasons." Comment. [1991, 20m]
+-   [Decline of traditional craft](onenote:[[Decline]]%20of%20traditional%20craft&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={E1CDB8C6-BAD1-4B73-AD13-A6171F04EFCC}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+
+
+
+
+
+
+7. "The British Raj had a deeply racist aspect and it ultimately existed to protect colonial
+exploitation." Comment. [1994, 20m]
+-   
+
+
+
+
+
+
+
+8. Discuss the view that the British rule brought about economic changes in India to serve
+the needs of the imperial economy and establish a dependent form of underdevelopment in this country. [2000, 60m]
+-   [De industrialisation](onenote:[[De]]%20industrialisation&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={2B51B644-B301-47EC-9F5A-3BBEE0BAEB7E}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+
+
+
+
+
+
+9. "The British industrial policy in the nineteenth century ruined the Indian handicrafts."
+Comment. [2001, 20m]
+-   [Decline of traditional craft](onenote:[[Decline]]%20of%20traditional%20craft&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={E1CDB8C6-BAD1-4B73-AD13-A6171F04EFCC}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+
+
+
+
+10. "Instead of serving as the catalyst of an industrial revolution as in Western Europe and
+the USA, acted in India as 'the catalyst of complete colonization." Examine. [2012, 10m]
+-   [De industrialisation](onenote:[[De]]%20industrialisation&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={2B51B644-B301-47EC-9F5A-3BBEE0BAEB7E}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+
+
+
+
+11. "Weaving", says R.C. Dutt, "was the national industry of the people and spinning was the pursuit of millions of women." Indian textiles went to England and other parts of Europe, to China and Japan and Burma and Arabia and Persia and parts of Africa. Elucidate. [2013, 25m]
+-   [De industrialisation](onenote:[[De]]%20industrialisation&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={2B51B644-B301-47EC-9F5A-3BBEE0BAEB7E}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+
+
+
+
+
+
+12. "Under the forceful thrust of British colonialism, Indian economy was transformed into a colonial one, the structure of which was determined by the requirements of Britain's fast
+developing industrial economy." Examine. [2015, 20m]
+-   [De industrialisation](onenote:[[De]]%20industrialisation&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={2B51B644-B301-47EC-9F5A-3BBEE0BAEB7E}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+-   [Decline of traditional craft](onenote:[[Decline]]%20of%20traditional%20craft&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={E1CDB8C6-BAD1-4B73-AD13-A6171F04EFCC}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+-   [Drain of Wealth](onenote:[[Drain]]%20of%20Wealth&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={30FC6807-0D41-4CBE-B99E-2BEA042F6152}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+
+
+
+
+13. Critically examine the causes responsible for the phenomenon called 'deindustrialization' in India during the nineteenth century. [2016, 20m]
+-   [De industrialisation](onenote:[[De]]%20industrialisation&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={2B51B644-B301-47EC-9F5A-3BBEE0BAEB7E}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
