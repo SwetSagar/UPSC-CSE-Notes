@@ -8,29 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2e203cc8d1cecbb3",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "1 - Historical Background.pdf"
-              }
-            }
-          },
-          {
             "id": "2f2f15750366d74a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Testing 123.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Testing 123.md"
               }
             }
           },
@@ -132,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Testing 123.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Testing 123.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -195,8 +184,8 @@
   },
   "active": "2f2f15750366d74a",
   "lastOpenFiles": [
-    "1 - Historical Background.pdf",
-    "Untitled.md",
+    "Attachements/1 - Historical Background 1.pdf",
+    "Testing 123.md",
     "08.3 Modern-History/10. Constituional-Dev_/Constitutional Development between 1858-1935.md",
     "00 Homepage/Homepage.md",
     "08.1 Ancient-History/1. Sources/1.1 Archaeological-Sources.md",

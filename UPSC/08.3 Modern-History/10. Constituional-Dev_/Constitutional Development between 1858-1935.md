@@ -320,4 +320,4 @@ In 1859 the British passed a Limitation Law that stated that the loan bonds sign
 
 ---
 
-[[1 - Historical Background.pdf]] - [[Early Administrative Structure]] is first half.
+[[1 - Historical Background 1.pdf]] - [[Early Administrative Structure]] is first half.
