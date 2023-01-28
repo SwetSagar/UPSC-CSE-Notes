@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "08.1 Ancient-History/5. Aryans and Vedic Period/5.6 Evolution of Monarchy and Varna System.md",
+                "file": "04 GS-1/🌏 Geography Static Notes/1. Geomorphology and Climatology/Coastal Landforms.md",
                 "mode": "preview",
                 "source": true
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "shruti",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08.1 Ancient-History/5. Aryans and Vedic Period/5.6 Evolution of Monarchy and Varna System.md"
+                "file": "04 GS-1/🌏 Geography Static Notes/1. Geomorphology and Climatology/Coastal Landforms.md"
               }
             }
           },
@@ -131,7 +131,7 @@
             }
           },
           {
-            "id": "916cd3c20abf9ee1",
+            "id": "7cd8f684f5a6a024",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "08.1 Ancient-History/5. Aryans and Vedic Period/5.6 Evolution of Monarchy and Varna System.md",
+                "file": "04 GS-1/🌏 Geography Static Notes/1. Geomorphology and Climatology/Coastal Landforms.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "08.1 Ancient-History/5. Aryans and Vedic Period/5.6 Evolution of Monarchy and Varna System.md",
+                "file": "04 GS-1/🌏 Geography Static Notes/1. Geomorphology and Climatology/Coastal Landforms.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -238,8 +238,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "916cd3c20abf9ee1",
+  "active": "7cd8f684f5a6a024",
   "lastOpenFiles": [
+    "04 GS-1/🌏 Geography Static Notes/1. Geomorphology and Climatology/Climate of the World.md",
+    "08.1 Ancient-History/5. Aryans and Vedic Period/5.6 Evolution of Monarchy and Varna System.md",
     "08.1 Ancient-History/5. Aryans and Vedic Period/5.5 Significance of Vedic Age.md",
     "08.1 Ancient-History/5. Aryans and Vedic Period/5.4 Transformation from Rig Vedic to later Vedic.md",
     "08.1 Ancient-History/5. Aryans and Vedic Period/5.3 Political, Social and Economic Life in Early Vedic.md",
@@ -247,8 +249,6 @@
     "08.1 Ancient-History/1. Sources/1.2 Literary Sources.md",
     "08.1 Ancient-History/5. Aryans and Vedic Period/5.1 Expansions of Aryans in India.md",
     "08.1 Ancient-History/12. Early-Cultural-History/12.4 Ideas-in-Science-and-Mathematics.md",
-    "08.4 World-History/11. Unificaiton-of-Europe/PYQ.md",
-    "Untitled 1.md",
-    "08.1 Ancient-History/4. Megalithic-Culture/4.3 Crafts, Pottery and Iron Industry.md"
+    "08.4 World-History/11. Unificaiton-of-Europe/PYQ.md"
   ]
 }
