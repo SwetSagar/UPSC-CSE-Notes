@@ -131,7 +131,7 @@
             }
           },
           {
-            "id": "11a902cb9627642b",
+            "id": "916cd3c20abf9ee1",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -207,7 +207,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 494
+    "width": 385.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,7 +218,6 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "workspaces:Manage workspace layouts": false,
-      "periodic-notes:Open today": false,
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-gallery:Gallery": false,
@@ -235,10 +234,11 @@
       "open-gate:GitHub: Let’s build from here · GitHub": false,
       "open-gate:Access denied": false,
       "open-gate:https://www.google.com/": false,
-      "file-forgetting-curve-obsidian:View - File Forgetting Curve": false
+      "file-forgetting-curve-obsidian:View - File Forgetting Curve": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "11a902cb9627642b",
+  "active": "916cd3c20abf9ee1",
   "lastOpenFiles": [
     "08.1 Ancient-History/5. Aryans and Vedic Period/5.5 Significance of Vedic Age.md",
     "08.1 Ancient-History/5. Aryans and Vedic Period/5.4 Transformation from Rig Vedic to later Vedic.md",
