@@ -1,73 +1,89 @@
 # Factors Leading to the Birth of Indian Nationalism
+
 2020-04-26 19:38:18
+
 ```toc
 ```
----
 
+---
 
 ```ad-Views
 
-Partha Chatterjee : nationalism in IN was diff but a derivative discourse of west
+**Partha Chatterjee** : nationalism in IN was diff but a derivative discourse of west
 
-Ashish Nandy : response to western imperialism
+**Ashish Nandy** : response to western imperialism
 
-CA Bayly : built on pre-existing sense of territoriality traditional patriotism rationalised by indigenous ideas of public morality and ethical govt
+**CA Bayly** : built on pre-existing sense of territoriality traditional patriotism rationalised by indigenous ideas of public morality and ethical govt
 
 ```
 
-   
-## Schools of thought
-###   Nationalist school 
-- National consciousness subsumed all other forms, 
-- common antipathy towards colonial rule, 
+## Schools of Thought
+
+### Nationalist School
+
+- National consciousness subsumed all other forms,
+- common antipathy towards colonial rule,
 - ignore inner conflicts
-###   Neo-traditionalist school 
-- politicisation dev along traditional social formations like linguistic regions, castes, religious community.  
+
+### Neo-traditionalist School
+
+- politicisation dev along traditional social formations like linguistic regions, castes, religious community.
 - Catalyst for change were western ed and political rep
-###   Cambridge School 
-- series of local movt, weak, 
-- interest groups who wanted favour of colonisers, 
-- leaders were self-seeking, 
-- patron-client relationship, 
+
+### Cambridge School
+
+- series of local movt, weak,
+- interest groups who wanted favour of colonisers,
+- leaders were self-seeking,
+- patron-client relationship,
 - competition-collaboration syndrome
-###   Marxist 
-- explain terms of economic dev, 
-- rise of industrial capitalism, market society, bourgeois leadership neglected interest of masses 
+
+### Marxist
+
+- explain terms of economic dev,
+- rise of industrial capitalism, market society, bourgeois leadership neglected interest of masses
 - ex RP Dutt, VI Pavlov, SN Mukherjee, Sumit Sarkar, Bipan Chandra
-	- >  Sumit Sarkar - 2 level of struggle elite and populist
-###   Subaltern  
+	- > Sumit Sarkar - 2 level of struggle elite and populist
+
+### Subaltern
+
 - Ranajit Guha, contribution of people real nationalism,
 ---
 
 ```ad-Views
+**Benedict Anderson**: Nationalism in dev world of Asia Africa followed one or other model dev in west
 
- Benedict Anderson: Nationalism in dev world of Asia Africa followed one or other model dev in west
+**Partha C disagrees** : IN society imagining its nation in private cultural sphere, imagined their own domain of sovereignty, constructed on IN modernity
 
-Partha C disagrees : IN society imagining its nation in private cultural sphere, imagined their own domain of sovereignty, constructed on IN modernity
+**CA Bayly** : roots in pre-colonial days from traditional patriotism, sentiment of attachment to land, language cult, manifested through indigenous critique of foreign rule
+```
 
-CA Bayly : roots in pre-colonial days from traditional patriotism, sentiment of attachment to land, language cult, manifested through indigenous critique of foreign rule
+## Factors that Led to Dev of Indian Nationalism
+
+- Western Edu made public critical, uneven social impact, more in upper caste - were more politically articulate
+
+```ad-Views
+
+**AR Desai** : exposed IN to rationalist and democratic thoughts of modern west
+
+**Dipesh C** : political modernity set in concepts of citizenship, state, civil society, public sphere, human rights, equality before law etc
 
 ```
 
-
-## Factors that led to dev of Indian nationalism
--   Western Edu made public critical, uneven social impact, more in upper caste - were more politically articulate
-      >  - **AR Desai** : exposed IN to rationalist and democratic thoughts of modern west
-    >   - Dipesh C : political modernity set in concepts of citizenship, state, civil society, public sphere, human rights, equality before law etc
--   Newspapers 150,000 subscribers late 1875 and Modern Press
-      > - SR Mehrotras : NP broke down internal barriers, encourages inter regional solidarity
--   Gov regulation viz Lex loci act, Income tax 1860, Councils Act 1861 led to administrative unification.
-	-    limited inclusion of IN, 1870 cut funding Eng edu in Bengal led to unified protests. 
-    -   1876 lower age to sit in civil service exam
-    -   1876 Vernacular press act gag press by Lytton
-    -   Arms act 1878
-    -   Ilbert bill controversy
-    -   Age of consent act 1891
--   Organisation like Indian Asso, Bombay Asso, Poona Sarvajanik Sabha, Madras Native Asso, Madras Mahajan Sabha
-    -   SN Mukherjee - Dals led by Dalapatis/ absentee landlords effective in countryside for social contol
-    -   Caste, communal asso
--   Educated professional leadership - mostly upper caste/class
--   Asso w/ defence of Hindu religion
+- Newspapers 150,000 subscribers late 1875 and Modern Press
+      > - **SR Mehrotra** : NP broke down internal barriers, encourages inter regional solidarity
+- Gov regulation viz Lex loci act, Income tax 1860, Councils Act 1861 led to administrative unification.
+	- limited inclusion of IN, 1870 cut funding Eng edu in Bengal led to unified protests.
+    - 1876 lower age to sit in civil service exam
+    - 1876 Vernacular press act gag press by Lytton
+    - Arms act 1878
+    - Ilbert bill controversy
+    - Age of consent act 1891
+- Organisation like Indian Asso, Bombay Asso, Poona Sarvajanik Sabha, Madras Native Asso, Madras Mahajan Sabha
+    - **SN Mukherjee** - Dals led by Dalapatis/ absentee landlords effective in countryside for social contol
+    - Caste, communal asso
+- Educated professional leadership - mostly upper caste/class
+- Asso w/ defence of Hindu religion
 - Impact of British rule : modernisation that was brought by them -> growth of IN nationalism
 - Political Unity of India caused due to conquest of carried by Br. Common laws, institutions, subjection imposed political unity.
 - Dev of rapid transport and communication viz Railways, Post Offices etc.
@@ -75,15 +91,10 @@ CA Bayly : roots in pre-colonial days from traditional patriotism, sentiment of 
 - Impact of contemporary European movt against Spanish and Portugues empire. Greece, Italy, Ireland stirred emotion of Indians.
 - Lord Lyttons Reactionary Policies.
 - Economic Exploitation and Racialism
-![[Constitutional Development between 1858-1935#Ilbert Bill Controversy 1883-1884]]
-- [x]   #todo 
 
- 
+![[Constitutional Development between 1858-1935#Ilbert Bill Controversy 1883-1884]]
+- [x] #todo
 
 Tagore's Nationalism :
-- [ ]   #todo 
 
-
-
-
-
+- [ ] #todo

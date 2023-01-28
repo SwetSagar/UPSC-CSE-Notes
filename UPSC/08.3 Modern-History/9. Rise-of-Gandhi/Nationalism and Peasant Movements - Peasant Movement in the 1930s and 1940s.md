@@ -26,6 +26,21 @@
  
 
  
+ 
+## PYQs
+---
+
+**Nationalism and the Peasant Movements; Nationalism and Working** **class movements**
+
+
+
+
+1. "The nationalist political movements for liberation such as the non-cooperation and civil disobedience movements and their leadership depended heavily on the peasantry." Comment. [1993, 20m]
+-   
+
+
+
+
 
  
 

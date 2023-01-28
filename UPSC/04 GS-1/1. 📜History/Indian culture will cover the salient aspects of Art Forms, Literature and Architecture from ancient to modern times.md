@@ -1,9 +1,9 @@
 # Current Affairs
-2019-05-06 19:52:29
+2019-05-06 19:52 :29
+
 ```toc
 ```
 ---
-
 
 ## November 2021 Onward
 01-12-2021 23:25
@@ -29,8 +29,8 @@
 -   31st October is Rashtriya Ekta Diwas
 -   Nov 11 is National Education Day birth Anniversary of Maulana Abul Kalam Azad
 -   **Sattras** : monastic institutions created by Shankardeva, to promote worship through art
--  [[2.1 Philosophy#Ramanuja -| Ramanuja]]
--  [[Social Reform movements viz Sati,Widow Remarriage,Child Marriage etc.#Jyotiba Phule | Jyoitba Phule]]
+-  [[2.1 Philosophy#Ramanuja| Ramanuja]]
+-  [[Social Reform movements viz Sati,Widow Remarriage,Child Marriage etc.#1.3.1 Jyotiba Phule| Jyoitba Phule]]
 - [[2.1 Philosophy#Basavanna]] 
 - Swami Vivekanada
 	- 1893 Parliament of World Religion, Jan 12 birth celebrated as National Youth Day
@@ -106,7 +106,7 @@
 
 ## Mo Culture 
 2020-06-11 19:14:24
-            
+
 ---
 
 ### Intangible Heritage #Scheme :
@@ -135,18 +135,32 @@ Its domains include
 
 ![[Modern Indian History from about the middle of the 18th century until present significant events, personalities, issues.#^fbaa0c]] 
  
- ###  Mo Tourism
+##  Mo Tourism
+
+![[Pasted image 20230113100023.png]]
+
 -   India's rank in Travel & Tourism Competitiveness Index (TTCI) of ==World Economic Forum== has moved from 65th rank in 2013 to 34th rank in 2019 #report 
--   ==Adopt a Heritage== #scheme : Apni Dharohar, Apni Pehchaan collaborative b/w Mo Tourism, Culture and ASI to dev tourist amenities at heritage tourist site, monument mitras are lowest bidders to improve monuments
--   E-Visa has 4 categories Tourist, Business, Medical and Medical Assistant. Entry valid in 28 designated airports and 5 seaports available to 169 countries. E-tourist visa for 5 yrs now, reduced fee.
--   GST on hotel room w/ tariffs b/w 1001-7500 is 12% to improve tourism
+-   **==Adopt a Heritage==** #scheme : Apni Dharohar, Apni Pehchaan collaborative b/w Mo Tourism, Culture and ASI to dev tourist amenities at heritage tourist site, monument mitras are lowest bidders to improve monuments
+-   **E-Visa** has 4 categories Tourist, Business, Medical and Medical Assistant. Entry valid in 28 designated airports and 5 seaports available to 169 countries. E-tourist visa for 5 yrs now, reduced fee.
+-   **GST on hotel** room w/ tariffs b/w 1001-7500 is 12% to improve tourism
 -   Find the **Incredible You** campaign by Mo Tourism got the PATA (Pacific Asia Travel Association) Gold Award in Marketing primary gov destination category. #scheme 
 -   **Paryatan Parv** by Mo Tourism theme was Mahatma Gandhi. #scheme 
 -   8th International Tourism Mart w/ Manipur
+- Various digitisation measures in the sector includes
+	- Incredible India websites and mobile app
+	- NIDHI database for reg of tourism service providers
+	- Digitisation of Swadesh and Prasad scheme
+	- Multi Lingual 24x7 helpline
+- National Digital Toursim Mission NDTM to concentrate on 
+	- Domain principles like Value driven model, unifying of services, outcocme driven approach and affordable choices
+	- Design and arch principles ex being open and inter operable, innovation etc.
+	- Tech principles -> using data as asset, sharing of data etc.
+	- $ While thinking about benefits <u>think about the various stakeholders in the scheme</u> like Toursim Ministry, Tourists, Tour Service providers, Shopkeepers around tourist sites, Start ups, Hotel owners, Transportation providers
+
 
 # PYQ : Culture
 2020-10-30 13:40:55
-            
+
 ---
 
 | Question                                                                                                                                                                                                                                                                                                     | Year |

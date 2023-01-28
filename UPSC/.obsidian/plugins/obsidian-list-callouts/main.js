@@ -163,7 +163,7 @@ function buildSetting(containerEl, plugin, index, callout) {
         }
         btn.onClick((e) => {
           var _a;
-          const menu = new import_obsidian.Menu();
+          const menu = new import_obsidian.Menu().setUseNativeMenu(false);
           (_a = menu.dom) == null ? void 0 : _a.addClass("lc-menu");
           menu.addItem((item) => {
             item.setTitle("No icon");
@@ -285,12 +285,12 @@ function buildCalloutDecos(view) {
           seen.add(line.from);
           const labelPos = line.from + match[1].length;
           builder.add(line.from, line.from, calloutDecoration(callout.color));
-          builder.add(labelPos, labelPos, import_view.Decoration.replace({
-            widget: new CalloutBackground(),
-            side: 1
-          }));
           builder.add(labelPos, labelPos + callout.char.length, import_view.Decoration.replace({
             widget: new CalloutMarker(callout.char, callout.icon)
+          }));
+          builder.add(line.to, line.to, import_view.Decoration.widget({
+            widget: new CalloutBackground(),
+            side: 1
           }));
           break;
         }
@@ -316,30 +316,19 @@ var calloutExtension = import_view.ViewPlugin.fromClass(class {
 // src/postProcessor.ts
 var import_obsidian3 = __toModule(require("obsidian"));
 function getFirstTextNode(li) {
-  var _a;
-  let node = li.firstChild;
-  if ((node == null ? void 0 : node.nodeType) !== document.TEXT_NODE || node.nodeValue === "\n" || node.nodeValue === "\r\n") {
-    if ((node == null ? void 0 : node.nodeType) === document.TEXT_NODE && (node.nodeValue === "\n" || node.nodeValue === "\r\n")) {
-      node = node.nextSibling;
+  for (const node of li.childNodes) {
+    if (node.nodeType === document.ELEMENT_NODE && node.tagName === "P") {
+      return node.firstChild;
     }
-    if ((node == null ? void 0 : node.nodeType) === document.ELEMENT_NODE) {
-      if (node.hasClass("list-collapse-indicator")) {
-        node = node.nextSibling;
-      }
-      if ((node == null ? void 0 : node.nodeType) === document.TEXT_NODE && (node.nodeValue === "\n" || node.nodeValue === "\r\n")) {
-        node = node.nextSibling;
-      }
-      if ((node == null ? void 0 : node.nodeType) === document.TEXT_NODE) {
-      } else if ((node == null ? void 0 : node.nodeType) === document.ELEMENT_NODE && ((_a = node.firstChild) == null ? void 0 : _a.nodeType) === document.TEXT_NODE) {
-        node = node.firstChild;
-      } else {
-        return null;
-      }
-    } else {
-      return null;
+    if (node.nodeType !== document.TEXT_NODE) {
+      continue;
     }
+    if (node.nodeValue.trim() === "") {
+      continue;
+    }
+    return node;
   }
-  return node;
+  return null;
 }
 function wrapLiContent(li) {
   const toReplace = [];
@@ -347,10 +336,11 @@ function wrapLiContent(li) {
   for (let i = 0, len = li.childNodes.length; i < len; i++) {
     const child = li.childNodes.item(i);
     if (child.nodeType === document.ELEMENT_NODE) {
-      if (child.hasClass("list-collapse-indicator")) {
+      const el = child;
+      if (el.hasClass("list-collapse-indicator") || el.hasClass("list-bullet")) {
         continue;
       }
-      if (["UL", "OL"].includes(child.tagName)) {
+      if (["UL", "OL"].includes(el.tagName)) {
         insertBefore = child;
         break;
       }
@@ -464,7 +454,7 @@ var ListCalloutsPlugin = class extends import_obsidian4.Plugin {
   buildEditorConfig() {
     return this.settings.map((callout) => {
       return __spreadProps(__spreadValues({}, callout), {
-        re: new RegExp(`(^\\s*[-*+] |^\\s*\\d+[\\.\\)] )${escapeStringRegexp(callout.char)} `)
+        re: new RegExp(`(^\\s*[-*+](?: \\[.\\])? |^\\s*\\d+[\\.\\)](?: \\[.\\])? )${escapeStringRegexp(callout.char)} `)
       });
     });
   }

@@ -20,6 +20,18 @@
 -   Began at Deoband in Saharanpur by Mohammad Qasim Nanotavi and Rashid Ahmed Gangohi.
 
 
+## PYQs
+---
+
+
+**Islamic revivalism -- the Feraizi and Wahabi Movements**
+
+
+
+
+No question has been asked from this topic
+
+
 
 
 

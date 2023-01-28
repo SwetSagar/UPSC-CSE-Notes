@@ -1,9 +1,11 @@
 # Peasant Movements and Tribal Uprisings in the 18th and 19th Century
-2020-05-07 13:57:40
+
+2020-05-07 13:57 :40
+
 ```toc
 ```
----
 
+---
 
 ## Historians Views [^1]
 
@@ -26,144 +28,158 @@
 ---
 
 ## Types of Rebellions [^2]
--   popular resistance took three broad forms: civil rebellions, tribal uprisings and peasant movements
 
-### Background 
--   Colonial economic policies, New land revenue system, colonial administration, judicial system and ruin of handicraft had impoverished the peasant
--   One form that was taken to was to resort to petty crimes like robbery, dacoity etc
+- popular resistance took three broad forms: civil rebellions, tribal uprisings and peasant movements
 
-### Civil Rebellion 
--   Led by deposed Rajas their descendents, landlords, zamindars, poligars etc
--   Peasants, artisans and demobilised soldiers were their support and man at arms
--   **Reasons were local grievances** introduced through rapid change in economy, administration and land revenue system
--   Landowners lost control of their land, peasants and artisans were indebted and forced into selling their property
--   This was exacerbated by the rapid corruption in admin., police, judiciary etc
--   religious preachers, priests, pandits and maulvis and men of arts and literature incited hatred against the foreign rulers
- 
+### Background
 
-#### Limitation of these rebellions 
--   were wholly local in their spread and isolated from each other
--   They were result of local grievances which were common to almost all the rebellions
--   **Leaders were backward looking** and traditional They did **not represent a societal alternative** and was old in ideological and cultural form
+- Colonial economic policies, New land revenue system, colonial administration, judicial system and ruin of handicraft had impoverished the peasant
+- One form that was taken to was to resort to petty crimes like robbery, dacoity etc
 
-#### Significance 
--   Established a strong local tradition of resistance to the British Rule
--   Suppression of civil rebellions was the major reason why the Revolt did not spread to South India, Most of the East and West India
+### Civil Rebellion
 
-### Tribal Revolts 
+- Led by deposed Rajas their descendents, landlords, zamindars, poligars etc
+- Peasants, artisans and demobilised soldiers were their support and man at arms
+- **Reasons were local grievances** introduced through rapid change in economy, administration and land revenue system
+- Landowners lost control of their land, peasants and artisans were indebted and forced into selling their property
+- This was exacerbated by the rapid corruption in admin., police, judiciary etc
+- religious preachers, priests, pandits and maulvis and men of arts and literature incited hatred against the foreign rulers
 
-#### Reasons for Tribal revolts 
--   Colonisation under the British
--   Recognised tribal chief as zamindar and introduced new system of revenue and taxation
--   Influx of Christian missionaries into the tribal areas
--   Influx of money lenders, traders, revenue farmers as middlemen. They ostracised the tribals, took their land and acted as henchmen of the British.
--   Change in their traditional way of life, agrarian order.
--   Ostracisation by officials, police
- 
+#### Limitation of These Rebellions
 
-#### Characteristics of these revolts 
--   Ethnic ties were the basic feature, tribals did not see themselves as a different class.
--   Solidarity b/w tribals was unwavering they did not attack each other
--   Non-tribal poor who worked in supporting role were not attacked. They were seen as allies.
--   Attacks were spontaneous and done only when there was no alternative
--   Religious leaders emerged as leader of the resistance in many areas.
+- were wholly local in their spread and isolated from each other
+- They were result of local grievances which were common to almost all the rebellions
+- **Leaders were backward looking** and traditional They did **not represent a societal alternative** and was old in ideological and cultural form
+
+#### Significance
+
+- Established a strong local tradition of resistance to the British Rule
+- Suppression of civil rebellions was the major reason why the Revolt did not spread to South India, Most of the East and West India
+
+### Tribal Revolts
+
+#### Reasons for Tribal Revolts
+
+- Colonisation under the British
+- Recognised tribal chief as zamindar and introduced new system of revenue and taxation
+- Influx of Christian missionaries into the tribal areas
+- Influx of money lenders, traders, revenue farmers as middlemen. They ostracised the tribals, took their land and acted as henchmen of the British.
+- Change in their traditional way of life, agrarian order.
+- Ostracisation by officials, police
+
+#### Characteristics of These Revolts
+
+- Ethnic ties were the basic feature, tribals did not see themselves as a different class.
+- Solidarity b/w tribals was unwavering they did not attack each other
+- Non-tribal poor who worked in supporting role were not attacked. They were seen as allies.
+- Attacks were spontaneous and done only when there was no alternative
+- Religious leaders emerged as leader of the resistance in many areas.
 
 ## Various Different Movements and Uprisings [^3]
 
-### Pabna Agrarian Crisis (1870s and 1880s) 
--   Caused due to Zamindars to enhance rents beyond legal limits and prevent tenants from acquiring occupancy rights under Act X of 1859. The act defined rights and obligations of different categories of interest in land.  
--   May 1873 the Pabna Agrarian League was found to resist demands of the zamindars
--   Rent strikes were organised, procession to frighten zamindars were taken out
--   Main form was that of legal resistance, there was very little violence
--   Disputes were settled under official pressure and the govt supported the Zamindars wherever violence took place. But was neutral in cases of legal battles and peaceful agitations
--   Gov passed the 1885 Bengal Tenancy Act protect tenants from zamindari oppression.
+### Pabna Agrarian Crisis (1870s and 1880s)
 
-#### Characterstics 
--   Aims were limited to the redressal of the immediate grievances of the peasants and the enforcement of the existing legal rights
--   not aimed at the zamindari system nor was it anti-British
--   within the bounds of law and used the legal machinery
--   Hindu Muslim solidarity.
--   Intellectuals like Bankim Chandra Chatterjee and RC Chatterjee discussed the Bengal Tenancy Bill.
--   Indian Association led by Surendranath Banerjee, Anand Mohan Bose and Dwarkanath Ganguli campaigned for the ryots.
+- Caused due to Zamindars to enhance rents beyond legal limits and prevent tenants from acquiring occupancy rights under Act X of 1859. The act defined rights and obligations of different categories of interest in land.
+- May 1873 the Pabna Agrarian League was found to resist demands of the zamindars
+- Rent strikes were organised, procession to frighten zamindars were taken out
+- Main form was that of legal resistance, there was very little violence
+- Disputes were settled under official pressure and the govt supported the Zamindars wherever violence took place. But was neutral in cases of legal battles and peaceful agitations
+- Gov passed the 1885 Bengal Tenancy Act protect tenants from zamindari oppression.
 
+#### Characterstics
 
-### Sanyasi Revolt ( 1763-1800 ) aka Fakir Rebellion
--   originally by peasant but joined by a large number of dispossessed small zamindars ,  disbanded soldiers and rural poor
--   against harsh economic order aka Fakir Rebellion.
--   Majnum Shah MS , Chirag Ali CA, Musa Shah, Bhawani Pathak and Debi Chaudhurani were important leaders.
--   Bankim Chandra Chattopadhyay's novels Anandmath and Devi Chaudharani was written on this.
- 
+- Aims were limited to the redressal of the immediate grievances of the peasants and the enforcement of the existing legal rights
+- not aimed at the zamindari system nor was it anti-British
+- within the bounds of law and used the legal machinery
+- Hindu Muslim solidarity.
+- Intellectuals like Bankim Chandra Chatterjee and RC Chatterjee discussed the Bengal Tenancy Bill.
+- Indian Association led by Surendranath Banerjee, Anand Mohan Bose and Dwarkanath Ganguli campaigned for the ryots.
+
+### Sanyasi Revolt ( 1763-1800 ) Aka Fakir Rebellion
+
+- originally by peasant but joined by a large number of dispossessed small zamindars , disbanded soldiers and rural poor
+- against harsh economic order aka Fakir Rebellion.
+- Majnum Shah MS , Chirag Ali CA, Musa Shah, Bhawani Pathak and Debi Chaudhurani were important leaders.
+- Bankim Chandra Chattopadhyay's novels Anandmath and Devi Chaudharani was written on this.
 
 ### Revolt in Midnapore and Dhalbhum (1766-74)
--   Against introduction of new land revenue system by the zamindars
--   **Dhalbhum** D, **Manbhum** M ,Raipur R, Panchet P, Jhatibuni , Karnagarh, and Bagri B.
--   led by Damodar Singh DS and Jagannath Dhal JD.
--   were dispossed of their Zamindari rights.
 
- 
+- Against introduction of new land revenue system by the zamindars
+- **Dhalbhum** D, **Manbhum** M ,Raipur R, Panchet P, Jhatibuni , Karnagarh, and Bagri B.
+- led by Damodar Singh DS and Jagannath Dhal JD.
+- were dispossed of their Zamindari rights.
+
 ### Revolt of Moamarias (1769-99)
--   peasant were against the **Ahom** kings who requested the help of Engilsh.
--   Rangpur R  (now in Bangladesh) and Jorhat J headquarters was at Bhatiapar B.
- 
 
-### Civil Uprisings in Gorakhpur, Basti and Bahraich (1781) 
+- peasant were against the **Ahom** kings who requested the help of Engilsh.
+- Rangpur R (now in Bangladesh) and Jorhat J headquarters was at Bhatiapar B.
 
--   Major **Alexander Hannay** opressed the izardars/ revenue farmers of the region with excessive revenue demand
--   was dismissed and izara removed
- 
+### Civil Uprisings in Gorakhpur, Basti and Bahraich (1781)
 
-### Revolt of Raja of Vizianagaram ( 1794 ) 
--   was demanded tribute of **3** lakh rupees as tribute and disband his troops.
--   Raja rose in revolt, he died in a battle at **Padmanabham**.
- 
+- Major **Alexander Hannay** opressed the izardars/ revenue farmers of the region with excessive revenue demand
+- was dismissed and izara removed
+
+### Revolt of Raja of Vizianagaram ( 1794 )
+
+- was demanded tribute of **3** lakh rupees as tribute and disband his troops.
+- Raja rose in revolt, he died in a battle at **Padmanabham**.
 
 ### Poligars' Revolt ( 1795-1805 )
--   major centres were **Thirunelveli**, **Ramanathapuram**, **Sivaganga**, Sivagiri , Madurai, and North Arcot .
--   Sovereignty of poligars were encroached and overTaxation were the reason. Kattabomman Nayakan, leader between 1795 and 1799.
--   2nd phase started in 1801 after poligars imprisoned in the fort of Palamcotta were able to escape. 1803 and 1805,
--   the poligars of North Arcot rose again when they were deprived of their right to collect the kaval fees was a hereditary village police.
 
-### Resistance of Kerala Varma Pazhassi Raja (1797 1800-05) 
-- Kerala Simham (Lion of Kerala) against Company levying  exorbitant **rates of tax** on the peasants. 
+- major centres were **Thirunelveli**, **Ramanathapuram**, **Sivaganga**, Sivagiri , Madurai, and North Arcot .
+- Sovereignty of poligars were encroached and overTaxation were the reason. Kattabomman Nayakan, leader between 1795 and 1799.
+- 2nd phase started in 1801 after poligars imprisoned in the fort of Palamcotta were able to escape. 1803 and 1805,
+- the poligars of North Arcot rose again when they were deprived of their right to collect the kaval fees was a hereditary village police.
+
+### Resistance of Kerala Varma Pazhassi Raja (1797 1800-05)
+
+- Kerala Simham (Lion of Kerala) against Company levying exorbitant **rates of tax** on the peasants.
 - Diwan Velu Thampi's Revolt (**1808-1809**): after Company's harsh conditions imposed on the state of **Travancore** after subsidiary alliance arrangement.
 	- Assisted by Nair Troops. He addressed a gathering at Kundara calling for taking up of arms against British to oust them -> called Kundara proclamation.
-	- Maharaja of Travancore had not wholly supported the rebellion and defected to side of  EIC.
+	- Maharaja of Travancore had not wholly supported the rebellion and defected to side of EIC.
 	- After Velu Thampi died the rebellion fizzled out.
 
 ### Civil Rebellion in Awadh (1799) by
--   **Wazir Ali Khan** WAK, the fourth Nawab of *Awadh* got *replaced by his uncle*, **Saadat Ali Khan II**.
--   Killed a British resident killed two other Europeans aka Massacre of Benares defeated by General **Erskine**.
- 
-### Uprisings in Ganjam and Gumsur (1800, 1835-37) :
--   **Strikara Bhanj**, a zamindar of Gumsur in Ganjam district, refused to pay revenues in 1797 joined by **Jlani Deo** of Vizianagar.
--   Zamindari of Gumsur was forfeited
 
- 
-### Uprisings in Palamau ( 1800-02 ) 
--   against **agrarian landlordism** and feudal system .
--   Bhukhan Singh BS, a Chero chief, was the leader.
- 
+- **Wazir Ali Khan** WAK, the fourth Nawab of *Awadh* got *replaced by his uncle*, **Saadat Ali Khan II**.
+- Killed a British resident killed two other Europeans aka Massacre of Benares defeated by General **Erskine**.
+
+
+### Uprisings in Ganjam and Gumsur (1800, 1835-37) :
+
+- **Strikara Bhanj**, a zamindar of Gumsur in Ganjam district, refused to pay revenues in 1797 joined by **Jlani Deo** of Vizianagar.
+- Zamindari of Gumsur was forfeited
+
+### Uprisings in Palamau ( 1800-02 )
+
+- against **agrarian landlordism** and feudal system .
+- Bhukhan Singh BS, a Chero chief, was the leader.
 
 ### Paika Rebellion (1817)
--   Orissa Paikas were traditional land-owning milita who were employed by the British.
--   were deemed as a threat to the British regime.
--   were to be disbanded and their Jagirs were to be confiscated.
--   Bakshi Jagabandhu Bidyadhar , Mukunda Deva and Dinabandhu Santra were important leaders.
+
+- Orissa Paikas were traditional land-owning milita who were employed by the British.
+- were deemed as a threat to the British regime.
+- were to be disbanded and their Jagirs were to be confiscated.
+- Bakshi Jagabandhu Bidyadhar , Mukunda Deva and Dinabandhu Santra were important leaders.
 - Raja of Khurda lost his primacy when the EIC ran over much of Odisha in 1803 leading to the rebellion.
 - A commission under Walter Ewer was set up to look into the issue which recommended hereditary rent free lands to be taken away from the Paikas.
 - Certain other reasons for discontent was the rise of price of salt, abolition of cowrie currency for payment of taxes, extortionist land revenue policy.
 - It ended with the surrender of Bakshi Jagandhu in 1825.
- 
-### Kuka Movement (1840-1872)  Punjab
--   religious movement by **Bhagat Jawahar Mal** transformed into political one.
--   Ram Singh, a noted leader was deported to Rangoon.
+
+
+### Kuka Movement (1840-1872) Punjab
+
+- religious movement by **Bhagat Jawahar Mal** transformed into political one.
+- Ram Singh, a noted leader was deported to Rangoon.
 
 ### Rampa Rebellion 1920s
-- It was led by Alluri Sitaraman Raju against the British for the imposition of 1882 Madras Forest Act that restricted the free movt of tribal community in the forest.
-- This also affected their traditional podu shifting cultivation system. 
-- It ended in 1924 when Sitaramn Raju was executed.  
 
-## Various other smaller uprisings 
+- It was led by Alluri Sitaraman Raju against the British for the imposition of 1882 Madras Forest Act that restricted the free movt of tribal community in the forest.
+- This also affected their traditional podu shifting cultivation system.
+- It ended in 1924 when Sitaramn Raju was executed.
+
+## Various other Smaller Uprisings
+
 - Revolt of Dhundia in Bednur (**1799-1800**) by **Dhundia Wagh** local leader in **Mysore** region.
 - Parlakimedi Outbreak ( 1813-34) in **Orissa** led by Narayan Deo and Gajapathi Deo.
 - Kutch Rebellion (**1819**) in Gujarat led by **Rao Bharamal**
@@ -172,8 +188,45 @@
 - Revolt of Savantavadi (1844-59) **North Konkan Coast**. Phond Savant, Subana Nikam, Daji Lakshman and Har Savant Dingnekar were important insurrectionists.
 - Ahom Revolt (1828) Assam led by Gomdhar Konwar and Maharaja Purandhar Singh. Narendra Gadadhar Singh and Kumar Rupchand were other leaders.
 
-
 ## References
+
 [^1]: Sekhar Bandyopadhyay
+
 [^2]: Bipan Chandra
+
 [^3]: Rajiv Ahir
+
+## PYQs
+
+---
+
+**Peasant movements and tribal uprisings in the 18th and 19th centuries**
+
+1. "Tribal revolts were a reaction to an alien, unfeeling administration." Elucidate with reference to the British tribal policy in Eastern India in the nineteenth century. [1982, 60m]
+- [Reasons for Tribal revolts :](onenote: [[Peasant]] %20Movements%20and%20Tribal%20Uprisings%20in%20the%2018th%20and%2019th%20Century&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={B8CE06D5-BF12-4DA2-97F1-863C2D9AE7E6}&object-id={E888B025-2E5A-4AF1-B820-E217047B3367}&F&base-path= <https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one> )
+- [Pressed by rev farming sys, contractors like Debi Singh or](onenote: [[Rangpur]] %20Dhing%20Rebellion%201783&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={8116C82B-5B4E-4528-8002-9A54685EEF13}&object-id={1C406439-A9EF-42B6-AE34-00FFA7260849}&11&base-path= <https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one> )
+- More specific content needed
+
+1. Discuss briefly the tribal revolts in Eastern India from 1817 to 1857. Were they directed against landlordism and colonialism? [1988, 60m]
+- [Kol Rebellion 1832](onenote: [[Kol]] %20Rebellion%201832&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={116C0682-FECE-4E35-A879-7A74365867FD}&end&base-path= <https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one> )
+- [Santhal Hul Rebellion 1855-1857](onenote: [[Santhal]] %20Hul%20Rebellion%201855-1857&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={1EE46CFF-2A1F-4288-B218-026A56E5EF8D}&end&base-path= <https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one> )
+- [Characteristics of these revolts :](onenote: [[Peasant]] %20Movements%20and%20Tribal%20Uprisings%20in%20the%2018th%20and%2019th%20Century&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={B8CE06D5-BF12-4DA2-97F1-863C2D9AE7E6}&object-id={E888B025-2E5A-4AF1-B820-E217047B3367}&28&base-path= <https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one> )
+
+1. Discuss the origins and character of major peasant and tribal uprisings in the late 18th and 19th centuries were these protest movements backwards-looking? [1992, 60m]
+- Tribal Revolts : [Reasons for Tribal revolts :](onenote: [[Peasant]] %20Movements%20and%20Tribal%20Uprisings%20in%20the%2018th%20and%2019th%20Century&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={B8CE06D5-BF12-4DA2-97F1-863C2D9AE7E6}&object-id={E888B025-2E5A-4AF1-B820-E217047B3367}&F&base-path= <https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one> ) onwards
+- Peasant Revolt : [Civil Rebellion :](onenote: [[Peasant]] %20Movements%20and%20Tribal%20Uprisings%20in%20the%2018th%20and%2019th%20Century&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={B8CE06D5-BF12-4DA2-97F1-863C2D9AE7E6}&object-id={5492818D-F02A-4503-B9E0-0604FDFFF226}&38&base-path= <https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one> ) onwards
+
+1. Tribal movements should be viewed as‚ 'History from below‛. Discuss the objects and nature of the movements in 19th century India. [1997, 60m]
+- [Tribal Revolts : Reasons for Tribal revolts : onwards](onenote: [[07 GS-4/1. Human-Values/PYQ]] &section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={91B7E7A7-0EDB-4FA0-9D86-857AF2691A9E}&object-id={D0E2418E-8317-4704-B4A0-D4E94DD627E4}&16&base-path= <https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one> )
+
+1. "The tribal and peasant rebellion laid the foundation of the revolt of 1857." Comment. [2001, 20m]
+- [Sepoy was actually a peasant in uniform, if their or](onenote: [[The]] %20Great%20Revolt%20of%201857%20-%20its%20Origin,%20character,%20causes%20and%20failure%20and%20its%20consequences.&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={1B5E51BA-DD4E-43D7-9024-76A97139073D}&object-id={88ADB685-17B8-47AA-8747-89CC5BF66580}&61&base-path= <https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one> )
+- Santhal Hul - [expansion of agricultural settlement to the tribal areas of Rajamahal](onenote: [[Santhal]] %20Hul%20Rebellion%201855-1857&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={1EE46CFF-2A1F-4288-B218-026A56E5EF8D}&object-id={B28EEB4D-1299-47DC-8A56-1ECEA1EEF67E}&11&base-path= <https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one> )
+
+1. "Tribals revolted more often and far more violently than any other community including peasants in India." Elaborate [2011, 30m]
+- [Reasons for Tribal revolts :](onenote: [[Peasant]] %20Movements%20and%20Tribal%20Uprisings%20in%20the%2018th%20and%2019th%20Century&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={B8CE06D5-BF12-4DA2-97F1-863C2D9AE7E6}&object-id={E888B025-2E5A-4AF1-B820-E217047B3367}&F&base-path= <https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one> )
+- [advocated the killing of Thikadars, Jagirdars, Rajas, Hakims and Christians](onenote: [[Munda]] %20Ulgulan%201899-1900&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={992ECEAB-F40A-4AD0-9A00-34B33D034942}&object-id={E1084BE3-070F-485D-811A-A156A80EF793}&47&base-path= <https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one> )
+
+1. How far is it correct to say that the 19th century tribal uprisings are a part of subaltern nationalism? [2016, 20m]
+- [Tribals were the Majhis and Parganites they wanted to usher](onenote: [[Santhal]] %20Hul%20Rebellion%201855-1857&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={1EE46CFF-2A1F-4288-B218-026A56E5EF8D}&object-id={BABA4F22-657D-4FE3-8982-2757AF0F23A7}&16&base-path= <https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one> )
+- [active participation from women and lacked animosity against economically subordinate](onenote: [[Munda]] %20Ulgulan%201899-1900&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={992ECEAB-F40A-4AD0-9A00-34B33D034942}&object-id={8C6251D3-781D-4A07-BD7D-F433DB1DC6E1}&28&base-path= <https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one> )

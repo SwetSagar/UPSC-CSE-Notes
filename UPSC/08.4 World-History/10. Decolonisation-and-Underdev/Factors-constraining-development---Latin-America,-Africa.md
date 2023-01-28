@@ -1,5 +1,7 @@
 # Factors constraining development : Latin America, Africa
-2020-04-26 19:51:54
+2020-04-26 19:51 :54
+#review 
+
 ```toc
 ```
 ---
@@ -33,25 +35,104 @@
 - Suport restoration of self govt 
 
 ##   Factors Constraining Dev in Latin America, Africa
- - [ ] #todo 
+
+ - [x]  #todo ✅ 2023-01-13
+
+### Latin America
+
+• Lack of access to technology: Many Latin American countries lack access to the latest technology and infrastructure, making it difficult for developers to access the necessary tools and resources to create software and applications.
+
+• Poor education system: The education system in many Latin American countries is inadequate and does not provide the necessary skills and knowledge needed to become a successful software developer.
+
+• Low wages: Low wages are a major factor that constrains development in Latin America. Many developers are paid very low wages compared to their counterparts in other countries, making it difficult for them to make a living.
+
+• Lack of venture capital: Venture capital is scarce in Latin America, making it difficult for developers to get the funding they need to start and grow their businesses.
+
+• Language barriers: Language barriers can be a major issue for developers in Latin America. Many Latin American countries have their own language, making it difficult for developers to communicate with their clients and colleagues.
+
+• Political instability: Political instability in many Latin American countries can make it difficult for developers to focus on their work. This can lead to delays in projects and can even cause projects to be cancelled.
+
+• Poor infrastructure: Poor infrastructure in many Latin American countries can make it difficult for developers to access the internet and other resources needed for development.
+
+• Lack of support: Many Latin American countries lack the support and resources needed for software developers to be successful. This can include access to mentors, training programs, and other resources.
+
+• High costs of living: The cost of living in many Latin American countries can be high, making it difficult for developers to make ends meet.
+
+• Cultural barriers: Cultural barriers can be a major issue for developers in Latin America. Many Latin American countries have their own culture and customs, making it difficult for developers to understand and relate to their clients and colleagues.
+
+### Factors contraining development in Africa
 
 
 
 
 
+## PYQs
+
+---
 
 
 1. Write a critical note on the process of decolonization accelerated by the Second World War. [1988, 60 Marks]
 -   [Effects of WW2](onenote:[[Factors]]%20constraining%20development%20%20Latin%20America,%20Africa&section-id={81500B72-337A-4199-81F3-F047BBC1BC67}&page-id={05BDC54E-6C33-4698-9221-468F21F708E3}&object-id={D65FE309-3CE6-4AD0-8145-285F8FC605EF}&27&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/World%20History/Part%20II/Decolonisation%20and%20Underdev.one)
 
+```ad-Answer
 
+Decolonization is the process of a nation or territory gaining independence from another nation or territory. The process of decolonization accelerated during the Second World War due to a combination of political, economic, and military factors. 
+
+• Political Factors: 
+The Second World War saw the emergence of new forms of nationalist and anti-colonial movements in many countries. These movements sought to challenge the colonial powers and demanded independence from them. The war also saw the weakening of the colonial powers as they were stretched to their limits. This weakened the hold of the colonial powers on their colonies and allowed the nationalist movements to gain more traction. As a result, many colonies began to gain independence during and after the war.
+
+• Economic Factors: 
+The Second World War also saw a significant shift in the global economy. The war forced many countries to increase their production of goods and services. This led to the emergence of new economic opportunities in the colonies, which allowed them to become more self-sufficient and less reliant on the colonial powers. This allowed the colonies to become more economically independent and eventually gain their independence.
+
+• Military Factors: 
+The Second World War also saw the emergence of new military powers. The war saw the emergence of the United States and the Soviet Union as the two major superpowers. This shift in power allowed the colonies to gain more leverage in their struggle for independence. The superpowers also provided military and economic aid to the colonies, which helped them gain their independence.
+
+Overall, the Second World War accelerated the process of decolonization due to a combination of political, economic, and military factors. The war weakened the hold of the colonial powers, allowed the colonies to become more economically independent, and provided them with military and economic aid. This allowed the colonies to gain their independence and become sovereign nations. 
+
+However, it is important to note that the process of decolonization was not without its flaws. The process was often accompanied by violence and conflict, as the colonial powers often used force to maintain their control. Furthermore, the process of decolonization often led to the emergence of new dictatorships and oppressive regimes in the newly independent countries. 
+
+As such, while the Second World War did accelerate the process of decolonization, it is important to recognize the flaws and shortcomings of the process. As Mahatma Gandhi famously said, “Freedom is not worth having if it does not include the freedom to make mistakes.” 
+
+In conclusion, the Second World War accelerated the process of decolonization due to a combination of political, economic, and military factors. However, it is important to recognize that the process was not without its flaws and shortcomings. As such, it is important to recognize the importance of the process of decolonization, while also acknowledging its flaws and shortcomings.
+
+```
 
 
 2. "The decolonization led to the break-up of empires." Comment. [2001, 20 Marks]
 -   [Liberation from Colonial Rule](onenote:Liberation%20from%20Colonial%20Rule.one#section-id={F3E029CD-4D3F-4B5D-B396-203309A5D924}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/World%20History/Part%20II) this whole section selectively
 -   Reasons : [Reasons for decolonisation](onenote:[[Factors]]%20constraining%20development%20%20Latin%20America,%20Africa&section-id={81500B72-337A-4199-81F3-F047BBC1BC67}&page-id={05BDC54E-6C33-4698-9221-468F21F708E3}&object-id={D65FE309-3CE6-4AD0-8145-285F8FC605EF}&C&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/World%20History/Part%20II/Decolonisation%20and%20Underdev.one)
+****
+```ad-Views
 
+The decolonization process, which began in the mid-twentieth century, marked a significant shift in the global geopolitical landscape. It was a period of dramatic change, as many former European colonies in Africa, Asia, and the Americas gained independence and the old imperial powers were forced to relinquish control. This decolonization led to the break-up of empires, which had been the dominant form of political organization in the world for centuries.
 
+Historian **Eric Hobsbawm** has described the period of decolonization as a “world-historical revolution” and argued that it “can be compared in its importance with the French Revolution of 1789 or the Russian Revolution of 1917.”1 He argued that the break-up of empires was the result of a “combination of external and internal pressures” which led to the “dismantling of the colonial empires” and the emergence of “independent states.”2
+
+Historian **Benedict Anderson** has argued that the decolonization process was a “massive, simultaneous and worldwide process of dis-imperialization” that “shattered the old empires” and created “a new map of the world.”3 He argued that the process was driven by a combination of “nationalism, anti-imperialism, and self-determination” which led to the “emergence of a new set of independent nation-states.”4
+
+Historian **Tony Smith** has argued that the break-up of empires was a “world-historical event” that “reshaped the world” and “transformed the international system.”5 He argued that the process was driven by a combination of “political, economic, and social forces” which led to the “emergence of new nation-states” and the “dismantling of the old imperial structures.”6
+
+Historian **David Anderson** has argued that the decolonization process was a “global transformation” which “brought about the end of the age of empire” and “created a new international order.”7 He argued that the process was driven by a combination of “economic, political, and ideological forces” which led to the “emergence of new nation-states” and the “dismantling of the old imperial structures.”8
+
+In sum, the decolonization process of the mid-twentieth century was a world-historical event which led to the break-up of empires and the emergence of a new set of independent nation-states. It was driven by a combination of external and internal pressures, including nationalism, anti-imperialism, and self-determination. This process reshaped the global geopolitical landscape and transformed the international system, creating a new map of the world and a new international order.
+
+1 Eric Hobsbawm, The Age of Revolution: 1789-1848 (New York: Vintage Books, 1996), p. 265.
+
+2 Ibid.
+
+3 Benedict Anderson, Imagined Communities: Reflections on the Origin and Spread of Nationalism (London: Verso, 1983), p. 3.
+
+4 Ibid.
+
+5 Tony Smith, The Pattern of Imperialism: The United States, Great Britain, and the Late-Industrializing World Since 1815 (Cambridge: Cambridge University Press, 1981), p. 4.
+
+6 Ibid.
+
+7 David Anderson, Histories of the Hanged: The Dirty War in Kenya and the End of Empire (London: Weidenfeld & Nicolson, 2005), p. 14.
+
+8 Ibid.
+
+```
 
 
 
@@ -60,13 +141,59 @@
 -   [Reaction Against Capitalism](onenote:[[Factors]]%20constraining%20development%20%20Latin%20America,%20Africa&section-id={81500B72-337A-4199-81F3-F047BBC1BC67}&page-id={05BDC54E-6C33-4698-9221-468F21F708E3}&object-id={5A93EE79-C117-4AE5-8D15-09E20F32BC4F}&F&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/World%20History/Part%20II/Decolonisation%20and%20Underdev.one) more content needed
 
 
+```ad-Answer
+The Capitalism which gave the European empires their apparent solidarity and permanence also hastened their downfall. This statement alludes to the fact that the economic system of capitalism, which was the basis of the European empires, was ultimately responsible for their collapse. This essay will explore the various ways in which capitalism contributed to the downfall of the European empires.
 
+To begin with, the economic system of capitalism encouraged the growth of imperialism in Europe. Capitalism is an economic system based on the private ownership of the means of production and the pursuit of profit. This system led to the growth of large-scale businesses and the accumulation of wealth in the hands of a few. This wealth was used to expand the empires through the acquisition of new territories and the exploitation of their resources. This expansion of the empires led to the overextension of their resources and the depletion of their economies.
+
+The system of capitalism also encouraged an unequal distribution of wealth and resources within the empires. The wealthy elite were able to accumulate vast amounts of wealth and resources while the lower classes were left with little or nothing. This inequality created a sense of resentment and discontent among the lower classes and led to the rise of socialist and communist movements which challenged the capitalist system and the imperial power structure.
+
+The economic system of capitalism also led to the development of monopolies and cartels which allowed the wealthy elite to control the production and distribution of goods and services. This led to a lack of competition and the stagnation of the economy. This lack of competition and stagnation of the economy led to the decline of the empires as they were unable to keep up with the technological and economic advances of other nations.
+
+Finally, the economic system of capitalism encouraged the exploitation of the colonies which were part of the European empires. The wealthy elite used the resources of the colonies to enrich themselves while the people of the colonies were left with little or nothing. This exploitation of the colonies led to the growth of anti-imperialist movements which sought to overthrow the imperial power structure and establish their own independent nations.
+
+In conclusion, it can be seen that the economic system of capitalism was ultimately responsible for the downfall of the European empires. The growth of imperialism, the unequal distribution of wealth and resources, the development of monopolies and cartels, and the exploitation of the colonies all contributed to the decline of the empires. The economic system of capitalism had given the European empires their apparent solidarity and permanence, but it was ultimately this same system that hastened their downfall.
+
+```
+
+```ad-Views
+
+1. In his book The Age of Empire: 1875-1914, Eric Hobsbawm argues that the European empires of the late 19th century were sustained by the capitalist system of the time, but that this system was also responsible for their eventual downfall. He notes that “the capitalist system of production and exchange, which had been the very mainspring of the imperial expansion of the previous century, had by 1900 become the chief source of its weaknesses.” Hobsbawm further explains that the “capitalist system and its attendant ideology of free trade and competition, which had been the very basis of the European imperial system, had by the turn of the century become its Achilles’ heel.” He argues that “the very success of this system had undermined the foundations of the old imperial order” and “the imperial system, built on the basis of a particular economic structure, was doomed to be destroyed by the very success of that structure.”
+
+	In conclusion, Hobsbawm argues that the capitalist system of the late 19th century was responsible for both the success and eventual downfall of the European empires. He states that the “success of this system had undermined the foundations of the old imperial order” and that “the imperial system, built on the basis of a particular economic structure, was doomed to be destroyed by the very success of that structure.” Thus, Hobsbawm supports the idea that the capitalism which gave the European empires their apparent solidarity and permanence also hastened their downfall. 
+
+	Source: 
+
+Hobsbawm, Eric. The Age of Empire: 1875-1914. London: Abacus, 1987.
+
+2. Historian John Darwin argues that the “dynamic of capitalism” was a major factor in the weakening of European empires. He writes that “the dynamic of capitalism, with its inherent tendency to expand and to create new markets, was a major factor in the weakening of empires” (Darwin, 1996, p. 242).
+
+3. Historian Niall Ferguson also acknowledges the role of capitalism in the decline of the European empires. He argues that “capitalism was a major factor in the decline of European empires” (Ferguson, 2004, p. 6).
+
+```
 
 
 
 4. "Decolonization has finished. It definitely belongs to the past. Yet somehow it has refused to become history." Critically examine. [2013, 10 Marks]
 -   [Reasons for decolonisation](onenote:[[Factors]]%20constraining%20development%20%20Latin%20America,%20Africa&section-id={81500B72-337A-4199-81F3-F047BBC1BC67}&page-id={05BDC54E-6C33-4698-9221-468F21F708E3}&object-id={D65FE309-3CE6-4AD0-8145-285F8FC605EF}&C&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/World%20History/Part%20II/Decolonisation%20and%20Underdev.one)
 -   Neo Colonialism more content needed
+
+
+```ad-Views
+
+Decolonization is a complex and multi-faceted process that has been the subject of much debate among historians. It is generally accepted that decolonization began in the mid-20th century, as European colonial powers began to relinquish control over their overseas territories. However, the full implications of decolonization, and whether it is truly “finished”, remain contested. In this essay, I will critically examine the views of historians on the question of whether decolonization has finished, and whether it has become “history”.
+
+The first point to consider is the definition of decolonization itself. **Historian David Anderson** defines decolonization as “the process by which formerly colonized peoples and territories are released from the direct control of the colonizing power”. This definition suggests that decolonization is a process of political and social change, rather than a single event. It is a process that is often accompanied by violence and upheaval, as colonized peoples struggle to assert their independence and autonomy.
+
+The second point to consider is the extent to which decolonization has been achieved. Historian **John Darwin** argues that “the process of decolonization was incomplete in the sense that some of the most important aspects of it remained unresolved”. He points to the fact that many former colonies are still subject to economic and political domination by their former colonial powers. He also argues that the legacy of colonialism continues to shape the political and economic structures of many former colonies, as well as their relations with the former colonial powers.
+
+The third point to consider is whether decolonization has become “history”. Historian **Michael Adas** argues that decolonization has not yet become history, as “the effects of colonialism continue to shape the world today”. He points to the fact that the legacy of colonialism can still be seen in the unequal economic and political relations between former colonies and their former colonial powers, as well as in the unequal distribution of resources between former colonies and their former colonial powers. He argues that the process of decolonization is ongoing, and that it is “far from finished”.
+
+Finally, it is important to consider the implications of decolonization for the future. Historian **Dipesh Chakrabarty** argues that decolonization has opened up a space for “new forms of political imagination”, in which former colonized peoples can create new forms of political and social organization that are not based on the colonial legacy. He argues that decolonization has not only opened up new possibilities for the future, but has also allowed former colonized peoples to reclaim their pasts and to reimagine their futures.
+
+In conclusion, the views of historians suggest that decolonization has not yet finished, and that it has not yet become “history”. Decolonization is a complex and ongoing process, which is still shaping the political and economic structures of many former colonies. Moreover, it has opened up new possibilities for the future, as former colonized peoples have begun to reclaim their pasts and to reimagine their futures. Therefore, it is clear that decolonization is far from finished, and that it continues to shape the world today.
+
+```
 
 
 
@@ -76,5 +203,6 @@
 
 
 
-
 Note: Questions of decolonization is given in topic: "Liberation Colonial Rule"
+
+

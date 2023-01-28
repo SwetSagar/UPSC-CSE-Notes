@@ -1,6 +1,6 @@
 # Shift in character of Peasant move post 1857
 2020-04-27 15:12:41
-            
+
 ---
 
 
@@ -20,9 +20,24 @@
 -   middle class their spokesman
 -   Hindoo Patriot, Amrita Bazar Patrika took pro landlord stance
 -   Ranajit Guha - Peasant movt should not be looked as pre history of freedom mvt as they have history of their own
- 
 
- 
+
+## PYQs
+
+---
+
+1. Identify the various forms of 'rural protest' in India in the second half of the nineteenth century. Were they expressions of anti-landlord or anti-foreign discontent? [1987, 60m]
+-   [Civil Rebellion :](onenote: [[Peasant]] %20Movements%20and%20Tribal%20Uprisings%20in%20the%2018th%20and%2019th%20Century&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={B8CE06D5-BF12-4DA2-97F1-863C2D9AE7E6}&object-id={5492818D-F02A-4503-B9E0-0604FDFFF226}&38&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
+-   [Pabna Agrarian Crisis (1870s and 1880s) :](onenote: [[Peasant]] %20Movements%20and%20Tribal%20Uprisings%20in%20the%2018th%20and%2019th%20Century&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={B8CE06D5-BF12-4DA2-97F1-863C2D9AE7E6}&object-id={9401C94D-ABB4-47D5-8C66-87CD380D4147}&2B&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
+
+
+
+
+2."The peasant movements of the second half of the nineteenth century lacked a positive conception which would unite the people in a common struggle on a wide regional and all- India plane and help develop long-term political developments." Critically evaluate. [2012,
+10m]
+-   [peasants emerged as the main force in agrarian movements as](onenote: [[Shift]] %20in%20character%20of%20Peasant%20move%20post%201857&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={8A3F3C2A-9412-4661-8722-9B8A3A83E350}&object-id={4A761B72-B9F9-42D9-81FE-FD4D603B0107}&11&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
+
+
 
  
 

@@ -1,106 +1,116 @@
-# State of Indigenous education, its dislocation
+# State of Indigenous Education, Its Dislocation
+
 2020-04-26 19:37:30
+
 ```toc
 ```
+
 ---
 
--   Calcutta College 1817 by educated Bengalis, English education in Western humanities and sciences.
--   Sanskrit College established by Jonathan Duncan at Benaras in 1791.
--   Calcutta Madrasah established by Warren Hastings in 1781 for the study of Muslim law.
+- Calcutta College 1817 by educated Bengalis, English education in Western humanities and sciences.
+- Sanskrit College established by Jonathan Duncan at Benaras in 1791.
+- Calcutta Madrasah established by Warren Hastings in 1781 for the study of Muslim law.
 
-## Measures taken to improve Education in India
+## Measures Taken to Improve Education in India
 
 ### Growing Popularity and Ram Mohan Roy
--  Economic need - IN wanted to earn their livelihood
+
+- Economic need - IN wanted to earn their livelihood
 - RRR protested strenghteing of Calcutta, Madras and Benaras Sanskrit college and estd of more oriental colleges in Bengal -> this would have no practical use in society.
 - Calcutta College was a result of his protest.
 
+### OrientalistAnglicist Controversy
 
-### Orientalist- Anglicist Controversy
+### Woods Despatch of 1854
 
-
-###   Woods Despatch of 1854
 - Woods was firm believer of superiority of English race
--   for spread education to the masses and was considered as ==Magna Carta of English Education== in india
--   Repudiated downward filtration theory.
+- for spread education to the masses and was considered as ==Magna Carta of English Education== in india
+- Repudiated downward filtration theory.
 1. Declared that the aim was teaching of Western Education
-2.   English as medium of instruction will enhance moral character also emphasised imp of vernacular language.
-3.   vernacular primary schools and Anglo vernacular in high schools English in colleges.
-4.   a sys of grants in aids for private ed institutions.
+2. English as medium of instruction will enhance moral character also emphasised imp of vernacular language.
+3. vernacular primary schools and Anglo vernacular in high schools English in colleges.
+4. a sys of grants in aids for private ed institutions.
 5. ~ Dept of Public instruction under a Director in each of the 5 provinces to review progress of education and submit annual report
 6. Universities on the Model of London Univeristy proposed at Calcutta, Bombay and Madras.
 7. Emphasised vocational instruction and need to estd technical school and colleges.
-8.   Teachers training Institutions similar to English ones
-9.   Ed for women
-10.   Education in Gov schools should be secular.
-11.   Education dept, Gov School in every district
+8. Teachers training Institutions similar to English ones
+9. Ed for women
+10. Education in Gov schools should be secular.
+11. Education dept, Gov School in every district
 
-###   Hunters Education Commission 1882/83?
--   Confined to ==primary and secondary education.==
--   special care for improvement of education
--   recom ==transfer of control of primary ed to district and municipal boards==.
-- &  High School education should have 2 divisions literary and vocational ie preparing students for Entrance examination to Universities and other for commercial and vocational career.
--   Drew attention to female education and inadequate facilities for it.
-- brought out the neglect to primary and secondary edu  
-- provincial revenue be reserved for financing primary edu  
-- secondary school progressively handed over to private enterprises  
-- aided schools to charge lower fees to have more Indian graduates in them  
-- emphasis on moral and physical education  
+### Hunters Education Commission 1882/83?
+
+- Confined to ==primary and secondary education.==
+- special care for improvement of education
+- recom ==transfer of control of primary ed to district and municipal boards==.
+- & High School education should have 2 divisions literary and vocational ie preparing students for Entrance examination to Universities and other for commercial and vocational career.
+- Drew attention to female education and inadequate facilities for it.
+- brought out the neglect to primary and secondary edu
+- provincial revenue be reserved for financing primary edu
+- secondary school progressively handed over to private enterprises
+- aided schools to charge lower fees to have more Indian graduates in them
+- emphasis on moral and physical education
 - special attention towards edu dev among Muslims
 
+### Indian Universities Act 1904
 
-###   Indian Universities act 1904
 - @ Rayleight Commission on Education 1902 became the basis of Indian Universities act 1904
--   more attention to study and research
--   No. of fellows reduced -> were to be recom by Governor
--   Govt to have powers to veto Univ regulations
--   Affiliation of private college made stricter
--   5 lkh per annum sanctioned for improvement of higher ed
+- more attention to study and research
+- No. of fellows reduced -> were to be recom by Governor
+- Govt to have powers to veto Univ regulations
+- Affiliation of private college made stricter
+- 5 lkh per annum sanctioned for improvement of higher ed
 
 ### Govt Resolution of Education Policy 1913
+
 - State of Baroda introduced compulsory primary ed throughout its territory in 1906
 - Gokhale made efforts in Legislative Council towards compulsory primary education in India.
 - Govt refused to recognise it but accepted the policy of removal of illiteracy
 - GOI urged provincial govt to provide free elementary instruction to poor and more backward sections of population.
 - Stressed on quality of school.
 
-###   Saddler university commission 1917/18
-- & estd to study and report on the problems of Calcutta univeristy but its provisions were applicable to other universities. 
--  School course should cover 12 yrs
--   Less rigidity in framing university regulation
--   Univ should function as centralise, unitary, residential / teaching autonomous bodies.
--   Female ed, Applied Scientific and Tech education should be extended.
-- not possible to bring change in higher ed w/o changes in secondary  
-- create intermediate college divide univ and secondary courses  
+### Saddler University Commission 1917/18
+
+- & estd to study and report on the problems of Calcutta univeristy but its provisions were applicable to other universities.
+- School course should cover 12 yrs
+- Less rigidity in framing university regulation
+- Univ should function as centralise, unitary, residential / teaching autonomous bodies.
+- Female ed, Applied Scientific and Tech education should be extended.
+- not possible to bring change in higher ed w/o changes in secondary
+- create intermediate college divide univ and secondary courses
 - Intermediate college courses for 3 yrs, curriculum consist of arts, science, engineering etc.
-- encourage autonomous univs, residential teaching univs  
+- encourage autonomous univs, residential teaching univs
 - Special Board for women education
 
-###   Hartog Committee 1929
--   Emphasis on primary education
--   Only deserving should go to high and intermediate level
--   To improve in standards of Univ ed, admission should be restricted
--   Zakir Hussain Committee of 1937 was on Basic education and in sync with Gandhi's principles.
- 
-### Wardha Scheme for basic education
+### Hartog Committee 1929
+
+- Emphasis on primary education
+- Only deserving should go to high and intermediate level
+- To improve in standards of Univ ed, admission should be restricted
+- Zakir Hussain Committee of 1937 was on Basic education and in sync with Gandhi's principles.
+
+
+### Wardha Scheme for Basic Education
+
 - Based on Gandhiji's article published in Harijan which proposed a scheme for basic education called Wardha Scheme.
 - Main principle was learning through activity.
 - Zakir Hussain committee worked out the details of it.
-- Centred around Manual Productive work, 7 yr course in mother tongue.  
+- Centred around Manual Productive work, 7 yr course in mother tongue.
 
 ### Sargeant Plan on Education
-- post war education dev in India  
-- & intro free and compulsory education for all children 6-11 yrs  
-- Universal literacy within 40 yrs  
-- estd of elementary schools and high school  
-- 2 types of HS Academic and Technical  
+
+- post war education dev in India
+- & intro free and compulsory education for all children 6-11 yrs
+- Universal literacy within 40 yrs
+- estd of elementary schools and high school
+- 2 types of HS Academic and Technical
 - Abolition of intermediate courses
 
+## PYQs
 
-
-
+---
 
 1. Review the educational policy of the English East India Company. To what extent did it serve the imperial interests of Great Britain? [1988, 60m]
--   [Lord Macaulay's Minute of 1835](onenote:[[Orientalist]]%20Anglicist%20Controversy&section-id={B79FD829-FA0F-426F-B425-A852F19A4727}&page-id={3CCDEF23-4F1B-474E-B656-7FA1CD662E8B}&object-id={FF5936DA-C7FC-4393-A610-37D57759FC25}&13&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Social%5eJ%20Cultural%20Dev.one)
--   [Woods Despatch of 1854 :](onenote:[[State]]%20of%20Indigenous%20education,%20its%20dislocation&section-id={B79FD829-FA0F-426F-B425-A852F19A4727}&page-id={247D9D87-0A28-4A98-9466-A635F2F62335}&object-id={5A06EBD3-E4B7-417C-94AA-090C1EDFCF97}&37&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Social%5eJ%20Cultural%20Dev.one)
--   Analysis on your own
+- [Lord Macaulay's Minute of 1835](onenote:[[Orientalist]]%20Anglicist%20Controversy&section-id={B79FD829-FA0F-426F-B425-A852F19A4727}&page-id={3CCDEF23-4F1B-474E-B656-7FA1CD662E8B}&object-id={FF5936DA-C7FC-4393-A610-37D57759FC25}&13&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Social%5eJ%20Cultural%20Dev.one)
+- [Woods Despatch of 1854 :](onenote:[[State]]%20of%20Indigenous%20education,%20its%20dislocation&section-id={B79FD829-FA0F-426F-B425-A852F19A4727}&page-id={247D9D87-0A28-4A98-9466-A635F2F62335}&object-id={5A06EBD3-E4B7-417C-94AA-090C1EDFCF97}&37&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Social%5eJ%20Cultural%20Dev.one)
+- Analysis on your own

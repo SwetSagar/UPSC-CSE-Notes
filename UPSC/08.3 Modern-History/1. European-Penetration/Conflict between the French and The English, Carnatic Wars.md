@@ -1,51 +1,44 @@
 # Conflict between the French and The English, Carnatic Wars
-2020-04-27 14:55:56
+
+2020-04-27 14:55 :56
+
 ```toc
 ```
+
 ---
 
-
 ## First Carnatic War (1740-48)
--   Cause Austrian War of Succession ( )
--   ended w/ Treaty of **Aix-La Chapelle**
--   Madras - English; French - North America
--   Battle of St Thome - French defeated Mahfuz Khan
--   Hostility in Bengal prevented by Alivardi K
--   Fleet from Mauritius under Bourdaunair, diff b/w him and Dupleix ->  Madras captured, Fort St.David also
-
+- Cause Austrian War of Succession ( )
+- ended w/ Treaty of **Aix-La Chapelle**
+- Madras - English; French - North America
+- Battle of St Thome - French defeated Mahfuz Khan
+- Hostility in Bengal prevented by Alivardi K
+- Fleet from Mauritius under Bourdaunair, diff b/w him and Dupleix -> Madras captured, Fort St.David also
 
 ## Second Carnatic War (1749-54)
--   Death of Nizam ul Mulk of Hyderabad
--   French supported the claims of **Muzaffar Jang + Chanda Sahib (both won)** in the Deccan and Carnatic, English Nasir Jang and Anwar-ud-din
--   Northern Sirkars, Masulipatnam, villages around Pondi given to FR
--   Clive def FR in Arcot
+- Death of Nizam ul Mulk of Hyderabad
+- French supported the claims of **Muzaffar Jang + Chanda Sahib (both won)** in the Deccan and Carnatic, English Nasir Jang and Anwar-ud-din
+- Northern Sirkars, Masulipatnam, villages around Pondi given to FR
+- Clive def FR in Arcot
 - The war ended with the Treaty of Pondicherry, signed in 1754, which recognised Muhammad Ali Khan Walajah as the Nawab of the Carnatic.
--   FR recalled Dupleix due to financial losses in 1754 repl by Godeheu decided not to interfere in Native matters
--   Repercussion in America by English feared
+- FR recalled Dupleix due to financial losses in 1754 repl by Godeheu decided not to interfere in Native matters
+- Repercussion in America by English feared
 
-###   Reasons for defeat 
--   Strategic miscalcualtions
--   Lack of support of FR gov
--   FR anxiety to retain possession in North Am
+### Reasons for Defeat
+- Strategic miscalcualtions
+- Lack of support of FR gov
+- FR anxiety to retain possession in North Am
 
+## Third Carnatic War (1758-63)
+- Seven Years War (1756-63)
+- Lost N Sarkars, Masulipatnam, Yanam
+- De Lally Madras siege withdrawn
+- Battle of Wandiwash January 22, 1760 Pondi lost
+- Treaty of Peace of Paris (1763) French got their factories but cannot fortify Chandernagore its political influence disappeared
 
-## **Third Carnatic War (1758-63)**
--   Seven Years War (1756-63)
--   Lost N Sarkars, Masulipatnam, Yanam
--   De Lally Madras siege withdrawn
--   Battle of Wandiwash January 22, 1760 Pondi lost
--   Treaty of Peace of Paris (1763) French got their factories but cannot fortify Chandernagore its political influence disappeared
-
-###   Reasons for Defeat 
--   Arrogance of Lally alienated F officers
--   Shortage money
--   Bussy's recall
--   Superior Eng Navy
-
-
-
-
-
-
-
+### Reasons for Defeat
+- Arrogance of Lally alienated F officers
+- Shortage money
+- Bussy's recall
+- Superior Eng Navy
 

@@ -32,6 +32,13 @@
 -   Gave ample warning in advance
 -   Charactersied rebel actions as traditional hunting activity
 
+## PYQs
+
+**Santal Hul (1855)**
+
+1."The Santhal hool began in July 1855. The core of the movement was economic, the basic cause of the uprising was agrarian discontent." -- Elucidate [2012, 10m]
+-   [Santhal Hul Rebellion 1855-1857](onenote: [[Santhal]] %20Hul%20Rebellion%201855-1857&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={1EE46CFF-2A1F-4288-B218-026A56E5EF8D}&end&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
+
 
 
 

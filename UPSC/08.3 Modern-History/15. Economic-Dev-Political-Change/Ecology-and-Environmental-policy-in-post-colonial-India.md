@@ -1,26 +1,46 @@
-# Ecology and Environmental policy in post-colonial India
+# Ecology and Environmental Policy in Post-colonial India
+
 2020-04-27 15:30:00
-            
+
 ---
 
-
-
-
-
+## PYQs 
 
 Ecology and environmental policy in post - colonial India
-
 
 1. "The Chipko became famous as the first major environmental movement in post-colonial
 India and gave to the understanding that environment issues are often women's issues
 because they suffer most from its deterioration." -- Explain. [2012, 30m]
 
+```ad-Answer
 
 
-
-
-
+```
 
 
 2. Critically examine the nature and scope of environmental movements in independent
 India. [2016, 10m]
+
+```ad-Answer
+
+1. Chipko Movement (1973): Led by Chandi Prasad Bhatt and Sunderlal Bahuguna in the Uttarakhand region of India, the Chipko Movement was a mass non-violent resistance to deforestation that began in response to government-sanctioned clear-cutting of trees. It is widely credited for raising awareness about the need for conservation of forests and for inspiring similar grassroots movements around the world. The consequences of this movement include the establishment of eco-development committees to protect forests and promote their sustainable management, as well as the passing of the Forest Conservation Act in 1980.
+
+2. Narmada Bachao Andolan (1985): Led by Medha Patkar, the Narmada Bachao Andolan was a mass non-violent movement to oppose the construction of several large dams on the Narmada River. The movement was largely successful in preventing the dams from being constructed, as well as in bringing attention to the need to consider the social and environmental impacts of large-scale development projects.
+
+3. Silent Valley Movement (1973): Led by environmental activists like M. Krishnan, this movement was organized to prevent the construction of a hydroelectric dam in the Silent Valley region of Kerala. This movement was successful in preventing the dam from being built, and also helped to establish the Silent Valley National Park in 1985.
+
+4. Save the Western Ghats Movement (1985): This movement was organized by environmental activist Sunita Narain to raise awareness about the need to protect the Western Ghats in India. The movement was successful in raising awareness and leading to the passing of the Western Ghats Ecology Authority Act in 2009.
+
+5. Goa Against Mining (2012): Led by Church groups, tribal groups and other civil society organizations, this movement was initiated to oppose illegal mining of iron ore in Goa. The movement was successful in temporarily halting mining operations in the state, and ensuring greater transparency and regulation of mining activities.
+
+6. Green Revolution (1960-70): The Green Revolution was a large-scale agricultural modernization effort led by the Government of India. Although it was successful in increasing food production and reducing hunger, it also had some negative environmental impacts due to increased water consumption, overuse of fertilizers and pesticides, and soil erosion.
+
+7. Anti-River Pollution Movement (1980s): Led by environmental activist Rajendra Singh and others, this movement was initiated to raise awareness about the need to clean up the polluted rivers in India. The movement was successful in leading to the passing of the National River Conservation Plan in 1995.
+
+8. Anti-Nuclear Movement (2008): Led by environmental activist Chunnibhai Vaidya and others, this was a nationwide protest against the Nuclear Power Corporation of India’s plan to build a nuclear power plant in Mithi Virdi, Gujarat. The movement was successful in leading to the cancellation of the project.
+
+9. Jan Satyagraha (2011): Led by Anna Hazare and Arvind Kejriwal, this was a nationwide protest for the passage of the Jan Lokpal Bill, which sought to create an independent and powerful ombudsman to investigate cases of corruption in India. The movement was successful in leading to the passage of the Lokpal and Lokayukta Act in 2013.
+
+10. Swachh Bharat Abhiyan (2014): Led by Prime Minister Narendra Modi, this was a nationwide cleanliness campaign launched to improve the sanitation and hygiene of India. The campaign has led to the construction of several million toilets, as well as a greater awareness of the need for proper sanitation and hygiene.
+
+```

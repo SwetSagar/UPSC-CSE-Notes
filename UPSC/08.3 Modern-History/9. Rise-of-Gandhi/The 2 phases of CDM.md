@@ -125,10 +125,9 @@ Delhi Man -> Lahore Res -> CDM -> 1st RTC -> G-Irwin pact -> 2nd RTC -> Communal
 
  
 
+## PYQs
 
-
-
-
+---
 
 
 1. Identify the main strands in the Civil Disobedience Movement with particular reference to the changing role of 'business pressures' in the country [1985, 60m]

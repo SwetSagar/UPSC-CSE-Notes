@@ -1,5 +1,7 @@
 # Nehru's Foreign Policy
+
 2020-04-26 19:47:25
+
 ```toc
 ```
 ---
@@ -26,7 +28,7 @@
 - Korean war 1950 IN supported US in UNSC, condemned NK as aggressor.
 - US crossed the 38th paralled till Yalu river which formed boundary of Korea and CN. CN then sent armed volunteers to push US south of 38th parallel.
 - IN sent **60 Para Field Ambulance** which was largest medical force in Korean war
-- Tested  IN faith in NAM
+- Tested IN faith in NAM
 
 ### Indo-China
 - US poured aid to French colonial power againt Viet Minh. Nehru wanted ceasefire.
@@ -50,7 +52,7 @@
 - US supported President Kasavubu, USSR backed Patrice Lumumba and Belgians the arm leader Mobutu.
 - Lumumba was murdered. IN asked UN for help and sent IN peace keepers which brought civil war to end.
 
-## Relations w/ superpowers
+## Relations w/ Superpowers
 
 ### USA
 - US stand on Kashmir inhibited friendship. UN commission reports of Pakistan being as aggressors were ignored. Food aids were kept hanging.
@@ -64,7 +66,7 @@
 ### USSR
 - Soveits were ambivalent saw IN as still being under imperialist influence. 
 - Further CPI insurgency in Telangana and IN decision to stay w/ commonwealth was seen as surrendering to imperialism.
-- 1951-52 it sent food shipments along w/ China. Stalin offered  a treaty of friendship.
+- 1951-52 it sent food shipments along w/ China. Stalin offered a treaty of friendship.
 - 1955 Nehru visited USSR, Krushchev reciprocated.
 - 1956 Comintern pacified Cold war stance by taking cognisance peaceful coexistence b/w countries belonging to diff social systems.
 - helped build Bhilai, Bokaro stell plants. Helped oil exploration.
@@ -75,43 +77,43 @@
 - IN USSR friendship checked border disputes w/ Soviets and CN.
 - Was most critical element of Indian Foreign Policy.
 
-Nehru's Foreign Policy; India and her neighbours (1947-1964)
+## PYQs
 
+---
+
+Nehru's Foreign Policy; India and her neighbours (1947-1964)
 
 1. Jawaharlal Nehru was the architect of India's policy of non-alignment. In the light of this
 statement discuss India's relations with the two 'Power Blocks' between 1947-1964. [2001,
 60m]
 
+```ad-Answer
 
 
-
-
-
+```
 
 
 2. Analyse Indian foreign policy of Non-alignment between 1947 and 1964. [2004, 60m]
 
+```ad-Answer
 
 
-
-
-
+```
 
 
 3. Would you agree that India's effort to pursue an independent foreign policy was a
 highlight of post-1947 politics? [2011, 30m]
 
+```ad-Answer
 
 
-
-
-
+```
 
 
 4. "Nehru's policy of Non-Alignment came to symbolised the struggle of India and other
-newly independent nations to retain and strengthen their independence from colonialism."
+newly independent nations to retain and strengthen their independence from colonialism." Critically evaluate. [2012, 10m]
+
+```ad-Answer
 
 
-
-
-Critically evaluate. [2012, 10m]
+```

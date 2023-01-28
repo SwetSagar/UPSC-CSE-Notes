@@ -1,6 +1,6 @@
 # NIS - Literary Sources of Medieval India (Overview)
 2020-04-29 22:10:44
-            
+
 ---
 
 
@@ -13,8 +13,7 @@
 | Al Biruni                | Tarikh-ul-Hind                           | Mahmud Ghazni's expedition and various aspect of common life in 11th century.                        |
 | Hasan Nizami             | Taj-ul-Maasir                            | History of Qutub ud din Aibak                                                                         |
 | Minhaj al Siraj          | Tabagat-i-Nasiri                         | 13th century work deals with Islamic history                                                          |
-| Amir Khusrau             | Tarikh-i-Ilahi, Khazain ul Fatah
-        | 13th-14th century deals with history of Balban to Giyasuddin Tughlaq                                  |
+| Amir Khusrau             | Tarikh-i-Ilahi, Khazain ul Fatah| 13th-14th century deals with history of Balban to Giyasuddin Tughlaq                                  |
 | Ziauddin Barani          | Tarikh-i-Firoze Shahi, Fatwa i Jahandari | 13th-14th century deals with functions and powers of state religion, politics etc.                    |
 | Firoz Shah Tughlaq       | Futuhat-i-Firoz Shahi                    | Summary of his military campaigns, religion etc                                                       |
 | Shams i Siraj Afif       | Tarikh i Firoz Shahi                     | History of the Tughlaq dynasty                                                                        |

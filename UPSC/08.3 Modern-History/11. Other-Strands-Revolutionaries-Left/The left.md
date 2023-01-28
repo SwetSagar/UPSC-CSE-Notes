@@ -1,5 +1,6 @@
 # The left
 2020-04-27 15:23:41
+
 ```toc
 ```
 ---
@@ -27,11 +28,23 @@
  
 
 
+## PYQs
+
+---
+
+1. Trace the course of the people's movement in Indian States after 1937. How did the Congress leadership react to it?
+
+```ad-Answer
 
 
 
+```
 
-
-1. Trace the course of the people's movement in Indian States after 1937. How did the
 
 1. At different periods and at various levels, the National Movement assumed social, cultural and economic dimensions. Amplify. [1988, 60m]
+
+```ad-Answer
+
+
+
+```

@@ -13,8 +13,6 @@
 ![[French-East-India-Company-image1-23544691.gif]]
 
 
-
-
 ##   Administrative limitation of FEIC 
 -  [x]   #todo 
 -  Inferior system of Governance in France which was despotic where everything depended on the personality of the Monarch

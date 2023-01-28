@@ -1,34 +1,39 @@
 # Deccan Uprising 1875
+
 2020-04-27 15:11:23
-            
+
 ---
- 
-![[Drawing 2022-09-13 17.48.18 Deccan Uprising.excalidraw | 700]]
+
+
+![[Drawing 2022-09-13 17.48.18 Deccan Uprising.excalidraw |400]]
 
 - Deccan Agrarian Outbreak in Poona and Ahmednagar (1875) :
--   Deccan Riots occured after the Gov decided to raise land revenue by 50% in 1867 after the end of American Civil War.
--   **Social boycott** against moneylenders ended with the passing of the **Deccan Agriculturist Relief Act** in 1879.
--   Poona, Ahmednagar, Sholapur and Satara.
+- Deccan Riots occured after the Gov decided to raise land revenue by 50% in 1867 after the end of American Civil War.
+- **Social boycott** against moneylenders ended with the passing of the **Deccan Agriculturist Relief Act** in 1879.
+- Poona, Ahmednagar, Sholapur and Satara.
 
 **Background**
--   Ryotwari system was prevalent here, Peasants found it impossible to give revenue without the lending money from Moneylenders.
--   American Civil War had pushed up demand and prices when it ended it brought recession. Govt inc. revenue demand by 50%, situation became worst by succession of bad harvest.
--   started in Kardab village in Sirur taluq against the pulling down of the house of a peasant by the local moneylender.
--   resorted to social boycott.
--   Spread to Poona, Ahmednagar, Sholapur and Satara.
--   soon turned into agrarian ryots, attacked the houses of moneylenders, burnt debt bonds and deeds and other documents.
--   very little violence was more a demonstration of popular feeling of strength and unity.
--   Colonial regime passed the Deccan Agriculturist Relief Act of 1879.
--   Poona Sarvajanik Sabha led by Justice Ranade organised successful campaign among the peasants and supported the DAR bill.
+
+- Ryotwari system was prevalent here, Peasants found it impossible to give revenue without the lending money from Moneylenders.
+- American Civil War had pushed up demand and prices when it ended it brought recession. Govt inc. revenue demand by 50%, situation became worst by succession of bad harvest.
+- started in Kardab village in Sirur taluq against the pulling down of the house of a peasant by the local moneylender.
+- resorted to social boycott.
+- Spread to Poona, Ahmednagar, Sholapur and Satara.
+- soon turned into agrarian ryots, attacked the houses of moneylenders, burnt debt bonds and deeds and other documents.
+- very little violence was more a demonstration of popular feeling of strength and unity.
+- Colonial regime passed the Deccan Agriculturist Relief Act of 1879.
+- Poona Sarvajanik Sabha led by Justice Ranade organised successful campaign among the peasants and supported the DAR bill.
 
 **Revolt and Analysis**
--   The interest on loans were 25-50%
--   Introduction of the Ryotwari system led to the disruption of traditional system of tax collection.
--   New laws and courts polarised the difference between the Vanis who were village moneylenders and Kunbis or the cultivators.
--   Along with the increase in the population, dislocation of the economy, enhancing of rents by the administrators
--   Deccan uprising against moneylenders and grain dealers.
--   Account papers/bahi khatas, bonds, grains, country cloth, house of moneylenders were burnt.
--   Sahukars were both moneylenders and traders
+
+- The interest on loans were 25-50%
+- Introduction of the Ryotwari system led to the disruption of traditional system of tax collection.
+- New laws and courts polarised the difference between the Vanis who were village moneylenders and Kunbis or the cultivators.
+- Along with the increase in the population, dislocation of the economy, enhancing of rents by the administrators
+- Deccan uprising against moneylenders and grain dealers.
+- Account papers/bahi khatas, bonds, grains, country cloth, house of moneylenders were burnt.
+- Sahukars were both moneylenders and traders
+
 ```ad-Views
 -   **David Hardiman** : peasants incorporated their uprising into a long tradition of revolt in Maha.
 -   **Ravinder Kumar** : cause was redistribution of social power in villages
@@ -37,15 +42,7 @@
 -   **Charlesworth** : inc rates not the reason as Ahmadnagar most affected did not face tax revision
 ```
 
--   1867 gov inc rev rates
--   Kunbi were peasants
--   Poona Sarvajanik Sabha's report : Bombay gov giving major consessions sell movable property then land etc - moneylenders not giving loans insufficient collateral
--   Other factors - end of Am civil war, ill conceived tax revision, Kunbis vs sahukars
--   
-
-
-
-
-
-
-
+- 1867 gov inc rev rates
+- Kunbi were peasants
+- Poona Sarvajanik Sabha's report : Bombay gov giving major consessions sell movable property then land etc - moneylenders not giving loans insufficient collateral
+- Other factors - end of Am civil war, ill conceived tax revision, Kunbis vs sahukars

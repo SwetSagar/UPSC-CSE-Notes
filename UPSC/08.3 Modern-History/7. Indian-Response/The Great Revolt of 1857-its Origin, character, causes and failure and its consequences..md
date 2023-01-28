@@ -1,5 +1,6 @@
 # The Great Revolt of 1857 - its Origin, character, causes and failure and its consequences.
-2020-04-27 15:11:42
+2020-04-27 15:11 :42
+
 ```toc
 ```
 ---
@@ -116,4 +117,96 @@
 - RC Majumdar : concluded that it was first national war of Independence is neither First nor National nor War of Independence. 
 - Sen Concludes that What began as fight for religion ended as War of Indpendence since they wanted to get rid of the alien govt and restore old King.
 
+## PYQs
+---
+
+
+**The Great Revolt of 1857, - Origin, character, causes of failure, the consequences**
+
+
+1. Critically examine the nature of the Revolt of 1857. How did it affect the British policy in India after 1858? [1980, 60m]
+-   [Consequnces of Revolt :](onenote: [[The]] %20Great%20Revolt%20of%201857%20-%20its%20Origin,%20character,%20causes%20and%20failure%20and%20its%20consequences.&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={1B5E51BA-DD4E-43D7-9024-76A97139073D}&object-id={88ADB685-17B8-47AA-8747-89CC5BF66580}&C0&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
+
+
+
+
+2. "The Mutiny was not inevitable in 1857, but it was inherent in the constitution of the Empire." Comment. [1983, 20m]
+-   [Feudal elements and big landlords were common in rebellion](onenote: [[The]] %20Great%20Revolt%20of%201857%20-%20its%20Origin,%20character,%20causes%20and%20failure%20and%20its%20consequences.&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={1B5E51BA-DD4E-43D7-9024-76A97139073D}&object-id={3FB8FA41-D324-477B-BAB0-6DB508E5D9B6}&1C&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
+
+
+
+
+3. "On the whole, it is difficult to avoid the conclusion that the so-called First National War of Independence was neither First, nor National, nor a war of Independence." Comment.
+[1985, 20m]
+-   [Feudal elements and big landlords were common in rebellion](onenote: [[The]] %20Great%20Revolt%20of%201857%20-%20its%20Origin,%20character,%20causes%20and%20failure%20and%20its%20consequences.&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={1B5E51BA-DD4E-43D7-9024-76A97139073D}&object-id={3FB8FA41-D324-477B-BAB0-6DB508E5D9B6}&1C&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
+
+
+
+
+4. "Whatever might have been its original character, it (Rebellion of 1857) soon became a symbol of challenge to the mighty British power in India." Comment. [1988, 20m]
+-   [Leader of Revolt at Lucknow - Begum Hazrat Mahal and](onenote: [[The]] %20Great%20Revolt%20of%201857%20-%20its%20Origin,%20character,%20causes%20and%20failure%20and%20its%20consequences.&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={1B5E51BA-DD4E-43D7-9024-76A97139073D}&object-id={88ADB685-17B8-47AA-8747-89CC5BF66580}&30&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
+-   More content needed on this
+-   
+
+
+
+
+
+5. "The new attitude of caution and conservatism can be detected in almost every sphere of British activity in India after the Revolt of 1857." Comment. [1994, 20m]
+-   [Consequnces of Revolt :](onenote: [[The]] %20Great%20Revolt%20of%201857%20-%20its%20Origin,%20character,%20causes%20and%20failure%20and%20its%20consequences.&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={1B5E51BA-DD4E-43D7-9024-76A97139073D}&object-id={88ADB685-17B8-47AA-8747-89CC5BF66580}&C0&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
+-   More content needed on this
+
+
+
+
+6. Examine the nature of the Revolt of 1857 and indicate the manifold changes in British civil and military administration of India after 1857. [1998, 60m]
+-   [SB Chaudhuri - Baniya and Mahajan communities became victims of](onenote: [[The]] %20Great%20Revolt%20of%201857%20-%20its%20Origin,%20character,%20causes%20and%20failure%20and%20its%20consequences.&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={1B5E51BA-DD4E-43D7-9024-76A97139073D}&object-id={3FB8FA41-D324-477B-BAB0-6DB508E5D9B6}&1F&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
+-   [Elitist?](onenote: [[The]] %20Great%20Revolt%20of%201857%20-%20its%20Origin,%20character,%20causes%20and%20failure%20and%20its%20consequences.&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={1B5E51BA-DD4E-43D7-9024-76A97139073D}&object-id={3FB8FA41-D324-477B-BAB0-6DB508E5D9B6}&49&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
+
+
+
+
+7. Do you believe that the uprising in 1857 was nationalist in nature? If not, what was its character? [1999, 60m]
+-   [SB Chaudhuri - Baniya and Mahajan communities became victims of](onenote: [[The]] %20Great%20Revolt%20of%201857%20-%20its%20Origin,%20character,%20causes%20and%20failure%20and%20its%20consequences.&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={1B5E51BA-DD4E-43D7-9024-76A97139073D}&object-id={3FB8FA41-D324-477B-BAB0-6DB508E5D9B6}&1F&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
+
+
+
+
+8. "Whatever might have been its original character, it (Rebellion of 1857) soon became a symbol of challenge to the mighty British power in India." Comment. [2005, 20m]
+-   [Leader of Revolt at Lucknow - Begum Hazrat Mahal and](onenote: [[The]] %20Great%20Revolt%20of%201857%20-%20its%20Origin,%20character,%20causes%20and%20failure%20and%20its%20consequences.&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={1B5E51BA-DD4E-43D7-9024-76A97139073D}&object-id={88ADB685-17B8-47AA-8747-89CC5BF66580}&30&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
+-   More content needed on this
+
+
+
+
+9. "The Revolt of 1857 seemed to call the very presence of the British into question. What it did not do was reverse these changes." Comment. [2007, 20m]
+-   [Reasons for failure :](onenote: [[The]] %20Great%20Revolt%20of%201857%20-%20its%20Origin,%20character,%20causes%20and%20failure%20and%20its%20consequences.&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={1B5E51BA-DD4E-43D7-9024-76A97139073D}&object-id={88ADB685-17B8-47AA-8747-89CC5BF66580}&83&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
+
+
+
+
+10. "The annexation of Awadh shook the loyalty of these Sepoys, as it was for them an ultimate proof of untrustworthiness of the British." Comment. [2009, 20m]
+-   [Sepoys were mostly from Oudh, which was annexed for misgovernment](onenote: [[The]] %20Great%20Revolt%20of%201857%20-%20its%20Origin,%20character,%20causes%20and%20failure%20and%20its%20consequences.&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={1B5E51BA-DD4E-43D7-9024-76A97139073D}&object-id={88ADB685-17B8-47AA-8747-89CC5BF66580}&6E&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
+-   [7th Oudh regiment and 34th Native Infantry also revolted.](onenote: [[The]] %20Great%20Revolt%20of%201857%20-%20its%20Origin,%20character,%20causes%20and%20failure%20and%20its%20consequences.&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={1B5E51BA-DD4E-43D7-9024-76A97139073D}&object-id={88ADB685-17B8-47AA-8747-89CC5BF66580}&2C&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
+-   [Awadh :](onenote: [[The]] %20Great%20Revolt%20of%201857%20-%20its%20Origin,%20character,%20causes%20and%20failure%20and%20its%20consequences.&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={1B5E51BA-DD4E-43D7-9024-76A97139073D}&object-id={D4F9DE84-053C-4416-89F3-64ABFFB389F4}&B&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
+
+
+
+
+11. "In 1857, the rebel sepoys showed a remarkable centripetal tendency to congregate at Delhi." Do you agree? Substantiate. [2011, 30m]
+-   [Delhi was captured and Simon Fraser, the Political Agent and](onenote: [[The]] %20Great%20Revolt%20of%201857%20-%20its%20Origin,%20character,%20causes%20and%20failure%20and%20its%20consequences.&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={1B5E51BA-DD4E-43D7-9024-76A97139073D}&object-id={88ADB685-17B8-47AA-8747-89CC5BF66580}&18&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
+-   More factual content needed
+
+
+
+
+12. "The military, feudal and traditional overtones of the Revolt of 1857 were overshadowed by its nationalist or proto-nationalist character." Critically examine. [2014, 10m]
+-   [SB Chaudhuri - Baniya and Mahajan communities became victims of](onenote: [[The]] %20Great%20Revolt%20of%201857%20-%20its%20Origin,%20character,%20causes%20and%20failure%20and%20its%20consequences.&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={1B5E51BA-DD4E-43D7-9024-76A97139073D}&object-id={3FB8FA41-D324-477B-BAB0-6DB508E5D9B6}&1F&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
+ 
+
+
+
+13. "The Mutiny of 1857 was much more than a Mutiny of Sepoys and much less than a National Rebellion." Comment. [2016, 10m]
+-   [SB Chaudhuri - Baniya and Mahajan communities became victims of](onenote: [[The]] %20Great%20Revolt%20of%201857%20-%20its%20Origin,%20character,%20causes%20and%20failure%20and%20its%20consequences.&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={1B5E51BA-DD4E-43D7-9024-76A97139073D}&object-id={3FB8FA41-D324-477B-BAB0-6DB508E5D9B6}&1F&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
+-   [Elitist?](onenote: [[The]] %20Great%20Revolt%20of%201857%20-%20its%20Origin,%20character,%20causes%20and%20failure%20and%20its%20consequences.&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={1B5E51BA-DD4E-43D7-9024-76A97139073D}&object-id={3FB8FA41-D324-477B-BAB0-6DB508E5D9B6}&49&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
 

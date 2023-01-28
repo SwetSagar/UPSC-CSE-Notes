@@ -49,7 +49,24 @@
  - In 1909 wife of Jawaharlal Nehru set up Prayad Mahila Samiti in Allahabad. She also set up a newspaper called the Mahila Darpan
  
 
- 
+## PYQs
+---
+
+**Women and Indian youth and students in Indian politics (1885-1947)**
+
+
+
+
+1."The active participation of Aruna Asaf Ali in 1942 movement symbolized the role of women in India's freedom struggle." Comment. [2010, 20m]
+-   
+
+
+
+
+
+2. What significant role did women play in the Indian National Movement? [2016, 20m]
+-   
+
 
 
 

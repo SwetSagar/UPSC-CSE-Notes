@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/* Settings */
+.ankibridge-search {
+  width: calc(100% - 20px);
+  margin: 0 14px 0 14px;
+}
+
+.ankibridge-settings-support {
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+.ankibridge-settings-support img {
+  margin: auto;
+  display: block;
+}
+
+div.ankibridge-card {
+  overflow: hidden;
+  page-break-inside: avoid;
+  background-color: var(--background-secondary);
+  border-radius: 8px;
+  box-shadow: 0 0.2rem 0.5rem var(--background-modifier-box-shadow);
+  position: relative;
+  margin: 15px 0;
+}
+div.ankibridge-card:hover div.ankibridge-card-container div.ankibridge-card-config {
+  transform: translateX(0%);
+  opacity: 1;
+}
+div.ankibridge-card.error {
+  background-color: var(--background-modifier-error);
+}
+div.ankibridge-card div.ankibridge-card-container {
+  margin: 20px 25px;
+}
+div.ankibridge-card div.ankibridge-card-container div.ankibridge-card-config {
+  padding: 0.4rem 1rem;
+  z-index: 999999;
+  top: calc(0% + 1.5rem);
+  right: calc(0% + 1.5rem);
+  position: absolute;
+  background-color: var(--interactive-accent);
+  border-radius: 8px;
+  transition: transform 0.2s ease-out, opacity 0.2s ease-in;
+  transform: translateX(100%);
+  opacity: 0;
+}
+div.ankibridge-card div.ankibridge-card-container div.ankibridge-card-config::before {
+  content: "Card configuration";
+  font-weight: bold;
+  font-size: 18px;
+}
+div.ankibridge-card div.ankibridge-card-container div.ankibridge-card-config span.ankibridge-card-config-entry {
+  display: block;
+  font-weight: normal;
+  font-size: 15px;
+  font-family: var(--font-monospace);
+  margin-top: 0.1rem;
+  margin-right: 0px;
+}
+div.ankibridge-card div.ankibridge-card-container div.ankibridge-card-config span.ankibridge-card-config-entry::before {
+  font-family: var(--default-font);
+  font-weight: bold;
+  padding-right: 0.3rem;
+}
+div.ankibridge-card div.ankibridge-card-container div.ankibridge-card-config span.ankibridge-card-config-entry:first-child {
+  margin-top: 0.5rem;
+}
+div.ankibridge-card div.ankibridge-card-container div.ankibridge-card-config span.ankibridge-card-config-entry[data-type=id]::before {
+  content: "ID:";
+}
+div.ankibridge-card div.ankibridge-card-container div.ankibridge-card-config span.ankibridge-card-config-entry[data-type=deck]::before {
+  content: "Deck:";
+}
+div.ankibridge-card div.ankibridge-card-container div.ankibridge-card-config span.ankibridge-card-config-entry[data-type=tags]::before {
+  content: "Tags:";
+}
+div.ankibridge-card div.ankibridge-card-container div.ankibridge-card-config span.ankibridge-card-config-entry[data-type=cloze], div.ankibridge-card div.ankibridge-card-container div.ankibridge-card-config span.ankibridge-card-config-entry[data-type=enabled], div.ankibridge-card div.ankibridge-card-container div.ankibridge-card-config span.ankibridge-card-config-entry[data-type=delete] {
+  font-size: 0;
+  visibility: hidden;
+}
+div.ankibridge-card div.ankibridge-card-container div.ankibridge-card-config span.ankibridge-card-config-entry[data-type=cloze]::before, div.ankibridge-card div.ankibridge-card-container div.ankibridge-card-config span.ankibridge-card-config-entry[data-type=cloze]::after, div.ankibridge-card div.ankibridge-card-container div.ankibridge-card-config span.ankibridge-card-config-entry[data-type=enabled]::before, div.ankibridge-card div.ankibridge-card-container div.ankibridge-card-config span.ankibridge-card-config-entry[data-type=enabled]::after, div.ankibridge-card div.ankibridge-card-container div.ankibridge-card-config span.ankibridge-card-config-entry[data-type=delete]::before, div.ankibridge-card div.ankibridge-card-container div.ankibridge-card-config span.ankibridge-card-config-entry[data-type=delete]::after {
+  font-size: 15px;
+  visibility: visible;
+}
+div.ankibridge-card div.ankibridge-card-container div.ankibridge-card-config span.ankibridge-card-config-entry[data-type=cloze][data-value=false]::after, div.ankibridge-card div.ankibridge-card-container div.ankibridge-card-config span.ankibridge-card-config-entry[data-type=enabled][data-value=false]::after, div.ankibridge-card div.ankibridge-card-container div.ankibridge-card-config span.ankibridge-card-config-entry[data-type=delete][data-value=false]::after {
+  content: "❌";
+}
+div.ankibridge-card div.ankibridge-card-container div.ankibridge-card-config span.ankibridge-card-config-entry[data-type=cloze][data-value=true]::after, div.ankibridge-card div.ankibridge-card-container div.ankibridge-card-config span.ankibridge-card-config-entry[data-type=enabled][data-value=true]::after, div.ankibridge-card div.ankibridge-card-container div.ankibridge-card-config span.ankibridge-card-config-entry[data-type=delete][data-value=true]::after {
+  content: "✔";
+}
+div.ankibridge-card div.ankibridge-card-container div.ankibridge-card-config span.ankibridge-card-config-entry[data-type=cloze]::before {
+  content: "Cloze";
+}
+div.ankibridge-card div.ankibridge-card-container div.ankibridge-card-config span.ankibridge-card-config-entry[data-type=enabled]::before {
+  content: "Enabled:";
+}
+div.ankibridge-card div.ankibridge-card-container div.ankibridge-card-config span.ankibridge-card-config-entry[data-type=delete]::before {
+  content: "Delete:";
+}
+div.ankibridge-card div.ankibridge-card-container div.ankibridge-card-fields div.ankibridge-card-separator {
+  height: 0.25rem;
+  border-radius: 0.15rem;
+  margin: 1rem 0;
+  background-color: var(--background-modifier-border);
+}
+div.markdown-reading-view div.ankibridge-card-parent {
+  padding: 4px;
+}
+
+div.is-live-preview mark {
+  background-color: var(--text-highlight-bg);
+  color: var(--text-normal);
+}
+div.is-live-preview div.cm-preview-code-block.cm-embed-block.ankibridge-card-parent {
+  border: 0;
+}
+div.is-live-preview div.cm-preview-code-block.cm-embed-block.ankibridge-card-parent div.ankibridge-card div.ankibridge-card-fields .ankibridge-card-content ul {
+  white-space: normal;
+}
+div.is-live-preview div.cm-preview-code-block.cm-embed-block.ankibridge-card-parent div.ankibridge-card div.ankibridge-card-fields .ankibridge-card-content > * {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 1.5;
+}
+div.is-live-preview div.cm-preview-code-block.cm-embed-block.ankibridge-card-parent div.ankibridge-card div.ankibridge-card-fields .ankibridge-card-content > * br {
+  display: none;
+}
+
+/* Hide Anki tags */
+.markdown-preview-view a.tag[href^="#anki"] {
+  display: none;
+}
+
+/* Hide Anki configurations */
+.markdown-preview-view div > pre.language-anki-config {
+  display: none;
+}

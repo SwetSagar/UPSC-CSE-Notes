@@ -1,56 +1,39 @@
 # English Utilitarian and India
+
 2020-04-27 15:01:15
-            
+
 ---
 
-
--   **British liberalism** : Macaulays liberal vision that BR adm task was for emancipation of IN through active governance
--   Led to birth of Utilitarialism w/ authoritarian tendencies
--   Character of British Utilitarianism : Good laws, efficient adm
--   **James Stuart Mill** 
-	- tranformed it to a militant faith, 
-	- said that IN wanted effective schoolmaster, 
+- **British liberalism** : Macaulays liberal vision that BR adm task was for emancipation of IN through active governance
+- Led to birth of Utilitarialism w/ authoritarian tendencies
+- Character of British Utilitarianism : Good laws, efficient adm
+- **James Stuart Mill**
+	- tranformed it to a militant faith,
+	- said that IN wanted effective schoolmaster,
 	- law comm 1833, penal code 1835 estd based on Benthamite model
-	-   Mill favoured vernacular ed
--   Macaulays Education Minute 1835 to further Eng edu among masses
--   Bentick followed middle path abolished infanticide, sati but also retained faith in IN traditions
--   Post 1857 **Victorian liberalism** became dominant ideology - ==reform was pointless and dangerous==
--   ==Authoritarian Liberalism of James Fitzjames Stephen==
--   Rise of racial sciences, white civilised, natives savages
- 
+	- Mill favoured vernacular ed
+- Macaulays Education Minute 1835 to further Eng edu among masses
+- Bentick followed middle path abolished infanticide, sati but also retained faith in IN traditions
+- Post 1857 **Victorian liberalism** became dominant ideology - ==reform was pointless and dangerous==
+- ==Authoritarian Liberalism of James Fitzjames Stephen==
+- Rise of racial sciences, white civilised, natives savages
 
+## PYQs
 
-
-
-
-
+---
 
 1. Assess the impact of the utilitarian ideas in molding the British attitude towards India. How did the utilitarian try to solve the problem of land revenue? [1992, 60m]
--   [British liberalism - Macaulays liberal vision that B adm task](onenote:[[English]]%20Utilitarian%20and%20India&section-id={54CE4946-F610-4788-AADF-7A455FA668C1}&page-id={4CD10A4D-4448-4323-9195-485C2EDE07F0}&object-id={2527ADA6-1731-4A16-9F43-FD154E214D92}&C&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Early%20Structure%20of%20the%20Raj.one)
--   [Utilitarian ideas influenced Munro, Elphinstone took initiative](onenote:Economic%20Impact.one#Ryotwari%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={ABF07ED1-9C9B-4FD5-84A4-E34231F1102D}&object-id={6BDF00B1-0AFB-499E-81AD-89CC1E99E55D}&1F&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I)
+- [British liberalism - Macaulays liberal vision that B adm task](onenote:[[English]]%20Utilitarian%20and%20India&section-id={54CE4946-F610-4788-AADF-7A455FA668C1}&page-id={4CD10A4D-4448-4323-9195-485C2EDE07F0}&object-id={2527ADA6-1731-4A16-9F43-FD154E214D92}&C&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Early%20Structure%20of%20the%20Raj.one)
+- [Utilitarian ideas influenced Munro, Elphinstone took initiative](onenote:Economic%20Impact.one#Ryotwari%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={ABF07ED1-9C9B-4FD5-84A4-E34231F1102D}&object-id={6BDF00B1-0AFB-499E-81AD-89CC1E99E55D}&1F&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I)
 
+1. "The British Indian State experienced the 'wind of change' with the arrival of Lord William Bentinck." Comment. [1999, 20m]
+- [William Bentick as GG, changes brought by him :](onenote:[[Policies]]%20of%20Gov%20Generals%20%20&section-id={54CE4946-F610-4788-AADF-7A455FA668C1}&page-id={E5FBE8B6-A85A-42AD-B268-83FE2FAC096D}&object-id={DC43EA76-0667-416B-AC11-BAC7159D6D16}&10&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Early%20Structure%20of%20the%20Raj.one)
 
+1. "Sprung from paternalism, the English Utilitarian philosophy as introduced in India rejected its human warmth between rulers and the ruled." Comment. [2008, 20m]
+- [English Utilitarian and India](onenote:[[English]]%20Utilitarian%20and%20India&section-id={54CE4946-F610-4788-AADF-7A455FA668C1}&page-id={4CD10A4D-4448-4323-9195-485C2EDE07F0}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Early%20Structure%20of%20the%20Raj.one)
 
+1. "James Mill, the apostle of utilitarian philosophy, proposed a revolution off Indian society through the 'weapon of law' solely. But in actual policy framing, other influences and considerations weighed much more than the colonial State." Elucidate. [2015, 20m]
+- [English Utilitarian and India](onenote:[[English]]%20Utilitarian%20and%20India&section-id={54CE4946-F610-4788-AADF-7A455FA668C1}&page-id={4CD10A4D-4448-4323-9195-485C2EDE07F0}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Early%20Structure%20of%20the%20Raj.one)
 
-2. "The British Indian State experienced the 'wind of change' with the arrival of Lord William Bentinck." Comment. [1999, 20m]
--   [William Bentick as GG, changes brought by him :](onenote:[[Policies]]%20of%20Gov%20Generals%20%20&section-id={54CE4946-F610-4788-AADF-7A455FA668C1}&page-id={E5FBE8B6-A85A-42AD-B268-83FE2FAC096D}&object-id={DC43EA76-0667-416B-AC11-BAC7159D6D16}&10&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Early%20Structure%20of%20the%20Raj.one)
-
-
-
-
-3. "Sprung from paternalism, the English Utilitarian philosophy as introduced in India rejected its human warmth between rulers and the ruled." Comment. [2008, 20m]
--   [English Utilitarian and India](onenote:[[English]]%20Utilitarian%20and%20India&section-id={54CE4946-F610-4788-AADF-7A455FA668C1}&page-id={4CD10A4D-4448-4323-9195-485C2EDE07F0}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Early%20Structure%20of%20the%20Raj.one)
-
-
-
-
-
-
-4. "James Mill, the apostle of utilitarian philosophy, proposed a revolution off Indian society through the 'weapon of law' solely. But in actual policy framing, other influences and considerations weighed much more than the colonial State." Elucidate. [2015, 20m]
--   [English Utilitarian and India](onenote:[[English]]%20Utilitarian%20and%20India&section-id={54CE4946-F610-4788-AADF-7A455FA668C1}&page-id={4CD10A4D-4448-4323-9195-485C2EDE07F0}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Early%20Structure%20of%20the%20Raj.one)
- 
-
-
-
-5. "Peace had her victories no less renowned than war." Examine this statement with reference to Lord William Bentinck. [2016, 20m]
--   [William Bentick as GG, changes brought by him :](onenote:[[Policies]]%20of%20Gov%20Generals%20%20&section-id={54CE4946-F610-4788-AADF-7A455FA668C1}&page-id={E5FBE8B6-A85A-42AD-B268-83FE2FAC096D}&object-id={DC43EA76-0667-416B-AC11-BAC7159D6D16}&10&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Early%20Structure%20of%20the%20Raj.one)
+1. "Peace had her victories no less renowned than war." Examine this statement with reference to Lord William Bentinck. [2016, 20m]
+- [William Bentick as GG, changes brought by him :](onenote: [[Policies]] %20of%20Gov%20Generals%20%20&section-id={54CE4946-F610-4788-AADF-7A455FA668C1}&page-id={E5FBE8B6-A85A-42AD-B268-83FE2FAC096D}&object-id={DC43EA76-0667-416B-AC11-BAC7159D6D16}&10&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Early%20Structure%20of%20the%20Raj.one )

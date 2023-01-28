@@ -1,0 +1,23 @@
+# Petroleum, Mineral Oil and Natural Gas
+2020-07-17 19:35:05
+```toc
+```   
+---
+-   Obtained from **sedimentary** rocks that are porous, permeable, capped by impermeable rock
+-   90-95% Hydrogen rest organic compounds viz O2, N2, S
+-   Collected in ==anticlines or fault traps==
+-   In Mumbai High, Gulf of Khambat and Assam
+-   Other areas are Brahmaputa valley of NE India, Barmer in Rajasthan, Gujarat coast, Cauvery on shore basin, Andhra P.
+-   Refineries in Assam are Digboi, Guwahati, Bongaigaon, Barauni.
+-   Off shore in Mumbai high, Bassein and Aliabet.
+-   Naharkatia-Nunmati-Barauni Pipeline India's first pipeline.
+ 
+
+![Sea I nisey KÉatanga Northern NC*th Sea Western Siberian Region Guioi Belt SJVenezOel' Northern Nige Delta ](Petroleum,-Mineral-Oil-and-Nat-image1-00094392.png)
+ 
+
+
+
+
+
+

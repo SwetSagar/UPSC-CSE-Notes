@@ -1,11 +1,35 @@
 # Political Change in Eastern Europe 1989-2001
-2020-04-27 15:44:17
+2020-04-27 15:44 :17
+#review 
 ```toc
 ```
 ---
 
 
 - [ ] #todo 
+
+## List of Changes that ocurred in Eastern Europe
+
+1. The fall of the Berlin Wall in 1989 and the subsequent reunification of Germany.
+2. The Velvet Revolution in Czechoslovakia in 1989, leading to the dissolution of the country in 1993.
+3. The overthrow of the Communist regime in Romania in 1989.
+4. The overthrow of the Communist regime in Bulgaria in 1989.
+5. The overthrow of the Communist regime in Hungary in 1989.
+6. The overthrow of the Communist regime in Poland in 1989.
+7. The overthrow of the Communist regime in East Germany in 1989.
+8. The overthrow of the Communist regime in Albania in 1991.
+9. The dissolution of the Soviet Union in 1991.
+10. The overthrow of the Communist regime in Lithuania in 1991.
+11. The overthrow of the Communist regime in Latvia in 1991.
+12. The overthrow of the Communist regime in Estonia in 1991.
+13. The dissolution of Czechoslovakia in 1993.
+14. The overthrow of the Communist regime in Belarus in 1994.
+15. The overthrow of the Communist regime in Ukraine in 1994.
+16. The overthrow of the Communist regime in Moldova in 1994.
+17. The overthrow of the Communist regime in Yugoslavia in 2000.
+18. The overthrow of the Communist regime in Macedonia in 2001.
+19. The accession of the Czech Republic and Slovakia to the European Union in 2004.
+20. The accession of Bulgaria and Romania to the European Union in 2007.
 
 
 ## PYQs

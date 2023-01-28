@@ -1,3 +1,7 @@
+---
+uid: 03410b08fde2e5cb76b594b4ce068c4c
+---
+
 - [[8. History-Optional/Ancient-History/Part-II/1. Mauryan-Empire/1.4 Ashoka,-Concept-of-Dharma.md]]
 - [[8. History-Optional/Ancient-History/Part-II/1. Mauryan-Empire/1.5 Edicts.md]]
 - [[8. History-Optional/Ancient-History/Part-II/2. Post-Maurayan (Indo-Greeks-Shakas-Kushanas)/2.1 Contact-with-Outside-World.md]]

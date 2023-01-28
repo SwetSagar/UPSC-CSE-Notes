@@ -76,7 +76,7 @@ var Effects = null;
 var ExecCount = 0;
 var [transPending, setTransPending] = /* @__PURE__ */ createSignal(false);
 function createRoot(fn, detachedOwner) {
-  const listener = Listener, owner = Owner, unowned = fn.length === 0, root = unowned && true ? UNOWNED : {
+  const listener = Listener, owner = Owner, unowned = fn.length === 0, root = unowned ? UNOWNED : {
     owned: null,
     cleanups: null,
     context: null,
@@ -139,11 +139,13 @@ function createMemo(fn, value, options) {
   return readSignal.bind(c);
 }
 function untrack(fn) {
-  let result, listener = Listener;
+  const listener = Listener;
   Listener = null;
-  result = fn();
-  Listener = listener;
-  return result;
+  try {
+    return fn();
+  } finally {
+    Listener = listener;
+  }
 }
 function onMount(fn) {
   createEffect(() => untrack(fn));
@@ -198,7 +200,7 @@ function startTransition(fn) {
     return t ? t.done : void 0;
   });
 }
-function createContext(defaultValue) {
+function createContext(defaultValue, options) {
   const id = Symbol("context");
   return {
     id,
@@ -212,12 +214,12 @@ function useContext(context) {
 }
 function children(fn) {
   const children2 = createMemo(fn);
-  const memo2 = createMemo(() => resolveChildren(children2()));
-  memo2.toArray = () => {
-    const c = memo2();
+  const memo = createMemo(() => resolveChildren(children2()));
+  memo.toArray = () => {
+    const c = memo();
     return Array.isArray(c) ? c : c != null ? [c] : [];
   };
-  return memo2;
+  return memo;
 }
 var SuspenseContext;
 function readSignal() {
@@ -308,7 +310,9 @@ function updateComputation(node) {
     queueMicrotask(() => {
       runUpdates(() => {
         Transition && (Transition.running = true);
+        Listener = Owner = node;
         runComputation(node, node.tValue, time);
+        Listener = Owner = null;
       }, false);
     });
   }
@@ -320,8 +324,17 @@ function runComputation(node, value, time) {
   try {
     nextValue = node.fn(value);
   } catch (err) {
-    if (node.pure)
-      Transition && Transition.running ? node.tState = STALE : node.state = STALE;
+    if (node.pure) {
+      if (Transition && Transition.running) {
+        node.tState = STALE;
+        node.tOwned && node.tOwned.forEach(cleanNode);
+        node.tOwned = void 0;
+      } else {
+        node.state = STALE;
+        node.owned && node.owned.forEach(cleanNode);
+        node.owned = null;
+      }
+    }
     handleError(err);
   }
   if (!node.updatedAt || node.updatedAt <= time) {
@@ -449,39 +462,41 @@ function completeUpdates(wait) {
   if (wait)
     return;
   let res;
-  if (Transition && Transition.running) {
-    if (Transition.promises.size || Transition.queue.size) {
+  if (Transition) {
+    if (!Transition.promises.size && !Transition.queue.size) {
+      const sources = Transition.sources;
+      const disposed = Transition.disposed;
+      Effects.push.apply(Effects, Transition.effects);
+      res = Transition.resolve;
+      for (const e2 of Effects) {
+        "tState" in e2 && (e2.state = e2.tState);
+        delete e2.tState;
+      }
+      Transition = null;
+      runUpdates(() => {
+        for (const d of disposed)
+          cleanNode(d);
+        for (const v of sources) {
+          v.value = v.tValue;
+          if (v.owned) {
+            for (let i = 0, len = v.owned.length; i < len; i++)
+              cleanNode(v.owned[i]);
+          }
+          if (v.tOwned)
+            v.owned = v.tOwned;
+          delete v.tValue;
+          delete v.tOwned;
+          v.tState = 0;
+        }
+        setTransPending(false);
+      }, false);
+    } else if (Transition.running) {
       Transition.running = false;
       Transition.effects.push.apply(Transition.effects, Effects);
       Effects = null;
       setTransPending(true);
       return;
     }
-    const sources = Transition.sources;
-    const disposed = Transition.disposed;
-    res = Transition.resolve;
-    for (const e2 of Effects) {
-      "tState" in e2 && (e2.state = e2.tState);
-      delete e2.tState;
-    }
-    Transition = null;
-    runUpdates(() => {
-      for (const d of disposed)
-        cleanNode(d);
-      for (const v of sources) {
-        v.value = v.tValue;
-        if (v.owned) {
-          for (let i = 0, len = v.owned.length; i < len; i++)
-            cleanNode(v.owned[i]);
-        }
-        if (v.tOwned)
-          v.owned = v.tOwned;
-        delete v.tValue;
-        delete v.tOwned;
-        v.tState = 0;
-      }
-      setTransPending(false);
-    }, false);
   }
   const e = Effects;
   Effects = null;
@@ -505,10 +520,6 @@ function scheduleQueue(queue) {
         runUpdates(() => {
           Transition.running = true;
           runTop(item);
-          if (!tasks.size) {
-            Effects.push.apply(Effects, Transition.effects);
-            Transition.effects = [];
-          }
         }, false);
         Transition && (Transition.running = false);
       });
@@ -640,7 +651,7 @@ function resolveChildren(children2) {
   }
   return children2;
 }
-function createProvider(id) {
+function createProvider(id, options) {
   return function provider(props) {
     let res;
     createRenderEffect(() => res = untrack(() => {
@@ -648,7 +659,7 @@ function createProvider(id) {
         [id]: props.value
       };
       return children(() => props.children);
-    }));
+    }), void 0);
     return res;
   };
 }
@@ -764,7 +775,7 @@ function For(props) {
   const fallback = "fallback" in props && {
     fallback: () => props.fallback
   };
-  return createMemo(mapArray(() => props.each, props.children, fallback ? fallback : void 0));
+  return createMemo(mapArray(() => props.each, props.children, fallback || void 0));
 }
 function Show(props) {
   let strictEqual = false;
@@ -781,11 +792,12 @@ function Show(props) {
       return fn ? untrack(() => child(c)) : child;
     }
     return props.fallback;
-  });
+  }, void 0, void 0);
 }
 function Switch(props) {
   let strictEqual = false;
   let keyed = false;
+  const equals = (a, b) => a[0] === b[0] && (strictEqual ? a[1] === b[1] : !a[1] === !b[1]) && a[2] === b[2];
   const conditions = children(() => props.children), evalConditions = createMemo(() => {
     let conds = conditions();
     if (!Array.isArray(conds))
@@ -799,7 +811,7 @@ function Switch(props) {
     }
     return [-1];
   }, void 0, {
-    equals: (a, b) => a[0] === b[0] && (strictEqual ? a[1] === b[1] : !a[1] === !b[1]) && a[2] === b[2]
+    equals
   });
   return createMemo(() => {
     const [index, when, cond] = evalConditions();
@@ -809,7 +821,7 @@ function Switch(props) {
     const fn = typeof c === "function" && c.length > 0;
     strictEqual = keyed || fn;
     return fn ? untrack(() => c(when)) : c;
-  });
+  }, void 0, void 0);
 }
 function Match(props) {
   return props;
@@ -820,7 +832,7 @@ function ErrorBoundary(props) {
   let v;
   if (sharedConfig.context && sharedConfig.load && (v = sharedConfig.load(sharedConfig.context.id + sharedConfig.context.count)))
     err = v[0];
-  const [errored, setErrored] = createSignal(err);
+  const [errored, setErrored] = createSignal(err, void 0);
   Errors || (Errors = /* @__PURE__ */ new Set());
   Errors.add(setErrored);
   onCleanup(() => Errors.delete(setErrored));
@@ -834,18 +846,13 @@ function ErrorBoundary(props) {
     }
     onError(setErrored);
     return props.children;
-  });
+  }, void 0, void 0);
 }
 var SuspenseListContext = createContext();
 
 // node_modules/solid-js/web/dist/web.js
 var booleans = ["allowfullscreen", "async", "autofocus", "autoplay", "checked", "controls", "default", "disabled", "formnovalidate", "hidden", "indeterminate", "ismap", "loop", "multiple", "muted", "nomodule", "novalidate", "open", "playsinline", "readonly", "required", "reversed", "seamless", "selected"];
 var Properties = /* @__PURE__ */ new Set(["className", "value", "readOnly", "formNoValidate", "isMap", "noModule", "playsInline", ...booleans]);
-function memo(fn, equals) {
-  return createMemo(fn, void 0, !equals ? {
-    equals
-  } : void 0);
-}
 function reconcileArrays(parentNode, a, b) {
   let bLength = b.length, aEnd = a.length, bEnd = bLength, aStart = 0, bStart = 0, after = a[aEnd - 1].nextSibling, map = null;
   while (aStart < aEnd || bStart < bEnd) {
@@ -903,12 +910,12 @@ function reconcileArrays(parentNode, a, b) {
   }
 }
 var $$EVENTS = "_$DX_DELEGATE";
-function render(code, element, init) {
+function render(code, element, init, options = {}) {
   let disposer;
   createRoot((dispose2) => {
     disposer = dispose2;
     element === document ? code() : insert(element, code(), element.firstChild ? null : void 0, init);
-  });
+  }, options.owner);
   return () => {
     disposer();
     element.textContent = "";
@@ -971,9 +978,16 @@ function eventHandler(e) {
   });
   if (sharedConfig.registry && !sharedConfig.done) {
     sharedConfig.done = true;
-    document.querySelectorAll("[id^=pl-]").forEach((elem) => elem.remove());
+    document.querySelectorAll("[id^=pl-]").forEach((elem) => {
+      while (elem && elem.nodeType !== 8 && elem.nodeValue !== "pl-" + e) {
+        let x = elem.nextSibling;
+        elem.remove();
+        elem = x;
+      }
+      elem && elem.remove();
+    });
   }
-  while (node !== null) {
+  while (node) {
     const handler = node[key];
     if (handler && !node.disabled) {
       const data = node[`${key}Data`];
@@ -981,7 +995,7 @@ function eventHandler(e) {
       if (e.cancelBubble)
         return;
     }
-    node = node.host && node.host !== node && node.host instanceof Node ? node.host : node.parentNode;
+    node = node._$host || node.parentNode || node.host;
   }
 }
 function insertExpression(parent, value, current, marker, unwrapArray) {
@@ -1097,7 +1111,7 @@ function normalizeIncomingArray(normalized, array, current, unwrap) {
   }
   return dynamic;
 }
-function appendNodes(parent, array, marker) {
+function appendNodes(parent, array, marker = null) {
   for (let i = 0, len = array.length; i < len; i++)
     parent.insertBefore(array[i], marker);
 }
@@ -1573,7 +1587,7 @@ function Tag(props) {
     openTag
   } = useMixture();
   const url = () => `#${props.value}`;
-  const safeValue = () => encodeURI(props.value);
+  const safeValue = () => props.value;
   const clickHandler = (event) => {
     const trigger = event.target;
     event.preventDefault();
@@ -1721,7 +1735,7 @@ function Link(props) {
   } = useMixture();
   const label = props.label;
   const url = props.url;
-  const localUrl = encodeURI((0, import_obsidian2.getLinkpath)(url));
+  const localUrl = (0, import_obsidian2.getLinkpath)(url);
   const clickHandler = (event) => {
     event.preventDefault();
     openNote(event.target.dataset.href);
@@ -1859,7 +1873,7 @@ function String2(props) {
     get children() {
       return [createComponent(Match, {
         get when() {
-          return memo(() => !!settings.autolinks, true)() && isInternalLink(value);
+          return createMemo(() => !!settings.autolinks)() && isInternalLink(value);
         },
         get children() {
           return createComponent(InternalLink, {
@@ -1868,7 +1882,7 @@ function String2(props) {
         }
       }), createComponent(Match, {
         get when() {
-          return memo(() => !!settings.autolinks, true)() && isExternalLink(value);
+          return createMemo(() => !!settings.autolinks)() && isExternalLink(value);
         },
         get children() {
           return createComponent(ExternalLink, {
@@ -1877,7 +1891,7 @@ function String2(props) {
         }
       }), createComponent(Match, {
         get when() {
-          return memo(() => !!settings.autolinks, true)() && MD_LINK_RE.test(value.trim());
+          return createMemo(() => !!settings.autolinks)() && MD_LINK_RE.test(value.trim());
         },
         get children() {
           return createComponent(MarkdownLink, {

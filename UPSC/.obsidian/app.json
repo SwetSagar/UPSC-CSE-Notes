@@ -1,10 +1,18 @@
 {
   "showInlineTitle": false,
   "pdfExportSettings": {
-    "pageSize": "Letter",
+    "includeName": false,
+    "pageSize": "A4",
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
   },
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "defaultViewMode": "source",
+  "strictLineBreaks": false,
+  "showLineNumber": false,
+  "attachmentFolderPath": "Attachements",
+  "spellcheckLanguages": [
+    "en-US"
+  ]
 }

@@ -1,11 +1,12 @@
 # CA : World History
-2019-12-02 09:19:27
+2019-12-02 09:19 :27
+
 ```toc
 ```
 ---
 
 ## CA : April 2019 onwards
--   1998, UNESCO designated August 23 as the International Day for Remembrance of the ==Slave Trade & Abolition ==officially banned in IN **1917** #important 
+-   1998, UNESCO designated August 23 as the International Day for Remembrance of the ==Slave Trade & Abolition== officially banned in IN **1917** #important 
 -   **Battle of Gallipoli** 1915 was an unsuccessful attempt by the Allies in WWI to control the sea route from Europe to Russia, a great Ottoman victory.
 -   Iranian Revolution aka Islamic rev took place 1979.
 -  Armenian genocide by Turkey during WW I.

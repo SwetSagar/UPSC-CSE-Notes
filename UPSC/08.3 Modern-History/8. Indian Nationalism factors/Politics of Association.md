@@ -48,7 +48,77 @@
 -   Tilak left for England during this time
 -   major achievement was that it created a generation of ardent nationalists who formed backbone of later national movt.
 
+
+## PYQs
+
+---
+
+
+**Factors leading to the birth of Indian Nationalism**
+
+
+
+
+1. Describe the nature of Indian Nationalism with special reference to the character of its
+leadership in the period between 1885 and 1905. [1982, 60m]
+-   [Partha Chatterjee - nationalism in IN was diff but a](onenote: [[Factors]] %20Leading%20to%20the%20Birth%20of%20Indian%20Nationalism&section-id={B581C32F-FD0C-4B89-9FC2-A41D98F19005}&page-id={1DAFFDD6-9920-47E7-8DD2-63E81E99B2DB}&object-id={7F6960EC-6B6A-4728-9CCE-09D2BAAEAB03}&C&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20II/Indian%20Nationalism-factors__.one )
+-   [First 20 yrs moderate politics, anglicised upper class, little time](onenote: [[The]] %20Moderates%20and%20Extremists&section-id={B581C32F-FD0C-4B89-9FC2-A41D98F19005}&page-id={98652DF5-C022-4FE2-AC93-FDDC14711F66}&object-id={D11A2C1E-EBB4-4B1C-9728-EF49C3534308}&12&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20II/Indian%20Nationalism-factors__.one )
+
+
+
+
+2. "The Ilbert Bill was the most extreme but by no means isolated expression of white
+racism." Comment. [1987, 20m]
+-   Refer SB
+-   [Gov regulation viz Lex loci act, Income tax 1860, Councils](onenote: [[Factors]] %20Leading%20to%20the%20Birth%20of%20Indian%20Nationalism&section-id={B581C32F-FD0C-4B89-9FC2-A41D98F19005}&page-id={1DAFFDD6-9920-47E7-8DD2-63E81E99B2DB}&object-id={6D7315C5-C1DA-4BBB-8DDA-B91CB383EB33}&4A&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20II/Indian%20Nationalism-factors__.one )
+-   [Ilbert Bill controversy :](onenote: [[Factors]] %20Leading%20to%20the%20Birth%20of%20Indian%20Nationalism&section-id={B581C32F-FD0C-4B89-9FC2-A41D98F19005}&page-id={1DAFFDD6-9920-47E7-8DD2-63E81E99B2DB}&object-id={AEE6C2B7-875D-464A-8B9D-45CA3656B3CF}&11&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20II/Indian%20Nationalism-factors__.one )
+
+
+
+
+
+
+3. "The national democratic awakening of the Indian people found expression of white
+racism." Comment. [1987, 20m]
+-   [Gov regulation viz Lex loci act, Income tax 1860, Councils](onenote: [[Factors]] %20Leading%20to%20the%20Birth%20of%20Indian%20Nationalism&section-id={B581C32F-FD0C-4B89-9FC2-A41D98F19005}&page-id={1DAFFDD6-9920-47E7-8DD2-63E81E99B2DB}&object-id={6D7315C5-C1DA-4BBB-8DDA-B91CB383EB33}&4A&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20II/Indian%20Nationalism-factors__.one )
+-   Racism after 1857 , refer SB
+
+
+
+
+
+
+4. "The new India was not to be built up, as late nineteenth century patriots had thought, by copious draught from the past, but rather by frequent injections from the energetic
+contemporary west." Comment. [1990, 20m]
+-   [Ilbert Bill controversy :](onenote: [[Factors]] %20Leading%20to%20the%20Birth%20of%20Indian%20Nationalism&section-id={B581C32F-FD0C-4B89-9FC2-A41D98F19005}&page-id={1DAFFDD6-9920-47E7-8DD2-63E81E99B2DB}&object-id={AEE6C2B7-875D-464A-8B9D-45CA3656B3CF}&11&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20II/Indian%20Nationalism-factors__.one )
+
+
+
+
+
+
+5. "It was in this almost unrecognizable form that the Ilbert Bill was finally enacted.... it was
+primarily a failure of the Viceroy." Comment. [1992, 20m]
+-   [Ilbert Bill controversy :](onenote: [[Factors]] %20Leading%20to%20the%20Birth%20of%20Indian%20Nationalism&section-id={B581C32F-FD0C-4B89-9FC2-A41D98F19005}&page-id={1DAFFDD6-9920-47E7-8DD2-63E81E99B2DB}&object-id={AEE6C2B7-875D-464A-8B9D-45CA3656B3CF}&11&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20II/Indian%20Nationalism-factors__.one )
+
+
+
+
+
+
+6. Examine the economic and social factors which led to the rise of Indian nationalism in the second half of the nineteenth century. [2001, 60m]
+-   [Partha Chatterjee disagrees - IN society was imagining its nation](onenote: [[Factors]] %20Leading%20to%20the%20Birth%20of%20Indian%20Nationalism&section-id={B581C32F-FD0C-4B89-9FC2-A41D98F19005}&page-id={1DAFFDD6-9920-47E7-8DD2-63E81E99B2DB}&object-id={6D7315C5-C1DA-4BBB-8DDA-B91CB383EB33}&17&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20II/Indian%20Nationalism-factors__.one )
  
+
+
+
+7. "Rabindranath Tagore's nationalism was based on a Catholic internationalism."
+Comment. [2003, 20m]
+-   [Tagore's Nationalism :](onenote: [[Factors]] %20Leading%20to%20the%20Birth%20of%20Indian%20Nationalism&section-id={B581C32F-FD0C-4B89-9FC2-A41D98F19005}&page-id={1DAFFDD6-9920-47E7-8DD2-63E81E99B2DB}&object-id={04040E5F-4F81-438B-AAC1-2B94497857E9}&B&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20II/Indian%20Nationalism-factors__.one )
+
+
+
+
 
  
 

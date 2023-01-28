@@ -34,9 +34,9 @@ a,
 .cm-hmd-internal-link,
 .cm-link,
 .cm-formatting-link {
-  color: var(--text-a) !important;
-  text-decoration: none !important;
-  font-family: Avenir, Avenir Next, sans-serif !important;
+  color: var(--text-a);
+  text-decoration: none;
+  font-family: Avenir, Avenir Next, sans-serif;
 }
 
 /* url's */
@@ -228,19 +228,6 @@ blockquote {
   color: var(--interactive-accent) !important;
   font-style: italic;
   border-color: var(--blockquote-border) !important;
-}
-
-/* Add quotation character before quote */
-
-blockquote:before {
-  font: 14px/20px italic Times, serif;
-  content: "“";
-  line-height: 0.1em;
-  vertical-align: -0.4em;
-}
-
-blockquote p {
-  display: inline;
 }
 
 /* IMAGES */
@@ -534,7 +521,7 @@ button.mod-cta {
 /* preview */
 
 a.tag {
-  color: var(--text-tag) !important;
+  color: var(--text-tag);
 }
 
 /* editor */
@@ -576,8 +563,8 @@ em {
 /* preview */
 
 mark {
-  color: var(--background-primary) !important;
-  background-color: var(--text-mark) !important;
+  color: var(--background-primary);
+  background-color: var(--text-mark);
   padding-top: 1px;
   padding-bottom: 1px;
 }

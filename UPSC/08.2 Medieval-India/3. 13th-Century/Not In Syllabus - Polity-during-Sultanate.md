@@ -1,6 +1,6 @@
 # Polity during Sultanate NIS
 2020-04-29 21:43:05
-            
+
 ---
 
 ## Political consequences of Turkish conquest of India 

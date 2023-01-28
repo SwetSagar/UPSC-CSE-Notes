@@ -27,10 +27,9 @@
 
  
 
+## PYQs
 
-
-
-
+---
 
 
 4. "M.K Gandhi made a gross mistake in championing the Khilafat cause, an extra-territorial issue which cut at the very roots of Indian nationality." Critically examine. [2014, 10m]

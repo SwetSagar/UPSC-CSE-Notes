@@ -26,6 +26,34 @@
  
 
 
+## PYQs
+
+---
+
+**The Safety-valve thesis relating to the birth of the Congress;**
+
+
+1. Discuss 'the safety valve' theory. Does it satisfactorily explain the foundation of the Indian National Congress? [1991, 60m]
+-   
+
+
+
+
+
+
+
+2. To what extent was the emergence of the Congress in 1885 the culmination of a process of political awakening that had its beginning in the 1870s? [2000, 60m]
+-   
+
+
+
+
+
+
+
+7. "The 'safety-valve thesis' does not adequately explain the birth of the Indian National
+Congress in 1885." Critically examine. [2014, 10m]
+-   
 
 
 

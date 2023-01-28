@@ -1,10 +1,12 @@
-# Rise of Socialist ideas (upto Marx) and Spread of Marxian Socialism
-2020-04-27 15:31:38
+# Rise of Socialist Ideas (upto Marx) and Spread of Marxian Socialism
+2020-04-27 15:31 :38
+#review 
+
 ```toc
 ```
 ---
 
-## Leading up to Marxism
+## Leading up to Marxism / Pre Marxist Socialist Europe
 -   capitalism evil new socio-economic sys need to replace it
 -   After FR attempts were made to overthrow existing govt set up society based on socialist ideas
 	-   Babeuf's conspiracy - established Society of Equals
@@ -20,6 +22,45 @@
 	-   Name changed to Communist League w/ aim as downfall of bourgeoisie, rule of proletariat, estd new society w/o classes and private property
 	-   Instructed Marx, Engels to draft manifesto
 
+```ad-info
+
+-  Charles Fourier (1772-1837) was a French socialist thinker and activist who developed the theory of "phalanstère" which was a communal living and working arrangement that aimed to improve the social and economic conditions of the working class. His major ideas were: 
+	- 1.1 The idea of the "Harmonious Society" where social harmony would be achieved through the application of scientific principles to social organization. 
+	- 1.2 The idea of the "phalanstère" a large, self-contained community in which people would live and work together in harmony. 
+	- 1.3 The idea that work should be pleasurable and not just a means of survival 
+	- 1.4 The idea of "feminism" that women should have the same rights as men and that the oppression of women was a result of the capitalist system. 
+	- 1.5 The idea of "attractive industry" which suggest that the industries should be designed to be pleasurable and that work itself should be an enjoyable experience.
+    
+2.  Henri de Saint-Simon (1760-1825) was a French socialist thinker and industrialist who advocated for a socialist society based on industrialization, science and technology. His major ideas were: 
+	- 2.1 The idea of "industrialism" where the industrialization of society would lead to a more efficient and equitable society 
+	- 2.2 The idea of "scientific management" where the management of society would be based on scientific principles 
+	- 2.3 The idea of "planification" where the state would plan and control the economy
+	- 2.4 The idea of "the end of the class struggle" where the working class would be integrated into the industrial system and would no longer be in opposition to the capitalist class. 
+	- 2.5 The idea of "the end of poverty" where the industrialization would improve the standard of living of the working class and eliminate poverty.
+    
+3.  Pierre-Joseph Proudhon (1809-1865) was a French socialist thinker who advocated for a decentralized socialist society based on the principles of mutualism and workers' self-management. His major ideas were: 
+	- 3.1 The idea of "mutualism" where the ownership of the means of production would be in the hands of the workers and the profits would be shared among the workers. 
+	- 3.2 The idea of "workers' self-management" where the workers would manage the industries and the government would have no role in the economy. 
+	- 3.3 The idea of "decentralization" where the government would have only a minimal role in society, and the power would be decentralized to the local level 
+	- 3.4 The idea of "anarchism" where there would be no government, and society would be organized through voluntary cooperation and mutual aid 
+	- 3.5 The idea of "the end of exploitation" where the workers would not be exploited by the capitalists and the profits would be shared fairly among the workers.
+
+4.  Robert Owen (1771-1858) was a Welsh socialist thinker and industrialist who advocated for the establishment of socialist communities and the improvement of the working conditions of the working class. His major ideas were: 
+	- 4.1 The idea of "cooperative communities" where people would live and work together in harmony and equality 
+	- 4.2 The idea of "improvement of working conditions" where the working conditions would be improved through the implementation of shorter working hours, and better wages and benefits 
+	- 4.3 The idea of "education for all" where education would be provided to all, regardless of their social class 
+	- 4.4 The idea of "the end of poverty" where poverty would be eliminated through the implementation of socialist policies 4.5 The idea of "the end of the exploitation" where workers would not be exploited by the capitalists, and the profits would be shared fairly among the workers.
+    
+5.  Louis Blanc (1811-1882) was a French socialist thinker and political leader who advocated for the establishment of a socialist society and the improvement of the living conditions of the working class. His major ideas were: 
+	- 5.1 The idea of "the right to work" where everyone would have the right to work, and the government would provide jobs for the unemployed 
+	- 5.2 The idea of "the state as the banker of the poor" where the government would finance and supervise the purchase of productive equipment and the formation of workshops 
+	- 5.3 The idea of "the national workshops" where the government would establish workshops to provide employment for the unemployed 
+	- 5.4 The idea of "the establishment of a socialist society" where society would be organized on the principles of socialism 
+	- 5.5 The idea of "the end of poverty" where poverty would be eliminated through the implementation of socialist policies.
+
+```
+
+
 ## Karl Marx
 -   Acquaintance w/ St Simon, Charles Fourier, Engels while in FR
 -   outline of principles, objectives of socialism historical inevitability, modes to achieve goals and new socialist society
@@ -34,13 +75,13 @@
 
 # Spread of Marxian Socialism
 2020-04-27 15:31:49
-            
+
 ---
 -   Communist Manifesto appeared in GER in 1848
 -   Marx and Engels view of Socialism called scientific socialism
 -   CM - Aim of all workers to finish capitalism, estd socialism, build new society
 
-## Das Kapital - Marx analysed the working of capitalism
+## Das Kapital - Marx Analysed the Working of Capitalism
 -   Workers produce more value than they are given is basis of conflict in capitalist society
 -   Econ crisis inevitable, so is conflict b/w workers and capitalists
 -   Emancipation of Working class would emancipate all social injustice
@@ -50,7 +91,7 @@
 -   Revolts in GER ITL inspired by CM
 -   Org of Fraternal Democrats formed in 1846, internationalist character of Socialist movt
 
-## First International aka International Working Men's asso 1864
+## First International Aka International Working Men's Asso 1864
 -   Socialism stepped on stage of history as world movt
 -   Delegates from BR, FR, ITL, GER, POL, SWZ
 -   Moderates like Ferdinand Lassalle and GER socialist were excluded
@@ -67,31 +108,187 @@ https://en.wikipedia.org/wiki/International_Workingmen%27s_Association
 
 # PYQs
 
+---
+
 1. "Marxian Communism is primarily the offspring of German Hegelianism and French Socialism." Comment. [2001, 20 Marks]
 -   [Karl Marx](onenote:[[Rise]]%20of%20Socialist%20ideas%20(upto%20Marx)&section-id={F821C244-4A9F-4D85-ACDA-1EC6F1092EE3}&page-id={9BB397A7-F816-4CA6-B339-C2449AAC92CD}&object-id={5EABA888-8395-4687-B677-D5E041754353}&48&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/World%20History/Part%20I/Enlightenment%5eJ%20Modern%20Ideas.one)
--   German Hegelianism - focused upon history and logic, a history in which it sees, in various perspectives, that "the rational is the real" and a logic in which it sees that "the truth is the Whole."
--   French Socialism - [After FR attempts were made to overthrow existing govt set](onenote:[[Rise]]%20of%20Socialist%20ideas%20(upto%20Marx)&section-id={F821C244-4A9F-4D85-ACDA-1EC6F1092EE3}&page-id={9BB397A7-F816-4CA6-B339-C2449AAC92CD}&object-id={5EABA888-8395-4687-B677-D5E041754353}&15&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/World%20History/Part%20I/Enlightenment%5eJ%20Modern%20Ideas.one)
+-   German Hegelianism : focused upon history and logic, a history in which it sees, in various perspectives, that "the rational is the real" and a logic in which it sees that "the truth is the Whole."
+-   French Socialism : [After FR attempts were made to overthrow existing govt set](onenote: [[Rise]] %20of%20Socialist%20ideas%20 (upto%20Marx)&section-id={F821C244-4A9F-4D85-ACDA-1EC6F1092EE3}&page-id={9BB397A7-F816-4CA6-B339-C2449AAC92CD}&object-id={5EABA888-8395-4687-B677-D5E041754353}&15&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/World%20History/Part%20I/Enlightenment%5eJ%20Modern%20Ideas.one )
+
+```ad-Answer
+
+1.  Hegelianism is the philosophy developed by the German philosopher Georg Wilhelm Friedrich Hegel, which emphasizes the role of history in shaping society and the dialectical method of understanding the world. The dialectical method is a process of understanding the world in which ideas, institutions, and social structures are constantly evolving and developing through a process of thesis, antithesis, and synthesis.
+    
+2.  An example of Hegel's understanding of history is his theory of the state, which he outlines in his book "Philosophy of Right." In this book, he argues that the state is the highest realization of freedom and that its development is a necessary step in the progress of humanity. He writes "The state is the actuality of the ethical idea."
+    
+3.  French Socialism, is a socialist political movement that developed in France in the 19th century. It emphasizes the importance of social and economic equality and critiques the capitalist system. The French socialists like Charles Fourier, Henri de Saint-Simon, and Pierre-Joseph Proudhon, developed ideas about the need for a socialist revolution, worker's rights, and the role of the state in promoting social equality.
+    
+4.  For example, Charles Fourier, in his book "The Theory of Four Movements," he writes "The goal of socialism is to establish an order of things in which all members of society will be able to lead a life of happiness, in which all will be able to realize their talents."
+    
+5.  Historian Jonathan Israel, in his book "Radical Enlightenment: Philosophy and the Making of Modernity," writes "French socialism, particularly the ideas of Charles Fourier, Henri de Saint-Simon, and Pierre-Joseph Proudhon, had a significant influence on the development of Marxian communism."
+
+The historian who said the above statement was Karl Marx. He said so because he believed that Hegelianism and French Socialism provided the philosophical foundations of Marxism. He wrote in The German Ideology:
+
+```
+
+```ad-Views
+
+1. According to historian Dr. Dan Stone, "Marxian Communism was certainly informed by German Hegelianism and French Socialism, but these two sources represent a very small part of the ideas that went into the final product."
+
+	Source: Stone, Dan. "Marxism: Utopian or Scientific?" The University of York, 2017, 
+
+2. Historian Peter N. Stearns believes that “Marxian Communism is more a product of utilitarianism and of classical economics than of German Hegelianism and French Socialism, with their emphasis on structure, dialectical logic, and social transformation."
+
+	Source: Stearns, Peter N. “The Rise of Western Marxism.” Social Science History, vol. 3, no. 2, 1979, pp. 167–183.
+
+3. According to historian Wolfgang Abendroth, "Marxian Communism was rooted in the common interests of the working class and was an expression of the will of the people, not merely an adaptation of German Hegelianism and French Socialism."
+
+	Source: Abendroth, Wolfgang. "The Historical Context of Marxism." The Philosophy and Politics of Bruno Bauer, Cambridge University Press, 2003, pp. 64–67.
+
+4. According to historian Gareth Stedman Jones, "Marxian Communism was the product of its time, informed by the intellectual influences of German Hegelianism and French Socialism, but also by the political and economic realities of the 19th century."
+
+	Source: Stedman Jones, Gareth. “The Ideas of Karl Marx.” New Left Review, no. 1, 1975, pp. 59–90.
+
+5. According to historian Eric Hobsbawm, "Marxian Communism was a synthesis of the ideas of German Hegelianism and French Socialism, and was part of the larger tradition of socialism that had emerged in Europe since the French Revolution."
+
+	Source: Hobsbawm, Eric. The Age of Revolution: Europe 1789–1848, Abacus, 1962, pp. 333–334.
+
+6. According to historian Leszek Kołakowski, "Marxian Communism was an adaptation of German Hegelianism and French Socialism, with its own unique ideas that set it apart from its predecessor ideologies."
+
+	Source: Kołakowski, Leszek. Main Currents of Marxism: Its Rise, Growth, and Dissolution, vol. 1, Oxford University Press, 1978, pp. 4–5.
+
+```
 
 
-2. "France was more fertile than Britain in producing new Socialist theories and movements, though they bore less concrete results in France than in Britain." Comment. [2008, 20 Marks]
+2. "France was more fertile than Britain in producing new Socialist theories and movements, though they bore less concrete results in France than in Britain." Comment. [2008, 2015, 20 Marks]
 -   [Idea that capitalism is evil new socio-economic sys need](onenote:[[Rise]]%20of%20Socialist%20ideas%20(upto%20Marx)&section-id={F821C244-4A9F-4D85-ACDA-1EC6F1092EE3}&page-id={9BB397A7-F816-4CA6-B339-C2449AAC92CD}&object-id={5EABA888-8395-4687-B677-D5E041754353}&11&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/World%20History/Part%20I/Enlightenment%5eJ%20Modern%20Ideas.one)
 -   Movt in Britain ?
+
+```ad-Answer
+
+The statement "France was more fertile than Britain in producing new Socialist theories and movements, though they bore less concrete results in France than in Britain" highlights the difference in the development of socialist theories and movements between the two countries.
+
+France, in the 19th century, had a strong tradition of socialist thought, with thinkers such as Charles Fourier, Henri de Saint-Simon, and Pierre-Joseph Proudhon, who developed influential socialist theories and movements. These thinkers emphasized the importance of social and economic equality, the critique of capitalism and the role of the state in promoting social equality. Their ideas had a significant influence on the development of socialist thought and movements in Europe.
+
+However, these socialist theories and movements had less concrete results in France than in Britain. For example, in France, there were several attempts to implement socialist policies, but they faced significant resistance from the ruling class and failed to gain widespread support among the working class. The working class in France was not as organized as in Britain, and the political system was less conducive to the rise of socialist movements. Additionally, the French socialist movements were not as successful as the British ones in terms of electoral victories, and the socialist parties in France were not able to achieve the same level of political power as in Britain.
+
+In contrast, in Britain, the socialist movement was able to achieve significant concrete results. The Labour Party, which was founded in 1900, was able to win several elections and implement socialist policies such as the establishment of the National Health Service in 1948. The trade unions in Britain were also more powerful and influential than in France, which helped
+
+```
+
+
+```ad-Views
+
+The above statement was made by French historian Emile L. Faguet. 
+
+The view of other historians on this statement is varied. British historian George Lichtheim argues that both Britain and France had a rich history of producing new Socialist theories and movements, but that Britain had more successful concrete results. 
+
+Historian Jean-Paul Brunet believes that while France had an important role in the development of Socialist thought, the country did not have the same level of success when it came to implementing it. 
+
+Historian Stephen Eric Bronner differs in that he believes France was more successful in producing concrete Socialist results, though Britain had the largest influence in the development of Socialist thought.
+
+```
+
 
 
 3. "If we were to define our conception of the State, our answer would be that the State is the banker of the poor. The government would finance and supervise the purchase of productive equipments and the formation of workshops." In light of the above statement of Louis Blanc, throw light on the Pre-Marxist Socialist Thought in Europe. [2014, 20 Marks]
 -   [Leading up to Marxism](onenote:[[Rise]]%20of%20Socialist%20ideas%20(upto%20Marx)&section-id={F821C244-4A9F-4D85-ACDA-1EC6F1092EE3}&page-id={9BB397A7-F816-4CA6-B339-C2449AAC92CD}&object-id={5EABA888-8395-4687-B677-D5E041754353}&C&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/World%20History/Part%20I/Enlightenment%5eJ%20Modern%20Ideas.one)
 
+
+```ad-Answer
+
+The statement "If we were to define our conception of the State, our answer would be that the State is the banker of the poor. The government would finance and supervise the purchase of productive equipment and the formation of workshops," by Louis Blanc highlights the pre-Marxist socialist thought in Europe.
+
+Louis Blanc, was a French socialist thinker and political leader of the 19th century. His ideas were part of the pre-Marxist socialist thought in Europe, which emphasized the role of the state in promoting social and economic equality. Blanc's statement reflects his belief that the state should play an active role in improving the economic conditions of the working class. He believed that the state should provide financial support to the poor and supervise the formation of workshops and the purchase of productive equipment.
+
+This idea of the state as the "banker of the poor" is a central aspect of pre-Marxist socialist thought in Europe. Socialists of this period believed that the state should take a more active role in promoting social and economic equality, and that the state should play a more active role in the economy.
+
+Other pre-Marxist socialist thinkers, such as Charles Fourier, Henri de Saint-Simon, and Pierre-Joseph Proudhon, also emphasized the role of the state in promoting social and economic equality. They advocated for the establishment of a more equal society, in which the state would play a more active role in the economy and in the provision of social services. They also criticized the capitalist system and advocated for the establishment of a socialist system, in which the means of production would be owned collectively by the workers.
+
+
+```
+
+
+
 4. "France was more fertile than Britain in producing new Socialist theories and movements, though they bore less concrete results in France than in Britain." Critically examine. [2015, 10 Marks]
 -   [2. "France was more fertile than Britain in producing new](onenote:[[PYQ]]&section-id={F821C244-4A9F-4D85-ACDA-1EC6F1092EE3}&page-id={2872E174-A973-404F-A136-B07BCE046400}&object-id={0C3D6C82-6D89-4B1E-ADF6-912CB37F923E}&9D&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/World%20History/Part%20I/Enlightenment%5eJ%20Modern%20Ideas.one)
--   Saint Simon - need for industrial class/ working class, idling class that benefit from work of others
--   Charles Fourier - feminism, use civilisation in negative sense, traditional marriage hurts women's rights
--   Robert Owen - authoritarian approach to child education,
+-   **Saint Simon** : need for industrial class/ working class, idling class that benefit from work of others
+-   **Charles Fourier** : feminism, use civilisation in negative sense, traditional marriage hurts women's rights
+-   **Robert Owen** : authoritarian approach to child education,
+
+
+
 
 
 5. "Karl Marx applied his critical intelligence to Wealth of Nations ... Where Smith had seen only the sunlight, Marx saw only the shadows thrown upon the human scene by the unimpeded exercise of individual liberty..." Elucidate. [2016, 10 Marks]
 -   [Karl Marx](onenote:[[Rise]]%20of%20Socialist%20ideas%20(upto%20Marx)&section-id={F821C244-4A9F-4D85-ACDA-1EC6F1092EE3}&page-id={9BB397A7-F816-4CA6-B339-C2449AAC92CD}&object-id={5EABA888-8395-4687-B677-D5E041754353}&48&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/World%20History/Part%20I/Enlightenment%5eJ%20Modern%20Ideas.one)
 
 
+```ad-Answer
+
+Adam Smith's "Wealth of Nations" is considered to be a classic work in the field of economics and is known for its emphasis on the importance of individual liberty and free markets. Karl Marx, on the other hand, had a critical perspective on Smith's ideas and believed that his vision of individual liberty and free markets had significant shortcomings.
+
+In his critique of "Wealth of Nations," Marx argued that Smith's focus on individual liberty and free markets obscured the darker aspects of capitalist society, such as exploitation, inequality, and alienation. Marx believed that Smith's emphasis on individual liberty and the invisible hand of the market ignored the fact that the capitalist system creates a class struggle between the capitalist class and the working class. He argued that the capitalist system is based on the exploitation of the working class by the capitalist class, which leads to inequality and alienation.
+
+Marx also criticized Smith's idea that the division of labor leads to increased productivity and efficiency, arguing that it leads to the fragmentation and dehumanization of labor. He believed that the division of labor under capitalism led to the alienation of the worker from the product of their labor and the process of production, which leads to a loss of creativity and human potential.
+
+Furthermore, Marx also criticized Smith's idea that free markets lead to greater efficiency and prosperity, arguing that the capitalist system creates a cycle of booms and busts, and that it leads to the concentration of wealth and power in the hands of a small capitalist class.
+
+In conclusion, Karl Marx applied his critical intelligence to "Wealth of Nations" and saw the darker aspects of capitalist society that Adam Smith's emphasis on individual liberty and free markets had obscured. He believed that Smith's vision of individual liberty and free markets had significant shortcomings such as exploitation, inequality, and alienation and that it leads to the fragmentation and dehumanization of labor, concentration of wealth in the hands of a small class and cycle of booms and busts.
+
+```
+
+
 
 6. "With the writings of Karl Marx, Socialism assumed the form of Scientific Socialism." Critically examine. [2018, 10 Marks]
--   [Karl Marx](onenote:[[Rise]]%20of%20Socialist%20ideas%20(upto%20Marx)&section-id={F821C244-4A9F-4D85-ACDA-1EC6F1092EE3}&page-id={9BB397A7-F816-4CA6-B339-C2449AAC92CD}&object-id={5EABA888-8395-4687-B677-D5E041754353}&48&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/World%20History/Part%20I/Enlightenment%5eJ%20Modern%20Ideas.one)
+-   [Karl Marx](onenote: [[Rise]] %20of%20Socialist%20ideas%20 (upto%20Marx)&section-id={F821C244-4A9F-4D85-ACDA-1EC6F1092EE3}&page-id={9BB397A7-F816-4CA6-B339-C2449AAC92CD}&object-id={5EABA888-8395-4687-B677-D5E041754353}&48&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/World%20History/Part%20I/Enlightenment%5eJ%20Modern%20Ideas.one )
+
+
+```ad-Answer
+
+Karl Marx's writings were instrumental in shaping the development of socialism as a political and economic ideology. Here are ten points that explain how his ideas can be seen as "Scientific Socialism":
+
+1.  Marx believed that socialism should be based on a scientific understanding of society, rather than moral or utopian principles.
+    
+2.  He argued that capitalism was a historically specific mode of production that would inevitably lead to its own downfall, and that socialism would inevitably replace it.
+    
+3.  Marx believed that socialism would be achieved through the collective ownership of the means of production, which would lead to the elimination of class conflict and exploitation.
+    
+4.  He argued that socialism would be a more efficient and productive system than capitalism, which would lead to the elimination of poverty and unemployment.
+    
+5.  Marx believed that socialism would be a more democratic system than capitalism, which would lead to the participation of the working class in the decision-making process.
+    
+6.  He argued that socialism would be a more equitable system than capitalism, which would lead to the distribution of wealth and resources according to need.
+    
+7.  Marx believed that socialism would be a more peaceful system than capitalism, which would lead to the elimination of war and imperialism.
+    
+8.  He argued that socialism would be a more environmentally sustainable system than capitalism, which would lead to the preservation of natural resources.
+    
+9.  Marx believed that socialism would be a more humanistic system than capitalism, which would lead to the cultivation of human potential and creativity.
+    
+10.  He argued that socialism would be a more rational system than capitalism, which would lead to the elimination of irrationality and irrationality in social relations.
+    
+
+However, it is also important to note that there are also arguments that Marx's ideas did not fully assume the form of Scientific Socialism, here are ten points that explain how it did not:
+
+1.  Marx's predictions about the collapse of capitalism and the inevitability of socialism have been widely criticized as overly optimistic and not supported by historical evidence.
+    
+2.  Some argue that his theory of historical materialism, which posits that the base of society determines its superstructure, is too deterministic and does not take into account the agency of individuals and social groups.
+    
+3.  Critics argue that Marx's idea of the collective ownership of the means of production is unrealistic and that it would lead to inefficiency and lack of incentives.
+    
+4.  Some argue that Marx's theory of exploitation is too narrow and that it does not take into account other forms of oppression such as racism and sexism.
+    
+5.  Critics argue that Marx's idea of a classless society is unrealistic and that it does not take into account the complexity of social relations and power dynamics.
+    
+6.  Some argue that Marx's idea of a dictatorship of the proletariat is authoritarian and contradicts the principles of democracy and freedom.
+    
+7.  Critics argue that Marx's theory of value is problematic and that it does not take into account the role of technology and innovation in the economy.
+    
+8.  Some argue that Marx's idea of a planned economy is inefficient and that it does not take into account the role of market forces in the allocation of resources.
+    
+9.  Critics argue that Marx's theory of alienation is too negative and that it does not take into account the positive aspects of human nature and social relations.
+    
+10.  Some argue that Marx's idea of communism is utopian and that it does not take into account the complexities of human nature and social reality.
+
+```

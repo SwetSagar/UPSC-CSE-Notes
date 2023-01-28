@@ -1,8 +1,10 @@
-# CA : Role of Women and women related organisation April 2019 onwards
-2019-05-02 16:29:51
+# CA : Role of Women and women related organisation 
+2019-05-02 16:29 :51
+
 ```toc
 ```
 ---
+## CA : April 2019 onwards
 
 -   Protect the reputation of sexual offence accused.  Permanent loss of dignity/reputation, against Article 21 & Art 20(3) - innocent until proven guilty. Amend IPC 228A which protects the identity of accused. Eg. S Nambi Narayan
 -   ==ILO #report 'Women in Business Mgt case for change'==. Findings :
@@ -42,12 +44,11 @@
 - NCW + LBSNAA launched Training program for **Protection officers** who inform women of their rights, file DIR etc are appointed under Domestic Violence act; at least 1 under every judicial magistrate, could be from Govt or NGO.  
 - **Convention on Elimination of All forms of Discrimination against Women CEDAW** : 1st human rights treaty specific to women by UNGA. Defines discrimination.
 - **Child Marriage** : globally 12 mil girls married in childhood. Highest in Sub Saharan African. 2nd is South Asia. In India Child Marriage Restraint Act 1929 and Prohibition of Child Marriage Act 2006 deals w/ it.
-- National Mission for Safety of Women NMSW aims to set up fast track special courts FTSCs for trials relating to sexual offences.
+- **National Mission for Safety of Women NMSW** aims to set up fast track special courts FTSCs for trials relating to sexual offences.
 - **Assisted Reproductive Technology ART** comprises of procedures such as in vitro fertilisation IVF, intra uterine insemination IUI, oocyte and sperm donation, cryopreservation, surrogacy etc. 
 	- Surrogacy is when another woman agrees to bear the child of someone else. Foreigners are not allowed to do this in India but NRI's can. Only for married couples. 
 	- It is open to married couples, live in partners, single women, foreigners etc. 
 - Suppression of Immoral Traffic in Women and Children Act 1956 governs sex workers in India.
-- 
 
 
 ### Mo WCD #scheme 
@@ -55,7 +56,8 @@
             
 ---
 ####  PM's Overarching #Scheme for Holistic Nourishment (POSHAN) Abhiyan #important 
-- for children, pregnant women and lactating mothers. 
+- for **children, pregnant women and lactating mothers**. 
+
  Features :
 -   targets to reduce ==stunting, undernutrition, anemia and reduce low birth weight== by 2%, 2%, 3% and 2%.
 -   4 pillars are inter sectoral convergence, use of ICT, intensified health and nutrition services and Jan Andolan
@@ -95,7 +97,7 @@ Scheme features :
 -   Objective is to Prevent ==sex selective elimination==, protection and education of girl child.
 -   through mass communication and multi sectoral action
 
-####  Sukanya Samriddhi Yojana #scheme 
+#####  Sukanya Samriddhi Yojana #scheme 
 -   launched as part of Beti Bachao Beti Padhao campaign
 -   ==savings account== can be opened at the time of birth of a girl child till 10 yr minimum of Rs. 1000 and maximum of Rs. 1.5 lakh can be deposited interest rate of 9.1 % and income tax rebate b/w 0-10 years.
 -   Account will mature in 21 years from date of opening, parital withdrawal can be done.

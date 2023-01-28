@@ -1,59 +1,69 @@
 # Mysore
+
 2020-04-27 14:59:31
+
 ```toc
 ```
+
 ---
 
-##  Mysore
--   Mysore under Haider Ali org army on EU model through system of risalas having fixed no of soldiers
--   Subjugated local deshmukhs and poligars
--   TS intro sys to imposing land taxes directly based on detailed sys of classification of land called by Burton Stein - "Military Fiscalism" - taxes collected from officials to estd centralised military hegemony and remove intermediaries
--   Tax remission, reclamation of wasteland, best cultivated most flourishing
--   New irrigation, promote agri mfd, sericulture, ambassador to france, navy, state commercial corporation to set up overseas factory
--   Trade of sandalwood, rice, silk, coconut, sulphur etc
--   I Habib "his plans were far away from real opening to modern civ"
--   TS reign reps a discontinuity in 18th century IN politics
-    -   **Kate Brittlebank** - his kingship rooted firmly in strong regional tradition
-    -   Issue coins w/o reference to Mughal emperor, own name on Khutba
-    -   Recog Mugh authority when it suited him
+## Mysore
+- Mysore under Haider Ali org army on EU model through system of risalas having fixed no of soldiers
+- Subjugated local deshmukhs and poligars
+- TS intro sys to imposing land taxes directly based on detailed sys of classification of land called by ***Burton Stein - "Military Fiscalism*** - taxes collected from officials to estd centralised military hegemony and remove intermediaries
+- Tax remission, reclamation of wasteland, best cultivated most flourishing
+- New irrigation, promote agri mfd, sericulture, ambassador to france, navy, state commercial corporation to set up overseas factory
+- Trade of sandalwood, rice, silk, coconut, sulphur etc
+- **I Habib** "his plans were far away from real opening to modern civ"
+- TS reign reps a discontinuity in 18th century IN politics
+    - **Kate Brittlebank** - his kingship rooted firmly in strong regional tradition
+    - Issue coins w/o reference to Mughal emperor, own name on Khutba
+    - Recog Mugh authority when it suited him
 
-## First Anglo-Mysore War ( 1767-69 ) : 
+## First Anglo-Mysore War ( 1767-69 ) :
 
--   Nizam, Marathas, English allied against Haidar Ali but he turned them against English defeated
--   April 4, 1769 \- Treaty of Madras 
--   Haider Ali promised help of English when attacked
+- Nizam, Marathas, English allied against Haidar Ali but he turned them against English defeated
+- April 4, 1769 -> Treaty of Madras 
+- Haider Ali promised help of English when attacked
 
-## Second Anglo-Mysore War ( 1780-84 ) : 
-- WH ordered seizure of all FR settlements in India including Mahe.  He feared port could be used by Hyder to receive FR help. 
+## Second Anglo-Mysore War ( 1780-84 ) :
+- WH ordered seizure of all FR settlements in India including Mahe. He feared port could be used by Hyder to receive FR help. 
 - They marched forces acrpps jos territory w/o permission. 
--   Haidar forged anti-English alliance with Marathas + Nizam and defeated BR under Hector Munro capturing Carnatic. 
-> Alfred Lyall :  1780 was the lowest watermark for English fortunes in India.
--   To Mangalore both sides opted for peace as outcome inconclusive. 
--   Haider died before treaty
+- Haidar forged anti-English alliance with Marathas + Nizam and defeated BR under Hector Munro capturing Carnatic. 
 
-## Circumstances surrounding 3rd Anglo M war
+```ad-Views
 
--   EIC captured Northern Sircars, placed troops closer to Mysorean terrritory
--   Travancore Eng defence treaty, fortification of border areas
--  B feared collusion w/ F
--   Rich trade of Malabar seen as threat
--   1785 TS embargo on export pepper cardamom sandalwood
--   1788 explicit forbade dealing w/ Eng traders
+Alfred Lyall :  1780 was the lowest watermark for English fortunes in India.
 
-### Third Anglo-Mysore War (1790-1792) 
+```
 
--   Tipu vs Travancore over puruchase of Jalkottal and Cannanore from Dutch 
--   English, sided w/ Travancore helped by Marathas and Nizam. 
--   Treaty of Seringapatam in 1792 half of Mysorean territory was taken over by the victors 
--   war damage of 3 crore 
--   Tipu’s two sons taken hostage
+- To Mangalore both sides opted for peace as outcome inconclusive. 
+- Haider died before treaty
 
-## Fourth Anglo-Mysore War of 1799 : 
+## Third Anglo Mysore War (1790-92)
 
--   Tipu did not place dead Wodeyar Rajas son to throne
--   Collusion w/ F
--   died defending Seringapatam 
+**Circumstances surrounding it**
 
+- EIC captured Northern Sircars, placed troops closer to Mysorean terrritory
+- Travancore Eng defence treaty, fortification of border areas
+- B feared collusion w/ F
+- Rich trade of Malabar seen as threat
+- 1785 TS embargo on export pepper cardamom sandalwood
+- 1788 explicit forbade dealing w/ Eng traders
+
+### Third Anglo-Mysore War (1790-1792)
+
+- Tipu vs Travancore over puruchase of Jalkottal and Cannanore from Dutch 
+- English, sided w/ Travancore helped by Marathas and Nizam. 
+- Treaty of Seringapatam in 1792 half of Mysorean territory was taken over by the victors 
+- war damage of 3 crore 
+- Tipu’s two sons taken hostage
+
+## Fourth Anglo-Mysore War of 1799
+
+- Tipu did not place dead Wodeyar Rajas son to throne
+- Collusion w/ F
+- died defending Seringapatam 
 
 ```ad-Views
 
@@ -65,18 +75,60 @@
 
 ```
 
+## PYQs
 
-
-
-
-
-
+---
 
 1. Why was Mysore considered a threat by the British to their possessions and mercantile interests in the south? Do you think that Tipu Sultan's posturing became his undoing? [2009, 30m]
--   [Mysore](onenote:[[Mysore]]&section-id={5E4A9EBB-1AE5-4DC9-A50C-4BAC4568E9A7}&page-id={64774158-9486-4F96-A588-F8211B59829A}&object-id={539EFD18-446B-457C-8CEA-80D355B87E10}&2E&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/British%20Expansion.one)
+- [Mysore](onenote:[[Mysore]]&section-id={5E4A9EBB-1AE5-4DC9-A50C-4BAC4568E9A7}&page-id={64774158-9486-4F96-A588-F8211B59829A}&object-id={539EFD18-446B-457C-8CEA-80D355B87E10}&2E&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/British%20Expansion.one)
 
+```ad-Answer
 
+1.  Building up a powerful and modern army: Tipu Sultan made significant investments in building up a powerful and modern army equipped with advanced weaponry, which he hoped would help him to defend his kingdom and expand his territory.
+    
+2.  Building alliances with other Indian states: Tipu Sultan entered into alliances with other Indian states, such as the Marathas and the Nizam of Hyderabad, which the British saw as a threat to their own interests in the region.
+    
+3.  Building alliances with foreign powers: Tipu Sultan sought to form alliances with foreign powers, particularly the French, in order to counter the British influence in India.
+    
+4.  Building a navy: Tipu Sultan built a navy to challenge the British naval dominance in the region.
+    
+5.  Building forts and other military infrastructure: Tipu Sultan invested in building forts, fortifications and other military infrastructure, which the British saw as a potential threat to their interests in southern India
+    
+7.  Attempts to expand his territory: Tipu Sultan sought to expand his territory through military conquests and by annexing neighboring territories. 
+    
+8.  Attempts to control trade routes: Tipu Sultan sought to control trade routes and ports in southern India, which the British saw as a challenge to their own mercantile interests in the region. Ex. The Rich Malabar trade of the region.
+    
+9.  Hostility towards British: Tipu Sultan openly expressed his hostility towards the British and their presence in India, which further strained relations between the two powers.
+    
+10.  Propagation of a anti-British sentiment: Tipu Sultan propagated anti-British sentiment among the people of his kingdom, which further increased the tensions between the two powers. Seen in his Mechanical Tiger killing British troop.
 
+The British perceived the threats posed by Tipu Sultan and his kingdom of Mysore as a direct challenge to their own interests in southern India. They saw his efforts to build a powerful and modern army, form alliances with other Indian states and foreign powers, and expand his territory as a direct threat to their own expansionist policies and their ability to control the region.
 
-2. Examine the circumstance which led to the third Mysore War. Could Cornwallis have avoided it? [2006, 60m]
--   [Third Anglo-Mysore War (1790-1792)](onenote:[[Mysore]]&section-id={5E4A9EBB-1AE5-4DC9-A50C-4BAC4568E9A7}&page-id={64774158-9486-4F96-A588-F8211B59829A}&object-id={C8F49DED-766C-48D8-9D99-1E3E5DFE2EAD}&2A&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/British%20Expansion.one)
+```
+
+1. Examine the circumstance which led to the third Mysore War. Could Cornwallis have avoided it? [2006, 60m]
+- [Third Anglo-Mysore War (1790-1792)](onenote: [[Mysore]] &section-id={5E4A9EBB-1AE5-4DC9-A50C-4BAC4568E9A7}&page-id={64774158-9486-4F96-A588-F8211B59829A}&object-id={C8F49DED-766C-48D8-9D99-1E3E5DFE2EAD}&2A&base-path= <https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/British%20Expansion.one> )
+
+```ad-Answer
+
+The Third Mysore War, also known as the Third Anglo-Mysore War, was fought between the Kingdom of Mysore and the British East India Company from 1789 to 1792. The war was sparked by the rise of the powerful Mysorean ruler, Tipu Sultan, who sought to expand his territory and challenge British dominance in the region.
+
+Cornwallis, who served as Governor-General of India from 1786 to 1793, played a key role in the conflict. He had arrived in India with the intention of strengthening British control over the region, and had adopted a policy of aggressive expansion. This put him at odds with Tipu Sultan, who saw the British as a threat to his own ambitions.
+
+In the years leading up to the war, Tipu Sultan had made a number of moves that threatened British interests, such as entering into alliances with other Indian states and French. The British also believed that Tipu Sultan was trying to acquire modern artillery and other military equipment from the French.
+
+It is possible that Cornwallis could have avoided the war by taking a more conciliatory approach towards Tipu Sultan, rather than trying to confront him head-on. He could have also tried to form alliances with other Indian powers to counterbalance Mysore, rather than trying to defeat them outright.
+
+However, it should also be noted that the British were also facing pressure from their own domestic politics, and the East India Company's financial troubles, which could have also pushed them towards war.
+
+```
+
+```ad-Views
+
+Historian John Keay has criticized the war as a "monumentally irrelevant" conflict, writing that it "diverted British resources and attention from the more important business of consolidating their gains in Bengal and Bombay."
+
+Another historian, Lewis Freeman, has described the war as a "brutal and bloody" conflict in which the British "launched an all-out assault on the kingdom of Mysore in an attempt to crush a rising power that threatened their interests in India."
+
+On the other hand, historian Wilks notes that the war was a "decisive victory" for the British, which "broke the power of the Mysorean state and restored British prestige in southern India."
+
+```

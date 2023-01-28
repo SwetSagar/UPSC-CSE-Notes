@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "09a93be080d437ba",
+        "id": "12fa1ee668bc1eeb",
         "type": "tabs",
         "children": [
           {
-            "id": "2f2f15750366d74a",
+            "id": "f8560452a64bd765",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Testing 123.md",
-                "mode": "source",
-                "source": false
+                "file": "08.1 Ancient-History/5. Aryans and Vedic Period/5.6 Evolution of Monarchy and Varna System.md",
+                "mode": "preview",
+                "source": true
               }
             }
           }
@@ -33,21 +33,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "54c28f3b240feb0a",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "byCreatedTime"
-              }
-            }
-          },
-          {
             "id": "0803f948315da93b",
             "type": "leaf",
             "state": {
@@ -56,13 +41,35 @@
                 "sortOrder": "byCreatedTimeReverse"
               }
             }
+          },
+          {
+            "id": "fc8701ce6091a1e6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "shruti",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "68b6d68a96a1085a",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 269.50418853759766
+    "width": 210.5
   },
   "right": {
     "id": "5683b48c38d8adc9",
@@ -71,7 +78,7 @@
       {
         "id": "101698b123868760",
         "type": "tabs",
-        "dimension": 53.125,
+        "dimension": 73.42857142857143,
         "children": [
           {
             "id": "4fddf2ce530b1d83",
@@ -79,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Testing 123.md"
+                "file": "08.1 Ancient-History/5. Aryans and Vedic Period/5.6 Evolution of Monarchy and Varna System.md"
               }
             }
           },
@@ -92,7 +99,15 @@
             }
           },
           {
-            "id": "679babaf7eec71cb",
+            "id": "c75127f1eb7e2648",
+            "type": "leaf",
+            "state": {
+              "type": "chronology-calendar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "5380ca4b64be2d01",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -100,20 +115,36 @@
             }
           },
           {
-            "id": "648c4cb924dbca26",
+            "id": "9763e7fd0a6959e6",
             "type": "leaf",
             "state": {
-              "type": "review-queue-list-view",
+              "type": "aHR0cHM6Ly9jaGF0Lm9wZW5haS5jb20vY2hhdA==",
+              "state": {}
+            }
+          },
+          {
+            "id": "479254ae6ab82d87",
+            "type": "leaf",
+            "state": {
+              "type": "aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbQ==",
+              "state": {}
+            }
+          },
+          {
+            "id": "11a902cb9627642b",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
               "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       },
       {
         "id": "548a9e20c43e4ddf",
         "type": "tabs",
-        "dimension": 46.87500000000001,
+        "dimension": 26.571428571428573,
         "children": [
           {
             "id": "03884fd20c5354ee",
@@ -121,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Testing 123.md",
+                "file": "08.1 Ancient-History/5. Aryans and Vedic Period/5.6 Evolution of Monarchy and Varna System.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Testing 123.md",
+                "file": "08.1 Ancient-History/5. Aryans and Vedic Period/5.6 Evolution of Monarchy and Varna System.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -176,23 +207,48 @@
       }
     ],
     "direction": "horizontal",
-    "width": 368,
-    "collapsed": true
+    "width": 494
   },
-  "ribbon": {
-    "mostRecentAction": ""
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "workspaces:Manage workspace layouts": false,
+      "periodic-notes:Open today": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-gallery:Gallery": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "obsidian-tts:Text to Speech": false,
+      "custom-sort:Toggle custom sorting": false,
+      "obsidian-wordpress:WordPress Publish": false,
+      "omnisearch:Omnisearch": false,
+      "gpt3-notes:GPT-3 Notes": false,
+      "chronology:Open Chronology": false,
+      "webpage-html-export:Export Vault to HTML": false,
+      "open-gate:Just a moment...": false,
+      "open-gate:GitHub: Let’s build from here · GitHub": false,
+      "open-gate:Access denied": false,
+      "open-gate:https://www.google.com/": false,
+      "file-forgetting-curve-obsidian:View - File Forgetting Curve": false
+    }
   },
-  "active": "2f2f15750366d74a",
+  "active": "11a902cb9627642b",
   "lastOpenFiles": [
-    "Attachements/1 - Historical Background 1.pdf",
-    "Testing 123.md",
-    "08.3 Modern-History/10. Constituional-Dev_/Constitutional Development between 1858-1935.md",
-    "00 Homepage/Homepage.md",
-    "08.1 Ancient-History/1. Sources/1.1 Archaeological-Sources.md",
-    "02 Prelims/Prelims Facts 1 April-2019-Feb-2020.md",
-    "02 Prelims/Prelims Facts 2 March 2020-March 2021.md",
-    "01 Subject Wise Notes/🍃 Environment and Disaster Management/5. Acts, Orgs, Convention, Env Issues/Acts and Policies.md",
-    "08.4 World-History/2. Modern Politics Origin/French Revolution and aftermath 1789 1815.md",
-    "08.4 World-History/2. Modern Politics Origin/American Revolution and the Constitution.md"
+    "08.1 Ancient-History/5. Aryans and Vedic Period/5.5 Significance of Vedic Age.md",
+    "08.1 Ancient-History/5. Aryans and Vedic Period/5.4 Transformation from Rig Vedic to later Vedic.md",
+    "08.1 Ancient-History/5. Aryans and Vedic Period/5.3 Political, Social and Economic Life in Early Vedic.md",
+    "08.1 Ancient-History/5. Aryans and Vedic Period/5.2 Vedic Period - Religious and Political Literature.md",
+    "08.1 Ancient-History/1. Sources/1.2 Literary Sources.md",
+    "08.1 Ancient-History/5. Aryans and Vedic Period/5.1 Expansions of Aryans in India.md",
+    "08.1 Ancient-History/12. Early-Cultural-History/12.4 Ideas-in-Science-and-Mathematics.md",
+    "08.4 World-History/11. Unificaiton-of-Europe/PYQ.md",
+    "Untitled 1.md",
+    "08.1 Ancient-History/4. Megalithic-Culture/4.3 Crafts, Pottery and Iron Industry.md"
   ]
 }

@@ -1,3 +1,7 @@
+---
+uid: c6395cfed8b33880acd0c32fdf5df7cc
+---
+
 1. Current BJP regime is a Brahmanical reaction to Congress led Socialism.
 2. EWS reservation wants to perpetuate both caste based privileges and discrimination against 'lower caste'.
 	- People who have given the world the oldest and greatest form of institutional inequality when hearing about justice and equality retort to social shaming, derogatories remarks against them are common.

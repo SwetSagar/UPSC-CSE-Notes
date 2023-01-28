@@ -1,20 +1,21 @@
 # CA : Modern Indian History
-2019-04-28 06:16:44
+2019-04-28 06:16 :44
+
 ```toc
 ```
 ---
 
 ## CA : November 2021 Onwards
 2020-03-10 12:46:39
-            
+
 ---
 -  Rani Gaidinliu was a Naga spiritual leader was associated with Haipou Jadonang who led the movt from Manipur during the Civil Disobedience movt.
 - [[Peasant Movements and Tribal Uprisings in the 18th and 19th Century#Paika Rebellion 1817 |Paika Rebellion]]
 - **Aurobindo Ghosh** participated in freedom struggle from 1902-1910. He founded a community of spiritual seekers that was renamed as Aurobindo Ashram in 1926. Influence by Americal Revolution, Italian unification and French revolution.
 	- Helped establish the Anushilan Samiti in 1902. His Brother was Barindra Ghosh. 
-	- He published magazine called Arya and a poem called 'Savitri'. 
-	- His special yoga is called Integral Yoga. His special contribution to India struggle was in the dev of theory of nationalism in india that was based on the Vendanta philosophy. Declaring that India was Mother India that rep infinite energy of its people. She was a god and our mission was to set her free. 
-
+	- Published magazine called **Arya** and a poem called '**Savitri**'. 
+	- His special yoga is called Integral Yoga. Special contribution to Indian struggle was in the dev of ==theory of nationalism based on the Vendanta philosophy==. Declaring that India was **Mother India** that rep infinite energy of its people. She was a god and our mission was to set her free. 
+-   New **DNA study of cemetery at Rakhigarhi** shows Indus Valley people had independent origin they do not contain the genome of Steppe people or Iranian farmers, no trace of Anatolian related ancestry as well. This questions the Aryan Invasion Theory/OIT. #MainsPYQ 
 
 ## CA : April 2019 - November 2021
 2021-09-06 08:43
@@ -57,7 +58,7 @@
 
 ### PIB 2019 Year End 
 2020-03-06 17:06:28
-            
+
 ---
 -   **Bharat Rang Mahotsav (BRM)**, the international theatre festival of India organised by National Drama School
 -   Virtual Experiential Museum has been established by the **National Council of Science Museum (NCSM)* under Mo Culture ^fcff0a
@@ -79,7 +80,7 @@
 	- Srinagar in 2021 was selected as creative city under Craft and Fold Arts category.
 	- UCCN was created in 2004 to promote cooperation among cities that have identified cities. There are a total of 5 Indian cities Jaipur for crafts and folk arts, Varanasi - for Music and Chennai - for Music are others. 
 -   **Indian culture** portal is the first government authorized portal where knowledge and cultural resources of various organizations of Mo Culture are available in public domain on a single platform.
-- 
+
  
  
 # PYQ Modern Indian History

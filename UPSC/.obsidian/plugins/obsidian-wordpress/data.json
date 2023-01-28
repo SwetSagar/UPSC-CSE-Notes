@@ -1,8 +1,10 @@
 {
   "apiType": "xml-rpc",
-  "endpoint": "",
+  "endpoint": "https://thatlazyblogger.wordpress.com/",
   "saveUserName": true,
+  "savePassword": true,
   "showRibbonIcon": true,
   "defaultPostStatus": "draft",
-  "userName": ""
+  "userName": "swetsagar",
+  "password": "$weT1234$agaR"
 }

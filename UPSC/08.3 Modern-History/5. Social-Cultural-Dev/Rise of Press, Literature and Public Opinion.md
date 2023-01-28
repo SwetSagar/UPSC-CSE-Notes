@@ -1,5 +1,6 @@
 # Rise of Press, Literature and Public Opinion
 2020-04-27 15:07:02
+
 ```toc
 ```
 ---
@@ -96,12 +97,9 @@
 - These provision were added to Criminal Amendment act of 1932.
 
 
+## PYQs
 
-
-
-
-
-
+---
 
 1. "The vernacular press in the nineteenth century was both newspaper as well as 'viewspapers' that enlightened the dormant masses." Comment. [2008, 20m]
 -   [Raja Rammohan Roy was the 1st to protest against a](onenote:[[Rise]]%20of%20Press,%20Literature%20and%20Public%20Opinion&section-id={B79FD829-FA0F-426F-B425-A852F19A4727}&page-id={D7ADF85E-456B-458A-AD2E-0C735C631F11}&object-id={A04A794A-653E-422E-9CA0-8F808735E385}&16&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Social%5eJ%20Cultural%20Dev.one)

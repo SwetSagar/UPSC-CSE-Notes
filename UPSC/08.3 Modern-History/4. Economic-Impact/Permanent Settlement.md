@@ -1,62 +1,71 @@
 # Permanent Settlement
+
 2020-04-26 19:37:18
+
 ```toc
 ```
+
 ---
 
-![[Drawing 2022-09-10 10.17.16 Permanent Settlement.excalidraw | 700]]
+![[Drawing 2022-09-10 10.17.16 Permanent Settlement.excalidraw |700]]
 
--   Introduced in 1793 ==for Bengal, Bihar and Orissa==.
-- @  Zamindar's became the owner of entire land in their Zamindaries and became agents of govt for collection of revenue
--  they got 10% remuneration in the collection of revenue
--   Land revenue to be collected was permanently fixed
--   was ==extended to parts of Banaras and North Madras==.
--   Zamindars were aka Rajas.
--  was made with Zamindars/Rajas and Talukdars of Bengal traditionally they were not landowners but revenue collectors.
--   ==Ryots were peasants==, in Bengal they mostly leased it out to under ryots.
--   Rich ryots were called **Jotedars** and **Mandals**
-- ~  **Amlah** were officers of the Zamindars who collected rent
-- ~  **Adhiyars** and **Bargadars** were sharecroppers
+- Introduced in 1793 ==for Bengal, Bihar and Orissa==.
+- @ Zamindar's became the owner of entire land in their Zamindaries and became agents of govt for collection of revenue
+- they got 10% remuneration in the collection of revenue
+- Land revenue to be collected was permanently fixed
+- was ==extended to parts of Banaras and North Madras==.
+- Zamindars were aka Rajas.
+- was made with Zamindars/Rajas and Talukdars of Bengal traditionally they were not landowners but revenue collectors.
+- ==Ryots were peasants==, in Bengal they mostly leased it out to under ryots.
+- Rich ryots were called **Jotedars** and **Mandals**
+- ~ **Amlah** were officers of the Zamindars who collected rent
+- ~ **Adhiyars** and **Bargadars** were sharecroppers
 - Covered 19 % total culti land
--   Also in North Madras
+- Also in North Madras
 
 ## Why Permanent Settlement?
+
 - hoped to resolve famines, inc agri output of rural Bengal.
 - to assure a regular flow of income to Coy.
 - ensure profit to entrepreneurs who would help improve agri.
 
 ## Problems
 
-###   Problems for Peasants 
--   Gov lost contact with the Peasants
--   No scientific bias on fixation of revenue made it ad hoc and often very high
--   Zamindari and Peasant historical tie was annulled
+### Problems for Peasants
 
-###   Problems for Zamindars 
--   Zamindaries were auctioned for non-payment
--   Money lenders, speculators etc now became Zamindar who did not have any interest in development of Peasant
+- Gov lost contact with the Peasants
+- No scientific bias on fixation of revenue made it ad hoc and often very high
+- Zamindari and Peasant historical tie was annulled
+
+### Problems for Zamindars
+
+- Zamindaries were auctioned for non-payment
+- Money lenders, speculators etc now became Zamindar who did not have any interest in development of Peasant
 
 ## Effects of Permanent Settlement
--   Taxes rose from Rs 6 lakh in 1763 to Rs 28 lakh in 1790. Famines, Hunger, Barren land were common occurrence.
--   initial revenue demands were very high in 1790s price of agri produce was already depressed
-- & demand was invariable regardless of the harvest
--   power of zamindar was initially limited to collect rent and manage zamindari
--   ==Collector emerged as a rival authority to the Zamindar==, rich ryots deliberately delayed payment
--   Prosecution of defaulters was a long drawn process
--   fictitious sale of zamindari assets, deliberate delaying of payment of purchase exhausted the state
--   ==Jotedars emerged as a powerful class especially in North Bengal==, they lived within villages aka **Haoladars** and **Gantidars**
--   Later in the 19th century zamindars who survived consolidated their powers
--   **5th report** submitted to British parliament in 1813 dealt with administration and other activities ex petitions of zamindars and ryots, reports of collectors etc.
--   **Francis Buchanans** exploits are important source for this period
 
-##   PS not extended over other regions because :
--   fixed settlement, no claim over enhanced income
--   **Ricardian theory** that was popular during the time - landowner should have claim only on the average rent - above which was to be taxed by state
+- Taxes rose from Rs 6 lakh in 1763 to Rs 28 lakh in 1790. Famines, Hunger, Barren land were common occurrence.
+- initial revenue demands were very high in 1790s price of agri produce was already depressed
+- & demand was invariable regardless of the harvest
+- power of zamindar was initially limited to collect rent and manage zamindari
+- ==Collector emerged as a rival authority to the Zamindar==, rich ryots deliberately delayed payment
+- Prosecution of defaulters was a long drawn process
+- fictitious sale of zamindari assets, deliberate delaying of payment of purchase exhausted the state
+- ==Jotedars emerged as a powerful class especially in North Bengal==, they lived within villages aka **Haoladars** and **Gantidars**
+- Later in the 19th century zamindars who survived consolidated their powers
+- **5th report** submitted to British parliament in 1813 dealt with administration and other activities ex petitions of zamindars and ryots, reports of collectors etc.
+- **Francis Buchanans** exploits are important source for this period
+
+## PS not Extended over other Regions because :
+
+- fixed settlement, no claim over enhanced income
+- **Ricardian theory** that was popular during the time - landowner should have claim only on the average rent - above which was to be taxed by state
 
 ## Analysis and Historians Views [^1]
--   Existing sys impoverished country, ruined agri, dec in prod of silk or cotton
--   Alexander Dow, Henri Parullo, Philip Francis and Thomas Law favored PS before Cornwalis
--   Would reduce corruption, landlords would invest money on imp land, coy would get tax regularly 
+
+- Existing sys impoverished country, ruined agri, dec in prod of silk or cotton
+- Alexander Dow, Henri Parullo, Philip Francis and Thomas Law favored PS before Cornwalis
+- Would reduce corruption, landlords would invest money on imp land, coy would get tax regularly
 
 ```ad-Views
 collapse: open
@@ -65,18 +74,18 @@ collapse: open
 - **BB Chaudhary** : rev doubled b/w 1765 - 1793
 ```
 
--   Coy retained some zamindars replaced others, old customary rates were ignored
--   Ease of collection to ensure loyalty
--   Zamindar could sell mortgage and transfer it
--   PS vested land ownership to Z previously only revenue rights
+- Coy retained some zamindars replaced others, old customary rates were ignored
+- Ease of collection to ensure loyalty
+- Zamindar could sell mortgage and transfer it
+- PS vested land ownership to Z previously only revenue rights
 - Issues with PS
-	-   Written agreement rarely followed
-	-   Regulation of 1799 1812 gave Z right to seize property
-	-   Sunset clause
-	-   Frequent sale of Z estates 1804-1818
-	-   Subinfeudation by old Z
-	-   Legal reforms further strengthened rich peasants viz Jotedars
-	
+	- Written agreement rarely followed
+	- Regulation of 1799 1812 gave Z right to seize property
+	- Sunset clause
+	- Frequent sale of Z estates 1804-1818
+	- Subinfeudation by old Z
+	- Legal reforms further strengthened rich peasants viz Jotedars
+
 ```ad-Views
 -   **Rajat and Ratnalekha Ray** : revenue collecting right of Z remained unaffected aka Jotedar thesis  
 - **Sugata Bose** :
@@ -89,90 +98,50 @@ collapse: open
 - **China Panda** - unqualified decline of Z
 ```
 
+## PYQs
 
-
-[^1]: From Sekhar Bandyopadhyay
+---
 
 1. Trace the circumstances that led to the introduction of the Permanent Settlement in Bengal. Discuss its impact on landlords, peasants and the Government. [1981, 60m]
--   ["Our system acts very much like a sponge, drawing](onenote:[[Permanent]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={AAE2248F-01D8-460D-B666-E64673DAEC8F}&object-id={D43F2159-ECE2-41D4-8DCA-50271039869B}&10&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
--   [Existing sys impoverished country, ruined agri, dec in prod of](onenote:[[Permanent]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={AAE2248F-01D8-460D-B666-E64673DAEC8F}&object-id={DD37475E-1031-4EB7-B339-35883A9EF777}&B&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
--   [Subinfeudation by old Z](onenote:[[Permanent]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={AAE2248F-01D8-460D-B666-E64673DAEC8F}&object-id={DD37475E-1031-4EB7-B339-35883A9EF777}&40&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
--   [Collector emerged as a rival authority to the Zamindar, rich](onenote:[[Permanent]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={AAE2248F-01D8-460D-B666-E64673DAEC8F}&object-id={317A7006-159E-408F-AD26-FFB9FCB56BCC}&29&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
--   [Problems for Peasants :](onenote:[[Permanent]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={AAE2248F-01D8-460D-B666-E64673DAEC8F}&object-id={D43F2159-ECE2-41D4-8DCA-50271039869B}&27&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+- ["Our system acts very much like a sponge, drawing](onenote:[[Permanent]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={AAE2248F-01D8-460D-B666-E64673DAEC8F}&object-id={D43F2159-ECE2-41D4-8DCA-50271039869B}&10&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+- [Existing sys impoverished country, ruined agri, dec in prod of](onenote:[[Permanent]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={AAE2248F-01D8-460D-B666-E64673DAEC8F}&object-id={DD37475E-1031-4EB7-B339-35883A9EF777}&B&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+- [Subinfeudation by old Z](onenote:[[Permanent]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={AAE2248F-01D8-460D-B666-E64673DAEC8F}&object-id={DD37475E-1031-4EB7-B339-35883A9EF777}&40&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+- [Collector emerged as a rival authority to the Zamindar, rich](onenote:[[Permanent]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={AAE2248F-01D8-460D-B666-E64673DAEC8F}&object-id={317A7006-159E-408F-AD26-FFB9FCB56BCC}&29&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+- [Problems for Peasants :](onenote:[[Permanent]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={AAE2248F-01D8-460D-B666-E64673DAEC8F}&object-id={D43F2159-ECE2-41D4-8DCA-50271039869B}&27&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+
+1. "The Permanent Settlement of land revenue in Bengal was a‚ bold, brave and wise measure." Comment. [1983, 20m]
+- From above
+
+1. Show how British rule led to the spread of landlordism in certain parts of India, and how the peasant was progressively impoverished under this rule. [1985, 60m]
+- Permanent Settlement :
+    - [Zamindar's became the owner of entire land in their](onenote:[[Permanent]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={AAE2248F-01D8-460D-B666-E64673DAEC8F}&object-id={D43F2159-ECE2-41D4-8DCA-50271039869B}&1B&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+    - [Coy retained some zamindars replaced others, old customary rates ignored](onenote:[[Permanent]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={AAE2248F-01D8-460D-B666-E64673DAEC8F}&object-id={DD37475E-1031-4EB7-B339-35883A9EF777}&28&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+    - [Problems for Peasants :](onenote:[[Permanent]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={AAE2248F-01D8-460D-B666-E64673DAEC8F}&object-id={D43F2159-ECE2-41D4-8DCA-50271039869B}&27&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+    - [initial revenue demands were very high in 1790s price of](onenote:[[Permanent]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={AAE2248F-01D8-460D-B666-E64673DAEC8F}&object-id={317A7006-159E-408F-AD26-FFB9FCB56BCC}&21&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+- Ryotwari Sys
+    - [Local poligars recog as Z](onenote:[[Ryotwari]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={ABF07ED1-9C9B-4FD5-84A4-E34231F1102D}&object-id={6BDF00B1-0AFB-499E-81AD-89CC1E99E55D}&16&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+    - [Impact](onenote:[[Ryotwari]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={ABF07ED1-9C9B-4FD5-84A4-E34231F1102D}&object-id={6BDF00B1-0AFB-499E-81AD-89CC1E99E55D}&58&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+
+1. "The permanent system of Bengal though initiated with best of best of intentions, was a sadly blundering affair." Comment. [1993, 20m]
+- [Problems](onenote:[[Permanent]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={AAE2248F-01D8-460D-B666-E64673DAEC8F}&object-id={317A7006-159E-408F-AD26-FFB9FCB56BCC}&1B&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+
+1. "The Permanent settlement was a bold, brave and wise measures." Comment. [1997, 20m]
 
 
+3. "Absentee landlordism was a consequential feature of Bengal's Permanent land settlement." Comment. [2003, 20m]
+- [Impact of revenue reforms on Rural society](onenote:[[Impoverishment]]%20of%20Rural%20Society&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={B4EA83F5-CE2D-4E20-9730-9ACE0AD331CB}&object-id={36BA9B4F-7420-443D-80CC-FC799852511F}&C&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
 
+1. "Permanent Settlement disappointed many expectations and introduced there results that were not anticipated." Comment. [2004, 20m]
+- [Frequent sale of Z estates 1804-1818](onenote:[[Permanent]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={AAE2248F-01D8-460D-B666-E64673DAEC8F}&object-id={DD37475E-1031-4EB7-B339-35883A9EF777}&3D&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+- [Jotedars emerged as a powerful class especially in North Bengal](onenote:[[Permanent]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={AAE2248F-01D8-460D-B666-E64673DAEC8F}&object-id={317A7006-159E-408F-AD26-FFB9FCB56BCC}&2F&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
 
-2. "The Permanent Settlement of land revenue in Bengal was a‚ bold, brave and wise measure." Comment. [1983, 20m]
--   From above
+1. "Though the Permanent Settlement had serious defects, it gave tranquility to the countryside and stability to the government." Comment. [2009, 20m]
 
+2. "The passing of the land from the hands of the peasant proprietors into the hands of noncultivating landlords brought about increasing polarization of classes in agrarian areas." [2018, 10 Marks]
+- [Impact of revenue reforms on Rural society](onenote:[[Impoverishment]]%20of%20Rural%20Society&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={B4EA83F5-CE2D-4E20-9730-9ACE0AD331CB}&object-id={36BA9B4F-7420-443D-80CC-FC799852511F}&C&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+- [Rise of Landless agrarian labourers](onenote:[[Rise]]%20of%20Landless%20agrarian%20labourers&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={B03DE161-DC27-4118-83C1-1FA15DE45B82}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+- More content needed
 
+---
 
-
-
-
-3. Show how British rule led to the spread of landlordism in certain parts of India, and how the peasant was progressively impoverished under this rule. [1985, 60m]
--   Permanent Settlement :
-    -   [Zamindar's became the owner of entire land in their](onenote:[[Permanent]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={AAE2248F-01D8-460D-B666-E64673DAEC8F}&object-id={D43F2159-ECE2-41D4-8DCA-50271039869B}&1B&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
-    -   [Coy retained some zamindars replaced others, old customary rates ignored](onenote:[[Permanent]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={AAE2248F-01D8-460D-B666-E64673DAEC8F}&object-id={DD37475E-1031-4EB7-B339-35883A9EF777}&28&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
-    -   [Problems for Peasants :](onenote:[[Permanent]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={AAE2248F-01D8-460D-B666-E64673DAEC8F}&object-id={D43F2159-ECE2-41D4-8DCA-50271039869B}&27&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
-    -   [initial revenue demands were very high in 1790s price of](onenote:[[Permanent]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={AAE2248F-01D8-460D-B666-E64673DAEC8F}&object-id={317A7006-159E-408F-AD26-FFB9FCB56BCC}&21&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
--   Ryotwari Sys
-    -   [Local poligars recog as Z](onenote:[[Ryotwari]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={ABF07ED1-9C9B-4FD5-84A4-E34231F1102D}&object-id={6BDF00B1-0AFB-499E-81AD-89CC1E99E55D}&16&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
-    -   [Impact](onenote:[[Ryotwari]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={ABF07ED1-9C9B-4FD5-84A4-E34231F1102D}&object-id={6BDF00B1-0AFB-499E-81AD-89CC1E99E55D}&58&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
- 
-
-
-
-
-
-4. "The permanent system of Bengal though initiated with best of best of intentions, was a sadly blundering affair." Comment. [1993, 20m]
--   [Problems](onenote:[[Permanent]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={AAE2248F-01D8-460D-B666-E64673DAEC8F}&object-id={317A7006-159E-408F-AD26-FFB9FCB56BCC}&1B&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
-
-
-
-
-
-
-5. "The Permanent settlement was a bold, brave and wise measures." Comment. [1997, 20m]
--   
-
-
-
-
-
-
-
-6. "Absentee landlordism was a consequential feature of Bengal's Permanent land settlement." Comment. [2003, 20m]
--   [Impact of revenue reforms on Rural society](onenote:[[Impoverishment]]%20of%20Rural%20Society&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={B4EA83F5-CE2D-4E20-9730-9ACE0AD331CB}&object-id={36BA9B4F-7420-443D-80CC-FC799852511F}&C&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
-
-
-
-
-
-
-7. "Permanent Settlement disappointed many expectations and introduced there results that were not anticipated." Comment. [2004, 20m]
--   [Frequent sale of Z estates 1804-1818](onenote:[[Permanent]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={AAE2248F-01D8-460D-B666-E64673DAEC8F}&object-id={DD37475E-1031-4EB7-B339-35883A9EF777}&3D&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
--   [Jotedars emerged as a powerful class especially in North Bengal](onenote:[[Permanent]]%20Settlement&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={AAE2248F-01D8-460D-B666-E64673DAEC8F}&object-id={317A7006-159E-408F-AD26-FFB9FCB56BCC}&2F&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
- 
-
-
-
-
-
-
-
-8. "Though the Permanent Settlement had serious defects, it gave tranquility to the
-countryside and stability to the government." Comment. [2009, 20m]
--   
-
-
-
-
-
-
-
-9. "The passing of the land from the hands of the peasant proprietors into the hands of non- cultivating landlords brought about increasing polarization of classes in agrarian areas." [2018, 10 Marks]
--   [Impact of revenue reforms on Rural society](onenote:[[Impoverishment]]%20of%20Rural%20Society&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={B4EA83F5-CE2D-4E20-9730-9ACE0AD331CB}&object-id={36BA9B4F-7420-443D-80CC-FC799852511F}&C&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
--   [Rise of Landless agrarian labourers](onenote:[[Rise]]%20of%20Landless%20agrarian%20labourers&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={B03DE161-DC27-4118-83C1-1FA15DE45B82}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
--   More content needed
+[^1]: From Sekhar Bandyopadhyay

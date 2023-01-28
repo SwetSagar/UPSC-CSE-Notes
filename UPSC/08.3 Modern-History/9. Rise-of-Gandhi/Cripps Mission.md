@@ -45,7 +45,7 @@
 
 -   Indian Union with a dominion status would be set up to decide its relations with the Commonwealth.
 -   Constituent Assembly would be convened to frame a new constitution.
--   To accept the new consitution 2 condition needed to be fulfilled any province not willing to join could form a separate constitution and union and rights of racial and religous minorities were safeguarded -> this was the acceptance to the demand of Pakistan
+-   To accept the new consitution 2 condition needed to be fulfilled any province not willing to join could form a separate constitution and union and *rights of racial and religous minorities were safeguarded* -> ==this was the acceptance to the demand of Pakistan==
 -   Defence of India would remain in British hands and Gov Gen powers would remain intact
 
 ### Objections/Problems 
@@ -55,6 +55,16 @@
 -   No acceptance to the demand of immediate transfer of power
 -   Cripps was asked not to go beyond the Draft declaration, it gave him no power to bargain and negotiate
  
+
+## PYQs
+
+---
+
+**The Cripps Mission**
+
+
+1. "The Cripps Mission gave India‚ a post-dated cheque." Comment. [1982, 20m]
+-   
 
 
 

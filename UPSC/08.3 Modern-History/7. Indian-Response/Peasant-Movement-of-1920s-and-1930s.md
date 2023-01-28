@@ -1,5 +1,6 @@
 # Peasant Movement of 1920s and 1930s
-2020-04-27 15:13:04
+2020-04-27 15:13 :04
+
 ```toc
 ```
 ---
@@ -55,6 +56,30 @@
  
 
  
+## PYQs
+---
+
+
+**The peasant movements of the 1920s and 1930s**
+
+
+1. Write a brief essay on the peasant movement in India between 1921 and 1947. [1980, 60m]
+-   [Peasant Movement of 1920s and 1930s](onenote: [[Peasant]] %20Movement%20of%201920s%20and%201930s&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={93C9985C-E419-4996-84DE-40DCB2F59D85}&end&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
+
+
+
+
+3. Analyze the nature of peasant movements during the nationalist phase and bring out their shortcomings. [2015, 20m]
+-   [peasants emerged as the main force in agrarian movements as](onenote: [[Shift]] %20in%20character%20of%20Peasant%20move%20post%201857&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={8A3F3C2A-9412-4661-8722-9B8A3A83E350}&object-id={4A761B72-B9F9-42D9-81FE-FD4D603B0107}&11&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
+
+
+
+
+4. Discuss the nature of peasant movements under the Kisan Sabhas during 1920-1940.
+[2017, 10m]
+-   [Kisan Sabha Movement was](onenote: [[Peasant]] %20Movement%20of%201920s%20and%201930s&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={93C9985C-E419-4996-84DE-40DCB2F59D85}&object-id={836D2D5E-BF8E-4753-BBA8-EC356EBE44D5}&C&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
+-   [Kisan Sabha Movt in Bihar Swami Sahajanand Saraswati 1929 formed](onenote: [[Peasant]] %20Movement%20of%201920s%20and%201930s&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={93C9985C-E419-4996-84DE-40DCB2F59D85}&object-id={5FF95466-7C3C-47F0-876E-21196DD404F3}&11&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
+
 
  
 

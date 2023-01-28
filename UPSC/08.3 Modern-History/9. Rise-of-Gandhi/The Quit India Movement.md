@@ -21,9 +21,14 @@
 - MG in militant mood in 1942 as Jap invasion became threat, refused to believe Japs to be IN liberators, IN in the hands of Indians best guarantee against fascist aggression
 -   Rumors that by middle of 1942 B rule would collapse
 
-> MG - leave IN to god, if not then leave her to anarchy
+```ad-Views
+
+**MG** : leave IN to god, if not then leave her to anarchy
  
-> Gyanendra Pandey - MG provided w/ psychological break
+**Gyanendra Pandey** : MG provided w/ psychological break
+
+```
+
 -   After departure of Cripps mission a resolution was passed by Congress at Wardha in Jul 1942 to start a non-violent NCM. 
 -   was referred to as Quit India movement.
 -   ratified at the Congress meeting at Gowalia Tank, Bombay on Aug 8 1942. 
@@ -45,10 +50,15 @@
   > Linlithgow : most violent since 1857, spontaneous bcoz upper Echelon was behind bars - no preconceived plant to produce such instantaneous and uniform result
 -   Not just an impulsive resp - masses already conducted radical action under AITUC, CSP, AIKS, INC who had already prepared ground
 -   AICC issued instructions to peasants, MG ambivalent on non-violence said people can decide what they have to do in this struggle
-  > Sumit Sarkar : 3 phases in QIM
-	>  - Urban revolt : strikes, boyco, picketing
-	>  - Middle Aug : countryside dest of communication, sys, colonial symbols etc
-	>  - Terrorist activities : underground activity, Usha mehta, JP Narayan, Aruna Asaf ali, Sucheta Kriplani enjoyed wide support
+```ad-Views
+
+Sumit Sarkar : 3 phases in QIM
+  - Urban revolt : strikes, boyco, picketing
+  - Middle Aug : countryside dest of communication, sys, colonial symbols etc
+  - Terrorist activities : underground activity, Usha mehta, JP Narayan, Aruna Asaf ali, Sucheta Kriplani enjoyed wide support
+
+```
+
 -   Most powerful in Bihar- Patna, Jamshedpur
 -   Lower caste participation form parallel gov in Barh by Gops and Dusadhs
   > Gyanendra Pandey - Message of destruction and Gandhian principle of non-violence co-existed uneasily
@@ -59,7 +69,7 @@
 -   Many Supporters of BR Ambedkar did not join, evidence of Dalit participation there
 -   Hindu Mahasabha called it sterile, unmanly and injurious to Hindu cause
 -   INC turned towards constitutionalism after QIM
-      > DA Low - by way of fighting Raj congress itself was becoming the Raj
+      > **DA Low** : by way of fighting Raj congress itself was becoming the Raj
 
 ### Parallel gov were established during QIM in 
 
@@ -67,8 +77,38 @@
 -   Tamluk in Midnapore b/w Dec 1942 and Sep 1944. Jatiya Sarkar organsied Vidyut Vahinis and undertook cyclone relief.
 -   Satara from mid 1943-1944 was named Prati Sarkar organised under leaders like Y.B Chavan, Nana Patil. 
 -   Village libraries were organised, Nyaydan Mandals and Gandhi Marriages held
+
 ![[#^c05a2d]]
  
+
+## PYQs
+
+---
+
+**Quit India Movement**
+
+
+
+
+1. "In the summer of 1942 Gandhi was in a strange and uniquely militant mood." Comment. [2003, 20m]
+-   
+
+
+
+
+
+2. Do you think that Quit India movement was a Spontaneous Revolution? [2009, 30m]
+-   
+
+
+
+
+
+
+
+3. "To characterize the Quit India Movement as 'Spontaneous Revolution' would be partial interpretation, so also would be to look up at it as the culmination of Gandhian Satyagraha movements." Elucidate. [2015, 20m]
+-   
+
 
 
 

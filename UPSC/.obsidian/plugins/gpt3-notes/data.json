@@ -1,0 +1,90 @@
+{
+  "appName": "GP3_NOTES",
+  "token": "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",
+  "model": "text-davinci-003",
+  "tokens": 750,
+  "temperature": 5,
+  "promptHistory": [
+    {
+      "prompt": "Evaluate various views regarding human settlements as gleaned from the Vedic sources. 500 words with examples ",
+      "processedPrompt": "Evaluate various views regarding human settlements as gleaned from the Vedic sources. 500 words with examples ",
+      "temperature": 0.5,
+      "tokens": 750
+    },
+    {
+      "prompt": "\"Archaeology knows of no Aryans; only literature knows of Aryans.\" Examine critically. 500 words with examples ",
+      "processedPrompt": "\"Archaeology knows of no Aryans; only literature knows of Aryans.\" Examine critically. 500 words with examples ",
+      "temperature": 0.5,
+      "tokens": 750
+    },
+    {
+      "prompt": "\"Archaeology knows of no Aryans; only literature knows of Aryans.\" Examine critically. 500 words with examples.",
+      "processedPrompt": "\"Archaeology knows of no Aryans; only literature knows of Aryans.\" Examine critically. 500 words with examples.",
+      "temperature": 0.5,
+      "tokens": 750
+    },
+    {
+      "prompt": "Write a brief essay on: \"The Vedic Gods of terrestrial region. 500 words.",
+      "processedPrompt": "Write a brief essay on: \"The Vedic Gods of terrestrial region. 500 words.",
+      "temperature": 0.5,
+      "tokens": 750
+    },
+    {
+      "prompt": "Write a short essay on: \"Vedic literature\" 500 words with examples ",
+      "processedPrompt": "Write a short essay on: \"Vedic literature\" 500 words with examples ",
+      "temperature": 0.5,
+      "tokens": 750
+    },
+    {
+      "prompt": "Discuss briefly the development of religious ideas and rituals in the Vedic age. Do they show any parallelism with the religion of the Indus Civilization? 500 words ",
+      "processedPrompt": "Discuss briefly the development of religious ideas and rituals in the Vedic age. Do they show any parallelism with the religion of the Indus Civilization? 500 words ",
+      "temperature": 0.5,
+      "tokens": 750
+    },
+    {
+      "prompt": "\"The copious references to the preservation of Varnashrama system by the kings eulogized in inscriptions are mere reflection of the Smriti tradition.\" Discuss 500 words with examples ",
+      "processedPrompt": "\"The copious references to the preservation of Varnashrama system by the kings eulogized in inscriptions are mere reflection of the Smriti tradition.\" Discuss 500 words with examples ",
+      "temperature": 0.5,
+      "tokens": 750
+    },
+    {
+      "prompt": " Evaluate the various approaches to the understanding of Vedic religion. 500 words with examples ",
+      "processedPrompt": " Evaluate the various approaches to the understanding of Vedic religion. 500 words with examples ",
+      "temperature": 0.5,
+      "tokens": 750
+    },
+    {
+      "prompt": "Give a brief account of the social and economic conditions of the Later Vedic Aryans. 500 words with examples ",
+      "processedPrompt": "Give a brief account of the social and economic conditions of the Later Vedic Aryans. 500 words with examples ",
+      "temperature": 0.5,
+      "tokens": 750
+    },
+    {
+      "prompt": "What were the changes from early Rig vedic to later vedic period. Mention 5 such changes and their reasons.",
+      "processedPrompt": "What were the changes from early Rig vedic to later vedic period. Mention 5 such changes and their reasons.",
+      "temperature": 0.5,
+      "tokens": 750
+    }
+  ],
+  "tokenParams": {
+    "prefix": [
+      "Write an essay",
+      "Write dashed notes",
+      "Write bullet notes",
+      "Write paragraphs",
+      "Write an article",
+      "Create a manual",
+      "Create an outline",
+      "Write a summary",
+      "Write a program"
+    ],
+    "postfix": [
+      "with sources",
+      "with footnotes",
+      "with comments",
+      "with quotes",
+      "500 words",
+      "with examples"
+    ]
+  }
+}

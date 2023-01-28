@@ -1,6 +1,6 @@
 # Linguistic Reorganisation of States 1935-1947
 2020-04-27 15:26:30
-            
+
 ---
 - Boundaries of states pre British were drawn in haphazard manner, no culutral or linguistic cohesion.
 - lanugage for administraion, politics and people were not strong. 
@@ -12,7 +12,9 @@
 **Refer Laxmikanth**
 
 
+## PYQs
 
+---
 
 The linguistic reorganisation of States (1935-1947); Regionalism and
 regional inequality

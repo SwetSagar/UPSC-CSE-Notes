@@ -1,6 +1,6 @@
-﻿# PYQs and Answers
+# PYQs and Answers
 2020-06-24 11:05:49
-            
+
 ---
 
 
@@ -64,12 +64,8 @@
 **Art and architecture**
 
 
-
-
 1. Discuss the contribution of the **Pallavas to South Indian art**. Was this art wholly indigenous? [1979, 60m]
 -   [Pallava Art and Architecture](onenote:[[Growth]]%20of%20Art%20and%20Architecture&section-id={762B0AE5-2A23-4D1F-9D30-89664CBE1143}&page-id={59379BDD-BA65-467A-BD24-93DDC65F29D3}&object-id={7914A462-2DF7-4EB0-8E74-29227A33F028}&14&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Ancient%20History/Part%20II/Regional%20States%20during%20Gupta%20Era.one)
-
-
 
 
 2. Trace the origin and development of the political authority of the **Chalukyas of Badami** and discuss their contribution to religion and architecture. [1982, 60m]
@@ -165,23 +161,7 @@
 15. Trace the origin and development of temple architecture in India with reference to regional styles and variations. [2017, 20 Marks]
 -   [Growth of Art and Architecture](onenote:[[Growth]]%20of%20Art%20and%20Architecture&section-id={762B0AE5-2A23-4D1F-9D30-89664CBE1143}&page-id={59379BDD-BA65-467A-BD24-93DDC65F29D3}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Ancient%20History/Part%20II/Regional%20States%20during%20Gupta%20Era.one) including North IN regional styles
 
-
-**Arab conquest of Sind**
-
-
-
-
-1. Write a short essay on: "Historical significance of the advent of the Arabs in India" [1995,
-20m]
--   [Impact of advent of Arabs/ Historical Significance](onenote:[[Arab]]%20Conquest%20of%20Sindh&section-id={762B0AE5-2A23-4D1F-9D30-89664CBE1143}&page-id={486C5362-A201-4CAE-AA0D-0E7CB107EC23}&object-id={1AEB5844-DA0D-4C46-BABF-C0C684947F2F}&1A&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Ancient%20History/Part%20II/Regional%20States%20during%20Gupta%20Era.one)
-
-
-
-
-2. "The inferior cavalry of the Rajputs was not the only **cause of their defeat at the hands of Turko- Afghans and Mughal**." Comment. [2001, 60m]
--   [Arab Conquest of Sindh](onenote:[[Arab]]%20Conquest%20of%20Sindh&section-id={762B0AE5-2A23-4D1F-9D30-89664CBE1143}&page-id={486C5362-A201-4CAE-AA0D-0E7CB107EC23}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Ancient%20History/Part%20II/Regional%20States%20during%20Gupta%20Era.one)
-
-
+[[11.13 Arab Conquest of Sindh]]
 
 
 **Literature: Literature in Sanskrit, growth of Tamil literature, literature in the newly** **developing languages, Kalhan's Rajtarangini, Alberuni's India**

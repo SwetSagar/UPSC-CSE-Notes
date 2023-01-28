@@ -1,6 +1,6 @@
 # Moplah Rebellion 1841-1920
 2020-04-27 15:10:52
-            
+
 ---
 **1840s - 1850s**
 -   Mopilah descendents of Arab traders, converted lower caste Hindus, slave case
@@ -22,6 +22,37 @@
 -   Defiling of temples by peasants gave it an anti-Hindu turn and after 1896 it took communal orientation to what was a class struggle.
 
 
+## PYQs
+
+---
+
+
+**Mopla Rebellion in Malabar (1841-1920)**
+
+
+
+
+1. "The roots of Moplah discontent were clearly agrarian...." Comment. [1986, 20m]
+-   [tenants rebelled against majority Hindu landlords against lack of security](onenote: [[Moplah]] %20Rebellion%201841-1920&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={3E237CB2-4C82-4FEB-B836-41E181581B2B}&object-id={C69DCFF9-E58E-4C2C-AEDC-9CF6231F7212}&F&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
+
+
+
+
+2. The roots of the Moplah uprising (1921) were clearly agrarian. Do you agree? [1990, 60m]
+-   [tenants rebelled against majority Hindu landlords against lack of security](onenote: [[Moplah]] %20Rebellion%201841-1920&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={3E237CB2-4C82-4FEB-B836-41E181581B2B}&object-id={C69DCFF9-E58E-4C2C-AEDC-9CF6231F7212}&F&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
+
+
+
+
+3. The 1921 Moplah rebellion was "in essence an expression of long-standing agrarian discontent which was intensified by the religious and ethnic identity." Comment. [2000,
+20m]
+-   [tenants rebelled against majority Hindu landlords against lack of security](onenote: [[Moplah]] %20Rebellion%201841-1920&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={3E237CB2-4C82-4FEB-B836-41E181581B2B}&object-id={C69DCFF9-E58E-4C2C-AEDC-9CF6231F7212}&F&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
+
+
+
+
+4. Was the Moplah Rebellion in Malabar an expression of anti-landlord and anti-foreign discontent? Discuss. [2018, 20 Marks]
+-   [tenants rebelled against majority Hindu landlords against lack of security](onenote: [[Moplah]] %20Rebellion%201841-1920&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={3E237CB2-4C82-4FEB-B836-41E181581B2B}&object-id={C69DCFF9-E58E-4C2C-AEDC-9CF6231F7212}&F&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
 
 
 

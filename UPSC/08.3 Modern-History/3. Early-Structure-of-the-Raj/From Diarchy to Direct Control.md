@@ -1,56 +1,69 @@
 # From Diarchy to Direct Control
+
 2020-04-27 15:00:19
-            
+
 ---
 
 ## Need for Direct Control
 
--   Single centre of power for far flung IN
--   Corruption, bribery reason for parliamentary intervention
--   Application of loan -> suspicion of mismanagement of resources
--   Clive, Hastings, Wellesley tried un-sucessfully
--   Adam Smith laissez fair was against monopoly which influenced decision of law makers
- 
-## Warren Hastings 1772 - 1785 
-### Administrative Reforms
-- He had to give a workable system of adm to Bengal and transform EIC merchants into administrators.
-- After removing the [[Bengal - Mir Jafar and Mir Kasim#Settlement of Bengal Dual System | Dual System]] and dismissing Reza Khan and Shitab Roy the Governor and Co Directors started appointing Collectors to manage rev affairs.
--  He dec allowance of Nawab and redefined relations w/ Emepror Shah Aam -> took away Allahbad and Kara assigned to him. 
+- Single centre of power for far flung IN
+- Corruption, bribery reason for parliamentary intervention
+- Application of loan -> suspicion of mismanagement of resources
+- Clive, Hastings, Wellesley tried un-sucessfully
+- Adam Smith laissez fair was against monopoly which influenced decision of law makers
 
-### Revenue Reforms 
-- Resorted to system of trial and error/ experimentation to evolve a system of rev adm. 
+
+## Warren Hastings 1772 - 1785
+
+### Administrative Reforms
+
+- He had to give a workable system of adm to Bengal and transform EIC merchants into administrators.
+- After removing the [[Bengal - Mir Jafar and Mir Kasim#Settlement of Bengal Dual System |Dual System]] and dismissing Reza Khan and Shitab Roy the Governor and Co Directors started appointing Collectors to manage rev affairs.
+- He dec allowance of Nawab and redefined relations w/ Emepror Shah Aam -> took away Allahbad and Kara assigned to him.
+
+### Revenue Reforms
+
+- Resorted to system of trial and error/ experimentation to evolve a system of rev adm.
 - Made 5 yr settlement by farming out estates to highest bidder on assumption that Zamindars were mere tax gatherers w/ no proprietary rights -> miserable failure since bidders had no interest in land.
 - Indian Diwans under Provincial councils set up to supervise them -> replaced corrupt European collectors. Overall incharge was under Revenue Committee, Calcutta.
 - Other problems were of subinfeudation of revenue farming, proxies used by officers of EIC.
 - reverted in 1776 to old system of annual settlement where Zamindars were preferred. In 1781 Provincial councils were abolished, Collectors reappointed w/o power to settle rev.
+
  > - Hastings left behind him a dark trail of misery, insurrection and famines.
 > - Cornwallis in 1789 said that 1/3rd of EIC territory in Hindustan is now jungel inhabited by only wild beasts
+
 ### Judicial Reform
+
 ![[Early Administrative Structure#1765-1772]]![[Early Administrative Structure#1772]]
 ![[Early Administrative Structure#1773 - 1781]]
+
 ### Commercial Reforms
+
 - Customhouses were suppressed only 5 were to be maintained.
 - Duties were lowered payable by all merchants Indian or EU
 - Steps taken to check misuse of dastaks and exploitation of weavers.
-- Efforts to make trade relations w/ Bhutan and Tibet 
+- Efforts to make trade relations w/ Bhutan and Tibet
 
 ![[Regulating Act of 1773]]
 
 ### External Relations under WH
+
 - Stopped tribute to Emperor
 - Treaty of Banaras w/ Nawab of Awadh in 1773 against a possible Maratha Rohilla combination -> tropps for Nawab when called for for a lieu of Rs40 lakh
-- EIC participated in war against Rohilla's in 1774 with the Nawab who were defeated and Rohillkhand was annexed![[The Marathas and Anglo Maratha War#First Anglo-Maratha War 1775-82]]![[Mysore#Second Anglo-Mysore War 1780-84]]
+- EIC participated in war against Rohilla's in 1774 with the Nawab who were defeated and Rohillkhand was annexed
+
+![[The Marathas and Anglo Maratha War#First Anglo-Maratha War 1775-82]]![[Mysore#Second Anglo-Mysore War 1780-84]]
 
 - When new Nawab Asaf ud daula was appt on death of Shuja. Benares was tranferred to Raja Chait Singh who agreed to pay 22lkh as annually. WH started demanding more money and troops which was against the treaty signed by them in 1775. Raja was unable to pay WH marched to Benares and imprisoned him and replaced him w/ minor nephew.
 - WH coerced the Begums of Nawab of Awadh Shuja to pay 105 lakh for subsidiary force stationed there. Alfred Lyall called this an ignoble undertaking.
 
 ### Etimate of WH
+
 - only steadfast principle was that Might is Right
 - British possession remained unharmed save EIC territories in face of great odds.
 - Patronised oriental learning, wrote Intro to translation of Gita by Charles Wilkins
 - Accepted bribes per Moon this amounted to Rs30 lkh to save himself he granted favours to CoD etc.
 - Was impeached by Parliament but was acqutted of all charges
-
 
 ```ad-Views
 **Phillip Francis** : flourishing and rich India was reduced to beggary and ruin.  
@@ -58,6 +71,3 @@
 **Percival Spear** : his achievements is an established fact and his character remains something of an enigma.
 
 ```
-
-
-

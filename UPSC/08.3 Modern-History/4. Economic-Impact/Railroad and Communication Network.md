@@ -1,13 +1,16 @@
-# Railroad and Communication network
+# Railroad and Communication Network
+
 2020-04-27 15:04:54
-            
+
+
 ---
 
--   Started to Serve interest of empire, integrate IN market to B imports
--   in 1853 by Dalhousie
-- &  5% guaranteed interest on invest
--   Free land 99 yrs
--   1858 - 1869 invest of 70 mil pounds
+- Started to Serve interest of empire, integrate IN market to B imports
+- in 1853 by Dalhousie
+- & 5% guaranteed interest on invest
+- Free land 99 yrs
+- 1858 - 1869 invest of 70 mil pounds
+
 ```ad-Views
 
   **Sabyasachi Bhattacharya** : railways were instance of private enterprise at public risk
@@ -15,35 +18,26 @@
 ```
 
 ## Problems with it
-> -   Connected internal market to ports but no interconnection
-> -   Less freight charges for bulk manufactured goods from ports to interior
-> -   High tech areas never Indianised
-> -   Selection of priority areas for public investment to inc profitability
 
--   Social cultural impacts were unintended consequences.
--   Machinery, rail lines, coal production etc improved.
--   by 1947, 65, 217 km rail track covered 78% total area.
+> - Connected internal market to ports but no interconnection
+> - Less freight charges for bulk manufactured goods from ports to interior
+> - High tech areas never Indianised
+> - Selection of priority areas for public investment to inc profitability
 
+- Social cultural impacts were unintended consequences.
+- Machinery, rail lines, coal production etc improved.
+- by 1947, 65, 217 km rail track covered 78% total area.
 
+## PYQs
 
+---
 
+1. "Railway development in India provides an interesting instance of private enterprise at public risk." Comment. [2010, 20m]
+- [Railroad and Communication network](onenote:[[Railroad]]%20and%20Communication%20network&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={C06DCA73-59E8-456D-AD7E-4BA35C486079}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
 
-
-1. "Railway development in India provides an interesting instance of private enterprise at
-public risk." Comment. [2010, 20m]
--   [Railroad and Communication network](onenote:[[Railroad]]%20and%20Communication%20network&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={C06DCA73-59E8-456D-AD7E-4BA35C486079}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
-
-
-
-
-2. "The railways, instead of serving as the catalyst of an industrial revolution as in Western
-Europe and the USA, acted in India as 'the catalyst of complete colonization'."- Examine.
+1. "The railways, instead of serving as the catalyst of an industrial revolution as in Western Europe and the USA, acted in India as 'the catalyst of complete colonization'."- Examine.
 [2012, 20m]
--   [Railroad and Communication network](onenote:[[Railroad]]%20and%20Communication%20network&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={C06DCA73-59E8-456D-AD7E-4BA35C486079}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+- [Railroad and Communication network](onenote:[[Railroad]]%20and%20Communication%20network&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={C06DCA73-59E8-456D-AD7E-4BA35C486079}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
 
-
-
-
-3. "The British railway construction policy in India benefited British economy in the
-nineteenth century." Critically examine. [2017, 10m]
--   [Serve interest of empire, integrate IN market to B imports](onenote:[[Railroad]]%20and%20Communication%20network&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={C06DCA73-59E8-456D-AD7E-4BA35C486079}&object-id={CD190C60-2BEC-41F0-A74F-FE6AAB1D683E}&14&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one)
+1. "The British railway construction policy in India benefited British economy in the nineteenth century." Critically examine. [2017, 10m]
+- [Serve interest of empire, integrate IN market to B imports](onenote: [[Railroad]] %20and%20Communication%20network&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={C06DCA73-59E8-456D-AD7E-4BA35C486079}&object-id={CD190C60-2BEC-41F0-A74F-FE6AAB1D683E}&14&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one )

@@ -59,9 +59,9 @@
 -   New meaning which depended on specific structure of society
 
 
+## PYQs
 
-
-
+---
 
 1. What were the circumstances that led Mahatma Gandhi to start the Non-cooperation Movement? Examine its contribution to India's struggle for freedom. [1980, 60m]
 -   [December 1920 At the Nagpur session](onenote:[[Non]]%20Cooperation%20Movement&section-id={37BC67AA-EA4F-44B7-95FF-DB5FBDDC54D7}&page-id={97C9C489-D1DD-448B-ADD4-176BA77FA474}&object-id={0DAA6D60-8829-4458-8BA0-EB951B999AC8}&10&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20II/Rise%20of%20Gandhi.one)

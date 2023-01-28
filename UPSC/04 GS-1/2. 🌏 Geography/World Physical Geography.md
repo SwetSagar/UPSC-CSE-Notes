@@ -1,5 +1,6 @@
 # CA : World Physical Geography
-2019-04-28 06:18:54
+2019-04-28 06:18 :54
+
 ```toc
 ```
 ---
@@ -8,7 +9,8 @@
 2020-03-10 12:49:56
 
 ---
--   **El Nino** can be used to predict air pollution level in north IN; prevent airborne pollutants to move out of densely pop areas, whereas **Antarctic Oscillation(AAO)** occasion create strong wind condition and have uneven impact;
+-   **El Nino** can be used to predict air pollution level in north IN; prevent airborne pollutants to move out of densely pop areas, whereas **Antarctic Oscillation (AAO)** occasion create strong wind condition and have uneven impact.
+	- ![[Pasted image 20221228102607.png]]
 -   Impact based crater in Moon named after Indian physicist **Sisir Kumar Mitra** by the Working Group for Planetary System Nomenclature (WGPSN), largest crater on the Moon is called **South Pole-Aitkin Basin**;
 -   **ANDREX (Antarctic Deep Water Rates of Export) Project** to assess the role of [Weddell Gyre](http://www.wikipedia.org/wiki/Weddell_Gyre) how oceans absorbs CO2; Southern Ocean/ Antarctic ocean plays a key role in influencing climatic change
 -   **Mid-Monsoon lightening project** : 1st ever mapping of lightning strikes across country. It is possible to predict strikes 30-40mins ahead. **Odisha** recorded the highest number of lightening, most deaths occurred in UP.
@@ -17,7 +19,7 @@
 -   **Space Hurricanes** : above north pole on ionosphere, caused when ==Solar wind and Earth's magnetic field interact==, spun counter clockwise, produce auroras and made up of plasma and ionised gases. Interferes w/ sats and radio signals 
 - [[Heat Wave and Cold Wave#Heat Wave |Heat Wave]]
 -  Monsoon 2021 : 103% of LPA, Low possiblity of El Nino. 2019 and 2020 both were above avg. 
-- Leonids Meteor shower occurs every 33 years. Metor shower happens when Earth passes through the trail or debris left by comets or asteroids.
+- **Leonids Meteor shower** occurs every 33 years. Metor shower happens when Earth passes through the trail or debris left by comets or asteroids.
 - 
 
 

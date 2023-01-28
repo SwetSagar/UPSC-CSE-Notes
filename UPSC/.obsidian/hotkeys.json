@@ -194,15 +194,6 @@
       "key": "D"
     }
   ],
-  "obsidian-footnotes:insert-footnote": [
-    {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
-      "key": "F"
-    }
-  ],
   "editor:toggle-numbered-list": [
     {
       "modifiers": [
@@ -328,15 +319,6 @@
       "key": "X"
     }
   ],
-  "note-refactor-obsidian:app:extract-selection-content-only": [
-    {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
-      "key": "E"
-    }
-  ],
   "editor:set-heading-1": [
     {
       "modifiers": [
@@ -383,6 +365,65 @@
         "Mod"
       ],
       "key": "Numpad6"
+    }
+  ],
+  "obsidian-git:commit": [],
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "F"
+    }
+  ],
+  "workspace:goto-tab-1": [],
+  "workspace:goto-tab-2": [],
+  "workspace:goto-tab-3": [],
+  "workspace:goto-tab-4": [],
+  "workspace:goto-tab-5": [],
+  "workspace:goto-tab-6": [],
+  "workspace:previous-tab": [],
+  "graph:open": [],
+  "gpt3-notes:create-gpt3-note": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "G"
+    }
+  ],
+  "obsidian-linter:lint-file": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "L"
+    }
+  ],
+  "obsidian-admonition:insert-callout": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "B"
+    }
+  ],
+  "obsidian-footnotes:insert-footnote": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "X"
+    }
+  ],
+  "note-refactor-obsidian:app:extract-selection-content-only": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "Q"
     }
   ]
 }

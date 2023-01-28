@@ -1,7 +1,8 @@
-﻿# PYQ
+# PYQ
 2020-06-24 11:32:27
-            
+
 ---
+
 
 
 **The Government of India Act 1858**
@@ -22,7 +23,7 @@ the government that followed differed fundamentally from the government of the C
 
 
 
-3."In terms of administrative structure, the Government of India act of 1858, ... meant more continuation than change." Do you agree? Substantiate. [2010,20m]
+3."In terms of administrative structure, the Government of India act of 1858, ... meant more continuation than change." Do you agree? Substantiate. [2010, 20m]
 -   
 
 
@@ -159,7 +160,6 @@ British Crown and not with the Indian Government." Comment. [1991, 20m]
 
 
 4. "It is sometimes asked by Ruling Chiefs, as well as by the public in India and in Europe what our policy towards Native States is. I can tell you that the basis of the policy was laid in Queen Victoria's Proclamation of 1858 and repeated in the Coronation message of His Majesty the King Emperor." Comment. [1986, 20m]
-
 
 
 

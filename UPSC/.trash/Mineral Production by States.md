@@ -1,3 +1,7 @@
+---
+uid: f541d96fe19a3d65fe9f9d13e5d56813
+---
+
 | MINERAL   | TYPE                     | MINES                                                                                                                                                                       | TOP PRODUCERS (STATES)                                   | TOP PRODUCERS (COUNTRIES)                                       |
 | --------- | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- | --------------------------------------------------------------- |
 | IRON ORE  | Metallic (Ferrous)       | Barabil – Koira   Valley(Orissa)     Bailadila Mine   (Chattisgarh)     Dalli-Rajhara(CH)   –      the largest mine in India                                                | 1. Odisha     2. Chattisgarh     3. Karnataka            | 1. China,      2. Australia,      3. Brazil     4. India        |

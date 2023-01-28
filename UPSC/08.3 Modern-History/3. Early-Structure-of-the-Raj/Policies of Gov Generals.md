@@ -1,46 +1,51 @@
-# Policies of Gov Generals 
+# Policies of Gov Generals
+
 2020-04-29 22:34:27
-            
+
 ```toc
 ```
+
 ---
 
 ## Policies of Governor Generals
 
-### Policy of Ring-Fence or Buffer State 1765-1813 
-- Warren Hastings hastings started it : 
+### Policy of Ring-Fence or Buffer State 1765-1813
+
+- Warren Hastings hastings started it :
 - buffer zone to protect territories against raids from Marathas, Mysore and Hyderabad.
 - idea was only the defence of frontier
-![[From Diarchy to Direct Control#External Relations under WH | Policy based on External Relation]]
+![[From Diarchy to Direct Control#External Relations under WH |Policy based on External Relation]]
 
-### Policy of non-intervention of John Shore 
+### Policy of Non-intervention of John Shore
+
 - [x] #todo
 - British Parliament believed that Company was only a trading body and had no right to interfere in the internal affairs of India.
 - Cornwalis and John Shore avoided getting involved into the disputes of Indian rulers.
-- Policy was attacked as temporising and timid. 
-
+- Policy was attacked as temporising and timid.
 
 ### Subsidiary Alliance of Lord Wellesley 1798-1805
+
 - extension of the ring-fence system.
-- Allying Indian state’s ruler compelled to accept the permanent stationing of British force pay for its maintenance. 
--   Agree British resident in court
--   could not employ any European in his service without the prior approval.
+- Allying Indian state’s ruler compelled to accept the permanent stationing of British force pay for its maintenance.
+- Agree British resident in court
+- could not employ any European in his service without the prior approval.
 ![[#Subsidiary Alliance]]
 
-###   Policy of Paramountcy 1813-1823 by Lord Hastings
+### Policy of Paramountcy 1813-1823 by Lord Hastings
+
 ![[#Lord Hastings 1813-23 and Establishment of British Paramountcy in india]]
 
+### Forward Policy of Auckland Started in 1836
 
-###   Forward Policy of Auckland started in 1836 
 - protect the boundary of British India from Russian attack
 - Russian victory in the Russo-Persian wars -> gained territories around Caspian sea and replaced Br influence by Russian in Persia after treaty of Turkomanchai 1828.
 - through treaties with the neighbouring countries or by annexing them.
-- there was a search for a scientific fronteir along the North West passes. 
+- there was a search for a scientific fronteir along the North West passes.
 - It was felt that Afghanistan should be under a friendly Prince.
 - Lord Palmerston the Br foreign secy and Auckland suggested Forward Policy to bring Afg under their political ambit.
 - Dost Muhammad wanted Br help in recovering Peshawar from the Sikhs. Auckland decided towards neutrality and Dost turned towards Russians.
 - He sent Burnes to Kabul to judge political condition there. Burnes recommended pressurising Sikhs to give up Peshawar but this was denied. The mission failed.
-- He signed the [[The Punjab#^bb53eb | Tripartite treaty]] with Shah Shuja and Ranjit Singh to reinstate Shah in Kabul. Shah would also forego sovereignty over Sind in lieu of money.
+- He signed the [[The Punjab#^bb53eb |Tripartite treaty]] with Shah Shuja and Ranjit Singh to reinstate Shah in Kabul. Shah would also forego sovereignty over Sind in lieu of money.
 - English army invaded and replaced Dost with Shah Shuja. But rebellion broke out against him, Burnes was murdered and Br had to sign a humiliating treaty to retreat.
 - Later during the retreat entire Garrison along with General Elphinstone was killed and Shah assasinated.
 
@@ -51,23 +56,26 @@ JJ Mcleon : Afghan war was most unqualified blunder committed in the whole histo
 ```
 
 #### Estimate
+
 - War was unjustified since the prevailing condition had disappeared before the war and Auckland had made it a matter or Br prestige.
 - Politically it was inopportune since Shah was not supported by Afghan people.
 - Erection of a permanent barrier was not realised.
 - Animosity against English inc -> inc Persian and Russian influence in Afghanistan
 
-###   Policy of Masterly Inactivity John Lawrence 1864-1869
--   against the frontier problem of Afghanistan independence.
-- it was a direct result of disaster in 1st Afghan War. 
+### Policy of Masterly Inactivity John Lawrence 1864-1869
+
+- against the frontier problem of Afghanistan independence.
+- it was a direct result of disaster in 1st Afghan War.
 - principle of non interference in internal affairs of Afg
--   Peace at frontier was not disturbed
--   No candidate in civil war was to sought foreign help .
+- Peace at frontier was not disturbed
+- No candidate in civil war was to sought foreign help .
 - JL was Governor of Punjab, the policy was well though out to avoid military expenditure and the inhospitable terrain.
 - JL thought the Russia would be a better neighbour than Central Asian tribes. Czar Nicholas I was coordial towards Br. RUS lost the Crimean war in 1854-46 But later conquests in Central Asia led RUS estd Turkestan after winning Chimken, Tashkent etc.
 - This did not alarm Lawrence who adopted a laissez faire into Afg affairs. He thought that Afghans would resist any RUS mil endeavors there.
 - He refused to be embroiled in the dynastic wards of the Afghans and refused any military assistance to Sher Ali or Azim Khan.
 
 #### Estimate
+
 - Some claim that every reasonable advantage was gained by remaining passive.
 - Policy of interference would have defeated the very purpose by driving Afghans into camp of Persia and Russia.
 - Lawrence was not oblivious to Russian designs in Central Asia and advocated a strong force to meet all eventualities.
@@ -75,24 +83,26 @@ JJ Mcleon : Afghan war was most unqualified blunder committed in the whole histo
 - Refusing help to friendly Sher Ali has been criticised.
 - Some say he failed in installing a friendly prince in Afg which was the primary motive of the policy.
 
-### Policy of Proud Reserve by Lord Lytton after 1876 
+### Policy of Proud Reserve by Lord Lytton after 1876
+
 - scientific frontiers and safeguarding ‘spheres of influence' as said by Benjamin Disraeli
 - The old liberal policy was discontinued. He wanted to check RUS expansion both in the East and West.
 - Sher Ali accepted the envoy from RUS but not from England this frustrated Lytton who sent another mission which was not allowed.
 ![[Constitutional Development between 1858-1935#Foreign Relations Under Lytton]]
-- His policy has been universally condemned on moral and political grounds. 
-- VA Smith has called it carefully though and skilfully executed except for the permanent positioning of Br Resident at Kabul. 
+- His policy has been universally condemned on moral and political grounds.
+- VA Smith has called it carefully though and skilfully executed except for the permanent positioning of Br Resident at Kabul.
 
+### Policy of Intrusive Surveillance - Lord Curzon
 
-###   Policy of Intrusive Surveillance - Lord Curzon
-![[Constitutional Development between 1858-1935#Police Reforms | Intrusive surveillance]]
+![[Constitutional Development between 1858-1935#Police Reforms |Intrusive surveillance]]
 
-## Broad Policis of British Empire wrt to India
+## Broad Policis of British Empire Wrt to India
 
 ![[#Policy of Ring-Fence or Buffer State 1765-1813]]
 Wellesly's policy of Subsidiary Alliance also comes under this
 
-###   Policy of Subordinate Isolation from 1813 to 1857
+### Policy of Subordinate Isolation from 1813 to 1857
+
 - states surrendered all external sovereignty but internal administration was maintained.
 - Lord Hastings was were for making Br imperialism and to impose Paramountcy. The treaties w/ Native princes imposed an obligation to Indian states to act in subordinate cooperation with Br govt.
 - Under Dalhousie the British residents from being foreign representatives became exective and controlling officers of a superior govt.
@@ -102,99 +112,129 @@ Wellesly's policy of Subsidiary Alliance also comes under this
 - The policy was chaotic, indefinitea and contradictory.
 
 ### Policy of Subordinate Union 1857-1935
-- [x] #todo  From page 251 BL Grover
--  After 1858 the Queens proclamation announced the abandonement of policy of annexation. Assurance was given to the princes that British territories would not be extended further. This change was due to the loyalty shown by the princes.
-- New policy was to punish the rulers for misgovt but not annex the state. 
-- But in lieu of this the status of Indian princes was considerably lowered. They had to take sanctions of GG in matters succession involving non natural heirs. 
+
+- [x] #todo From page 251 BL Grover
+- After 1858 the Queens proclamation announced the abandonement of policy of annexation. Assurance was given to the princes that British territories would not be extended further. This change was due to the loyalty shown by the princes.
+- New policy was to punish the rulers for misgovt but not annex the state.
+- But in lieu of this the status of Indian princes was considerably lowered. They had to take sanctions of GG in matters succession involving non natural heirs.
 - The 'gaddi' for them was not a right but a gift from the Paramount power. Indian govt was granted possession and administration not sovereignty.
-- Canning referred to them as feudatories and vassals and the crown as unquestioned paramount power in India. 
-- Crown regulated the status and salutes of Indian princes in all matters of ceremonials. 
-- Govt had complete control over external and international affairs of the Indian states. It could declare war, neutrality or peace for Indian states. 
-- Lord Curzon adopted policy of patronage and 'intrusive surveillance'. He issued a circular asking Indian princes to not pursue pleasures but in the welfare of their subjects and administration. He put restrictions to their trip to Europe. 
+- Canning referred to them as feudatories and vassals and the crown as unquestioned paramount power in India.
+- Crown regulated the status and salutes of Indian princes in all matters of ceremonials.
+- Govt had complete control over external and international affairs of the Indian states. It could declare war, neutrality or peace for Indian states.
+- Lord Curzon adopted policy of patronage and 'intrusive surveillance'. He issued a circular asking Indian princes to not pursue pleasures but in the welfare of their subjects and administration. He put restrictions to their trip to Europe.
 - From 1905 onwards GOI followed policy of cordial cooperation towards Indian states. Since there was an increase in revolutionary and nationalist upsurgence they wanted a common front to preserve their position and privileges.
-- This led to the formation of the Chamber for Princes in 1921. 
-- In 1927 Butler committee was fromed to clearly define the relation b/w Paramount power and the Indian states. 
+- This led to the formation of the Chamber for Princes in 1921.
+- In 1927 Butler committee was fromed to clearly define the relation b/w Paramount power and the Indian states.
 	- Paramount power must remain paramount and must fulfill its obligations by adopting to shifting necessities.
-	- States were bound by treaties with the Crown . 
+	- States were bound by treaties with the Crown .
 	- Viceroy not the GG in Council was to be the Crown agent in dealing with the states.
 
-### Policy of Equal federation 1935 - 1947
-- [x]  #todo  From Page 255 of BL Grover
-- Indian princes were invited at the Round Table Conference during 1930-32. Federal Structure was proposed for whole India govt. Indian states were to be alloted 125/375 seats in Federal Assembly and 104/260 seats in Council of States.
-- Their loyalty to the crown and their influence was emphasised during this time. 
-- The federation neven came into existence since the requisite no of states did not join. 
+### Policy of Equal Federation 1935 - 1947
 
-## Evolution of British rule
+- [x] #todo From Page 255 of BL Grover
+- Indian princes were invited at the Round Table Conference during 1930-32. Federal Structure was proposed for whole India govt. Indian states were to be alloted 125/375 seats in Federal Assembly and 104/260 seats in Council of States.
+- Their loyalty to the crown and their influence was emphasised during this time.
+- The federation neven came into existence since the requisite no of states did not join.
+
+## Evolution of British Rule
+
 >   - Michael Fisher 3 distinct phases of evolution indirect rule until 1857
 >   - Placement of Residents -> redefined sovereignty, assert Paramountcy, till 1798 was halting,
 >   - 1798 - 1840 aggressive expansionism indirect control
 >   - 1840 - 1857 consolidation
 >   - 1869 - 1872 grooming native princes dominant policy of Mayo
 
-- [ ]  Curzonian paternalism ? 
-- [x] William Bentick as GG, changes brought by him : ? 
-
+- [ ] Curzonian paternalism ?
+- [x] William Bentick as GG, changes brought by him : ?
 
 ---
+
 # Governor Generals
+
 2021-08-24 14:06
 
-
 ---
 
-![[Policies of Gov Generals 2022-09-09 18.24.42.excalidraw | 900]]
+![[Policies of Gov Generals 2022-09-09 18.24.42.excalidraw |500]]
 
 ## Lord Wellesley 1798-1805
-- Succeded John Shore, wanted to made EIC supreme power in India 
+
+- Succeded John Shore, wanted to made EIC supreme power in India
 - gave up the policy of peace and non intervention and started the policy of war.
 
 ### Subsidiary Alliance
+
 - used to bring Indian states within orbit of British political power and to stop Napoleon
+
+```ad-Views
+
 - As per Alfred Lyall the stages for the application of subsidiary alliance were
-> Stage 1 : offered to help a friendly Indian state with its troops to fight any war
-> Stage 2 : making a common cause with the Indian state and taking the field with its own soldiers and those of the state
-> Stage 3 : Indian ally was asked not for men but for money .
-> Stage 4 : money or the protection fee was fixed at a high level ; when the state failed to pay the money in time, it was asked to cede certain parts of its territories.
+**Stage 1** : offered to help a friendly Indian state with its troops to fight any war
+**Stage 2** : making a common cause with the Indian state and taking the field with its own soldiers and those of the state
+**Stage 3** : Indian ally was asked not for men but for money .
+**Stage 4** : money or the protection fee was fixed at a high level ; when the state failed to pay the money in time, it was asked to cede certain parts of its territories.
+
+```
+
 - Wellesly did not invent the system perhaps Dupleix did. W greatly dev and elaborated the system and applied it to almost every IN state
-- Was first **initiated** against Nawab of Awadh in 1765.  Under Subsidiary Alliance following terms and conditions were negotiated : 
+- Was first **initiated** against Nawab of Awadh in 1765. Under Subsidiary Alliance following terms and conditions were negotiated :
 	- IN state to surrender external relations
 	- Ruler to cede sovereignty to territories for upkeep of stationed Br force
 	- Accept British residents, not employ other Europeans
 	- Company to not interfere in internal affair of state but protect them against foreign enemies
+
 #### Advantages of SA for Company
+
 - Deprived IN princes of means of forming a confederacy against British.
-- Company could maintain large army at expense of others. 
+- Company could maintain large army at expense of others.
 - EIC could maintain troops in capital of IN princes thus giving them control of strategic and key positions.
 - SA did not threaten war at their own bases/territories.
 - Could counter any possible French moves in India.
-- EIC became arbiter in inter state disputes. 
+- EIC became arbiter in inter state disputes.
+
 #### Disadvantages to Indian States
+
 - Virtually lost her independence. Munro remarked that states purchased security at the expense of independence
 - British Residents interfered in day to day functioning thus normal administration was rendered impossible
 - Supported weak and oppressive rulers and deprived the people of any possible remedy against misrule. Munro said presence of British force cuts off every chance of remedy.
--  Virtually bankrupted the princely states due to high upkeep.
-> Karl Marx : Native states vritually ceased to exist the moment they became subsidiary. Division of revenue b/w 2 gov brought the condition of permanent decay.
+- Virtually bankrupted the princely states due to high upkeep.
+
+```ad-Views
+
+Karl Marx : Native states vritually ceased to exist the moment they became subsidiary. Division of revenue b/w 2 gov brought the condition of permanent decay.
+
+```
+
 - States that **accepted** the system were Hyderabad -> Mysore -> Tanjore -> Awadh -> Peshwa -> Berar -> Sindhia etc
 
 ### French Menace
-- Napoleon in 1798 wanted to invade India repeating Alexander's exploits. With Czar Paul of Russia made up a plan. 70,000 combined troops were to invade through Herat, Farah, Kandahar. 
-> Henry Dundas : Bombay acquired a new degree of political importance since the FR attempt to reach India through Egypt
-- Tipu alligned himself w/ the Fr to take revenge from English. Marathas and Nizam had also employed Fr for training their troops. 
+
+- Napoleon in 1798 wanted to invade India repeating Alexander's exploits. With Czar Paul of Russia made up a plan. 70, 000 combined troops were to invade through Herat, Farah, Kandahar.
+
+```ad-Views
+
+Henry Dundas : Bombay acquired a new degree of political importance since the FR attempt to reach India through Egypt
+
+```
+
+- Tipu alligned himself w/ the Fr to take revenge from English. Marathas and Nizam had also employed Fr for training their troops.
 - Threat of invasion from Zaman Shah of Iran, possible Fr collusion w/ Ranjit Singh added to their concerns
 
-#### Steps Taken 
-- Mobilised English community in Bengal and urged them to contribute liberally towards war funds. 
+#### Steps Taken
+
+- Mobilised English community in Bengal and urged them to contribute liberally towards war funds.
 - EIC should become arbiter of Indian political world to keep IN states away from influence of Fr. This was done through Subsidiary Alliance
 - Garrisoned Goa to prevent it from falling into Fr hands. Wellesley also acquired Danish settlements in Bengal viz Tranquebar and Serampore.
-- W sought to encircle IN powers by acquiring maritime provinces of Gujarat, Malabar and Cuttack. 
+- W sought to encircle IN powers by acquiring maritime provinces of Gujarat, Malabar and Cuttack.
 - Treaty w/ Iran to not allow Fr to settle in his dominions and expel the already settled ones
 - W urged to despatch expedition against Fr naval base at Mauritius and the Dutch at Baravia and Cape Colony.
 - W sent troops under David Baird to Egypt againt Napoleon
 - Treaty of Amiens b/w Napoleon and English restored Pondicherry to Fr. Napoleon wanted to send troops to help Shah Alam II from its Enemies. 1803 English captured Delhi and Agra and took Emperor under EIC protection.
 
 ### Estimate of Wellesley
+
 - Swathes of Land were annexed. Direct land route connecting Calcutta, Madras, and Bombay for the first time was made.
-- His methods were far more high handed and dictatorial than WH 
+- His methods were far more high handed and dictatorial than WH
 
 ```ad-Views
 
@@ -206,50 +246,56 @@ Wellesly's policy of Subsidiary Alliance also comes under this
 
 ```
 
-![[Policies of Gov Generals 2022-09-09 18.41.01.excalidraw | 700]]
+![[Policies of Gov Generals 2022-09-09 18.41.01.excalidraw |500]]
 
-## Lord Hastings 1813-23 and Establishment of British Paramountcy in india
+## Lord Hastings 1813-23 and Establishment of British Paramountcy in India
+
 - Succeeded in establishing political sovereignty of England over the whole of India exactly as his predecessors would have wanted.
 - His objective in India was 3 fold to suppress Pindaris, destroy the indepedence of Maratha chielfs and bring under Company all other harmless states.
 
-### Anglo Nepal War 1814-16 
+### Anglo Nepal War 1814-16
+
 - Gurkhas attacked 3 police stations of Butwal. A large army of 34000 was mustered which under Gen Gillespie attacked Kalanga fort and failed.
-- Renewed English efforts were successful and w/ fall of Malaon and Almora Gurkhas started negotiations. They were defeated in Lakwanpur in 1816.   
+- Renewed English efforts were successful and w/ fall of Malaon and Almora Gurkhas started negotiations. They were defeated in Lakwanpur in 1816.
 - Treaty of Sagauli : Nepal accepted a British resident and ceded districts of Garhwal and Kumaon, and abandoned claims to Terai. Withdrew from Sikkim. Later Gorkhas joined the British Indian Army.
 
 ### Policy against Pindaris
+
 - Pindaris were marauders whose main occupation was loot and plunder.
 - Weakness of Mughal authority, corruption of weak states, repeated plundering raids by Marathas created conditions for rise of Pindaris.
 - did not come from a particular area niether did they believe in any religion, were drawn from ranks of dibanded soldiers.
 - provided an easier form of livelihood. Some leaders were Chitu, Wasil Muhammad, Karim Khan who plundered British districts of Mirzapur, Shahabad, Nizams dominion, Northern Sarkars
-- VA Smith, PE Roberts, SM Edwards said that there was collussion b/w Afghans, Marathas and Pindaris. 
+- VA Smith, PE Roberts, SM Edwards said that there was collussion b/w Afghans, Marathas and Pindaris.
 
 ### Policy towards Marathas
+
 - Main objective of Hastings was to make EIC paramount power and to destrou independence of Sindhia, Bhonsle and Holkar.
-- **Treaty of Nagpur** a susidiary force of stationed at Nagpur, Raja agreed to surrender his foreing affairs. 
-- Col Smith surrounded Poona in Jun 1817 and **To Poona** was forced on the Peshwa a/c to which : 
+- **Treaty of Nagpur** a susidiary force of stationed at Nagpur, Raja agreed to surrender his foreing affairs.
+- Col Smith surrounded Poona in Jun 1817 and **To Poona** was forced on the Peshwa a/c to which :
 	- Accepted dissolution of Maratha confederacy
 	- British Resident and no relations with other Europeans
 	- Renounced claims over Gaekwad, transferred rights over Bundelkahnd, Malwa etc.
-- Sindhias also accepted a treaty in Nov 1817 : 
+- Sindhias also accepted a treaty in Nov 1817 :
 	- Agreed to provide 5000 troops of cavalry against Pindaris
 	- Not to inc his army, British Garrison in forts of Asirgarh and Hindia.
 	- Lands in possession of Pindaries be restored to their rightful owners
-- Marathas were not reconciled -> 3rd Anglo Maratha War  
+- Marathas were not reconciled -> 3rd Anglo Maratha War
 
 ![[The Marathas and Anglo Maratha War#Third Anglo-Maratha War 1817-19]]
 
 #### Aftermath/ Hastings Political Settelement w/ Marathas
-- Baji Rao II was disposed with a Pension. 
+
+- Baji Rao II was disposed with a Pension.
 - Holkars had to surrender all territories south of Narmada
-- Both lost their internal administration where British Residents assumed charge.  
+- Both lost their internal administration where British Residents assumed charge.
 
 ### Administrative Reforms
-- Some of his administrators were 
+
+- Some of his administrators were
 1. John Malcolm
-1. Thomas Munro : Governor of Madras etd Ryotwari sys
-1. Mountstuart Elphinstone:  Gov of Bombay settled districts acquired from Peshwa. He combined the Ryotwari w/ Mahalwari system
-1. Charles Metcalf
+2. Thomas Munro : Governor of Madras etd Ryotwari sys
+3. Mountstuart Elphinstone: Gov of Bombay settled districts acquired from Peshwa. He combined the Ryotwari w/ Mahalwari system
+4. Charles Metcalf
 - Mahalwari System was introduced
 - Abolished pre censorship of press but laid down general guidelines for editors of newspapers to prevent publiction of seditious news
 
@@ -263,17 +309,22 @@ Wellesly's policy of Subsidiary Alliance also comes under this
  
 ```
 
-![[Policies of Gov Generals 2022-09-09 21.20.29.excalidraw | 900]]
+![[Policies of Gov Generals 2022-09-09 21.20.29.excalidraw |500]]
 
 ## William Bentinck 1828-35
+
 - Succeeded Lord Amherst, Vellore Mutiny occured while he was Gov of Madras against wearing of caste marks such as earings in 1806.
 - He was a Whig (favored reforms and supremacy of parliament).
 
-> Macaulay : WB Infused into Oriental Despotism the spirit of British Freedom.
+```ad-Views
 
+Macaulay : William Bentick Infused into Oriental Despotism the spirit of British Freedom.
 
-### Steps taken by WB 
-1. **Abolition of Sati** 
+```
+
+### Steps Taken by WB
+
+1. **Abolition of Sati**
 	- Tried to reform Hindu society. Before him Marathas, Portuguese in Goa and French at Chandenagore tried to abolish it.
 	- Its main reason was economic and moral and sanction to it was found from society and religion.
 	- Cornwallis, Minto, Lord Hastings took steps to restrict the practice viz forbidding giving of intoxicating drugs to grieving widows, compulsory presence of police officials, ban on burning pregnant women below 16 yrs etc
@@ -287,17 +338,17 @@ Wellesly's policy of Subsidiary Alliance also comes under this
 	- Some states also gave them protection in return for share in spoils.
 	- It was an organised crime and no case of failure ever came to notice of Govt
 	- Measures were taken in 1830 and Col William Sleeman was appointed who supressed it and Thugi on an organised scaled ceased to exist after 1837.
-4. **Removal of distinction in recruitment to Public Service** 
+4. **Removal of distinction in recruitment to Public Service**
 	- Charter Act 1833 provided no Indian subject be debarred from holding any office by reason fo his religion, place of birth, descent and colour -> open system of recruitment
 	- Immediate effect was little but it was an imp precendent
-5. **Liberal Policy towards the Press** 
-	- to provide a safety valve for discontent. 
+5. **Liberal Policy towards the Press**
+	- to provide a safety valve for discontent.
 	- said that Madras mutiny took place since there was not a shadow of liberty to press there.
 6. **Education Reforms**
 	- Meant to elevate Moral and intellectual character.
 	- [[Orientalist Anglicist Controversy]] took place.
 7. **Financial Reforms**
-	- Burmese war had depleted treasury. 
+	- Burmese war had depleted treasury.
 	- 2 committees were appointed one for military and other for civil.
 	- He then reduced bhatta to military officers by 1/2 for those stationed 400miles from Calcutta.
 	- Adopted measures for better collection of revenue ex in UP. Expenditure of costly settlements were reduced and appointed Indians in place of highly paid Europeans.
@@ -309,17 +360,17 @@ Wellesly's policy of Subsidiary Alliance also comes under this
 	- Option to chose Persian or vernacular in filing their suits.
 	- In higher courts Persian replaced by English as court language.
 	- Indians could now rise to position of Sadar Amins instead of Munsiffs.
-9. **Policy towards Indian states** 
+9. **Policy towards Indian states**
 	- non interference in states as far as possible.
 	- No repercussion when British Resident was attacked in Jaipur, or when British officers expelled from Hyderabad when Nasir ud Daula took over.
 	- But annexation of Musreo and Central Cachar was away from this policy
 	- Treaty of Perpetual friendship with Ranjit Singh.
 
-
 ### Estimation of Bentinck
+
 - Great part in consolidating British authority by policy of internal reforms
 - his objective was not the development of self governing institutions which happened as an unwilling consequence
- 
+
 ```ad-Views
 
 **PE Roberts** : True liberal of his day, his habits were simple. He can be compared to other liberal Gov Generals like Ripon. Undoutedly the first GG to openly act on theory that welfare of subjects was main duty of British India.
@@ -330,51 +381,56 @@ Wellesly's policy of Subsidiary Alliance also comes under this
 
 ```
 
+## Lord Dalhousie
 
-## Lord Dalhousie  
-
-![[Drawing 2022-09-09 22.54.57.excalidraw |  1500]]
+![[Drawing 2022-09-09 22.54.57.excalidraw |700]]
 ![[The Punjab#Second Anglo-Sikh War 1848-49]]
 
+### Annexation of Lower Burma or Second Burma War (1852)
 
-### Annexation of Lower Burma or Second Burma War (1852) 
-- Result of Lord Dalhousie's expansionist policies. 
+- Result of Lord Dalhousie's expansionist policies.
 - Ill treatment of Bristish Merchants at Rangoon after Trety of Tandaboo who sent petition to Dalhousie.
 - Sent Commodore Lambert to negotiate who defeated Burmese
 - D annexed Pegu in Dec 1852
-- British occupied  Pegu , the only remaining coastal province of Burma. 
-> Arnold has called this neither just nor marked by strict equity in its conduct.
+- British occupied Pegu , the only remaining coastal province of Burma.
+
+```ad-Views
+
+Arnold has called this neither just nor marked by strict equity in its conduct.
+
+```
 
 ### Doctrine of Lapse
+
 - D said that old system of ruling through sham loyalties and artificial intermediate powers resulted in misery of the people.
-- Introduced by the Court of Directors in 1834 is most commonly associated with Lord Dalhousie. 
+- Introduced by the Court of Directors in 1834 is most commonly associated with Lord Dalhousie.
 - D divided Hindu states in 3 categories
 	1. which were not tributaries and which had neve been subordinate
 	2. princes and chieftaines which were tributary and subordinate to British govt
 	3. States that were created due to Sanad/ British grants
 - For the 3rd category states adopted son could be heir to his foster father’s private property but not the state which would require sanction of the BR gov.
-- This was a case where Right to Adoption would be substituted by Paramount powers Right of Lapse. 
+- This was a case where Right to Adoption would be substituted by Paramount powers Right of Lapse.
 - Dalhousie uniformly applied DoL as opposed to CoD.
 - States annexed under Doctrine of Lapse were.
 	- Satara (1848) : After Appa Sahib died
-	-  Jhansi and Nagpur (1854)
+	- Jhansi and Nagpur (1854)
 	- Jaitpur (Bundelkhand),
 	- Sambhalpur (Orissa),
 	- Baghat (Madhya Pradesh)
 - Lord Dalhousie annexed Awadh in 1856 after deposing Nawab Wajid Ali Shah on grounds of misgovernment. This was not per the doctrine of lapse.
 
+### Dalhousie's Reforms
 
-### Dalhousie's reforms
 1. Administrative Reform : Bengal placed under charge of Lt Governor. Centralised control for newly acquired territories aka Non Regulation system which were to be governed by a Commissioner directly responsible to GG.
 2. Military Reform : Shifter various military headquarters towards North. Shimla became seat of Govt. Foresaw the inc in Indian elements in army and wanted more Europeans in it. Raised Gorkha Regiment.
 3. Educational Reform : Woods Despatch, Thomasonian system of vernacular education in North West. Universities on model of London University be set up in Calcutta. Engineering College at Roorkie now IIT Roorkie. 3 new universities estd in 1857.
 4. Railway Dev : Strategic lines for defence and better internal communication enumerated in Railway minute 1853. Were built out of private enterprise not Indian exchequer but at Govt guarantee was given.
 5. Electric Telegraphh : Father of ET in India. 4000 miles of it constructed from Calcutta to Peshawar, Bombay-Madras etc.
-6. Postal Reforms : Basis of modern postal sys laid by him. Director Gen to head all presidency Post Offices, uniform rate for letters decided, postage stamps issued for 1st time. 
+6. Postal Reforms : Basis of modern postal sys laid by him. Director Gen to head all presidency Post Offices, uniform rate for letters decided, postage stamps issued for 1st time.
 7. Public Works Dept : for 1st time it was separated from Military. Irrigation undertaken on extensive scale. Ganges canal built, Bari Doab Canal, bridges etc built.
 8. Commercial Reforms : Ports thrown open to commerce of the world aligned w/ Free trade principle, harbours developed, light houses constructed.
- 
-### Dalhousie's responsibility for Revolt of 1857 and his estimate
+
+### Dalhousie's Responsibility for Revolt of 1857 and His Estimate
 
 ```ad-Views
 
@@ -393,102 +449,124 @@ Ramsay Muir : Devotion to greatness of his own country. Took ddper view of probl
 
 ```
 
-- He cared very little of Moral values, or to the feelings and prejudices of Indians while dealing with states. 
+- He cared very little of Moral values, or to the feelings and prejudices of Indians while dealing with states.
 - His ruthless imperialism created unrest all around.
+
+## PYQs
+
+---
 
 1. Explain the British policy of 'Subordinate union' of Indian States with British India from 1858 to 1905. How did the Government of India implement this policy during this period?
 [1993, 60m]
--   [Policy of Subordinate Union](onenote:Early%20Structure%20of%20the%20Raj.one#Policies%20of%20Gov%20Generals%20%20&section-id={54CE4946-F610-4788-AADF-7A455FA668C1}&page-id={E5FBE8B6-A85A-42AD-B268-83FE2FAC096D}&object-id={D13DB22C-6AEF-4B5C-A29E-6237FDDF7105}&D&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I)
+- [Policy of Subordinate Union](onenote:Early%20Structure%20of%20the%20Raj.one#Policies%20of%20Gov%20Generals%20%20&section-id={54CE4946-F610-4788-AADF-7A455FA668C1}&page-id={E5FBE8B6-A85A-42AD-B268-83FE2FAC096D}&object-id={D13DB22C-6AEF-4B5C-A29E-6237FDDF7105}&D&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I)
+
+```ad-Answer
+
+The British policy of ‘Subordinate Union’ of Indian States with British India from 1858 to 1905 was an attempt to integrate the Indian states into the British Empire in India. This policy was implemented by the British government in order to consolidate their control over the Indian subcontinent and to ensure that all the Indian states were loyal to the British Raj.
+
+The policy was implemented through a system of treaties, agreements, and conventions between the British government and the rulers of Indian states. These treaties and agreements provided for a degree of autonomy for the Indian states, allowing them to maintain their own laws and administrative systems, while at the same time being subject to the overall authority of the British Raj. The treaties also provided for the payment of a subsidy by the British government to the Indian states, in exchange for their loyalty and support.
+
+In addition to the treaties, the British government also implemented a series of administrative reforms in the Indian states. These reforms included the introduction of a uniform system of taxation, the establishment of a unified system of civil and criminal courts, and the introduction of a uniform system of weights and measures. These reforms were designed to create a uniform system of governance throughout the Indian states, and to ensure that the rulers of the Indian states were loyal to the British Raj.
+
+The British also sought to ensure the loyalty of the Indian states by providing them with military assistance. This included the deployment of British troops to the Indian states to ensure their loyalty, as well as the provision of arms and ammunition to the rulers of the Indian states. The British also provided financial assistance to the Indian states in order to help them maintain their armies and maintain their loyalty to the British Raj.
+
+Finally, the British government also implemented a system of indirect rule in the Indian states. This system of indirect rule allowed the British to maintain control over the Indian states without having to directly intervene in their internal affairs. This system of indirect rule was implemented through the appointment of British-appointed administrators to the Indian states, who were responsible for ensuring that the rulers of the Indian states remained loyal to the British Raj.
+
+```
+
+1. "If we could keep up a number of Native States without political power, but as royal instruments, we should exist in India as long as our naval supremacy was maintained." Comment. [1984, 20m]
+- [Policies of Gov Generals :](onenote:Early%20Structure%20of%20the%20Raj.one#Policies%20of%20Gov%20Generals%20%20&section-id={54CE4946-F610-4788-AADF-7A455FA668C1}&page-id={E5FBE8B6-A85A-42AD-B268-83FE2FAC096D}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I) wrt to princely states, more content needed
+
+```ad-Answer
+
+The above statement is attributed to Lord Curzon, who served as the Viceroy of India from 1899 to 1905. It is believed to have been spoken during a speech or address given by Lord Curzon during his tenure as Viceroy.
+
+The statement suggests that Lord Curzon believed that the British Empire could maintain control over India as long as it maintained naval supremacy in the region. By keeping native states without political power but as "royal instruments," Lord Curzon seems to suggest that the British could use these states as a means of maintaining their control over the region.
+
+It's worth noting that Lord Curzon was known for his imperialistic views and his belief in the superiority of British rule. His tenure as Viceroy was marked by a number of controversial policies and actions, including the partition of Bengal, which led to widespread protests and civil unrest.
+
+This statement reflects the British imperial perspective that Native States should exist as a form of indirect rule, without any political power. This idea was based on the assumption that British naval supremacy would ensure its continued presence in India. It is important to note, however, that this view ignores the fact that India was a complex and diverse society with a long history of its own, and that the British Empire was only one of its many influences. This imperial attitude towards India was ultimately unsustainable, and its legacy has been widely criticised.
+
+```
+
+1. "The British endeavored as far as possible to live within a Ring-Fence and beyond that they avoided intercourse with the chiefs." Comment. [1987, 20m]
+- [Policy of Ring-Fence - Warren Hastings,](onenote:Early%20Structure%20of%20the%20Raj.one#Policies%20of%20Gov%20Generals%20%20&section-id={54CE4946-F610-4788-AADF-7A455FA668C1}&page-id={E5FBE8B6-A85A-42AD-B268-83FE2FAC096D}&object-id={E6ABD49B-59FF-41EA-BCC6-389B140588C8}&22&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I)
+- [[#Policy of Ring-Fence or Buffer State 1765-1813]]
+
+```ad-Answer
 
 
 
+```
+
+1. "No native state should be left to exist in India which is not upheld by the British power or the political conduct of which is not under the absolute control." Comment. [1992, 20m]
+
+```ad-Answer
 
 
 
-2. "If we could keep up a number of Native States without political power, but as royal instruments, we should exist in India as long as our naval supremacy was maintained." Comment. [1984, 20m]
--   [Policies of Gov Generals :](onenote:Early%20Structure%20of%20the%20Raj.one#Policies%20of%20Gov%20Generals%20%20&section-id={54CE4946-F610-4788-AADF-7A455FA668C1}&page-id={E5FBE8B6-A85A-42AD-B268-83FE2FAC096D}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I) wrt to princely states, more content needed
+```
 
-
-
-
-
-
-3. "The British endeavored as far as possible to live within a Ring-Fence and beyond that they avoided intercourse with the chiefs." Comment. [1987, 20m]
--   [Policy of Ring-Fence - Warren Hastings,](onenote:Early%20Structure%20of%20the%20Raj.one#Policies%20of%20Gov%20Generals%20%20&section-id={54CE4946-F610-4788-AADF-7A455FA668C1}&page-id={E5FBE8B6-A85A-42AD-B268-83FE2FAC096D}&object-id={E6ABD49B-59FF-41EA-BCC6-389B140588C8}&22&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I)
-
-
-
-
-
-
-4. "No native state should be left to exist in India which is not upheld by the British power or the political conduct of which is not under the absolute control." Comment. [1992, 20m]
--   
-
-
-
-
-
-
-
-5. "The British policy towards Indian States in 1818-1858 was one of isolation and Non-interference tempered by annexation." Comment. [1996, 20m]
--   [Policy of Subordinate Isolation from
+1. "The British policy towards Indian States in 1818-1858 was one of isolation and Non-interference tempered by annexation." Comment. [1996, 20m]
+- [Policy of Subordinate Isolation from  
 1813 to 1857.](onenote:Early%20Structure%20of%20the%20Raj.one#Policies%20of%20Gov%20Generals%20%20&section-id={54CE4946-F610-4788-AADF-7A455FA668C1}&page-id={E5FBE8B6-A85A-42AD-B268-83FE2FAC096D}&object-id={37A449EE-9462-41F4-8398-AC7E7EB042A6}&10&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I) more content needed
 
+```ad-Answer
 
 
+```
+
+1. The British conquered India‚ "in a fit of absent minded-ness". Comment. [1997, 20m]
+- [No overt mandate for conquest/ colonisation](onenote:European%20Penetration.one#English%20East%20India%20Company&section-id={5B3AE224-E8E5-4B69-B7AE-CDB92048090B}&page-id={9333C6BA-3349-4E44-90D0-55548429E95B}&object-id={CA863A9F-2D0C-0419-066B-3EA906A9DE20}&B&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I)
+
+```ad-Answer
 
 
+```
 
-6. The British conquered India‚ "in a fit of absent minded-ness". Comment. [1997, 20m]
--   [No overt mandate for conquest/ colonisation](onenote:European%20Penetration.one#English%20East%20India%20Company&section-id={5B3AE224-E8E5-4B69-B7AE-CDB92048090B}&page-id={9333C6BA-3349-4E44-90D0-55548429E95B}&object-id={CA863A9F-2D0C-0419-066B-3EA906A9DE20}&B&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I)
+1. Towards the Princes, Canning adopted a policy of "punishing resistance and rewarding obedience." Comment. [2000, 20m]
+- More content needed
 
-
-
-
-
-
-7. Towards the Princes, Canning adopted a policy of "punishing resistance and rewarding obedience." Comment. [2000, 20m]
--   More content needed
+```ad-Answer
 
 
+```
+
+1. "Dalhousie changed the map of India with speed and thoroughness no campaign could equal." Comment. [2001, 20m]
+- More content needed
+
+```ad-Answer
 
 
+```
+
+1. "The rise and expansion of British empire was an accident rather than the result of a deliberate policy and design." Critically examine this statement. [2002, 60m]
+- [No overt mandate for conquest/ colonisation](onenote:European%20Penetration.one#English%20East%20India%20Company&section-id={5B3AE224-E8E5-4B69-B7AE-CDB92048090B}&page-id={9333C6BA-3349-4E44-90D0-55548429E95B}&object-id={CA863A9F-2D0C-0419-066B-3EA906A9DE20}&B&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I)
+
+```ad-Answer
 
 
-8. "Dalhousie changed the map of India with speed and thoroughness no campaign could equal." Comment. [2001, 20m]
--   More content needed
+```
 
-
-
-
-
-
-9. "The rise and expansion of British empire was an accident rather than the result of a deliberate policy and design." Critically examine this statement. [2002, 60m]
--   [No overt mandate for conquest/ colonisation](onenote:European%20Penetration.one#English%20East%20India%20Company&section-id={5B3AE224-E8E5-4B69-B7AE-CDB92048090B}&page-id={9333C6BA-3349-4E44-90D0-55548429E95B}&object-id={CA863A9F-2D0C-0419-066B-3EA906A9DE20}&B&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I)
-
-
-
-
-
-
-10. Examine the essential principles of the Subsidiary Alliance system. How far did it contribute in making the British Company the supreme sovereign authority in India? [2005,
+1. Examine the essential principles of the Subsidiary Alliance system. How far did it contribute in making the British Company the supreme sovereign authority in India? [2005,
 60m]
--   [Subsidiary Alliance
-- Lord Wellesley
-extension of the
-ring-fence
-system.](onenote:Early%20Structure%20of%20the%20Raj.one#Policies%20of%20Gov%20Generals%20%20&section-id={54CE4946-F610-4788-AADF-7A455FA668C1}&page-id={E5FBE8B6-A85A-42AD-B268-83FE2FAC096D}&object-id={E6ABD49B-59FF-41EA-BCC6-389B140588C8}&27&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I)
+- [Subsidiary Alliance - Lord Wellesley extension of the ring-fence system.](onenote:Early%20Structure%20of%20the%20Raj.one#Policies%20of%20Gov%20Generals%20%20&section-id={54CE4946-F610-4788-AADF-7A455FA668C1}&page-id={E5FBE8B6-A85A-42AD-B268-83FE2FAC096D}&object-id={E6ABD49B-59FF-41EA-BCC6-389B140588C8}&27&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I)
+
+```ad-Answer
+
+
+```
+
+1. How did the East India Company became the dejure power in India? [2009, 30m]
+- Social, Economic, Political, Ideological dimensions
+- [English East India Company](onenote:European%20Penetration.one#English%20East%20India%20Company&section-id={5B3AE224-E8E5-4B69-B7AE-CDB92048090B}&page-id={9333C6BA-3349-4E44-90D0-55548429E95B}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I)
+- [Conflict between the French and The English, Carnatic Wars](onenote:European%20Penetration.one#Conflict%20between%20the%20French%20and%20The%20English,%20Carnatic%20Wars&section-id={5B3AE224-E8E5-4B69-B7AE-CDB92048090B}&page-id={028BC107-89AA-4EA2-8468-2701E22A1876}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I)
+- [The Battle of Plassey](onenote:European%20Penetration.one#The%20Battle%20of%20Plassey&section-id={5B3AE224-E8E5-4B69-B7AE-CDB92048090B}&page-id={D34078A8-4239-4045-9415-CA946A8451EC}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I)
+- [First Anglo-Mysore War ( 1767-69 ) :](onenote:[[Mysore]]&section-id={5E4A9EBB-1AE5-4DC9-A50C-4BAC4568E9A7}&page-id={64774158-9486-4F96-A588-F8211B59829A}&object-id={C8F49DED-766C-48D8-9D99-1E3E5DFE2EAD}&C&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/British%20Expansion.one)
+- [First Anglo-Maratha War ( 1775-82 )](onenote:[[Anglo]]%20Maratha%20Wars&section-id={5E4A9EBB-1AE5-4DC9-A50C-4BAC4568E9A7}&page-id={3D51B62D-A88D-4307-B71C-30331133221B}&object-id={001B4A2B-F7C7-4828-B1FF-87F1028621A7}&10&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/British%20Expansion.one)
+
+```ad-Answer
 
 
 
-
-11. How did the East India Company became the dejure power in India? [2009, 30m]
--   Social, Economic, Political, Ideological dimensions
--   [English East India Company](onenote:European%20Penetration.one#English%20East%20India%20Company&section-id={5B3AE224-E8E5-4B69-B7AE-CDB92048090B}&page-id={9333C6BA-3349-4E44-90D0-55548429E95B}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I)
--   [Conflict between the French and The English, Carnatic Wars](onenote:European%20Penetration.one#Conflict%20between%20the%20French%20and%20The%20English,%20Carnatic%20Wars&section-id={5B3AE224-E8E5-4B69-B7AE-CDB92048090B}&page-id={028BC107-89AA-4EA2-8468-2701E22A1876}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I)
--   [The Battle of Plassey](onenote:European%20Penetration.one#The%20Battle%20of%20Plassey&section-id={5B3AE224-E8E5-4B69-B7AE-CDB92048090B}&page-id={D34078A8-4239-4045-9415-CA946A8451EC}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I)
--   [First Anglo-Mysore War ( 1767-69 ) :](onenote:[[Mysore]]&section-id={5E4A9EBB-1AE5-4DC9-A50C-4BAC4568E9A7}&page-id={64774158-9486-4F96-A588-F8211B59829A}&object-id={C8F49DED-766C-48D8-9D99-1E3E5DFE2EAD}&C&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/British%20Expansion.one)
--   [First Anglo-Maratha War (
-1775-82
-)](onenote:[[Anglo]]%20Maratha%20Wars&section-id={5E4A9EBB-1AE5-4DC9-A50C-4BAC4568E9A7}&page-id={3D51B62D-A88D-4307-B71C-30331133221B}&object-id={001B4A2B-F7C7-4828-B1FF-87F1028621A7}&10&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/British%20Expansion.one)
--   [Punjabi, Dogra factions, centrifugal tendencies](onenote:[[The]]%20Punjab&section-id={5E4A9EBB-1AE5-4DC9-A50C-4BAC4568E9A7}&page-id={D7B07F4F-F184-45A6-A728-C8F513A51587}&object-id={FB86D052-5C62-4FB8-8A0D-EBF6E4C50867}&B&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/British%20Expansion.one)
+```

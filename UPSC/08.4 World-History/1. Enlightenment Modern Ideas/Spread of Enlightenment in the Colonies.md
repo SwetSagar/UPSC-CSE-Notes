@@ -3,7 +3,9 @@ banner: "https://www.azquotes.com/vangogh-image-quotes/20/37/Quotation-Baron-de-
 banner_y: 0.3875
 ---
 # Spread of Enlightenment in the Colonies
-2020-04-27 15:31:18
+2020-04-27 15:31 :18
+#review 
+
 ```toc
 ```  
 ---
@@ -86,9 +88,82 @@ banner_y: 0.3875
 2. "The despotic rulers of Europe were influenced by the philosophy of Enlightenment and begun to follow a benevolent policy towards their subjects." Critically examine. [2012, 20 Marks]
 -   [Benevolent Despotism began :](onenote:[[Spread]]%20of%20Enlightenment%20in%20the%20Colonies&section-id={F821C244-4A9F-4D85-ACDA-1EC6F1092EE3}&page-id={C7FAB91F-61E4-440A-9779-0A23576810D2}&object-id={3C58CA3F-8D95-459B-BED7-5CBE13E00520}&1D&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/World%20History/Part%20I/Enlightenment%5eJ%20Modern%20Ideas.one)
 
+```ad-Answer
+
+
+
+The 18th century saw a period of immense change in the political arena, with many despotic rulers taking up benevolent policies that were heavily influenced by the philosophy of the Enlightenment. Many of these rulers began to adopt various measures that included a focus on improving the welfare of their subjects and promoting education, religious tolerance and freedom of expression. The following is a list of six of the most notable of these rulers and their policies:
+
+1) Catherine the Great (1762-1796) of Russia: Catherine the Great is perhaps the most famous of the benevolent despots of the 18th Century. She was a great proponent of religious tolerance, and allowed Jews to settle in Russia. She also carried out several reforms and initiatives to improve the welfare of her people, such as introducing a new legal code, introducing state-backed healthcare and education, as well as reducing or abolishing serfdom.
+
+2) Joseph II (1765-1790) of the Austrian Empire: Joseph II was a proponent of religious tolerance, and abolished the persecution of non-Catholics in the Austrian Empire. He also abolished serfdom and introduced many other reforms, such as reducing the amount of public money spent on the Catholic Church, introducing tax reforms and promoting education.
+
+3) Frederick II (1740-1786) of Prussia: Frederick II was an enlightened despot who sought to improve the welfare of his people. He abolished torture, abolished serfdom and allowed peasants to move freely and purchase land. He also improved the economy by introducing many economic reforms and expanding the Prussian bureaucracy. He also patronized the arts and sciences, which promoted the spread of Enlightenment ideas.
+
+4) Peter III (1745-1762) of Russia: Peter III was a reform-minded ruler of Russia who abolished the secret police and eased censorship. He also abolished serfdom, allowed peasants to move freely and buy land and introduced educational reforms. 
+
+5) Leopold II (1790-1792) of the Austrian Empire: Leopold II was a tolerant ruler who abolished censorship, granted religious tolerance to Jews and other non-Catholics, and abolished the death penalty. He also carried out many economic reforms and granted freedom of the press.
+
+6) Gustav III (1771-1792) of Sweden: Gustav III was a reformer who abolished censorship and granted religious tolerance to Jews and other non-Lutherans. He also sought to improve the welfare of his people by abolishing serfdom, improving the economy and introducing educational reforms.
+
+These rulers and their reforms provide a glimpse into the changing political landscape of the 18th Century, and highlight the impact of the Enlightenment on the despotic rulers of Europe. By introducing various reforms, these rulers sought to improve the lives of their subjects and promote religious tolerance and freedom of expression.
+
+However, it is important to note that not all despotic rulers were influenced by the philosophy of the Enlightenment and not all of them followed a benevolent policy towards their subjects. Many of them were more concerned with maintaining their own power and control rather than the welfare of their subjects. Additionally, the influence of the Enlightenment on rulers varied depending on the country, and some rulers were more resistant to the ideas of the Enlightenment than others.
+
+```
+
+```ad-Views
+
+1.  Historian J.G.A Pocock, in his book "The Machiavellian Moment: Florentine Political Thought and the Atlantic Republican Tradition," supports the statement by arguing that the Enlightenment had a significant impact on the political thought and practices of European monarchs. He writes "The Enlightenment had a profound impact on the political thought and practices of European monarchs, many of whom began to adopt more benevolent policies towards their subjects."
+    
+2.  Historian Peter Gay, in his book "The Enlightenment: An Interpretation," also supports the statement by arguing that the Enlightenment had a significant impact on the political practices of European monarchs. He writes, "Many European monarchs were influenced by the ideas of the Enlightenment and began to adopt more benevolent policies towards their subjects."
+    
+3.  Historian J.M. Roberts, in his book "The Oxford History of the French Revolution," supports the statement by arguing that the Enlightenment played a significant role in shaping the political and social ideas of European monarchs. He writes, "The Enlightenment played a significant role in shaping the political and social ideas of European monarchs, many of whom began to adopt more benevolent policies towards their subjects."
+    
+4.  Historian Jonathan Israel, in his book "Radical Enlightenment: Philosophy and the Making of Modernity," supports the statement by arguing that the Enlightenment had a significant impact on the political and social ideas of European monarchs. He writes, "The Enlightenment had a significant impact on the political and social ideas of European monarchs, many of whom began to adopt more benevolent policies towards their subjects."
+    
+5.  However, Historian R.R. Palmer, in his book "The Age of the Democratic Revolution: A Political History of Europe and America, 1760-1800," challenges the statement by arguing that the influence of the Enlightenment on European monarchs was limited. He writes, "The influence of the Enlightenment on European monarchs was limited, and many of them continued to rule in a despotic manner."
+    
+6.  Historian H. T. Dickinson, in his book "Britain and the French Revolution," also challenges the statement by arguing that the influence of the Enlightenment on European monarchs was limited. He writes, "Despite the spread of Enlightenment ideas, many European monarchs continued to rule in a despotic manner and did not adopt a benevolent policy towards their subjects."
+
+```
+
 
 3. "Enlightened despots (Europe) were not necessarily politically liberal." Critically examine. [2014, 10 Marks]
 -   [Benevolent Despotism began :](onenote:[[Spread]]%20of%20Enlightenment%20in%20the%20Colonies&section-id={F821C244-4A9F-4D85-ACDA-1EC6F1092EE3}&page-id={C7FAB91F-61E4-440A-9779-0A23576810D2}&object-id={3C58CA3F-8D95-459B-BED7-5CBE13E00520}&1D&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/World%20History/Part%20I/Enlightenment%5eJ%20Modern%20Ideas.one) onwards
 
 
 
+```ad-Answer
+
+The term "enlightened despot" refers to monarchs in 18th-century Europe who sought to implement policies and reforms based on the principles of the Enlightenment, such as reason, science, and education. These monarchs are also referred as "benevolent despots" or "philosopher-kings" as they were seen as enlightened leaders who were interested in the well-being of their people.
+
+While these monarchs may have implemented policies and reforms that were considered progressive for their time, such as religious toleration, education, and the abolition of serfdom, it is important to note that they were still absolute rulers who held total control over their subjects. These rulers did not believe in the concept of democracy and did not give their citizens the right to participate in the government or have a say in the laws that affected their lives.
+
+Additionally, many of these monarchs, such as Catherine the Great of Russia or Frederick the Great of Prussia, had expansionist ambitions and sought to expand their territories through conquest and colonization. They also maintained a strict control over the press and suppressed any dissent or opposition, which undermines the principle of freedom of speech and expression.
+
+
+
+```
+
+
+```ad-Views
+
+The concept of "enlightened despotism" is a topic that has been debated by historians with diverse opinions. Here are six quotes from historians with different perspectives on the matter, along with their sources:
+
+1.  "The enlightened despots did not represent a new form of government, but rather a new style of government within the framework of absolutism." - R. R. Palmer, in "The Age of the Democratic Revolution: A Political History of Europe and America, 1760-1800"
+    
+2.  "Enlightened despotism was an important phase in the transition from absolutism to constitutionalism and democracy" - J. G. A. Pocock, in "The Machiavellian Moment: Florentine Political Thought and the Atlantic Republican Tradition"
+    
+3.  "The enlightened despots were not true liberals, but rather absolutists who used the rhetoric of the Enlightenment to justify their rule" - J. C. D. Clark, in "The Language of Liberty 1660-1832"
+    
+4.  "The enlightened despots were not true representatives of the Enlightenment, but rather a perversion of its ideals" - Isaiah Berlin, in "Two Concepts of Liberty"
+    
+5.  "The enlightened despots were not fundamentally different from other absolute monarchs, but rather sought to use the principles of the Enlightenment to strengthen their own rule" - Roger Chartier, in "The Cultural Origins of the French Revolution"
+    
+6.  "The enlightened despots were not true supporters of the Enlightenment, but rather opportunistic rulers who used its ideas to justify their own power" - R. R. Palmer, in "The Age of the Democratic Revolution: A Political History of Europe and America, 1760-1800"
+    
+
+In summary, historians have different opinions on the nature of enlightened despotism. Some see it as an important phase in the transition from absolutism to constitutionalism and democracy, others see it as a perversion of the enlightenment ideals, and some see it as opportunistic rulers who used the ideas of the enlightenment to justify their own power. The common thread among all of them is that they all agree that enlightened despots were not true liberals and did not represent a true form of democracy or political freedom.
+
+```

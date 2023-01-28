@@ -26,9 +26,9 @@
 -   Failure made him realise need for impersonal political org like INC
 
 
+## PYQs
 
-
-
+---
 
 5. "This retention of Rowlatt legislation in the teeth of universal opposition is an affront to the nation. Its repeal is necessary to appease national honour." Critically examine. [2015, 10m]
 -

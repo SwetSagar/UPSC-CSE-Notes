@@ -1,3 +1,7 @@
+---
+uid: 6667d84ad1e0639207f9ee89eb7fcc02
+---
+
 [[1. 📓 Subject Wise Notes]]
 [[2. 📔 Prelims]]
 [[3. 🗒️ Essay]]

@@ -51,10 +51,9 @@
 ```
 
 
+## PYQs
 
-
-
-
+---
 
 **Rise of Gandhi; Character of Gandhian nationalism; Gandhi's popular** **appeal**
 

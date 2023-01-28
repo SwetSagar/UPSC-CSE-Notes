@@ -1,8 +1,12 @@
 # Australia
 2020-04-27 15:37:52
-            
+#review 
+
 ---
 
+![[Colonisation in North America and Australia NCERT.pdf]]
 
-- [ ] #todo 
+- [x]  #todo ✅ 2023-01-17
+
+- ! Given in the Next notes Book pdf.
 

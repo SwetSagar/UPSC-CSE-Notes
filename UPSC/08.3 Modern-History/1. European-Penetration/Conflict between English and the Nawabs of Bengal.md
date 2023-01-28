@@ -1,18 +1,20 @@
-# Conflict b/w English and the Nawabs of Bengal 
+# Conflict b/w English and the Nawabs of Bengal
+
 2020-04-27 14:56:10
+
 ```toc
 ```
+
 ---
 
-
--   **1717** Farman Farrukhsiar gave duty free trade Murhsid Quli Khan .was against, refused minting privileges, dastak misuse
--   French onslaught - B fortify Calcutta
+- **1717** Farman Farrukhsiar gave duty free trade Murhsid Quli Khan .was against, refused minting privileges, dastak misuse
+- French onslaught - B fortify Calcutta
 - Alivardi khand Usurped power by killing Sarfaraz khan. He likened the Europeans and despite repeated appeals did not oust them after the Europeans toppled rulers in the south.
 
-
 ## Conflict b/w Siraj and the English
+
 2020-04-27 14:58:00
-            
+
 ---
 
 - English had begun to strengthen their fortifications anticipating further Anglo-French struggle.
@@ -20,14 +22,13 @@
 - English indirectly supported Ghasiti Begum they also gave asylum to political opponents of Siraj -> led to Siraj attacking fort Williame in 1756
 - Siraj stopped misuse of datak was against EIC giving asylum to Krishna Ballabh, captured Kasimbazar
 
-
 ```ad-Views
 
 **Phillip Woodruff** : plunder was the main motive behind Nawabs attack
 
 ```
 
-### Black Hole Tragedy 
+### Black Hole Tragedy
 - On 20th June 1756, English prisoners including Women and Children were put in a prison room to a total of 146.
 - 123 died due to suffocation, trampling and excessive heat.
 - It was used as a propaganda device to malign Siraj's position as the nawab
@@ -39,4 +40,3 @@
 **Brijen Gupta** : number of those that entered the hole was 64 and survivors were 21.
 
 ```
-

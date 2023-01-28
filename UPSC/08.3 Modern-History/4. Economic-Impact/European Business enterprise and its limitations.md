@@ -1,26 +1,31 @@
-# European Business enterprise and its limitations
+# European Business Enterprise and Its Limitations
+
 2020-04-27 15 :05: 16
+
 ```toc
 ```            
+
 ---
 
-- [x] #todo  Page 447 BL Grover
+- [x] #todo Page 447 BL Grover
 
 ## Entry of British Finance and Capital in India
+
 - Foreign capital that entered India but was used by the colonial administration for fuller exploitation of Indian resources not for dev of colonial economy.
 - & There was no investment of British capital before 1833 but became significant after 1857 and became the new most powerful method of colonial exploitation.
 
 ### Forms of Investment
-1.  Loans raised by England by Secy General on behalf of Govt for investment in railways, irrigation, development of ports, hydro electric projects etc.
+
+1. Loans raised by England by Secy General on behalf of Govt for investment in railways, irrigation, development of ports, hydro electric projects etc.
 2. Foreign Business investments in India
 - 97% of British capital investment in India was diverted towards completion of economic overheads, mining industry, dev of financial houses etc.
-- British Capitalists retained dominant control over Indian banking, commerce, exchange and insurance. Foreign banks held 3/4th of total bank deposits. 
+- British Capitalists retained dominant control over Indian banking, commerce, exchange and insurance. Foreign banks held 3/4th of total bank deposits.
 - Indian industrialists complained that racial and political discrimination were made in credit advances.
-- During WWII India had massive BoP surplus due to massive purchases of Indian goods by British govt. 
+- During WWII India had massive BoP surplus due to massive purchases of Indian goods by British govt.
 
+## PYQs
 
+---
 
-1. "Plantations and mines, jutes mills, banking, insurance, shipping and export-import
-concerns in India were run through a system of interlocking managing agencies." Critically
-examine. [2012, 10m]
--   [European Business enterprise and its limitations](onenote:[[European]]%20Business%20enterprise%20and%20its%20limitations&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={5D0366A3-4DFE-4FA6-9437-4184E1BE05B7}&end&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one) more content needed
+1. "Plantations and mines, jutes mills, banking, insurance, shipping and export-import concerns in India were run through a system of interlocking managing agencies." Critically examine. [2012, 10m]
+- [European Business enterprise and its limitations](onenote: [[European]] %20Business%20enterprise%20and%20its%20limitations&section-id={B2BF9E67-82ED-4920-AF38-1692A58DC034}&page-id={5D0366A3-4DFE-4FA6-9437-4184E1BE05B7}&end&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Economic%20Impact.one ) more content needed

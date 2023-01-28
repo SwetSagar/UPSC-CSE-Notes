@@ -1,6 +1,6 @@
 # The question of National Language
 2020-04-27 15:27:29
-            
+
 ---
 
 - problem of national consolidation by linguistic diversity has taken 2 major forms ie dispute over official language of the union and linguistic reorganisation of the states.

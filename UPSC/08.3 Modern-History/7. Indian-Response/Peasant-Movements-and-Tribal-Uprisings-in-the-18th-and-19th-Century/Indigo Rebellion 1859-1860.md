@@ -1,6 +1,6 @@
 # Indigo Rebellion 1859-1860
 2020-04-27 15:11:12
-            
+
 ---
 
 The Indigo revolt took place from 1859-60
@@ -31,6 +31,16 @@ The Indigo revolt took place from 1859-60
 ![Areas of Indigo Revolt MAL DA RAJ SHAH' / MURS IDABA7' KARIMBUR B (R BHUM MEHERPUR MUCHADA NADIA B U RD WAN KRISHNAGAR BURDWAN BANGAON SARA SAT 'SIRAJGANJ • p A BNA e PABNA MAGURA JESSORE DACCA DACCA NARAIL u, h JESSORE % l, (BAKARGANJ BAKARGANJ 24 PARGANAS 3 Districts Effected by Indigo Revolt in Bengal ](Indigo-Rebellion-1859-1860-image1-23585325.png)
 
 
+
+
+**Indigo Rebellion (1859-60)**
+
+
+1. "The Indigo Revolt of 1859-60 holds a very significant place in our history of national
+liberation movement. For the first time in the history of our anti-colonial struggle, its two
+independent currents-- spontaneous peasant resistance and constitutional agitation in
+defence of peasantry -- came into mutual contact." Critically examine. [2015, 10m]
+-   [Indigo Rebellion 1859-1860](onenote: [[Indigo]] %20Rebellion%201859-1860&section-id={246B5FB2-E863-4692-8081-C7DFE8A0C6E5}&page-id={27A1DA12-F521-4471-928B-EC9B2FF68BB4}&end&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Indian%20Response.one )
 
 
 

@@ -1,11 +1,15 @@
 # Rise of Landless agrarian labourers
 2020-04-27 15:03:31
-            
+
 ---
 
 
 - [ ] #todo #important 
 
+
+## PYQs
+
+---
 
 
 1. In British India "the impact of the government on the people meant essentially the impact of government on the village." [1984, 20m]

@@ -1,6 +1,6 @@
 # Nationalism and Working Class Movements
 2020-04-27 15:20:52
-            
+
 ---
 
 -   Railways and Telegraph laid the foundation of the emergence of Indian working class.

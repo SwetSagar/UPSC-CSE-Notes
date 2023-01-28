@@ -6,21 +6,22 @@
 
 ## CA : December 2021 Onwards
 2020-03-10 12:50:07
-            
+
 ---
 - [Daylight saving time](https://www.youtube.com/watch?v=DRQcW9ODoP4) : Setting up of clock ahead or backwards to extend the daylight hours. This was done since it saves energy, completion of work earlier. But it has issues with increasing heart problems, spike in workplace injuries, on Agriculture and labour and productivity.
 - Frequency of very severe storms in Arabian Sea has increased due to inc is global temp/warming. Wind shear is driving cyclones from far areas towards Western Coast.
+	-  52% inc in frequency of cyclones in Arabian Sea and 8% in BoB since 2000. Reasons : 1. Inc in surface temp -> more intensification of cyclonse due to inc convection. 2. Underlying features ex land sea boundary, bays, estuaries. 
 - Pacific Ring of Fire was formed due ot subduction of oceanic tectonic plates beneath lighter contiental plates. 
 ![[Pasted image 20220403012615.png]] 
 - [[Heat Wave and Cold Wave#Cold Waves |Cold Wave]]
 - **Bomb Cyclone** aka **Bombogenesis** or **Nor'easter** is a mid latitude cyclone that intensifies rapidly. It occurs when atmospheric pressure at the centre of the cyclone drops at least 24 milibars over 24 hrs. 
 	- Cold airs and fronts are an essential feature for bomb cyclones and are associated with blizzards.
 	- It occurs in areas of northwest Atlantic, NW Pacific and sometimes the mediterranean sea from late winter to early spring. 
-- Geomagnetic storms are caused due to solar flares when they interact with Earths magnetic field. Solar coronal mass ejection CME or Co-rotating interaction region CIR are constituents of the storm. 
+- **Geomagnetic storms** are caused due to solar flares when they interact with Earths magnetic field. Solar coronal mass ejection CME or Co-rotating interaction region CIR are constituents of the storm. 
 	- G1 storms affects power grids causing weak fluctuations, minor impacts on satellite operation and northern and southern lights occur. 
 	- G5 storm causes voltage problems, blackouts, radios are hindered.
 - **Marine heatwaves** are a coherent area of extreme warm sea surface temp that happen when sea temperatures are warmer than normal for extended period of time. 
-	- Ocean current cause this, weak winds does not remove heated water from ocean surface to move. 
+	- Ocean current cause inc in temp, weak winds does not remove heated water from ocean surface to move. 
 	- Western Indian ocean has seen largest inc in these waves.
 - 
 
@@ -29,7 +30,6 @@
 2021-09-06 09:05
 
 ---
-
 
 -   **Pacific Decadal Oscillation(PDO)** : oceanic current located in pacific ocean duration is longer than ENSO (20-30 yrs), major effect in Alaskan weather and global temp, ==North East India rapidly drying due to it==.
 -   **Anthropocene** : new epoch in Earth's geological history has been proposed present geological time interval describe humanity's impact on env. 
@@ -40,7 +40,8 @@
 -   NE monsoon is a permanent feature occurs from October to December rains in TN, KTAKA, TEL, AP, KER is seen ^c72265
 	- La Nina has a negative impact on it but a +ve on SE Monsoon.
 - **Seismic noise** : caused by persistent vibrations of ground ex earthquakes, volcanic eruptions etc.
--   **Polar vortex** : low pressure whirling cone region in the stratospheric levels around the poles, strongest in winter Has caused closing of ozone layer
+-   **Polar vortex** : low pressure whirling cone region in the stratospheric levels around the poles, strongest in winter Has caused closing of ozone layer.
+	- ![[Pasted image 20221227131838.png]]
 -   ==Churchandpur Mao Fault and Mat fault== in Mizoram
 -   CO2 in thermal springs are sourced from ==metamorphic decarbonation of rocks==. **Geothermal springs** are major source of CO2 emission
 -   **La Nina** this year has led to Northeast monsoon being subdued ^a98c6b
@@ -55,12 +56,10 @@
 - Most Planets rotate **west to east** but Venus and Uranus rotate from east to west
 - **Halo** around sun appears when white light passes through ice crystals.
 - **Supermoon** occurs when full moon coincides with Moon's closest approach/ Perigree. 
-- Heat Dome : traps hot air rising above. Cold air coming from poles and jet streams act as a dome which pushes the rising hot air below causing high temp.
+- **Heat Dome** : traps hot air rising above. Cold air coming from poles and jet streams act as a dome which pushes the rising hot air below causing high temp.
 - **Auroras** : formed when charged particles from solar winds comes in contact w/ gasses in atmosphere. Called Aurora Borealis/ Northern Lights in North Hemisphere and Aurora Australis in South. Martian Auroras are discrete/ disjointed since its magnetic field is unevenly distributed.
 -  Separation of charges in clouds where +ve charge moves upwards taken by lighter snow and -ve comes down brought by heavier hail. These -ve charges start to move downwards called stepped leader comes in contact w/ moving up +ve charge causes lightning.
 -  **Earth Overshoot Day** by Global Footprint Network : day when on which we have used all biological resources of earth which it can renew in a year. Day is coming early every year. We consume 1.7 earths/yr.
--  52% inc in frequency of cyclones in Arabian Sea and 8% in BoB since 2000. Reasons : 1. Inc in surface temp -> more intensification of cyclonse due to inc convection. 2. Underlying features ex land sea boundary, bays, estuaries. 
--  Hurricanes are classified under the Saffir Simpson Hurricane wind scale.
 -  Effect of climate change on El Nino
 	1.  Inc CO2 will weaken future ENSO and surface temp variability.
 	1.  Will lose heat to atm more quickly
@@ -75,12 +74,17 @@
 
 - [x] #todo
 
-![[Natural Hazard in IN Earthquake]]
-![[Tsunami]]
-![[Volcano, Floods]]
-![[Landslides]]
-![[Cloudburst and Cyclone]]
-![[Drought]]
+[[Natural Hazard in IN Earthquake]]
+
+[[Tsunami]]
+
+[[Volcano, Floods]]
+
+[[Landslides]]
+
+[[Cloudburst and Cyclone]]
+
+[[Drought]]
 
 ## Cyclone
 

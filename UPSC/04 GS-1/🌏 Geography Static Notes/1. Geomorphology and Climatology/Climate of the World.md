@@ -1,0 +1,365 @@
+# Climate of the World 
+2020-04-28 23:13:27
+
+```toc
+```
+---
+
+## Solar Radiation, Heat Balance and Temperature
+
+### Solar Radiation
+- Earth's surface receives most of its energy in **short** wavelengths aka incoming solar radiation or insolation
+- Earth is farthest from the sun (152 million km) on 4th July this position is called the **aphelion**. 
+- On 3rd January, the earth is the nearest to the sun this is called the **perihelion**.
+
+#### Factors that cause variability in insolation are 
+- rotation of earth on its axis 
+-   Angle of inclination of sun's rays
+-   length of the day
+-   transparency of atmosphere
+-   Landforms eg Mountain, plains etc.
+- Maximum insolation is received by **subtropical deserts** due to ==absence of cloudiness==. Equator receive comparitively less insolation, least on the poles.
+
+### Heating and Cooling of Atmosphere
+- Earth reflects in long wave form which heats up the atmosphere this process is called terrestrial radiation : it is 51% of the total radiation that reaches it.
+- Convection is vertical heating, ==confined only to troposphere==.
+-  The transfer of heat through horizontal movement of air is called as **advection** ex **Loo**.
+-  Insolation more over continent than over oceans at similar latitudes.
+-  Earth as a whole does not accumulate or loose heat, maintains its temp.
+	-  The reflected amount of radiation is about **64**% it is called the **albedo** of the earth. #important
+-  Rate of dec of temp is 6.5 C per 1000mts.
+-   Effect of land is pronounced in Northern Hemisphere, vice versa is true for oceans in Southern H.
+####   Inversion of Temperature  
+-   temp inc w/ inc in elevation but is only for a 	short duration. 
+-   requires long winter nights, clear skies; common in ==polar areas==.
+-   Heat is radiated during night by morning earth is cooler than air above.
+-  Surface inversion takes place due to accumulation of dust.
+-  in  hills cold air moves down slope -> cooling of valleys aka air drainage.
+	
+### Atmospheric Circulation and Weather System
+- The pressure decreases by about **1** mb for each **10**m inc in elevation
+- Vertical pressure is greater than Horizontal but is balanced by gravitational force
+- Near Equator seal level pressure is low called equatorial low
+- Subtropical highs found along 30N and 30S; 60N and 60S subpolar lows are seen 
+- Pressure is high near poles called polar highs 
+	
+#### Forces affecting Velocity and Direction of Wind
+- The horizontal winds near the earth's surface respond to the combined effect of :
+	-   **Pressure gradient force** 
+		-   pressure gradient is strong where isobars are **close**, weak when apart
+	-   **Frictional force** - greatest at surface min at sea; affects speed of the wind 
+	-    **Coriolis force** 
+		- deflects wind towards **Right** in northern hemisphere and **Left** in  southern hemisphere
+		- acts perpendicular to pressure gradient force
+		- Max at the poles and absent at equator and is directly proportional to the angle of latitude
+-  When isobars are straight and there is no friction, the pressure gradient force is balance by Coriolis force and wind blows parallel to the Isobars called Geostrophic winds.
+- Why cyclones are not formed near equators?  ![[kegy210.pdf#page=4]]
+
+#### General Circulation of the atmosphere
+
+- The pattern of planetary winds aka general circulation of the atmosphere depends upon :
+	-   **latitudnal** variation of temp **pressure** belts
+	-   Emergence of pressure Belts
+	-   their migration 
+	-   distribution of continents and oceans
+	-   rotation of the earth 
+
+-   ITCZ is convergence of air/easterlies from tropics at 30°N and S
+-  Large scale atmospheric cell in which air rises at the equator and sinks at 30° latitudes(middle lats) are called **Hadley cell**
+-  Sinking cold air from poles and rising hot air from sub-tropical high forms a cell at surface called **Ferrel cell**
+-  The sinking cold air from poles blows towards middle latitudes forming a **polar cell**
+-  These 3 cells set the pattern of general circulation of atmosphere 
+-  Seasonal winds like Monsoon, Local winds, Land and Sea Breeze are also influenced by the GPoCoA
+-  Valley Breeze : heated air from valley blows up the slope during day time; Mountain Wind : dense cool air blows down the slope during night
+-   Cool air of high plateaus and ice fields draining into the valley is called Katabatic wind 
+
+![[Climate-of-the-World--image1-00090827.jpg|300x300]]
+
+#####  Air masses : 
+- distinct characteristics in terms of temp and humidity ex Warm tropical, Maritime Polar, Maritime Tropical etc
+-  When different air masses meet the boundary zone between them is called a **Front** 
+	-  Ex Cold, Warm, Occluded and Stationary
+	-  Occur in middle latitudes, cause abrupt changes in temp and rain
+#####  Extra Tropical Cyclones : 
+- dev in middle or extra tropical latitudes
+-  caused due to passage of fronts
+
+#####   Cyclones
+-   Conditions for the formation of tropical cyclones? #important ![[kegy210.pdf#page=7]]
+	-   **Large sea surface temp** > 27°C
+	-   Coriolis Force
+	-   Small variation in vertical wind speed
+	-   prexisting weak low pressure area/ low level cyclonic circulation
+	-   Upper divergence above sea level system
+-   Tropical Cyclones aka Cyclones in the Indian Ocean, Hurricanes in Atlantic, Typhoons in the Western Pacific and South China Sea,  Willy-willies in Western Australia.
+-   Energy comes from Cummulonimbus clouds, moisture from sea strengthens it further
+-   Wind velocity highest in the eye, torrential rains occur here ^30e6d0
+
+| Extratropical Cyclones               | Tropical Cyclones                                        |
+| ------------------------------------ | -------------------------------------------------------- |
+| Have a clear frontal system          | absent                                           |
+| Cover a large area                   | cover a much smaller area                                |
+| Originates over both land and sea    | originate only over seas on reaching land they dissipate |
+| Less wind velocity, less destructive | high wind velocity, very destructive                     |
+| Move from West to East               | Move East to west                                                         |   
+
+#####   Thunderstorms 
+- are caused by intense **convection** on moist hot days 
+	-   is a well grown **cummulonimbus** cloud
+	-   Hails are formed when cloud reaches sub zero temp
+	-   Spiralling winds descend from severe thunderstorms towards low pressure area forming Tornadoes
+		-   generally occur in the **middle** latitudes. 
+		-   Over the sea they are called **Water Spouts**.
+
+## Water in the Atmosphere
+
+-   **Absolute humidity** : actual amount of water vapour present in atmosphere or weight of water per unit vol of air.
+-   **Relative humidity** : percentage of moisture present in  atmosphere as compared to its full capacity at a given temperature.
+-   **Dew point** : temp at which saturation occurs in a given sample of air.
+
+### Evaporation and Condensation
+
+-   **Latent heat of vaporisation** : Temp at which water starts evaporating
+
+#### Condensation
+-  water vapour -> liquid water
+-  direct conversion to solid water is called sublimation
+- Causes :
+	- cooling around hygroscopic nuclei
+	- moist air comes in contact w/ colder object
+	- temp reduces closer to dew point
+- Influenced by volume of air, temp, pressure and humidity
+
+#####  Forms of condensation :
+######  Dew : 
+-  ideal conditions are clear **sky**, calm **air**, high **relative humidity**, cold and long nights and dew point needs to be above the freezing point
+######   Frost :
+-   Forms on cold surfaces
+-   Conditions of  formation are similar to dew except **air temperature** must be at or below the **freezing point**
+######   Fog and Mist : 
+-   temp of air mass fall suddenly, hygroscopic nuclei are responsible 
+-   Fogs are clouds formed very close to the ground
+-   Mist contains more moisture than fog, frequent over mountains
+
+#####   Clouds 
+######   **Cirrus**  
+-   formed at high altitudes viz **8,000 - 12,000m**
+-   thin and detatched having feathery appearance 
+-   always white in colour
+-   absorb more infrared than they reflect this process exacerbates global warming. Cirrus cloud thinning technique is used to counter this which cools the Earth #PrelimsPYQ  
+![[Climate-of-the-World--image2-00090827.jpg]]
+######   **Cumulus clouds** 
+-   look like a*cotton wool* and have a **flat base*
+-   generally formed at height of **4,000 - 7,000**m 
+-   exist in patches and are scattered 
+![[Climate-of-the-World--image3-00090827.jpg]]
+######   **Stratus** 
+-   layered clouds covering large portions of the sky. 
+-   formed either due to loss of heat or  mixing of air masses of different temp 
+![[Climate-of-the-World--image4-00090827.jpg]]
+
+######   **Nimbus clouds** 
+-    **black or dark gray** in colour 
+-    Form at middle levels or very near to the surface  
+-    shapeless masses of thick vapour.  
+![[Climate-of-the-World--image5-00090827.jpg]]
+######   Combination clouds
+-   High clouds = Cirrus, Cirroculums, Cirrostratus
+-   Middle clouds = Altostratus, Altocumulus, Nimbostratus
+-   Low clouds = Stratus, Stratocumulus, Fair weather cumulus
+-   Clouds w/ extensive vertical development = Comulonimbus and towering Cumulus
+
+#### Precipitation
+-   Besides rain and snow, other forms of precipitation are **sleet**  	and **hail**.
+#####   **Sleet** 
+-   frozen raindrops and refrozen melted snow-water.  
+-   forms when a layer of air with temperature above **freezing point** overlies a **subfreezing** layer near the ground. 
+![[Climate-of-the-World--image6-00090827.jpg | 300x200]]
+
+#####   Types of Rain
+######   **Convectional rainfall**
+-   common in the summer or in the hotter part of the day 
+-   esp in **equator** and interior parts of **continents** 
+-   particularly in northern hemisphere
+######   Orographic 
+-   also known as the relief rain
+-   area situated on the leeward side, which gets less rainfall is known as the **rain-shadow area**
+######   Cyclonic Rains 
+![[#^30e6d0]]
+##### Distribution of Rainfall
+- Coastal areas receives more, More in oceans than in continents
+- b/w 35-40°N and S heavier on eastern coast dec towards west
+- b/w 45-65°N and S first received in western margins due to westerlies
+
+## Various Local Winds
+
+
+| Alizé                    | Maritime wet, fresh northerly wind across west central Africa.                                                                                                                                                                                    |
+|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Bora                     | northeasterly from eastern Europe to northeastern Italy                                                                                                                                                                                           |
+| Cape Doctor              | dry south-easterly wind that blows on the South African coast in summer                                                                                                                                                                           |
+| Chinook                  | warm dry westerly off the Rocky Mountains                                                                                                                                                                                                         |
+| Diablo                   | hot, dry, offshore wind from the northeast in the San Francisco bay                                                                                                                                                                               |
+| Etesian                  | northerly across Greece and Turkey                                                                                                                                                                                                                |
+| Elephanta                | strong southerly or southeasterly wind on the Malabar coast of India                                                                                                                                                                              |
+| Föhn                     | warm dry southerly off the northern side of the Alps and the North Italy                                                                                                                                                                          |
+| Fremantle Doctor         | afternoon sea breeze from the Indian Ocean which cools Perth, Western Australia during summer                                                                                                                                                     |
+| Harmattan                | dry northerly wind across central Africa                                                                                                                                                                                                          |
+| Kali Andhi               | the violent dust squalls that occur before monsoon in the northwestern parts of the Indo-Gangetic Plain region of the Indian Subcontinent.                                                                                                        |
+| Karaburan            | a Spring and winter Katabatic wind of central Asia                                                                                                                                                                                                |
+| Khamsin                  | southeasterly wind from North Africa to the eastern Mediterranean                                                                                                                                                                                 |
+| Loo                      | hot wind which blows over plains of India and Pakistan.                                                                                                                                                                                           |
+| Maestro                  | cold northerly in the Adriatic sea                                                                                                                                                                                                                |
+| Mistral                  | cold northerly from central France and the Alps to Mediterranean                                                                                                                                                                                  |
+| Monsoon                  | mainly south-westerly winds combined with heavy rain in various areas close to the equator                                                                                                                                                        |
+| Nor'easter             | strong storm with winds from the northeast on the north eastern coast of the United States (particularly New England states) and the east coast of Canada (Atlantic Canada))                                                                      |
+| Nor'wester              | wind that brings rain to the West Coast, and warm dry winds to the East Coast of New Zealand's South Island, caused by the moist prevailing winds being uplifted over the Southern Alps, often accompanied by a distinctive arched cloud pattern |
+| Pampero (Argentina)      | very strong wind which blows in the Pampa                                                                                                                                                                                                         |
+| Passat                   | medium strong, constant blowing wind at sea in tropical areas                                                                                                                                                                                     |
+| Rashabar("black wind") | a strong wind in the Kurdistan Region of Iraq, particularly in Sulaimaniya.                                                                                                                                                                       |
+| Santa Ana winds          | southern California                                                                                                                                                                                                                               |
+| Shamal                   | a summer northwesterly wind blowing over Iraq and the Persian Gulf states                                                                                                                                                                         |
+| Simoom                   | strong, dry, desert wind that blows in the Sahara, Israel, Jordan, Syria, and the desert of Arabia                                                                                                                                                |
+| Sirocco                  | southerly from north Africa to southern Europe                                                                                                                                                                                                    |
+| Southerly Buster         | rapidly arriving low pressure cell that dramatically cools Sydney, Australia during summer                                                                                                                                                        |
+| Sou'wester              | strong wind which blows from the southwest, and also a type of waterproof hat designed to protect from and repel wind and rain                                                                                                                    |
+| Squamish                 | strong, violent wind occurring in many of the fjords of British Columbia                                                                                                                                                                          |
+| Vendavel                 | westerly through the Strait of Gibraltar                                                                                                                                                                                                          |
+| Zonda                    | on the eastern slope of the Andes in Argentina.                                                                                                                                                                                                   |
+
+
+
+
+## Types of Deltas :
+
+| **Name**                                                                                                                          | **Rivers**                              | **Properties**                                                                   |
+| --------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- | -------------------------------------------------------------------------------- |
+| Wave Dominated Deltas                                                                                                             | Nile River                              | action of wave determines size and shape of delta. Has fewer distributaries.     |
+| Tide Dominated                                                                                                                    | Ganga and Brahmaputra                   | have more distributaries, sandbars and ridges are prominent                      |
+| Gilbert Deltas                                                                                                                    | Lake Bonneville and Okanagan Lake       |                                                                                  |
+| formed by the deposition of coarse sediments at the mouth of a river, only occurs where there is R. empties into freshwater lakes |                                         |                                                                                  |
+| Estuarine                                                                                                                         | Yellow river and Tagus of Portugal      | does not directly empty into sea                                                 |
+| Archuate                                                                                                                          | Nile                                    | have typical deltaic shape, arc like or fan shaped.                              |
+| Cuspate                                                                                                                           | Tiber R. near Rome in Tyrrhenian sea    | formed in regions of stronger waves, shape is more pointed towards sea.          |
+| Birds Foot Delta                                                                                                                  | Mississippi                             |                                                                                  |
+| not exactly triangular, distributaries widely spaced                                                                              |                                         |                                                                                  |
+| Inverted Delta                                                                                                                    | Sacramento-San Joaquin R. in California | distrbutaries network faces inland while single stream leads to sea              |
+| Inland Delta                                                                                                                      | Okavango R. in Bostswana                | delta empties into a plain not into a water body.                                |
+| Abandoned Delta                                                                                                                   | Mississippi R.                          | dry delta bed left after river discards its former channel due to silt build up. |
+
+
+
+
+## Continents and Highest Mountains :
+
+| Continent     | Name                   | Country                                    |
+|---------------|------------------------|--------------------------------------------|
+| Asia          | Everest                | Nepal                                      |
+|              | K2                     | POK                                        |
+|              | Kachendzonga           | India                                      |
+| Europe        | Elbrus                 | Geogrgia and Russia                        |
+|              | Dykh Tau               | Russia and Georgia                         |
+|              | Shkhara                | Georgia                                    |
+| Africa        | Kilimanjaro            | Tanzania                                   |
+|              | Batian                 | Kenya                                      |
+|              | Stanley                | Democratic Rep of Congo and Uganda         |
+| Oceania       | Carstensz/ Puncak Jaya | Indonesia(Sudirman Range)                  |
+|              | Sumantri               | Indonesia                                  |
+|              | Mandala                | Indonesia                                  |
+| Antarctica    | Mt. Vinson Massif  | Sentinel Range Antarctica                  |
+|            | Mt. Tyree              | B/w Patton Glacier and Cervellati Glacier  |
+|              | Mt. Shinn              | b/w Ramorino Glacier and Crosswell glacier |
+| South America | Aconcagua              | Argentina                                  |
+|              | Ojos Del Salado        | Argentina - Chile Border                   |
+|              | Pissis                 | Argentina - Chile Border                   |
+| North Amercia | Denali/ Mt Mckinley    | US                                         |
+|              | Mt. Logan              | Canada                                     |
+|              | Orizaba                | US                                         |
+
+
+## La Nina, El Nino, Walker Circulation
+<iframe src="https://www.youtube.com/embed/iVCviVp4rLU?feature=oembed" height="113" width="200" style="aspect-ratio: 1.76106 / 1; width: 100%; height: 100%;"></iframe>
+- El Nino and La Nina are part of the El Nino Southern Oscillation ENSO cycle. 
+- 
+
+- [ ] #todo 
+
+![](Previous-year-Analysis-image1-00121378.jpg)
+
+---
+##  Hot Wet Equatorial Climate
+### Climate
+- 5° to 10° S and N of Equator viz Amazon, Congo, Malaysia,
+- Temp uniform throughout and No winter
+- Cloudiness, Heavy precipitation, land and sea breeze moderates daily temp; annual and diurnal range is small
+- Heavy rainfall ==150-250cm== peaks during equinoxes, no month w/o rain, distinct dry season missing 
+- morning bright, sunny → convectional, torrential rains
+- Mountains show orographic/relief rains
+### Vegetation
+- is equatorial 
+- Tropical rain forest called ==Selvas== in Amazon
+- Evergreen trees, palm trees, Climbers like Lianas, Rattans, Ferns viz orchids and Lalang
+- Thick canopy, layer like arrangement height wise of trees
+- Trees not found in pure stands of 1 single species → commercial timber exploitation becomes difficult
+- Lumbering, Shifting cultivation have cleared rain forests, in Coastal areas Mangrove thrive
+###  Life 
+- Sparsely populated, shifting cultivation, food is abundant
+- Tribes such as Indian tribes in Amazon, Pygmies in Congo Basin gather nuts, Orang Asli in Malaysia collect canes etc thrive
+- Crops viz Tapioca, yams, maize, banans, groundnuts. Plantation are common ex. Rubber, ==Cocoa== esp in West Africa, Oil palm.
+- High heat, humidity → physical and mental enervation, decreases work efficiency
+- Diseases like Malaria etc, insects, pests common
+- Lalangs are undesirable long grasses that choke crops
+- Soils deteriorates rapidly, humus present makes it fertile but otherwise soil is not productive
+- No grasslands handicaps livestock farming
+
+## Tropical Monsoon type Climate
+- Found in India, Burma, Thailand, Laos, Cambodia, North Australia, South China
+### Climate
+- Differential heating of Land and sea causes Central Asian land mass to be an intense low pressure area
+- Whereas Australia winter making it a high pressure area.
+- Winds from AUS blow as SE become SW after crossing equator
+- During winter this condition is reversed and NE Monsoon winds blow
+
+### Seasons
+- Cool dry winters, Winter rains in Punjab is vital for Rabi crops 
+- NE winds bring rainfall to areas of Tamil Nadu
+- Summers are hot and dry, SW Monsoons torrential downpour cools it → is characteristic feature
+
+### Tropical Marine Climate
+- Along Eastern coast of tropical lands ex Brazil
+- recieves rainfall from Trade winds it is both orographic and convectional
+- most of it occurs during Jan, Feb; no month w/o rainfall
+
+### Tropical Monsoon Forests
+- Deciduous trees, Forests have hardwood trees ex teak, sal, acacia, eucalyptus
+- these forests often thin out to scrubland and savanna during summer
+
+### Agriculture
+- farming is intense, dominant occupation and mainstay of economy
+- Rice most staple has 2 main varieties Wet and Dry paddy; rainfall required is 150cm
+- Lowland tropical cash crops viz Sugarcane, Jute, Manila Hemp, Indigo, Cotton, Bananas, Coconut and Spices
+- Higland plantation crops viz Tea, Coffee
+- Lumbering is still carried out esp of Teak on the banks of Chindwin, Irrawaddy
+- Shifting Cultivation is common done entirely for subsistence
+	- Called Ladang in Malaysia, Taungya in Burma, Tamrai in Thailand, Caingin in Phillipines, Humah in Java, Chena in Sri Lanka, Milpa in Africa and Central America. #important  
+- Soils are mainly latosolic, leaching is rapid, easily exhausted.
+
+## Savannah or Sudan type Climate
+- 
+
+
+---
+[[kegy208 3.pdf]] - Composition and Structure of Atmosphere.
+[[kegy209.pdf]] - Solar Radiation, Heat Balance and Temperature.
+[[kegy210 1.pdf]] - Atmospheric Circulation adn Weather Systems.
+[[kegy211 1.pdf]] - Water in the Atmosphere
+[[kegy212.pdf]] - World Climate and Climate Change
+
+
+---
+
+
+
+
+
+

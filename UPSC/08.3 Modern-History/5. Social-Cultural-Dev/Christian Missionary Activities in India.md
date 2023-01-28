@@ -9,10 +9,12 @@
 -   Religious ideas perpetuated ignorance of IN people
 -   William Wilberforce influence 1813 act allowed Christian missionaries to IN
 -   Charles Grant presided over 1833 act
-- [ ] #todo 
+- [ ]  #todo
 
 
+## PYQs
 
+---
 
 1. Nowhere was the influence of the missionaries felt more than in relation to the women's movement. [1989, 20m]
 -   [Evangecalism -](onenote:[[Christian]]%20Missionary%20Activities%20in%20India&section-id={B79FD829-FA0F-426F-B425-A852F19A4727}&page-id={B0E7347F-0F82-4DEA-AD97-FB54B3918FFC}&object-id={A2F877CD-9FD4-4D46-A3B8-6D15CE609E13}&11&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Social%5eJ%20Cultural%20Dev.one) more content needed

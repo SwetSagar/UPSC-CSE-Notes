@@ -1,72 +1,157 @@
-# Rise of Nationalism in 19th century
-2020-04-26 19:49:58
+# Rise of Nationalism in 19th Century
+
+2020-04-26 19:49 :58
+#review
+
 ```toc
 ```
+
 ---
 
 ![[jess301.pdf]]
 
-##   Characteristics
--   Influenced by internationalism forced by N
--   Intellectuals appealed with cultural unity - political unity over time
--   Relied on secret societies, Carbonari; mixed w/ ideas of liberalism, socialism, revolutionary republicanism
--   Poles and Magyars in eastern EU been active political nationalists, mostly cultural nationalism here
--   Natio manifested in Revol of 1848
+## Characteristics
 
+- Influenced by internationalism forced by N
+- Intellectuals appealed with cultural unity - political unity over time
+- Relied on secret societies, Carbonari; mixed w/ ideas of liberalism, socialism, revolutionary republicanism
+- Poles and Magyars in eastern EU been active political nationalists, mostly cultural nationalism here
+- Natio manifested in Revol of 1848
 
 ---
 
-[[Unit-6.pdf]] - European Political Mobilisation  IGNOU BA
+[[Unit-6.pdf]] - European Political Mobilisation IGNOU BA
 [[Unit-7.pdf]] - New Political System in Europe
 [[Unit-16.pdf]] - Nationalism and Nation State System
 [[Unit-17.pdf]] - Formation of Nation State in Britain and France
 
 ---
 
+## PYQs
+
+---
+
 Rise of Nationalism in 19th century
 
-
 1. How did Japan develop between 1868 and 1894? Did the '**Restoration of Meiji**' mark a sharp break with the past? [1987, 60 Marks]
--   [JP](onenote:Industrialisation.one#Industrialisation%20in%20other%20Countries%20-%20USA,%20GER,%20Russia,%20Japan&section-id={DC56A11B-8B6B-4AC5-A364-5525391838E3}&page-id={9EC46B4D-3E39-4B56-BA8E-3A2C997ED542}&object-id={79BAC5B6-1CF0-4D6B-96FC-08DA935448CE}&17&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/World%20History/Part%20I)
--   More content needed on this
+- [JP](onenote:Industrialisation.one#Industrialisation%20in%20other%20Countries%20-%20USA,%20GER,%20Russia,%20Japan&section-id={DC56A11B-8B6B-4AC5-A364-5525391838E3}&page-id={9EC46B4D-3E39-4B56-BA8E-3A2C997ED542}&object-id={79BAC5B6-1CF0-4D6B-96FC-08DA935448CE}&17&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/World%20History/Part%20I)
+- More content needed on this
+
+```ad-Answer
+
+Between 1868 and 1894, Japan underwent a period of rapid modernization and development known as the Meiji period. During this time, Japan underwent a series of significant changes that transformed it from a feudal, agrarian society into a modern, industrialized nation.
+
+One of the key ways that Japan developed during this period was through the adoption of Western technology, particularly in the areas of transportation, communication, and industry. Japan imported and adapted technologies such as steam engines, telegraphs, and railroads, which helped to improve transportation and communication, and spur economic growth.
+
+Another way that Japan developed during this period was through the implementation of economic policies aimed at promoting industrialization. This included the establishment of state-funded technical schools, the creation of a national railway system, and the promotion of investment in heavy industries such as steel and shipbuilding. These policies helped to create a strong and diversified industrial base that was able to compete with other industrial nations.
+
+The Meiji government also implemented a series of political and social reforms aimed at strengthening the central government and creating a unified nation. This included the adoption of a centralized government system, the establishment of a national education system, and the abolition of feudal privileges. These reforms helped to create a strong and centralized government that was better able to manage the country's economic and political development.
+
+Japan's military also underwent modernization and expansion during this period. The Meiji government created a modern, centralized, and conscription-based military, which was able to defeat the Chinese in the First Sino-Japanese War (1894-1895), further solidifying Japan's position as a major power in the region.
+
+The transformation of Japan during the Meiji period marked a stark departure from the past in several ways.
+
+Firstly, the Meiji period was marked by a significant break with Japan's traditional agrarian and feudal way of life. The government implemented policies aimed at promoting industrialization and modernization, which led to the growth of new industries such as steel, shipbuilding and textiles, as well as the expansion of existing industries like mining, fishing and forestry. This change marked a significant departure from Japan's past, which was characterized by a largely agrarian economy.
+
+Secondly, the Meiji period was marked by a significant shift in the way that Japan related to the outside world. For centuries, Japan had been isolated from the rest of the world, with strict restrictions on foreign trade and contact. However, during the Meiji period, Japan actively sought to learn from and engage with other countries, importing new ideas and technologies and sending delegations abroad to learn about foreign cultures and systems. This marked a significant departure from Japan's past, which had been characterized by isolation and self-sufficiency.
+
+Thirdly, the Meiji period was marked by a significant shift in the way that Japan was governed. The Meiji government implemented a series of political and social reforms aimed at strengthening the central government and creating a unified nation. This included the adoption of a centralized government system, the establishment of a national education system, and the abolition of feudal privileges. These reforms marked a significant departure from Japan's past, which had been characterized by a decentralized and feudal system of government.
+
+Fourthly, The Meiji period marked a significant departure from Japan's past in terms of its military power, as the Meiji government created a modern, centralized, and conscription-based military, which was able to defeat the Chinese in the First Sino-Japanese War (1894-1895), further solidifying Japan's position as a major power in the region.
+
+```
+
+1. "The characteristic motive of this period (1830-1871) was not so much Liberalism as Nationalism." Comment. [1982, 20 Marks]
+- [Characteristics](onenote:[[Rise]]%20of%20Nationalism%20in%2019th%20century&section-id={D12F8517-CA6F-4271-BD0B-B1C4EEAFE634}&page-id={F67A31BB-93FE-48B1-AE36-E750EE9324BB}&object-id={0B74F13F-B052-4FC0-9E33-85BD1A74EAE2}&B&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/World%20History/Part%20I/Nation%20State%20System.one)
+
+```ad-Answer
+
+This statement suggests that during the period of 1830 to 1871, the main driving force for political and social change was not liberal ideas and values, but rather a strong sense of national identity and the desire for national unity and self-determination. This may have been influenced by factors such as the rise of nationalism movements across Europe, the emergence of new nation-states, and the desire to assert independence from foreign rule or domination.
+
+-   The Revolutions of 1848, which swept across Europe, were driven largely by nationalistic sentiments among various ethnic groups and aimed to establish independent nation-states.
+    
+-   The Italian Risorgimento, led by figures such as Camillo di Cavour and Giuseppe Garibaldi, sought to unify the various states of Italy into a single nation.
+    
+-   The German Confederation, which had been established by the Congress of Vienna in 1815, was dissolved in 1866 and replaced by the North German Confederation, which aimed to unify the various German-speaking states into a single nation.
+    
+-   In 1867, Austria and Hungary reached a compromise called Ausgleich, which established Austria-Hungary as a dual monarchy.
+    
+-   In 1871, the German Empire was formed under the leadership of Chancellor Otto von Bismarck, unifying the various German-speaking states and asserting German national identity.
+    
+-   The Franco-Prussian War of 1870-1871, which led to the unification of Germany, was also driven by the desire for national unity and self-determination.
+    
+-   Quotes:
+    
+    -   "We are a nation, and our fatherland is Germany." - Otto von Bismarck
+    -   "Italy has awakened, and she will no longer be the slave of foreigners." - Camillo di Cavour
+    -   "The Hungarian nation is not a nationality but a nation. The Hungarian nation is not a minority but a majority. The Hungarian nation does not want to oppress other nationalities but wants to live with them in peace and harmony." - Ferenc Deák
+
+All these examples demonstrate how Nationalism was the main driving force during the period of 1830-1871 and not Liberalism.
+
+```
+
+1. "The Crimean War was the most useless war ever waged." Comment. [2000, 20 Marks]
+- [Approaches of Cavour](onenote:[[Nationalism]]%20%20state%20building%20in%20Germany%20and%20Italy&section-id={D12F8517-CA6F-4271-BD0B-B1C4EEAFE634}&page-id={B90D1590-462D-426D-BEA2-8895413BE5A9}&object-id={A3F02001-F164-40E8-8E07-40F81C68B631}&AA&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/World%20History/Part%20I/Nation%20State%20System.one)
+- <https://www.irishtimes.com/news/an-unnecessary-war-1.1144605>
+
+```ad-Answer
+
+The Crimean War was a military conflict fought between October 1853 and February 1856. It was fought primarily in the Crimean Peninsula, which is located in the Black Sea region of Eastern Europe and is currently a part of modern-day Ukraine. The war was fought between the Russian Empire and an alliance of France, the United Kingdom, and the Ottoman Empire. The conflict was sparked by the Russian Empire's desire to expand its influence in the region, which came into conflict with the interests of the other European powers, particularly the Ottoman Empire and France.
+
+The war began with a Russian attack on Ottoman territory in the Danubian Principalities (present-day Romania) and quickly escalated into a full-scale conflict. The fighting primarily took place in the Crimean Peninsula, with the most famous engagements being the Siege of Sevastopol and the Battle of Balaclava. The war was characterized by poor leadership, logistical failures, and horrific conditions for the soldiers on both sides. The Crimean War was also the first major war to be covered by journalists, and the reports of William Howard Russell of The Times brought the horrors of the war to the attention of the British public.
+
+The war ended with the Treaty of Paris in 1856, which, among other things, forced the Russian Empire to give up control of the Crimean Peninsula and the Danubian Principalities. The treaty also established the independence and neutrality of the Ottoman Empire. The war had significant consequences for the European powers involved. The Russian Empire was humiliated by the defeat and this led to significant domestic unrest and political upheaval. France and the United Kingdom, meanwhile, emerged from the war with their prestige and power enhanced.
+
+The war also had significant consequences for the Ottoman Empire, which lost control of the Crimean Peninsula and the Danubian Principalities. The war also highlighted the Ottoman Empire's weakness and led to further European intervention in Ottoman affairs. The war also led to significant military reforms in the armies of the European powers involved. The British and French armies, in particular, were criticized for their poor performance in the war and as a result, they underwent significant reorganization and modernization.
+
+It is widely considered to have been a costly and unnecessary conflict. Despite the significant loss of life and resources, the war did not achieve any clear strategic objectives for any of the combatants, and its major lasting impact was to further damage already strained relationships between the European powers. Additionally, the war highlighted the logistical and organizational shortcomings of the British and French armies, and led to a number of significant military reforms in the aftermath of the conflict.
+
+
+```
+
+1. "…. the European nations in emphasizing their solidarity, their solidarity, their Europeanness in dealing with Asian countries inevitably gave rise to a feeling of Asianness." Comment. [1988, 20 Marks]
+
+```ad-Answer
+
+K.M. Panikkar, who said "…. the European nations in emphasizing their solidarity, their solidarity, their Europeanness in dealing with Asian countries inevitably gave rise to a feeling of Asianness." was an Indian diplomat, historian and political scientist. He wrote extensively on Indian and Asian history, and was particularly interested in the impact of colonialism and imperialism on the development of nationalism in Asia.
+
+In his book "Asia and Western Dominance" published in 1953, he argues that the European nations' emphasis on their own national identity and unity in their interactions with Asian countries contributed to the emergence of a strong sense of Asian identity and the rise of Asian nationalism. He believes that the process of European colonialism and imperialism in Asia led to the emergence of a sense of Asianness, which was a response to the European presence. He also argues that the idea of Asia as a distinct region, separate from Europe, began to take shape in the late 19th century. European scholars and politicians began to discuss the idea of Asia as a distinct region and this idea was then adopted by Asian thinkers and leaders, which had a huge impact on the rise of Asian nationalism.
+
+He explained that Europe was forced to take the naval route to Asia because the land route was blocked by the military defeat in the Crusades. He not only describes in riveting detail the European entry into and eventual suppression of Asia but also describes the historical basis for the concept of a pan-Asian identity. [^1]
+
+```
+
+1. "Asian Nationalism is just a product of Western impact on the Asian intelligentsia in the last decades of the nineteenth century." Comment. [1994, 20 Marks]
+
+```ad-Answer
+
+The statement that Asian nationalism is solely a product of Western influence on the Asian intelligentsia in the last decades of the nineteenth century is a simplification of the complex origins and development of nationalism in Asia. While it is true that Western colonialism and imperialism played a significant role in shaping the political and intellectual landscape of Asia, the idea that nationalism in Asia is solely a product of Western influence is problematic.
+
+Nationalism in Asia has deep historical roots, dating back to pre-colonial times. Many Asian societies have a long history of cultural and ethnic identity, which formed the basis for early forms of nationalism. For example, Japan had a strong sense of national identity long before the arrival of the Western powers in the late 1800s. Similarly, China has a long history of centralized imperial rule, which provided a foundation for Chinese nationalism.
+
+The arrival of Western colonialism and imperialism in Asia in the late 1800s did play a significant role in shaping the development of nationalism in the region. The Western powers brought with them new ideas about democracy, freedom, and self-rule, which resonated with many Asian intellectuals and political leaders. This led to a growing sense of nationalism among the Asian intelligentsia, who began to demand more autonomy and self-rule for their countries.
+
+However, to say that Asian nationalism is solely a product of Western impact on the Asian intelligentsia in the last decades of the nineteenth century is problematic. There were other factors such as economic, social and cultural factors that contributed to the rise of nationalism in Asia. The economic and political changes that took place in Asia in the late 1800s and early 1900s, such as the spread of modernization, industrialization, and urbanization, also played a significant role in shaping the development of nationalism in the region.
+
+Additionally, the impact of Western colonialism and imperialism in Asia was not uniform and varied from country to country. For example, while the Western influence played a significant role in shaping the Indian National Congress, the development of nationalism in Japan was a product of both internal and external factors.
+
+```
+
+1. Lord Beaconsfield after his return from the **Congress of Berlin** (1878) boasted: "I have brought peace with honour." Comment. [1998, 20 Marks]
+
+```ad-Answer
 
 
 
-2. "The characteristic motive of this period (1830-1871) was not so much Liberalism as Nationalism." Comment. [1982, 20 Marks]
--   [Characteristics](onenote:[[Rise]]%20of%20Nationalism%20in%2019th%20century&section-id={D12F8517-CA6F-4271-BD0B-B1C4EEAFE634}&page-id={F67A31BB-93FE-48B1-AE36-E750EE9324BB}&object-id={0B74F13F-B052-4FC0-9E33-85BD1A74EAE2}&B&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/World%20History/Part%20I/Nation%20State%20System.one)
+```
 
+1. The years 1853-1894 witnessed the transformation of Japan. Explain. [1998, 60 Marks]
+- [JP](onenote: Industrialisation. one #Industrialisation %20in%20other%20Countries%20-%20USA,%20GER,%20Russia,%20Japan&section-id={DC56A11B-8B6B-4AC5-A364-5525391838E3}&page-id={9EC46B4D-3E39-4B56-BA8E-3A2C997ED542}&object-id={79BAC5B6-1CF0-4D6B-96FC-08DA935448CE}&17&base-path= <https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/World%20History/Part%20I> )
 
+```ad-Answer
 
+- ! Meiji Restoration in the context of What it was? How did it Happen? Why did it happen? What did it bring?
 
-3. "The Crimean War was the most useless war ever waged." Comment. [2000, 20 Marks]
--   [Approaches of Cavour](onenote:[[Nationalism]]%20%20state%20building%20in%20Germany%20and%20Italy&section-id={D12F8517-CA6F-4271-BD0B-B1C4EEAFE634}&page-id={B90D1590-462D-426D-BEA2-8895413BE5A9}&object-id={A3F02001-F164-40E8-8E07-40F81C68B631}&AA&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/World%20History/Part%20I/Nation%20State%20System.one)
--   https://www.irishtimes.com/news/an-unnecessary-war-1.1144605
+```
 
-
-
-
-4. ".... the European nations in emphasizing their solidarity, their solidarity, their Europeanness in dealing with Asian countries inevitably gave rise to a feeling of Asianness." Comment. [1988, 20 Marks]
--   
-
-
-
-
-
-5. "Asian Nationalism is just a product of Western impact on the Asian intelligentsia in the last decades of the nineteenth century." Comment. [1994, 20 Marks]
--   
-
-
-
-
-
-
-
-6. Lord Beaconsfield after his return from the **Congress of Berlin** (1878) boasted: "I have brought peace with honour." Comment. [1998, 20 Marks]
--   
-
-
-
-
-
-7. The years 1853-1894 witnessed the transformation of Japan. Explain. [1998, 60 Marks]
--   [JP](onenote:Industrialisation.one#Industrialisation%20in%20other%20Countries%20-%20USA,%20GER,%20Russia,%20Japan&section-id={DC56A11B-8B6B-4AC5-A364-5525391838E3}&page-id={9EC46B4D-3E39-4B56-BA8E-3A2C997ED542}&object-id={79BAC5B6-1CF0-4D6B-96FC-08DA935448CE}&17&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/World%20History/Part%20I)
+[^1]: https://thewire.in/history/k-m-panikkar-a-historian-for-our-times

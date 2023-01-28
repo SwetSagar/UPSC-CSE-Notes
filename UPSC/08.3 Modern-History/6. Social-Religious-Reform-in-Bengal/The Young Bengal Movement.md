@@ -8,3 +8,11 @@
 ![[Introduction of Western Education in India#^63368f]]
 
 ![[Social Reform movements viz Sati,Widow Remarriage,Child Marriage etc.#1 6 2 3 Reform through Symbol of Change]]
+
+
+**The Young Bengal Movement**
+
+
+1. "Young Bengal left little distinctive or permanent impression on the plane of religion and philosophy." Critically evaluate. [2011, 30m]
+-   [The Young Bengal Movement](onenote: [[The]] %20Young%20Bengal%20Movement&section-id={A977D883-2588-4815-BADC-1D76D59D42AD}&page-id={24FE808C-7238-40AB-AC6C-89FFC41E14BA}&end&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Social%5eJ%20Religious%20Reform%20in%20Bengal.one ) more content needed
+

@@ -5,33 +5,23 @@
 ---
 - [x] #todo
 
-![[Iron Ore]]
+[[Iron Ore]]
 
-![[Coal]]
+[[Coal]]
 
-![[Petroleum Mineral Oil and Natural Gas]]
-
-
-
-
-
-
-
+[[Petroleum Mineral Oil and Natural Gas]]
 
 # Factors responsible for location of primary, secondary, tertiary industries in various parts of world (inc India)
 2020-10-22 08:19:35
-            
+
 ---
-![[Location of Industries]]
 
-
-
+[[Location of Industries]]
 
 # PYQ Distrbution of Natural Resources, Industrial Location
 2020-10-30 13:56:00
-            
----
 
+---
 
 **Resource Distribution**
 
@@ -65,7 +55,3 @@
 | Why did the Green   Revolution in India virtually by-pass the eastern region despite fertile soil   and good availability of water?                                                                                      | 2014 |
 | Do you agree that   there is a growing trend of opening new sugar mills in the Southern states of   India? Discuss with justification                                                                                    | 2013 |
 | Analyze the   factors for highly decentralized cotton textile industry in India                                                                                                                                          | 2013 |
-
-
-
-## Analysis

@@ -17,16 +17,15 @@
 
 ---
 -   **Sub categorization of OBCs** #committee constituted under Article 340 Chaired by retired Justice G. Rohini - to examine the extent of inequitable distribution of benefits.
--   Uniform age of marriage for men and women; right to equality and the right to live with dignity are violated, contributes to the stereotype that wives must be younger.
--   **Project SURE** #scheme: by **Textiles Ministry** to reduce its carbon emissions, increase resource efficiency, tackle waste
--   New DNA study of cemetery at Rakhigarhi shows Indus Valley people had independent origin they do not contain the genome of Steppe people or Iranian farmers, no trace of Anatolian related ancestry as well. This questions the Aryan Invasion Theory/OIT
+-   **Uniform age of marriage** for men and women. Right to equality and the right to live with dignity are violated, contributes to the stereotype that wives must be younger.
+-   **Project SURE** #scheme : by **Textiles Ministry** to reduce its carbon emissions, increase resource efficiency, tackle waste.
 -   NSO **Time Use Survey** #report to measure participation of men women in paid unpaid work, W spend less time on household w/ inc in age, men spend more.
     -   **38.2%** of person 6 yrs of age engaged in some form of emp
-    -   57.3% Males in employment, 18.4 % females
-    -   in rural areas proportion of women engaged is **19.2%** compared to 16.7% in urban NCRB annual crime in IN report
-    -   inc in crimes against mem of SC ST
+    -   ==57.3% Males in employment, 18.4 % females==
+    -   in rural areas proportion of women engaged is **19.2%** compared to 16.7% in urban NCRB annual crime in IN report.
+    -   inc in crimes against mem of SC ST.
 -   Socio Economic and Caste Census done by Mo Rural Dev data is used for ID beneficiaries for programs such as MGNREGA and NFSA. Was done after the failure of Tendulkar and Rangarajan methodology of creating a poverty line failed.
-	-   Uses parameter suggested by SR Hashim #committee. Has a list of automatic inclusion and exclusion. Last done in 2011.
+	-   Uses parameter suggested by **SR Hashim** #committee. Has a list of automatic inclusion and exclusion. Last done in 2011.
 	-    49% of households or 10.69 crore are deprived. 
 	-    Census OTH done for calculating population under the Census Act 1948 and all its data are considered confidential not so w/ SECC.
  

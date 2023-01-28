@@ -88,7 +88,8 @@
 - **NATRAX** High Speed Track HST in Indore built under NATRiP
 - Saral Sanchar portal issues licenses and registration certificates under Do Telecom. #scheme 
 - Enforcing contracts portal by Mo Law and Justice.
-- India Ocean Naval Symposium have littoral countries as full time members except Somalia and Yemen also Madagascar is observer despite being littoral.
+- **India Ocean Naval Symposium** have littoral countries as full time members except Somalia and Yemen also Madagascar is observer despite being littoral. #PrelimsPYQ #important 
+	- Aims to inc maritime cooperation among navies in the IOR.
 -  **Open Network for digital commerce** ONDC by DPIIT to use open source
 -  **White Flag campaign** -> Malaysia against fin crunch during Covid
 -  Bhalia wheat from Guj given GI
@@ -156,8 +157,8 @@
 - Trignopterus Corona new species of Beetles found in Sulawesi of Indonesia.
 - Time for India drive launched by Sweden to promote bilateral trade with India.
 - World Gold Council to stimulate and sustain demand for gold comprise of world's leading gold mining companies. ^e461b0
-- Indus River Dolphin : IUCN Endangered found in Punjab's Harike wildlife sanctuary in lower Beas river and its state animal.
-- Gangetic dolphin IUCN Endangered is national aquatic animal of India can only live in freshwater and is blind.
+- **Indus River Dolphin** : IUCN Endangered found in Punjab's Harike wildlife sanctuary in lower Beas river and its state animal.
+- **Gangetic dolphin** IUCN Endangered is national aquatic animal of India can only live in freshwater and is blind.
 - BASIC : Brasil SA Indiia and China committed to act in Copenhagen climate summit for a common goal.
 - Kameng river in Arunachal right bank tributary of Brahmaputra.
 - Global Drug Policy Index by Harm Reduction Consortium. 
@@ -216,7 +217,7 @@
  - Cryodactylus exercitus recorded new species of bent toed gecko from Meghalaya.
  - GBBC Great Backyard Bird Count birdwatchers from all around the world are called to count and report details of the birds.
  - Munich Security Conference   
- - Minsk Agreement was signed b/w Russian backed separatists and Ukraine for ceasefire.
+ - Minsk Agreement was signed b/w Russian backed separatists and Ukraine for ceasefire. ^3539bb
  - Kuki tribe live in Mizo hills of Mizoram. Kuki rising took place in 1917-1919.
  - [National Means cum merit scholarship #scheme NMMSS](https://www.education.gov.in/en/nmms). 
  - Sea Cucumber is under Schedule I of WPA 1972 found in seafloor of tropical regions. They act as garbage collector for oceans and Calcium carbonate is one of its by products
@@ -226,11 +227,4 @@
  - Karakattam Dance ancient folk dance of TN dedicated to Mariamman/ rain goddess.
  - Kuno Palpur NP to be 1st Cheetah park of India. 
 
-
-
-
 ---
-| Last Studied    |     |
-| --------------- | --- |
-| Number of Reads |     |
-| Next Review     |     |

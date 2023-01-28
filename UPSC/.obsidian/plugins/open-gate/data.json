@@ -1,0 +1,37 @@
+{
+  "isFirstRun": false,
+  "gates": {
+    "aHR0cHM6Ly9jaGF0Lm9wZW5haS5jb20vY2hhdA==": {
+      "id": "aHR0cHM6Ly9jaGF0Lm9wZW5haS5jb20vY2hhdA==",
+      "title": "Just a moment...",
+      "icon": "<svg viewBox=\"0 0 100 100\"><image href=\"https://www.google.com/s2/favicons?domain=chat.openai.com&sz=100\" height=\"100\" width=\"100\" /></svg>",
+      "hasRibbon": true,
+      "position": "right",
+      "url": "https://chat.openai.com/"
+    },
+    "aHR0cHM6Ly9naXRodWIuY29t": {
+      "id": "aHR0cHM6Ly9naXRodWIuY29t",
+      "title": "GitHub: Let’s build from here · GitHub",
+      "icon": "<svg viewBox=\"0 0 100 100\"><image href=\"https://www.google.com/s2/favicons?domain=github.com&sz=100\" height=\"100\" width=\"100\" /></svg>",
+      "hasRibbon": true,
+      "position": "right",
+      "url": "https://github.com"
+    },
+    "aHR0cHM6Ly9jaGF0Lm9wZW5haS5jb20v": {
+      "id": "aHR0cHM6Ly9jaGF0Lm9wZW5haS5jb20v",
+      "title": "Access denied",
+      "icon": "<svg viewBox=\"0 0 100 100\"><image href=\"https://www.google.com/s2/favicons?domain=chat.openai.com&sz=100\" height=\"100\" width=\"100\" /></svg>",
+      "hasRibbon": true,
+      "position": "right",
+      "url": "https://chat.openai.com/"
+    },
+    "aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbQ==": {
+      "id": "aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbQ==",
+      "title": "https://www.google.com/",
+      "icon": "<svg viewBox=\"0 0 100 100\"><image href=\"https://www.google.com/s2/favicons?domain=www.google.com&sz=100\" height=\"100\" width=\"100\" /></svg>",
+      "hasRibbon": true,
+      "position": "right",
+      "url": "https://www.google.com"
+    }
+  }
+}

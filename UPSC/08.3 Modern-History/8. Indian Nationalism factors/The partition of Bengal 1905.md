@@ -22,6 +22,94 @@
 -   The partition of Begal was annulled in 1911 mainly done to curb revolutionary terrorism . 
 -   Was decided to shift capital to Delhi -> end of Bengali dominance in national politics . Bihar and Orissa were taken out of Bengal and Assam was made a separate province.
 
+## PYQs
+
+---
+
+
+
+**The Partition of Bengal (1905); The Swadeshi Movement in Bengal; the**
+**economic and political aspects of Swadeshi Movement;**
+
+
+1. Write a critical note on: Significance of the Swadeshi Movement 1905-07 in the freedom
+struggle. [1981, 20m]
+
+
+
+
+
+
+
+
+2. "Curzon's political obtusely created a breach between government and people which
+was never wholly closed in the remaining forty-two years of British rule." Comment. [1984,
+20m]
+
+
+
+
+
+
+
+
+3. "Curzon was an unconscious catalyst who did not understand, let alone desire, what the
+new century was about to bring forth, but who helped it to be born." Comment. [1989, 20m]
+
+
+
+
+
+
+
+
+4. "The tragedy of Cruzan lay in that, with such abundance of trained talent; he was denied
+the crowning qualities. He was never an administrator of the first rank." Comment. [1991,
+20m]
+
+
+
+
+
+
+
+
+5. "Curzon's partition of Bengal gave the unwitting initiative to events of magnitude and
+returned many years later to port with the cargo of freedom." Comment. [1997, 20m]
+
+
+
+
+
+
+
+
+6. "India after 1905 had new interests and objectives and compelled new lines of policy."
+Comment. [1996, 20m]
+-   
+
+
+
+
+
+
+
+7. "The Anti-Partition Agitation (1905) had an economic character in Bengal unlike the
+Extremist Agitation in Maharashtra which had a religious character." Examine. [2014, 20m]
+-   
+
+
+
+
+
+
+
+8. Explain "Constructive Swadeshi" Characterised by atmashakti (self-reliance), which
+propelled the Swadeshi Movement in Bengal. [2016, 10m]
+-   
+
+
+
 
 
 

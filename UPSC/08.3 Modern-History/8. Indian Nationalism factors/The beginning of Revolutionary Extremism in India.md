@@ -20,14 +20,15 @@
 -   dacoities to raise funds for arms and ammunitions.
 -   extremists also failed to give a positive energy to the young revolutionary minds, they also did not opposed them politically or ideologically.
 -   Rev. lacked a mass base and severe repression from the colonial state led to their demise.
--   Sumit Sarkar - shift from non-violence to violence, mass action to elite action, necessitated by failure of mass mob efforts
+  > **Sumit Sarkar** - shift from non-violence to violence, mass action to elite action, necessitated by failure of mass mob efforts
 -   West - Ramosi peasant force, Chapekar brothers, youth clubs,
 -   East - Akhadas/ gyms,
--   Real Beginning \- Bengal 1902 Midnapur Society, Gym by Sarala Ghosal, Atomonnoti Samiti, Ansushilan Samiti by Satishchandra Basu, Dacca Anushilan Samiti 1906 - Pulin Behari Ghosh, Yugantar, Calcutta Anushilan Sam
+-   Real Beginning - Bengal 1902 Midnapur Society, Gym by Sarala Ghosal, Atomonnoti Samiti, Ansushilan Samiti by Satishchandra Basu, Dacca Anushilan Samiti 1906 - Pulin Behari Ghosh, Yugantar, Calcutta Anushilan Sam
 -   Rangpur robbery, assassination of spies, officials, K Bose + Chaki Kingsford
--   After manikatal bomb conspiracy trial rev activity went underground
+-   After manikatal bomb conspiracy trial, rev activity went underground
 -   1911 Rev act moved to Pun + UP
 -   1912 - ass attempt Hardinge
 -   1914 Komagata Maru
 
 
+All questions of Revolutionary Extremist is compiled at one place in chapter 11

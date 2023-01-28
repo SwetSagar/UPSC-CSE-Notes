@@ -46,3 +46,33 @@
 
 
 
+Dayanada Saraswati
+
+
+
+
+1. The Arya Samaj "did not; however, succeed in capturing the imagination of modern India as a whole." Comment. [1998, 20m]
+-   [Limitation of Arya Samaj](onenote: [[Dayanand]] %20Saraswati&section-id={A977D883-2588-4815-BADC-1D76D59D42AD}&page-id={968DEB75-A280-4AAC-BE43-D013C962C6D7}&object-id={66F1A841-AE23-476C-87E6-E6CE8AF1F940}&D&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Social%5eJ%20Religious%20Reform%20in%20Bengal.one )
+
+
+
+
+2. "The Arya Samaj may quite logically be pronounced as the outcomes of conditions imported into India by the west." Comment. [2009, 20m]
+-   [Expression as a response to western ideals](onenote: [[Dayanand]] %20Saraswati&section-id={A977D883-2588-4815-BADC-1D76D59D42AD}&page-id={968DEB75-A280-4AAC-BE43-D013C962C6D7}&object-id={0D43E31E-BDC4-4387-BAB5-4C840BB1ACBD}&B&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Social%5eJ%20Religious%20Reform%20in%20Bengal.one )
+
+
+
+
+3. "Swami Dayanand's philosophy represents both elements of extremism and social radicalism." Substantiate. [2015, 20m]
+-   [His philosophy](onenote: [[Dayanand]] %20Saraswati&section-id={A977D883-2588-4815-BADC-1D76D59D42AD}&page-id={968DEB75-A280-4AAC-BE43-D013C962C6D7}&object-id={08F60669-2257-4EEE-A417-4BF7D01C5049}&F&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Social%5eJ%20Religious%20Reform%20in%20Bengal.one )
+
+
+
+
+4. "The Arya Samaj may quite logically be pronounced as the outcome of conditions imported into India from the West." Critically examine. [2017, 10m]
+-   [Expression as a response to western ideals](onenote: [[Dayanand]] %20Saraswati&section-id={A977D883-2588-4815-BADC-1D76D59D42AD}&page-id={968DEB75-A280-4AAC-BE43-D013C962C6D7}&object-id={0D43E31E-BDC4-4387-BAB5-4C840BB1ACBD}&B&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/Social%5eJ%20Religious%20Reform%20in%20Bengal.one )
+
+
+
+
+
