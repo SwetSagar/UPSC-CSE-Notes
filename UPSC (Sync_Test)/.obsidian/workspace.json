@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05 GS-2/1. Polity/1.2 Separation of Power between various organs, dispute redressal mechanisms. Judiciary.md",
-                "mode": "source",
+                "file": "07 GS-4/0. Human Interface and Ethics in Public Realtions/PYQ.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -62,8 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 557.5,
-    "collapsed": true
+    "width": 334.5
   },
   "right": {
     "id": "5683b48c38d8adc9",
@@ -79,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05 GS-2/1. Polity/1.2 Separation of Power between various organs, dispute redressal mechanisms. Judiciary.md"
+                "file": "07 GS-4/0. Human Interface and Ethics in Public Realtions/PYQ.md"
               }
             }
           },
@@ -134,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05 GS-2/1. Polity/1.2 Separation of Power between various organs, dispute redressal mechanisms. Judiciary.md",
+                "file": "07 GS-4/0. Human Interface and Ethics in Public Realtions/PYQ.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05 GS-2/1. Polity/1.2 Separation of Power between various organs, dispute redressal mechanisms. Judiciary.md",
+                "file": "07 GS-4/0. Human Interface and Ethics in Public Realtions/PYQ.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +213,6 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "workspaces:Manage workspace layouts": false,
-      "periodic-notes:Open today": false,
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-gallery:Gallery": false,
@@ -226,25 +224,26 @@
       "gpt3-notes:GPT-3 Notes": false,
       "chronology:Open Chronology": false,
       "webpage-html-export:Export Vault to HTML": false,
-      "file-forgetting-curve-obsidian:View - File Forgetting Curve": false,
       "open-gate:Just a moment...": false,
       "open-gate:GitHub: Let’s build from here · GitHub": false,
       "open-gate:Access denied": false,
       "open-gate:https://www.google.com/": false,
-      "omnisearch:Omnisearch": false
+      "file-forgetting-curve-obsidian:View - File Forgetting Curve": false,
+      "omnisearch:Omnisearch": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "c077f707b6f4f31f",
   "lastOpenFiles": [
+    "07 GS-4/0. Human Interface and Ethics in Public Realtions/Ethics in Private and Public Relationships.md",
+    "06 GS-3/5. Security/1. Role of external state and non state actors in creating challenges to Internal Security.md",
+    "06 GS-3/5. Security/2. Security challeges and their management in border areas, Cyber Security, Money Laundering.md",
+    "06 GS-3/5. Security/3. Various security forces and Agencies and their mandate; Linkages of Organised Crime with Terrorism.md",
+    "05 GS-2/3. Social Justice/3.2 Issues Relating to development and management of Social Sector relating to Health, Education, HR; Issues Relating to Poverty and Hunger.md",
+    "05 GS-2/3. Social Justice/3.1 Welfare Schemes for vulnerable sections of the population by the centre and States and performance of these schemes, mechanisms, laws, institutions and bodies constituted for the protection and betterment of vulnerable sections..md",
+    "05 GS-2/1. Polity/1.2 Separation of Power between various organs, dispute redressal mechanisms. Judiciary.md",
     "05 GS-2/1. Polity/1.1 Indian Constitution - historical underpinnings, evolution, features, amendments, significant provisions and basic structure, Devolution etc.md",
     "05 GS-2/4. International Relations/4.2 Bilateral, Regional, Global Grouping(2).md",
-    "04 GS-1/🎨 Art and Culture Static Notes/Art and Culture NCERT and CCRT.md",
-    "01 Subject Wise Notes/🌏 Geography/2. Indian Geography/Soils.md",
-    "01 Subject Wise Notes/🌏 Geography/2. Indian Geography/Indian Forests.md",
-    "01 Subject Wise Notes/🌏 Geography/2. Indian Geography/Indian Geography.md",
-    "01 Subject Wise Notes/🌏 Geography/1. Geomorphology and Climatology/Moon and the Universe.md",
-    "01 Subject Wise Notes/🌏 Geography/1. Geomorphology and Climatology/Oceans.md",
-    "Daily Notes and Todos/13-08-2022.md",
-    "Daily Notes and Todos/25-07-2022.md"
+    "04 GS-1/🎨 Art and Culture Static Notes/Art and Culture NCERT and CCRT.md"
   ]
 }
