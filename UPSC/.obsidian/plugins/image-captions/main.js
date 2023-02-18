@@ -30,38 +30,31 @@ module.exports = __toCommonJS(main_exports);
 var import_obsidian = require("obsidian");
 var ImageCaptions = class extends import_obsidian.Plugin {
   async onload() {
+    this.registerMarkdownPostProcessor(externalImageProcessor());
     this.observer = new MutationObserver((mutations) => {
       mutations.forEach((rec) => {
         if (rec.type === "childList") {
-          rec.target.querySelectorAll(".image-embed").forEach((container) => {
-            const img = container.querySelector("img");
-            let captionText = container.getAttribute("alt") || "";
-            const width = container.getAttribute("width") || "";
-            if (captionText === container.getAttribute("src")) {
+          rec.target.querySelectorAll(".image-embed").forEach((imageEmbedContainer) => {
+            const img = imageEmbedContainer.querySelector("img");
+            let captionText = imageEmbedContainer.getAttribute("alt") || "";
+            const width = imageEmbedContainer.getAttribute("width") || "";
+            if (captionText === imageEmbedContainer.getAttribute("src")) {
               captionText = "";
             }
             if (!img)
               return;
-            const figure = container.querySelector("figure");
+            const figure = imageEmbedContainer.querySelector("figure");
+            const figCaption = imageEmbedContainer.querySelector("figcaption");
             if (figure) {
-              if (!captionText) {
-                container.appendChild(img);
+              if (figCaption && captionText) {
+                figCaption.innerText = captionText;
+              } else if (!captionText) {
+                imageEmbedContainer.appendChild(img);
                 figure.remove();
-              } else {
-                const figCaption = container.querySelector("figcaption");
-                if (figCaption) {
-                  figCaption.innerText = captionText;
-                }
               }
             } else {
-              if (img && captionText && captionText !== container.getAttribute("src")) {
-                const figure2 = container.createEl("figure");
-                figure2.addClass("image-captions-figure");
-                figure2.appendChild(img);
-                figure2.createEl("figcaption", {
-                  text: captionText,
-                  cls: "image-captions-caption"
-                });
+              if (captionText && captionText !== imageEmbedContainer.getAttribute("src")) {
+                insertFigureWithCaption(img, imageEmbedContainer, captionText);
               }
             }
             if (width) {
@@ -79,3 +72,23 @@ var ImageCaptions = class extends import_obsidian.Plugin {
     this.observer.disconnect();
   }
 };
+function externalImageProcessor() {
+  return (el) => {
+    el.findAll("img:not(.emoji)").forEach((img) => {
+      const captionText = img.getAttribute("alt");
+      const parent = img.parentElement;
+      if (parent && captionText && captionText !== img.getAttribute("src")) {
+        insertFigureWithCaption(img, parent, captionText);
+      }
+    });
+  };
+}
+function insertFigureWithCaption(imageEl, outerEl, captionText) {
+  const figure = outerEl.createEl("figure");
+  figure.addClass("image-captions-figure");
+  figure.appendChild(imageEl);
+  figure.createEl("figcaption", {
+    text: captionText,
+    cls: "image-captions-caption"
+  });
+}

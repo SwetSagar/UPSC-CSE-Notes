@@ -24,7 +24,6 @@ The first 4 books of the Suta Pitaka can be used as sources for history b/w 600-
 - Samyutta Nikaya
 - Angyuttara Nikaya
 
-
 The Vinaya Pitaka can also be used. Khudaka Nikaya → 5th book of Sutta Pitaka and Abhidhamma Pitaka are later works.
 
  Jatakas can not be used as source of History for earlier period.

@@ -7,6 +7,8 @@
   "AutoFormat": true,
   "ExcludeFiles": "",
   "ChineseEnglishSpace": true,
+  "ChineseNumberSpace": true,
+  "EnglishNumberSpace": true,
   "ChineseNoSpace": true,
   "PunctuationSpace": true,
   "AutoCapital": true,
@@ -47,5 +49,7 @@
   ],
   "userSelRuleSettingsOpen": true,
   "userDelRuleSettingsOpen": true,
-  "userCvtRuleSettingsOpen": true
+  "userCvtRuleSettingsOpen": true,
+  "EnterTwice": false,
+  "TryFixChineseIM": false
 }

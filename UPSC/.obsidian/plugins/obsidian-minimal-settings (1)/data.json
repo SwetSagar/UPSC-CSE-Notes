@@ -15,7 +15,7 @@
   "fancyCursor": true,
   "trimNames": true,
   "fullWidthMedia": true,
-  "bordersToggle": false,
+  "bordersToggle": true,
   "focusMode": true,
   "underlineInternal": true,
   "underlineExternal": true,

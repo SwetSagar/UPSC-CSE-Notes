@@ -13,20 +13,26 @@ the government that followed differed fundamentally from the government of the C
 -   
 
 
+```ad-Answer
 
+```
 
 
 2. What changes did the British attitude undergo towards the Princely states after 1858? Was the Government of India Act of 1858 intended to introduce direct relations between the Princes and the Crown? [1985, 60m]
 -   
 
+```ad-Answer
 
+```
 
 
 
 3."In terms of administrative structure, the Government of India act of 1858, ... meant more continuation than change." Do you agree? Substantiate. [2010, 20m]
 -   
 
+```ad-Answer
 
+```
 
 
 
@@ -38,7 +44,9 @@ the government that followed differed fundamentally from the government of the C
 
 
 
+```ad-Answer
 
+```
 
 
 
@@ -51,7 +59,9 @@ the government that followed differed fundamentally from the government of the C
 
 
 
+```ad-Answer
 
+```
 
 
 2. "Dyarchy was Introduced with high hopes and it must be said that, on a theoretical
@@ -60,7 +70,9 @@ analysis and if worked under ideal conditions, it is not without merits." Commen
 
 
 
+```ad-Answer
 
+```
 
 
 3. Diarchy provided by the Mont-Ford Reforms "certainly created suspicion without the
@@ -68,13 +80,17 @@ frictions within." Comment. [1995, 20m]
 
 
 
+```ad-Answer
 
+```
 
 
 4. The Montague Declaration (20 August 1917) was observed more closely in the "realm of imperial relations" than anything else. Comment. [1998, 20m]
 
 
+```ad-Answer
 
+```
 
 
 
@@ -83,13 +99,17 @@ responsibility." Critically examine. [2014, 10m]
 
 
 
+```ad-Answer
 
+```
 
 
 6. Could Dyarchy (1919) satisfy the national sentiments of the Indians? [2018, 10 Marks]
 
 
+```ad-Answer
 
+```
 
 
 
@@ -101,7 +121,9 @@ responsibility." Critically examine. [2014, 10m]
 1. Explain the attitude of the Indian National Congress towards the constitutional changes of 1909, 1919 and 1935. [1998, 60m]
 
 
+```ad-Answer
 
+```
 
 
 
@@ -110,7 +132,9 @@ responsibility." Critically examine. [2014, 10m]
 2. "Though the Act of 1919 was superseded by that of 1935, the preamble to the former was not repealed- the preservation of the smile of Cheshire cat after its disappearance, and the latter said nothing about dominion status." Comment. [2013, 25m]
 
 
+```ad-Answer
 
+```
 
 
 
@@ -120,7 +144,9 @@ responsibility." Critically examine. [2014, 10m]
 autonomy, the overriding powers of the Governor diluted the spirit of autonomy." Elucidate. [2015, 10m]
 
 
+```ad-Answer
 
+```
 
 
 
@@ -135,7 +161,9 @@ autonomy, the overriding powers of the Governor diluted the spirit of autonomy."
 
 
 
+```ad-Answer
 
+```
 
 
 
@@ -146,7 +174,9 @@ British Crown and not with the Indian Government." Comment. [1991, 20m]
 
 
 
+```ad-Answer
 
+```
 
 
 
@@ -154,7 +184,9 @@ British Crown and not with the Indian Government." Comment. [1991, 20m]
 
 
 
+```ad-Answer
 
+```
 
 
 
@@ -162,7 +194,9 @@ British Crown and not with the Indian Government." Comment. [1991, 20m]
 4. "It is sometimes asked by Ruling Chiefs, as well as by the public in India and in Europe what our policy towards Native States is. I can tell you that the basis of the policy was laid in Queen Victoria's Proclamation of 1858 and repeated in the Coronation message of His Majesty the King Emperor." Comment. [1986, 20m]
 
 
+```ad-Answer
 
+```
 
 
 

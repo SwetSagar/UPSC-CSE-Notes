@@ -4,7 +4,7 @@ uid: 4c63e42962ff90563949b6577647b74d
 
 # Emotional Intelligence Concepts, their utility and application in administration and governance
 2020-10-21 16:47:51
-            
+
 ---
 
 

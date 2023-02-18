@@ -8,6 +8,7 @@
 ---
 
 ## Mysore
+
 - Mysore under Haider Ali org army on EU model through system of risalas having fixed no of soldiers
 - Subjugated local deshmukhs and poligars
 - TS intro sys to imposing land taxes directly based on detailed sys of classification of land called by ***Burton Stein - "Military Fiscalism*** - taxes collected from officials to estd centralised military hegemony and remove intermediaries
@@ -23,13 +24,14 @@
 ## First Anglo-Mysore War ( 1767-69 ) :
 
 - Nizam, Marathas, English allied against Haidar Ali but he turned them against English defeated
-- April 4, 1769 -> Treaty of Madras 
+- April 4, 1769 -> Treaty of Madras
 - Haider Ali promised help of English when attacked
 
 ## Second Anglo-Mysore War ( 1780-84 ) :
-- WH ordered seizure of all FR settlements in India including Mahe. He feared port could be used by Hyder to receive FR help. 
-- They marched forces acrpps jos territory w/o permission. 
-- Haidar forged anti-English alliance with Marathas + Nizam and defeated BR under Hector Munro capturing Carnatic. 
+
+- WH ordered seizure of all FR settlements in India including Mahe. He feared port could be used by Hyder to receive FR help.
+- They marched forces acrpps jos territory w/o permission.
+- Haidar forged anti-English alliance with Marathas + Nizam and defeated BR under Hector Munro capturing Carnatic.
 
 ```ad-Views
 
@@ -37,7 +39,7 @@ Alfred Lyall :  1780 was the lowest watermark for English fortunes in India.
 
 ```
 
-- To Mangalore both sides opted for peace as outcome inconclusive. 
+- To Mangalore both sides opted for peace as outcome inconclusive.
 - Haider died before treaty
 
 ## Third Anglo Mysore War (1790-92)
@@ -53,17 +55,17 @@ Alfred Lyall :  1780 was the lowest watermark for English fortunes in India.
 
 ### Third Anglo-Mysore War (1790-1792)
 
-- Tipu vs Travancore over puruchase of Jalkottal and Cannanore from Dutch 
-- English, sided w/ Travancore helped by Marathas and Nizam. 
-- Treaty of Seringapatam in 1792 half of Mysorean territory was taken over by the victors 
-- war damage of 3 crore 
+- Tipu vs Travancore over puruchase of Jalkottal and Cannanore from Dutch
+- English, sided w/ Travancore helped by Marathas and Nizam.
+- Treaty of Seringapatam in 1792 half of Mysorean territory was taken over by the victors
+- war damage of 3 crore
 - Tipu’s two sons taken hostage
 
 ## Fourth Anglo-Mysore War of 1799
 
 - Tipu did not place dead Wodeyar Rajas son to throne
 - Collusion w/ F
-- died defending Seringapatam 
+- died defending Seringapatam
 
 ```ad-Views
 

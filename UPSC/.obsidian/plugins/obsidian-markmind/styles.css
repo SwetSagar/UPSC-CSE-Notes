@@ -80,6 +80,7 @@
   padding: 2px 4px;
   max-width: 600px;
   word-break: break-word;
+  white-space: pre-wrap;
   display: flex;
   align-items: center;
   min-height: 24px;
@@ -1200,6 +1201,7 @@
   padding: 10px;
   box-sizing: border-box;
   font-size: 14px;
+  white-space: pre-wrap;
 }
 
 .block-language-mindmap{
@@ -1236,6 +1238,7 @@
   border-radius: 5px;
   min-width: 200px;
   max-width: 300px;
+  white-space: pre-wrap;
 }
 
 

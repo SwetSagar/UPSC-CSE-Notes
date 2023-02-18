@@ -4,7 +4,7 @@ uid: ac0f358a422cbf023aeeb77358847a14
 
 # Tolerance and compassion towards weaker section
 2020-10-21 16:47:29
-            
+
 ---
 
 

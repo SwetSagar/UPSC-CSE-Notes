@@ -9,12 +9,12 @@
 
 Bajirao I greatest of the Peshwas (1720-40)
 
-Maratha families which emerged prominent were 
+Maratha families which emerged prominent were
 
 - Gaekwad of Baroda
-- Bhonsle of Nagpur, 
+- Bhonsle of Nagpur,
 - Holkars of Indore,
-- Sindhias of Gwalior, 
+- Sindhias of Gwalior,
 - Peshwas of Poona
 - Cotton trade form Bombay, Gujarat weary bout Marathas
 
@@ -23,14 +23,14 @@ Maratha families which emerged prominent were
 2020-04-27 14:59:46
 
 ---
-   
+
 ## First Anglo-Maratha War ( 1775-82 )
 
 - WH eyed ports of Salsette and Bassein and hoped for political ascendancy at Poona.
 - Raghunathrao killed nephew Narayanrao for Peshwaship and Signed treaty w/ Br at Bombay - **To Surat** in 1775 where English gave 2,500 soldiers
 - He Ceded territories of Salsette, Bassein and revenue rights of Surat, Bharuch. WH wanted to set up a Dual System in Poona the same as in Bengal.
-- Executive Council condemned the war as impolitic, unjust and unauthorised and sent Col Upton to annul To Surat new Treaty of Purandhar was signed 
-- American War of Independence and arrival of French at Poona alarmed WH and he ordered seizing all FR settlements in India and also sent force to Bombay war ensued. 
+- Executive Council condemned the war as impolitic, unjust and unauthorised and sent Col Upton to annul To Surat new Treaty of Purandhar was signed
+- American War of Independence and arrival of French at Poona alarmed WH and he ordered seizing all FR settlements in India and also sent force to Bombay war ensued.
 - Marathas used Scorched Earth -> sign humiliating English defeat To Wadgaon - 1779 lost their territories gained since 1775 by To Purandhar
 
 ### Provisions of To Wadgaon Were :
@@ -48,7 +48,7 @@ Maratha families which emerged prominent were
 
 ## Second Anglo Maratha War (1803-1805) :
 
-- **Treaty of Bassein** :  Bajirao II signed treaty w/ English at Bassein against Jaswanthrao Holkar
+- **Treaty of Bassein** : Bajirao II signed treaty w/ English at Bassein against Jaswanthrao Holkar
 	- Bajirao II to receive troops from EIC
 	- Marathas to cede territories worth Rs 26 lakh to EIC
 	- Surrender Surat
@@ -59,11 +59,11 @@ Maratha families which emerged prominent were
 	- Bajirao II reduced to Vassal
 - Marathas were defeated
 - Bhonsale signed T/o Devgaon
-- Sindhias - T/o Surajianjangaon and 
+- Sindhias - T/o Surajianjangaon and
 - Holkar - T/o Rajpurghat
-- It "gave the English the key to India". 
+- It "gave the English the key to India".
 
-![[Pasted image 20230119121425.png | JF Richards]]
+![[Pasted image 20230119121425.png |JF Richards]]
 
 ## Third Anglo-Maratha War (1817-19) :
 
@@ -72,8 +72,9 @@ Maratha families which emerged prominent were
 - Bhonsle were defeated at Sitabuldi signed the T/o Gwalior, and Holkar at Mahidpur signed the T/o Mandsaur .
 
 ## Disintegration of Maratha's Reasons :
-- [x] #todo 
-- **Inept Leadership** : M were despotic dependent on personality and character of head of state. No settled constitution. BR II was criminal in character, BR I himself went to sign Treaty of Bassein accepting subsidiary alliance. Daulat Rao Sindhia was not worthy successor to Mahadji Sindhia. 
+
+- [x] #todo
+- **Inept Leadership** : M were despotic dependent on personality and character of head of state. No settled constitution. BR II was criminal in character, BR I himself went to sign Treaty of Bassein accepting subsidiary alliance. Daulat Rao Sindhia was not worthy successor to Mahadji Sindhia.
 
 ```ad-Views
 
@@ -81,7 +82,7 @@ Maratha families which emerged prominent were
 
 ```
 
-- **Inherent defects of Maratha State** : 
+- **Inherent defects of Maratha State** :
 
 ```ad-Views
 
@@ -91,7 +92,7 @@ Maratha families which emerged prominent were
 
 - **Absence of stable economic policy** : After war w/ Aurangzeb M peasants took up arms. State mostly depended on plunder for revenue viz Chauth and Sardeshmukhi. Civil war among leaders and Famine in 1804 took heavy toll on life. Leaders had to mortgage territories to bankers. There was no foreig trade or industry War became their National Industry
 - **Weakness of Political Set-up** : Was a loose confederation. First the Peshwa usurped the power of Chattrapati then Subordinate War Lords did the same w/ Peshwa. They set up semi independent kingdom. Irreconciliable hostility b/w them viz Sindhias and Bhosles was detrimental. Mutual Jealousies among them was common.
-- **Inferior Military System** : In Organisation, war weapons, discipline, effective leadership. Centrifugal tendencies -> frequent treacheries. Motives of M soldiers were no higher than personal interest. Neglect of Cavalry affected mobility.  
+- **Inferior Military System** : In Organisation, war weapons, discipline, effective leadership. Centrifugal tendencies -> frequent treacheries. Motives of M soldiers were no higher than personal interest. Neglect of Cavalry affected mobility.
 
 ```ad-Views
 
@@ -99,8 +100,8 @@ Maratha families which emerged prominent were
 
 ```
 
-- **Superior English Diplomacy** : Before wars EIC wanted to win allies and isolate enemies diplomatically. Ex in 2nd Anglo Maratha war English won over Gaekwad, Peshwa and other Maratha Jagirdars. 
-- **Superior English Espionage** :  
+- **Superior English Diplomacy** : Before wars EIC wanted to win allies and isolate enemies diplomatically. Ex in 2nd Anglo Maratha war English won over Gaekwad, Peshwa and other Maratha Jagirdars.
+- **Superior English Espionage** :
 
 ```ad-Views
 
@@ -133,10 +134,8 @@ The British responsibilities in India increased, as they now had to manage a muc
 
 ```
 
-
 1. Trace the course of the Anglo-Maratha relations in the first two decades of the nineteenth century. Account for the ultimate defeat of the Maratha power by the British. [1984, 60m]
 - [Second Anglo Maratha War (1803-1805) :](onenote:[[Anglo]]%20Maratha%20Wars&section-id={5E4A9EBB-1AE5-4DC9-A50C-4BAC4568E9A7}&page-id={3D51B62D-A88D-4307-B71C-30331133221B}&object-id={001B4A2B-F7C7-4828-B1FF-87F1028621A7}&4C&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/British%20Expansion.one) onwards
-
 
 ```ad-Answer
 
@@ -162,7 +161,6 @@ However, from the perspective of the Maratha Empire, the treaty of Bassein may n
 
 ```
 
-
 ```ad-Views
 
 Some historians view the treaty as a significant victory for the British East India Company. For example, historian J.F. Richards writes in his book "The New Cambridge History of India: The British Empire in India" that the treaty "gave the Company control over the western littoral and access to the hinterland of Gujarat and Malwa." He also notes that it "also established the Company as the paramount power in western India."
@@ -175,8 +173,7 @@ In the same line, historian Rosie Llewellyn-Jones in her book "The Marathas 1600
 
 ```
 
-
-1. "……. the hunt of the Pindaris became merged in the Third Maratha War." Comment.  
+1. "……. the hunt of the Pindaris became merged in the Third Maratha War." Comment.
 [1989, 20m]
 - [Third Anglo-Maratha War (1817-19)  
 :](onenote:[[Anglo]]%20Maratha%20Wars&section-id={5E4A9EBB-1AE5-4DC9-A50C-4BAC4568E9A7}&page-id={3D51B62D-A88D-4307-B71C-30331133221B}&object-id={001B4A2B-F7C7-4828-B1FF-87F1028621A7}&76&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/British%20Expansion.one) role of Pindaris need to be analysed
@@ -198,7 +195,6 @@ Some of the important battles against the Pindaris include:
 1. "Anglo-Maratha War covering nearly nine years from the murder of Narayan Rao to the Treaty of Salbai emphatically discloses the vitality of the Maratha nation which had not been exhausted either by the disaster of Panipat or the death of their great Peshwa Madhavrao." Comment. [1991, 20m]
 - [Raghunathrao wanted to become peshwa killed his nephew  
 Narayanrao.](onenote:[[Anglo]]%20Maratha%20Wars&section-id={5E4A9EBB-1AE5-4DC9-A50C-4BAC4568E9A7}&page-id={3D51B62D-A88D-4307-B71C-30331133221B}&object-id={653BFBFD-5ACE-4EDE-90E1-F11D3E9C474B}&B&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/British%20Expansion.one)
-
 
 ```ad-Answer
 
@@ -228,7 +224,6 @@ ended it - inconclusive, Maratha](onenote:[[Anglo]]%20Maratha%20Wars&section-id=
 signed a treaty with the English at Bassein  
 against Jaswanthrao](onenote:[[PYQ]]&section-id={5E4A9EBB-1AE5-4DC9-A50C-4BAC4568E9A7}&page-id={7C7EE0EB-DBE9-4CCD-99CC-09CA9C9342F9}&object-id={C88791E8-E5A4-407B-99E7-5CADF944722E}&F&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/British%20Expansion.one)
 
-1. "The Maratha polity disintegrated through internal stress." Critically examine. [2017,  
+1. "The Maratha polity disintegrated through internal stress." Critically examine. [2017,
 10m]
-- [Disintegration of Maratha's reasons :](onenote: [[Anglo]] %20Maratha%20Wars&section-id={5E4A9EBB-1AE5-4DC9-A50C-4BAC4568E9A7}&page-id={3D51B62D-A88D-4307-B71C-30331133221B}&object-id={5A2DB3F3-FF22-4E0D-A500-CA55D8920262}&B&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/British%20Expansion.one )
-
+- [Disintegration of Maratha's reasons :](onenote: [[Anglo]] %20Maratha%20Wars&section-id={5E4A9EBB-1AE5-4DC9-A50C-4BAC4568E9A7}&page-id={3D51B62D-A88D-4307-B71C-30331133221B}&object-id={5A2DB3F3-FF22-4E0D-A500-CA55D8920262}&B&base-path= <https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/British%20Expansion.one> )

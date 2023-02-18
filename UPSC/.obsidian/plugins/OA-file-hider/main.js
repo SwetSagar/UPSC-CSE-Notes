@@ -189,10 +189,12 @@ var FileHider = class extends import_obsidian4.Plugin {
         ;
       }));
       this.app.workspace.onLayoutReady(() => {
-        for (const path of this.settings.hiddenList) {
-          changePathVisibility(path, this.settings.hidden);
-        }
-        ;
+        setTimeout(() => {
+          for (const path of this.settings.hiddenList) {
+            changePathVisibility(path, this.settings.hidden);
+          }
+          ;
+        }, 200);
       });
       new VisibilityToggleCommand(this);
       this.addSettingTab(new FileHiderSettingsTab(this.app, this));

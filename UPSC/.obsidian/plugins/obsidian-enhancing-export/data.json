@@ -13,7 +13,8 @@
       "name": "TextBundle"
     },
     {
-      "name": "PDF"
+      "name": "PDF",
+      "openExportedFileLocation": true
     },
     {
       "name": "Word (.docx)"
@@ -43,7 +44,12 @@
       "name": "OPML"
     }
   ],
-  "defaultExportDirectoryMode": "Auto",
+  "defaultExportDirectoryMode": "Custom",
   "openExportedFile": true,
+  "lastEditName": "PDF",
+  "customDefaultExportDirectory": {
+    "win32": "C:\\Users\\Vlad Impaler\\Downloads\\Notes to be Transferred"
+  },
+  "openExportedFileLocation": true,
   "version": "1.1.8"
 }

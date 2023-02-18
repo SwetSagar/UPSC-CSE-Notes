@@ -4,7 +4,7 @@ uid: 9dd6dccabd049fe7027ba14b9c235424
 
 # Philosophical basis of governance and probity
 2020-10-21 16:53:08
-            
+
 ---
 
 

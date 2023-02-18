@@ -200,7 +200,6 @@ The major considerations of the British imperial power that led to the annexatio
 
 ```
 
-
 **Sind**
 
 1. "We have no right to seize Sind, yet we shall do so and a very advantageous, useful, humane piece of rascality it will be." Comment. [1984, 20m]
@@ -243,7 +242,6 @@ Why it was a rascal measure
 
 ```
 
-
 1. "The British conquest of Sind was both a political and moral sequel to the first afghan war." Comment. [1995, 60m]
 - [Sind :](onenote:[[The]]%20Punjab&section-id={5E4A9EBB-1AE5-4DC9-A50C-4BAC4568E9A7}&page-id={D7B07F4F-F184-45A6-A728-C8F513A51587}&object-id={4AB1295D-E9A1-4B20-BFBE-091B838EB02F}&B&base-path=https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/British%20Expansion.one)
 
@@ -259,10 +257,8 @@ The British conquest of Sindh in 1843 can be seen as a political and moral seque
 
 ```
 
-
 1. Sir Charles Napier said, "We have no right to seize Sind, yet we shall do so, and a very advantageous, useful, humane piece of rascality it will be.'' Comment. [2000, 20m]
-- [Sind :](onenote: [[The]] %20Punjab&section-id={5E4A9EBB-1AE5-4DC9-A50C-4BAC4568E9A7}&page-id={D7B07F4F-F184-45A6-A728-C8F513A51587}&object-id={4AB1295D-E9A1-4B20-BFBE-091B838EB02F}&B&base-path= https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/British%20Expansion.one )
-
+- [Sind :](onenote: [[The]] %20Punjab&section-id={5E4A9EBB-1AE5-4DC9-A50C-4BAC4568E9A7}&page-id={D7B07F4F-F184-45A6-A728-C8F513A51587}&object-id={4AB1295D-E9A1-4B20-BFBE-091B838EB02F}&B&base-path= <https://d.docs.live.net/bbc8be5bd337910c/Documents/History%20Optional/Modern%20History/Part%20I/British%20Expansion.one> )
 
 ```ad-Answer
 

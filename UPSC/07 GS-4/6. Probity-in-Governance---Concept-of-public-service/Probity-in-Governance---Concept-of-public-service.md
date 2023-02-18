@@ -4,7 +4,7 @@ uid: 8e415be48632daf03f3266eb5c9b54d1
 
 # Probity in Governance : Concept of public service
 2020-10-21 16:52:28
-            
+
 ---
 
 
@@ -23,6 +23,7 @@ uid: 8e415be48632daf03f3266eb5c9b54d1
 -   Development Adm - action oriented goal oriented its 4 behavioural parameters are Change Orientation, Result O, Citizen participative O, Commitment to Work
 -   Traditional Adm - follows status quo, emphasis on econ, efficiency, hierarchical, rigid, routines operations, centralised, resists change, little involvement of people
 -   New Public Adm - anti positivist, anti-technical, anti-hierarchical, anti-traditional
+
 
 1.  https://legalaffairs.gov.in/sites/default/files/ (X) Probity%20in%20Governance. Pdf
 

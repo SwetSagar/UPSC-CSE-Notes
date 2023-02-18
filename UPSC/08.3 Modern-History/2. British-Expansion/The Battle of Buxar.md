@@ -7,7 +7,6 @@
 
 ---
 
-<iframe src=" <https://webcache.googleusercontent.com/search?q=cache:https%3A%2F%2Fwww.worldhistory.org%2Farticle%2F2116%2Fbattle-of-buxar%2F>" allow="fullscreen" allowfullscreen="" style="height: 100%; width: 100%; aspect-ratio: 1 / 1;"></iframe>
 
 ## Battle of Buxar
 
