@@ -1,61 +1,62 @@
 # Prelims Facts April 2021 onwards
+
 2021-06-17 17:11
 
---- 
+---
 
-- [[Static - S&T dev and their applications and effects in everyday life Achievement of Indians in ST#Atal Innovation Mission AIM scheme| AIM ]] PRIME #scheme : promote science based deep tech startups and ventures 
--  **Culex** aka common house mosquitoes are carrier of serious diseases
--  **Small Savings** #Scheme : are either postal deposits, savings certificates viz Kisan Vikas Patra KVP, Social Security Scheme viz PPF etc; **Shyamala Gopinath** #committee suggested market linked interest.
--  Shantir Ogroshena : IN-BAN multinational mil ex #militaryexercise
--  **Chenab** Bridge :  world's highest railway bridge 359mt above river bed
--  La Perouse : multilateral ex b/w IN-FR #militaryexercise 
--  Wolf Rayet stars : highly luminous obj made of a set of stars, previously called W-type.
--  **Anamaya** initiative to end preventable deaths in tribal communities privately funded
--  Doomsday aka **Thwaites Glacier** melting causing global sea level rise
--  **Brucellosis** : zoonotic infection spreads through raw or unpasteurised dairy product
--  **Umngot** river : in Meghalaya, tourist attraction due to clear water
--  Uruka aka Bhogali or Magh Bihu fest in Assam
--  **Poshan Gyan** #scheme by [[1.4 Statutory, Regulatory and Various Quasi Judicial Bodies, Appointment in them#NITI Aayog| NITI Aayog]] national repository on health and nutrition.
+- [[Static - S&T dev and their applications and effects in everyday life Achievement of Indians in ST#Atal Innovation Mission AIM scheme|AIM]] PRIME #scheme : promote science based deep tech startups and ventures
+- **Culex** aka common house mosquitoes are carrier of serious diseases
+- **Small Savings** #Scheme : are either postal deposits, savings certificates viz Kisan Vikas Patra KVP, Social Security Scheme viz PPF etc; **Shyamala Gopinath** #committee suggested market linked interest.
+- Shantir Ogroshena : IN-BAN multinational mil ex #militaryexercise
+- **Chenab** Bridge : world's highest railway bridge 359mt above river bed
+- La Perouse : multilateral ex b/w IN-FR #militaryexercise
+- Wolf Rayet stars : highly luminous obj made of a set of stars, previously called W-type.
+- **Anamaya** initiative to end preventable deaths in tribal communities privately funded
+- Doomsday aka **Thwaites Glacier** melting causing global sea level rise
+- **Brucellosis** : zoonotic infection spreads through raw or unpasteurised dairy product
+- **Umngot** river : in Meghalaya, tourist attraction due to clear water
+- Uruka aka Bhogali or Magh Bihu fest in Assam
+- **Poshan Gyan** #scheme by [[1.4 Statutory, Regulatory and Various Quasi Judicial Bodies, Appointment in them#NITI Aayog|NITI Aayog]] national repository on health and nutrition.
 - **e-SANTA** #scheme by MoCommerce to connect aqua farmers to buyers
 - Monkeydactyl aka pterosaur extinct flying reptile with earliest know evidence of a limb
-- [[4.1 India and its neighbourhood - relations#^9c4b73 | Raisina Dialogue]] to hold discussion on state of world and explore areas of coop.
+- [[4.1 India and its neighbourhood - relations#^9c4b73 |Raisina Dialogue]] to hold discussion on state of world and explore areas of coop.
 - Narrow Line Seyfert 1 NLS1 is a galaxy.
 - **MANAS** App by PM-STIAC augment mental well being of IN citizens
-- EatSmart cities, Transport4All challenge by MoHousing 
+- EatSmart cities, Transport4All challenge by MoHousing
 - **Gender Samvaad** #scheme by DAY-NRLM hear voices from the states and the field Mo Rural Development
 - Cholistan desert in Pakistan
 - Tiki Formation in Madhya Pradesh is where vertebrate fossils are found viz Dinosaurs
-- [[11.1 Post War Foundation - NATO and European Community#Council of EU| Council of European Union]] ^435587
-- FOSS4GOV by MeitY to accelerate adoption of Free and Open Source Software (FOSS) 
+- [[11.1 Post War Foundation - NATO and European Community#Council of EU|Council of European Union]] ^435587
+- FOSS4GOV by MeitY to accelerate adoption of Free and Open Source Software (FOSS)
 - **Kowloon** Peninsula south Honk Kong
 - Python 5 AAM from ISR
 - Tianhe 1st module of CN space station Tiangong
--  Xylophis Deepaki new species of snake in TN
--  Vorukh exclave of Tajikistan surrounded by Kyrgyztan
--  **Kachin** minority ethnic group of Myanmar demanding a separate state
--  **SUTRA** model by IIT Kanpur to predict COVID graph in India.  ^0b6719
--  MoU for Global Innovation Partnership GIP b/w ==UK and India==
--  **E-Sanjeevani** OPD telemedicine platform dev by C-DAC under MoHFW, provides free consultation to In citizens
--  **Kolam-Thullal** mask dance from Kerala
--  Goa Maritime Symposium GMS 2021 by Indian Navy 
--  Red-eared slider : type of turtle kept as pet
--  **Winchcombe** : type of meteorite
--  [[Prelims Facts 1 April-2019-Feb-2020#^a58e42 | NCMC]]
--  Sulawesi : island in Indonesia
--  **Samvedna** : tele counselling service for psychological support to children
--  Gholvad Chikoo GI Tag from Maharashtra
--  Taiwan Strait is part of SCS
--  **Corpse flower** IUCN : Endangered, native to Indonesia blooms once in 7-10yrs
--  Big 5 project to conserve 5 animals viz Elephant, Gorilla, Bear, Tiger and Lion
--  Mount Nyiragongo : erupted in Congo
--  **MCA21** by Mo Corporate Affairs e-governance initiative; gives easy and secure access to services of MoCA
--  Jardalu Mango, Katani Rice, Magahi Pan, Shahi Litchi have GI tag from Bihar
--  **BioHub** initiative by WHO : pathogen storage, sharing and analysis multilaterally, is currently done bilaterally b/w countries
--  [[3. Infrastructure, Liberalisation, Land Reforms in India#^b87237| Currency Swap Agreement]]
--  Gahirmatha Marine Sanctuary is located in Bhitarkarnika NP
--  Vitamin D : fat soluble -> long storage in body
--  Young, Upcoming and Versatile, Authors YUVA #scheme by [[Mo HRD | Mo Education ]] for 75 authors under 30; will be given 50k stipend for 6 months
--  **Naresh Chandra** #committee on Croporate Governance (2002), Defense Mgt (2011)
+- Xylophis Deepaki new species of snake in TN
+- Vorukh exclave of Tajikistan surrounded by Kyrgyztan
+- **Kachin** minority ethnic group of Myanmar demanding a separate state
+- **SUTRA** model by IIT Kanpur to predict COVID graph in India. ^0b6719
+- MoU for Global Innovation Partnership GIP b/w ==UK and India==
+- **E-Sanjeevani** OPD telemedicine platform dev by C-DAC under MoHFW, provides free consultation to In citizens
+- **Kolam-Thullal** mask dance from Kerala
+- Goa Maritime Symposium GMS 2021 by Indian Navy
+- Red-eared slider : type of turtle kept as pet
+- **Winchcombe** : type of meteorite
+- [[Prelims Facts 1 April-2019-Feb-2020#^a58e42 |NCMC]]
+- Sulawesi : island in Indonesia
+- **Samvedna** : tele counselling service for psychological support to children
+- Gholvad Chikoo GI Tag from Maharashtra
+- Taiwan Strait is part of SCS
+- **Corpse flower** IUCN : Endangered, native to Indonesia blooms once in 7-10yrs
+- Big 5 project to conserve 5 animals viz Elephant, Gorilla, Bear, Tiger and Lion
+- Mount Nyiragongo : erupted in Congo
+- **MCA21** by Mo Corporate Affairs e-governance initiative; gives easy and secure access to services of MoCA
+- Jardalu Mango, Katani Rice, Magahi Pan, Shahi Litchi have GI tag from Bihar
+- **BioHub** initiative by WHO : pathogen storage, sharing and analysis multilaterally, is currently done bilaterally b/w countries
+- [[3. Infrastructure, Liberalisation, Land Reforms in India#^b87237|Currency Swap Agreement]]
+- Gahirmatha Marine Sanctuary is located in Bhitarkarnika NP
+- Vitamin D : fat soluble -> long storage in body
+- Young, Upcoming and Versatile, Authors YUVA #scheme by [[Mo HRD |Mo Education]] for 75 authors under 30; will be given 50k stipend for 6 months
+- **Naresh Chandra** #committee on Croporate Governance (2002), Defense Mgt (2011)
 - **CBDT** : statutory #body under Central Board of Revenue Act 1963 and Do Revenue, MoFinance
 - UN Special Rapporteurs are independent experts working on behalf of UN do not get fin compensation and report on Human rights
 - **AmbiTag** first indigenous temp data logger for cold chain mgt uses IoT by IIT Ropar
@@ -78,55 +79,55 @@
 - Desertification and Land Degradation atlas by Space Application Center, ISRO.
 - Indian Certification of Medical Devices #scheme by Quality Council of India
 - Gulf of Tadjoura is in Djibouti
-- Integrated theatre command : 1 command for all 3 services for strategically imp geographic area. **Shekatkar** #committee  recommended it.
+- Integrated theatre command : 1 command for all 3 services for strategically imp geographic area. **Shekatkar** #committee recommended it.
 - **Biotech-Kisan** #scheme by Mo Science promotes local farm leadership to dev science based farming.
-- **Ajit Mishra** #committee  on fixation of Minimum Wages and National Floor Wages to the gov.
+- **Ajit Mishra** #committee on fixation of Minimum Wages and National Floor Wages to the gov.
 - **Black Softshell Turtle** : found in temples ex Hayagriva Madhava in Assam freshwater species that is IUCN Critically Endangered but no protection under WPA.
 - **Project Seabird** : largest naval infra project to construct naval base at Karwar, Ktaka.
-- Fukuoka price for Arts and Culture by Japan 
+- Fukuoka price for Arts and Culture by Japan
 - **Indrajaal** : IN first drone defence system can cover area of 1000-2000 sq km.
 - **NATRAX** High Speed Track HST in Indore built under NATRiP
-- Saral Sanchar portal issues licenses and registration certificates under Do Telecom. #scheme 
+- Saral Sanchar portal issues licenses and registration certificates under Do Telecom. #scheme
 - Enforcing contracts portal by Mo Law and Justice.
-- **India Ocean Naval Symposium** have littoral countries as full time members except Somalia and Yemen also Madagascar is observer despite being littoral. #PrelimsPYQ #important 
+- **India Ocean Naval Symposium** have littoral countries as full time members except Somalia and Yemen also Madagascar is observer despite being littoral. #PrelimsPYQ #important
 	- Aims to inc maritime cooperation among navies in the IOR.
--  **Open Network for digital commerce** ONDC by DPIIT to use open source
--  **White Flag campaign** -> Malaysia against fin crunch during Covid
--  Bhalia wheat from Guj given GI
--  **SPARSH** for automatic disbursement of defence pension
--  **dbGENVOC** : database of genomic variants of oral cancer
--  **Bhumi Panduga** by Khoya tribe in AP
--  Yak IUCN : Vulnerable
--  India Industrial Land Bank IILB for investors scouting for land under DPIIT
--  ==Lemru Elephant reserve in Chattisgarh==
--  **Bryum Bharatiensis** : moss species native to Antarctica
--  Cryptograms are plants or plant like organisms that do not produce seed ex ferns, lichens and fungi. Phanerograms is vice versa.
--  Chemotaxis movement of cell towards a chemical when attracted and away when repelled. Bacteria etc find food this way,
--  Incheon Declaration 2014 for Education for all by 2030
--  Kisan Sarathi app for farmers to get info in desired language by scientists.
--  GMP : Good Manufacturing Practice is a mandatory certificate for pharma companies to sell medicines, issued by WHO. It is a certification scheme to ensure quality. It also has legal components.
--  Bhartiya Prakritik Krishi Padhait BPKP sub scheme of PKVY to reduce synthetic chemical use and promote on farm biomass recycling. #scheme 
--  ARMED 21 Army skiing expedition
--  Agarwood tree is used to produce essential oils and perfumes is called liquid gold. IUCN status : Critically Endangered.
--  Kandla is first green industrial city in India by Indian Green Building Council formed by Confederation of Indian Industry.
--  Kaveri/Cauveri river originates from Talakaveri in the Brahmagiri range in Kodagu district, Karnataka.
--  North Eastern Space Application Centre NESAC joint initiative of DoSpace and NE Council.
--  Minervarya Pentali : endemic frog from Western Ghats
--  Pensilungpa Glacier in Zanskar separates it from Ladakh.
--  PM Shram Awards to workmen from public and private sectors.
--  SonChiraiya brand and logo to market SHG products in the global market by Mo HUA.
--  Financial Inclusion Index by RBI.
--  Agency Bank status given by RBI allows it to undertake banking business of Central and State govt on behalf of RBI ex revenue receipts and payments.
--  Advance ruling is a written interpretation of tax laws.
--  Tiwa tribes fomr Assam and Meghalaya celebrate Wanchuwa festival/ harvest fest.
--   Acetabularia Jalanyakae single celled Alagae found in Andaman Nicobar. 
--   Madur mats GI from West Bengal.
--   IN largest floating solar photo voltaic PV project at Simhadir, Vizag.
--   Yuktdhara portal by Mo Rural Dev and Panchayati Raj serve as repo of geotags.
--   Vinob Bhave was the 1st Magsaysat award winner.
--   Resulution 2594 of the UNSC adopted to find a resolution on Afghanistan.
--   Snow leopar and black necked crane were adopted as state animal and state bird of Ladakh.
--   #important #PrelimsPYQ [Black Necked Crane](https://en.wikipedia.org/wiki/Black-necked_crane)
+- **Open Network for digital commerce** ONDC by DPIIT to use open source
+- **White Flag campaign** -> Malaysia against fin crunch during Covid
+- Bhalia wheat from Guj given GI
+- **SPARSH** for automatic disbursement of defence pension
+- **dbGENVOC** : database of genomic variants of oral cancer
+- **Bhumi Panduga** by Khoya tribe in AP
+- Yak IUCN : Vulnerable
+- India Industrial Land Bank IILB for investors scouting for land under DPIIT
+- ==Lemru Elephant reserve in Chattisgarh==
+- **Bryum Bharatiensis** : moss species native to Antarctica
+- Cryptograms are plants or plant like organisms that do not produce seed ex ferns, lichens and fungi. Phanerograms is vice versa.
+- Chemotaxis movement of cell towards a chemical when attracted and away when repelled. Bacteria etc find food this way,
+- Incheon Declaration 2014 for Education for all by 2030
+- Kisan Sarathi app for farmers to get info in desired language by scientists.
+- GMP : Good Manufacturing Practice is a mandatory certificate for pharma companies to sell medicines, issued by WHO. It is a certification scheme to ensure quality. It also has legal components.
+- Bhartiya Prakritik Krishi Padhait BPKP sub scheme of PKVY to reduce synthetic chemical use and promote on farm biomass recycling. #scheme
+- ARMED 21 Army skiing expedition
+- Agarwood tree is used to produce essential oils and perfumes is called liquid gold. IUCN status : Critically Endangered.
+- Kandla is first green industrial city in India by Indian Green Building Council formed by Confederation of Indian Industry.
+- Kaveri/Cauveri river originates from Talakaveri in the Brahmagiri range in Kodagu district, Karnataka.
+- North Eastern Space Application Centre NESAC joint initiative of DoSpace and NE Council.
+- Minervarya Pentali : endemic frog from Western Ghats
+- Pensilungpa Glacier in Zanskar separates it from Ladakh.
+- PM Shram Awards to workmen from public and private sectors.
+- SonChiraiya brand and logo to market SHG products in the global market by Mo HUA.
+- Financial Inclusion Index by RBI.
+- Agency Bank status given by RBI allows it to undertake banking business of Central and State govt on behalf of RBI ex revenue receipts and payments.
+- Advance ruling is a written interpretation of tax laws.
+- Tiwa tribes fomr Assam and Meghalaya celebrate Wanchuwa festival/ harvest fest.
+- Acetabularia Jalanyakae single celled Alagae found in Andaman Nicobar.
+- Madur mats GI from West Bengal.
+- IN largest floating solar photo voltaic PV project at Simhadir, Vizag.
+- Yuktdhara portal by Mo Rural Dev and Panchayati Raj serve as repo of geotags.
+- Vinob Bhave was the 1st Magsaysat award winner.
+- Resulution 2594 of the UNSC adopted to find a resolution on Afghanistan.
+- Snow leopar and black necked crane were adopted as state animal and state bird of Ladakh.
+- #important #PrelimsPYQ [Black Necked Crane](https://en.wikipedia.org/wiki/Black-necked_crane)
 - ZAPAD 21 hosted by Russia mil exercise w/ multiple countries.
 - Presidents Colour is the highest honour to be given on a military unit to recognise its exceptional service.
 - TUrtle Survival Alliance formed in 2001 as an IUCN partnership for sustainable captive mgt of freshwater turtles and tortoises.
@@ -141,18 +142,18 @@
 - Baijayant Panda #committee by MoD to review NCC.
 - **G-33** : Coalition of Developing countries who favour protection of agriculture at WTO.
 - Humboldt penguin IUCN Vulnerable endemic to Chile and Peru.
- ![[NPS_sequoia-general-sherman-tree-infographic.jpg | General Sherman Sequioa]]
+ ![[NPS_sequoia-general-sherman-tree-infographic.jpg |General Sherman Sequioa]]
 - Sea Cucumber is Schedule I in WPA it dissolved CaCO3 and is essential for survival of corals.
 - Vishnuonyx Neptuni species of otter that is now extinct.
 - Rakthamichthys mumba new species of Eel.
-- IPRS Industrial Park Ratings System IPRS #report by DPIIT. 
+- IPRS Industrial Park Ratings System IPRS #report by DPIIT.
 - **Dras** : called gateway to Ladakh and the coldest inhabited place in India.
-- Hoplosebastes Armatus aka flower scorpionfish. 
+- Hoplosebastes Armatus aka flower scorpionfish.
 - Allium Negianum is a species of Onion.
 - Georissa mawsmaiensis is a micro snail species found in Cherrapunjee, Meghalaya.
 - Bovine Mastitis infectious disease that affects farm productivity.
 - **International Securities Identification Number** ISIN : 12 digit alphnumeric that uniquely identifies a security for clearing and settlement.
--  **Ambergris** is sperm whale vomit used to make perfume.
+- **Ambergris** is sperm whale vomit used to make perfume.
 - Gorias are ethnic muslims from Assam.
 - Trignopterus Corona new species of Beetles found in Sulawesi of Indonesia.
 - Time for India drive launched by Sweden to promote bilateral trade with India.
@@ -161,70 +162,70 @@
 - **Gangetic dolphin** IUCN Endangered is national aquatic animal of India can only live in freshwater and is blind.
 - BASIC : Brasil SA Indiia and China committed to act in Copenhagen climate summit for a common goal.
 - Kameng river in Arunachal right bank tributary of Brahmaputra.
-- Global Drug Policy Index by Harm Reduction Consortium. 
+- Global Drug Policy Index by Harm Reduction Consortium.
 - Delhi Declaration on Afghanistan -> territory cannot be used for terrorism.
 - SEBI Investor Charter to protect their interest enable them to understand risks.
 - Dosti : trilateral coast guard exercise involving India, Maldives and Sri Lanka.
 - Tiwa tribes in NE celebrate Wanchuwa festival to mark good harvest.
 - Barbados is newest republic but will continue to be part of commonwealth (54 total).
 - Chocolate Bordered flitter is butterfly discovered in Sikkim.
-- ACE2 protein #PrelimsPYQ : enzyme molecule that connects inside of cells to outside. The spike of coronavirus binds to ACE2 enzymes to get inside our bodies.  
-- [x]  Salaries of Judges #todo 
-- NZ banned people < 14 to buy cigarettes for life. 
-- Royal Gold Medal 2022 for Architecture to Balkrishna Doshi. 
+- ACE2 protein #PrelimsPYQ : enzyme molecule that connects inside of cells to outside. The spike of coronavirus binds to ACE2 enzymes to get inside our bodies.
+- [x] Salaries of Judges #todo
+- NZ banned people < 14 to buy cigarettes for life.
+- Royal Gold Medal 2022 for Architecture to Balkrishna Doshi.
 - Finns weaver bird IUCN Endangered found in Terai grasslands in Uttarakhand and western UP, Assam.
 - Log4Shell is a vulnerability that could grant hackers access to application.
 - Konyak Nagas are largest of the Naga tribes inhabiting the Mon district. Anghs/ Wangs are their traditional chiefs, Facial tattoos earned for taking head of enemy.
 - SGFT S-gene target failure SGTF test kits used for early detection of Omicron detects absence of S-gene.
 - Manohari is a type of tea, very costly.
--  Green Hydrogen micro-grid project in Simhadri, Vizag, AP. 
+- Green Hydrogen micro-grid project in Simhadri, Vizag, AP.
 - Silverline Kerala project for Semi-high speed trains.
 - UNSC Resolution 2615 to sanction Taliban
 - Pralay surfact to surface tactical quasi ballistic missile (low trajectory but can be maneuvered in flight) range 150-500km.
-- Vernacular Innovation program by AIM to overcome linguistic barrier in innovation. 
+- Vernacular Innovation program by AIM to overcome linguistic barrier in innovation.
 - 'Rainbow nation' Desmond Tutu called South Africa when Nelson Mandela became president.
 - Jana Gana Mana was sung in Calcutta Session of INC in 1911.
 - EO Wilson was a scientis who studied insects.
 - Zero day vulnerability flaw that has not been publicly disclosed for which software patch of remediation technique is not available.
 - Fimbristylis and Neanotis are flowers found in Kerala, grasslands of Western Ghats.
 - Mud Crab Reovirus MCRV aka as Sleeping disease that affects crabs.
-- Sea dragon Exercise multi lateral anti submarine warfare exercise b/w US, IN, AUS, CAN, JP, SKR.  
+- Sea dragon Exercise multi lateral anti submarine warfare exercise b/w US, IN, AUS, CAN, JP, SKR.
 - First rock museum of country in Hyderabad.
 - Mission Parvarish to combat malnourishment among children by Assam govt.
--  SAAR Smart Cities and Academia Towards Action and Research #scheme  by Mo HUA launched as part of Azadi ka Amrit Mahotsav to document projects made under Smart cities mission.
+- SAAR Smart Cities and Academia Towards Action and Research #scheme by Mo HUA launched as part of Azadi ka Amrit Mahotsav to document projects made under Smart cities mission.
 - Harmonised Guidelines and Standards for Universal Accessibility in India by CPWD (Central Public Works dept)
 - Extended Producer Responsibility EPR was introduced under Plastic Waste Mgt Rules 2011 and E-waste Mgt Handling rules 2011.
 - Indu Malhotra #committee to suggest on safeguards and security of PM and other constitutional functionaries.
 - BARC Broadcast Audience Research Council industry body owned by advertisers, ad agencies and broadcasting coys it gives ratings to channels.
-- Siachen glacier is 2nd longest in non-polar areas located in Eastern Karakoram range. 
+- Siachen glacier is 2nd longest in non-polar areas located in Eastern Karakoram range.
 - Gherkins aka pickling cucumber. IN is largest exporter.
 - Protocol to visit to religious shrines 1974 is a bilateral agreement b/w IN and PAK for each others nationals.
 - NeoCov is new strain of coronavirus related to MERS.
 - Chief Economic Advisor CEA reports to the Finance Minister and is equivalent to Secy of India.
-- Hynniewtrep National Liberation Council HNLC militant 
+- Hynniewtrep National Liberation Council HNLC militant
 - NECTAR North East Centre for Technology Application and Reach is taking saffron production in NE India.
-- River cities alliance RCA #scheme by Mo Jal Shakti and Mo HUA to exchange info on sustainable mgt of urban rivers. 
+- River cities alliance RCA #scheme by Mo Jal Shakti and Mo HUA to exchange info on sustainable mgt of urban rivers.
 - SeHAT Services e-health assistance and teleconsultation SeHAT by Mo Defence for all entitled personnel and their families.
 - Pola Vatta new fish species.
 - Operation AAHT to curb human trafficking by RPF ^5988d4
-- 4 horned antelopes found in Wayanad wildlife sanctuary. 
-- Koala designated as endangered species. 
+- 4 horned antelopes found in Wayanad wildlife sanctuary.
+- Koala designated as endangered species.
 - Pacific Inslands Forum estd in 1971 for heads of govt to discuss common issues and problems facing independent and self governing states. Biketawa declaration was adopted for regional stability.
 - One Ocean summit in France to raise marine issues.
 - Medharam Jatara is 2nd largest fare after Kumbh celebrated in Telangana.
-- Doxxing is publishing and analysing others personal information on internet with malicious intent. 
+- Doxxing is publishing and analysing others personal information on internet with malicious intent.
 - Rejuvenating Watersheds for Agricultural Resilience through Innovative development REWARD #scheme to adopt improved watershed mgt practices under Do Land Resources.
  - Cryodactylus exercitus recorded new species of bent toed gecko from Meghalaya.
  - GBBC Great Backyard Bird Count birdwatchers from all around the world are called to count and report details of the birds.
- - Munich Security Conference   
+ - Munich Security Conference
  - Minsk Agreement was signed b/w Russian backed separatists and Ukraine for ceasefire. ^3539bb
  - Kuki tribe live in Mizo hills of Mizoram. Kuki rising took place in 1917-1919.
- - [National Means cum merit scholarship #scheme NMMSS](https://www.education.gov.in/en/nmms). 
+ - [National Means cum merit scholarship #scheme NMMSS](https://www.education.gov.in/en/nmms).
  - Sea Cucumber is under Schedule I of WPA 1972 found in seafloor of tropical regions. They act as garbage collector for oceans and Calcium carbonate is one of its by products
- - Nord Stream pipeline runs from RUS to GER. 
+ - Nord Stream pipeline runs from RUS to GER.
  - Angadias is an old traditional banking system where traders send cash from one state to another through a person called Angadia/courier.
  - Panruti cashews are grown in Cuddalore, Tamil Nadu.
  - Karakattam Dance ancient folk dance of TN dedicated to Mariamman/ rain goddess.
- - Kuno Palpur NP to be 1st Cheetah park of India. 
+ - Kuno Palpur NP to be 1st Cheetah park of India.
 
----
+
