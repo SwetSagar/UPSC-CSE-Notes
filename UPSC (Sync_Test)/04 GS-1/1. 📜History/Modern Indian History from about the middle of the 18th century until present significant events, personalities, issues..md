@@ -13,7 +13,7 @@
 
 ---
 - Rani Gaidinliu was a Naga spiritual leader was associated with Haipou Jadonang who led the movt from Manipur during the Civil Disobedience movt.
-- [[Peasant Movements and Tribal Uprisings in the 18th and 19th Century#Paika Rebellion 1817 |Paika Rebellion]]
+- [[7.0 Peasant Movements and Tribal Uprisings in the 18th and 19th Century#Paika Rebellion 1817 |Paika Rebellion]]
 - **Aurobindo Ghosh** participated in freedom struggle from 1902-1910. He founded a community of spiritual seekers that was renamed as Aurobindo Ashram in 1926. Influence by Americal Revolution, Italian unification and French revolution.
 	- Helped establish the Anushilan Samiti in 1902. His Brother was Barindra Ghosh.
 	- Published magazine called **Arya** and a poem called '**Savitri**'.
@@ -46,7 +46,7 @@
 - Savitribai Phule was India's 1st female teacher, wife of Jyotibha Phule she set up **Balhatya Pratibandhak Griha** as a shelter for widows in 1854
 - **Niccolo Manucci** an Italian traveler has given the description of Dara Shikoh and Aurangazeb's rivalry
 - Khudai Khidmatgars aligned with ==Congress in 1931==
-- [[The Moderates and Extremists#Gopal Krishna Gokhale 1866-1915|Gokhale]]
+- [[8.7 The Moderates and Extremists#Gopal Krishna Gokhale 1866-1915|Gokhale]]
 - **Pingali Venkayya** designed the Tricolor Flag, Lala Hans Raj Sondhi suggested adding spinning wheel later changed to Ashoka Chakra
 - **Govind Ballabh Pant** : estd Prem Sabha
 - **Patharughat** peasant uprising in Assam 1826

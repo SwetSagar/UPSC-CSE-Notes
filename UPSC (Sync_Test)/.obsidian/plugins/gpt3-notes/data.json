@@ -6,18 +6,6 @@
   "temperature": 10,
   "promptHistory": [
     {
-      "prompt": "Examine the role of guilds in the economic life of ancient India. ",
-      "processedPrompt": "Examine the role of guilds in the economic life of ancient India. ",
-      "temperature": 1,
-      "tokens": 750
-    },
-    {
-      "prompt": "How was overseas trade organized in South India up to 300 A.D.? Discuss this with special reference to Roman trade and point out its impact on Indian economy. Give examples also. ",
-      "processedPrompt": "How was overseas trade organized in South India up to 300 A.D.? Discuss this with special reference to Roman trade and point out its impact on Indian economy. Give examples also. ",
-      "temperature": 1,
-      "tokens": 750
-    },
-    {
       "prompt": "Write a short essay on: \"The role of guilds in the economic life of India from c. 200 B.C. to c. A.D. 300.\" Give the names of the guilds and then the describe their role.",
       "processedPrompt": "Write a short essay on: \"The role of guilds in the economic life of India from c. 200 B.C. to c. A.D. 300.\" Give the names of the guilds and then the describe their role.",
       "temperature": 1,
@@ -62,6 +50,18 @@
     {
       "prompt": "\"The revolution of 1760 (Bengal) was really no revolution.\" Comment.",
       "processedPrompt": "\"The revolution of 1760 (Bengal) was really no revolution.\" Comment.",
+      "temperature": 1,
+      "tokens": 750
+    },
+    {
+      "prompt": "Bring out the salient features of the polity & social structure of the Rajputs. To what extent were they responsible for the weakness of the Rajputs to the foreign invaders? 500 words.",
+      "processedPrompt": "Bring out the salient features of the polity & social structure of the Rajputs. To what extent were they responsible for the weakness of the Rajputs to the foreign invaders? 500 words.",
+      "temperature": 1,
+      "tokens": 750
+    },
+    {
+      "prompt": " Bring out the salient features of the polity & social structure of the Rajputs. To what extent were they responsible for the weakness of the Rajputs to the foreign invaders?",
+      "processedPrompt": " Bring out the salient features of the polity & social structure of the Rajputs. To what extent were they responsible for the weakness of the Rajputs to the foreign invaders?",
       "temperature": 1,
       "tokens": 750
     }

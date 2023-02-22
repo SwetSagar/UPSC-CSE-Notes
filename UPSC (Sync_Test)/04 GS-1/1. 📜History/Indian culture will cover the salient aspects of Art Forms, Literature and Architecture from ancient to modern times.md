@@ -33,7 +33,7 @@
 - Nov 11 is National Education Day birth Anniversary of Maulana Abul Kalam Azad
 - **Sattras** : monastic institutions created by Shankardeva, to promote worship through art
 - [[2.1 Philosophy#Ramanuja|Ramanuja]]
-- [[Social Reform movements viz Sati,Widow Remarriage,Child Marriage etc.#1.3.1 Jyotiba Phule|Jyoitba Phule]]
+- [[6.4 Social Reform movements viz Sati,Widow Remarriage,Child Marriage etc.#1.3.1 Jyotiba Phule|Jyoitba Phule]]
 - [[2.1 Philosophy#Basavanna]]
 - Swami Vivekanada
 	- 1893 Parliament of World Religion, Jan 12 birth celebrated as National Youth Day
@@ -60,7 +60,7 @@
 - Bodhisattva (Jataka Chakra) stucco sculpture found at **Phanigiri in Suryapet, Telangana**, Biggest ever 1.73mtr tall 35cm width dates to 1700 yrs ago of peak ==Ikshvaku dynasty==
 - Postage stamp for 750th birth anniversary of **Sri Vedanta Desikan** : Vaishnava guru/philosopher of post Ramanuja period was disciple of Kidambi Appullar.
 - [[2.1 Philosophy#Basavanna]]
-- [[Communalism and Politics of Partition#Veer Savarkar|Veer Savarkar]]
+- [[12.3 Communalism and Politics of Partition#Veer Savarkar|Veer Savarkar]]
 - **Maharshi Badrayan Vyas** was a philosopher wrote the basic text of the **Vedanta system**, the Vedāntasūtra a.k.a. Brahmasūtra systematizes and summarizes the philosophical and spiritual ideas in the Upanishads
 - Chardham highway #scheme by under **Mo EFCC** reps from various stakeholders connects sites of Badrinath, Kedarnath, Gangotri, and Yamunotri.
 - Kartarpur corridor : connects Gurudwara Kartarpur sahib PAK to Dera Baba Nanak in IN, [Guru Nanak](http://www.wikipedia.com/wiki/Guru_Nanak)'s 550th birthday.

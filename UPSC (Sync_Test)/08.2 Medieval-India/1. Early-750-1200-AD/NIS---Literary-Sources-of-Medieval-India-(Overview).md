@@ -1,11 +1,10 @@
 # NIS - Literary Sources of Medieval India (Overview)
+
 2020-04-29 22:10:44
 
 ---
 
-
-## Major Medieval History Works their writers/Literary Sources of Medieval India.
-
+## Major Medieval History Works Their writers/Literary Sources of Medieval India.
 
 | **Writer**              | **Book**                                 | **Details about**                                                                                     |
 |--------------------------|------------------------------------------|-------------------------------------------------------------------------------------------------------|
@@ -38,7 +37,3 @@
 | Mutamad Khan's           | **Iqbal Nama-i-Jahangiri**               | Gives a general history of the Mughals.                                                               |
 |                         | Maasir i Jahangir                        |                                                                                                      |
 | Abdul Hamid and others   | Padshah-Nama and Shah Jahan Nama         | detailed work of Shah Jahan with miniatures etc.                                                      |
-
-
-
-

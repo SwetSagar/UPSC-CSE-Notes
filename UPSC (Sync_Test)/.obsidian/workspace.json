@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2ee1a92a29f59d31",
+        "id": "99683f88b9abac09",
         "type": "tabs",
         "children": [
           {
-            "id": "c077f707b6f4f31f",
+            "id": "b35a5d6324524516",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07 GS-4/0. Human Interface and Ethics in Public Realtions/PYQ.md",
-                "mode": "preview",
+                "file": "08.4 World-History/12. Disintegration-of-USSR-Unipolar-World/12.3 End-of-the-Cold-War-and-US-ascendancy-in-the-World-as-the-lone-superpower.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -38,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "meiji",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -62,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334.5
+    "width": 277.5
   },
   "right": {
     "id": "5683b48c38d8adc9",
@@ -78,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07 GS-4/0. Human Interface and Ethics in Public Realtions/PYQ.md"
+                "file": "08.4 World-History/12. Disintegration-of-USSR-Unipolar-World/12.3 End-of-the-Cold-War-and-US-ascendancy-in-the-World-as-the-lone-superpower.md"
               }
             }
           },
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "07 GS-4/0. Human Interface and Ethics in Public Realtions/PYQ.md",
+                "file": "08.4 World-History/12. Disintegration-of-USSR-Unipolar-World/12.3 End-of-the-Cold-War-and-US-ascendancy-in-the-World-as-the-lone-superpower.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "07 GS-4/0. Human Interface and Ethics in Public Realtions/PYQ.md",
+                "file": "08.4 World-History/12. Disintegration-of-USSR-Unipolar-World/12.3 End-of-the-Cold-War-and-US-ascendancy-in-the-World-as-the-lone-superpower.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 367.1822509765625
+    "width": 333.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -233,17 +233,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c077f707b6f4f31f",
+  "active": "b35a5d6324524516",
   "lastOpenFiles": [
-    "07 GS-4/0. Human Interface and Ethics in Public Realtions/Ethics in Private and Public Relationships.md",
-    "06 GS-3/5. Security/1. Role of external state and non state actors in creating challenges to Internal Security.md",
-    "06 GS-3/5. Security/2. Security challeges and their management in border areas, Cyber Security, Money Laundering.md",
-    "06 GS-3/5. Security/3. Various security forces and Agencies and their mandate; Linkages of Organised Crime with Terrorism.md",
-    "05 GS-2/3. Social Justice/3.2 Issues Relating to development and management of Social Sector relating to Health, Education, HR; Issues Relating to Poverty and Hunger.md",
-    "05 GS-2/3. Social Justice/3.1 Welfare Schemes for vulnerable sections of the population by the centre and States and performance of these schemes, mechanisms, laws, institutions and bodies constituted for the protection and betterment of vulnerable sections..md",
-    "05 GS-2/1. Polity/1.2 Separation of Power between various organs, dispute redressal mechanisms. Judiciary.md",
-    "05 GS-2/1. Polity/1.1 Indian Constitution - historical underpinnings, evolution, features, amendments, significant provisions and basic structure, Devolution etc.md",
-    "05 GS-2/4. International Relations/4.2 Bilateral, Regional, Global Grouping(2).md",
-    "04 GS-1/🎨 Art and Culture Static Notes/Art and Culture NCERT and CCRT.md"
+    "08.4 World-History/12. Disintegration-of-USSR-Unipolar-World/12.2 Political Change in Eastern Europe 1989 2001.md",
+    "08.4 World-History/12. Disintegration-of-USSR-Unipolar-World/12.1 Factors leading to the Collapse of Soviet Communism and USSR (1985-1991).md",
+    "08.4 World-History/11. Unificaiton-of-Europe/11.3 European-Union.md",
+    "08.4 World-History/11. Unificaiton-of-Europe/PYQ.md",
+    "08.4 World-History/11. Unificaiton-of-Europe/11.2 Consolidation-and-Expansion-of-European-Community.md",
+    "08.4 World-History/11. Unificaiton-of-Europe/11.1 Post War Foundation - NATO and European Community.md",
+    "08.4 World-History/10. Decolonisation-and-Underdev/10.1 Factors-constraining-development---Latin-America,-Africa.md",
+    "08.4 World-History/9. Liberation-from-Colonial-Rule/9.4 South-East-Asia-Vietnam.md",
+    "08.4 World-History/9. Liberation-from-Colonial-Rule/9.3 Africa Apartheid to Democracy.md",
+    "08.4 World-History/9. Liberation-from-Colonial-Rule/9.2 Arab Wold Egypt.md"
   ]
 }
