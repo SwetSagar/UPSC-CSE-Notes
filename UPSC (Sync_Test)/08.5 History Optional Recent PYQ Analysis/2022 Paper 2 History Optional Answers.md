@@ -3,8 +3,9 @@ uid: f474a4832ae331f8dff2f8d4f810e688
 ---
 
 # Paper 2 Modern and World History
+
 01-12-2022 17:28
-#MainsPYQ #OptionalPYQ 
+#MainsPYQ #OptionalPYQ
 
 ---
 
@@ -40,7 +41,7 @@ uid: f474a4832ae331f8dff2f8d4f810e688
 (b)
 	- [[4.7 Impoverishment of Rural Society]]
 	- More needed
-(c) 
+(c)
 	- [[8.10 The beginning of Revolutionary Extremism in India]]
 	- [[11.1 The Revolutionaries]]
 ![[Pasted image 20221219141029.png]]
@@ -62,16 +63,15 @@ uid: f474a4832ae331f8dff2f8d4f810e688
 	- [[1.3 Rise of Socialist ideas (upto Marx) and Spread of Marxian Socialism#Karl Marx]]
 	- Engels part from SSH
 (c)
-	- https://www.britannica.com/topic/Napoleonic-Code
+	- <https://www.britannica.com/topic/Napoleonic-Code>
 (d)
-	- https://en.wikipedia.org/wiki/Roaring_Twenties
+	- <https://en.wikipedia.org/wiki/Roaring_Twenties>
 (e)
 	- [[2.5 British Democratic Politics (1815 1850)#Reform Act 1832]]
 
 ![[Pasted image 20221219145305.png]]
 
 (a)
-	- 
 (b)
 	- [[6.3 Fascist Counter Revolution in Italy and Germany#Fascist Counter Revolution in Italy and Germany]]
 (c)
@@ -84,7 +84,7 @@ uid: f474a4832ae331f8dff2f8d4f810e688
 (b)
 	- [[12.1 Factors leading to the Collapse of Soviet Communism and USSR (1985-1991)#Gorbachev's policies]]
 (c)
-	- Malaysia before, during and after WW2 https://factsanddetails.com/southeast-asia/Malaysia/sub5_4a/
+	- Malaysia before, during and after WW2 <https://factsanddetails.com/southeast-asia/Malaysia/sub5_4a/>
 
 ![[Pasted image 20221219170552.png]]
 (a)

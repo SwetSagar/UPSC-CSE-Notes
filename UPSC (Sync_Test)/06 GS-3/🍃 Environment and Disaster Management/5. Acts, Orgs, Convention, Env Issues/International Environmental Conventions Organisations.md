@@ -4,7 +4,7 @@
 | International Union for Conservation of Nature IUCN                                               | 1948                  |                                                                                                                                                                                                                       | - Red list of threatened         species <br>      - Observer and consultative         status at UN                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | Ramsar Convention                                                                                 | 1971                  | for the conservation and         sustainable          utilization    of wetlands                                                                                                                                      | -  aka Waterfowl convention<br>                - India is part               37 Ramsar sites in IN                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Stockholm Declaration                                                                             | 1972                  | International   protection of the environment                                                                                                                                                                         | - UNEP was the result of it <br>    - Also recognised poverty alleviation for protection of env                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Convention on International   Trade in Endangered species of Wild flora     and fauna (CITES)     | 1973                  | Control or prevent         international commercial trade in endangered          species    or products derived from them.                                                                                            | - Known as Washington   Convention  <br>   -           Legally binding but not take place of national laws  <br>        - Secretariat by UNEP  <br>            - App I (most endangered currently 931        listed) : prohibits trade except for scientific purpose <br>      - Appendix II may become threatened w/        extinction and look alike species export and re- export certificate        required no import permit req <br>      - Appx III : species that are regulated        by 1 country wants helps of other, trade allowed only on presentation of        appropriate permits/certificates <br>     - **The        International Consortium on Combating Wildlife Crime (ICCWC)** consortium of        CITES, INTERPOL, UNODC, WB, WCO was established tackle illegal trade <br>     **- CITES COP 18 2019** <br>           > Smooth Coated Otter,         Indian Star tortoise to Appx I, Tokay Gecko included in App II <br>      > Proposal to prohibit         Smooth Coated Otter and Small Clawed otter international trade <br>      > Proposal to remove         Rosewood from Appx II                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Convention on International   Trade in Endangered species of Wild flora     and fauna (CITES)     | 1973                  | Control or prevent         international commercial trade in endangered          species    or products derived from them.                                                                                            | - Known as Washington   Convention  <br>   -           Legally binding but not take place of national laws  <br>        - Secretariat by UNEP  <br>            - App I (most endangered currently 931        listed) : prohibits trade except for scientific purpose <br>      - Appendix II may become threatened w/        extinction and look alike species export and reexport certificate        required no import permit req <br>      - Appx III : species that are regulated        by 1 country wants helps of other, trade allowed only on presentation of        appropriate permits/certificates <br>     - **The        International Consortium on Combating Wildlife Crime (ICCWC)** consortium of        CITES, INTERPOL, UNODC, WB, WCO was established tackle illegal trade <br>     **- CITES COP 18 2019** <br>           > Smooth Coated Otter,         Indian Star tortoise to Appx I, Tokay Gecko included in App II <br>      > Proposal to prohibit         Smooth Coated Otter and Small Clawed otter international trade <br>      > Proposal to remove         Rosewood from Appx II                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | 'The Wildlife Trade Monitoring Network' aka TRAFFIC                                               | 1976                  | Wildlife   Trade monitoring Network                                                                                                                                                                                   | -  Alliance of WWF and IUCN <br>      - NGO HQ in Cambridge, UK <br>      - Close coop w/ CITES <br>      - 'Wanted Alive Campaign'         for Tiger, Leopard, Snow Leopard and Clouded Leopard <br>       - Helped form SAWEN South         Asia Wildlife Enforcement Network - an Intergov body established          in 2011 in Bhutan                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | World Conservation Strategy                                                                       | 1980                  |                                                                                                                                                                                                                       | Document for         implementation of conservation measures all over the world                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Nairobi Declaration                                                                               | 1982                  | for   achieving sustainable developments                                                                                                                                                                              | 10th anniversary of Stockholm          Strategies to achieve        sustainable dev up to year 2000                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
@@ -20,12 +20,12 @@
 | Convention on Biological   Diversity (CBD)                                                        | 1992                  | Three   main goals:          Conservation of biological        diversity (or biodiversity);      Sustainable use of its        components;      Sharing        the benefits of genetic resources fairly and equitably | Legally binding     ·           USA has signed but not ratified     ·           The two protocols to CBD are:                  (a) Cartagena   Protocol on Biosafety, 2000                  (b) Nagoya   Protocol (Biodiversity Accord), 2010                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | UNCCD                                                                                             | 1994                  | Convention   to Combat Desertification                                                                                                                                                                                | Headquarter: Bonn, Germany     ·           Only convention that came out from direct recommendations of Rio Agenda   21     ·         Legally Binding     ·           Canada withdrew                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | Oslo Protocol                                                                                     | 1994                  | Further   Reduction of Sulphur Emission                                                                                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Kyoto Protocol    (COP 3)                                                                         | 1997                  | to   fight global warming by reducing greenhouse gas concentrations                                                                                                                                                   | Negotiated under UNFCCC      ·            Came into force in 2005      ·            Binding targets to Annex I countries      ·            Mechanisms under protocol:                (a) Clean Development    Mechanism (CDM)                   (b) Emission Trading                   (c) Joint Implementation (JI)      ·            This protocol applies to follow GHGs (Annex A):                   (a) Carbon Dioxide (CO2)                   (b) Methane (CH4)                   (c) Nitrous Oxide (NO2)                   (d) Sulphur Hexafluoride (SF6)                   (e) Hydrofluorocarbons (HFCs)                   (f) Perfluorocarbons (PFCs)      ·           The Protocol is based on the principle of shared    (Common) but differentiated responsibilities.      ·           It places the obligation on developed countries to    reduce current emissions on the basis that they are historically responsible    for the current levels of greenhouse gases in the atmosphere.      ·            Annex I countries: industrialized countries and economies in transition      ·            Annex II countries: developed countries which pay for costs of developing    countries, Annex II is a subset of Annex I      ·            Non-Annex I countries: Developing countries      ·            India is Non-Annex party to UNFCC.      ·            There are two commitment periods                   (i) 2008 – 2012                   (ii) 2013 – 2020      Note: The second    commitment period was agreed on in 2012, known as the Doha Amendment to the protocol. |
+| Kyoto Protocol    (COP 3)                                                                         | 1997                  | to   fight global warming by reducing greenhouse gas concentrations                                                                                                                                                   | Negotiated under UNFCCC      ·            Came into force in 2005      ·            Binding targets to Annex I countries      ·            Mechanisms under protocol:                (a) Clean Development    Mechanism (CDM)                   (b) Emission Trading                   (c) Joint Implementation (JI)      ·            This protocol applies to follow GHGs (Annex A):                   (a) Carbon Dioxide (CO2)                   (b) Methane (CH4)                   (c) Nitrous Oxide (NO2)                   (d) Sulphur Hexafluoride (SF6)                   (e) Hydrofluorocarbons (HFCs)                   (f) Perfluorocarbons (PFCs)      ·           The Protocol is based on the principle of shared    (Common) but differentiated responsibilities.      ·           It places the obligation on developed countries to    reduce current emissions on the basis that they are historically responsible    for the current levels of greenhouse gases in the atmosphere.      ·            Annex I countries: industrialized countries and economies in transition      ·            Annex II countries: developed countries which pay for costs of developing    countries, Annex II is a subset of Annex I      ·            Non-Annex I countries: Developing countries      ·            India is Non-Annex party to UNFCC.      ·            There are two commitment periods                   (i) 2008–2012                   (ii) 2013–2020      Note: The second    commitment period was agreed on in 2012, known as the Doha Amendment to the protocol. |
 | Bamako Convention                                                                                 | 1998                  | Prohibit   import of hazardous waste into Africa                                                                                                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Aarhus Protocol                                                                                   | 1998                  | Persistent Organic Pollutants                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Rotterdam Convention                                                                              | 1998                  | Prior   Informed Consent Procedure for Certain   Hazardous     Chemicals and Pesticides in International   Trade                                                                                                      | UN Treaty                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | Gothenburg Protocol                                                                               | 1999                  | Acidification,   Eutrophication and Ground Level Ozone                                                                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Agreement on Conservation of African- Eurasian Migratory   Birds AEWA                             | 1999                  |                                                                                                                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Agreement on Conservation of AfricanEurasian Migratory   Birds AEWA                             | 1999                  |                                                                                                                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Cartagena Protocol                                                                                | 2000                  | Biosafety                                                                                                                                                                                                             | Protecting   biological diversity from potential risks   posed by living modified organisms resulting from modern biotechnology                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | United   Nations Forum on Forests (UNFF)                                                          | 2000                  |                                                                                                                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Stockholm Convention                                                                              | 2001                  | Eliminate   or restrict the production and use of persistent   organic pollutants(POPs)                                                                                                                               | UN Treaty     ·           US is not a party to this treaty     ·           Intergovernmental Forum on Chemical Safety   (IFCS) and the International Programme for Chemical Safety     (IPCS)   prepared a list, known as the Dirty   Dozen.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
@@ -36,306 +36,316 @@
 | Bali Summit                                                                                       | 2007                  | Climate   Change                                                                                                                                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Nagoya Protocol                                                                                   | 2010                  | Access   to genetic resources and a fair and equitable   sharing of benefits arising from their use of the Convention on   Biological Diversity                                                                       | It is   a supplementary agreement to the CBD.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | Rio+20                                                                                            | 2012                  | Conference   on Sustainable Development                                                                                                                                                                               | ·           20th Anniversary of Rio Earth   Summit 1992.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Paris Agreement (COP 21)                                                                          | 2015                  | Climate   Change                                                                                                                                                                                                      | It will come into force by 2020.     ·         Not legally binding.     Aims          This century, global        temperature rises well below 2 degrees Celsius above circa-industrial        level.      Pursue efforts to limit the        temperature upsurge even further to 5 degrees Celsius.              Indian NDCs     ·         Greenhouse gas emissions per unit of GDP- by 33 to   35 per cent below 2005 levels by the year 2030.     ·        By 2030, 40 percent of its energy   would be generated from non-fossil fuels     ·         Increase its forest cover to   create an additional carbon sink equivalent to 2.5 to 3 billion tons of   carbon dioxide by 2030.     Note: Recently the US   has withdrawn from it.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Paris Agreement (COP 21)                                                                          | 2015                  | Climate   Change                                                                                                                                                                                                      | It will come into force by 2020.     ·         Not legally binding.     Aims          This century, global        temperature rises well below 2 degrees Celsius above circa-industrial        level.      Pursue efforts to limit the        temperature upsurge even further to 5 degrees Celsius.              Indian NDCs     ·         Greenhouse gas emissions per unit of GDPby 33 to   35 per cent below 2005 levels by the year 2030.     ·        By 2030, 40 percent of its energy   would be generated from non-fossil fuels     ·         Increase its forest cover to   create an additional carbon sink equivalent to 2.5 to 3 billion tons of   carbon dioxide by 2030.     Note: Recently the US   has withdrawn from it.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Kigali Amendment                                                                                  | 2016                  | Reduce   Ozone Layer Depletion                                                                                                                                                                                        | - amends the 1987 Montreal   Protocol.     ·           <br> - aims to reduce Hydrofluorocarbons (HFCs) by   roughly 80-85 Percent by 2045 and expected to arrest global avg temp up to   0.5 C by 2100     ·           will be binding on member countries from 2019          Divided signatories in 3        groups             1st group of rich and dev         countries will reduce HFCs by 15% of 2012 level by 2036       Emerging economies reduce         20% of 2021 by 2045 start by 2024       Developing economies like         IN, PAK, KSA etc  reduce 15% of         2024-2026 level by 2047 start by 2028                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Minamata Convention                                                                               | 2017                  | Mercury                                                                                                                                                                                                               | -  Ban on new mercury mines,         phasing out existing ones <br> -      Phase out mercury use in         products and processes       <br> - Also addresses interim         storage, disposal <br>       - IN Ratified, excludes use         in Ayurvedic, Siddha and Unani medicines                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
-![[International Environmental ConventionsOrganisations 1.pdf]] 
+![[International Environmental ConventionsOrganisations 1.pdf]]
 
-## International Whaling Commission 1946
+# International Whaling Commission 1946
 
-- Prohibition on commercial whaling in 1986  
-- Iceland, Norway and Japan have withdrawn  
-- Intergov organisation  
-- Set up under International **Convention for Regulation of Whaling ICRW**  
+- Prohibition on commercial whaling in 1986
+- Iceland, Norway and Japan have withdrawn
+- Intergov organisation
+- Set up under International **Convention for Regulation of Whaling ICRW**
 - India is a mem
 
-## International Union for Conservation of Nature IUCN 1948
+# International Union for Conservation of Nature IUCN 1948
 
-- Red list of threatened species  
+- Red list of threatened species
 - Observer and consultative status at UN
 
-## Ramsar Convention 1971
+# Ramsar Convention 1971
 
 for the conservation and sustainable utilization of wetlands
 
-- aka Waterfowl convention  
+- aka Waterfowl convention
 - India is part 37 Ramsar sites in IN
 
-## Stockholm Declaration 1972
+# Stockholm Declaration 1972
 
 International protection of the environment
 
-- UNEP was the result of it  
+- UNEP was the result of it
 - Also recognised poverty alleviation for protection of env
 
-## Convention on International Trade in Endangered species of Wild flora and fauna (CITES) 1973
+# Convention on International Trade in Endangered Species of Wild Flora and Fauna (CITES) 1973
 
 Control or prevent international commercial trade in endangered species or products derived from them.
 
-- Known as Washington Convention  
-- Legally binding but not take place of national laws  
-- Secretariat by UNEP  
-- App I (most endangered currently 931 listed) : prohibits trade except for scientific purpose  
-- Appendix II may become threatened w/ extinction and look alike species export and re- export certificate required no import permit req  
-- Appx III : species that are regulated by 1 country wants helps of other, trade allowed only on presentation of appropriate permits/certificates  
-- **The International Consortium on Combating Wildlife Crime (ICCWC)** consortium of CITES, INTERPOL, UNODC, WB, WCO was established tackle illegal trade  
+- Known as Washington Convention
+- Legally binding but not take place of national laws
+- Secretariat by UNEP
+- App I (most endangered currently 931 listed) : prohibits trade except for scientific purpose
+- Appendix II may become threatened w/ extinction and look alike species export and reexport certificate required no import permit req
+- Appx III : species that are regulated by 1 country wants helps of other, trade allowed only on presentation of appropriate permits/certificates
+- **The International Consortium on Combating Wildlife Crime (ICCWC)** consortium of CITES, INTERPOL, UNODC, WB, WCO was established tackle illegal trade
 - CITES COP 18 2019
-> - Smooth Coated Otter, Indian Star tortoise to Appx I, Tokay Gecko included in App II  
-> - Proposal to prohibit Smooth Coated Otter and Small Clawed otter international trade  
+
+> - Smooth Coated Otter, Indian Star tortoise to Appx I, Tokay Gecko included in App II
+> - Proposal to prohibit Smooth Coated Otter and Small Clawed otter international trade
 > - Proposal to remove Rosewood from Appx II
 
-## 'The Wildlife Trade Monitoring Network' aka TRAFFIC 1976
+# 'The Wildlife Trade Monitoring Network' Aka TRAFFIC 1976
 
 Wildlife Trade monitoring Network
 
-- Alliance of WWF and IUCN  
-- NGO HQ in Cambridge, UK  
-- Close coop w/ CITES  
-- 'Wanted Alive Campaign' for Tiger, Leopard, Snow Leopard and Clouded Leopard  
+- Alliance of WWF and IUCN
+- NGO HQ in Cambridge, UK
+- Close coop w/ CITES
+- 'Wanted Alive Campaign' for Tiger, Leopard, Snow Leopard and Clouded Leopard
 - Helped form SAWEN South Asia Wildlife Enforcement Network - an Intergov body established in 2011 in Bhutan
 
-## World Conservation Strategy 1980
+# World Conservation Strategy 1980
+
 - Document for implementation of conservation measures all over the world
 
-## Nairobi Declaration 1982
+# Nairobi Declaration 1982
+
 - for achieving sustainable developments
 - 10th anniversary of Stockholm Strategies to achieve sustainable dev up to year 2000
 
-## Vienna convention 1985
-- for the protection of the ozone layer
+# Vienna Convention 1985
 
+- for the protection of the ozone layer
 - It does not include legally binding reduction goals Achieved universal ratification in 2009 Montreal Protocol, Kigali amend under it
 
-## International Tropical Timber Organization (ITTO) 1986
+# International Tropical Timber Organization (ITTO) 1986
 
-## Montreal Protocol 1987
+# Montreal Protocol 1987
 
 - To control Ozone-depleting Substances
-
-- It is a protocol to the Vienna Convention for the Protection of Ozone Layer · 
-- Universal treaty (Ratified by all UN countries) · 
-- Legally binding · 
-- Target only ozone depleting substances (Not GHG i.e. Hydro Fluorocarbons) 
+- It is a protocol to the Vienna Convention for the Protection of Ozone Layer ·
+- Universal treaty (Ratified by all UN countries) ·
+- Legally binding ·
+- Target only ozone depleting substances (Not GHG i.e. Hydro Fluorocarbons)
 - Led to phase out of 99% ozone depleting chemicals in refrigerators, AC's etc
 
-## Brundtland Report 1987
+# Brundtland Report 1987
 
 - Sustainable Development
 - gave the concept of "sustainable development"
 
-## Helsinki Declaration 1989
+# Helsinki Declaration 1989
 
 - Protection of Ozone layer
 - Encourage states to join Vienna Convention
 
-## Basel Convention 1989
+# Basel Convention 1989
 
 - Hazardous waste
 - Reduce movt of hazardous waste b/w countries Particularly transfer from developed to less dev
 
-## Earth Summit/ United Nations Conference on Environment and Development (UNCED)/ Rio Declaration 1992
+# Earth Summit/ United Nations Conference on Environment and Development (UNCED)/ Rio Declaration 1992
 
 - Environment conservation & Development
-- It had 27 principles Pledge to reduce current rate of biodiversity loss 
-- Resulted in the following documents Rio Dec on Env and Development Agenda 21 Forest Principles  
+- It had 27 principles Pledge to reduce current rate of biodiversity loss
+- Resulted in the following documents Rio Dec on Env and Development Agenda 21 Forest Principles
 - Three legally binding agreements were opened for signature (i) CBD (ii) UNFCCC (iii) UNCCD
 
-## Agenda 21 1992
+# Agenda 21 1992
 
 - Sustainable Development
-- product of Earth Summit, 1992 
+- product of Earth Summit, 1992
 - Non-binding
 
-## UNFCCC United Nations Framework Convention on Climate Change 1992
+# UNFCCC United Nations Framework Convention on Climate Change 1992
 
 - Reducing greenhouse gas emissions to combat global warming
-- Environmental treaty produced at the Earth Summit, 1992. 
+- Environmental treaty produced at the Earth Summit, 1992.
 - Secretariat: Bonn, Germany ·
--  Legally non-binding 
-- · Kyoto Protocol was negotiated under this framework 
-- COP 25 2019 Katowice, Poland 
-	- 'Chile Madrid Time for Action' Decl : to improve pledges to reduce greenhouse gas emission 
+- Legally non-binding
+- · Kyoto Protocol was negotiated under this framework
+- COP 25 2019 Katowice, Poland
+	- 'Chile Madrid Time for Action' Decl : to improve pledges to reduce greenhouse gas emission
 	- Disagreements on Carbon market : ie allowing buying and selling of carbon emission and Definition and composition of Climate Finances
 
-## Convention on Biological Diversity (CBD) 1992
+# Convention on Biological Diversity (CBD) 1992
 
-- Three main goals: 
-	- Conservation of biological diversity (or biodiversity); 
-	- Sustainable use of its components; 
+- Three main goals:
+	- Conservation of biological diversity (or biodiversity);
+	- Sustainable use of its components;
 	- Sharing the benefits of genetic resources fairly and equitably
-- Legally binding 
-- · USA has signed but not ratified 
-- · The two protocols to CBD are: 
-	- (a) [[#Cartagena Protocol 2000]] on Biosafety, 2000 
+- Legally binding
+- · USA has signed but not ratified
+- · The two protocols to CBD are:
+	- (a) [[#Cartagena Protocol 2000]] on Biosafety, 2000
 	- (b) [[#Nagoya Protocol 2010]] (Biodiversity Accord), 2010
 
-## UNCCD 1994
+# UNCCD 1994
+
 - Convention to Combat Desertification
-- Headquarter: Bonn, Germany · 
-- Only convention that came out from direct recommendations of Rio Agenda 21 · 
+- Headquarter: Bonn, Germany ·
+- Only convention that came out from direct recommendations of Rio Agenda 21 ·
 - Legally Binding · Canada withdrew
 
-## Oslo Protocol 1994
+# Oslo Protocol 1994
+
 - Further Reduction of Sulphur Emission
 
-## Kyoto Protocol (COP 3) 1997
+# Kyoto Protocol (COP 3) 1997
 
 - to fight global warming by reducing greenhouse gas concentrations
-
-- Negotiated under UNFCCC · 
-- Came into force in 2005 · 
-- Binding targets to Annex I countries · 
-- Mechanisms under protocol: 
-	- (a) Clean Development Mechanism (CDM) 
-	- (b) Emission Trading 
-	- (c) Joint Implementation (JI) · 
-- This protocol applies to follow GHGs (Annex A): 
-	- (a) Carbon Dioxide (CO2) 
-	- (b) Methane (CH4) 
-	- (c) Nitrous Oxide (NO2) 
-	- (d) Sulphur Hexafluoride (SF6) 
-	- (e) Hydrofluorocarbons (HFCs) 
-	- (f) Perfluorocarbons (PFCs) 
-- · The Protocol is based on the principle of shared (Common) but differentiated responsibilities. · 
-- It places the obligation on developed countries to reduce current emissions on the basis that they are historically responsible for the current levels of greenhouse gases in the atmosphere. 
-- · Annex I countries: industrialized countries and economies in transition · 
-- Annex II countries: developed countries which pay for costs of developing countries, 
-- Annex II is a subset of Annex I · 
+- Negotiated under UNFCCC ·
+- Came into force in 2005 ·
+- Binding targets to Annex I countries ·
+- Mechanisms under protocol:
+	- (a) Clean Development Mechanism (CDM)
+	- (b) Emission Trading
+	- (c) Joint Implementation (JI) ·
+- This protocol applies to follow GHGs (Annex A):
+	- (a) Carbon Dioxide (CO2)
+	- (b) Methane (CH4)
+	- (c) Nitrous Oxide (NO2)
+	- (d) Sulphur Hexafluoride (SF6)
+	- (e) Hydrofluorocarbons (HFCs)
+	- (f) Perfluorocarbons (PFCs)
+- · The Protocol is based on the principle of shared (Common) but differentiated responsibilities. ·
+- It places the obligation on developed countries to reduce current emissions on the basis that they are historically responsible for the current levels of greenhouse gases in the atmosphere.
+- · Annex I countries: industrialized countries and economies in transition ·
+- Annex II countries: developed countries which pay for costs of developing countries,
+- Annex II is a subset of Annex I ·
 - Non-Annex I countries: Developing countries · India is Non-Annex party to UNFCC. ·
--  There are two commitment periods (i) 2008 – 2012 (ii) 2013 – 2020 
+- There are two commitment periods (i) 2008–2012 (ii) 2013–2020
 - Note: The second commitment period was agreed on in 2012, known as the **Doha Amendment** to the protocol.
 
-## Bamako Convention 1998
+# Bamako Convention 1998
+
 - Prohibit import of hazardous waste into Africa
 
-## Aarhus Protocol 1998
+# Aarhus Protocol 1998
+
 - Persistent Organic Pollutants
 
-## Rotterdam Convention 1998
+# Rotterdam Convention 1998
+
 - Prior Informed Consent Procedure for Certain Hazardous Chemicals and Pesticides in International Trade
 - UN Treaty
 
-## Gothenburg Protocol 1999
+# Gothenburg Protocol 1999
+
 - Acidification, Eutrophication and Ground Level Ozone
 
-## Agreement on Conservation of African- Eurasian Migratory Birds AEWA 1999
-- [ ] 
+# Agreement on Conservation of AfricanEurasian Migratory Birds AEWA 1999
 
-## Cartagena Protocol 2000
+# Cartagena Protocol 2000
+
 - Biosafety
 - Protecting biological diversity from potential risks posed by living modified organisms resulting from modern biotechnology
 
-## United Nations Forum on Forests (UNFF) 2000
+# United Nations Forum on Forests (UNFF) 2000
 
-## Stockholm Convention 2001
+# Stockholm Convention 2001
 
 - Eliminate or restrict the production and use of persistent organic pollutants(POPs)
-- Was also called as UN Conference on Human Environment; 
-
+- Was also called as UN Conference on Human Environment;
 - UN Treaty
-- US is not a party to this treaty 
+- US is not a party to this treaty
 - Intergovernmental Forum on Chemical Safety (IFCS) and the International Programme for Chemical Safety (IPCS) prepared a list, known as the **Dirty Dozen.**
 - Its major reports are Emission Gap Report, Global Environment Outlook, Frontiers, Invest into Healthy Planet
 - Major Campaigns are : Beat pollution, UN75, World Environment Day, Wild for Life.
-- MARPOL was signed under it in 1973. 
+- MARPOL was signed under it in 1973.
 - CITES was signed in 1984. It is administered by UNEP
 - Regional Seas Program established 1974
 - 1976 Convention for the protection of Mediterranean Sea against pollution Barcelona Convention
 - 1979 States adopted Convention on Migratory Species aka Bonn Convention.
-- UNEP hosts secretariats of various bodies including 
-	- CBD 
+- UNEP hosts secretariats of various bodies including
+	- CBD
 	- Convention on international Trade and Endangered Species of Wild Fauna and Flora
 	- Minamata convention
-	- Basel, Rotterdam and Stockholm Convention  
+	- Basel, Rotterdam and Stockholm Convention
 	- Vienna Convention and Montreal Protocol
 	- Convention on Migratory Species
 	- Carpathian Convention
 	- Bamako Convention
-	- Tehran Convention 
+	- Tehran Convention
 
+# Johannesburg Declaration 2002
 
-## Johannesburg Declaration 2002
 - Sustainable Development
 
-## Carpathian Convention 2003
+# Carpathian Convention 2003
+
 - Sustainable Development of 7 European countries
 
-## REDD & REDD+ 2005
+# REDD & REDD+ 2005
 
 - Reducing emissions from deforestation and forest degradation in developing countries
-
-- Negotiated under UNFCCC since 2005. 
-- UN-REDD was launched in 2008. 
-- India did not participate in it. 
+- Negotiated under UNFCCC since 2005.
+- UN-REDD was launched in 2008.
+- India did not participate in it.
 - REDDD+ (Defined in Bali Action Plan, 2007, CoP13) ·
-	-  REDD+ extends to (a) Sustainable Forest Management (b) Conservation of Forests (c) Enhancement of carbon sinks
+	- REDD+ extends to (a) Sustainable Forest Management (b) Conservation of Forests (c) Enhancement of carbon sinks
 
-## Coalition Against Wildlife Trafficking (CAWT) 2005
-- [ ] 
+# Coalition Against Wildlife Trafficking (CAWT) 2005
 
-## Bali Summit 2007
+# Bali Summit 2007
+
 - Climate Change
 
-## Nagoya Protocol 2010
+# Nagoya Protocol 2010
 
 - Access to genetic resources and a fair and equitable sharing of benefits arising from their use of the Convention on Biological Diversity
 - It is a supplementary agreement to the CBD.
 
-## Rio+20 2012
+# Rio+20 2012
 
 - Conference on Sustainable Development
 - 20th Anniversary of Rio Earth Summit 1992.
 
-## Paris Agreement (COP 21) 2015
+# Paris Agreement (COP 21) 2015
 
 - Climate Change
-- It will come into force by 2020. 
-- Not legally binding. 
-- Aims : 
-	- This century, global temperature rises well below 2 degrees Celsius above circa-industrial level. 
-	- Pursue efforts to limit the temperature upsurge even further to 5 degrees Celsius. 
-- Indian NDCs 
-	- Greenhouse gas emissions per unit of GDP- by 33 to 35 per cent below 2005 levels by the year 2030. 
-	- By 2030, 40 percent of its energy would be generated from non-fossil fuels 
-	- Increase its forest cover to create an additional carbon sink equivalent to 2.5 to 3 billion tons of carbon dioxide by 2030. 
+- It will come into force by 2020.
+- Not legally binding.
+- Aims :
+	- This century, global temperature rises well below 2 degrees Celsius above circa-industrial level.
+	- Pursue efforts to limit the temperature upsurge even further to 5 degrees Celsius.
+- Indian NDCs
+	- Greenhouse gas emissions per unit of GDPby 33 to 35 per cent below 2005 levels by the year 2030.
+	- By 2030, 40 percent of its energy would be generated from non-fossil fuels
+	- Increase its forest cover to create an additional carbon sink equivalent to 2.5 to 3 billion tons of carbon dioxide by 2030.
 - Note: Recently the US has withdrawn from it.
 
-## Kigali Amendment 2016
+# Kigali Amendment 2016
 
 - Reduce Ozone Layer Depletion
-- amends the 1987 Montreal Protocol. 
-- aims to reduce Hydrofluorocarbons (HFCs) by roughly 80-85 Percent by 2045 and expected to arrest global avg temp up to 0.5 C by 2100 
-- will be binding on member countries from 2019 
-- Divided signatories in 3 groups 
-	- 1st group of rich and dev countries will reduce HFCs by 15% of 2012 level by 2036 
-	- Emerging economies reduce 20% of 2021 by 2045 start by 2024 
+- amends the 1987 Montreal Protocol.
+- aims to reduce Hydrofluorocarbons (HFCs) by roughly 80-85 Percent by 2045 and expected to arrest global avg temp up to 0.5 C by 2100
+- will be binding on member countries from 2019
+- Divided signatories in 3 groups
+	- 1st group of rich and dev countries will reduce HFCs by 15% of 2012 level by 2036
+	- Emerging economies reduce 20% of 2021 by 2045 start by 2024
 	- Developing economies like IN, PAK, KSA etc reduce 15% of 2024-2026 level by 2047 start by 2028
 
-## Minamata Convention 2017
+# Minamata Convention 2017
 
 - Mercury
-- Ban on new mercury mines, phasing out existing ones  
-- Phase out mercury use in products and processes  
-- Also addresses interim storage, disposal  
+- Ban on new mercury mines, phasing out existing ones
+- Phase out mercury use in products and processes
+- Also addresses interim storage, disposal
 - IN Ratified, excludes use in Ayurvedic, Siddha and Unani medicines
 
-## International Tropical Timber Organisation ITTO
-- Estd 1983 
-- commodity org brings together producer and consumer to discuss and exchange info and dev policies 
+# International Tropical Timber Organisation ITTO
+
+- Estd 1983
+- commodity org brings together producer and consumer to discuss and exchange info and dev policies
 - 59 mem countires including IN
 
-## International Network for Bamboo and Rattan INBAR
-- estd 1997  to inc socio economic  and environmental benefit of bamboo and rattan
-- connects govt, private orgs and NPOs 
+# International Network for Bamboo and Rattan INBAR
+
+- estd 1997 to inc socio economic and environmental benefit of bamboo and rattan
+- connects govt, private orgs and NPOs
 - IN is a mem out of 34 mem
 - has undertaken various studies in Orissa, Mizoram, Manipur, Tripura, Uttarakhand etc
 
-## Asia Pacific Forestry Commission APFC
+# Asia Pacific Forestry Commission APFC
+
 - one of the 6 commission of FAO
 - estd to provide forum for discussion at regional level b/w Govts, NGOs, local orgs, private sector.
 - IN is founding mem has hosted 2 session.
 
-## Asia Pacific Forest Invasice Species Newtwork APFISN
+# Asia Pacific Forest Invasice Species Newtwork APFISN
+
 - sharing info and awareness on threats from forest invasive species
-- estd in 2003 
+- estd in 2003

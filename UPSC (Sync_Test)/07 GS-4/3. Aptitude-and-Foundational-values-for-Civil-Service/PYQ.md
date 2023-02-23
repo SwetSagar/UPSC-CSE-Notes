@@ -39,7 +39,7 @@ Moreover, impartiality and non-partisanship enable civil servants to carry out t
 
 ```
 
-2. Besides domain knowledge, a public official needs innovativeness and creativity of a high order as well, while resolving ethical dilemmas. Discuss with a suitable example. (नैतिक दविु धाओ का समाधान ं
+1. Besides domain knowledge, a public official needs innovativeness and creativity of a high order as well, while resolving ethical dilemmas. Discuss with a suitable example. (नैतिक दविु धाओ का समाधान ं
 करते समय एक लोक अधिकारी को कार्यक्त्र के ज् षे ञान के अलावा नव परिवर्तनशीलता और उच्च क्रम की रचनात्मकता की भी आवश्यकता होती है। उपयुक्त
 उदाहरण सहित विवेचन कीजिए।) 2021
 
@@ -122,7 +122,7 @@ To prevent non-ethical behavior in public servants, organizations can implement 
 
 ```
 
-2. What do you understand by the term ‘public servant’? Reflect on the expected role of a public servant. ('लोक सेवक' शब्द से आप क्या समझते हैं ? लोक सेवक की प्रत्याशित भूमिका पर विचार कीजिए।) 2019
+1. What do you understand by the term ‘public servant’? Reflect on the expected role of a public servant. ('लोक सेवक' शब्द से आप क्या समझते हैं ? लोक सेवक की प्रत्याशित भूमिका पर विचार कीजिए।) 2019
 
 ```ad-Answer
 
@@ -178,7 +178,7 @@ To prevent non-ethical behavior in public servants, it is important to inculcate
 
 ```
 
-2. What is mean by public interest? What are the principles and procedures to be followed by the civil servants in public interest? (लोकहित से क्या अभिप्राय है ? सिबिल कर्मचारियो द्ं वारा लोकहित में कौन-कौन से सिद्धांतो और ंकार्यविधियो का अनुसरण ं किया जाना चाहिए?) 2018
+1. What is mean by public interest? What are the principles and procedures to be followed by the civil servants in public interest? (लोकहित से क्या अभिप्राय है ? सिबिल कर्मचारियो द्ं वारा लोकहित में कौन-कौन से सिद्धांतो और ंकार्यविधियो का अनुसरण ं किया जाना चाहिए?) 2018
 
 ```ad-Answer
 
@@ -208,7 +208,7 @@ Principles for civil servants to follow in public interest include:
 
 ```
 
-8. State the three basic values, universal in nature, in the context of civil services and bring out their importance. (सिविल सेवाओ के सं द ं र्भ में सार्विक प्रकृति के , तीन आधारिक मूल्यों का क ्यों थन कीजिए और उनके महत्त्व को उजागर
+1. State the three basic values, universal in nature, in the context of civil services and bring out their importance. (सिविल सेवाओ के सं द ं र्भ में सार्विक प्रकृति के , तीन आधारिक मूल्यों का क ्यों थन कीजिए और उनके महत्त्व को उजागर
 कीजिए।) 2018
 
 ```ad-Answer
@@ -223,7 +223,7 @@ Accountability is the third key value in the civil service as it involves being 
 
 ```
 
-9. Examine the relevance of the following in the context of civil service: (a) Transparency (b)
+1. Examine the relevance of the following in the context of civil service: (a) Transparency (b)
 Accountability (c) Fairness and justice (d) Courage of conviction (e) Spirit of service. (सिविल सेवा
 के सं दर्भ में निम्नलिखित की प्रासं गिकता का परीक्षण कीजिए : (a) पारदर्शिता (b) जवाबदेही (c) निष्पक्षता तथा न्याय (d) दृढ़ विश्वास का साहस सेवा
 भाव) 2017
@@ -262,7 +262,7 @@ Accountability (c) Fairness and justice (d) Courage of conviction (e) Spirit of 
 
 ```
 
-10. One of the tests of integrity is complete refusal to be compromised. Explain with reference to a real life example. (समझौते से पूर्ण रूप से इनकार करना सत्यनिष्ठा की एक परख है । इस सं दर्भ में वास्तविक जीवन से उदाहरण देते हुए
+1. One of the tests of integrity is complete refusal to be compromised. Explain with reference to a real life example. (समझौते से पूर्ण रूप से इनकार करना सत्यनिष्ठा की एक परख है । इस सं दर्भ में वास्तविक जीवन से उदाहरण देते हुए
 व्याख्या कीजिए।) 2017
 
 ```ad-Answer
@@ -310,7 +310,7 @@ Example: A public servant is appointed as the chief procurement officer of a gov
 
 ```
 
-12. Why should impartiality and non-partisanship be considered as foundational values in public services, especially in the present day socio-political context? Illustrate your answer with examples. (क्या कारण है कि निष्पक्षता और अपक्षपातीयता को लोक सेवाओ में, ं विशेषकर वर्तमान सामाजिक-राजनीतिक सं दर्भ में, आधारभूत मूल्य समझना चाहिए ? अपने उत्तर को उदाहरणो के सा ं थ सुस्पष्ट कीजिए।) 2016
+1. Why should impartiality and non-partisanship be considered as foundational values in public services, especially in the present day socio-political context? Illustrate your answer with examples. (क्या कारण है कि निष्पक्षता और अपक्षपातीयता को लोक सेवाओ में, ं विशेषकर वर्तमान सामाजिक-राजनीतिक सं दर्भ में, आधारभूत मूल्य समझना चाहिए ? अपने उत्तर को उदाहरणो के सा ं थ सुस्पष्ट कीजिए।) 2016
 
 ```ad-Answer
 
@@ -428,7 +428,7 @@ II. An act that is legally right, but not ethically:
 
 ```
 
-1. Two different kinds of attitudes exhibited by public servants towards their work have been identified as the bureaucratic attitude and the democratic attitude. a) Distinguish between these two terms and write their merits and demerits. b) Is it possible to balance the two to create a better administration for the faster development of our country? 
+1. Two different kinds of attitudes exhibited by public servants towards their work have been identified as the bureaucratic attitude and the democratic attitude. a) Distinguish between these two terms and write their merits and demerits. b) Is it possible to balance the two to create a better administration for the faster development of our country?
 
 - (लोक सेवको की अपने का ं र्य के प्रति प्रदर्शित दो अलग-अलग प्रकारो की अ ं भिवृत्तियो की पहचान अ ं धिकारीतंत्रीय अभिवृत्ति और लोकतांत्रिक अभिवृत्ति के रूप में की गई है। a) इन दो पदो के बीच ं विभेदन कीजिए और उनके गुणो-अवगुणो ं को बताइए। ं b) अपने देश का तेजी से विकास की दृष्टि से बेहतर प्रशासन के निर्माण के लिए क्योनो में सं तुलन स् ं थापित करना सं भव है?) 2015
 
@@ -478,7 +478,7 @@ While both bureaucratic and democratic attitudes have their strengths and weakne
 
 ```
 
-17. What does 'accountability' mean in the context of public service? What measures can be adopted to ensure individual and collective accountability of public servants? (लोक-सेवा के सं दर्भ में ‘जवाबदेही’ का क्या अर्थ हैं? लोक-सेवको की व्यक्तिगत और सामूह ं िक जवाबदेही को सुनिश्चित करने के लिए क्या उपाय अपनाए जा सकते है?) 2014
+1. What does 'accountability' mean in the context of public service? What measures can be adopted to ensure individual and collective accountability of public servants? (लोक-सेवा के सं दर्भ में ‘जवाबदेही’ का क्या अर्थ हैं? लोक-सेवको की व्यक्तिगत और सामूह ं िक जवाबदेही को सुनिश्चित करने के लिए क्या उपाय अपनाए जा सकते है?) 2014
 
 ```ad-Answer
 
@@ -505,7 +505,7 @@ By implementing these measures, public service organizations can ensure that pub
 
 ```
 
-18. Integrity without knowledge is weak and useless, but knowledge without integrity is dangerous and dreadful. What do you understand by this statement? Explain your stand with illustrations from the modern context. (‘‘ज्ञान के बिना ईमानदारी कमजोर और व्यर्थ है, परन् ईमानदारी के तु बिना ज्ञान ऽतरनाक और भयानक होता हैं।’’ इस कथन से आप क्या समझते हैं? आधुनिक सं दर्भ से उदाहरण लेते हुए अपने अभिमत को स्पष्ट कीजिए।) 2014
+1. Integrity without knowledge is weak and useless, but knowledge without integrity is dangerous and dreadful. What do you understand by this statement? Explain your stand with illustrations from the modern context. (‘‘ज्ञान के बिना ईमानदारी कमजोर और व्यर्थ है, परन् ईमानदारी के तु बिना ज्ञान ऽतरनाक और भयानक होता हैं।’’ इस कथन से आप क्या समझते हैं? आधुनिक सं दर्भ से उदाहरण लेते हुए अपने अभिमत को स्पष्ट कीजिए।) 2014
 
 ```ad-Answer
 
@@ -570,7 +570,7 @@ Personal opinion is the subjective judgment of an individual regarding a particu
 
 ```
 
-21. Indicate two more attributes which you consider important for public service. Justify your answer. (दो ऐसे अन्य गुण बताइए जिन्हें आप लोक सेवा के लिए महत्त्वपूर्ण समझते हैं। अपने उत्तर का औचित्य समझाइए। ) 2013
+1. Indicate two more attributes which you consider important for public service. Justify your answer. (दो ऐसे अन्य गुण बताइए जिन्हें आप लोक सेवा के लिए महत्त्वपूर्ण समझते हैं। अपने उत्तर का औचित्य समझाइए। ) 2013
 
 ```ad-Answer
 
@@ -618,4 +618,4 @@ Finally, the politicization of bureaucracy has led to a decrease in the ethical 
 
 ## References
 
-[^1] 
+[^1]

@@ -3,88 +3,86 @@ uid: a4d75ea3ec6c0bd27c2a3ad6e9a84442
 ---
 
 # 2nd ARC 4th Report - Ethics in Governance
+
 2020-10-30 13:10:57
-            
+
+
 ---
 
--   Partial state funding to reduce scope of illegitimate and unnecessary funding of expenditure
--   Disqualification of mem on grounds of defection should be decided by President/ Governor on the ECI
--   Section 8 of the RPA needs to amended to disqualify all persons facing charges related to grave and heinous crimes
--   Constitution should be amended if parties realign midstream elections then members of the party should have to seek a fresh mandate
--   For the Appointment of CEC collegium headed by Speaker of LS, Leader of Opposition in Lok Sabha, Law Minister, Deputy Chairman of the RS
--   Special Election Tribunals - to ensure speedy disposal of election petition within 6 months
--   Each Tribunal should comprise HC Judge, senior civil servant with at least 5 years of experience
--   All election petitions are decided within 6 months, tribunal should be set up for a term of 1 year only
--   legislation - spelling out condition for disqualification of mem of parliament - it should be clear and exhaustive
--   Code of Ethics for ministers
-    -   Dedicated unit in PMO monitoring of Code of Ethics
--   Serving official should not be appointed in Boards of Public Undertaking
--   Legal Framework Fighting Corruption following should be classified as offence
-    -   Gross perversion of Constitution and Democratic institution
-    -   Abuse of authority to harm someone
-    -   Obstruction of Justice, Squandering Public money,
-    -   Section 7 of PCA should be amended include collusive bribery w/ double the punishment
--   Public servants who cause loss to state or citizens should be made liable to pay for the damages
--   Speeding up of Trials
-    -   Legal provision needs to be introduced fixing time limit for various stages trials
-    -   Judges should be declared as special judges, give primary attention to disposal of cases
-    -   If there is inadequate work, special judges then be given other responsibility
-    -   Proceedings of courts trying cases under PCA held on day to day basis
-    -   Supreme Court and HC may lay down guidelines to preclude unwarranted adjournments and avoid delays
--   PCA should include private sector, NGO getting substantial funding should be covered
--   Confiscation of properties illegally acquired by corrupt means
--   Serious Economic Offences
-    -   New law on SEO should be enacted
-    -   Serious Fraud Monitoring Committee should be constituted
-    -   In case of involvement of any public functionaries SFO shall send report to Lokayukta
-    -   In all cases serious frauds and burden of proof regarding non-existence shall lie on accused
--   Immunity Enjoyed by Legislatures should not cover corrupt acts
--   Local bodies ombudsman should be constituted for a group of districts to investigate cases, Ombudsman should be constituted for group of districts to investigate cases, local bodies should be empowered to investigate cases of corruption
--   Civil society engagements to fight corruption -
-    -   Invite civil societies, enforce access to info
-    -   Hold integrity workshops, survey and asses public service delivery periodically
-    -   Incorporate corruption as subject in education curriculum
--   Rating of Public Offices
-    -   Involve citizens, database of all visitors maintained
--   Initiatives for facilitating citizen participation
-    -   Rewards sys for reporting cases of corruption
-    -   School awareness programs, Citizens may be involved in assessment of ethics
-    -   Reward Schemes should be introduced
--   Legislation on False claims, any citizen should be able to bring a suit, in false claim status then 5x times penalty
--   Screening all allegation of complaints, e-media should evolve a code of Conduct, to safeguard against mala-fide action
--   To fight corruption necessary to form broad based consensus
--   Build consensus by political parties to fight against corruption
--   Each ministry department, similar exercise done at level of state govt,
--   centrally sponsored schemes can be restructured to provide incentives to states
--   System of rewards and incentives, punishment for delay
--   Draw plans to using IT, identify Gov processes and take their computerisation
--   Integrity pacts, Mo Finance may constitute a Task Force
--   Reducing Corruption
-    -   Interface to review their activities
-    -   Attempt be made to eliminate discretion
-    -   Decision making be assigned to committee
-    -   State Govt should take steps on similar lines
--   Supervision
-    -   supervisory roles of officers needs to be re-emphasised
-    -   Each supervisory officer should carefully analyse, all major instances of loss should be
-    -   Annual Performance Report of each officer
-    -   Supervisory officers should ensure officers under them pursue suo-moto disclosure of info
--   Ensuring Accessibility and Responsiveness
-    -   Service providers should converge their activities, task be divided to different persons
-    -   Public interaction be limited to designated officers
--   Reform Civil Services -
-    -   Transform adm system for clear assignment of duty, in built system of rewards and punishment
--   Risk Mgt for Preventive Vigilance
-    -   Risk profiling be done in systematic and institutionalised manner
-    -   Risk profiling be done by com of eminent person
--   Proactive Vigilance on Corruption - national database of all corruption details by a specific authority
--   Relationship b/w Political Executive and Permanent Civil Service -
-    -   Discourage frequent transfers, min tenure of posting be predetermined
-    -   Reasons for premature transfers be spelt out in orders itself
-    -   Transfers must not be mis-utilised
-    -   Check influence of minister influence in day to day life
-    -   Necessary to spell out relationship b/w Political executive and bureaucracy
-
-
-
-
+- Partial state funding to reduce scope of illegitimate and unnecessary funding of expenditure
+- Disqualification of mem on grounds of defection should be decided by President/ Governor on the ECI
+- Section 8 of the RPA needs to amended to disqualify all persons facing charges related to grave and heinous crimes
+- Constitution should be amended if parties realign midstream elections then members of the party should have to seek a fresh mandate
+- For the Appointment of CEC collegium headed by Speaker of LS, Leader of Opposition in Lok Sabha, Law Minister, Deputy Chairman of the RS
+- Special Election Tribunals - to ensure speedy disposal of election petition within 6 months
+- Each Tribunal should comprise HC Judge, senior civil servant with at least 5 years of experience
+- All election petitions are decided within 6 months, tribunal should be set up for a term of 1 year only
+- legislation - spelling out condition for disqualification of mem of parliament - it should be clear and exhaustive
+- Code of Ethics for ministers
+    - Dedicated unit in PMO monitoring of Code of Ethics
+- Serving official should not be appointed in Boards of Public Undertaking
+- Legal Framework Fighting Corruption following should be classified as offence
+    - Gross perversion of Constitution and Democratic institution
+    - Abuse of authority to harm someone
+    - Obstruction of Justice, Squandering Public money,
+    - Section 7 of PCA should be amended include collusive bribery w/ double the punishment
+- Public servants who cause loss to state or citizens should be made liable to pay for the damages
+- Speeding up of Trials
+    - Legal provision needs to be introduced fixing time limit for various stages trials
+    - Judges should be declared as special judges, give primary attention to disposal of cases
+    - If there is inadequate work, special judges then be given other responsibility
+    - Proceedings of courts trying cases under PCA held on day to day basis
+    - Supreme Court and HC may lay down guidelines to preclude unwarranted adjournments and avoid delays
+- PCA should include private sector, NGO getting substantial funding should be covered
+- Confiscation of properties illegally acquired by corrupt means
+- Serious Economic Offences
+    - New law on SEO should be enacted
+    - Serious Fraud Monitoring Committee should be constituted
+    - In case of involvement of any public functionaries SFO shall send report to Lokayukta
+    - In all cases serious frauds and burden of proof regarding non-existence shall lie on accused
+- Immunity Enjoyed by Legislatures should not cover corrupt acts
+- Local bodies ombudsman should be constituted for a group of districts to investigate cases, Ombudsman should be constituted for group of districts to investigate cases, local bodies should be empowered to investigate cases of corruption
+- Civil society engagements to fight corruption -
+    - Invite civil societies, enforce access to info
+    - Hold integrity workshops, survey and asses public service delivery periodically
+    - Incorporate corruption as subject in education curriculum
+- Rating of Public Offices
+    - Involve citizens, database of all visitors maintained
+- Initiatives for facilitating citizen participation
+    - Rewards sys for reporting cases of corruption
+    - School awareness programs, Citizens may be involved in assessment of ethics
+    - Reward Schemes should be introduced
+- Legislation on False claims, any citizen should be able to bring a suit, in false claim status then 5x times penalty
+- Screening all allegation of complaints, e-media should evolve a code of Conduct, to safeguard against mala-fide action
+- To fight corruption necessary to form broad based consensus
+- Build consensus by political parties to fight against corruption
+- Each ministry department, similar exercise done at level of state govt,
+- centrally sponsored schemes can be restructured to provide incentives to states
+- System of rewards and incentives, punishment for delay
+- Draw plans to using IT, identify Gov processes and take their computerisation
+- Integrity pacts, Mo Finance may constitute a Task Force
+- Reducing Corruption
+    - Interface to review their activities
+    - Attempt be made to eliminate discretion
+    - Decision making be assigned to committee
+    - State Govt should take steps on similar lines
+- Supervision
+    - supervisory roles of officers needs to be re-emphasised
+    - Each supervisory officer should carefully analyse, all major instances of loss should be
+    - Annual Performance Report of each officer
+    - Supervisory officers should ensure officers under them pursue suo-moto disclosure of info
+- Ensuring Accessibility and Responsiveness
+    - Service providers should converge their activities, task be divided to different persons
+    - Public interaction be limited to designated officers
+- Reform Civil Services -
+    - Transform adm system for clear assignment of duty, in built system of rewards and punishment
+- Risk Mgt for Preventive Vigilance
+    - Risk profiling be done in systematic and institutionalised manner
+    - Risk profiling be done by com of eminent person
+- Proactive Vigilance on Corruption - national database of all corruption details by a specific authority
+- Relationship b/w Political Executive and Permanent Civil Service -
+    - Discourage frequent transfers, min tenure of posting be predetermined
+    - Reasons for premature transfers be spelt out in orders itself
+    - Transfers must not be mis-utilised
+    - Check influence of minister influence in day to day life
+    - Necessary to spell out relationship b/w Political executive and bureaucracy

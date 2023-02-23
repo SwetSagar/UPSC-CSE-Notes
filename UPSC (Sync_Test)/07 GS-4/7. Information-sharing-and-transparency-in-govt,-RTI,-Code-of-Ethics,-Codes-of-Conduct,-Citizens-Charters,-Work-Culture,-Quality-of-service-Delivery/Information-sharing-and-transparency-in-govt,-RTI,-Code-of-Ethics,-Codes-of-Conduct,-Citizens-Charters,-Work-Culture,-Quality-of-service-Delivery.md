@@ -2,7 +2,8 @@
 uid: ba141d20e178670ab43e6cd6c9c9af85
 ---
 
-# Information sharing and transparency in govt, RTI, Code of Ethics, Codes of Conduct, Citizens Charters, Work Culture, Quality of service Delivery
+# Information Sharing and Transparency in Govt, RTI, Code of Ethics, Codes of Conduct, Citizens Charters, Work Culture, Quality of Service Delivery
+
 2020-10-21 16:53:25
 
 ---
@@ -13,10 +14,10 @@ uid: ba141d20e178670ab43e6cd6c9c9af85
 
 ![[2.1 Governance, Transparency, E-Governance#Citizens charters, transparency, accountability and institutional and other measures]]
 
-Codes of Conduct :  
+Codes of Conduct :
 
-Work Culture : 
+Work Culture :
 
-Quality of Service Delivery : 
+Quality of Service Delivery :
 
 ![[OSA_Hindu.pdf]]

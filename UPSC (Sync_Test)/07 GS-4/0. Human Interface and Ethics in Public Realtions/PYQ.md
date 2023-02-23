@@ -194,8 +194,7 @@ These examples demonstrate how ethical considerations can drive positive change 
 
 ```
 
-
-2. Law and ethics are considered to be the two tools for controlling human conduct so as to make it conducive to civilized social existence. (a) Discuss how they achieve this objective. (b) Giving examples, show how the two differ in their approaches. (विधि एवं आचारनीति मानव आचरण को नियन्त ्रित करने वाले दो उपकरण माने जाते हैं ताकि आचरण को सभ्य सामाजिक अस्तित्व के लिए सहायक बनाया जा सके । (a) चर्चा कीजिए कि वे इस उद्देश्य की किस प्रकार पूर्ति करते हैं । (b) उदाहरण देते हुए यह बताइए कि ये दोनों अपने उपागमों में किस प्रकार एक-दसरे से भिन्न हैं।) 2016
+1. Law and ethics are considered to be the two tools for controlling human conduct so as to make it conducive to civilized social existence. (a) Discuss how they achieve this objective. (b) Giving examples, show how the two differ in their approaches. (विधि एवं आचारनीति मानव आचरण को नियन्त ्रित करने वाले दो उपकरण माने जाते हैं ताकि आचरण को सभ्य सामाजिक अस्तित्व के लिए सहायक बनाया जा सके । (a) चर्चा कीजिए कि वे इस उद्देश्य की किस प्रकार पूर्ति करते हैं । (b) उदाहरण देते हुए यह बताइए कि ये दोनों अपने उपागमों में किस प्रकार एक-दसरे से भिन्न हैं।) 2016
 
 ```ad-Answer
 
@@ -287,7 +286,7 @@ Professional ethics, on the other hand, refers to the moral principles and value
 
 ```
 
-2. Human beings should always be treated as 'ends' in themselves and never as merely 'means'. Explain the meaning and significance of this statement, giving its implications in the modern techno-economic society. (‘मनुष्यों के साथ सदैव उनको, अपने-आप में ‘लक्ष्य’ मानकर व्यवहार करना चाहिए, कभी भी उनको केवल ‘साधन’ नहीं मानना चाहिए।’’ आधुनिक तकनीकी-आर्थिक समाज में इस कथन के निहितार्थों का उल्लेख करते हुए इसका अर्थ और महत्व स्पष्ट कीजिए।) 2014
+1. Human beings should always be treated as 'ends' in themselves and never as merely 'means'. Explain the meaning and significance of this statement, giving its implications in the modern techno-economic society. (‘मनुष्यों के साथ सदैव उनको, अपने-आप में ‘लक्ष्य’ मानकर व्यवहार करना चाहिए, कभी भी उनको केवल ‘साधन’ नहीं मानना चाहिए।’’ आधुनिक तकनीकी-आर्थिक समाज में इस कथन के निहितार्थों का उल्लेख करते हुए इसका अर्थ और महत्व स्पष्ट कीजिए।) 2014
 
 ```ad-Answer
 
@@ -305,7 +304,7 @@ Kantian Imperative is an important concept in modern ethics, and its implication
 
 ```
 
-14. What do you understand by 'values' and 'ethics'? In what way is it important to be ethical along with being professionally competent? (‘मूल्यों व ‘नैतिकताओं’ से आप क्या समझते हैं? व्यावसायिक सक्षमता के साथ नैतिक भी होना किस प्रकार महत्त्वपूर्ण है?) 2013
+1. What do you understand by 'values' and 'ethics'? In what way is it important to be ethical along with being professionally competent? (‘मूल्यों व ‘नैतिकताओं’ से आप क्या समझते हैं? व्यावसायिक सक्षमता के साथ नैतिक भी होना किस प्रकार महत्त्वपूर्ण है?) 2013
 
 ```ad-Answer
 
@@ -323,7 +322,7 @@ In conclusion, values and ethics are two closely related concepts that are essen
 
 ```
 
-16. Some people feel that values keep changing with time and situation, while others strongly believe that there are certain universal and eternal human values. Give your perception in this regard with due justification. (कुछ लोगों का मानना है कि मूल्य समय और परिस् थिति के साथ बदलते रहते हैं जबकि अन्य दृढ़ता से मानते है कि कुछ मानवीय मूल्य सर्वव्यापक व शाश्वत है। इस सम्बन्ध में आप अपनी धारणा तर्क देकर बताइए।) 2013
+1. Some people feel that values keep changing with time and situation, while others strongly believe that there are certain universal and eternal human values. Give your perception in this regard with due justification. (कुछ लोगों का मानना है कि मूल्य समय और परिस् थिति के साथ बदलते रहते हैं जबकि अन्य दृढ़ता से मानते है कि कुछ मानवीय मूल्य सर्वव्यापक व शाश्वत है। इस सम्बन्ध में आप अपनी धारणा तर्क देकर बताइए।) 2013
 
 ```ad-Answer
 

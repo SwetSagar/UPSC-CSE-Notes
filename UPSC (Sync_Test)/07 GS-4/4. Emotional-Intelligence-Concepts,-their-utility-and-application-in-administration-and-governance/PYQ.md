@@ -94,7 +94,7 @@ Another example is Mother Teresa, who devoted her life to serving the poor and s
 
 ```
 
-6. “In doing a good thing, everything is permitted which is not prohibited expressly or by clear implication”. Examine the statement with suitable examples in the context of a public servant discharging his/her duties. ("अच्छा कार्य करने में, वह सब कुछ अनुमत होता है जिसको अभिव्यक्ति के द्वारा या स्पष्ट निहितार्थ के द्वारा निषिद्ध न किया गया हो ।" एक लोक सेवक द्वारा अपने कर्तव्यों का निर्वहन करने के संदर्भ में, इस कथन का उपयुक्त उदाहरणों सहित परीक्षण कीजिए।) 2018
+1. “In doing a good thing, everything is permitted which is not prohibited expressly or by clear implication”. Examine the statement with suitable examples in the context of a public servant discharging his/her duties. ("अच्छा कार्य करने में, वह सब कुछ अनुमत होता है जिसको अभिव्यक्ति के द्वारा या स्पष्ट निहितार्थ के द्वारा निषिद्ध न किया गया हो ।" एक लोक सेवक द्वारा अपने कर्तव्यों का निर्वहन करने के संदर्भ में, इस कथन का उपयुक्त उदाहरणों सहित परीक्षण कीजिए।) 2018
 
 ```ad-Answer
 
@@ -110,7 +110,7 @@ The statement highlights the importance of purpose and discretion in the actions
 
 ```
 
-8. How will you apply emotional intelligence in administrative practices? (प्रशासनिक पद्धतियों में भावनात्मक बुद्धि का आप किस तरह प्रयोग करेंगे ?) 2017
+1. How will you apply emotional intelligence in administrative practices? (प्रशासनिक पद्धतियों में भावनात्मक बुद्धि का आप किस तरह प्रयोग करेंगे ?) 2017
 
 ```ad-Answer
 
@@ -155,7 +155,7 @@ Finally, it is important to practice relaxation techniques such as yoga and medi
 
 ```
 
-9. All human beings aspire for happiness. Do you agree? What does happiness mean to you? Explain with examples. (सभी मानव सुख की आकांक्षा करते हैं। क्या आप सहमत है? आपके लिए सुख का क्या अर्थ है? उदाहरण प्रस्तुत करते हुए स्पष्ट कीजिए।) 2014
+1. All human beings aspire for happiness. Do you agree? What does happiness mean to you? Explain with examples. (सभी मानव सुख की आकांक्षा करते हैं। क्या आप सहमत है? आपके लिए सुख का क्या अर्थ है? उदाहरण प्रस्तुत करते हुए स्पष्ट कीजिए।) 2014
 
 ```ad-Answer
 
@@ -198,7 +198,7 @@ Finally, individuals with high emotional intelligence tend to have strong self-r
 
 ```
 
-13. What do you understand by the term 'voice of conscience'? How do you prepare yourself to heed to the voice of conscience? (‘अंत करण की आवाज’ से आप क्या समझते है? आप स्वयं को अंतः करण की आवाज पर ध्यान देने के लिए कैसे तैयार करते हैं?) 2013
+1. What do you understand by the term 'voice of conscience'? How do you prepare yourself to heed to the voice of conscience? (‘अंत करण की आवाज’ से आप क्या समझते है? आप स्वयं को अंतः करण की आवाज पर ध्यान देने के लिए कैसे तैयार करते हैं?) 2013
 
 ```ad-Answer
 
@@ -249,7 +249,6 @@ Here are some quotes from thinkers and philosophers on the topic of a crisis of 
 These quotes highlight the importance of acting in accordance with one's conscience and the consequences of ignoring it. A crisis of conscience can be a difficult and challenging experience, but it is also an opportunity for personal growth and self-discovery. Ultimately, it is up to the individual to navigate this internal conflict and make decisions that align with their moral and ethical values.
 
 ```
-
 
 Case Study: Compassionchild labour in Cotton farm (2020)
 

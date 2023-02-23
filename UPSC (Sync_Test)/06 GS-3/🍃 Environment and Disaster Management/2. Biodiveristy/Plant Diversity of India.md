@@ -1,6 +1,8 @@
 # Plant Diversity of India
+
 2020-07-06 18:42:42
-            
+
+
 ---
 
 | **Insectivorus Plants**    | **Notes**                                                                                                        |
@@ -10,7 +12,6 @@
 | Adlrovanda                  | traps with haris on leaves, aquatic plant found in salt marshes of Sunderbans                                    |
 | Utricularia or Bladderworts | found in waterlogged areas used to treating coughs, dressing wounds and urinary disease                         |
 | Pingicuila or Butterworts   | Found in alpine regions, it leaves acts as traps.                                                                |
-
 
 | **Invasive Flora** | **Nativity**              | **Notes**                                                           |
 |--------------------|---------------------------|---------------------------------------------------------------------|
@@ -29,7 +30,6 @@
 | Congress Grass     | North America             | overgrazed pastures, waste lands and gardens                        |
 | Townsend graa      | Trop West Asia            | Common along streams and banks                                      |
 | Mesquite           | Mexico                    | Common weed of waste lands, scrubs etc.                             |
-
 
 | **Medicinal Plants**      | **Properties**                                                               |
 |---------------------------|------------------------------------------------------------------------------|

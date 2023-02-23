@@ -1,8 +1,11 @@
-#  Art and Culture 
+# Art and Culture
+
 Created : 2021-11-19 20:22
+
 ```toc
 ```
---- 
+
+---
 
 ## Prominent Temples of India
 
@@ -91,9 +94,8 @@ Created : 2021-11-19 20:22
 	- [[kefa107.pdf]]
 	- [[kefa108.pdf]]
 
-http://ccrtindia.gov.in/visualarts.php
-http://ccrtindia.gov.in/performingart.php
-http://ccrtindia.gov.in/literaryarts.php
+<http://ccrtindia.gov.in/visualarts.php>
+<http://ccrtindia.gov.in/performingart.php>
+<http://ccrtindia.gov.in/literaryarts.php>
 
 ---
-

@@ -1,51 +1,52 @@
 # Conservation
+
 2020-04-29 12:59:45
+
 ```toc
 ``` 
+
 ---
 
+## WPA Act of 1972
 
-## WPA act of 1972 
+- **Poaching**, **smuggling** and illegal trade of animals listed Schedule 1 to Schedule 4 are prohibited
+- Animals listed in Schedule 5 called Vermin they can be hunted.
+- Plans are listed in Schedule 6. Their cultivation, collection, extraction, trade etc are prohibited.
 
--   **Poaching**, **smuggling** and illegal trade of animals listed Schedule 1 to Schedule 4 are prohibited
--   Animals listed in Schedule 5 called Vermin they can be hunted.
--   Plans are listed in Schedule 6. Their cultivation, collection, extraction, trade etc are prohibited.
+### Conservation Reserve and Community Reserves Are the Outcome of Amendments to the Wild Life Protection Act in 2003.
 
+- provides recognition, legal backing to the community initiated efforts in wildlife protection. Wildlife conservation is achieved without compromising community needs.
 
- ### Conservation Reserve and Community Reserves are the outcome of Amendments to the Wild life protection act in 2003.
+#### Conservation Reserves :
 
--  provides recognition, legal backing to the community initiated efforts in wildlife protection. Wildlife conservation is achieved without compromising community needs.
+- area owned by the State gov adjacent to National Parks and Sanctuaries.
+- It is managed through a Conservation Reserve Management Committee
+- Tirunelveli was the first conservation reserve.
 
- #### Conservation Reserves :
--   area owned by the State gov adjacent to National Parks and Sanctuaries.
--   It is managed through a Conservation Reserve Management Committee
--   Tirunelveli was the first conservation reserve. 
+#### Community Reserve
 
-#### Community Reserve 
--   State Government may notify any community land or private land as a Community Reserve on mutual agreement.
--   improving socio-economic conditions. 
--   Also managed through Management Committee. Any changes in land use pattern requires a resolution to be passed.
- 
+- State Government may notify any community land or private land as a Community Reserve on mutual agreement.
+- improving socio-economic conditions.
+- Also managed through Management Committee. Any changes in land use pattern requires a resolution to be passed.
 
- ### Marine Protected Area :
+### Marine Protected Area :
 
--   **intertidal** or **sub tidal** terrain along with overlaying water flora and fauna, cultural/historical features
--   In India it is concentrated in small areas like lagoons, mangrooves, coral reefs etc.
+- **intertidal** or **sub tidal** terrain along with overlaying water flora and fauna, cultural/historical features
+- In India it is concentrated in small areas like lagoons, mangrooves, coral reefs etc.
 
- #### Classified into 3 categories :
+#### Classified into 3 Categories :
 
--   Category I - NP and Sanctuaries and having an entire areas in intertidal/sub tidal region.
--   Category II - includes Islands that have major part in marine ecosys
--   Category III A - includes sandy beaches beyond inter tidal region.
--   Category III B - Includes evergreen/ semi ever green forests of Islands.
+- Category I - NP and Sanctuaries and having an entire areas in intertidal/sub tidal region.
+- Category II - includes Islands that have major part in marine ecosys
+- Category III A - includes sandy beaches beyond inter tidal region.
+- Category III B - Includes evergreen/ semi ever green forests of Islands.
  - They are designated under WPA 1972.
- 
 
- ### Sacred Groves
+### Sacred Groves
 
 | State          | Sacred Grove                                              |
 | -------------- | --------------------------------------------------------- |
-| Andhra Pradesh | Pavitraskhetralu                                          | 
+| Andhra Pradesh | Pavitraskhetralu                                          |
 | Arunachal P.   | Gumpa (attached to monasteries)                           |
 | Assam          | Than, Madaico                                             |
 | Chattisgarh    | Sarna, Devlas, Mandar, Budhadev                           |
@@ -65,43 +66,45 @@
 | Uttarakhand    | Devbhumi, Baun, Bugyal (sacred Alpine meadows)            |
 | West Bengal    | Garamthan, Harithan, Jahera, Sabitrithan, Santalburithan. |
 | -----          | ------                                                    |
- 
-#### Biosphere Reserves
--   Man and Biosphere program is an **intergovernmental** Scientific Program.
--   main governing body is International Coordinating Council.
--  The concept of Biosphere Reserves was refined by a Task Force of UNESCO's  MAB Programme in **1974**.
--  The national Biosphere Reserve Programme was initiated in **1986**.
 
-Criteria for designation as BR: 
+#### Biosphere Reserves
+
+- Man and Biosphere program is an **intergovernmental** Scientific Program.
+- main governing body is International Coordinating Council.
+- The concept of Biosphere Reserves was refined by a Task Force of UNESCO's MAB Programme in **1974**.
+- The national Biosphere Reserve Programme was initiated in **1986**.
+
+Criteria for designation as BR:
+
 - must contain protected, minimally disturbed core
 - Core must be bio-geographical unit
 - involvement of local communities
 - areas potential for traditional tribal or rural modes of living
- 
+
+
  They are divided into 3 zones
--   Core Zone : undisturbed area having numeour flora and fauna at all trophic levels. It should be kept free from all human interference.
--   Buffer Zone : Activities like restoration, limited recreation, tourism etc can be done.
--   Transition Zone : It has settlements, crop lands, managed forests etc.
+
+- Core Zone : undisturbed area having numeour flora and fauna at all trophic levels. It should be kept free from all human interference.
+- Buffer Zone : Activities like restoration, limited recreation, tourism etc can be done.
+- Transition Zone : It has settlements, crop lands, managed forests etc.
  - The mgt of BR lies with the State/UT financial assistance and guidance is given by center.
  - The MABs World Network of Biosphere Reserve was started in 1977.
- 
 
- Biodiversity Hotspot concept was put forth by **Norman Myers** in 1988.  Its Criteria are :
--   Species endemism : must contain at least 1,500 species of vascular plants (ie 0.5% of worlds total) as endemics
--   It has to have lost at least 70% of its original habitat.
- 
- #### Tiger reserve includes : 
--   Core Zone : are notified by the **State** gov with an expert committee, rights of **ST's** should not be affected during protection.
--   Buffer Zone : aims at coexistency of wildlife and human activity. Limits of such areas are determined in consulation with Gram sabha and committee.
+ Biodiversity Hotspot concept was put forth by **Norman Myers** in 1988. Its Criteria are :
+
+- Species endemism : must contain at least 1,500 species of vascular plants (ie 0.5% of worlds total) as endemics
+- It has to have lost at least 70% of its original habitat.
+
+
+#### Tiger Reserve Includes :
+
+- Core Zone : are notified by the **State** gov with an expert committee, rights of **ST's** should not be affected during protection.
+- Buffer Zone : aims at coexistency of wildlife and human activity. Limits of such areas are determined in consulation with Gram sabha and committee.
 - Alteration of boundaries of a tiger reserve be made on recom of NTCA and approval of National Board of Wildlife.
 
  State Gov cannot denotify a tiger reserve except in public interest with approval of NTCA.
 
  **Difference between National Park, Wildlife Sanctuary and Biosphere Reserve**
+
 - NP and Wildlife Sanctuary both are established under WPA 1972
-![Table 4.52 : Comparison of National Park. Wildlife Sanctuary and Biosphere 2. 3. 4. 6. Attetion i. given to biotic as a Ratter is to habita* for wild such as lion. tiger. apprNCh Mt size ranges from to 3.162 Circumscribed by State No permisi. ble Tourism is permisible, often encouraged. is givn to plan % Wife S .nctuaty is given to biotic community 's a rather is such citws. pitcher plant. Gmt Indian b "Stud etc. The apprNCh is •r'he size ranges io 7M 8 kms_ Limits ate Limited biotic interference *ientific artmtion is not to of Fies. puticularly Bi re Reserve Attenticy-l on biotic as a whole. ented. The Site over 5±70 sq. Boundaries by state No biotic bk except in is not perm'S. manage- ment tamed Due attention is given to Of as well mal ](Conservation-image1-00113013.png)
-
-
-
-
-
+![Table 4.52 : Comparison of National Park. Wildlife Sanctuary and Biosphere 2. 3. 4. 6. Attetion i. given to biotic as a Ratter is to habita* for wild such as lion. tiger. apprNCh Mt size ranges from to 3.162 Circumscribed by State No permisi. ble Tourism is permisible, often encouraged. is givn to plan % Wife S .nctuaty is given to biotic community 's a rather is such citws. pitcher plant. Gmt Indian b "Stud etc. The apprNCh is •r'he size ranges io 7M 8 kms_ Limits ate Limited biotic interference *ientific artmtion is not to of Fies. puticularly Bi re Reserve Attenticy-l on biotic as a whole. ented. The Site over 5±70 sq. Boundaries by state No biotic bk except in is not perm'S. management tamed Due attention is given to Of as well mal ](Conservation-image1-00113013.png)

@@ -96,7 +96,7 @@ Finally, patriotism also implies a sense of unity among citizens. This means tha
 
 ```
 
-2. It is often said that 'politics' and 'ethics' do not go together. What is your opinion in this regard? Justify your answer with illustrations. (प्रायः यह कहा जाता है कि ‘राजनीति’ और नैतिकता’ साथ-साथ नही चल सकते। इस ंसम्बन्ध में आपका क्या मत है? अपने उत्तर का, उदाहरणो सह ं ित, आधार बताइए। ) 2013
+1. It is often said that 'politics' and 'ethics' do not go together. What is your opinion in this regard? Justify your answer with illustrations. (प्रायः यह कहा जाता है कि ‘राजनीति’ और नैतिकता’ साथ-साथ नही चल सकते। इस ंसम्बन्ध में आपका क्या मत है? अपने उत्तर का, उदाहरणो सह ं ित, आधार बताइए। ) 2013
 
 ```ad-Answer
 

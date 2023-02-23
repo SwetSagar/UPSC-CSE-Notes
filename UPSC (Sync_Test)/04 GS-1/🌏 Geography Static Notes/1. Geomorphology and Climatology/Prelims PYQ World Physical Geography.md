@@ -2,8 +2,6 @@
 ![[Pasted image 20220107112324.png]]
 ![[Pasted image 20220107112352.png]]
 
-
-
 ![[Pasted image 20220107112428.png]]
 
 ![[Pasted image 20220107112526.png]]
@@ -14,7 +12,7 @@
 
 ![[Pasted image 20220107112623.png]]
 
-## PYQs Map Portion
+# PYQs Map Portion
 
 ![[Pasted image 20220107114858.png]]
 
@@ -27,4 +25,3 @@
 ![[Pasted image 20220107115025.png]]
 
 ![[Pasted image 20220107115040.png]]
-

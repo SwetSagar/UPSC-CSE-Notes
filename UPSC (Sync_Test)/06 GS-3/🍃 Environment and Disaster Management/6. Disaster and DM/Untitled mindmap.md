@@ -4,12 +4,13 @@ mindmap-plugin: basic
 
 ---
 
-# mindmap-plugin: basic
+# Mindmap-plugin: Basic
 
-## Sub title
+## Sub Title
 
-## Sub title
+## Sub Title
 
-## Sub title
+## Sub Title
+
 - Sub title
 - Sub title

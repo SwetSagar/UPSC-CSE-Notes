@@ -52,7 +52,7 @@
 - **MCA21** by Mo Corporate Affairs e-governance initiative; gives easy and secure access to services of MoCA
 - Jardalu Mango, Katani Rice, Magahi Pan, Shahi Litchi have GI tag from Bihar
 - **BioHub** initiative by WHO : pathogen storage, sharing and analysis multilaterally, is currently done bilaterally b/w countries
-- [[3. Infrastructure, Liberalisation, Land Reforms in India#^b87237|Currency Swap Agreement]]
+- [[1.3 Infrastructure, Liberalisation, Land Reforms in India#^b87237|Currency Swap Agreement]]
 - Gahirmatha Marine Sanctuary is located in Bhitarkarnika NP
 - Vitamin D : fat soluble -> long storage in body
 - Young, Upcoming and Versatile, Authors YUVA #scheme by [[Mo HRD |Mo Education]] for 75 authors under 30; will be given 50k stipend for 6 months
@@ -227,5 +227,3 @@
  - Panruti cashews are grown in Cuddalore, Tamil Nadu.
  - Karakattam Dance ancient folk dance of TN dedicated to Mariamman/ rain goddess.
  - Kuno Palpur NP to be 1st Cheetah park of India.
-
-

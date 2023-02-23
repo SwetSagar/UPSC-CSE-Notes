@@ -1,4 +1,5 @@
-#  PYQ
+# PYQ
+
 Created : 2021-12-12 12:09
 
 ---
@@ -8,7 +9,6 @@ Created : 2021-12-12 12:09
 | Discipline generally implies following the order  and subordination. However, it may be counter-productive for the  organisation. Discuss. | 2017 |
 |--------------------------------------------------------------------------------------------------------------------------------------------|------|
 
-
 ## Code of Ethics
 
 ![[Pasted image 20211212121737.png]]
@@ -17,15 +17,13 @@ Created : 2021-12-12 12:09
 
 ![[Pasted image 20211212122043.png]]
 
-## Utilization of Public funds, Challenges of Corruption
+## Utilization of Public Funds, Challenges of Corruption
 
 ![[Pasted image 20211212122131.png]]
 
-## Information Sharing & Transparency in govt; RTI
+## Information Sharing & Transparency in Govt; RTI
 
 ![[Pasted image 20211212122238.png]]
-
-
 
 1. There is a view that the official secrets act is an obstacle to the implementation of the Rights to Information act. Do you agree with the view? Discuss. (एक विचार यह है कि शासकीय गुप्त बात अधिनियम सूचना के अधिकार अधिनियम के क्रियान्वयन में एक बाधा है। क्या आप इस विचार से सहमत हैं ? विवेचना कीजिए।) 2019
 
@@ -47,9 +45,7 @@ Created : 2021-12-12 12:09
 
 ```
 
-
-
-2. “The Right to Information Act is not all about citizens’ empowerment alone, it essentially redefines the concept of accountability. Discuss. (“सूचना का अधिकार अधिनियम के वल नागरिको के स ं शक्तिकरण के बारे में ही नही है, अ ं पितु यह आवश्यक रूप से जवाबदेही की सं कल्पना को पुन:परिभाषित करता है ।" विवेचना कीजिए।) 2018
+1. “The Right to Information Act is not all about citizens’ empowerment alone, it essentially redefines the concept of accountability. Discuss. (“सूचना का अधिकार अधिनियम के वल नागरिको के स ं शक्तिकरण के बारे में ही नही है, अ ं पितु यह आवश्यक रूप से जवाबदेही की सं कल्पना को पुन:परिभाषित करता है ।" विवेचना कीजिए।) 2018
 
 ```ad-Answer
 
@@ -74,7 +70,7 @@ Other ways in which it redefines accountablility is through :
 
 ```
 
-3. Some recent developments such as introduction of RTI Act, media and judicial activism, etc., are proving helpful in bringing about greater transparency and accountability in the functioning of the government. However, it is also being observed that at times the mechanisms are misused. Another negative effect is that the officers are now afraid to take prompt decisions. Analyze this situation in detail and suggest how this dichotomy can be resolved. Suggest how these negative impacts can be minimized. (हाल में हुई कु छ प्रगतियाँ, जैसे कि सूचना का अधिकार (आर.टी.आई.) अधिनियम, मीडिया और न्यायिक सक्रियता इत्यादि, सरकार के कार्यों में पहले से अधिक पारदर्शिता और जवाबदेही लाने में सहायक साबित हो रही हैं। फिर भी, यह भी देखा जा रहा है कि कभी-कभार इन साधनो का द ं रुपयोग ु किया जाता है। एक अन्य नकारात्मक प्रभाव यह है कि अधिकारीगण अब शीघ्र निर्णय लेने से डरते हैं। इस स्थिति का विस्तारपूर्वविश्लेषण कीजिए और सुझाइए कि इस द्विभाजन का हल किस प्रकार निकाला जा सकता है। सुझाइए कि इन नकारात्मक प्रभावों को किस प्रकार न्नतमीकृ त यू किया जा सकता है।) 2015
+1. Some recent developments such as introduction of RTI Act, media and judicial activism, etc., are proving helpful in bringing about greater transparency and accountability in the functioning of the government. However, it is also being observed that at times the mechanisms are misused. Another negative effect is that the officers are now afraid to take prompt decisions. Analyze this situation in detail and suggest how this dichotomy can be resolved. Suggest how these negative impacts can be minimized. (हाल में हुई कु छ प्रगतियाँ, जैसे कि सूचना का अधिकार (आर.टी.आई.) अधिनियम, मीडिया और न्यायिक सक्रियता इत्यादि, सरकार के कार्यों में पहले से अधिक पारदर्शिता और जवाबदेही लाने में सहायक साबित हो रही हैं। फिर भी, यह भी देखा जा रहा है कि कभी-कभार इन साधनो का द ं रुपयोग ु किया जाता है। एक अन्य नकारात्मक प्रभाव यह है कि अधिकारीगण अब शीघ्र निर्णय लेने से डरते हैं। इस स्थिति का विस्तारपूर्वविश्लेषण कीजिए और सुझाइए कि इस द्विभाजन का हल किस प्रकार निकाला जा सकता है। सुझाइए कि इन नकारात्मक प्रभावों को किस प्रकार न्नतमीकृ त यू किया जा सकता है।) 2015
 
 ```ad-Answer
 
@@ -96,7 +92,7 @@ In conclusion, the misuse of RTI Act, media and judicial activism has resulted i
 
 ```
 
-5. Today we find that in spite of various measures like prescribing codes of conduct, setting up vigilance cells/commissions, RTI, active media and strengthening of legal mechanisms, corrupt practices are not coming under control. a) Evaluate the effectiveness of these measures with justifications. b) Suggest more effective strategies to tackle this menace. (आज हम यह देखते हैं कि आचार सं हिताओ के न ं िर्धारण, सतर्कता सेलो/आयोगो ं की स् ं थापना, आर.टी.आई., सक्रिय मीडिया और विधिक यांत्रिक्तवो के ं प्रबलन जैसे विभिन्न उपायो के ं बावजूद भ्रष्टाचारपूर्ण कर्म नियंत्राण के अधीन नही आ रहे हैं। a) इन उपायो ं की ं प्रभावशीलता का औचित्य बताते हुए मूल्यांकन कीजिए। b) इस खतरे का मुकाबला करने के लिए और अधिक प्रभावी रणनीतियाँ सुझाइए।) 2015
+1. Today we find that in spite of various measures like prescribing codes of conduct, setting up vigilance cells/commissions, RTI, active media and strengthening of legal mechanisms, corrupt practices are not coming under control. a) Evaluate the effectiveness of these measures with justifications. b) Suggest more effective strategies to tackle this menace. (आज हम यह देखते हैं कि आचार सं हिताओ के न ं िर्धारण, सतर्कता सेलो/आयोगो ं की स् ं थापना, आर.टी.आई., सक्रिय मीडिया और विधिक यांत्रिक्तवो के ं प्रबलन जैसे विभिन्न उपायो के ं बावजूद भ्रष्टाचारपूर्ण कर्म नियंत्राण के अधीन नही आ रहे हैं। a) इन उपायो ं की ं प्रभावशीलता का औचित्य बताते हुए मूल्यांकन कीजिए। b) इस खतरे का मुकाबला करने के लिए और अधिक प्रभावी रणनीतियाँ सुझाइए।) 2015
 
 ```ad-Answer
 
@@ -108,11 +104,11 @@ In order to make these measures more effective, the Second Administrative Reform
 
 ```
 
-Case-Study: Snowden’s Whistleblowing: Right / Wrong? (2018) 
+Case-Study: Snowden’s Whistleblowing: Right / Wrong? (2018)
 
-Edward Snowden, a computer expert and former CIA administrator, released confidential Government documents to the press about the existence of Government surveillance programmes. According to many legal experts and the US Government, his action violated the Espionage act of 1971, which identified the leak of State secret as an act of treason. Yet, despite the fact that he broke the law, Snowden argued that he had a moral obligation to act. He gave a justification for his “whistle blowing” by stating that he had a duty “to inform the public as to that which is done in there name and that which is done against them.” According to Snowden, the Government’s violation of privacy had to be exposed regardless of legality since more substantive issues of social action and public morality were involved here. Many agreed with Snowden. Few argued that he broke the law and compromised national security, for which he should be held accountable. 
+Edward Snowden, a computer expert and former CIA administrator, released confidential Government documents to the press about the existence of Government surveillance programmes. According to many legal experts and the US Government, his action violated the Espionage act of 1971, which identified the leak of State secret as an act of treason. Yet, despite the fact that he broke the law, Snowden argued that he had a moral obligation to act. He gave a justification for his “whistle blowing” by stating that he had a duty “to inform the public as to that which is done in there name and that which is done against them.” According to Snowden, the Government’s violation of privacy had to be exposed regardless of legality since more substantive issues of social action and public morality were involved here. Many agreed with Snowden. Few argued that he broke the law and compromised national security, for which he should be held accountable.
 
-Do you agree that Snowden’s actions were ethically justified even if legally prohibited? 
+Do you agree that Snowden’s actions were ethically justified even if legally prohibited?
 Why or why not? Make an argument by weighing the competing values in this case.
 
 ```ad-Answer
@@ -156,8 +152,7 @@ Other competing values are
 
 ```
 
-
-Case-Study: PIO should do RTI Stonewalling™ (2017) 
+Case-Study: PIO should do RTI Stonewalling™ (2017)
 
 You are a Public Information Officer (PIO) in a government department. You are aware that the RTI Act 2005 envisages transparency and accountability in administration. The act has functioned as a check on the supposedly arbitrarily administrative behaviour and actions. However, as a PIO you have observed that there are citizens who filed RTI applications not for themselves but on behalf of such stakeholders who purportedly want to have access to information to further their own interests. At the same time there are these RTI activists who routinely file RTI applications and attempt to extort money from the decision makers. This type of RTI activism has affected the functioning of the administration adversely and also possibly jeopardises the genuineness of the applications which are essentially aimed at getting justice. What measures would you suggest to separate genuine and non-genuine applications? Give merits and demerits of your suggestions.
 
@@ -204,14 +199,15 @@ Thirdly, the measures may lead to the misuse of the RTI Act. This is because the
 
 ```
 
-Case-study: RTI: To Hide or Not to Hide (2013) 
+Case-study: RTI: To Hide or Not to Hide (2013)
 
-In the following questions, carefully study the cases presented and then answer the questions that follow: 
+In the following questions, carefully study the cases presented and then answer the questions that follow:
 
-A Public Information Officer has received an application under RTI Act. Having gathered the information, the PIO discovers that the information pertains to some of the decisions taken by him, which were found to be not altogether right. There were other employees also who party to these decisions were. Disclosure of the information is likely to lead to disciplinary action with possibility of punishment against him as well as some of his colleagues. Non-disclosure or part disclosure or camouflaged disclosure of information will result into lesser punishment or no punishment. The PIO is otherwise an honest and conscientious person but this particular decision, on which the RTI application has been filed, turned out to be wrong. He comes to you for advice. The following are some suggested options. Please evaluate the merits and demerits of each of the options: 
-1. The PIO could refer the matter to his superior officer and seek his advice and act strictly in accordance with the advice, even though he is not completely in agreement with the advice of the superior. 
-2. The PIO could proceed on leave and leave the matter to be dealt by his successor in office or request for transfer of the application to another PIO. 
-3. The PIO could weigh the consequences of disclosing the information truthfully, including the effect on his career, and reply in a manner that would not place him or his career in jeopardy, but at the same time a little compromise can be made on the contents of the information. 
+A Public Information Officer has received an application under RTI Act. Having gathered the information, the PIO discovers that the information pertains to some of the decisions taken by him, which were found to be not altogether right. There were other employees also who party to these decisions were. Disclosure of the information is likely to lead to disciplinary action with possibility of punishment against him as well as some of his colleagues. Non-disclosure or part disclosure or camouflaged disclosure of information will result into lesser punishment or no punishment. The PIO is otherwise an honest and conscientious person but this particular decision, on which the RTI application has been filed, turned out to be wrong. He comes to you for advice. The following are some suggested options. Please evaluate the merits and demerits of each of the options:
+
+1. The PIO could refer the matter to his superior officer and seek his advice and act strictly in accordance with the advice, even though he is not completely in agreement with the advice of the superior.
+2. The PIO could proceed on leave and leave the matter to be dealt by his successor in office or request for transfer of the application to another PIO.
+3. The PIO could weigh the consequences of disclosing the information truthfully, including the effect on his career, and reply in a manner that would not place him or his career in jeopardy, but at the same time a little compromise can be made on the contents of the information.
 4. The PIO could consult his other colleagues who are party to the decision and take action as per their advice. Also please indicate (without necessarily restricting to the above options) what you would like to advise, giving proper reasons.
 
 ```ad-Answer
@@ -238,10 +234,11 @@ My advice to the PIO would be to refer the matter to the superior officer and se
 
 ```
 
-Case-Study: 5: Leaking Information (2013) 
+Case-Study: 5: Leaking Information (2013)
 
-As a senior officer in the Finance Ministry, you have access to some confidential and crucial information about policy decisions that the Government is about to announce. These decisions are likely to have far-reaching impact on the housing and construction industry. If the builders have access to this information beforehand, they can make huge profits. One of the builders has done a lot of quality work for the Government and is known to be close to your immediate superior, who asks you to disclose this information to the said builder. 
-1. What are the options available to you? 
+As a senior officer in the Finance Ministry, you have access to some confidential and crucial information about policy decisions that the Government is about to announce. These decisions are likely to have far-reaching impact on the housing and construction industry. If the builders have access to this information beforehand, they can make huge profits. One of the builders has done a lot of quality work for the Government and is known to be close to your immediate superior, who asks you to disclose this information to the said builder.
+
+1. What are the options available to you?
 2. Evaluate each of these options and choose the option which you would adopt, giving reasons.
 
 ```ad-Answer
@@ -296,13 +293,12 @@ Finally, it is important to ensure that discipline is used in a way that encoura
 
 ```
 
+Case Study: Toxic Boss (2021)
 
-Case Study: Toxic Boss (2021) 
-
-Pawan has been working as an officer in the State Government for the last ten years. As a part of the routine transfer, he was posted to another department. He joined a new office along with five other colleagues. The head of the office was a senior officer conversant with the functioning of the office. As a part of general inquiry, Pawan gathered that his senior officer carries the reputation of being a difficult and insensitive person having his own disturbed family life. Initially, all seem to go well. However, after some time Pawan felt that the senior officer was belittling him and at times unreasonable. Whatever suggestions given or views expressed by Pawan in the meetings were summarily rejected and the senior officer would express displeasure in the presence of others. It became a pattern of the boss’s style of functioning to show him in bad light highlighting his shortcomings and humiliating him publicly. It became apparent that though there are no serious work-related problems / shortcomings, the senior officer was always on one pretext or the other and would scold and shout at him. The continuous harassment and public criticism of Pawan resulted in the loss of confidence, self-esteem and equanimity. Pawan realized that his relations with his senior officer are becoming more toxic and due to this, he perpetually tensed, anxious and stressed. His mind was occupied with negativity and caused him mental torture, anguish and agony. Eventually, it badly affected his personal and family life. He was no longer joyous, happy and contented even at home. Rather without any reason, he would lose his temper with his wife and other family members. The family environment was no longer pleasant and congenial. His wife who was always supportive of him also became a victim of his negativity and hostile behaviour. Due to harassment and humiliation suffering by him in the office, comfort and happiness virtually vanished from his life. Thus, it damaged his physical and mental health. 
-a) What are the options available with Pawan to cope up with the situation? 
-b) What approach Pawan should adopt for bringing, peace, tranquillity and a congenial environment in the office and home? 
-c) As an outsider, what are your suggestions for both boss and subordinate to overcome this situation and for improving the work performance, mental and emotional hygiene? 
+Pawan has been working as an officer in the State Government for the last ten years. As a part of the routine transfer, he was posted to another department. He joined a new office along with five other colleagues. The head of the office was a senior officer conversant with the functioning of the office. As a part of general inquiry, Pawan gathered that his senior officer carries the reputation of being a difficult and insensitive person having his own disturbed family life. Initially, all seem to go well. However, after some time Pawan felt that the senior officer was belittling him and at times unreasonable. Whatever suggestions given or views expressed by Pawan in the meetings were summarily rejected and the senior officer would express displeasure in the presence of others. It became a pattern of the boss’s style of functioning to show him in bad light highlighting his shortcomings and humiliating him publicly. It became apparent that though there are no serious work-related problems / shortcomings, the senior officer was always on one pretext or the other and would scold and shout at him. The continuous harassment and public criticism of Pawan resulted in the loss of confidence, self-esteem and equanimity. Pawan realized that his relations with his senior officer are becoming more toxic and due to this, he perpetually tensed, anxious and stressed. His mind was occupied with negativity and caused him mental torture, anguish and agony. Eventually, it badly affected his personal and family life. He was no longer joyous, happy and contented even at home. Rather without any reason, he would lose his temper with his wife and other family members. The family environment was no longer pleasant and congenial. His wife who was always supportive of him also became a victim of his negativity and hostile behaviour. Due to harassment and humiliation suffering by him in the office, comfort and happiness virtually vanished from his life. Thus, it damaged his physical and mental health.
+a) What are the options available with Pawan to cope up with the situation?
+b) What approach Pawan should adopt for bringing, peace, tranquillity and a congenial environment in the office and home?
+c) As an outsider, what are your suggestions for both boss and subordinate to overcome this situation and for improving the work performance, mental and emotional hygiene?
 d) In the above scenario, what type of training would you suggest for officers at various levels in the government offices?
 
 ```ad-Answer
@@ -341,14 +337,14 @@ d) For officers at various levels in the government offices, I would suggest tra
 
 ```
 
+Case-Study: Engineer: Bogus flyover vs deadline (2013)
 
-Case-Study: Engineer: Bogus flyover vs deadline (2013) 
+You are working as an Executive Engineer in the construction cell of a Municipal Corporation and are presently in-charge of the construction of a flyover. There are two Junior Engineers under you who have the responsibility of day-to-day inspection of the site and are reporting to you, while you are finally reporting to the Chief Engineer who heads the cell. While the construction is heading towards completion, the Junior Engineers have been regularly reporting that all construction is taking place as per design specifications. However, in one of your surprise inspections, you have noticed some serious deviations and lacunae which, in your opinion, are likely to affect the safety of the flyover. Rectification of these lacunae at this stage would require a substantial amount of demolition and rework which will cause a tangible loss to the contractor and will also delay completion. There is a lot of public pressure on the Corporation to get this construction completed because of heavy traffic congestion in the area. When you brought this matter to the notice of the Chief Engineer, he advised you that in his opinion it is not a very serious lapse and may be ignored. He advised for further expediting the project for completion in time. However, you are convinced that this was a serious matter which might affect public safety and should not be left unaddressed. What will you do in such a situation? Some of the options are given below. Evaluate the merits and demerits of each of these options and finally suggest what course of action you would like to take, giving reasons
 
-You are working as an Executive Engineer in the construction cell of a Municipal Corporation and are presently in-charge of the construction of a flyover. There are two Junior Engineers under you who have the responsibility of day-to-day inspection of the site and are reporting to you, while you are finally reporting to the Chief Engineer who heads the cell. While the construction is heading towards completion, the Junior Engineers have been regularly reporting that all construction is taking place as per design specifications. However, in one of your surprise inspections, you have noticed some serious deviations and lacunae which, in your opinion, are likely to affect the safety of the flyover. Rectification of these lacunae at this stage would require a substantial amount of demolition and rework which will cause a tangible loss to the contractor and will also delay completion. There is a lot of public pressure on the Corporation to get this construction completed because of heavy traffic congestion in the area. When you brought this matter to the notice of the Chief Engineer, he advised you that in his opinion it is not a very serious lapse and may be ignored. He advised for further expediting the project for completion in time. However, you are convinced that this was a serious matter which might affect public safety and should not be left unaddressed. What will you do in such a situation? Some of the options are given below. Evaluate the merits and demerits of each of these options and finally suggest what course of action you would like to take, giving reasons 
-1. Follow the advice of the Chief Engineer and go ahead. 
-2. Make an exhaustive report of the situation bringing out all facts and analysis along with your own viewpoints stated clearly and seek for written orders from the chief Engineer. 
-3. Call for explanation from the Junior Engineers and issue orders to the contractor for necessary correction within targeted time. 
-4. Highlight the issue so that it reaches superiors above the Chief Engineer. 
+1. Follow the advice of the Chief Engineer and go ahead.
+2. Make an exhaustive report of the situation bringing out all facts and analysis along with your own viewpoints stated clearly and seek for written orders from the chief Engineer.
+3. Call for explanation from the Junior Engineers and issue orders to the contractor for necessary correction within targeted time.
+4. Highlight the issue so that it reaches superiors above the Chief Engineer.
 5. Considering the rigid attitude of the Chief Engineer, seek transfer from the project or report sick.
 
 ```ad-Answer
@@ -369,11 +365,11 @@ Considering the options, the best course of action would be to make an exhaustiv
 
 ```
 
+Case-Study: Favoritism in Job recruitment (2013)
 
-Case-Study: Favoritism in Job recruitment (2013) 
+You are heading a leading technical institute of the country. The institute is planning to convene an interview panel shortly under your chairmanship for selection of the post of professors. A few days before the interview, you get a call from the Personal Secretary (PS) of a senior government functionary seeking your intervention in favour of the selection of a close relative of the functionary for this post. The PS also informs you that he is aware of the long pending and urgent proposals of your institute for grant of funds for modernization, which are awaiting the functionary's approval. He assures you that he would get these proposals cleared.
 
-You are heading a leading technical institute of the country. The institute is planning to convene an interview panel shortly under your chairmanship for selection of the post of professors. A few days before the interview, you get a call from the Personal Secretary (PS) of a senior government functionary seeking your intervention in favour of the selection of a close relative of the functionary for this post. The PS also informs you that he is aware of the long pending and urgent proposals of your institute for grant of funds for modernization, which are awaiting the functionary's approval. He assures you that he would get these proposals cleared. 
-1. What are the options available to you? 
+1. What are the options available to you?
 2. Evaluate each of these options and choose the option which you would adopt, giving reasons.
 
 ```ad-Answer
@@ -394,13 +390,11 @@ After considering all the options available, I believe the best option would be 
 
 ```
 
+Case-Study: Sexual Harassment (2013)
 
+You are the Executive Director of an upcoming InfoTech Company which is making a name for itself in the market. Mr. A, who is a star performer, is heading the marketing team. In a short period of one year, he has helped in doubling the revenues as well as creating a high brand equity for the Company so much so that you are thinking of promoting him. However, you have been receiving information from many corners about his attitude towards the female colleagues; particularly his habit of making loose comments on women. In addition, he regularly sends indecent SMS's to all the team members including his female colleagues. One day, late in the evening, Mrs. X, who is one of Mr. A's team members, comes to you visibly disturbed. She complains against the continued misconduct of Mr. A, who has been making undesirable advances towards her and has even tried to touch her inappropriately in his cabin. She tenders her resignation and leaves your office.
 
-
-Case-Study: Sexual Harassment (2013) 
-
-You are the Executive Director of an upcoming InfoTech Company which is making a name for itself in the market. Mr. A, who is a star performer, is heading the marketing team. In a short period of one year, he has helped in doubling the revenues as well as creating a high brand equity for the Company so much so that you are thinking of promoting him. However, you have been receiving information from many corners about his attitude towards the female colleagues; particularly his habit of making loose comments on women. In addition, he regularly sends indecent SMS's to all the team members including his female colleagues. One day, late in the evening, Mrs. X, who is one of Mr. A's team members, comes to you visibly disturbed. She complains against the continued misconduct of Mr. A, who has been making undesirable advances towards her and has even tried to touch her inappropriately in his cabin. She tenders her resignation and leaves your office. 
-1. What are the options available to you? 
+1. What are the options available to you?
 2. Evaluate each of these options and choose the option you would adopt, giving reasons
 
 ```ad-Answer
@@ -417,15 +411,14 @@ I would choose the third option of terminating Mr. A's employment with the Compa
 
 ```
 
-
 Case-Study: Bogus rape complaint (2014)
 
-You are a no-nonsense, honest officer. You have been transferred to a remote district to head a department that is notorious for its inefficiency and callousness. You find that the main cause of the poor state of affairs is the indiscipline of a section of employees. They do not work themselves and also disrupt the working of others. You first warned the troublemakers to mend their ways or else face disciplinary action. When the warning had little effect, you issued a show cause notice to the ringleaders. As a retaliatory measure, these troublemakers instigated a woman employee amongst them to file a complaint of sexual harassment against you with the Women's Commission. The Commission promptly seeks your explanation. The matter is also publicized in the media to embarrass you further. Some of the options to handle this situation could be as follows : 
-1. Give your explanation to the Commission and go soft on the disciplinary action.
-2. Ignore the Commission and proceed firmly with the disciplinary action. 
-3. Brief your higher-ups, seek directions from them and act accordingly 
-Suggest any other possible option (s). Evaluate all of them and suggest the best course of action, giving your reasons for it.
+You are a no-nonsense, honest officer. You have been transferred to a remote district to head a department that is notorious for its inefficiency and callousness. You find that the main cause of the poor state of affairs is the indiscipline of a section of employees. They do not work themselves and also disrupt the working of others. You first warned the troublemakers to mend their ways or else face disciplinary action. When the warning had little effect, you issued a show cause notice to the ringleaders. As a retaliatory measure, these troublemakers instigated a woman employee amongst them to file a complaint of sexual harassment against you with the Women's Commission. The Commission promptly seeks your explanation. The matter is also publicized in the media to embarrass you further. Some of the options to handle this situation could be as follows :
 
+1. Give your explanation to the Commission and go soft on the disciplinary action.
+2. Ignore the Commission and proceed firmly with the disciplinary action.
+3. Brief your higher-ups, seek directions from them and act accordingly
+Suggest any other possible option (s). Evaluate all of them and suggest the best course of action, giving your reasons for it.
 
 ```ad-Answer
 
@@ -458,13 +451,13 @@ After evaluating all the options, the best course of action would be to appoint 
 
 ```
 
+Case-Study: Ethics not essential (2014)
 
-Case-Study: Ethics not essential (2014) 
+Suppose one of your close friends, who is also aspiring for civil services, comes to you for discussing some of the issues related to ethical conduct in public service. He raises the following points :
 
-Suppose one of your close friends, who is also aspiring for civil services, comes to you for discussing some of the issues related to ethical conduct in public service. He raises the following points : 
-1. In the present times, when unethical environment is quite prevalent, individual attempts to stick to ethical principles may cause a lot of problems in one's career. It may also cause hardship to the family members as well as risk to one's life. Why should we not be pragmatic and follow the path of least resistance, and be happy with doing whatever good we can? 
-2. When so many people are adopting wrong means and are grossly harming the system, what difference would it make if only a small minority tries to be ethical? They are going to be rather ineffective and are bound to get frustrated. 
-3. If we become fussy about ethical considerations, will it not hamper the economic progress of our country? After all, in the present age of high competition, we cannot afford to be left behind in the race of development. 
+1. In the present times, when unethical environment is quite prevalent, individual attempts to stick to ethical principles may cause a lot of problems in one's career. It may also cause hardship to the family members as well as risk to one's life. Why should we not be pragmatic and follow the path of least resistance, and be happy with doing whatever good we can?
+2. When so many people are adopting wrong means and are grossly harming the system, what difference would it make if only a small minority tries to be ethical? They are going to be rather ineffective and are bound to get frustrated.
+3. If we become fussy about ethical considerations, will it not hamper the economic progress of our country? After all, in the present age of high competition, we cannot afford to be left behind in the race of development.
 4. It is understandable that we should not get involved in grossly unethical practices, but giving and accepting small gratifications and doing small favours increases everybody's motivation. It also makes the system more efficient. What is wrong in adopting such practices? Critically analyze the above viewpoints. On the basis of this analysis, what will be your advice to your friend?
 
 ```ad-Answer
@@ -484,8 +477,7 @@ In response to your friend, you can advise them to be steadfast in their commitm
 
 ```
 
-
-Case-Study: Disillusioned UPSC topper (2014) 
+Case-Study: Disillusioned UPSC topper (2014)
 
 Rameshwar successfully cleared the prestigious civil services examination and was excited about the opportunity that he would get through the civil services to serve the country. However, soon after joining the services, he realized that things are not as rosy as he had imagined. He found a number of malpractices prevailing in the department assigned to him. For example, funds under various schemes and grants were being misappropriated. The official facilities were frequently being used for personal needs by the officers and staff. After some time, he noticed that the process of recruiting the staff was also not up to the mark. Prospective candidates were required to write an examination in which a lot of cheating was going on. Some candidates were provided external help in the examination. Rameshwar brought these incidents to the notice of his seniors. However, he was advised to keep his eyes, ears and mouth shut and ignore all these things which were taking place with the connivance of the higher-ups. Rameshwar felt highly disillusioned and uncomfortable. He comes to you seeking your advice. Indicate various options that you think are available in this situation. How would you help him to evaluate these options and choose the most appropriate path to be adopted?
 
@@ -507,15 +499,15 @@ Additionally, it is important to understand the risks associated with each optio
 
 ```
 
+Case-Study: Dubious plot acquired for school (2015)
 
-Case-Study: Dubious plot acquired for school (2015) 
+You are heading a district administration in a particular department. Your senior officer calls you from the State Headquarters and tells you that a plot in Rampur village is to have a building constructed on it for a school. A visit is scheduled during which he will visit the site along with the chief engineer and the senior architect. He wants you to check out all the papers relating to it and to ensure that the visit is properly arranged. You examine the file which relates to the period before you joined the department. The land was acquired from the local Panchayat at a nominal cost and the papers show that clearance certificates are available from the two of the three authorities who have to certify the site's suitability. There is no certification by the architect available on file. You decide to visit Rampur to ensure that all is in order as stated on file. When you visit Rampur, you find that the plot under reference is part of Thakurgarh Fort and that the walls, ramparts, etc., are running across it. The fort is well away from the main village, therefore a school here will be a serious inconvenience for the children. However, the area near the village has potential to expand into a larger residential area. The development charges on the existing plot, at the fort, will be very high and the question of heritage site has not been addressed. Moreover, the Sarpanch, at the time of acquisition of the land, was a relative of your predecessor. The whole transaction appears to have been done with some vested interest.
 
-You are heading a district administration in a particular department. Your senior officer calls you from the State Headquarters and tells you that a plot in Rampur village is to have a building constructed on it for a school. A visit is scheduled during which he will visit the site along with the chief engineer and the senior architect. He wants you to check out all the papers relating to it and to ensure that the visit is properly arranged. You examine the file which relates to the period before you joined the department. The land was acquired from the local Panchayat at a nominal cost and the papers show that clearance certificates are available from the two of the  three authorities who have to certify the site's suitability. There is no certification by the architect available on file. You decide to visit Rampur to ensure that all is in order as stated on file. When you visit Rampur, you find that the plot under reference is part of Thakurgarh Fort and that the walls, ramparts, etc., are running across it. The fort is well away from the main village, therefore a school here will be a serious inconvenience for the children. However, the area near the village has potential to expand into a larger residential area. The development charges on the existing plot, at the fort, will be very high and the question of heritage site has not been addressed. Moreover, the Sarpanch, at the time of acquisition of the land, was a relative of your predecessor. The whole transaction appears to have been done with some vested interest. 
-1. List the likely vested interests of the concerned parties. 
-2. Some of the options for action available to you are listed below. Discuss the merits and demerits of each of the options : 
-		a. You can await the visit of the superior officer and let him take a decision. 
-		b. You can seek his advice in writing or on phone. 
-		c. You can consult your predecessor/colleagues, etc., and then decide what to do. 
+1. List the likely vested interests of the concerned parties.
+2. Some of the options for action available to you are listed below. Discuss the merits and demerits of each of the options :
+		a. You can await the visit of the superior officer and let him take a decision.
+		b. You can seek his advice in writing or on phone.
+		c. You can consult your predecessor/colleagues, etc., and then decide what to do.
 		d. You can find out if any alternate plot can be got in exchange and then send a comprehensive written report.
 Can you suggest any other option with proper justification?
 
@@ -539,6 +531,4 @@ g. Seek expert opinions: You could seek opinions from experts in the fields of a
 
 ```
 
-
 ---
-

@@ -2,37 +2,36 @@
 uid: e1ccb58cde3e65e810b6eebbbd5191ad
 ---
 
-# Ethical issues in international relations and funding
+# Ethical Issues in International Relations and Funding
+
 2020-10-21 16:52:02
 
 ---
 
-
--   How nations treat each other, help build good international community
--   Realism - only thing matters is power,
--   Idealism - focuses on common interests, idealist values
--   Constructivism - focus on foreign policy, diplomatic initiatives, focus on domestic politics
--   Cosmopolitanism - do the right thing, behave as you would want others to behave
--   Equality of life - everyone has equal moral weight
--   Ethical Issues -
-    -   Mgt of Common Goods - ex Antarctica, High seas, atmosphere, outer space
-    -   Humanitarian intervention - was done for geo strategic reason
-    -   Disarmament
-    -   IPR - developed countries depriving poor ones
-    -   Trade Negotiations -
--   Issues in International Funding
-    -   Conditionality associated w/ loan
-        -   Donors shape policy framework and strategies undermining rights of people
-        -   Local societal diversities are ignored
-        -   Infringes sovereignty, democracy
-    -   Issues in Funding Clinical trials
-        -   Exploitation of patients, compromise standards of trial
-        -   Risk of harm to participants,
-        -   consent in foreign countries could be ambiguous due to language barriers
-        -   After trial availability of healthcare is lacking
-    -   Funding for promotion of HR
-        -   Independence and legitimacy of NGOs getting funding is suspected
- 
+- How nations treat each other, help build good international community
+- Realism - only thing matters is power,
+- Idealism - focuses on common interests, idealist values
+- Constructivism - focus on foreign policy, diplomatic initiatives, focus on domestic politics
+- Cosmopolitanism - do the right thing, behave as you would want others to behave
+- Equality of life - everyone has equal moral weight
+- Ethical Issues -
+    - Mgt of Common Goods - ex Antarctica, High seas, atmosphere, outer space
+    - Humanitarian intervention - was done for geo strategic reason
+    - Disarmament
+    - IPR - developed countries depriving poor ones
+    - Trade Negotiations -
+- Issues in International Funding
+    - Conditionality associated w/ loan
+        - Donors shape policy framework and strategies undermining rights of people
+        - Local societal diversities are ignored
+        - Infringes sovereignty, democracy
+    - Issues in Funding Clinical trials
+        - Exploitation of patients, compromise standards of trial
+        - Risk of harm to participants,
+        - consent in foreign countries could be ambiguous due to language barriers
+        - After trial availability of healthcare is lacking
+    - Funding for promotion of HR
+        - Independence and legitimacy of NGOs getting funding is suspected
 
 **Answer and Analysis**
 
@@ -58,7 +57,7 @@ In conclusion, the conflict between Russia and Ukraine raises several crucial et
 
 ```
 
-2. “Refugees should not be turned back to the country where they would face prosecution or human rights violation.” Examine the statement with reference to the ethical dimension being violated by the nation claiming to be democratic with an open society. (“शरणार्थियो को उस दे ं श में वापस नही लौ ं टाया जाना चाहिए जहाँ उन्हें उत्पीड़न अथवा मानवाधिकारो के उल् ं लंघन का सामना करना पड़ेगा।" खुले समाज और लोकतांत्रिक होने का दावा करने वाले किसी राष्ट्र के द्वारा नैतिक आयाम के उल्लंघन के सं दर्भ में इस कथन का परीक्षण कीजिए।) 2021
+1. “Refugees should not be turned back to the country where they would face prosecution or human rights violation.” Examine the statement with reference to the ethical dimension being violated by the nation claiming to be democratic with an open society. (“शरणार्थियो को उस दे ं श में वापस नही लौ ं टाया जाना चाहिए जहाँ उन्हें उत्पीड़न अथवा मानवाधिकारो के उल् ं लंघन का सामना करना पड़ेगा।" खुले समाज और लोकतांत्रिक होने का दावा करने वाले किसी राष्ट्र के द्वारा नैतिक आयाम के उल्लंघन के सं दर्भ में इस कथन का परीक्षण कीजिए।) 2021
 
 ```ad-Answer
 
@@ -72,8 +71,7 @@ In addition, denying refugees protection and returning them to countries where t
 
 ```
 
-
-3. Discuss the role of ethics and values in enhancing the following three major components of Comprehensive National Power (CNP) viz. human capital, soft power (culture and policies), and social harmony. (व्यापक राष्ट्रीय शक्ति (सी.एन.पी.) के तीन मुख्य घटको जैसे मानवीय पूँजी, मृद ं ुशक्ति (सं स्कृति और नीतियां) तथा सामाजिक सद्भाव की अभिवृद्धि में नीति-शास्त्र और मूल्यों की भू ्यों मिका का विवेचन कीजिए।) 2020
+1. Discuss the role of ethics and values in enhancing the following three major components of Comprehensive National Power (CNP) viz. human capital, soft power (culture and policies), and social harmony. (व्यापक राष्ट्रीय शक्ति (सी.एन.पी.) के तीन मुख्य घटको जैसे मानवीय पूँजी, मृद ं ुशक्ति (सं स्कृति और नीतियां) तथा सामाजिक सद्भाव की अभिवृद्धि में नीति-शास्त्र और मूल्यों की भू ्यों मिका का विवेचन कीजिए।) 2020
 
 ```ad-Answer
 
@@ -88,11 +86,7 @@ Social Harmony:
 
 ```
 
-
-
-
-
-5. ‘The will to power exits, but it can be tamed and be guided by rationality and principles of moral duty.’ Examine this statement in the context of international relations. ('शक्ति की इच्छा विद्यमान है, लेकिन विवेकशीलता और नैतिक कर्त्तव्य के सिद्धांतो से उसे सा ं धित और निर्देशित किया जा सकता है।' अंतर्राष्ट्रीय सम्बन्धों के सं द ्धों र्भ में इस कथन का परीक्षण कीजिए।) 2020
+1. ‘The will to power exits, but it can be tamed and be guided by rationality and principles of moral duty.’ Examine this statement in the context of international relations. ('शक्ति की इच्छा विद्यमान है, लेकिन विवेकशीलता और नैतिक कर्त्तव्य के सिद्धांतो से उसे सा ं धित और निर्देशित किया जा सकता है।' अंतर्राष्ट्रीय सम्बन्धों के सं द ्धों र्भ में इस कथन का परीक्षण कीजिए।) 2020
 
 ```ad-Answer
 
@@ -106,7 +100,7 @@ In this way, the will to power can be tamed and guided by rationality and princi
 
 ```
 
-7. Strength, peace and security are considered to be the pillars of international relations. Elucidate. (शक्ति, शांति एवं सुरक्षा अंतर्राष्ट्रीय सं बं धो के आधार माने जाते हैं । स्प ं ष्ट कीजिए।) 2017
+1. Strength, peace and security are considered to be the pillars of international relations. Elucidate. (शक्ति, शांति एवं सुरक्षा अंतर्राष्ट्रीय सं बं धो के आधार माने जाते हैं । स्प ं ष्ट कीजिए।) 2017
 
 ```ad-Answer
 
@@ -122,7 +116,7 @@ In conclusion, the three pillars of international relations—strength, peace, a
 
 ```
 
-9. At the International level, the bilateral relations between most nations are governed on the policy of promoting one's own national interest without any regard for the interest of other nations. This leads to conflicts and tensions between the nations. How can ethical consideration help resolve such tensions? Discuss with specific examples. (अंतर्राष्ट्रीय स्तर पर, अधिकांश राष्ट्रों के बीच ष्ट्रों द्विपक्षीय सं बं ध, अन्य राष्ट्रों के ह ष्ट्रों ितो का सम् ं मान किए बिना स्वयं के राष्ट्रीय हित की प्रोन्नति करने की नीति के द्वारा नियंत्रित होते हैं। इससे राष्ट्रों के बीच द् ष्ट्रों वंद्व और तनाव उत्पन्न होते हैं। ऐसे तनावो के समाधान में नै ं तिक विचार किस प्रकार सहायक हो सकते हैं? विशिष्ट उदाहरणो के सा ं थ चर्चा कीजिए।) 2015
+1. At the International level, the bilateral relations between most nations are governed on the policy of promoting one's own national interest without any regard for the interest of other nations. This leads to conflicts and tensions between the nations. How can ethical consideration help resolve such tensions? Discuss with specific examples. (अंतर्राष्ट्रीय स्तर पर, अधिकांश राष्ट्रों के बीच ष्ट्रों द्विपक्षीय सं बं ध, अन्य राष्ट्रों के ह ष्ट्रों ितो का सम् ं मान किए बिना स्वयं के राष्ट्रीय हित की प्रोन्नति करने की नीति के द्वारा नियंत्रित होते हैं। इससे राष्ट्रों के बीच द् ष्ट्रों वंद्व और तनाव उत्पन्न होते हैं। ऐसे तनावो के समाधान में नै ं तिक विचार किस प्रकार सहायक हो सकते हैं? विशिष्ट उदाहरणो के सा ं थ चर्चा कीजिए।) 2015
 
 ```ad-Answer
 
@@ -141,10 +135,11 @@ In conclusion, ethical considerations play a critical role in resolving tensions
 
 ```
 
-Case Study: IR-Defends Export to Friendly Countries (2020) 
+Case Study: IR-Defends Export to Friendly Countries (2020)
 
-The Chairman of Bharat Missiles Ltd (BML) was watching a program on TV wherein the Prime Minister was addressing the nation on the necessity of developing a self-reliant India. He subconsciously nodded in agreement and smiled to himself as he mentally reviewed BML’s journey in the past two decades. BML had admirably progressed from producing first-generation anti-tank guided missiles (ATGMs) to designing and producing state of the art ATGM weapon systems that would be the envy of any army. He sighed in reconciliation with his assumptions that the government would probably not alter the status quo of a ban on the export of military weaponry. To his surprise, the very next day he got a telephone call from the Director-General, Ministry of Defence, asking him to discuss the modalities of increasing BML production of ATGMs as there is a probability of exporting the same to a friendly country. The Director-General wanted the Chairman to discuss the details with his staff in Delhi next week. Two days later, at a press conference, the Defence Minister stated that he aims to double the current weapons export levels within five years. This would give an impetus to financing the development and manufacturing of indigenous weapons in the country. He also stated that all indigenous arms manufacturing nations have a very good record of the international arms trade. As the Chairman of BML, what are your views on the following points: 
-1. As an arms exporter of a responsible nation like India, what are the ethical issues involved in arms trade? 
+The Chairman of Bharat Missiles Ltd (BML) was watching a program on TV wherein the Prime Minister was addressing the nation on the necessity of developing a self-reliant India. He subconsciously nodded in agreement and smiled to himself as he mentally reviewed BML’s journey in the past two decades. BML had admirably progressed from producing first-generation anti-tank guided missiles (ATGMs) to designing and producing state of the art ATGM weapon systems that would be the envy of any army. He sighed in reconciliation with his assumptions that the government would probably not alter the status quo of a ban on the export of military weaponry. To his surprise, the very next day he got a telephone call from the Director-General, Ministry of Defence, asking him to discuss the modalities of increasing BML production of ATGMs as there is a probability of exporting the same to a friendly country. The Director-General wanted the Chairman to discuss the details with his staff in Delhi next week. Two days later, at a press conference, the Defence Minister stated that he aims to double the current weapons export levels within five years. This would give an impetus to financing the development and manufacturing of indigenous weapons in the country. He also stated that all indigenous arms manufacturing nations have a very good record of the international arms trade. As the Chairman of BML, what are your views on the following points:
+
+1. As an arms exporter of a responsible nation like India, what are the ethical issues involved in arms trade?
 2. List five ethical factors that would influence the decision to sell arms to foreign governments.
 
 ```ad-Answer

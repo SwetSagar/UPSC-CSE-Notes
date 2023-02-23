@@ -2,47 +2,47 @@
 uid: f8e6b8d4bdae71154efeefd8a91d9e68
 ---
 
-# Ethical concerns and Dilemma in govt and private institution; 
+# Ethical Concerns and Dilemma in Govt and Private Institution;
+
 2020-10-21 16:49:44
 
 ---
 
--   Ethical Issues in IN civil services
-    -   Corruption both institutional and individual, Assymetric distribution of power, lack of accountability,
-    -   lack of integrity, lack of action against corrupt officials, lack of protection to whistle blowers,
-    -   lack of proper code of conduct for Public Servants, lack transparency
--   Per 2nd ARC
-    -   Corruption, lack of commitment, Red-tapism, Govt servants rarely held accountable, bureaucratic apathy, frequent transfers, unholy nexus b/w unscrupulous politicians and bureaucrats
--   Value Conflicts - individuals or group hold strong personal beliefs that are in disagreement within themselves
-    -   Ex efforts to promote equal opportunity result in conflict among values viz efficiency, justice, equality etc
-    -   Crime prevention might concern liberty, due process, equity etc
--   Framework of Ethical Behaviour -
-    -   Codify ethical norms, counter conflict of interest, create mechanism for enforcing codes, providing norms for qualifying disqualifying public functionary
--   Philosophy of Public Interest -
-    -   Intuitionist philosophy - justifies existing practices
-    -   Perfectionism - favours excellence over social equality
-    -   Utilitarianism
-    -   Theory of Justice - John Rawls liberty should be equally given to all, public offices should be open to all
-    -   Human Rights - inalienable FR to every Human, equal and non-discriminatory
-    -   Egalitarianism - all humans are equal in worth and social status
--   Ethical Dilemma
-    -   Choice b/w competing sets of principles
-        -   1st type of dilemma is when agent must make a decision
-        -   2nd is when chose from actions
-        -   3rd any action take would compromise some or the other ethical principle, no perfect soln
-    -   Types of ED
-        -   Personal cost ED
-        -   Right versus Right ED - open/transparent vs oath of secrecy
-        -   Conjoint ED - combination of above written Eds
-    -   Examples - blowing whistles against corruption of senior officers; actively engage in pressure groups or party politics
-    -   Resolve -
-        -   Action is legal/ consistent w/ Gov policy
-        -   In line w/ my agency's goals and Code of Conduct
-        -   Is it the right thing to do
-        -   What could be the outcome
-        -   Can I justify doing it
-        -   What would happen during public scrutiny
- 
+- Ethical Issues in IN civil services
+    - Corruption both institutional and individual, Assymetric distribution of power, lack of accountability,
+    - lack of integrity, lack of action against corrupt officials, lack of protection to whistle blowers,
+    - lack of proper code of conduct for Public Servants, lack transparency
+- Per 2nd ARC
+    - Corruption, lack of commitment, Red-tapism, Govt servants rarely held accountable, bureaucratic apathy, frequent transfers, unholy nexus b/w unscrupulous politicians and bureaucrats
+- Value Conflicts - individuals or group hold strong personal beliefs that are in disagreement within themselves
+    - Ex efforts to promote equal opportunity result in conflict among values viz efficiency, justice, equality etc
+    - Crime prevention might concern liberty, due process, equity etc
+- Framework of Ethical Behaviour -
+    - Codify ethical norms, counter conflict of interest, create mechanism for enforcing codes, providing norms for qualifying disqualifying public functionary
+- Philosophy of Public Interest -
+    - Intuitionist philosophy - justifies existing practices
+    - Perfectionism - favours excellence over social equality
+    - Utilitarianism
+    - Theory of Justice - John Rawls liberty should be equally given to all, public offices should be open to all
+    - Human Rights - inalienable FR to every Human, equal and non-discriminatory
+    - Egalitarianism - all humans are equal in worth and social status
+- Ethical Dilemma
+    - Choice b/w competing sets of principles
+        - 1st type of dilemma is when agent must make a decision
+        - 2nd is when chose from actions
+        - 3rd any action take would compromise some or the other ethical principle, no perfect soln
+    - Types of ED
+        - Personal cost ED
+        - Right versus Right ED - open/transparent vs oath of secrecy
+        - Conjoint ED - combination of above written Eds
+    - Examples - blowing whistles against corruption of senior officers; actively engage in pressure groups or party politics
+    - Resolve -
+        - Action is legal/ consistent w/ Gov policy
+        - In line w/ my agency's goals and Code of Conduct
+        - Is it the right thing to do
+        - What could be the outcome
+        - Can I justify doing it
+        - What would happen during public scrutiny
 
  **Answers and Analysis**
 
@@ -83,7 +83,7 @@ To ensure that the use of online methods is ethical, it is crucial to have robus
 
 ```
 
-2. Impact of digital technology as a reliable source of input for rational decision making is a debatable issue. Critically evaluate with a suitable example. (तर्कसं गत निर्णय लेने के लिए निवेश (इनपुट) के विश्वसनीय स्रोत के रूप में डिजिटल प्रौद्योगिकी का प्रभाव एक बहस का मुद्दा है। उपयुक्त उदाहरण के साथ आलोचनात्मक मूल्यांकन कीजिए।) 2021
+1. Impact of digital technology as a reliable source of input for rational decision making is a debatable issue. Critically evaluate with a suitable example. (तर्कसं गत निर्णय लेने के लिए निवेश (इनपुट) के विश्वसनीय स्रोत के रूप में डिजिटल प्रौद्योगिकी का प्रभाव एक बहस का मुद्दा है। उपयुक्त उदाहरण के साथ आलोचनात्मक मूल्यांकन कीजिए।) 2021
 
 ```ad-Answer
 
@@ -97,7 +97,7 @@ Moreover, digital technology can be subject to hacking and cyber attacks, which 
 
 ```
 
-3. An independent and empowered social audit mechanism is an absolute must in every sphere of public service, including the judiciary, to ensure performance, accountability and ethical conduct. Elaborate. (न्यायपालिका सहित सार्वजनिक सेवा के हर क्त्र में न षे िष्पादन, जवाबदेही और नैतिक आचरण सुनिश्चित करने के लिए एक
+1. An independent and empowered social audit mechanism is an absolute must in every sphere of public service, including the judiciary, to ensure performance, accountability and ethical conduct. Elaborate. (न्यायपालिका सहित सार्वजनिक सेवा के हर क्त्र में न षे िष्पादन, जवाबदेही और नैतिक आचरण सुनिश्चित करने के लिए एक
 स्वतंत्र और सशक्त सामाजिक अंकेक्षण तंत्र परम आवश्यक है। सविस्तार समझाइए।) 2021
 
 ```ad-Answer
@@ -106,7 +106,7 @@ Moreover, digital technology can be subject to hacking and cyber attacks, which 
 
 ```
 
-4. Distinguish between laws and rules. Discuss the role of ethics in formulating them. (विधि और नियम के बीच विभेदन कीजिए । इनके सूत्रीकरण में नीति-शास्त्र की भूमिका का विवेचन कीजिए।) 2020
+1. Distinguish between laws and rules. Discuss the role of ethics in formulating them. (विधि और नियम के बीच विभेदन कीजिए । इनके सूत्रीकरण में नीति-शास्त्र की भूमिका का विवेचन कीजिए।) 2020
 
 ```ad-Answer
 
@@ -132,7 +132,7 @@ In conclusion, laws and rules are important for regulating human behavior and en
 
 ```
 
-5. Explain the process of resolving ethical dilemmas in Public Administration. (लोक प्रशासन में नैतिक दविु धाओ का समाधान करने के ं प्रक्रम को स्पष्ट कीजिए।) 2018
+1. Explain the process of resolving ethical dilemmas in Public Administration. (लोक प्रशासन में नैतिक दविु धाओ का समाधान करने के ं प्रक्रम को स्पष्ट कीजिए।) 2018
 
 ```ad-Answer
 
@@ -157,7 +157,7 @@ In conclusion, resolving ethical dilemmas in public administration requires a sy
 
 ```
 
-6. Suppose the Government of India is thinking of constructing a dam in a mountain valley bond by forests and inhabited by ethnic communities. What rational policy should it resort to in dealing with unforeseen contingencies? (मान लीजिए कि भारत सरकार एक ऐसी पर्वतीय घाटी में एक बाँध का निर्माण करने की
+1. Suppose the Government of India is thinking of constructing a dam in a mountain valley bond by forests and inhabited by ethnic communities. What rational policy should it resort to in dealing with unforeseen contingencies? (मान लीजिए कि भारत सरकार एक ऐसी पर्वतीय घाटी में एक बाँध का निर्माण करने की
 सोच रही है, जो जं गलो से ं घिरी है और जहाँ नृजातीय समुदाय रहते हैं । अप्रत्याशित आकस्मिकताओ से न ं िपटने के लिए सरकार को कौन-सी तर्कसं गत
 नीति का सहारा लेना चाहिए ?) 2018
 
@@ -167,12 +167,12 @@ In conclusion, resolving ethical dilemmas in public administration requires a sy
 
 ```
 
-Case study: public org dilemma Shutting down pollutant MSME (2022) 
+Case study: public org dilemma Shutting down pollutant MSME (2022)
 
-You are appointed as an officer heading the section in Environment Pollution Control Board to ensure compliance and its follow-up. In that region, there were large number of small and medium industries which had been granted clearance. You learnt that these industries provide employment to many migrant worker. Most of the industrial units have got environmental clearance certificate in their possession. The environmental clearance seeks to curb industries and projects that supposedly hamper environment and living species in the region, But in practice. most of these units remain to be polluting units in several ways like air, water and soil pollution. As such, local people encountered persistent health problems. It was confirmed that majority of the industries were violating environmental compliance. You issued notice to all the industrial units to apply for fresh environmental clearance certificate from the competent authority. However, your action met with hostile response from a section of the industrial units, other vested interest persons and a section of the local politicians. The workers also became hostile to you as they felt that your action would lead to the closure of these industrial units, and the resultant unemployment will lead to insecurity uncertainty in their livelihood. Many owners of the industries approached you with the plea that you should not initiate harsh action as it would compel them their units, and cause huge financial loss, shortage of their products in the market. These would obviously add to the sufferings of the labourers and the consumers alike. The labour union also sent you representation requesting against the closure of the units. You simultaneously started receiving threats from unknown corners. You however received supports from some of your colleagues, who advised you to act freely to ensure environmental compliance. Local NGOs also came to your support and they demanded the closure of the polluting units immediately. 
-	(a) What are the options available to you under the given situation? 
-	(b) Critically examine the options listed by you. 
-	(c) What type of mechanism would you suggest to ensure environmental compliance? 
+You are appointed as an officer heading the section in Environment Pollution Control Board to ensure compliance and its follow-up. In that region, there were large number of small and medium industries which had been granted clearance. You learnt that these industries provide employment to many migrant worker. Most of the industrial units have got environmental clearance certificate in their possession. The environmental clearance seeks to curb industries and projects that supposedly hamper environment and living species in the region, But in practice. most of these units remain to be polluting units in several ways like air, water and soil pollution. As such, local people encountered persistent health problems. It was confirmed that majority of the industries were violating environmental compliance. You issued notice to all the industrial units to apply for fresh environmental clearance certificate from the competent authority. However, your action met with hostile response from a section of the industrial units, other vested interest persons and a section of the local politicians. The workers also became hostile to you as they felt that your action would lead to the closure of these industrial units, and the resultant unemployment will lead to insecurity uncertainty in their livelihood. Many owners of the industries approached you with the plea that you should not initiate harsh action as it would compel them their units, and cause huge financial loss, shortage of their products in the market. These would obviously add to the sufferings of the labourers and the consumers alike. The labour union also sent you representation requesting against the closure of the units. You simultaneously started receiving threats from unknown corners. You however received supports from some of your colleagues, who advised you to act freely to ensure environmental compliance. Local NGOs also came to your support and they demanded the closure of the polluting units immediately.
+	(a) What are the options available to you under the given situation?
+	(b) Critically examine the options listed by you.
+	(c) What type of mechanism would you suggest to ensure environmental compliance?
 	(d) What are the ethical dilemmas you faced in exercising your option?
 
 ```ad-Answer
@@ -200,12 +200,13 @@ You are appointed as an officer heading the section in Environment Pollution Con
 
 ```
 
-Case study: public org dilemmadead driver & compensation (2022) 
+Case study: public org dilemmadead driver & compensation (2022)
 
-Rakesh was working as a Joint Commissioner in Transport department of a city. As a part of his job profile, among others, he was entrusted with the task of overseeing the control and functioning of City Transport Department. A case strike by drivers’ union of City Transport Department over the issue of compensation to a driver who died on duty while driving the bus came up before him for decision in the matter. He gathered that the driver (deceased) was plying Bus No. 528 which passed through busy and congested roads of the city. It so happened that near an intersection on the way, there was an accident involving the a middle-aged man. It was found that there was altercation between the driver and the car driver. Heated arguments between them led to fight and the driver gave him a a blow. Lot of passerbys had gathered and tried to intervene but without success. Eventually, both of them were badly injured and profusely bleeding and were taken to the nearby hospital. The driver succumbed to the injuries and could not be saved. The middle-aged driver’s condition was also critical but after a day, he recovered and was discharged. Police had immediately come to the spot and FIR was registered. Police investigation revealed that the quarrel in was started by the bus driver and he had resorted to physical violence. There exchange of blows between them. The City Transport Department management is considering of not giving any extra compensation to the driver’s (deceased) family. The family is very aggrieved. depressed and agitated against the discriminatory and non-sympathetic approach of the City Transport Department management. The bus driver (deceased) was 52 years of age, was survived by his wife and two school-college going daughters. He was the sole earner of the family. The City Transport Department workers’ union took up this case and when found no favourable response from the management, decided to go on strike. The union’s demand was two fold. First was full extra compensation as given to other drivers who died on duty and secondly employment to one family member. The strike has continued for 10 days and the deadlock remains. 
-1. What are the options available to Rakesh to meet the above situation? 
-2. Critically examine each of the options identified by Rakesh? 
-3. What are the ethical dilemmas being faced by Rakesh? 
+Rakesh was working as a Joint Commissioner in Transport department of a city. As a part of his job profile, among others, he was entrusted with the task of overseeing the control and functioning of City Transport Department. A case strike by drivers’ union of City Transport Department over the issue of compensation to a driver who died on duty while driving the bus came up before him for decision in the matter. He gathered that the driver (deceased) was plying Bus No. 528 which passed through busy and congested roads of the city. It so happened that near an intersection on the way, there was an accident involving the a middle-aged man. It was found that there was altercation between the driver and the car driver. Heated arguments between them led to fight and the driver gave him a a blow. Lot of passerbys had gathered and tried to intervene but without success. Eventually, both of them were badly injured and profusely bleeding and were taken to the nearby hospital. The driver succumbed to the injuries and could not be saved. The middle-aged driver’s condition was also critical but after a day, he recovered and was discharged. Police had immediately come to the spot and FIR was registered. Police investigation revealed that the quarrel in was started by the bus driver and he had resorted to physical violence. There exchange of blows between them. The City Transport Department management is considering of not giving any extra compensation to the driver’s (deceased) family. The family is very aggrieved. depressed and agitated against the discriminatory and non-sympathetic approach of the City Transport Department management. The bus driver (deceased) was 52 years of age, was survived by his wife and two school-college going daughters. He was the sole earner of the family. The City Transport Department workers’ union took up this case and when found no favourable response from the management, decided to go on strike. The union’s demand was two fold. First was full extra compensation as given to other drivers who died on duty and secondly employment to one family member. The strike has continued for 10 days and the deadlock remains.
+
+1. What are the options available to Rakesh to meet the above situation?
+2. Critically examine each of the options identified by Rakesh?
+3. What are the ethical dilemmas being faced by Rakesh?
 4. What course of action would Rakesh adopt to diffuse the above situation?
 
 ```ad-Answer
@@ -226,10 +227,11 @@ In conclusion, Rakesh faces a challenging situation, but with a combination of e
  
 ```
 
-Case study: Public Organizations DilemmaHousing vs SEZ Allocation (2020) 
+Case study: Public Organizations DilemmaHousing vs SEZ Allocation (2020)
 
-Rajesh Kumar is a senior public servant, with a reputation of honesty and forthrightness, currently posted in the Finance Ministry as the Head of the Budget Division. His department is presently busy in organizing the budgetary support to the states, four of which are due to the polls within the financial year. This year’s annual budget had allotted Rs 8300 crores for the National Housing Scheme (NHS), a centrally sponsored social housing scheme for the weaker sections of society. Rs 775 crores have been drawn for NHS till June. The Ministry of Commerce had long been pursuing a case for setting up a Special Economic Zone (SEZ) in a southern state to boost exports. After two years of detailed discussion between the center and state, the Union Cabinet approved the project in August. The process was initiated to acquire the necessary land. Eighteen months ago a leading Public Sector Unit (PSU) had projected the need for setting up a large natural gas processing plant in a northern state for the regional gas grid. The land is already in possession of the PSU. The gas grid is an essential component of the national energy security strategy. After three rounds of global bidding, the project was allotted to an MNC, M/s XYZ Hydrocarbons. The first tranche of payment to the MNC is scheduled to be made in December. Finance Ministry was asked for a timely allocation of an additional Rs 6000 crores for these two developmental projects. It was decided to recommend re-appropriation of this entire amount from NHS allocation. The file was forwarded to the Budget Department for their comments and further processing. On studying the case file, Rajesh Kumar realized that this re-appropriation may cause an inordinate delay in the execution of NHS, a project much publicized in the rallies of senior politicians. Correspondingly, the non-availability of finances would cause a financial loss in the SEZ and national embarrassment due to delayed payment in the international project. Rajesh Kumar discussed the matter with seniors. He was conveyed that this politically sensitive situation needs to be processed immediately. Rajesh Kumar realized that diversion of funds from the NHS could raise difficult questions for the government in the Parliament. Discuss the following with reference to this case: 
-1. Ethical issues involved in re-appropriation of funds from a welfare project to the development projects. 
+Rajesh Kumar is a senior public servant, with a reputation of honesty and forthrightness, currently posted in the Finance Ministry as the Head of the Budget Division. His department is presently busy in organizing the budgetary support to the states, four of which are due to the polls within the financial year. This year’s annual budget had allotted Rs 8300 crores for the National Housing Scheme (NHS), a centrally sponsored social housing scheme for the weaker sections of society. Rs 775 crores have been drawn for NHS till June. The Ministry of Commerce had long been pursuing a case for setting up a Special Economic Zone (SEZ) in a southern state to boost exports. After two years of detailed discussion between the center and state, the Union Cabinet approved the project in August. The process was initiated to acquire the necessary land. Eighteen months ago a leading Public Sector Unit (PSU) had projected the need for setting up a large natural gas processing plant in a northern state for the regional gas grid. The land is already in possession of the PSU. The gas grid is an essential component of the national energy security strategy. After three rounds of global bidding, the project was allotted to an MNC, M/s XYZ Hydrocarbons. The first tranche of payment to the MNC is scheduled to be made in December. Finance Ministry was asked for a timely allocation of an additional Rs 6000 crores for these two developmental projects. It was decided to recommend re-appropriation of this entire amount from NHS allocation. The file was forwarded to the Budget Department for their comments and further processing. On studying the case file, Rajesh Kumar realized that this re-appropriation may cause an inordinate delay in the execution of NHS, a project much publicized in the rallies of senior politicians. Correspondingly, the non-availability of finances would cause a financial loss in the SEZ and national embarrassment due to delayed payment in the international project. Rajesh Kumar discussed the matter with seniors. He was conveyed that this politically sensitive situation needs to be processed immediately. Rajesh Kumar realized that diversion of funds from the NHS could raise difficult questions for the government in the Parliament. Discuss the following with reference to this case:
+
+1. Ethical issues involved in re-appropriation of funds from a welfare project to the development projects.
 2. Given the need for proper utilization of public funds, discuss the options available to Rajesh Kumar. Is resigning a worthy option?
 
 ```ad-Answer
@@ -252,7 +254,7 @@ In conclusion, each of the above options has its own advantages and disadvantage
 
 ```
 
-Case Study: Angry villagers & Disaster Relief (2019) 
+Case Study: Angry villagers & Disaster Relief (2019)
 
 You are the heading the rescue operations in an area affected by severe natural calamity, thousands of people are rendered homeless and deprived of food, drinking water and other basic amenities. Rescue work has been disrupted by heavy rainfall and damaged to supply routes. The local people are seeding with anger against the delayed limited rescue operations. When your team reaches the affected area, the people there heckle and even assault some of the team members. One of your team members is even severely injured. Faced with this crisis some team member pleads with you to call off the operations freeing threats to their life. In such trying circumstances, what will be your response? Examine the qualities of a public servant which will be required to manage the situations.
 
@@ -284,7 +286,7 @@ In conclusion, a head of rescue operations in a crisis situation must be able to
 
 ```
 
-Case Study: IPS Officer vs Drug Mafia (2019) 
+Case Study: IPS Officer vs Drug Mafia (2019)
 
 In one of the districts of a frontier state, narcotics menace has been rampant. This has resulted in money laundering, mushrooming of poppy farming, arms smuggling and near stalling of education. The system is on the verge of collapse. The situation has been further worsened by unconfirmed reports that local politicians, as well as some senior police officers, are providing surreptitious patronage to the drug mafia. At that point of time a woman police officer, known for her skills in handling such situations is appointed as superintendent of police to bring the situation to normalcy. If you are the same police officer, identify the various dimensions of the crisis. Based on your understanding, suggest measures to deal with the crisis.
 
@@ -312,9 +314,9 @@ By taking these measures, I am confident that the situation in the district can 
 
 ```
 
-Case-Study: Enforcing Liquor Prohibition in Backward Area (2018) 
+Case-Study: Enforcing Liquor Prohibition in Backward Area (2018)
 
-It is a State where prohibition is in force. You are recently appointed as the Superintendent of Police of a district notorious for illicit distillation of liquor. The illicit liquor leads to many death, reported and unreported, and causes a major problem for the district authorities. The approach till now had been to view it as a law and order problem and tackle it accordingly. Raids, arrest, police cases, and criminal trials – all these had only limited impact. The problem remains as serious as ever. Your inspections show that the parts of the district where the distillation flourishes are economically, industrially and educationally backward. Agriculture is badly affected by poor irrigation facilities. Frequent clashes among communities gave boost to illicit distillation. No major initiatives had taken place in the past either from the government’s side or from social organizations to improve the lot of the people. Which new approach will you adopt to bring the problem under control?
+It is a State where prohibition is in force. You are recently appointed as the Superintendent of Police of a district notorious for illicit distillation of liquor. The illicit liquor leads to many death, reported and unreported, and causes a major problem for the district authorities. The approach till now had been to view it as a law and order problem and tackle it accordingly. Raids, arrest, police cases, and criminal trials–all these had only limited impact. The problem remains as serious as ever. Your inspections show that the parts of the district where the distillation flourishes are economically, industrially and educationally backward. Agriculture is badly affected by poor irrigation facilities. Frequent clashes among communities gave boost to illicit distillation. No major initiatives had taken place in the past either from the government’s side or from social organizations to improve the lot of the people. Which new approach will you adopt to bring the problem under control?
 
 ```ad-Answer
 
@@ -340,9 +342,9 @@ In conclusion, the problem of illicit distillation of alcohol cannot be solved b
 
 ```
 
-Case-Study: Polluting Factory Closure Leading to Unemployment (2018) 
+Case-Study: Polluting Factory Closure Leading to Unemployment (2018)
 
-A big corporate house is engaged in manufacturing industrial chemicals on a large scale. It proposes to set upon the additional unit. Many states rejected its proposal due to the detrimental effect on the environment. But one state government acceded to the request and permitted the unit close to a city, brushing aside all opposition. The unit was set up 10 years ago and was in full swing till recently. The pollution caused by the industrial effluents was affecting the land, water and crops in the area. It was also causing serious health problems to human beings and animals. This gave rise to a series of agitation thousands of people took part, creating a law and order problem necessitating stern police action. Following the public outcry, the State government ordered the closure of the factory. The closure of the factory resulted in the unemployment of not only those workers who were engaged in the factory but also those who were working in the ancillary units. It also very badly affected those industry which depended on the chemicals manufactured by it. As a senior officer entrusted with the responsibility of handling this issues, how are you going to address it? 
+A big corporate house is engaged in manufacturing industrial chemicals on a large scale. It proposes to set upon the additional unit. Many states rejected its proposal due to the detrimental effect on the environment. But one state government acceded to the request and permitted the unit close to a city, brushing aside all opposition. The unit was set up 10 years ago and was in full swing till recently. The pollution caused by the industrial effluents was affecting the land, water and crops in the area. It was also causing serious health problems to human beings and animals. This gave rise to a series of agitation thousands of people took part, creating a law and order problem necessitating stern police action. Following the public outcry, the State government ordered the closure of the factory. The closure of the factory resulted in the unemployment of not only those workers who were engaged in the factory but also those who were working in the ancillary units. It also very badly affected those industry which depended on the chemicals manufactured by it. As a senior officer entrusted with the responsibility of handling this issues, how are you going to address it?
 
 ```ad-Answer
 
@@ -367,7 +369,7 @@ In conclusion, the closure of the industrial chemical factory has resulted in se
 
 ```
 
-Case-Study: Environment Degradation (2014) 
+Case-Study: Environment Degradation (2014)
 
 Now-a-days, there is an increasing thrust on economic development all around the globe. At the same time, there is also an increasing concern about environmental degradation caused by development. Many a time, we face a direct conflict between developmental activity and environmental quality. It is neither feasible to stop or curtail the development process, nor it is advisable to keep degrading the environment, as it threatens our very survival. Discuss some feasible strategies which could be adopted to eliminate this conflict and which could lead to sustainable development.
 
@@ -392,6 +394,7 @@ Case-Study: Why Villagers Migrate? (2014)
 
 In our country, the migration of rural people to towns and cities is increasing drastically. This is causing serious problems both in the rural as well as in the urban areas. In fact, things are becoming really unmanageable. Can you analyze this problem in detail and indicate not only the socio-economic but also the emotional and attitudinal factors responsible for this problem? Also,
 distinctly bring out why—
+
 1. Educated rural youth are trying to shift to urban areas;
 2. Landless poor people are migrating to urban slums;
 3. Even some farmers are selling off their land and trying to settle in urban areas taking up petty jobs.
@@ -426,7 +429,7 @@ In conclusion, the problem of rural-urban migration is a complex issue that requ
 
 ```
 
-Case-Study: Disaster Management (2015) 
+Case-Study: Disaster Management (2015)
 
 There is a disaster-prone State having frequent landslides, forest fires, cloudbursts, flash floods and earthquakes, etc. Some of these are seasonal and often unpredictable. The magnitude of the disaster is always unanticipated. During one of the seasons, a cloudburst caused devastating floods and landslides leading to high casualties. There was major damage to infrastructure like roads, bridges and power generating units. This led to more than 100000 pilgrims, tourists and other locals trapped across different routes and locations. The people trapped in your area of responsibility included senior citizens, patients in hospitals, women and children, hikers, tourists, ruling party's regional president along with his family, additional jail. As secretary State and prisoners in jail. As a civil services officer of the State, what would be the order in which you would rescue these people and why? Give justifications
 
@@ -451,7 +454,7 @@ In conclusion, in a disaster-prone state, the priority for rescue should be base
 
 ```
 
-Case-Study: Draft Better Land-Acquisition Policy (2016) 
+Case-Study: Draft Better Land-Acquisition Policy (2016)
 
 Land needed for mining, dams and other large-scale projects is acquired mostly from Adivasis, hill dwellers and rural communities. The displaced persons are paid monetary compensation as per the legal provisions. However, the payment is often tardy. In any case, it cannot sustain the displaced families for long. These people do not possess marketable skills to engage in some other occupation. They end up as low paid migrant labourers. Moreover, their living is destroyed. Thus, the benefits of traditional ways of community development go to industries, industrialists and urban communities whereas the costs are passed on to these poor helpless people. This unjust distribution of costs and benefits is unethical. Suppose you have been entrusted with the task of drafting a better compensation-cum-rehabilitation policy for such displaced persons, how would you approach the problem and what would be the main elements of your suggested policy?
 

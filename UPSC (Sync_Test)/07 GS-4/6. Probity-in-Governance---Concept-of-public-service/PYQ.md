@@ -106,7 +106,6 @@ Various examples that can be quoted here are :
 
 ```
 
-
 1. “If a country is to be corruption free and become a nation of beautiful minds, I strongly feel
 there are three key societal members who can make a difference. they are father, the mother
 and the teacher.”–A. P. J. Abdul Kalam. Analyse. (“मेरा दृढ़ विश्वास है कि यदि किसी राष्ट्र को भ्रष्टाचार मुक्त और सुं दरमनो वाला बनाना है, तो उसमें समाज के तीन ं प्रमुख लोग अंतर ला सकते हैं । वे हैं पिता, माता एवं शिक्षक ।”—ए.पी.जे. अब्दुल कलाम ।ब्दु विश्लेषण कीजिए।) 2017

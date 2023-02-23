@@ -3,14 +3,14 @@
 		{"id":"610d25b97cac6787","x":1031,"y":491,"width":250,"height":60,"color":"#32da10","type":"text","text":"Salient Features of Worlds Physical Geography"},
 		{"id":"5d6253c265d82700","x":603,"y":491,"width":250,"height":60,"color":"1","type":"text","text":"Geomorphology"},
 		{"id":"6305679264885205","x":-113,"y":-558,"width":352,"height":334,"type":"file","file":"04 GS-1/🌏 Geography Static Notes/1. Geomorphology and Climatology/Moon and the Universe.md"},
-		{"id":"565692c625b4e5fd","x":-113,"y":-110,"width":352,"height":276,"type":"file","file":"04 GS-1/🌏 Geography Static Notes/1. Geomorphology and Climatology/Earth.md"},
-		{"id":"0278a10b6c068957","x":-113,"y":230,"width":352,"height":321,"type":"file","file":"04 GS-1/🌏 Geography Static Notes/1. Geomorphology and Climatology/Oceans.md"},
+		{"id":"565692c625b4e5fd","x":-113,"y":-110,"width":352,"height":276,"type":"file","file":"04 GS-1/🌏 Geography Static Notes/1. Geomorphology and Climatology/1.1 Earth.md"},
+		{"id":"0278a10b6c068957","x":-113,"y":230,"width":352,"height":321,"type":"file","file":"04 GS-1/🌏 Geography Static Notes/1. Geomorphology and Climatology/1.4 Oceans and Coastal Landforms.md"},
 		{"id":"d488b4dfa15c8696","x":-113,"y":616,"width":352,"height":359,"type":"file","file":"04 GS-1/🌏 Geography Static Notes/1. Geomorphology and Climatology/Rocks.md"},
-		{"id":"a653d011a7292f34","x":-113,"y":1083,"width":352,"height":317,"type":"file","file":"04 GS-1/🌏 Geography Static Notes/1. Geomorphology and Climatology/Landforms.md"},
+		{"id":"a653d011a7292f34","x":-113,"y":1083,"width":352,"height":317,"type":"file","file":"04 GS-1/🌏 Geography Static Notes/1. Geomorphology and Climatology/1.2 Landforms.md"},
 		{"id":"8216b3d522f28d55","x":1031,"y":170,"width":250,"height":60,"color":"1","type":"text","text":"Climatology"},
 		{"id":"c50d0d14f3938391","x":1565,"y":491,"width":250,"height":60,"color":"1","type":"text","text":"Soil Geography"},
 		{"id":"0e929946fc5eac4d","x":2153,"y":319,"width":400,"height":404,"color":"3","type":"file","file":"04 GS-1/🌏 Geography Static Notes/2. Indian Geography/Soils.md"},
-		{"id":"6c57d8468673d5ea","x":956,"y":-558,"width":400,"height":334,"color":"#4d3493","type":"file","file":"04 GS-1/🌏 Geography Static Notes/1. Geomorphology and Climatology/Climate of the World.md"}
+		{"id":"6c57d8468673d5ea","x":956,"y":-558,"width":400,"height":334,"color":"#4d3493","type":"file","file":"04 GS-1/🌏 Geography Static Notes/1. Geomorphology and Climatology/1.3 Climate of the World.md"}
 	],
 	"edges":[
 		{"id":"0f78adc69bfedef5","fromNode":"5d6253c265d82700","fromSide":"left","toNode":"6305679264885205","toSide":"right"},

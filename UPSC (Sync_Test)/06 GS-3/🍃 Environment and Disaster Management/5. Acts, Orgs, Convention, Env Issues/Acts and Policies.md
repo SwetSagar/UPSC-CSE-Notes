@@ -1,42 +1,46 @@
 # Acts and Policies
+
 2020-07-06 18:38:58
+
 ```toc
 ``` 
----
 
+---
 
 ## Environment Acts and Policies
 
 ### Indian Forest Act 1927
--   Consolidate and reserve forest areas.
+
+- Consolidate and reserve forest areas.
 - regulate movt of forest produce.
 - duty levied on forest produce.
--   Procedure to declare a forest as ==Reserved, protected or a village== forest
--   Defines what a ==forest offence is, penalties== etc
+- Procedure to declare a forest as ==Reserved, protected or a village== forest
+- Defines what a ==forest offence is, penalties== etc
 
-### WPA 1972 
--   provides basic ==framework to ensure protection and management== of wildlife. 
+### WPA 1972
+
+- provides basic ==framework to ensure protection and management== of wildlife.
 - <u>amended 4 times</u> in 82, 86, 91 and 93.
--   divided the animals into various schedules from I to VI. 
+- divided the animals into various schedules from I to VI.
 - ==VI was added in 91== for specified plant species.
--   Amendments is done by an expert committee constituted by the **Indian Board of Wildlife.**
--   Amend in 91 have taken the powers of state to declare animals as vermin and immunisation of livestock within 5km of NP is compulsory
-	- [ ]   WPA Amendment Act 2000 ?
-- Schedule I : 
+- Amendments is done by an expert committee constituted by the **Indian Board of Wildlife.**
+- Amend in 91 have taken the powers of state to declare animals as vermin and immunisation of livestock within 5km of NP is compulsory
+	- [ ] WPA Amendment Act 2000 ?
+- Schedule I :
 	- covers **endangered** animals, protection from poaching, killing, trading etc.
 	- Species are protected from hunting except ==under threat to human life==
 	- Ex Blackbuck, Bengal Tiger, Clouded Leopard etc
 - Schedule II :
 	- given high protection, cannot be hunted except ==under human threat or if they are suffering from disease beyond recovery==
 	- Ex Himalayan Black bear, Jackal, Indian Cobra
-- Schedule III and IV : 
+- Schedule III and IV :
 	- Species that ==are not endangered==, penalty for violation of hunting rule is less.
 	- Ex Chita, Bharal, Hyena etc
-- Schedule V : 
+- Schedule V :
 	- consists of animals considered **vermin**.
 	- they can be hunted ex Crows, Bats, Rats etc
-- Schedule VI : 
-	- provides for regulation in cultivation  of a **specified plant**.
+- Schedule VI :
+	- provides for regulation in cultivation of a **specified plant**.
 	- ==restricts possession, sale and transportation==
 	- cultivation and trade can be carried out with prior permission
 	- Ex Blue Vanda, Red Vanda, Kuth, Pitcher Plant etc.
@@ -45,247 +49,260 @@
 #### Bodies Constituted under WPA
 
 ##### National Board for Wildlife
-- [x] #todo 
+
+- [x] #todo
 
 ##### State Board of Wildlife
+
 - [x] #todo
 
 ![[Environmental Organisations#Central Zoo Authority 1992 under WPA 1972 act recently reconstituted]]
 
 National Tiger Conservation Authority
+
 - [ ] #todo
 
 ![[Environmental Organisations#Wildlife Crime Control Board WCCB 2007]]
 
+### Water (Prevention and Control of Pollution) Act, 1974 Amended 1988
 
-### Water (Prevention and Control of Pollution) Act, 1974 amended 1988
+- **Pollution control boards** are created under this.
+- ==Maintain and restore wholesomeness of aquatic resources==
+- Pollutants cannot be discharged into water bodies.
+- Lists all functions of state boards to counter WP.
+- Prior consent of state boards to set up any industry, plant or process.
+- Emergency measures, fine for obstruction.
 
--   **Pollution control boards** are created under this.
--   ==Maintain and restore wholesomeness of aquatic resources==
--   Pollutants cannot be discharged into water bodies.
--   Lists all functions of state boards to counter WP.
--   Prior consent of state boards to set up any industry, plant or process.
--   Emergency measures, fine for obstruction.
+### Water (Prevention and Control of Pollution) Cess Act 1977 Amended 2003
 
-### Water (Prevention and Control of Pollution) Cess Act 1977 amended 2003
-- [ ] #todo 
+- [ ] #todo
 
 ### Forest (Conservation) Act 1980 :
--   Passed to consolidate laws related to ==forest, transit of forest produce and duty leviable on timber and other forest produce==
--   Prior approval of central gov to divert forest land to non-forest purpose - Advisory committee for this purpose.
--   **Reserved forest** : Declared to sell the produce from them, unauthorized use is punishable.
--   **Village Forest** : assigned to village community called village forest.
--   **Protected Forest** : State govt designates them
-- [[Institutions and Measures#Compensatory Afforestation Fund Management and Planning Authority CAMPA | CAMPA]]
- 
+
+- Passed to consolidate laws related to ==forest, transit of forest produce and duty leviable on timber and other forest produce==
+- Prior approval of central gov to divert forest land to non-forest purpose - Advisory committee for this purpose.
+- **Reserved forest** : Declared to sell the produce from them, unauthorized use is punishable.
+- **Village Forest** : assigned to village community called village forest.
+- **Protected Forest** : State govt designates them
+- [[Institutions and Measures#Compensatory Afforestation Fund Management and Planning Authority CAMPA |CAMPA]]
 
 ### Air (Prevention and Control of Pollution) Act 1981
--   Expanded authority of **central and state boards** established under Water Act to include air pollution
--   Setting up new air pollution boards in states
--   Consent of them required for all industries operating under this act
--   Prescribe emission standards, test equipment in factories
--   1987 amendment included citizen suit and Noise pollution under it
--   1988 amendment empowered SPCB and CPCB to close defaulting plants
 
+- Expanded authority of **central and state boards** established under Water Act to include air pollution
+- Setting up new air pollution boards in states
+- Consent of them required for all industries operating under this act
+- Prescribe emission standards, test equipment in factories
+- 1987 amendment included citizen suit and Noise pollution under it
+- 1988 amendment empowered SPCB and CPCB to close defaulting plants
 
+### EPA 1986
 
-### EPA 1986 
--   empowers **Central gov** to prevent and control pollution and to establish effective machinery to protect and improve ==quality of environment==.
--   **Central gov** or any other body authorised by it could take samples of air, water, soil etc as a substance of evidence.
--   special procedure for handling ==hazardous substances==.
--   Citizens can also approach courts after giving a notice of **60 days**.
--   authorises central gov to issue directions for operation or process, prohibition, closure or regulation of ==any industry==, can also stop water and electricity w/o the order of a court.
--   penalty upto 5 yrs or 1 lkh or both.
--   Grants immunity to Gov officers for any act done under the provision of this act.
--   **Civil courts** have been debarred to have any jurisdiction.
--   supremacy over ==other acts==.
--   Ozone Depleting Substances (Regulation and Control) Rules 2000
-    -   Amended 4 times, prohibit use of CFC except in metered dose inhaler and other medical purpose
-    -   Use of **Halons** prohibited except for essential use
-    -   Use of **Methyl Bromide** allowed till Jan 2015
-    -   **HCFCs** allowed upto 2040.
- 
+- empowers **Central gov** to prevent and control pollution and to establish effective machinery to protect and improve ==quality of environment==.
+- **Central gov** or any other body authorised by it could take samples of air, water, soil etc as a substance of evidence.
+- special procedure for handling ==hazardous substances==.
+- Citizens can also approach courts after giving a notice of **60 days**.
+- authorises central gov to issue directions for operation or process, prohibition, closure or regulation of ==any industry==, can also stop water and electricity w/o the order of a court.
+- penalty upto 5 yrs or 1 lkh or both.
+- Grants immunity to Gov officers for any act done under the provision of this act.
+- **Civil courts** have been debarred to have any jurisdiction.
+- supremacy over ==other acts==.
+- Ozone Depleting Substances (Regulation and Control) Rules 2000
+    - Amended 4 times, prohibit use of CFC except in metered dose inhaler and other medical purpose
+    - Use of **Halons** prohibited except for essential use
+    - Use of **Methyl Bromide** allowed till Jan 2015
+    - **HCFCs** allowed upto 2040.
 
-### National Forest Policy 1988 
--   Aim is to ensure environmental stability and maintenance of ecological balance.
--   Objectives include conserving Natural heritage i.e national forests etc. Checking soil erosion and catchment areas of rivers etc. Check extension of sand dunes in deserts, inc forest productivity, effective utilization of forest produce.
--   **Joint Forest Management** was started under it.
+### National Forest Policy 1988
 
+- Aim is to ensure environmental stability and maintenance of ecological balance.
+- Objectives include conserving Natural heritage i.e national forests etc. Checking soil erosion and catchment areas of rivers etc. Check extension of sand dunes in deserts, inc forest productivity, effective utilization of forest produce.
+- **Joint Forest Management** was started under it.
 
 ### Hazardous Wastes Management Regulations, 1989
--   Industry required to identify major accident hazards, take preventive measures and submit a report to appropriate authority
--   Covers areas of research as well as application of GMOs
--   Formation of committees to handle various aspects of the rules
 
+- Industry required to identify major accident hazards, take preventive measures and submit a report to appropriate authority
+- Covers areas of research as well as application of GMOs
+- Formation of committees to handle various aspects of the rules
 
 ### Public Liability Insurance Act 1991
-- [ ] #todo 
+
+- [ ] #todo
 
 ### National Environment Tribunal Act 1995 /superseded
--   provide for strict liability for ==damage arising out of accidents== caused from the handling of hazardous substances
--   **NGT** superseded it the NET Act 1995 and National Environment Appellate Authority Act 1997 - 
+
+- provide for strict liability for ==damage arising out of accidents== caused from the handling of hazardous substances
+- **NGT** superseded it the NET Act 1995 and National Environment Appellate Authority Act 1997 -
 - was quasi-judicial body empowered to hear appeals against environmental approvals granted
 
-
 ### Chemical Accidents Rule 1996
-- [ ] #todo 
+
+- [ ] #todo
 
 ### Noise Pollution Rule 2000
 
 ^7f38f1
--   in exercise of its power under the EPA 1986 this was drafted
--   Prohibits use of loud speaker/ public address system
--   Ambient
--   Industrial areas 70-75 dB
--   Commercial areas 55-65 dB
--   Residential areas 45-55 dB
--   Silence zone 40-50 dB
 
-### Biological Diversity Act 2002 
--   Was passed to realize the objective enshrined in the UN Convention of Biological Diversity (CBD) 1992.
--   Passed provide for conservation of biological diversity, sustainable use etc.
--   Act envisaged 3 tier of structure to regulate access to biological resources comprising of ==National Biodiversity Authority NBA, State Biodiversity Boards SBB and Biodiversity Mgt Committees BMC==.
+- in exercise of its power under the EPA 1986 this was drafted
+- Prohibits use of loud speaker/ public address system
+- Ambient
+- Industrial areas 70-75 dB
+- Commercial areas 55-65 dB
+- Residential areas 45-55 dB
+- Silence zone 40-50 dB
+
+### Biological Diversity Act 2002
+
+- Was passed to realize the objective enshrined in the UN Convention of Biological Diversity (CBD) 1992.
+- Passed provide for conservation of biological diversity, sustainable use etc.
+- Act envisaged 3 tier of structure to regulate access to biological resources comprising of ==National Biodiversity Authority NBA, State Biodiversity Boards SBB and Biodiversity Mgt Committees BMC==.
 
 #### Biodiversity Heritage Sites BHS
+
 - are well defined areas that are unique, ecologically fragile ecosystems - terrestrial, coastal inland waters and marine having rich biodiveristy.
 - State govts under Section 37 of BDA 2002 in consultation with local bodies may notify in official gazette, areas of biodiversity importance as Biodiveristy Heritage Sites BHS.
 
 <iframe src="http://www.wiienvis.nic.in/Database/bhs_8650.aspx" allow="fullscreen" style="height:100%;width:100%; aspect-ratio: 16 / 9;"></iframe>
 
+### Scheduled Tribes and other Traditional Forest Dwellers Act 2006 Aka FRA 2006
 
-### Scheduled Tribes and other Traditional forest dwellers act 2006 aka FRA 2006 
--   Recognises right of forest dwellers on the land and produce, including ==NP, WS, Reserve Forest, Protected Forest==.
--   Establishes responsibility and authority for sustainable use, rectify colonial injustice.
+- Recognises right of forest dwellers on the land and produce, including ==NP, WS, Reserve Forest, Protected Forest==.
+- Establishes responsibility and authority for sustainable use, rectify colonial injustice.
 
-#### Various Rights under it are
--   **Title rights**
-    -   To Forest Dwelling Scheduled Tribes FDST and Other Traditional Forest Dweller OTFD up-to 4 hectares
-    -   New lands will not be granted
--   **Usage right**
-    -   On Minor Forest Produce, grazing areas, to pastoralist routes etc.
--   **Relief and Development Rights**
-    -   Rehabilitation rights for illegal eviction/forced displacement
--   **Forest management rights**
-    -   Protect, regenerate or conserve or manage community forest resource
+#### Various Rights under it Are
+
+- **Title rights**
+    - To Forest Dwelling Scheduled Tribes FDST and Other Traditional Forest Dweller OTFD up-to 4 hectares
+    - New lands will not be granted
+- **Usage right**
+    - On Minor Forest Produce, grazing areas, to pastoralist routes etc.
+- **Relief and Development Rights**
+    - Rehabilitation rights for illegal eviction/forced displacement
+- **Forest management rights**
+    - Protect, regenerate or conserve or manage community forest resource
 ---
 
--   Eligibility for Other Traditional Forest Dwellers OTFD : Rights can be claimed by members or communities living for at least ==3 generations (75 years)== before 13 Dec 2005.
--   Eligibility for Forest Dwelling Scheduled Tribe FDST - ST in area where right is claimed, primary residence in forest prior to 13-12-2005, depend on forest for livelihood.
--   **Gram Sabha** determines nature of Individual and Community Rights. GS's recommendation goes through 2 stages of ==screening at Taluka and District levels== - makes final decision
--   Land recognised under this cannot be sold or transferred.
--   Defines **Minor Forest Produce** - includes all non-timber forest produce of plant origin.
+- Eligibility for Other Traditional Forest Dwellers OTFD : Rights can be claimed by members or communities living for at least ==3 generations (75 years)== before 13 Dec 2005.
+- Eligibility for Forest Dwelling Scheduled Tribe FDST - ST in area where right is claimed, primary residence in forest prior to 13-12-2005, depend on forest for livelihood.
+- **Gram Sabha** determines nature of Individual and Community Rights. GS's recommendation goes through 2 stages of ==screening at Taluka and District levels== - makes final decision
+- Land recognised under this cannot be sold or transferred.
+- Defines **Minor Forest Produce** - includes all non-timber forest produce of plant origin.
 
 ### Protection of Plant Varieties and Farmers Rights Act 2006
-![[2. IT, Space, Computers, Robotics, Nano-Tech, Bio-Tech, IPR. Feb 2020 Onwards#PPV FR Act 2001| PPV&FR Rights Act 2006]]
+
+![[3.2 IT, Space, Computers, Robotics, Nano-Tech, Bio-Tech, IPR. Feb 2020 Onwards#PPV FR Act 2001|PPV&FR Rights Act 2006]]
 
 ### National Green Tribunal Act, 2010
--   For ==expeditious disposal of cases== related to environmental protection within 6 months.
--   3rd country in world after Aus and NZ.
--   Comprises of Chairman appointed by Centre w/ advise from ==CJI, Judicial mem and Expert mem==. Term of 5 yr appt by selection committee.
--   Jurisdiction over all **civil cases** related to environment, has ==original as well as appellate== jurisdiction.
--   Guided by principle of natural justice.
--   Can provide relief, compensation etc -> Quasi judicial.
--   Penalty for non-compliance, appeal against it lies in the **SC**.
 
+- For ==expeditious disposal of cases== related to environmental protection within 6 months.
+- 3rd country in world after Aus and NZ.
+- Comprises of Chairman appointed by Centre w/ advise from ==CJI, Judicial mem and Expert mem==. Term of 5 yr appt by selection committee.
+- Jurisdiction over all **civil cases** related to environment, has ==original as well as appellate== jurisdiction.
+- Guided by principle of natural justice.
+- Can provide relief, compensation etc -> Quasi judicial.
+- Penalty for non-compliance, appeal against it lies in the **SC**.
 
 ### Wetland Conservation and Management Rules 2010
--   Centre identified 115 wetlands.
--   Has defined terms like ==Wetland, National Park== etc.
--   defined Protected wetlands.
--   Restriction of activities within ex. reclamation, setting new industries, disposal of hazardous waste, dumping solid waste etc.
--   Certain actions needs approval - withdrawal of water, harvesting living non-living resources, grazing, plying motorboat, discharge treated effluent etc
--   State Gov to ensure detailed EIA
--   Constitution of **Central Wetlands Regulatory Authority** - id new wetlands, act with local authorities to enforce provision, grant clearances in consultation with local state gov, periodical review
--   Process for Id wetlands.
+
+- Centre identified 115 wetlands.
+- Has defined terms like ==Wetland, National Park== etc.
+- defined Protected wetlands.
+- Restriction of activities within ex. reclamation, setting new industries, disposal of hazardous waste, dumping solid waste etc.
+- Certain actions needs approval - withdrawal of water, harvesting living non-living resources, grazing, plying motorboat, discharge treated effluent etc
+- State Gov to ensure detailed EIA
+- Constitution of **Central Wetlands Regulatory Authority** - id new wetlands, act with local authorities to enforce provision, grant clearances in consultation with local state gov, periodical review
+- Process for Id wetlands.
 
 ### Wetlands (Conservation and Management) Rules, 2017
--   Supersedes 2010 rules.
--   **Decentralisation** of wetland mgt, more power to ==state authority, Centre has power to monitor==.
--   Setting up **National Wetlands Committee** under MoEFCC to monitor implementation, advise centre etc.
--   Setting up of **State Wetlands Authority SWA**.
--   Prohibit conversion of wetland for ==non-wetland uses, encroachment, waste dumping== etc.
--   **States** to prepare list of all wetlands.
--   Not follows the definition of wetlands per **Ramsar convention**, do not include ==river channels, paddy fields, man-made water bodies== etc
--   No provision to appeal to NGT, no time specified for phasing out solid waste and untreated waste.
+
+- Supersedes 2010 rules.
+- **Decentralisation** of wetland mgt, more power to ==state authority, Centre has power to monitor==.
+- Setting up **National Wetlands Committee** under MoEFCC to monitor implementation, advise centre etc.
+- Setting up of **State Wetlands Authority SWA**.
+- Prohibit conversion of wetland for ==non-wetland uses, encroachment, waste dumping== etc.
+- **States** to prepare list of all wetlands.
+- Not follows the definition of wetlands per **Ramsar convention**, do not include ==river channels, paddy fields, man-made water bodies== etc
+- No provision to appeal to NGT, no time specified for phasing out solid waste and untreated waste.
 
 ### Green Highways Plantation and Transplation, Beautification and Maintenance Policy 2015
--   **1%** of total cost of highways kept aside
--   Monitor using ISROs Bhuvan and GAGAN systems
- 
+
+- **1%** of total cost of highways kept aside
+- Monitor using ISROs Bhuvan and GAGAN systems
 
 ### Solid Waste Management Rules (SWM), 2016
--   Replaced the Municipal Solid Wastes Management and Handling rules 2000.
--   Focus on ==segregation of waste at source(mandated)==, responsibility on **manufacturer** to dispose sanitary and packaging wastes, user fees for collection, disposal etc.
--   Promote use of ==compost, waste to energy==, revision of parameters of landfill location and capacity ^f707fb
--   **Central monitoring committee** to monitor overall implementation of rules.
--  Applicable beyond Municipal areas. 
-- 100,000 stand-alone landfills. 
+
+- Replaced the Municipal Solid Wastes Management and Handling rules 2000.
+- Focus on ==segregation of waste at source(mandated)==, responsibility on **manufacturer** to dispose sanitary and packaging wastes, user fees for collection, disposal etc.
+- Promote use of ==compost, waste to energy==, revision of parameters of landfill location and capacity ^f707fb
+- **Central monitoring committee** to monitor overall implementation of rules.
+- Applicable beyond Municipal areas.
+- 100,000 stand-alone landfills.
 - setting up processing facilities in areas with more than ==100,000 pop within 2 yrs==.
-- 0.5mil or more setting up **regional landfills**. 
+- 0.5mil or more setting up **regional landfills**.
 - bio-remediation/ capping of old/abandoned landfills.
--   Waste Generators to divide waste in 3 separate streams ==bio-degradable, non-biodegradable, domestic hazardous==. #important 
--   **Mo Urban Dev** to make National Policy and Strategy on Solid Waste Mgt
--   Non-recyclable waste having high calorific value of 1500 K/Cal/kg can be utilized for generating energy.
+- Waste Generators to divide waste in 3 separate streams ==bio-degradable, non-biodegradable, domestic hazardous==. #important
+- **Mo Urban Dev** to make National Policy and Strategy on Solid Waste Mgt
+- Non-recyclable waste having high calorific value of 1500 K/Cal/kg can be utilized for generating energy.
 
 ### Bio Medical Waste Management Rules, 2016
--   Phase-out the use of ==chlorinated plastic bags, gloves and blood bags== within 2 yrs.
+
+- Phase-out the use of ==chlorinated plastic bags, gloves and blood bags== within 2 yrs.
 - Pre-treatment of the lab waste, blood samples etc.
--   Train workers, Bar code system for bags or containers.
--   4 categories of waste, **state gov** to provide waste treatment and disposal facility.
--   Hospitals with 1000+ patients/ month to obtain authorisation and segregate ==bio-medical waste==.
--   Includes ==vaccination, blood donation camps==.
+- Train workers, Bar code system for bags or containers.
+- 4 categories of waste, **state gov** to provide waste treatment and disposal facility.
+- Hospitals with 1000+ patients/ month to obtain authorisation and segregate ==bio-medical waste==.
+- Includes ==vaccination, blood donation camps==.
 
-####  Amendment Rules 2018
--   Phase out **Chlorinated bags** except blood bags.
+#### Amendment Rules 2018
+
+- Phase out **Chlorinated bags** except blood bags.
 - Annual report by **healthcare facilities** on its website in 2 yrs.
--   Barcoding/GPS for disposal of ==common bio-med waste==.
--   ==Pre-treatment== as prescribed by WHO.
-
+- Barcoding/GPS for disposal of ==common bio-med waste==.
+- ==Pre-treatment== as prescribed by WHO.
 
 ### Hazardous Waste Management Rules 2016
--   such as physical, chemical, biological, reactive, toxic, flammable etc.
--   Distinguish b/w ==Hazardous and other wastes==. Other wastes include waste tyre, paper waste, metal scrap, used electronic item.
--   Ambit includes other wastes, waste mgt hierarchy in the sequence of priority of ==prevention, minimization, reuse, recycling, recovery, co-processing==; and safe disposal
--   rules for permission, import, export have been revised; Standard Operating Procedures, single window clearances.
--   **Co-processing** preferential over disposal.
--   Import of metal scrap, paper waste etc exempted from need of obtaining Ministry's permission.
--   **State gov** : to allot space for recycling, pre-processing, skill dev activities, form group of workers to facilitate this.
--   Items prohibited for import are ==waste edible fat, oil of animals, household waste, solid plastic waste, Critical care medical equipment==.
--   **SPCB** to make annual inventory of waste generated, waste recycled, recovered etc.
+
+- such as physical, chemical, biological, reactive, toxic, flammable etc.
+- Distinguish b/w ==Hazardous and other wastes==. Other wastes include waste tyre, paper waste, metal scrap, used electronic item.
+- Ambit includes other wastes, waste mgt hierarchy in the sequence of priority of ==prevention, minimization, reuse, recycling, recovery, co-processing==; and safe disposal
+- rules for permission, import, export have been revised; Standard Operating Procedures, single window clearances.
+- **Co-processing** preferential over disposal.
+- Import of metal scrap, paper waste etc exempted from need of obtaining Ministry's permission.
+- **State gov** : to allot space for recycling, pre-processing, skill dev activities, form group of workers to facilitate this.
+- Items prohibited for import are ==waste edible fat, oil of animals, household waste, solid plastic waste, Critical care medical equipment==.
+- **SPCB** to make annual inventory of waste generated, waste recycled, recovered etc.
 
 ### Construction and Demolition of Waste Mgt Rules 2016
--   **Generator** shall segregate construction and demolition waste.
--   Large generators to submit ==mgt plans==.
--   Timeframe for implementation based on ==population of districts==.
+
+- **Generator** shall segregate construction and demolition waste.
+- Large generators to submit ==mgt plans==.
+- Timeframe for implementation based on ==population of districts==.
 - includes establishment viz Railways, Airport, Harbor, Defence etc.
 - **CPCB** prepares operational guidelines
 - ==Generators of >20 tons waste daily== need to further segregate into contrete, soil, steel, wood and plastic
 
 ### E-Waste Management Rules 2016
--   Bring producers under ==extended producer responsibility== along with targets.
--   Manufacturer, dealer, refurbisher and Producer Responsibility Organization (PRO) have been introduced as ==additional stake holders in the rules==.
--   Extended to components, consumables, spares etc; includes CFLs, mercury containing lamps.
--   **Collection mechanism** base approach like centres, collection pts etc.
--   setting up of PRO, e-waste exchange, e- retailer, Deposit Refund Scheme.
--   Provision for Pan India EPR Authorization by **CPCB**.
--   e-waste exchange, liability for damages.
--   **Urban local Bodies** assigned duty to collect orphan products Amendment Rules 2018.
--   EPR has been revised to 10% of generated waste with 10% inc every yr till 2023.
--   Separate e-waste collection targets,cost of testing and sampling to be borne by Gov for RoHS test.
 
+- Bring producers under ==extended producer responsibility== along with targets.
+- Manufacturer, dealer, refurbisher and Producer Responsibility Organization (PRO) have been introduced as ==additional stake holders in the rules==.
+- Extended to components, consumables, spares etc; includes CFLs, mercury containing lamps.
+- **Collection mechanism** base approach like centres, collection pts etc.
+- setting up of PRO, e-waste exchange, eretailer, Deposit Refund Scheme.
+- Provision for Pan India EPR Authorization by **CPCB**.
+- e-waste exchange, liability for damages.
+- **Urban local Bodies** assigned duty to collect orphan products Amendment Rules 2018.
+- EPR has been revised to 10% of generated waste with 10% inc every yr till 2023.
+- Separate e-waste collection targets,cost of testing and sampling to be borne by Gov for RoHS test.
 
 ### Plastic Waste Management Rules 2016
--   Increase ==minimum thickness of plastic carry bags== from 40 to 50 microns
--   promote use of plastic waste for **road construction**.
--   ==Rural areas under ambit, responsibility of waste generators introduced==.
--   EPR left to the discretion of local bodies,
--   SPCBs not grant or renew registration of plastic bags unless ==producer proposes action plan==.
--   Producer keep record of vendors to whom supplied raw material.
--   **Plastic bags** only with shopkeepers and vendor pre-registered w/ local bodies.
--   **CPCB** to formulate guidelines for thermoset plastic Amendment 2018.
--   Phasing out of **Multilayered Plastic MLP**.
--   Central registration of **producer/importer** etc.
--   ==National registry for producers== with multi-state presence, Explicit pricing of carry bags omitted.
 
-
-
+- Increase ==minimum thickness of plastic carry bags== from 40 to 50 microns
+- promote use of plastic waste for **road construction**.
+- ==Rural areas under ambit, responsibility of waste generators introduced==.
+- EPR left to the discretion of local bodies,
+- SPCBs not grant or renew registration of plastic bags unless ==producer proposes action plan==.
+- Producer keep record of vendors to whom supplied raw material.
+- **Plastic bags** only with shopkeepers and vendor pre-registered w/ local bodies.
+- **CPCB** to formulate guidelines for thermoset plastic Amendment 2018.
+- Phasing out of **Multilayered Plastic MLP**.
+- Central registration of **producer/importer** etc.
+- ==National registry for producers== with multi-state presence, Explicit pricing of carry bags omitted.

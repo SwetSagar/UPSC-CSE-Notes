@@ -1,6 +1,6 @@
 {
-  "baseFontSize": 15,
-  "cssTheme": "",
+  "baseFontSize": 14,
+  "cssTheme": "Willemstad",
   "theme": "moonstone",
   "translucency": false,
   "baseFontSizeAction": true,

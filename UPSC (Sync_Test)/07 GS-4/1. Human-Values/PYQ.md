@@ -1,4 +1,5 @@
-#  PYQ
+# PYQ
+
 Created : 2021-12-12 11:48
 
 ---
@@ -6,13 +7,13 @@ Created : 2021-12-12 11:48
 | What teachings of Buddha are most relevant today and why? Discuss. (150 words)                                                                                                                                                                                                                                                           | 2020 |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
 | What  are the main factors responsible for gender responsibility in India ?  Discuss the contribution of Savitribai Phule in this regard. (150  words).                                                                                                                                                                                  | 2020 |
-| ”Condemn  none: if you can stretch out a helping hand do so. If not fold your  hands, bless your brothers and let them go their own way.” – Swami  Vivekanand (150 words).                                                                                                                                                               | 2020 |
+| ”Condemn  none: if you can stretch out a helping hand do so. If not fold your  hands, bless your brothers and let them go their own way.”–Swami  Vivekanand (150 words).                                                                                                                                                               | 2020 |
 | “The best way to find yourself is to lose yourself in service of others .” Mahatma Gandhi (150 words).                                                                                                                                                                                                                                   | 2020 |
-| ”A  system of morality which is based on relative emotional values is a  mere illusion, a thoroughly vulgar conception which has nothing sound in  it and nothing true.” – Socrates. (150 words).                                                                                                                                        | 2020 |
-| “An unexamined life is not worth living.” – Socrates (150 words, 10m)                                                                                                                                                                                                                                                                    | 2019 |
-| “A man is but the product of his thoughts. What he thinks, he becomes.” – M.K.Gandhi (150 words, 10m)                                                                                                                                                                                                                                    | 2019 |
-| “Where  there is righteousness in the heart, there is beauty in the character.  When there is beauty in the character, there is harmony in the home.  When there is harmony in the home, there is order in the nation. When  there is order in the nation, there is peace in the world.” – A.P.J.  Abdul Kalam (150 words, 10m)          | 2019 |
-| “Great  ambition is the passion of a great character. Those endowed with it may  perform very good or very bad acts. All depends on the principles which  direct them.” – Napoleon Bonaparte. Stating examples mention the rulers  (i) who have harmed society and country, (ii) who worked for the  development of society and country. | 2017 |
+| ”A  system of morality which is based on relative emotional values is a  mere illusion, a thoroughly vulgar conception which has nothing sound in  it and nothing true.”–Socrates. (150 words).                                                                                                                                        | 2020 |
+| “An unexamined life is not worth living.”–Socrates (150 words, 10m)                                                                                                                                                                                                                                                                    | 2019 |
+| “A man is but the product of his thoughts. What he thinks, he becomes.”–M.K.Gandhi (150 words, 10m)                                                                                                                                                                                                                                    | 2019 |
+| “Where  there is righteousness in the heart, there is beauty in the character.  When there is beauty in the character, there is harmony in the home.  When there is harmony in the home, there is order in the nation. When  there is order in the nation, there is peace in the world.”–A.P.J.  Abdul Kalam (150 words, 10m)          | 2019 |
+| “Great  ambition is the passion of a great character. Those endowed with it may  perform very good or very bad acts. All depends on the principles which  direct them.”–Napoleon Bonaparte. Stating examples mention the rulers  (i) who have harmed society and country, (ii) who worked for the  development of society and country. | 2017 |
 | Discuss Mahatma Gandhi’s concept of seven sins.                                                                                                                                                                                                                                                                                          | 2016 |
 | Analyse John Rawls’s concept of social justice in the Indian context.                                                                                                                                                                                                                                                                    | 2016 |
 | Corruption  causes misuse of government treasury, Administrative inefficiency and  obstruction in the path of national Development. Discuss Kautilya’s  views.                                                                                                                                                                           | 2016 |
@@ -24,9 +25,7 @@ Created : 2021-12-12 11:48
 | Nearly all men can withstand adversity, but if you want to test a man’s character, give him power.—Abraham Lincoln                                                                                                                                                                                                                       | 2013 |
 | I count him braver who overcomes his desires than him who overcomes his enemies.—Aristotle                                                                                                                                                                                                                                               | 2013 |
 
-
 ## Role of Family
-
 
 | “Education is not an injunction, it is an  effective and pervasive tool for all-round development of an individual  and social transformation”.Examine the New Education  Policy,2020(NEP,2020)in light of the above statement. (150 words)                                                                                                                                                                                                                                                                                     | 2020 |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
@@ -37,7 +36,6 @@ Created : 2021-12-12 11:48
 | The  current society is plagued with widespread trust-deficit. What are the  consequences of this situation for personal well-being and for societal  well-being? What can you do at the personal level to make yourself  trustworthy?                                                                                                                                                                                                                                                                                          | 2014 |
 | What factors affect the  formation of a person’s attitude towards social problems? In our  society, contrasting attitudes are prevalent about many social problems.  What contrasting attitudes do you notice about the caste system in our  society? How do you explain the existence of these contrasting  attitudes?                                                                                                                                                                                                         | 2014 |
 | We are witnessing increasing  instances of sexual violence against women in the country. Despite  existing legal provisions against it, the number of such incidences is  on the rise. Suggest some innovative measures to tackle this menace.                                                                                                                                                                                                                                                                                  | 2014 |
-
 
 **Answers and Analysis**
 
@@ -55,8 +53,7 @@ Finally, teachers are essential in creating a corruption-free nation of beautifu
 
 ```
 
-
-2. What does each of the following quotations mean to you? (a) Judge your success by what you had to give up in order to get it."-Dalai Lama. निम्नलिखित में से प्रत्येक उद्धरण आपके लिए क्या मायने रखता है? (a) अपनी सफलता का मूल्यांकन इस बात से करें कि इसे पाने के लिए आपको क्या छोड़ना पड़ा।"-दलाई लामा 2022
+1. What does each of the following quotations mean to you? (a) Judge your success by what you had to give up in order to get it."-Dalai Lama. निम्नलिखित में से प्रत्येक उद्धरण आपके लिए क्या मायने रखता है? (a) अपनी सफलता का मूल्यांकन इस बात से करें कि इसे पाने के लिए आपको क्या छोड़ना पड़ा।"-दलाई लामा 2022
 
 ```ad-Answer
 
@@ -74,9 +71,8 @@ Overall, this quote by the Dalai Lama encourages us to be mindful of the sacrifi
 
 ```
 
-
-3. “Every work has got to pass through hundreds of difficulties before succeeding. Those that
-persevere will see the light, sooner or later” – Swami Vivekananda. (“प्रत्येक कार्य की सफलता से पहले उसे सैकड़ों क़ों ठिनाइयो से गुजरना प ं ड़ता है। जो दृढनिश्चयी हैं वे ही देर-सबेर प्रकाश को देख पाएँगे।" -स्वामी विवेकानंद) 2021
+1. “Every work has got to pass through hundreds of difficulties before succeeding. Those that
+persevere will see the light, sooner or later”–Swami Vivekananda. (“प्रत्येक कार्य की सफलता से पहले उसे सैकड़ों क़ों ठिनाइयो से गुजरना प ं ड़ता है। जो दृढनिश्चयी हैं वे ही देर-सबेर प्रकाश को देख पाएँगे।" -स्वामी विवेकानंद) 2021
 
 ```ad-Answer
 
@@ -92,9 +88,8 @@ These stories demonstrate the importance of perseverance in achieving success. D
 
 ```
 
-
-4. “We can never obtain peace in the outer world until and unless we obtain peace within
-ourselves” – Dalai Lama. (“हम बाहरी दन ुिया में तब तक शांति प्राप्त नही कर सकते जब तक ं कि हम अपने भीतर शांति प्राप्त नही कर ंलेते।") 2021
+1. “We can never obtain peace in the outer world until and unless we obtain peace within
+ourselves”–Dalai Lama. (“हम बाहरी दन ुिया में तब तक शांति प्राप्त नही कर सकते जब तक ं कि हम अपने भीतर शांति प्राप्त नही कर ंलेते।") 2021
 
 ```ad-Answer
 
@@ -110,8 +105,7 @@ Ultimately, finding inner peace is an ongoing process. It requires dedication an
 
 ```
 
-
-5. “Life doesn’t make any sense without interdependence. We need each other, and the sooner we learn that it is better for us all” – Erik Erikson. (“परस्पर निर्भरता के बिना जीवन का कोई अर्थ नही है। हमें एक-द ं ूसरे की जरूरत है और जितनी हम जल्दी इसे सीख लें यह हम सबके लिए उतना ही अच्छा है।” –एरिक एरिक्सन) 2021
+1. “Life doesn’t make any sense without interdependence. We need each other, and the sooner we learn that it is better for us all”–Erik Erikson. (“परस्पर निर्भरता के बिना जीवन का कोई अर्थ नही है। हमें एक-द ं ूसरे की जरूरत है और जितनी हम जल्दी इसे सीख लें यह हम सबके लिए उतना ही अच्छा है।”–एरिक एरिक्सन) 2021
 
 ```ad-Answer
 
@@ -129,8 +123,7 @@ Erik Erikson's words are true: life does not make sense without interdependence.
 
 ```
 
-
-6. What teachings of Buddha are most relevant today and why? Discuss. (बुद्ध की कौन सी शिक्षाएं आज सर्वाधिक प्रासं गिक हैं और क्यों ? क्यों विवेचना कीजिए।) 2020
+1. What teachings of Buddha are most relevant today and why? Discuss. (बुद्ध की कौन सी शिक्षाएं आज सर्वाधिक प्रासं गिक हैं और क्यों ? क्यों विवेचना कीजिए।) 2020
 
 ```ad-Answer
 
@@ -148,8 +141,7 @@ Erik Erikson's words are true: life does not make sense without interdependence.
 
 ```
 
-
-7. What are the main factors responsible for gender responsibility in India ? Discuss the contribution of Savitribai Phule in this regard. (भारत में लैंगिक असमानता के लिए कौन से मुख्य कारक उत्तरदायी हैं ? इस सं दर्भ में सावित्रीबाई फले के योगदान का विवेचन कीजिए।) 2020
+1. What are the main factors responsible for gender responsibility in India ? Discuss the contribution of Savitribai Phule in this regard. (भारत में लैंगिक असमानता के लिए कौन से मुख्य कारक उत्तरदायी हैं ? इस सं दर्भ में सावित्रीबाई फले के योगदान का विवेचन कीजिए।) 2020
 
 ```ad-Answer
 
@@ -175,8 +167,7 @@ Contribution of Savitribai Phule:
 
 ```
 
-
-8. ”Condemn none: if you can stretch out a helping hand do so. If not fold your hands, bless your brothers and let them go their own way.” – Swami Vivekanand. ("किसी की भर्त्सना नही कीज ं िए : अगर आप मदद का हाथ आगे बढ़ा सकते हैं, तो ऐसा कीजिए। यदि नही तो आप हा ं थ जोड़िए, अपने बं धुओ को आ ं शीर्वचन दीजिए और उन्हें अपने मार्ग पर जाने
+1. ”Condemn none: if you can stretch out a helping hand do so. If not fold your hands, bless your brothers and let them go their own way.”–Swami Vivekanand. ("किसी की भर्त्सना नही कीज ं िए : अगर आप मदद का हाथ आगे बढ़ा सकते हैं, तो ऐसा कीजिए। यदि नही तो आप हा ं थ जोड़िए, अपने बं धुओ को आ ं शीर्वचन दीजिए और उन्हें अपने मार्ग पर जाने
 दीजिए।" - स्वामी विवेकानंद।) 2020
 
 ```ad-Answer
@@ -185,16 +176,14 @@ Contribution of Savitribai Phule:
 
 ```
 
-
-9. “The best way to find yourself is to lose yourself in service of others .” Mahatma Gandhi. (“स्वयं को खोजने का सर्वोत्तम मार्ग यह है कि अपने आप को अन्य की सेवा में खो दें।" - महात्मा गाँधी।) 2020
+1. “The best way to find yourself is to lose yourself in service of others .” Mahatma Gandhi. (“स्वयं को खोजने का सर्वोत्तम मार्ग यह है कि अपने आप को अन्य की सेवा में खो दें।" - महात्मा गाँधी।) 2020
 
 ```ad-Answer
 
 
 ```
 
-
-10. ”A system of morality which is based on relative emotional values is a mere illusion, a thoroughly vulgar conception which has nothing sound in it and nothing true.” – Socrates. ("नैतिकता की एक व्यवस्था जो कि सापेक्ष भावनात्मक मूल्यों पर आधार ्यों ित है के वल एक भ्रांति है, एक अत्यंत अशिष्ट अवधारण जिसमें कु छ भी युक्तिसं गत नही है और न ही ं
+1. ”A system of morality which is based on relative emotional values is a mere illusion, a thoroughly vulgar conception which has nothing sound in it and nothing true.”–Socrates. ("नैतिकता की एक व्यवस्था जो कि सापेक्ष भावनात्मक मूल्यों पर आधार ्यों ित है के वल एक भ्रांति है, एक अत्यंत अशिष्ट अवधारण जिसमें कु छ भी युक्तिसं गत नही है और न ही ं
 सत्य ।" - सुकरात) 2020
 
 ```ad-Answer
@@ -202,26 +191,23 @@ Contribution of Savitribai Phule:
 
 ```
 
-
-11. “An unexamined life is not worth living.” – Socrates. (“एक अपरीक्षित जीवन जीने योग्य नही है।" - सुकरात) ं 2019
-
-```ad-Answer
-
-
-```
-
-
-13. “A man is but the product of his thoughts. What he thinks, he becomes.” – M.K.Gandhi. (“व्यक्ति और कु छ नही के वल अपने ं विचारो का उत् ं पाद होता है। वह जो सोचता है वही बन जाता है ।” – एम. के . गाँधी।) 2019
+1. “An unexamined life is not worth living.”–Socrates. (“एक अपरीक्षित जीवन जीने योग्य नही है।" - सुकरात) ं 2019
 
 ```ad-Answer
 
 
 ```
 
+1. “A man is but the product of his thoughts. What he thinks, he becomes.”–M.K.Gandhi. (“व्यक्ति और कु छ नही के वल अपने ं विचारो का उत् ं पाद होता है। वह जो सोचता है वही बन जाता है ।”–एम. के . गाँधी।) 2019
 
-13. “Where there is righteousness in the heart, there is beauty in the character. When there is
+```ad-Answer
+
+
+```
+
+1. “Where there is righteousness in the heart, there is beauty in the character. When there is
 beauty in the character, there is harmony in the home. When there is harmony in the home,
-there is order in the nation. When there is order in the nation, there is peace in the world.” –
+there is order in the nation. When there is order in the nation, there is peace in the world.”–
 A.P.J. Abdul Kalam. (“जहाँ हृदय में शुचिता है, वहाँ चरित्र में सुन्दरता है । जब चरित्र में सौन्दर्य है, तब घर में समरसता है । जब घर में समरसता है, तब राष्ट्र में सुव्यवस्था है । जब राष्ट्र में सुव्यवस्था है, तब विश्व में शांति है।" - ए. पी. जे. अब्दुल कलाम।) ब्दु 2019
 
 ```ad-Answer
@@ -229,8 +215,7 @@ A.P.J. Abdul Kalam. (“जहाँ हृदय में शुचिता �
 
 ```
 
-
-14. What does this quotations mean to you in the present context: “The true rule, in determining to embrace, or reject anything, is not whether it has any evil in it; but whether it has more evil than good. There are few things wholly evil or wholly good. Almost everything, especially of governmental policy, is an inseparable compound of the two; so that our best judgement of the preponderance between them is continually demanded. ” - Abraham Lincoln.
+1. What does this quotations mean to you in the present context: “The true rule, in determining to embrace, or reject anything, is not whether it has any evil in it; but whether it has more evil than good. There are few things wholly evil or wholly good. Almost everything, especially of governmental policy, is an inseparable compound of the two; so that our best judgement of the preponderance between them is continually demanded. ” - Abraham Lincoln.
 "किसी भी बात को स्वीकार करने या अस्वीकार करने का निर्धारण करने में सही नियम यह नही है ं कि उसमें कोई बुराई है या नही, बल्कि यह है ं कि उसमें अच्छाई से अधिक बुराई है । ऐसे बहुत कम विषय होते हैं जो पूरी तरह बुरे या अच्छे होते हैं । लगभग सभी विषय, विशेषकर सरकारी नीति से सं बंधित, अच्छाई और बुराई दोनो के अ ं विच्छेदनीय योग होते हैं; ताकि इन दोनो के बीच ं प्रधानता के बारे में हमारे सर्वोत्तम निर्णय की आवश्यकता हमेशा बनी रहती है।" - अब्राहम लिकन ं 2018
 
 ```ad-Answer
@@ -238,16 +223,14 @@ A.P.J. Abdul Kalam. (“जहाँ हृदय में शुचिता �
 
 ```
 
-
-15. “Great ambition is the passion of a great character. Those endowed with it may perform very good or very bad acts. All depends on the principles which direct them.” – Napoleon Bonaparte. Stating examples mention the rulers (i) who have harmed society and country, (ii) who worked for the development of society and country. (“बड़ी महत्त्वाकांक्षा महान चरित्र का भावावेश (जुनून) है । जो इससे सं पन्न हैं वे या तो बहुत अच्छे अथवा बहुत बुरे कार्य कर सकते हैं । ये सब कु छ उन सिद्धांतो पर आधार ं ित है जिनसे वे निर्देशित होते हैं ।” – नेपोलियन बोनापार्ट । उदाहरण देते हुए उन शासको का उल् ं लेख कीजिए जिन्होंने (i) समाज व दे िन्हों श का अहित किया है, (ii) समाज व देश के विकास के लिए कार्यकिया है।) 2017
+1. “Great ambition is the passion of a great character. Those endowed with it may perform very good or very bad acts. All depends on the principles which direct them.”–Napoleon Bonaparte. Stating examples mention the rulers (i) who have harmed society and country, (ii) who worked for the development of society and country. (“बड़ी महत्त्वाकांक्षा महान चरित्र का भावावेश (जुनून) है । जो इससे सं पन्न हैं वे या तो बहुत अच्छे अथवा बहुत बुरे कार्य कर सकते हैं । ये सब कु छ उन सिद्धांतो पर आधार ं ित है जिनसे वे निर्देशित होते हैं ।”–नेपोलियन बोनापार्ट । उदाहरण देते हुए उन शासको का उल् ं लेख कीजिए जिन्होंने (i) समाज व दे िन्हों श का अहित किया है, (ii) समाज व देश के विकास के लिए कार्यकिया है।) 2017
 
 ```ad-Answer
 
 
 ```
 
-
-16. Discuss Mahatma Gandhi's concept of seven sins. (महात्मा गाँधी की सात पापो की सं क ं ल्पना की विवेचना कीजिए।) 2016
+1. Discuss Mahatma Gandhi's concept of seven sins. (महात्मा गाँधी की सात पापो की सं क ं ल्पना की विवेचना कीजिए।) 2016
 
 ```ad-Answer
 
@@ -269,8 +252,7 @@ Finally, politics without principle refers to those who engage in political acti
 
 ```
 
-
-18. Analyse John Rawls's concept of social justice in the Indian context. (भारत के सं दर्भ में सामाजिक न्याय की जॉन रॉल्स की सं कल्पना का विश्लेषण कीजिए।) 2016
+1. Analyse John Rawls's concept of social justice in the Indian context. (भारत के सं दर्भ में सामाजिक न्याय की जॉन रॉल्स की सं कल्पना का विश्लेषण कीजिए।) 2016
 
 ```ad-Answer
 
@@ -287,8 +269,7 @@ In conclusion, John Rawls's concept of social justice is applicable to the India
 
 ```
 
-
-18. Corruption causes misuse of government treasury, Administrative inefficiency and obstruction in the path of national Development. Discuss Kautilya's views. (“भ्रष्टाचार सरकारी राजकोष का दरुपयोग, ु प्रशासनिक अदक्षता एवं राष्ट्रीय विकास के मार्ग में बाधा उत्पन्न करता है ।” कौटिल्य के विचारो की ं विवेचना कीजिए।) 2016
+1. Corruption causes misuse of government treasury, Administrative inefficiency and obstruction in the path of national Development. Discuss Kautilya's views. (“भ्रष्टाचार सरकारी राजकोष का दरुपयोग, ु प्रशासनिक अदक्षता एवं राष्ट्रीय विकास के मार्ग में बाधा उत्पन्न करता है ।” कौटिल्य के विचारो की ं विवेचना कीजिए।) 2016
 
 ```ad-Answer
 
@@ -308,8 +289,7 @@ Kautilya's views on corruption are still relevant today.
 
 ```
 
-
-19. Max Weber said that it is not wise to apply to public administration the sort of moral and ethical norms we apply to matters of personal conscience. It is important to realise that the State bureaucracy might possess its own independent bureaucratic morality. Critically analyse this statement. (“मैक्स वैबर ने कहा था कि जिस प्रकार के नैतिक प्रतिमानो को हम व्यक्तिगत अंतरा ं त्मा के मामलो पर लागू करते हैं, उस ं प्रकार के नैतिक प्रतिमानो को लोक ं प्रशासन पर लागू करना समझदारी नही है । इस बात को समझ लेना महत्त्वपू ं र्ण है कि हो सकता है कि राज्य के अधिकारीतंत्र के पास अपनी स्वयं की स्वतंत्र अधिकारीतंत्रीय नैतिकता हो ।” इस कथन का समालोचनापूर्वक विश्लेषण कीजिए।) 2016
+1. Max Weber said that it is not wise to apply to public administration the sort of moral and ethical norms we apply to matters of personal conscience. It is important to realise that the State bureaucracy might possess its own independent bureaucratic morality. Critically analyse this statement. (“मैक्स वैबर ने कहा था कि जिस प्रकार के नैतिक प्रतिमानो को हम व्यक्तिगत अंतरा ं त्मा के मामलो पर लागू करते हैं, उस ं प्रकार के नैतिक प्रतिमानो को लोक ं प्रशासन पर लागू करना समझदारी नही है । इस बात को समझ लेना महत्त्वपू ं र्ण है कि हो सकता है कि राज्य के अधिकारीतंत्र के पास अपनी स्वयं की स्वतंत्र अधिकारीतंत्रीय नैतिकता हो ।” इस कथन का समालोचनापूर्वक विश्लेषण कीजिए।) 2016
 
 ```ad-Answer
 
@@ -325,8 +305,7 @@ In conclusion, Max Weber's statement suggests that public administration should 
 
 ```
 
-
-20. “The weak can never forgive; forgiveness is the attribute of the strong." (कमजोर कभी मापफ नही कर सकतेऋ ंक्षमाशीलता तो ताकतवर का ही सहज गुण है।") 2015
+1. “The weak can never forgive; forgiveness is the attribute of the strong." (कमजोर कभी मापफ नही कर सकतेऋ ंक्षमाशीलता तो ताकतवर का ही सहज गुण है।") 2015
 
 ```ad-Answer
 
@@ -334,8 +313,7 @@ In conclusion, Max Weber's statement suggests that public administration should 
 
 ```
 
-
-21. We can easily forgive a child who is afraid of the dark; the real tragedy of life is when men are afraid of the light. ("हम बच्चे को आसानी से माफ कर सकते हैं, जो अंधेरे से डरता है; जीवन की वास्तविक विडंबना तो तब है जब मनुष्य प्रकाश से डरने लगते हैं।)
+1. We can easily forgive a child who is afraid of the dark; the real tragedy of life is when men are afraid of the light. ("हम बच्चे को आसानी से माफ कर सकते हैं, जो अंधेरे से डरता है; जीवन की वास्तविक विडंबना तो तब है जब मनुष्य प्रकाश से डरने लगते हैं।)
 2015
 
 ```ad-Answer
@@ -343,8 +321,7 @@ In conclusion, Max Weber's statement suggests that public administration should 
 
 ```
 
-
-22. Which eminent personality has inspired you the most in the context of ethical conduct in life? Give the gist of his/her teachings giving specific examples, describe how you have been able to apply these teachings for your own ethical development. (जीवन में नैतिक आचरण के सं दर्भ में आपको किस विख्यात व्यक्ति ने सर्वाधिक प्रणा दी? उसकी शिक् रे षाओ का सार ं प्रस्तुत कीजिए। विशिष्ट उदाहरण देते हुए वर्णन कीजिए कि आप अपने नैतिक विकास के लिए उन
+1. Which eminent personality has inspired you the most in the context of ethical conduct in life? Give the gist of his/her teachings giving specific examples, describe how you have been able to apply these teachings for your own ethical development. (जीवन में नैतिक आचरण के सं दर्भ में आपको किस विख्यात व्यक्ति ने सर्वाधिक प्रणा दी? उसकी शिक् रे षाओ का सार ं प्रस्तुत कीजिए। विशिष्ट उदाहरण देते हुए वर्णन कीजिए कि आप अपने नैतिक विकास के लिए उन
 शिक्षाओ को ं किस प्रकार लागू कर पाए हैं।) 2014
 
 ```ad-Answer
@@ -353,8 +330,7 @@ In conclusion, Max Weber's statement suggests that public administration should 
 
 ```
 
-
-23. There is enough on this earth for every one's need but for no one's greed. Mahatma Gandhi.
+1. There is enough on this earth for every one's need but for no one's greed. Mahatma Gandhi.
 (‘‘पृथ्वी पर हर एक की आवश्यकता पूर्ति के लिए काफी है पर किसी के लालच के लिए कु छ नही।’’ महा ं त्मा गाँधी। ) 2013
 
 ```ad-Answer
@@ -362,8 +338,7 @@ In conclusion, Max Weber's statement suggests that public administration should 
 
 ```
 
-
-24. Nearly all men can withstand adversity, but if you want to test a man's character, give him
+1. Nearly all men can withstand adversity, but if you want to test a man's character, give him
 power.—Abraham Lincoln. (‘‘लगभग सभी लोग विपत्ति का सामना कर सकते है पर यदि किसी के चरित्र का परीक्षण करना है, तो उसे शक्ति/अधिकार दे दो।’’ अब्राहम लिकन) ं 2013
 
 ```ad-Answer
@@ -371,17 +346,14 @@ power.—Abraham Lincoln. (‘‘लगभग सभी लोग विपत�
 
 ```
 
-
-25. I count him braver who overcomes his desires than him who overcomes his enemies.—Aristotle. (‘‘शत्रुओ पर ं विजय पाने वाले की अपेक्षा मैं अपनी इच्छाओ का दमन करने वाले को अ ं धिक साहसी मानता हूँ।’’ अरस्तू।) 2013
+1. I count him braver who overcomes his desires than him who overcomes his enemies.—Aristotle. (‘‘शत्रुओ पर ं विजय पाने वाले की अपेक्षा मैं अपनी इच्छाओ का दमन करने वाले को अ ं धिक साहसी मानता हूँ।’’ अरस्तू।) 2013
 
 ```ad-Answer
 
 
 ```
 
-
 **Role of Family and Society**
-
 
 1. “Education is not an injunction, it is an effective and pervasive tool for all-round development of an individual and social transformation”. Examine the New Education Policy, 2020 (NEP, 2020) in light of the above statement. ("शिक्षा एक निषेधाज्ञा नही है, यह एक व्यक्ति और सामाज ं िक परिवर्तन के सर्वगीण ां विकास के लिए एक प्रभावी और व्यापक उपकरण है।" उपरोक्त कथन के आलोक में नई शिक्षा नीति, 2020 (एनईपी, 2020) का परीक्षण करें।) 2020
 
@@ -390,35 +362,34 @@ power.—Abraham Lincoln. (‘‘लगभग सभी लोग विपत�
 
 ```
 
-
-2. ‘Hatred is destructive of a person‘s wisdom and conscience that can poison a nation’s spirit. Do you agree with this view? Justify your answer. ('घृणा व्यक्ति की बुद्धिमत्ता और अन्तःकरण के लिए सं हारक है जो राष्ट्रके चित् को विषाक्त कर सकती है।' क्या आप इस विचार से सहमत हैं ? अपने उत्तर की तर्कसं गत व्याख्या करें।) 2020
+1. ‘Hatred is destructive of a person‘s wisdom and conscience that can poison a nation’s spirit. Do you agree with this view? Justify your answer. ('घृणा व्यक्ति की बुद्धिमत्ता और अन्तःकरण के लिए सं हारक है जो राष्ट्रके चित् को विषाक्त कर सकती है।' क्या आप इस विचार से सहमत हैं ? अपने उत्तर की तर्कसं गत व्याख्या करें।) 2020
 
 ```ad-Answer
 
 ```
 
-4. The current internet expansion has instilled a different set of cultural values which are in
+1. The current internet expansion has instilled a different set of cultural values which are in
 conflict with traditional values. Discuss. ('सामयिक इंटरनेट विस्तारण ने सांस्कृतिक मूल्यों के एक ्यों भिन्न समूह को मनासीन किया है, जो प्रायः परम्परागत मूल्यों से सं घ ्यों र्षशील रहते हैं।' विवेचना कीजिए।) 2020
 
 ```ad-Answer
 
 ```
 
-4. Our attitudes towards life, work, other people and society are generally shaped unconsciously by the family and social surroundings in which we grow up. Some of these unconsciously acquired attitudes and values are often undesirable in the citizens of modern democratic and egalitarian society. (a) Discuss such undesirable values prevalent in today's educated Indians. (b) How can such undesirable attitudes be changed and socio-ethical values be cultivated in the aspiring and serving civil servants? (जीवन, कार्य, अन्य व्यक्तियो एवं समाज के ं प्रति हमारी अभिवृत्तियाँ आमतौर पर अनजाने में परिवार एवं उस सामाजिक परिवेश के द्वारा रूपित हो जाती हैं, जिसमें हम बड़े होते हैं । अनजाने में प्राप्त इनमें से कु छ अभिवृत्तियाँ एवं मूल्य अक्सर
+1. Our attitudes towards life, work, other people and society are generally shaped unconsciously by the family and social surroundings in which we grow up. Some of these unconsciously acquired attitudes and values are often undesirable in the citizens of modern democratic and egalitarian society. (a) Discuss such undesirable values prevalent in today's educated Indians. (b) How can such undesirable attitudes be changed and socio-ethical values be cultivated in the aspiring and serving civil servants? (जीवन, कार्य, अन्य व्यक्तियो एवं समाज के ं प्रति हमारी अभिवृत्तियाँ आमतौर पर अनजाने में परिवार एवं उस सामाजिक परिवेश के द्वारा रूपित हो जाती हैं, जिसमें हम बड़े होते हैं । अनजाने में प्राप्त इनमें से कु छ अभिवृत्तियाँ एवं मूल्य अक्सर
 आधुनिक लोकतांत्रिक एवं समतावादी समाज के नागरिको के ल ं िए अवांछनीय होते हैं। (a) आज के शिक्षित भारतीयो में ं विद्यमान ऐसे अवांछनीय मूल्यों की विवेचना कीजिए । (b) ऐसी अवांछनीय अभिवृत्तियो को कै से बदला जा सकता है त ं था लोक सेवाओ के ल ं िए आवश्यक समझे जाने वाले सामाजिकनैतिक मूल्यों को आकांक् ्यों षी तथा कार्यरत लोक सेवको में ं किस प्रकार सं वर्धित किया जा सकता है ?) 2016
 
 ```ad-Answer
 
 ```
 
-5. Social values are more important than economic values. Discuss the above statement with
+1. Social values are more important than economic values. Discuss the above statement with
 examples in the context of inclusive growth of a nation. ("सामाजिक मूल्य, आर्थिक मूल्यों की अपेक् ्यों षा अधिक महत्वपूर्ण हैं।" राष्ट्र की समावेशी सं वृद्धि के सं दर्भ में उपरोक्त कथन पर उदाहरणो के सा ं थ चर्चा कीजिए।) 2015
 
 ```ad-Answer
 
 ```
 
-6. The current society is plagued with widespread trust-deficit. What are the consequences of
+1. The current society is plagued with widespread trust-deficit. What are the consequences of
 this situation for personal well-being and for societal well-being? What can you do at the
 personal level to make yourself trustworthy? (वर्तमान समाज व्यापक विश्वास-न्नता से ग्रस यू ित है। इस स्थिति के व्यक्तिगत कल्याण और सामाजिक कल्याण के सं दर्भ में क्या परिणाम है? आप अपने को विश्वसनीय बनाने के लिए व्यक्तिगत स्तर पर क्या कर सकते है?) 2014
 
@@ -426,7 +397,7 @@ personal level to make yourself trustworthy? (वर्तमान समाज
 
 ```
 
-7. What factors affect the formation of a person's attitude towards social problems? In our society, contrasting attitudes are prevalent about many social problems. What contrasting attitudes do you notice about the caste system in our society? How do you explain the existence of these contrasting attitudes? ( सामाजिक समस्याओ के ं प्रति व्यक्ति की अभिवृत्ति के निर्माण में कौन-से कारक प्रभाव डालते हैं? हमारे समाज में अनेक सामाजिक समस्याओ के ं प्रति विषम अभिवृत्तियां व्याप्त हैं। हमारे समाज में जाति प्रथा के बारे में क्या-क्या विषम अभिवृत्तियां आपको दिखाई देती
+1. What factors affect the formation of a person's attitude towards social problems? In our society, contrasting attitudes are prevalent about many social problems. What contrasting attitudes do you notice about the caste system in our society? How do you explain the existence of these contrasting attitudes? ( सामाजिक समस्याओ के ं प्रति व्यक्ति की अभिवृत्ति के निर्माण में कौन-से कारक प्रभाव डालते हैं? हमारे समाज में अनेक सामाजिक समस्याओ के ं प्रति विषम अभिवृत्तियां व्याप्त हैं। हमारे समाज में जाति प्रथा के बारे में क्या-क्या विषम अभिवृत्तियां आपको दिखाई देती
 हैं? इन विषम अभिवृत्तियो के अस् ं तित्व को आप किस प्रकार स्पष्ट करते हैं?) 2014
 
 ```ad-Answer
@@ -451,7 +422,7 @@ personal level to make yourself trustworthy? (वर्तमान समाज
 
 ```
 
-8. We are witnessing increasing instances of sexual violence against women in the country. Despite existing legal provisions against it, the number of such incidences is on the rise. Suggest some innovative measures to tackle this menace. (हमें देश में महिलाओ के ं प्रति यौन-उत्पीड़न के बढ़ते हुए दृष्टांत दिखाई दे रहे हैं। इस कु कृ त्य के विरूद्ध विद्यमान विधिक उपबं धो के होते ं हुए भी, ऐसी घटनाओ की सं ख् ं या बढ़ रही है। इस सं कट से निपटने के लिए कु छ नवाचारी उपाय सुझाए।) 2014
+1. We are witnessing increasing instances of sexual violence against women in the country. Despite existing legal provisions against it, the number of such incidences is on the rise. Suggest some innovative measures to tackle this menace. (हमें देश में महिलाओ के ं प्रति यौन-उत्पीड़न के बढ़ते हुए दृष्टांत दिखाई दे रहे हैं। इस कु कृ त्य के विरूद्ध विद्यमान विधिक उपबं धो के होते ं हुए भी, ऐसी घटनाओ की सं ख् ं या बढ़ रही है। इस सं कट से निपटने के लिए कु छ नवाचारी उपाय सुझाए।) 2014
 
 ```ad-Answer
 
@@ -471,13 +442,12 @@ It is thus essential to take effective measures to tackle the problem of sexual 
 
 ```
 
-
 Case-Study: Promoting Girl education while ensuring their safety (2015)
-
 
 You are recently posted as district development officer of a district. Shortly thereafter you found that there is considerable tension in the rural areas of your district on the issue of sending girls to schools. The elders of the village feel that many problems have come up because girls are being educated and they are stepping out of the safe environment of the household. They are of the view that the girls should be quickly married off with minimum education. The girls are also competing for jobs after education, which have traditionally remained in boys' exclusive domain, adding to unemployment amongst male population.
 The younger generation feels that in the present era, girls should have equal opportunities for
 education and employment, and other means of livelihood. The entire locality is divided between the elders and the younger lot and further sub-divided between sexes in both generations. You come to know that in Panchayat or in other local bodies or even in busy crossroads, the issue is being acrimoniously debated. One day you are informed that an unpleasant incident has taken place. Some girls were molested, when they were en route to schools. The incident led to clashes between several groups and a law and order problem has arisen. The elders after heated discussion have taken a joint decision not to allow girls to go to school and to socially boycott all such families, which do not follow their dictate.
+
 1. What steps would you take to ensure girls' safety without disrupting their education?
 2. How would you manage and mould matriarchic attitude of the village elders to ensure harmony in the inter-generational relations?
 
@@ -510,13 +480,13 @@ To manage and mold the patriarchal attitude of the village elders and ensure har
 
 ```
 
-
 Case-Study: Wife-beater Boss: To do something or not? (2016)
 
 You are a young, aspiring and sincere employee in a Government office working as an assistant,
 to the director of your deportment. Since you've joined recently, you need to learn and progress. Luckily your superior is very kind and ready to train you for your job. He is a very intelligent and well-informed person having knowledge of various departments. In short, you respect your book and are looking forward to learn a lot from him. Since you've good tuning with the boss, he started depending on you. One day due to ill health he invited you at his place for finishing some urgent work. You reached his house and you heard shouting noises before you could ring the bell. You waited for a while. After entering, boss greeted you and explained the work. But you were constantly disturbed by the crying of a woman. At last,
 you inquired with the boss but his answer did not satisfy you. Next day, you were compelled to
 inquire further in the office and found out that his behavior is very had at home with his wife. He also beat up his wife. His wife is not well educated and is a simple woman in comparison to her husband. You see that though your boss is a nice person in the office, he is engaged in domestic violence at home. In such a situation, you are left with the following options. Analyse each option with its consequences.
+
 1. Just ignore thinking about it because it is their personal matter.
 2. Report the case to the appropriate authority.
 3. Your own innovative approach towards the situation
@@ -542,12 +512,8 @@ One approach could be to first have a private and confidential conversation with
 
 ```
 
-
-
-
 ---
 
-
 [^1]
-[^2] 
+[^2]
 [^3]

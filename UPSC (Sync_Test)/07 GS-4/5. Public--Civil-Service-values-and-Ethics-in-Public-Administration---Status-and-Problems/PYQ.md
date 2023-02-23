@@ -38,7 +38,6 @@ Created : 2021-12-12 12:11
 (iv) Challenges of digitalization
 (v) Devotion to duty
 
-
 निम्नलिखित पर प्रत्येक 30 शब्दों में सं ्दों क्षिप्त नोट्स लिखें:
 (i) सं वैधानिक नैतिकता
 (ii) हितो का ं टकराव
@@ -115,7 +114,7 @@ Ethical governance refers to the application of ethical principles and values to
 
 ```
 
-5. What do you understand by 'probity' in public life? What are the difficulties in practicing it in the present times? How can these difficulties be overcome? (लोक-जीवन में ‘सत्यनिष्ठा’ से आप क्या समझते हैं? आधुनिक काल में इसके अनुसार चलने में क्या कठिनाइयाँ हैं? इन कठिनाइयो पर ं किस प्रकार विजय प्राप्त कर सकते हैं?) - 2014
+1. What do you understand by 'probity' in public life? What are the difficulties in practicing it in the present times? How can these difficulties be overcome? (लोक-जीवन में ‘सत्यनिष्ठा’ से आप क्या समझते हैं? आधुनिक काल में इसके अनुसार चलने में क्या कठिनाइयाँ हैं? इन कठिनाइयो पर ं किस प्रकार विजय प्राप्त कर सकते हैं?) - 2014
 
 ```ad-Answer
 
@@ -141,7 +140,6 @@ In order to overcome these difficulties, it is important to ensure that public o
 "Probity in public life is not just a matter of personal morality; it is a matter of public trust." -John F. Kennedy
 
 ```
-
 
 1. What does ethics seek to promote in human life? Why is it all the more important in public administration? (मानव जीवन में नैतिकता किस बात की प्रोन्नति करने की चेष्टा करती है? लोक-प्रशासन में यह और भी अधिक महत्वपूर्णक्यों है?) - 2014
 
@@ -231,7 +229,7 @@ In conclusion, while digital technology has the potential to provide valuable in
 
 ```
 
-3. An independent and empowered social audit mechanism is an absolute must in every sphere of public service, including the judiciary, to ensure performance, accountability and ethical conduct. Elaborate. (न्यायपालिका सहित सार्वजनिक सेवा के हर क्त्र में न षे िष्पादन, जवाबदेही और नैतिक आचरण सुनिश्चित करने के लिए एक स्वतंत्र और सशक्त सामाजिक अंकेक्षण तंत्र परम आवश्यक है। सविस्तार समझाइए।) 2021
+1. An independent and empowered social audit mechanism is an absolute must in every sphere of public service, including the judiciary, to ensure performance, accountability and ethical conduct. Elaborate. (न्यायपालिका सहित सार्वजनिक सेवा के हर क्त्र में न षे िष्पादन, जवाबदेही और नैतिक आचरण सुनिश्चित करने के लिए एक स्वतंत्र और सशक्त सामाजिक अंकेक्षण तंत्र परम आवश्यक है। सविस्तार समझाइए।) 2021
 
 ```ad-Answer
 
@@ -309,7 +307,6 @@ In conclusion, resolving ethical dilemmas in public administration requires a ca
 
 ```
 
-
 1. Suppose the Government of India is thinking of constructing a dam in a mountain valley bond by forests and inhabited by ethnic communities. What rational policy should it resort to in dealing with unforeseen contingencies? (मान लीजिए कि भारत सरकार एक ऐसी पर्वतीय घाटी में एक बाँध का निर्माण करने की सोच रही है, जो जं गलो से ं घिरी है और जहाँ नृजातीय समुदाय रहते हैं । अप्रत्याशित आकस्मिकताओ से न ं िपटने के लिए सरकार को कौन-सी तर्कसं गत नीति का सहारा लेना चाहिए ?) 2018
 
 ```ad-Answer
@@ -378,7 +375,7 @@ Protecting whistle-blowers is a critical component of promoting transparency and
 
 ```
 
-3. Corporate social responsibility makes companies more profitable and sustainable. Analyse.
+1. Corporate social responsibility makes companies more profitable and sustainable. Analyse.
 (कॉर्पोररेट सामाजिक दायित्व कम्पनियो को अ ं धिक लाभदायक तथा चिरस्थायी बनाता है । विश्लेषण कीजिए।) 2017
 
 ```ad-Answer
@@ -417,7 +414,6 @@ Certainly, here are some examples of companies in India that have embraced corpo
 3.  Mahindra & Mahindra: The Indian multinational corporation has a strong commitment to sustainability and social responsibility, and has launched various initiatives in areas such as renewable energy, rural development, and water conservation. This has helped the company to build a positive reputation, attract and retain employees, and reduce risks associated with environmental and social issues.
 
 ```
-
 
 1. Increased national wealth did not result in equitable distribution of its benefits. It has created only some “enclaves of modernity and prosperity for a small minority at the cost of the majority.” Justify. (वर्धित राष्ट्रीय सं पत्ति के लाभो का न् ं यायोचित वितरण नही हो सका है । इसने “ब ं हुमत के नुकसान पर के वल छोटी अल्पसं ख्या के लिए ही
 आधुनिकता और वैभव के एन्क्लेव” बनाए हैं । इसका औचित्य सिद्ध कीजिए।) 2017
@@ -592,7 +588,7 @@ In conclusion, while the story of APW highlights the positive impact that an ind
 
 ```
 
-Case Study: Sexual Harassment in Pvt Company (2019) 
+Case Study: Sexual Harassment in Pvt Company (2019)
 
 An apparel manufacturing company having a large number of women employees was losing sales due to various factors. The company hired a reputed marketing executive, who increased the volume of sales within a short span of time. However, some unconfirmed reports came up regarding his indulgence in sexual harassment at the workplace. After sometime a women employee launched a formal complaint to the management against the marketing executive about sexually harassing her. Faced with the companies’ indifference, in not taking cognizance of her grievances, she lodged an FIR with the police. Realizing the sensitivity and gravity of the situation, the company called the women employee to negotiate. In that she was offered a hefty sum of money to withdraw the complaint and the FIR and also give in writing that the marketing executive is not involved in the case. Identify the ethical issues involved in this case. What options are available to the women employee?
 
