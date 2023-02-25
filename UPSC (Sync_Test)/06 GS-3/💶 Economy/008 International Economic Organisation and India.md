@@ -68,7 +68,7 @@
 ### 1.1.2.1 Agreement on Agriculture
 
 - Domestic Support : viz subsidies given to farmers
-	- **Green Box** : are not trade distorting, subsidies under this are govt funded not by charging consumers higher prices or through price support. Ex *research funding, [[Conservation]] programs etc*.
+	- **Green Box** : are not trade distorting, subsidies under this are govt funded not by charging consumers higher prices or through price support. Ex *research funding, [[3.2 Ocean Acidification and Ocean Depletion]] programs etc*.
 	- **Amber Box** : trade distorting given for welfare, 5% of value of production for developed countries and 10% for developing ones
 		- MSP comes under Amber box, problem is that WTO calculates [[006 Inflation#Inflation |Inflation]] with 1986-88 as base date with lower numbers and leads to data variation b/w IN and them
 	- **Blue Box** : subsidies are direct payments for production limiting

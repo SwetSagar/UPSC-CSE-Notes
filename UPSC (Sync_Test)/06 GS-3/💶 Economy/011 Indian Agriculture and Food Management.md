@@ -18,7 +18,7 @@
     - Change has a multiplier effect in the economy
 - Agricultural production
 
-![[Agriculture#Types of Crops]]
+![[4.1 Agriculture#Types of Crops]]
 
 **Food Philosophy of India**
 
@@ -75,7 +75,7 @@
 - Ecological impact was most severe. Soil fertility got degraded, water levels kept on falling, env degradation due to deforestation.
 - Toxi levels in food chain increased.
 
-![[Agriculture#Cropping Patterns]]
+![[4.1 Agriculture#Cropping Patterns]]
 
 ## Challenge in Agriculture :
 

@@ -115,9 +115,3 @@ Created : 2022-03-02 08:46
 - Nucleosome is fundamental subunit of chromatin. Nucleosome contains histones() that is wrapped by 2 turns of DNA.
 
 ---
-
-# References
-
----
-
-# References

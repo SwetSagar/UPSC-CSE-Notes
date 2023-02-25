@@ -1,69 +1,69 @@
 {
   "appName": "GP3_NOTES",
-  "token": "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",
+  "token": "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",
   "model": "text-davinci-003",
-  "tokens": 750,
-  "temperature": 10,
+  "tokens": 500,
+  "temperature": 8,
   "promptHistory": [
     {
-      "prompt": "Write a short essay on: \"The role of guilds in the economic life of India from c. 200 B.C. to c. A.D. 300.\" Give the names of the guilds and then the describe their role.",
-      "processedPrompt": "Write a short essay on: \"The role of guilds in the economic life of India from c. 200 B.C. to c. A.D. 300.\" Give the names of the guilds and then the describe their role.",
-      "temperature": 1,
-      "tokens": 750
+      "prompt": "Critically examine the compulsions which prompted India to play a decisive roles in the emergence of Bangladesh.",
+      "processedPrompt": "Critically examine the compulsions which prompted India to play a decisive roles in the emergence of Bangladesh.",
+      "temperature": 0.8,
+      "tokens": 500
     },
     {
-      "prompt": "Write a short essay on: \"The role of guilds in the economic life of India from c. 200 B.C. to c. A.D. 300.\" Gives examples of guilds also. ",
-      "processedPrompt": "Write a short essay on: \"The role of guilds in the economic life of India from c. 200 B.C. to c. A.D. 300.\" Gives examples of guilds also. ",
-      "temperature": 1,
-      "tokens": 750
+      "prompt": " “There arose a serious challenge to the Democratic State System between the two World Wars.” Evaluate the statement.",
+      "processedPrompt": " “There arose a serious challenge to the Democratic State System between the two World Wars.” Evaluate the statement.",
+      "temperature": 0.8,
+      "tokens": 500
     },
     {
-      "prompt": "Assess the role of guilds and trade organizations in the development of early Indian economy. ",
-      "processedPrompt": "Assess the role of guilds and trade organizations in the development of early Indian economy. ",
-      "temperature": 1,
-      "tokens": 750
+      "prompt": "Explain how the foundations of the modern world were laid by the American and French revolution. In a concise manner in phrases.",
+      "processedPrompt": "Explain how the foundations of the modern world were laid by the American and French revolution. In a concise manner in phrases.",
+      "temperature": 0.8,
+      "tokens": 500
     },
     {
-      "prompt": "Justify Pliny's statement the Rome was being drained out of its gold by India during the first century of the Christian era.  ",
-      "processedPrompt": "Justify Pliny's statement the Rome was being drained out of its gold by India during the first century of the Christian era.  ",
-      "temperature": 1,
-      "tokens": 750
+      "prompt": " Why indentured labour was taken by the British from India to other colonies?",
+      "processedPrompt": " Why indentured labour was taken by the British from India to other colonies?",
+      "temperature": 0.8,
+      "tokens": 500
     },
     {
-      "prompt": "Explain the social aspects of Buddhism and account for its decline in India. 300 words. ",
-      "processedPrompt": "Explain the social aspects of Buddhism and account for its decline in India. 300 words. ",
-      "temperature": 1,
-      "tokens": 750
+      "prompt": "What problems were germane to the decolonization process of Malay Peninsula.",
+      "processedPrompt": "What problems were germane to the decolonization process of Malay Peninsula.",
+      "temperature": 0.8,
+      "tokens": 500
     },
     {
-      "prompt": "How do recent archaeological findings and Sangam literary texts enlighten us about the early state and society in South India?",
-      "processedPrompt": "How do recent archaeological findings and Sangam literary texts enlighten us about the early state and society in South India?",
-      "temperature": 1,
-      "tokens": 750
+      "prompt": "The anti-colonial struggles in West Africa were led by the new elite of Western-educated Africans. Examine.",
+      "processedPrompt": "The anti-colonial struggles in West Africa were led by the new elite of Western-educated Africans. Examine.",
+      "temperature": 0.8,
+      "tokens": 500
     },
     {
-      "prompt": "\"Not only does ancient Tamil literature furnish an accurate picture of widely disparate classes; it also describes the social condition of Tamil country as it was.\" Discuss with examples.",
-      "processedPrompt": "\"Not only does ancient Tamil literature furnish an accurate picture of widely disparate classes; it also describes the social condition of Tamil country as it was.\" Discuss with examples.",
-      "temperature": 1,
-      "tokens": 750
+      "prompt": " Why did the industrial revolution first occur in England? Discuss the quality of life of the people there during the industrialization. How does it compare with that in India at present?",
+      "processedPrompt": " Why did the industrial revolution first occur in England? Discuss the quality of life of the people there during the industrialization. How does it compare with that in India at present?",
+      "temperature": 0.8,
+      "tokens": 500
     },
     {
-      "prompt": "\"The revolution of 1760 (Bengal) was really no revolution.\" Comment.",
-      "processedPrompt": "\"The revolution of 1760 (Bengal) was really no revolution.\" Comment.",
-      "temperature": 1,
-      "tokens": 750
+      "prompt": "Why did the industrial revolution first occur in England? Discuss the quality of life of the people there during the industrialization. How does it compare with that in India at present? Give pointwise answer in concise manner.",
+      "processedPrompt": "Why did the industrial revolution first occur in England? Discuss the quality of life of the people there during the industrialization. How does it compare with that in India at present? Give pointwise answer in concise manner.",
+      "temperature": 0.8,
+      "tokens": 500
     },
     {
-      "prompt": "Bring out the salient features of the polity & social structure of the Rajputs. To what extent were they responsible for the weakness of the Rajputs to the foreign invaders? 500 words.",
-      "processedPrompt": "Bring out the salient features of the polity & social structure of the Rajputs. To what extent were they responsible for the weakness of the Rajputs to the foreign invaders? 500 words.",
-      "temperature": 1,
-      "tokens": 750
+      "prompt": "To what extent can Germany be held responsible for causing the two World Wars? Discuss critically. Give concise to the point answer.",
+      "processedPrompt": "To what extent can Germany be held responsible for causing the two World Wars? Discuss critically. Give concise to the point answer.",
+      "temperature": 0.8,
+      "tokens": 500
     },
     {
-      "prompt": " Bring out the salient features of the polity & social structure of the Rajputs. To what extent were they responsible for the weakness of the Rajputs to the foreign invaders?",
-      "processedPrompt": " Bring out the salient features of the polity & social structure of the Rajputs. To what extent were they responsible for the weakness of the Rajputs to the foreign invaders?",
-      "temperature": 1,
-      "tokens": 750
+      "prompt": "To what extent can Germany be held responsible for causing the two World Wars? Discuss critically.",
+      "processedPrompt": "To what extent can Germany be held responsible for causing the two World Wars? Discuss critically.",
+      "temperature": 0.8,
+      "tokens": 500
     }
   ],
   "tokenParams": {
