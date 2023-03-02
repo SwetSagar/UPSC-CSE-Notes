@@ -143,6 +143,11 @@ body {
 	--orm-paper-buttons-hover-color: var(--text-accent);
 	--orm-paper-line-color: var(--color-base-30);
 }
+/* following removes the jumping when scrollbar is visible */
+
+[data-type="reference-map-view"] > .view-content{
+	scrollbar-gutter: stable both-edges;
+}
 
 .orm-view-title {
 	font-weight: 600;
@@ -176,6 +181,11 @@ body {
 	padding: 0.5rem;
 	margin-bottom: 0.5rem;
 	position: relative;
+}
+
+.orm-active-index {
+	border: var(--orm-paper-line-thickness) solid
+		var(--orm-paper-buttons-hover-color);
 }
 
 /* Paper Heading */
@@ -235,7 +245,6 @@ body {
 	color: var(--orm-paper-citekey-link-hover-color);
 }
 
-
 .orm-paper-buttons {
 	width: 100%;
 	display: flex;
@@ -243,7 +252,7 @@ body {
 	margin-top: 0.5rem;
 }
 
-.orm-paper-buttons>div {
+.orm-paper-buttons > div {
 	font-size: small;
 	text-align: left;
 	min-width: 16%;
@@ -251,11 +260,11 @@ body {
 	color: var(--orm-paper-buttons-color);
 }
 
-.orm-paper-buttons>.orm-openaccess a {
+.orm-paper-buttons > .orm-openaccess a {
 	color: var(--orm-paper-buttons-color);
 }
 
-.orm-paper-buttons>.orm-openaccess a:hover {
+.orm-paper-buttons > .orm-openaccess a:hover {
 	color: var(--orm-paper-buttons-hover-color);
 }
 
@@ -263,7 +272,7 @@ body {
 	opacity: 0.3;
 }
 
-.orm-paper-buttons>.orm-copy-metadata-one,
+.orm-paper-buttons > .orm-copy-metadata-one,
 .orm-copy-metadata-two,
 .orm-copy-metadata-three,
 .orm-references,
@@ -271,7 +280,7 @@ body {
 	cursor: pointer;
 }
 
-.orm-paper-buttons>.orm-copy-metadata-one:hover,
+.orm-paper-buttons > .orm-copy-metadata-one:hover,
 .orm-copy-metadata-two:hover,
 .orm-copy-metadata-three:hover,
 .orm-references:hover,
@@ -285,7 +294,8 @@ body {
 }
 
 .orm-paper-list .orm-paper-heading {
-	border-top: var(--orm-paper-line-thickness) solid var(--orm-paper-line-color);
+	border-top: var(--orm-paper-line-thickness) solid
+		var(--orm-paper-line-color);
 	padding-top: 0.5rem;
 	margin-top: 0.5rem;
 }
@@ -308,6 +318,18 @@ body {
 	width: 100%;
 	border: none;
 	padding: 0;
+}
+
+.orm-search-input::placeholder {
+	text-align: center;
+}
+
+.orm-index-search {
+	margin-bottom: 0.5rem;
+}
+
+.orm-index-no-search {
+	pointer-events: none;
 }
 
 .orm-loading {
@@ -342,4 +364,65 @@ body {
 
 .orm-PathSuccess {
 	color: var(--text-accent);
+}
+
+/* Settings page CSS */
+
+.orm-settings-description {
+	font-size: var(--font-ui-small);
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 0.25rem;
+	padding: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+/* Search modal settings */
+
+.orm-search-modal-input-heading {
+    font-variant: var(--h2-variant);
+    line-height: var(--h2-line-height);
+    font-size: var(--h2-size);
+    color: var(--h2-color);
+    font-weight: var(--h2-weight);
+    font-style: var(--h2-style);
+    font-family: var(--h2-font);
+	display: flex;
+	padding: 0.5rem 0;
+	text-align: center;
+	width: 100%;
+}
+.orm-search-modal-input-heading-mode{
+	margin-left: 0.25rem;
+	color: var(--code-normal);
+	font-family: var(--font-monospace);
+	background-color: var(--code-background);
+	border-radius: var(--radius-s);
+	font-size: var(--code-size);
+	padding: 0.1em 0.25em;
+}
+
+.orm-search-modal-input-button {
+	border: none;
+}
+
+.orm-search-modal-input input {
+	width: 100%;
+}
+
+.orm-modal-paper-title{
+	padding-bottom: 0.25rem;
+}
+
+.orm-modal-paper-authors{
+	font-size: var(--orm-paper-author-font-size);
+	font-weight: var(--orm-paper-author-font-weight);
+	display: block;
+
+}
+
+.orm-modal-paper-year{
+	font-size: var(--orm-paper-author-font-size);
+	font-weight: var(--orm-paper-author-font-weight);
+	display: block;
+
 }

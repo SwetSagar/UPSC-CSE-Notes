@@ -35,6 +35,7 @@ var ImageCaptions = class extends import_obsidian.Plugin {
       mutations.forEach((rec) => {
         if (rec.type === "childList") {
           rec.target.querySelectorAll(".image-embed").forEach((imageEmbedContainer) => {
+            var _a;
             const img = imageEmbedContainer.querySelector("img");
             let captionText = imageEmbedContainer.getAttribute("alt") || "";
             const width = imageEmbedContainer.getAttribute("width") || "";
@@ -45,12 +46,12 @@ var ImageCaptions = class extends import_obsidian.Plugin {
               return;
             const figure = imageEmbedContainer.querySelector("figure");
             const figCaption = imageEmbedContainer.querySelector("figcaption");
-            if (figure) {
+            if (figure || ((_a = img.parentElement) == null ? void 0 : _a.nodeName) === "FIGURE") {
               if (figCaption && captionText) {
                 figCaption.innerText = captionText;
               } else if (!captionText) {
                 imageEmbedContainer.appendChild(img);
-                figure.remove();
+                figure == null ? void 0 : figure.remove();
               }
             } else {
               if (captionText && captionText !== imageEmbedContainer.getAttribute("src")) {
@@ -77,7 +78,7 @@ function externalImageProcessor() {
     el.findAll("img:not(.emoji)").forEach((img) => {
       const captionText = img.getAttribute("alt");
       const parent = img.parentElement;
-      if (parent && captionText && captionText !== img.getAttribute("src")) {
+      if (parent && (parent == null ? void 0 : parent.nodeName) !== "FIGURE" && captionText && captionText !== img.getAttribute("src")) {
         insertFigureWithCaption(img, parent, captionText);
       }
     });

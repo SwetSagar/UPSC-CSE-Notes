@@ -53,6 +53,49 @@ var import_obsidian5 = require("obsidian");
 var import_obsidian3 = require("obsidian");
 var import_obsidian_dataview = __toESM(require_lib());
 
+// src/repeat/serializers.ts
+var SERIALIZED_TRUE = "true";
+var SERIALIZED_FALSE = "false";
+function serializeRepeatPeriodUnit(repeatPeriodUnit, repeatPeriod) {
+  const suffix = repeatPeriod === 1 ? "" : "s";
+  return `${repeatPeriodUnit.toLowerCase()}${suffix}`;
+}
+function serializeRepeat({
+  repeatStrategy,
+  repeatPeriod,
+  repeatPeriodUnit,
+  repeatTimeOfDay
+}) {
+  if (repeatStrategy === "PERIODIC" && repeatPeriod === 1 && repeatPeriodUnit !== "HOUR" && repeatTimeOfDay === "AM") {
+    switch (repeatPeriodUnit) {
+      case "DAY":
+        return "daily";
+      case "WEEK":
+        return "weekly";
+      case "MONTH":
+        return "monthly";
+      case "YEAR":
+        return "yearly";
+      default:
+        break;
+    }
+  }
+  return [
+    ...repeatStrategy === "PERIODIC" ? [] : ["spaced"],
+    "every",
+    ...repeatPeriod === 1 ? [] : [`${repeatPeriod}`],
+    serializeRepeatPeriodUnit(repeatPeriodUnit, repeatPeriod),
+    ...repeatTimeOfDay === "AM" ? [] : ["in the evening"]
+  ].join(" ");
+}
+function serializeRepetition(repetition) {
+  return {
+    repeat: serializeRepeat(repetition),
+    due_at: repetition.repeatDueAt.toISO(),
+    hidden: repetition.hidden ? SERIALIZED_TRUE : SERIALIZED_FALSE
+  };
+}
+
 // src/frontmatter.ts
 function determineFrontmatterBounds(content, includeDelimiters = false) {
   const openRegex = /---\r?\n/gm;
@@ -99,7 +142,7 @@ function replaceOrInsertField(frontmatter, field, value) {
     suffix || "\n"
   ].join("");
 }
-function replaceOrInsertFields(content, fieldToValue) {
+function updateRepetitionMetadata(content, serializedRepetition) {
   let newContent = content;
   let bounds = determineFrontmatterBounds(newContent);
   if (!bounds) {
@@ -114,8 +157,14 @@ function replaceOrInsertFields(content, fieldToValue) {
     }
   }
   let frontmatter = content.slice(...bounds);
-  for (const field in fieldToValue) {
-    frontmatter = replaceOrInsertField(frontmatter, field, fieldToValue[field]);
+  for (const field in serializedRepetition) {
+    if (field === "hidden") {
+      const hiddenBounds = determineInlineFieldBounds(frontmatter, "hidden");
+      if (!(hiddenBounds == null ? void 0 : hiddenBounds.length) && serializedRepetition["hidden"] === SERIALIZED_FALSE) {
+        continue;
+      }
+    }
+    frontmatter = replaceOrInsertField(frontmatter, field, serializedRepetition[field]);
   }
   return [
     newContent.slice(0, bounds[0]),
@@ -4395,34 +4444,51 @@ function parseRepeatDueAt(repeatDueAt, repeat, referenceDateTime) {
   }
   return referenceDateTime;
 }
-function parseRepetitionFields(repeat, repeatDueAt, referenceDateTime) {
+function parseYamlBoolean(value) {
+  if (!value) {
+    return false;
+  }
+  const booleanRegex = new RegExp("^(y|yes|true|on)$");
+  return booleanRegex.test(value);
+}
+function parseRepetitionFields(repeat, repeatDueAt, hidden, referenceDateTime) {
   const parsedRepeat = parseRepeat(repeat);
   return {
     ...parsedRepeat,
+    hidden: parseYamlBoolean(hidden),
     repeatDueAt: parseRepeatDueAt(repeatDueAt, parsedRepeat, referenceDateTime || DateTime.now())
   };
 }
 function parseRepetitionFromMarkdown(markdown) {
   const bounds = determineFrontmatterBounds(markdown);
   if (bounds) {
-    const { repeat, due_at } = (0, import_obsidian.parseYaml)(markdown.slice(...bounds)) || {};
+    const { repeat, due_at, hidden } = (0, import_obsidian.parseYaml)(markdown.slice(...bounds)) || {};
     if (repeat) {
-      return parseRepetitionFields(repeat, due_at || void 0);
+      return parseRepetitionFields(repeat, due_at || void 0, hidden);
     }
   }
   return void 0;
+}
+function parseHiddenFieldFromMarkdown(markdown) {
+  const frontmatterBounds = determineFrontmatterBounds(markdown);
+  const frontmatter = (frontmatterBounds == null ? void 0 : frontmatterBounds.length) ? markdown.slice(...frontmatterBounds) : "";
+  if (frontmatter) {
+    const { hidden: extractedHidden } = (0, import_obsidian.parseYaml)(frontmatter);
+    return parseYamlBoolean(extractedHidden);
+  }
+  return false;
 }
 
 // src/repeat/queries.ts
 function getNotesDue(dv, ignoreFolderPath, ignoreFilePath) {
   const now2 = DateTime.now();
   return dv == null ? void 0 : dv.pages().mutate((page) => {
-    const { repeat, due_at } = page.file.frontmatter || {};
+    const { repeat, due_at, hidden } = page.file.frontmatter || {};
     if (!repeat) {
       page.repetition = void 0;
       return page;
     }
-    page.repetition = parseRepetitionFields(repeat, due_at, page.file.ctime);
+    page.repetition = parseRepetitionFields(repeat, due_at, hidden, page.file.ctime);
     return page;
   }).where((page) => {
     const { repetition } = page;
@@ -4447,46 +4513,6 @@ function getNextDueNote(dv, ignoreFolderPath, ignoreFilePath) {
     return;
   }
   return page;
-}
-
-// src/repeat/serializers.ts
-function serializeRepeatPeriodUnit(repeatPeriodUnit, repeatPeriod) {
-  const suffix = repeatPeriod === 1 ? "" : "s";
-  return `${repeatPeriodUnit.toLowerCase()}${suffix}`;
-}
-function serializeRepeat({
-  repeatStrategy,
-  repeatPeriod,
-  repeatPeriodUnit,
-  repeatTimeOfDay
-}) {
-  if (repeatStrategy === "PERIODIC" && repeatPeriod === 1 && repeatPeriodUnit !== "HOUR" && repeatTimeOfDay === "AM") {
-    switch (repeatPeriodUnit) {
-      case "DAY":
-        return "daily";
-      case "WEEK":
-        return "weekly";
-      case "MONTH":
-        return "monthly";
-      case "YEAR":
-        return "yearly";
-      default:
-        break;
-    }
-  }
-  return [
-    ...repeatStrategy === "PERIODIC" ? [] : ["spaced"],
-    "every",
-    ...repeatPeriod === 1 ? [] : [`${repeatPeriod}`],
-    serializeRepeatPeriodUnit(repeatPeriodUnit, repeatPeriod),
-    ...repeatTimeOfDay === "AM" ? [] : ["in the evening"]
-  ].join(" ");
-}
-function serializeRepetition(repetition) {
-  return {
-    repeat: serializeRepeat(repetition),
-    due_at: repetition.repeatDueAt.toISO()
-  };
 }
 
 // src/markdown.ts
@@ -4631,6 +4657,7 @@ async function renderMarkdown(markdown, containerEl, sourcePath, lifecycleCompon
 async function renderTitleElement(container, file, vault) {
   const embedTitle = createEl("div", { cls: [
     "markdown-embed-title",
+    "embed-title",
     "repeat-markdown_embed_title"
   ] });
   embedTitle.setText(file.basename);
@@ -4642,6 +4669,7 @@ async function renderTitleElement(container, file, vault) {
 }
 
 // src/repeat/obsidian/RepeatView.tsx
+var MODIFY_DEBOUNCE_MS = 1 * 1e3;
 var REPEATING_NOTES_DUE_VIEW = "repeating-notes-due-view";
 var RepeatView = class extends import_obsidian3.ItemView {
   constructor(leaf, ignoreFolderPath) {
@@ -4650,8 +4678,8 @@ var RepeatView = class extends import_obsidian3.ItemView {
     this.addRepeatButton = this.addRepeatButton.bind(this);
     this.disableExternalHandlers = this.disableExternalHandlers.bind(this);
     this.enableExternalHandlers = this.enableExternalHandlers.bind(this);
-    this.handleExternalModifyOrDelete = this.handleExternalModifyOrDelete.bind(this);
-    this.handleExternalRename = this.handleExternalRename.bind(this);
+    this.handleExternalModifyOrDelete = (0, import_obsidian3.debounce)(this.handleExternalModifyOrDelete, MODIFY_DEBOUNCE_MS).bind(this);
+    this.handleExternalRename = (0, import_obsidian3.debounce)(this.handleExternalRename, MODIFY_DEBOUNCE_MS).bind(this);
     this.promiseMetadataChangeOrTimeOut = this.promiseMetadataChangeOrTimeOut.bind(this);
     this.setMessage = this.setMessage.bind(this);
     this.setPage = this.setPage.bind(this);
@@ -4730,6 +4758,7 @@ var RepeatView = class extends import_obsidian3.ItemView {
     }
   }
   async setPage(ignoreFilePath) {
+    var _a;
     await this.indexPromise;
     this.setMessage("");
     this.messageContainer.style.display = "none";
@@ -4758,9 +4787,19 @@ var RepeatView = class extends import_obsidian3.ItemView {
     choices.forEach((choice) => this.addRepeatButton(choice, file));
     this.previewContainer.addClass("markdown-embed");
     renderTitleElement(this.previewContainer, file, this.app.vault);
+    const markdownContainer = createEl("div");
+    if ((_a = page == null ? void 0 : page.repetition) == null ? void 0 : _a.hidden) {
+      markdownContainer.addClass("repeat-markdown_blurred");
+      const onBlurredClick = (event) => {
+        event.preventDefault();
+        markdownContainer.removeClass("repeat-markdown_blurred");
+      };
+      markdownContainer.addEventListener("click", onBlurredClick, { once: true });
+    }
+    this.previewContainer.appendChild(markdownContainer);
     const markdown = await this.app.vault.cachedRead(file);
     const delimitedFrontmatterBounds = determineFrontmatterBounds(markdown, true);
-    await renderMarkdown(markdown.slice(delimitedFrontmatterBounds ? delimitedFrontmatterBounds[1] : 0), this.previewContainer, file.path, this.component, this.app.vault);
+    await renderMarkdown(markdown.slice(delimitedFrontmatterBounds ? delimitedFrontmatterBounds[1] : 0), markdownContainer, file.path, this.component, this.app.vault);
   }
   resetView() {
     this.messageContainer && this.messageContainer.remove();
@@ -4787,7 +4826,7 @@ var RepeatView = class extends import_obsidian3.ItemView {
           return;
         }
         const markdown = await this.app.vault.read(file);
-        const newMarkdown = replaceOrInsertFields(markdown, serializeRepetition(choice.nextRepetition));
+        const newMarkdown = updateRepetitionMetadata(markdown, serializeRepetition(choice.nextRepetition));
         this.app.vault.modify(file, newMarkdown);
         this.setPage(file.path);
       };
@@ -4813,7 +4852,8 @@ var RepeatNoteSetupModal = class extends import_obsidian4.Modal {
       repeatPeriod: 1,
       repeatPeriodUnit: "DAY",
       repeatTimeOfDay: "AM",
-      repeatDueAt: void 0
+      repeatDueAt: void 0,
+      hidden: false
     };
     if (!this.result.repeatDueAt) {
       this.updateResult("repeatPeriod", this.result.repeatPeriod);
@@ -4905,6 +4945,9 @@ var RepeatNoteSetupModal = class extends import_obsidian4.Modal {
       });
     });
     this.dueAtSummaryEl = nextRepeatEl == null ? void 0 : nextRepeatEl.descEl;
+    new import_obsidian4.Setting(contentEl).setName("Hidden").setDesc("Blur contents until clicked").addToggle((toggle) => toggle.setValue(this.result.hidden).onChange((value) => {
+      this.result.hidden = value;
+    }));
     new import_obsidian4.Setting(contentEl).addButton((btn) => btn.setButtonText("Set Up Repetition").setCta().onClick(() => {
       const final = { ...this.result };
       delete final.summary;
@@ -4928,10 +4971,11 @@ var DEFAULT_SETTINGS = {
 
 // src/main.ts
 var import_obsidian_dataview2 = __toESM(require_lib());
+var COUNT_DEBOUNCE_MS = 5 * 1e3;
 var RepeatPlugin = class extends import_obsidian5.Plugin {
   constructor(app, manifest) {
     super(app, manifest);
-    this.updateNotesDueCount = this.updateNotesDueCount.bind(this);
+    this.updateNotesDueCount = (0, import_obsidian5.debounce)(this.updateNotesDueCount, COUNT_DEBOUNCE_MS).bind(this);
     this.manageStatusBarItem = this.manageStatusBarItem.bind(this);
     this.registerCommands = this.registerCommands.bind(this);
     this.makeRepeatRibbonIcon = this.makeRepeatRibbonIcon.bind(this);
@@ -4966,10 +5010,10 @@ var RepeatPlugin = class extends import_obsidian5.Plugin {
   }
   updateNotesDueCount() {
     var _a;
-    if (!this.statusBarItem) {
-      this.statusBarItem = this.addStatusBarItem();
-    }
     if (this.settings.showDueCountInStatusBar) {
+      if (!this.statusBarItem) {
+        this.statusBarItem = this.addStatusBarItem();
+      }
       const dueNoteCount = (_a = getNotesDue((0, import_obsidian_dataview2.getAPI)(this.app), this.settings.ignoreFolderPath)) == null ? void 0 : _a.length;
       if (dueNoteCount != void 0 && this.statusBarItem) {
         this.statusBarItem.setText(`${dueNoteCount} repeat notes due`);
@@ -4979,7 +5023,9 @@ var RepeatPlugin = class extends import_obsidian5.Plugin {
   manageStatusBarItem() {
     this.registerEvent(this.app.metadataCache.on("dataview:index-ready", () => {
       this.updateNotesDueCount();
-      this.registerEvent(this.app.metadataCache.on("dataview:metadata-change", this.updateNotesDueCount));
+      setTimeout(() => {
+        this.registerEvent(this.app.metadataCache.on("dataview:metadata-change", this.updateNotesDueCount));
+      }, COUNT_DEBOUNCE_MS);
     }));
     const FIVE_MINUTES_IN_MS = 5 * 60 * 1e3;
     this.registerInterval(window.setInterval(this.updateNotesDueCount, FIVE_MINUTES_IN_MS));
@@ -5003,7 +5049,7 @@ var RepeatPlugin = class extends import_obsidian5.Plugin {
           }
           const { editor, file } = markdownView;
           const content = editor.getValue();
-          const newContent = replaceOrInsertFields(content, serializeRepetition(result));
+          const newContent = updateRepetitionMetadata(content, serializeRepetition(result));
           this.app.vault.modify(file, newContent);
         };
         if (markdownView) {
@@ -5048,8 +5094,9 @@ var RepeatPlugin = class extends import_obsidian5.Plugin {
                 ...repeat,
                 repeatDueAt: void 0
               });
-              const newContent = replaceOrInsertFields(content, serializeRepetition({
+              const newContent = updateRepetitionMetadata(content, serializeRepetition({
                 ...repeat,
+                hidden: parseHiddenFieldFromMarkdown(content),
                 repeatDueAt
               }));
               this.app.vault.modify(file, newContent);

@@ -3,7 +3,8 @@
     overflow: hidden !important;
 }
 
-.open-gate-view webview {
+.open-gate-view .open-gate-iframe,
+.open-gate-view .open-gate-webview {
     width: 100%;
     height: 100%;
     border: none;
@@ -14,4 +15,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.open-gate-mobile-warning {
+    background: #b38c1d;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.open-gate-mobile-link {
+    color: #fff;
+    text-decoration: underline;
 }

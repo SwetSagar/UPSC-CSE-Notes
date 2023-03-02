@@ -89,6 +89,46 @@ const getAI21Completion = (apiKey, prompt, settings) => __awaiter(void 0, void 0
     return (_d = (_c = (_b = (_a = res === null || res === void 0 ? void 0 : res.completions) === null || _a === void 0 ? void 0 : _a[0]) === null || _b === void 0 ? void 0 : _b.data) === null || _c === void 0 ? void 0 : _c.text) !== null && _d !== void 0 ? _d : null;
 });
 
+var ChatGPTModelType;
+(function (ChatGPTModelType) {
+    ChatGPTModelType["Default"] = "gpt-3.5-turbo";
+})(ChatGPTModelType || (ChatGPTModelType = {}));
+const defaultChatGPTSettings = {
+    modelType: ChatGPTModelType.Default,
+    systemMessage: "You are ChatGPT, a large language model trained by OpenAI. Answer as concisely as possible.",
+    maxTokens: 200,
+    temperature: 1.0,
+    topP: 1.0,
+    presencePenalty: 0,
+    frequencyPenalty: 0,
+    stop: [],
+};
+const getChatGPTCompletion = (apiKey, messages, settings, suffix) => __awaiter(void 0, void 0, void 0, function* () {
+    var _a, _b, _c, _d;
+    const apiUrl = `https://api.openai.com/v1/chat/completions`;
+    const headers = {
+        Authorization: `Bearer ${apiKey}`,
+        "Content-Type": "application/json",
+    };
+    const { modelType, systemMessage } = settings, params = __rest(settings, ["modelType", "systemMessage"]);
+    let body = Object.assign(Object.assign({ messages, model: modelType }, pythonifyKeys(params)), { stop: settings.stop.length > 0 ? settings.stop : undefined, suffix: suffix ? suffix : undefined });
+    const requestParam = {
+        url: apiUrl,
+        method: "POST",
+        contentType: "application/json",
+        body: JSON.stringify(body),
+        headers,
+    };
+    const res = yield obsidian.request(requestParam)
+        .then((response) => {
+        return JSON.parse(response);
+    })
+        .catch((err) => {
+        console.error(err);
+    });
+    return (_d = (_c = (_b = (_a = res === null || res === void 0 ? void 0 : res.choices) === null || _a === void 0 ? void 0 : _a[0]) === null || _b === void 0 ? void 0 : _b.message) === null || _c === void 0 ? void 0 : _c.content) !== null && _d !== void 0 ? _d : null;
+});
+
 var CohereModelType;
 (function (CohereModelType) {
     CohereModelType["Small"] = "small";
@@ -139,6 +179,7 @@ var GPT3ModelType;
     GPT3ModelType["Babbage"] = "text-babbage-001";
     GPT3ModelType["Curie"] = "text-curie-001";
     GPT3ModelType["TextDaVinci"] = "text-davinci-003";
+    GPT3ModelType["CodeDaVinci"] = "code-davinci-002";
     GPT3ModelType["DaVinci"] = "davinci";
 })(GPT3ModelType || (GPT3ModelType = {}));
 const defaultGPT3Settings = {
@@ -190,7 +231,7 @@ class GPTSettingTab extends obsidian.PluginSettingTab {
     }
     display() {
         let { containerEl } = this;
-        let { gpt3, ai21, cohere } = this.plugin.settings.models;
+        let { gpt3, chatgpt, ai21, cohere } = this.plugin.settings.models;
         containerEl.empty();
         containerEl.createEl("h2", { text: "Obsidian GPT settings" });
         containerEl.createEl("h3", { text: "API Keys" });
@@ -202,6 +243,16 @@ class GPTSettingTab extends obsidian.PluginSettingTab {
             .setValue(gpt3.apiKey)
             .onChange((value) => __awaiter(this, void 0, void 0, function* () {
             gpt3.apiKey = value;
+            yield this.plugin.saveSettings();
+        })));
+        new obsidian.Setting(containerEl)
+            .setName("ChatGPT API Key")
+            .setDesc("Enter your OpenAI API Key (to use with ChatGPT)")
+            .addText((text) => text
+            .setPlaceholder("API Key")
+            .setValue(chatgpt.apiKey)
+            .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+            chatgpt.apiKey = value;
             yield this.plugin.saveSettings();
         })));
         new obsidian.Setting(containerEl)
@@ -271,19 +322,32 @@ class GPTSettingTab extends obsidian.PluginSettingTab {
             this.plugin.settings.tagPromptsHandlerTags.closingTag = value;
             yield this.plugin.saveSettings();
         })));
+        new obsidian.Setting(containerEl)
+            .setName("Chat Completion Separator")
+            .addText((text) => text
+            .setValue(this.plugin.settings.chatSeparator)
+            .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+            this.plugin.settings.chatSeparator = value;
+            yield this.plugin.saveSettings();
+        })));
     }
 }
 
 const VIEW_TYPE_MODEL_SETTINGS = "gptModelSettings";
 var SupportedModels;
 (function (SupportedModels) {
-    SupportedModels["GPT3"] = "GPT-3";
-    SupportedModels["AI21"] = "AI21";
-    SupportedModels["COHERE"] = "Cohere";
+    SupportedModels["CHATGPT"] = "chatgpt";
+    SupportedModels["GPT3"] = "gpt3";
+    SupportedModels["AI21"] = "ai21";
+    SupportedModels["COHERE"] = "cohere";
 })(SupportedModels || (SupportedModels = {}));
 const DEFAULT_SETTINGS = {
     activeModel: SupportedModels.GPT3,
     models: {
+        chatgpt: {
+            apiKey: "",
+            settings: defaultChatGPTSettings,
+        },
         gpt3: {
             apiKey: "",
             settings: defaultGPT3Settings,
@@ -308,6 +372,7 @@ const DEFAULT_SETTINGS = {
         closingTag: "</Prompt>",
     },
     insertToken: "[insert]",
+    chatSeparator: "|||",
 };
 
 function createCommonjsModule(fn) {
@@ -30101,6 +30166,49 @@ const StopSequenceInput = ({ stopSequences, onChange, }) => {
         react.createElement(q, { value: stopSequences, onChange: onChange })));
 };
 
+const ChatGPTSettingsForm = ({ plugin }) => {
+    const { chatgpt } = plugin.settings.models;
+    const [state, setState] = react.useState(chatgpt.settings);
+    const handleInputChange = (e) => __awaiter(void 0, void 0, void 0, function* () {
+        let { name, value } = e.target;
+        if (parseFloat(value) || value === "0") {
+            value = parseFloat(value);
+        }
+        setState((prevState) => (Object.assign(Object.assign({}, prevState), { [name]: value })));
+        chatgpt.settings = Object.assign(Object.assign({}, chatgpt.settings), { [name]: value });
+        yield plugin.saveSettings();
+    });
+    const onStopSequenceChange = (stopSequences) => __awaiter(void 0, void 0, void 0, function* () {
+        setState((prevState) => (Object.assign(Object.assign({}, prevState), { stop: stopSequences })));
+        chatgpt.settings.stop = stopSequences;
+        yield plugin.saveSettings();
+    });
+    return (react.createElement("form", null,
+        react.createElement("label", { htmlFor: "modelType" }, "Model Type:"),
+        react.createElement("select", { name: "modelType", id: "modelType", value: state.modelType, onChange: handleInputChange },
+            react.createElement("option", { value: ChatGPTModelType.Default }, "Default")),
+        react.createElement("br", null),
+        react.createElement("label", { htmlFor: "modelName" }, "Max Tokens:"),
+        react.createElement("input", { type: "number", name: "maxTokens", id: "maxTokens", value: state.maxTokens, onChange: handleInputChange, min: "1", max: "2048" }),
+        react.createElement("br", null),
+        react.createElement("label", { htmlFor: "modelName" }, "Temperature:"),
+        react.createElement("input", { type: "number", name: "temperature", id: "temperature", value: state.temperature, onChange: handleInputChange, min: "0", max: "1" }),
+        react.createElement("br", null),
+        react.createElement("label", { htmlFor: "modelName" }, "Top P:"),
+        react.createElement("input", { type: "number", name: "topP", id: "topP", value: state.topP, onChange: handleInputChange, min: "0", max: "1" }),
+        react.createElement("br", null),
+        react.createElement("label", { htmlFor: "modelName" }, "Frequency Penalty:"),
+        react.createElement("input", { type: "number", name: "frequencyPenalty", id: "frequencyPenalty", value: state.frequencyPenalty, onChange: handleInputChange, min: "0", max: "1" }),
+        react.createElement("br", null),
+        react.createElement("label", { htmlFor: "modelName" }, "Presence Penalty:"),
+        react.createElement("input", { type: "number", name: "presencePenalty", id: "presencePenalty", value: state.presencePenalty, onChange: handleInputChange, min: "0", max: "1" }),
+        react.createElement("br", null),
+        react.createElement("label", { htmlFor: "systemMessage" }, "System Message:"),
+        react.createElement("textarea", { name: "systemMessage", id: "systemMessage", value: state.systemMessage, onChange: handleInputChange, rows: 5 }),
+        react.createElement("br", null),
+        react.createElement(StopSequenceInput, { stopSequences: state.stop, onChange: onStopSequenceChange })));
+};
+
 const GPT3SettingsForm = ({ plugin }) => {
     const { gpt3 } = plugin.settings.models;
     const [state, setState] = react.useState(gpt3.settings);
@@ -30125,6 +30233,7 @@ const GPT3SettingsForm = ({ plugin }) => {
             react.createElement("option", { value: GPT3ModelType.Babbage }, "Babbage"),
             react.createElement("option", { value: GPT3ModelType.Curie }, "Curie"),
             react.createElement("option", { value: GPT3ModelType.TextDaVinci }, "Text-Davinci"),
+            react.createElement("option", { value: GPT3ModelType.CodeDaVinci }, "Code-Davinci"),
             react.createElement("option", { value: GPT3ModelType.DaVinci }, "Davinci")),
         react.createElement("br", null),
         react.createElement("label", { htmlFor: "modelName" }, "Max Tokens:"),
@@ -30236,9 +30345,11 @@ const SettingsForm = ({ plugin }) => {
                 plugin.settings.activeModel = model;
                 yield plugin.saveSettings();
             }) },
+            react.createElement("option", { value: SupportedModels.CHATGPT }, "ChatGPT"),
             react.createElement("option", { value: SupportedModels.GPT3 }, "GPT-3"),
             react.createElement("option", { value: SupportedModels.AI21 }, "AI21"),
             react.createElement("option", { value: SupportedModels.COHERE }, "Cohere")),
+        activeModel === SupportedModels.CHATGPT && (react.createElement(ChatGPTSettingsForm, { plugin: plugin })),
         activeModel === SupportedModels.GPT3 && (react.createElement(GPT3SettingsForm, { plugin: plugin })),
         activeModel === SupportedModels.AI21 && (react.createElement(AI21SettingsForm, { plugin: plugin })),
         activeModel === SupportedModels.COHERE && (react.createElement(CohereSettingsForm, { plugin: plugin }))));
@@ -30285,6 +30396,10 @@ class GPTPlugin extends obsidian.Plugin {
         };
         return currentLineContents;
     }
+    getNoteContents(editor) {
+        const noteContents = editor.getValue();
+        return noteContents;
+    }
     getSuffix(selection) {
         if (selection.includes(this.settings.insertToken)) {
             const prompt = selection.split(this.settings.insertToken)[0];
@@ -30295,7 +30410,7 @@ class GPTPlugin extends obsidian.Plugin {
     }
     getCompletion(selection) {
         return __awaiter(this, void 0, void 0, function* () {
-            const { ai21, gpt3, cohere } = this.settings.models;
+            const { ai21, chatgpt, gpt3, cohere } = this.settings.models;
             let completion;
             const notice = gettingCompletionNotice(this.settings.activeModel);
             if (this.settings.activeModel === SupportedModels.AI21) {
@@ -30307,20 +30422,58 @@ class GPTPlugin extends obsidian.Plugin {
             else if (this.settings.activeModel === SupportedModels.COHERE) {
                 completion = yield getCohereCompletion(cohere.apiKey, selection, cohere.settings);
             }
+            else if (this.settings.activeModel === SupportedModels.CHATGPT) {
+                const messages = [
+                    {
+                        role: "system",
+                        content: chatgpt.settings.systemMessage,
+                    },
+                    {
+                        role: "user",
+                        content: selection,
+                    },
+                ];
+                const message = yield getChatGPTCompletion(chatgpt.apiKey, messages, chatgpt.settings);
+                completion = "\n\n" + message;
+            }
             notice.hide();
+            return completion;
+        });
+    }
+    getChatCompletion(selection) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const { chatgpt } = this.settings.models;
+            const messagesText = selection.split(this.settings.chatSeparator);
+            let messages = [
+                {
+                    role: "system",
+                    content: chatgpt.settings.systemMessage,
+                },
+                ...messagesText.map((message, idx) => {
+                    return {
+                        role: idx % 2 === 0 ? "user" : "assistant",
+                        content: message.trim(),
+                    };
+                }),
+            ];
+            const completion = yield getChatGPTCompletion(chatgpt.apiKey, messages, chatgpt.settings);
             return completion;
         });
     }
     handleGetCompletionError() {
         errorGettingCompletionNotice();
     }
-    formatCompletion(prompt, completion) {
+    formatCompletion(prompt, completion, isChatCompletion = false) {
         const { tagCompletions, tagCompletionsHandlerTags, tagPrompts, tagPromptsHandlerTags, } = this.settings;
         if (tagCompletions) {
             completion = `${tagCompletionsHandlerTags.openingTag}${completion}${tagCompletionsHandlerTags.closingTag}`;
         }
         if (tagPrompts) {
             prompt = `${tagPromptsHandlerTags.openingTag}${prompt}${tagPromptsHandlerTags.closingTag}`;
+        }
+        if (isChatCompletion) {
+            prompt += "\n\n" + this.settings.chatSeparator + "\n\n";
+            completion += "\n\n" + this.settings.chatSeparator + "\n\n";
         }
         return prompt + completion;
     }
@@ -30349,6 +30502,29 @@ class GPTPlugin extends obsidian.Plugin {
             }
         });
     }
+    chatCompletionHandler(editor) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const selection = this.getSelectedText(editor);
+            if (selection) {
+                const completion = yield this.getChatCompletion(selection);
+                if (!completion) {
+                    this.handleGetCompletionError();
+                    return;
+                }
+                editor.replaceSelection(this.formatCompletion(selection, completion, true));
+                return;
+            }
+            else {
+                const noteContents = this.getNoteContents(editor);
+                const completion = yield this.getChatCompletion(noteContents);
+                if (!completion) {
+                    this.handleGetCompletionError();
+                    return;
+                }
+                editor.setValue(this.formatCompletion(noteContents, completion, true));
+            }
+        });
+    }
     initLeaf() {
         if (this.app.workspace.getLeavesOfType(VIEW_TYPE_MODEL_SETTINGS).length) {
             return;
@@ -30374,14 +30550,40 @@ class GPTPlugin extends obsidian.Plugin {
             workspace.setActiveLeaf(leaf);
         }
     }
+    populateSettingDefaults() {
+        return __awaiter(this, void 0, void 0, function* () {
+            // ensure that each model's default settings are populated
+            const settings = this.settings;
+            console.log(settings);
+            Object.values(SupportedModels).forEach((model) => {
+                if (!settings.models[model]) {
+                    console.log("populating default settings for", model);
+                    settings.models[model] = {
+                        settings: DEFAULT_SETTINGS.models[model].settings,
+                        apiKey: "",
+                    };
+                }
+            });
+            if (!settings.chatSeparator) {
+                settings.chatSeparator = DEFAULT_SETTINGS.chatSeparator;
+            }
+            yield this.saveData(settings);
+        });
+    }
     onload() {
         return __awaiter(this, void 0, void 0, function* () {
             yield this.loadSettings();
+            yield this.populateSettingDefaults();
             this.registerView(VIEW_TYPE_MODEL_SETTINGS, (leaf) => new SettingsItemView(leaf, this.settings, this));
             this.addCommand({
                 id: "get-completion",
                 name: "Get Completion",
                 editorCallback: (editor) => this.getCompletionHandler(editor),
+            });
+            this.addCommand({
+                id: "chat-completion",
+                name: "Chat Completion",
+                editorCallback: (editor) => this.chatCompletionHandler(editor),
             });
             this.addCommand({
                 id: "show-model-settings",

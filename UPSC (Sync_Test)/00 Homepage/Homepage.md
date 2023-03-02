@@ -9,11 +9,6 @@ Created : 2022-10-28 19:21
 
 ---
 
-
-- [ ] Pending Newspapers #todo 
-- [ ] Pending Current Affairs #todo 
-
-
 <iframe src=" https://docs.google.com/spreadsheets/d/1JVRdOjI6Da-JnYOm3Q9I9TUNGR7kd2HxI8wJPcT7p5U/edit?usp=sharing" allow="fullscreen" allowfullscreen="" style="height: 100%; width: 100%; aspect-ratio: 1 / 1;"></iframe>
 
 ---
