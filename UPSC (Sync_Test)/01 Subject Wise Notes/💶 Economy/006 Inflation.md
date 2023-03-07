@@ -56,7 +56,7 @@
 
 - speculation in commodity exchanges
 - cartelisation of producers
-- Hoarding : causes artificial scarcity, checked by [[2.2 Govt Policies and Intervention in sectors#^eec400|Essential Commodities Act]]
+- Hoarding : causes artificial scarcity, checked by [[2.1 Govt Policies and Intervention in sectors#^eec400|Essential Commodities Act]]
 - imported inflation
 - global crude oil prices
 - rupee depreciation

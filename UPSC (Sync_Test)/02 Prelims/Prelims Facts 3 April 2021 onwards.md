@@ -16,7 +16,7 @@
 - **Brucellosis** : zoonotic infection spreads through raw or unpasteurised dairy product
 - **Umngot** river : in Meghalaya, tourist attraction due to clear water
 - Uruka aka Bhogali or Magh Bihu fest in Assam
-- **Poshan Gyan** #scheme by [[1.4 Statutory, Regulatory and Various Quasi Judicial Bodies, Appointment in them#NITI Aayog|NITI Aayog]] national repository on health and nutrition.
+- **Poshan Gyan** #scheme by [[1.7 Statutory, Regulatory and Various Quasi Judicial Bodies, Appointment in them#NITI Aayog|NITI Aayog]] national repository on health and nutrition.
 - **e-SANTA** #scheme by MoCommerce to connect aqua farmers to buyers
 - Monkeydactyl aka pterosaur extinct flying reptile with earliest know evidence of a limb
 - [[4.1 India and its neighbourhood - relations#^9c4b73 |Raisina Dialogue]] to hold discussion on state of world and explore areas of coop.

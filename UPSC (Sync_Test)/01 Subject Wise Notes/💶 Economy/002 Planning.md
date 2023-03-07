@@ -211,7 +211,7 @@ Area-wise reports
 - TPP was introduced in 1975 for monitoring of schemes of centrala and state govt.
 	- Was meant to improve the quality of life esp of the BPL.
 	- Garibi Hatao 6th plan was based on the the experience of TPP.
-- [[1.2 Separation of Power between various organs, dispute redressal mechanisms. Judiciary#MPLADS scheme |MPLADS]]
+- [[1.3 Separation of Power between various organs, dispute redressal mechanisms. Judiciary#MPLADS scheme |MPLADS]]
 
 ### Multi Level Planning
 
