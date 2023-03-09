@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05 GS-2/1. Polity/1.5 Structure, Organisation and functioning of Executive and Judiciary Ministries and Department of the Govt; pressure groups and formal, informal associations and their role in Polity.md",
+                "file": "05 GS-2/1. Polity/1.2 Functions Responsibility of Union and States, Issues with Federal Structure, Devolution of powers and finances etc..md",
                 "mode": "source",
                 "source": true
+              }
+            }
+          },
+          {
+            "id": "126c7163e9bb11a8",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://mail.google.com/"
               }
             }
           }
@@ -38,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "comparison",
+                "query": "urban",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -55,6 +65,14 @@
               "state": {
                 "sortOrder": "alphabetical"
               }
+            }
+          },
+          {
+            "id": "8ac81be628cfce48",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-tab-tree",
+              "state": {}
             }
           }
         ],
@@ -79,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05 GS-2/1. Polity/1.5 Structure, Organisation and functioning of Executive and Judiciary Ministries and Department of the Govt; pressure groups and formal, informal associations and their role in Polity.md"
+                "file": "05 GS-2/1. Polity/1.2 Functions Responsibility of Union and States, Issues with Federal Structure, Devolution of powers and finances etc..md"
               }
             }
           },
@@ -99,8 +117,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "aef4a4deef8e92b9",
@@ -128,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05 GS-2/1. Polity/1.5 Structure, Organisation and functioning of Executive and Judiciary Ministries and Department of the Govt; pressure groups and formal, informal associations and their role in Polity.md",
+                "file": "05 GS-2/1. Polity/1.2 Functions Responsibility of Union and States, Issues with Federal Structure, Devolution of powers and finances etc..md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05 GS-2/1. Polity/1.5 Structure, Organisation and functioning of Executive and Judiciary Ministries and Department of the Govt; pressure groups and formal, informal associations and their role in Polity.md",
+                "file": "05 GS-2/1. Polity/1.2 Functions Responsibility of Union and States, Issues with Federal Structure, Devolution of powers and finances etc..md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +200,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5
+    "width": 333.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,24 +232,34 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "52683a45823f1029",
+  "active": "0803f948315da93b",
   "lastOpenFiles": [
-    "05 GS-2/1. Polity/1.4 Parliament and State legislatures - Structure, functioning, conduct of business, powers & privileges and issues arising out of these. Comparison of Constitutions etc.md",
-    "05 GS-2/1. Polity/1.5 Structure, Organisation and functioning of Executive and Judiciary Ministries and Department of the Govt; pressure groups and formal, informal associations and their role in Polity.md",
-    "05 GS-2/1. Polity/1.3 Separation of Power between various organs, dispute redressal mechanisms. Judiciary.md",
+    "CA 2 - Role of Women, Poverty, Urbanisation - March 2020.md",
     "05 GS-2/1. Polity/1.2 Functions Responsibility of Union and States, Issues with Federal Structure, Devolution of powers and finances etc..md",
+    "05 GS-2/1. Polity/1.3 Separation of Power between various organs, dispute redressal mechanisms. Judiciary.md",
+    "05 GS-2/1. Polity/1.4 Parliament and State legislatures - Structure, functioning, conduct of business, powers & privileges and issues arising out of these. Comparison of Constitutions etc.md",
+    "05 GS-2/1. Polity/1.7 Statutory, Regulatory and Various Quasi Judicial Bodies, Appointment in them.md",
+    "Attachements/63 - National Disaster Management Authority.pdf",
+    "Attachements/62 - National Investigation Agency.pdf",
+    "Attachements/61 - Lokpal and Lokayukta.pdf",
+    "Attachements/60 - Central Bureau of Investigation.pdf",
+    "Attachements/59 - Central Vigilance Commission.pdf",
+    "Attachements/58 - State Information Commission.pdf",
+    "Attachements/57 - Central Information Commission.pdf",
+    "Attachements/56 - State Human Rights Commission.pdf",
+    "Attachements/55 - National Human Rights Commission.pdf",
+    "Attachements/53 - Advocate General of the State.pdf",
+    "05 GS-2/1. Polity/1.6 Salient Features of Representation of Peoples Act 1951.md",
+    "05 GS-2/1. Polity/1.5 Structure, Organisation and functioning of Executive and Judiciary Ministries and Department of the Govt; pressure groups and formal, informal associations and their role in Polity.md",
+    "00 Homepage/Homepage.md",
+    "00 Homepage/Bookshelf.md",
     "05 GS-2/1. Polity/1.1 Indian Constitution - historical underpinnings, evolution, features, amendments, significant provisions and basic structure, Devolution etc.md",
     "05 GS-2/2. Governance/2.3 Governance, Transparency, E-Governance.md",
     "05 GS-2/2. Governance/2.2 Development Process and Development Industries - role of NGO, SHG, various groups etc..md",
     "05 GS-2/2. Governance/2.1 Govt Policies and Intervention in sectors.md",
-    "05 GS-2/1. Polity/1.7 Statutory, Regulatory and Various Quasi Judicial Bodies, Appointment in them.md",
-    "05 GS-2/1. Polity/1.6 Salient Features of Representation of Peoples Act 1951.md",
     "Note Bin/Polity Static.md",
     "08.5 History Optional Recent PYQ Analysis/2021 Paper 2 History Optional Answers.md",
-    "00 Homepage/Homepage.md",
-    "00 Homepage/Bookshelf.md",
     "01 Subject Wise Notes/🌏 Geography Static Notes/1. Geomorphology and Climatology/1.1 Earth.md",
-    "01 Subject Wise Notes",
     "08.5 History Optional Recent PYQ Analysis/2021 Paper 1 History Optional Answers.md",
     "08.1 Ancient-History/5. Aryans and Vedic Period/5.1 Expansions of Aryans in India.md",
     "08.1 Ancient-History/4. Megalithic-Culture/4.3 Crafts, Pottery and Iron Industry.md",
@@ -241,8 +269,6 @@
     "08.1 Ancient-History/3. IVC/3.2 Characteristics , Decline, Survival and Significance.md",
     "08.1 Ancient-History/3. IVC/3.1 Origin, Date and Extent.md",
     "08.1 Ancient-History/2. Pre-and-Proto-History/2.3 Beginning of Agriculture (Neolithic and Chalcolithic).md",
-    "08.1 Ancient-History/2. Pre-and-Proto-History/2.2 Hunting and Gathering (Palaeolithic and Mesolithic).md",
-    "08.1 Ancient-History/2. Pre-and-Proto-History/2.1 Geographical Factors.md",
-    "04 GS-1/🌏 Geography Static Notes/1. Geomorphology and Climatology/1.1 Earth.tex"
+    "08.1 Ancient-History/2. Pre-and-Proto-History/2.2 Hunting and Gathering (Palaeolithic and Mesolithic).md"
   ]
 }

@@ -42,5 +42,18 @@
       "action"
     ],
     "defaultFilterType": "tree"
-  }
+  },
+  "treeData": [
+    {
+      "id": "126c7163e9bb11a8",
+      "parent": 0,
+      "droppable": true,
+      "text": "Google Accounts",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    }
+  ]
 }
