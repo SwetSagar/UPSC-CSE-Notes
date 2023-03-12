@@ -74,5 +74,8 @@
   "better-pdf-plugin",
   "obsidian-local-images-plus",
   "obsidian-imgur-plugin",
-  "surfing"
+  "surfing",
+  "obsidian-local-rest-api",
+  "home-tab",
+  "chatgpt-md"
 ]

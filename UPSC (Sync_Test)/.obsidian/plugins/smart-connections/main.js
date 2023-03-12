@@ -14,8 +14,12 @@ const DEFAULT_SETTINGS = {
   log_render_files: false,
   skip_sections: false,
   results_count: 30,
+  view_open: true,
+  version: "",
 };
 const MAX_EMBED_STRING_LENGTH = 25000;
+
+const VERSION = "1.2.8";
 
 class SmartConnectionsPlugin extends Obsidian.Plugin {
   // constructor
@@ -38,6 +42,7 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
     this.render_log.skipped_low_delta = {};
     this.render_log.token_usage = 0;
     this.render_log.tokens_saved_by_cache = 0;
+    this.retry_notice_timeout = null;
     this.save_timeout = null;
   }
 
@@ -167,6 +172,19 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
   }
 
   async initialize() {
+    // if this settings.view_open is true, open view on startup
+    if(this.settings.view_open) {
+      this.open_view();
+    }
+    // on new version
+    if(this.settings.version !== VERSION) {
+      // update version
+      this.settings.version = VERSION;
+      // save settings
+      await this.saveSettings();
+      // open view
+      this.open_view();
+    }
     this.add_to_gitignore();
   }
 
@@ -217,7 +235,14 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
       if(this.settings.failed_files.indexOf(files[i].path) > -1) {
         // log skipping file
         // console.log("skipping previously failed file, use button in settings to retry");
-        new Obsidian.Notice("Smart Connections: Skipping previously failed file, use button in settings to retry");
+        // use setTimeout to prevent multiple notices
+        if(this.retry_notice_timeout) {
+          clearTimeout(this.retry_notice_timeout);
+          this.retry_notice_timeout = null;
+        }
+        this.retry_notice_timeout = setTimeout(() => {
+          new Obsidian.Notice("Smart Connections: Skipping previously failed file, use button in settings to retry");
+        }, 3000);
         continue;
       }
       // skip files where path contains any exclusions
@@ -1048,7 +1073,11 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
         }
       }
       // get all embeddings
-      await this.get_all_embeddings();
+      // await this.get_all_embeddings();
+      // wrap get all in setTimeout to allow for UI to update
+      setTimeout(() => {
+        this.get_all_embeddings()
+      }, 3000);
       // get from cache if mtime is same and values are not empty
       let current_note_embedding_vec = [];
       if (!this.embeddings[curr_key] 
@@ -1458,7 +1487,7 @@ class SmartConnectionsView extends Obsidian.ItemView {
       // get heading
       let heading_text = curr.link.split("#").pop();
       // if heading text contains a curly brace, get the number inside the curly braces as occurence
-      let occurence = 1;
+      let occurence = 0;
       if (heading_text.indexOf("{") > -1) {
         // get occurence
         occurence = parseInt(heading_text.split("{")[1].split("}")[0]);
@@ -1993,7 +2022,7 @@ class SmartConnectionsView extends Obsidian.ItemView {
           this.set_message("Making Smart Connections..."+this.interval_count);
         }
       }
-    }, 500);
+    }, 10);
   }
 
   async render_note_connections(file) {
@@ -2159,6 +2188,11 @@ class SmartConnectionsSettingsTab extends Obsidian.PluginSettingTab {
     // toggle expanded view by default
     new Obsidian.Setting(containerEl).setName("expanded_view").setDesc("Expanded view by default.").addToggle((toggle) => toggle.setValue(this.plugin.settings.expanded_view).onChange(async (value) => {
       this.plugin.settings.expanded_view = value;
+      await this.plugin.saveSettings(true);
+    }));
+    // toggle view_open on Obsidian startup
+    new Obsidian.Setting(containerEl).setName("view_open").setDesc("Open view on Obsidian startup.").addToggle((toggle) => toggle.setValue(this.plugin.settings.view_open).onChange(async (value) => {
+      this.plugin.settings.view_open = value;
       await this.plugin.saveSettings(true);
     }));
     containerEl.createEl("h2", {

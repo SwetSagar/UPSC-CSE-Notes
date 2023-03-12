@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "185c83e437cd121d",
+        "id": "0b0aac2727f96a21",
         "type": "tabs",
         "children": [
           {
-            "id": "52683a45823f1029",
+            "id": "3a716d0dbf51e53e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06 GS-3/5. Security/5.3 Various security forces and Agencies and their mandate; Linkages of Organised Crime with Terrorism.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "home-tab-view",
+              "state": {}
             }
           }
         ]
@@ -38,7 +34,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "urban",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,9 +82,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "06 GS-3/5. Security/5.3 Various security forces and Agencies and their mandate; Linkages of Organised Crime with Terrorism.md"
-              }
+              "state": {}
             }
           },
           {
@@ -135,7 +129,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "06 GS-3/5. Security/5.3 Various security forces and Agencies and their mandate; Linkages of Organised Crime with Terrorism.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +156,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "06 GS-3/5. Security/5.3 Various security forces and Agencies and their mandate; Linkages of Organised Crime with Terrorism.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -207,23 +199,37 @@
       "obsidian-gallery:Gallery": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "obsidian-tts:Text to Speech": false,
-      "gpt3-notes:GPT-3 Notes": false,
       "chronology:Open Chronology": false,
       "webpage-html-export:Export Vault to HTML": false,
+      "file-forgetting-curve-obsidian:View - File Forgetting Curve": false,
+      "obsidian-wordpress:WordPress Publish": false,
+      "periodic-notes:Open today": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "omnisearch:Omnisearch": false,
+      "custom-sort:Toggle custom sorting": false,
       "open-gate:Just a moment...": false,
       "open-gate:GitHub: Let’s build from here · GitHub": false,
       "open-gate:Access denied": false,
       "open-gate:https://www.google.com/": false,
-      "file-forgetting-curve-obsidian:View - File Forgetting Curve": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-wordpress:WordPress Publish": false,
-      "omnisearch:Omnisearch": false,
-      "custom-sort:Toggle custom sorting": false,
-      "periodic-notes:Open today": false
+      "gpt3-notes:GPT-3 Notes": false
     }
   },
-  "active": "0803f948315da93b",
+  "active": "3a716d0dbf51e53e",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Ideas and Musings.md",
+    "08.2 Medieval-India/11. Culture-in-the-Mughal-Empire/11.4 Mughal-Painting.md",
+    "ChatGPT_MD",
+    "08.4 World-History/2. Modern Politics Origin/2.5 British Democratic Politics (1815 1850).md",
+    "Web Clippings/Amendments to PMLA rules and its impact on ‘politically exposed persons’, NGOs  Explained News,The Indian Express.md",
+    "Web Clippings/Landslide Atlas of India Which states, regions are most vulnerable  Explained News,The Indian Express.md",
+    "Web Clippings/Saudi Arabia, Iran agree to restore diplomatic ties What we know so far  Explained News,The Indian Express.md",
+    "Web Clippings",
+    "Daily Notes and Todos/02-12-2021.md",
+    "Daily Notes and Todos/01-12-2021.md",
+    "CA 2 - Role of Women, Poverty, Urbanisation - March 2020.md",
+    "Canvas/Physical Geography Links.canvas",
+    "06 GS-3/5. Security/5.3 Various security forces and Agencies and their mandate; Linkages of Organised Crime with Terrorism.md",
     "06 GS-3/5. Security/5.2 Security challeges and their management in border areas, Cyber Security, Money Laundering.md",
     "Canvas/Defence Indigenisation Issue.canvas",
     "06 GS-3/5. Security/5.1 Role of external state and non state actors in creating challenges to Internal Security.md",
@@ -239,17 +245,6 @@
     "06 GS-3/1. Economy/1.1 Indian Economy and issues relating to planning, mobilisation of resources, growth dev and employement.md",
     "05 GS-2/4. International Relations/4.4 Effects of Foreign Countries Policies.md",
     "05 GS-2/4. International Relations/4.3 International Bodies, their structure, mandate etc.md",
-    "05 GS-2/4. International Relations/4.2 Bilateral, Regional, Global Grouping.md",
-    "05 GS-2/4. International Relations/4.1 India and its neighbourhood - relations.md",
-    "05 GS-2/3. Social Justice/3.2 Issues Relating to development and management of Social Sector relating to Health, Education, HR; Issues Relating to Poverty and Hunger.md",
-    "05 GS-2/3. Social Justice/3.1 Welfare Schemes for vulnerable sections of the population by the centre and States and performance of these schemes, mechanisms, laws, institutions and bodies constituted for the protection and betterment of vulnerable sections..md",
-    "05 GS-2/2. Governance/2.4 Role of Civil Services.md",
-    "05 GS-2/2. Governance/2.3 Governance, Transparency, E-Governance.md",
-    "05 GS-2/2. Governance/2.2 Development Process and Development Industries - role of NGO, SHG, various groups etc..md",
-    "05 GS-2/2. Governance/2.1 Govt Policies and Intervention in sectors.md",
-    "05 GS-2/1. Polity/1.7 Statutory, Regulatory and Various Quasi Judicial Bodies, Appointment in them.md",
-    "05 GS-2/1. Polity/1.6 Salient Features of Representation of Peoples Act 1951.md",
-    "05 GS-2/1. Polity/1.5 Structure, Organisation and functioning of Executive and Judiciary Ministries and Department of the Govt; pressure groups and formal, informal associations and their role in Polity.md",
     "Attachements/Globalisation and Social Change NCERT.pdf",
     "Attachements/63 - National Disaster Management Authority.pdf",
     "Attachements/62 - National Investigation Agency.pdf",
@@ -257,8 +252,6 @@
     "Attachements/60 - Central Bureau of Investigation.pdf",
     "Attachements/59 - Central Vigilance Commission.pdf",
     "Attachements/58 - State Information Commission.pdf",
-    "Attachements/57 - Central Information Commission.pdf",
-    "Attachements/56 - State Human Rights Commission.pdf",
-    "Attachements/55 - National Human Rights Commission.pdf"
+    "Attachements/57 - Central Information Commission.pdf"
   ]
 }

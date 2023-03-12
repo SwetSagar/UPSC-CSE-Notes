@@ -1,0 +1,39 @@
+{
+  "logoType": "default",
+  "logo": {
+    "lucideIcon": "",
+    "imagePath": "",
+    "imageLink": ""
+  },
+  "logoScale": 1.5,
+  "iconColorType": "default",
+  "wordmark": "Obsidian",
+  "customFont": "interfaceFont",
+  "fontSize": "4em",
+  "fontColorType": "default",
+  "fontWeight": 600,
+  "maxResults": 5,
+  "showStarredFiles": true,
+  "showRecentFiles": true,
+  "maxRecentFiles": 5,
+  "storeRecentFile": true,
+  "showPath": true,
+  "selectionHighlight": "default",
+  "showShortcuts": true,
+  "markdownOnly": false,
+  "unresolvedLinks": false,
+  "recentFilesStore": [
+    {
+      "filepath": "Untitled.md",
+      "timestamp": 1678596364506
+    },
+    {
+      "filepath": "Ideas and Musings.md",
+      "timestamp": 1678596320085
+    },
+    {
+      "filepath": "08.2 Medieval-India/11. Culture-in-the-Mughal-Empire/11.4 Mughal-Painting.md",
+      "timestamp": 1678593509884
+    }
+  ]
+}

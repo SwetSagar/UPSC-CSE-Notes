@@ -169,7 +169,7 @@ var KhojModal = class extends import_obsidian2.SuggestModal {
   }
   async onChooseSuggestion(result, _) {
     const mdFiles = this.app.vault.getMarkdownFiles();
-    let file_match = mdFiles.sort((a, b) => b.path.length - a.path.length).find((file) => result.file.endsWith(file.path));
+    let file_match = mdFiles.sort((a, b) => b.path.length - a.path.length).find((file) => result.file.replace(/\\/g, "/").endsWith(file.path));
     if (file_match) {
       let resultHeading = result.entry.split("\n", 1)[0];
       let linkToEntry = `${file_match.path}${resultHeading}`;
