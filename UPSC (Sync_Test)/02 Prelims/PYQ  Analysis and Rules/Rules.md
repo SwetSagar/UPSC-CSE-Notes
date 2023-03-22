@@ -8,6 +8,8 @@ uid: c9a09e5a334af020b5d7ae38f4ccf55f
 
 ---
 
+- ! Not Always correct ! 
+
 - Data/Stats/facts mostly wrong like Dates/years/ figures
 - 'Contemporary' word is wrong
 - Greatly influenced/Greatly impacted is wrong

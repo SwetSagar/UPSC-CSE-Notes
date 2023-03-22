@@ -346,16 +346,17 @@ India Post Payments Banks was formed for financial literacy, streamlining paymen
 
 ### Deposit Taking
 
+- ==They only take Time deposits not Demand Deposits==
 - Mandatory for them to get them registered by RBI.
-- Mandatory to be incorporated under Companies Act 1956
+- Mandatory to be incorporated under Companies Act 1956.
 - Minimum Net Owned Fund of 2 crore.
 - Allowed to accept and/or renew public deposits for a min period of 12 months and max 60 months.
 - Cannot accept demand deposits.
-- Cannot offer interest rates higher than ceiling rate prescribed by RI
-- Cannot offer gifts, incentives etc to depositors
+- Cannot offer interest rates higher than ceiling rate prescribed by RBI.
+- Cannot offer gifts, incentives etc to depositors.
 - Minimum investment grade credit rating.
-- Deposits are not insured
-- repayment of deposits by NBFCs not guaranteed by RBI
+- ==Deposits are not insured by DICGC==. #important 
+- repayment of deposits by NBFCs not guaranteed by RBI.
 - Need to maintain Capital Adequacy Ration CAR norm as prescribed by RBI.
 
 ### Non Deposit Taking

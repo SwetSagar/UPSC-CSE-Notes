@@ -13,9 +13,9 @@
 
 - Creeping inflation upto 4%,
 - Trotting inflation - 4-8%,
-- Galloping Inflation 8-10%,
+- Galloping Inflation 8-10%, [Ramesh Singh had mentioned Galloping as 10 - 200/300 % and Runaway as its type]
 - Runaway inflation 10-20%,
-- Hyperinflation - 20-30% result of reckless fiscal policy
+- Hyperinflation - 20% per day, could go on into millions per year, result of reckless fiscal policy.
 - **Deflation**
 	- prolonged decline in prices spending dec as people wait for prices to fall further
 	- ==inflation rate falls below 0% ie negative inflation,== increases the value of money, associated with recession
@@ -184,6 +184,7 @@ RBI puts out **House Price Index HPI** - quarterly for 10 major cities
 - Thus increasing salaries of govt employees, enhancing MSP of notified agriculture commodities will lead to inc in govt expenditure it will create more demand in the economy.
 - Sucking out the money from economy will reduce the gap.
 - ==It measures the difference b/w current level of real GDP and GDP that would exist if any economy was operating at full employment.== #concept
+- **OR**  ==between the gross domestic product (GDP) under full employment and the actual reported GDP number==.
 - If real GDP is higher then the gap is termed as inflationary.
 **Deflationary gap** is shorfall in total spending over national income production is more than the demand and a slowdown occurs aka *output gap*.
 

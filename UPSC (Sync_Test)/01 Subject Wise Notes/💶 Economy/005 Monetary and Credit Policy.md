@@ -45,6 +45,7 @@ Quantitative Tools
 
 #### 2. Reverse Repo
 
+- Interest given by RBI to Banks who offer short term loans to it. Used by banks to park their surplus.
 - ==RBI borrows from market== to absorb excess liquidity, is lower than Repo
 - only done in securities approved by RBI
 
@@ -52,14 +53,14 @@ Quantitative Tools
 
 - portion of **fixed deposits and demand liabilities** kept in cash, securitiesv (Dated Securities of GOI, Treasury Bill and State Development Loans), gold, excess CRR balance.
 - Controls expansion of bank credit, ensures solvency etc.
-- Long term tool
+- Long term tool.
 
 #### 4.Cash Reserve Ratio CRR
 
-- portion of deposits (Demand ie Current and Savings Account and Time deposits ie Fixed and Recurring) **bank should keep with RBI in cash form**
-- no interest is earned on them, no upper and lower limit
-- 90% of CRR req on daily basis, 100% of CRR on fortnight
-- Short term tool used in serious circumstances
+- portion of deposits (Demand ie Current and Savings Account and Time deposits ie Fixed and Recurring) **bank should keep with RBI in cash form**.
+- no interest is earned on them, no upper and lower limit.
+- 90% of CRR req on daily basis, 100% of CRR on fortnight.
+- Short term tool used in serious circumstances.
 
 #### 5. Marginal Standing Facility MSF
 
@@ -67,6 +68,7 @@ Quantitative Tools
 - **when LAF is exhausted**, done for overnight borrowings when SLR limit is breached
 - before this role was done by Bank rate
 - **Bank rate** : rate at which commercial banks can borrow from RBI w/o providing any security. It now acts as a penal rate.
+- ==RRBs can now access MSF==
 
 #### 6. Call Money Market[^1]
 
@@ -81,7 +83,7 @@ Quantitative Tools
 
 - Tool for monetary policy control that *allows banks to borrow money through Repos*.
 - used to meet daily mismatches, min credit limit is 5cr
-- For SCBs *excluding RRBs* and Primary Dealers for them to park their excess fund with RBI on an overnight basis against collateral of Govt securities.
+- For SCBs *~~excluding RRBs~~* ==Now RRBs can access LAF and MSF== and Primary Dealers for them to park their excess fund with RBI on an overnight basis against collateral of Govt securities.
 - Under LAF banks are permitted to borrow only a certain % of its NDTL if it requires then if should do it through [[#5 Marginal Standing Facility MSF|Marginal Standing Facility]].
 - Certain Scheduled Urban Cooperatives can also use LAF but they need to have min CRAR of 9% and are Core Banking System CBS enabled.
 

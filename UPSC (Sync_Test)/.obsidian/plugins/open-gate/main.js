@@ -44,6 +44,30 @@ var getSvgIcon = (siteUrl) => {
   return `<svg viewBox="0 0 100 100"><image href="https://www.google.com/s2/favicons?domain=${hostName}&sz=100" height="100" width="100" /></svg>`;
 };
 
+// src/fns/normalizeGateOption.ts
+var normalizeGateOption = (gate) => {
+  if (gate.id === "") {
+    let seedString = gate.url;
+    if (gate.profileKey !== "open-gate" && gate.profileKey !== "") {
+      seedString += gate.profileKey;
+    }
+    gate.id = btoa(seedString);
+  }
+  if (gate.profileKey === "" || gate.profileKey === void 0) {
+    gate.profileKey = "open-gate";
+  }
+  if (gate.zoomFactor === 0 || gate.zoomFactor === void 0) {
+    gate.zoomFactor = 1;
+  }
+  if (gate.icon === "") {
+    gate.icon = getSvgIcon(gate.url);
+  }
+  if (gate.title === "") {
+    gate.title = gate.url;
+  }
+  return gate;
+};
+
 // src/fns/formEditGate.ts
 var formEditGate = (contentEl, gateOptions, onSubmit) => {
   new import_obsidian.Setting(contentEl).setName("URL").setClass("open-gate--form-field").addText((text) => text.setPlaceholder("https://example.com").setValue(gateOptions.url).onChange(async (value) => {
@@ -64,7 +88,9 @@ var formEditGate = (contentEl, gateOptions, onSubmit) => {
       gateOptions.position = value;
     });
   });
-  const advancedOptions = contentEl.createDiv({ cls: "open-gate--advanced-options" });
+  const advancedOptions = contentEl.createDiv({
+    cls: "open-gate--advanced-options"
+  });
   new import_obsidian.Setting(contentEl).setName("Advanced Options").setClass("open-gate--form-field").addToggle((text) => text.setValue(false).onChange(async (value) => {
     if (value) {
       advancedOptions.addClass("open-gate--advanced-options--show");
@@ -94,19 +120,7 @@ var formEditGate = (contentEl, gateOptions, onSubmit) => {
     });
   });
   new import_obsidian.Setting(contentEl).addButton((btn) => btn.setButtonText(gateOptions.id ? "Update the gate" : "Create new gate").setCta().onClick(async () => {
-    if (gateOptions.id === "") {
-      let seedString = gateOptions.url;
-      if (gateOptions.profileKey !== "open-gate" && gateOptions.profileKey !== "") {
-        seedString += gateOptions.profileKey;
-      }
-      gateOptions.id = btoa(seedString);
-    }
-    if (gateOptions.icon === "") {
-      gateOptions.icon = getSvgIcon(gateOptions.url);
-    }
-    if (gateOptions.title === "") {
-      gateOptions.title = gateOptions.url;
-    }
+    gateOptions = normalizeGateOption(gateOptions);
     onSubmit(gateOptions);
   }));
 };
@@ -514,6 +528,12 @@ var OpenGatePlugin = class extends import_obsidian8.Plugin {
     } else {
       new import_obsidian8.Notice("This change will take effect after you reload Obsidian.");
     }
+    if (gate.profileKey === "" || gate.profileKey === void 0) {
+      gate.profileKey = defaultGateOption.profileKey;
+    }
+    if (gate.zoomFactor === 0 || gate.zoomFactor === void 0) {
+      gate.zoomFactor = defaultGateOption.zoomFactor;
+    }
     this.settings.gates[gate.id] = gate;
     await this.saveSettings();
   }
@@ -537,12 +557,7 @@ var OpenGatePlugin = class extends import_obsidian8.Plugin {
       this.settings.gates = {};
     }
     for (const gateId in this.settings.gates) {
-      if (this.settings.gates[gateId].profileKey === "") {
-        this.settings.gates[gateId].profileKey = defaultGateOption.profileKey;
-      }
-      if (this.settings.gates[gateId].zoomFactor === 0 || this.settings.gates[gateId].zoomFactor === void 0) {
-        this.settings.gates[gateId].zoomFactor = defaultGateOption.zoomFactor;
-      }
+      this.settings.gates[gateId] = normalizeGateOption(this.settings.gates[gateId]);
     }
   }
   async saveSettings() {

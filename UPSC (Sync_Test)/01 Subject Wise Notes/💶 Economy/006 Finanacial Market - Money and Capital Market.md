@@ -328,7 +328,7 @@ Mutual Funds invest in stock market securities, bonds etc
 Hundis
 - Chit Funds are a type of savings scheme, governed by state and central laws
 - Qualified Institutional Placement QIPs
-	- they are qualified to sell shares, debentures etc
+	- they are qualified to sell shares, debentures etc.
 - **NBFC**
 	- do not include institutions whose principal business is agriculture or Industrial activity
 - **External Commercial Borrowings ECB**

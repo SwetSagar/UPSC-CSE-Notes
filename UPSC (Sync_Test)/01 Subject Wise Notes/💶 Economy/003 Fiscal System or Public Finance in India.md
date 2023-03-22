@@ -201,6 +201,8 @@ Money Printed by RBI is called ==high powered money or reserve money or monetary
 - **Printing Currency** : last resort for the govt in managing its deficit. Biggest handicap with the govt is that they cannot go for expenditures are to be made in foreign currency.
 	- it increases inflation proprotionally and brings regular pressure and obligation on the govt for upward revision in wages and salaries of govt employees.
 
+- **Fiscal consolidation is a reduction in the underlying fiscal deficit**. Fiscal Consolidation refers to the policies undertaken by Governments (national and sub-national levels) to reduce their deficits and accumulation of debt stock. #important 
+
 **What are the best case scenarios for deficit financing?**
 
 - FD with a surplus revenue budget or a zero revenue expenditure is the best composition of FD and most suitable for deficit financing.
@@ -341,6 +343,7 @@ Money Printed by RBI is called ==high powered money or reserve money or monetary
 	- Govt has certain limitations on certain expenditures ex charged expenditures.
 	- certain public services deny cost benefit analysis ex defence, law and order, foreign relations etc.
 	- Mo Finance could be all powerful institution
+- There are no commited pre expenses and balances are not carried forward.
 
 ### 1.6.4 Ways and Means Advance WMA
 

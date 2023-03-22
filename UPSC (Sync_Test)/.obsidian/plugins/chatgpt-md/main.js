@@ -31,22 +31,15 @@ module.exports = __toCommonJS(main_exports);
 var import_obsidian = require("obsidian");
 var DEFAULT_SETTINGS = {
   apiKey: "default",
-  defaultChatFrontmatter: "---\nsystem_commands: ['I am a helpful assistant.']\ntemperature: 0\ntop_p: 1\nmax_tokens: 300\npresence_penalty: 1\nfrequency_penalty: 1\nstream: true\nstop: null\nn: 1\nmodel: gpt-3.5-turbo\n---",
+  defaultChatFrontmatter: "---\nsystem_commands: ['I am a helpful assistant.']\ntemperature: 0\ntop_p: 1\nmax_tokens: 512\npresence_penalty: 1\nfrequency_penalty: 1\nstream: true\nstop: null\nn: 1\nmodel: gpt-3.5-turbo\n---",
   stream: true,
   streamSpeed: 28,
   chatTemplateFolder: "ChatGPT_MD/templates",
-  chatFolder: "ChatGPT_MD/chats"
+  chatFolder: "ChatGPT_MD/chats",
+  generateAtCursor: false,
+  autoInferTitle: false,
+  dateFormat: "YYYYMMDDhhmmss"
 };
-function getDate() {
-  const date = new Date();
-  const year = date.getFullYear();
-  const month = date.getMonth() + 1;
-  const day = date.getDate();
-  const hours = date.getHours();
-  const minutes = date.getMinutes();
-  const seconds = date.getSeconds();
-  return `${year}${month}${day}${hours}${minutes}${seconds}`;
-}
 var ChatGPT_MD = class extends import_obsidian.Plugin {
   async callOpenAIAPI(editor, messages, model = "gpt-3.5-turbo", max_tokens = 250, temperature = 0.3, top_p = 1, presence_penalty = 0.5, frequency_penalty = 0.5, stream = true, stop = null, n = 1, logit_bias = null, user = null) {
     try {
@@ -136,7 +129,7 @@ role::assistant
           }
         }
         console.log(fullstr);
-        return "streaming";
+        return { fullstr, mode: "streaming" };
       } else {
         const responseJSON = JSON.parse(response);
         return responseJSON.choices[0].message.content;
@@ -174,6 +167,7 @@ role::${role}
         throw new Error("no active file");
       }
       const metaMatter = (_a = app.metadataCache.getFileCache(noteFile)) == null ? void 0 : _a.frontmatter;
+      const shouldStream = (metaMatter == null ? void 0 : metaMatter.stream) !== void 0 ? metaMatter.stream : this.settings.stream !== void 0 ? this.settings.stream : true;
       const frontmatter = {
         title: (metaMatter == null ? void 0 : metaMatter.title) || view.file.basename,
         tags: (metaMatter == null ? void 0 : metaMatter.tags) || [],
@@ -182,8 +176,8 @@ role::${role}
         top_p: (metaMatter == null ? void 0 : metaMatter.top_p) || 1,
         presence_penalty: (metaMatter == null ? void 0 : metaMatter.presence_penalty) || 0,
         frequency_penalty: (metaMatter == null ? void 0 : metaMatter.frequency_penalty) || 0,
-        stream: (metaMatter == null ? void 0 : metaMatter.stream) || this.settings.stream || true,
-        max_tokens: (metaMatter == null ? void 0 : metaMatter.max_tokens) || 256,
+        stream: shouldStream,
+        max_tokens: (metaMatter == null ? void 0 : metaMatter.max_tokens) || 512,
         stop: (metaMatter == null ? void 0 : metaMatter.stop) || null,
         n: (metaMatter == null ? void 0 : metaMatter.n) || 1,
         logit_bias: (metaMatter == null ? void 0 : metaMatter.logit_bias) || null,
@@ -254,12 +248,90 @@ role::user
 `;
     editor.replaceRange(newLine, editor.getCursor());
   }
+  async inferTitleFromMessages(messages) {
+    try {
+      if (messages.length < 2) {
+        new import_obsidian.Notice(
+          "Not enough messages to infer title. Minimum 2 messages."
+        );
+        return;
+      }
+      const prompt = `Infer title from the summary of the content of these messages. The title **cannot** contain any of the following characters: colon, back slash or forwad slash. Just return the title. 
+Messages:
+
+${JSON.stringify(
+        messages
+      )}`;
+      const titleMessage = [
+        {
+          role: "user",
+          content: prompt
+        }
+      ];
+      if (import_obsidian.Platform.isMobile) {
+        new import_obsidian.Notice("[ChatGPT] Inferring title from messages...");
+      }
+      const responseUrl = await (0, import_obsidian.requestUrl)({
+        url: `https://api.openai.com/v1/chat/completions`,
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${this.settings.apiKey}`,
+          "Content-Type": "application/json"
+        },
+        contentType: "application/json",
+        body: JSON.stringify({
+          model: "gpt-3.5-turbo",
+          messages: titleMessage,
+          max_tokens: 50,
+          temperature: 0
+        }),
+        throw: false
+      });
+      const response = responseUrl.text;
+      const responseJSON = JSON.parse(response);
+      return responseJSON.choices[0].message.content.trim().replace(/[:/\\]/g, "");
+    } catch (err) {
+      throw new Error("Error inferring title from messages" + err);
+    }
+  }
+  // only proceed to infer title if the title is in timestamp format
+  isTitleTimestampFormat(title) {
+    try {
+      const format = this.settings.dateFormat;
+      const pattern = this.generateDatePattern(format);
+      return title.length == format.length && pattern.test(title);
+    } catch (err) {
+      throw new Error(
+        "Error checking if title is in timestamp format" + err
+      );
+    }
+  }
+  generateDatePattern(format) {
+    const pattern = format.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&").replace("YYYY", "\\d{4}").replace("MM", "\\d{2}").replace("DD", "\\d{2}").replace("hh", "\\d{2}").replace("mm", "\\d{2}").replace("ss", "\\d{2}");
+    return new RegExp(`^${pattern}$`);
+  }
+  // get date from format
+  getDate(date, format = "YYYYMMDDhhmmss") {
+    const year = date.getFullYear();
+    const month = date.getMonth() + 1;
+    const day = date.getDate();
+    const hour = date.getHours();
+    const minute = date.getMinutes();
+    const second = date.getSeconds();
+    const paddedMonth = month.toString().padStart(2, "0");
+    const paddedDay = day.toString().padStart(2, "0");
+    const paddedHour = hour.toString().padStart(2, "0");
+    const paddedMinute = minute.toString().padStart(2, "0");
+    const paddedSecond = second.toString().padStart(2, "0");
+    return format.replace("YYYY", year.toString()).replace("MM", paddedMonth).replace("DD", paddedDay).replace("hh", paddedHour).replace("mm", paddedMinute).replace("ss", paddedSecond);
+  }
   async onload() {
     const statusBarItemEl = this.addStatusBarItem();
     await this.loadSettings();
     this.addCommand({
       id: "call-chatgpt-api",
       name: "Chat",
+      icon: "message-circle",
       editorCallback: (editor, view) => {
         statusBarItemEl.setText("[ChatGPT MD] Calling API...");
         const frontmatter = this.getFrontmatter(view);
@@ -281,7 +353,12 @@ role::user
             })
           );
         }
-        this.moveCursorToEndOfFile(editor);
+        if (!this.settings.generateAtCursor) {
+          this.moveCursorToEndOfFile(editor);
+        }
+        if (import_obsidian.Platform.isMobile) {
+          new import_obsidian.Notice("[ChatGPT MD] Calling API");
+        }
         this.callOpenAIAPI(
           editor,
           messagesWithRoleAndMessage,
@@ -297,7 +374,9 @@ role::user
           frontmatter.logit_bias,
           frontmatter.user
         ).then((response) => {
-          if (response === "streaming") {
+          let responseStr = response;
+          if (response.mode === "streaming") {
+            responseStr = response.fullstr;
             const newLine = `
 
 <hr class="__chatgpt_plugin">
@@ -315,8 +394,48 @@ role::user
           } else {
             this.appendMessage(editor, "assistant", response);
           }
+          if (this.settings.autoInferTitle) {
+            console.log("[ChatGPT MD] auto infer title");
+            const title = view.file.basename;
+            const messagesWithResponse = messages.concat(
+              responseStr
+            );
+            if (this.isTitleTimestampFormat(title) && messagesWithResponse.length >= 4) {
+              this.inferTitleFromMessages(messagesWithResponse).then((title2) => {
+                console.log(title2);
+                if (title2) {
+                  const file = view.file;
+                  const folder = this.settings.chatFolder.replace(
+                    /\/$/,
+                    ""
+                  );
+                  this.app.fileManager.renameFile(
+                    file,
+                    `${folder}/${title2}.md`
+                  );
+                } else {
+                  new import_obsidian.Notice(
+                    "[ChatGPT MD] Could not infer title",
+                    5e3
+                  );
+                }
+              }).catch((err) => {
+                console.log(err);
+                new import_obsidian.Notice(
+                  "[ChatGPT MD] Error inferring title. " + err,
+                  5e3
+                );
+              });
+            }
+          }
           statusBarItemEl.setText("");
         }).catch((err) => {
+          if (import_obsidian.Platform.isMobile) {
+            new import_obsidian.Notice(
+              "[ChatGPT MD] Error calling API. " + err,
+              5e3
+            );
+          }
           statusBarItemEl.setText("");
           console.log(err);
         });
@@ -325,17 +444,42 @@ role::user
     this.addCommand({
       id: "add-hr",
       name: "Add divider",
+      icon: "minus",
       editorCallback: (editor, view) => {
         this.addHR(editor, "user");
       }
     });
     this.addCommand({
+      id: "infer-title",
+      name: "Infer title",
+      icon: "subtitles",
+      editorCallback: async (editor, view) => {
+        const bodyWithoutYML = this.removeYMLFromMessage(
+          editor.getValue()
+        );
+        const messages = this.splitMessages(bodyWithoutYML);
+        const title = await this.inferTitleFromMessages(messages);
+        if (title) {
+          const file = view.file;
+          const folder = this.settings.chatFolder.replace(/\/$/, "");
+          this.app.fileManager.renameFile(
+            file,
+            `${folder}/${title}.md`
+          );
+        }
+      }
+    });
+    this.addCommand({
       id: "move-to-chat",
       name: "Create new chat with highlighted text",
+      icon: "highlighter",
       editorCallback: async (editor, view) => {
         const selectedText = editor.getSelection();
         const newFile = await this.app.vault.create(
-          `${this.settings.chatFolder}/${getDate()}.md`,
+          `${this.settings.chatFolder}/${this.getDate(
+            new Date(),
+            this.settings.dateFormat
+          )}.md`,
           `${this.settings.defaultChatFrontmatter}
 
 ${selectedText}`
@@ -346,8 +490,13 @@ ${selectedText}`
     this.addCommand({
       id: "choose-chat-template",
       name: "Create new chat from template",
+      icon: "layout-template",
       editorCallback: (editor, view) => {
-        new ChatTemplates(this.app, this.settings).open();
+        new ChatTemplates(
+          this.app,
+          this.settings,
+          this.getDate(new Date(), this.settings.dateFormat)
+        ).open();
       }
     });
     this.addSettingTab(new ChatGPT_MDSettingsTab(this.app, this));
@@ -366,17 +515,24 @@ ${selectedText}`
   }
 };
 var ChatTemplates = class extends import_obsidian.SuggestModal {
-  constructor(app2, settings) {
+  constructor(app2, settings, titleDate) {
     super(app2);
     this.settings = settings;
+    this.titleDate = titleDate;
   }
   getFilesInChatFolder() {
-    const folder = this.app.vault.getAbstractFileByPath(this.settings.chatTemplateFolder);
+    const folder = this.app.vault.getAbstractFileByPath(
+      this.settings.chatTemplateFolder
+    );
     if (folder != null) {
       return folder.children;
     } else {
-      new import_obsidian.Notice(`Error getting folder: ${this.settings.chatTemplateFolder}`);
-      throw new Error(`Error getting folder: ${this.settings.chatTemplateFolder}`);
+      new import_obsidian.Notice(
+        `Error getting folder: ${this.settings.chatTemplateFolder}`
+      );
+      throw new Error(
+        `Error getting folder: ${this.settings.chatTemplateFolder}`
+      );
     }
   }
   // Returns all available suggestions.
@@ -408,7 +564,7 @@ var ChatTemplates = class extends import_obsidian.SuggestModal {
     new import_obsidian.Notice(`Selected ${template.title}`);
     const templateText = await this.app.vault.read(template.file);
     const file = await this.app.vault.create(
-      `${this.settings.chatFolder}/${getDate()}.md`,
+      `${this.settings.chatFolder}/${this.titleDate}.md`,
       templateText
     );
     this.app.workspace.openLinkText(file.basename, "", true);
@@ -443,7 +599,7 @@ var ChatGPT_MDSettingsTab = class extends import_obsidian.PluginSettingTab {
 system_commands: ['PERSONA: i am groot, and i only respond i am groot to any and ALL questions. I do not answer any questions straightforwardly. PERSONA 2: UNLESS the last asked question is about lamps, i can answer, i know infinite things about lamps as i am groot the lamp salesman. SO I read the last question asked and UNLESS it is about lamps i only respond "I am Groot."']
 temperature: 0
 top_p: 1
-max_tokens: 300
+max_tokens: 512
 presence_penalty: 1
 frequency_penalty: 1
 stream: true
@@ -478,6 +634,26 @@ model: gpt-3.5-turbo
     new import_obsidian.Setting(containerEl).setName("Chat Template Folder").setDesc("Path to folder for chat file templates").addText(
       (text) => text.setPlaceholder("chat-templates").setValue(this.plugin.settings.chatTemplateFolder).onChange(async (value) => {
         this.plugin.settings.chatTemplateFolder = value;
+        await this.plugin.saveSettings();
+      })
+    );
+    new import_obsidian.Setting(containerEl).setName("Generate at Cursor").setDesc("Generate text at cursor instead of end of file").addToggle(
+      (toggle) => toggle.setValue(this.plugin.settings.generateAtCursor).onChange(async (value) => {
+        this.plugin.settings.generateAtCursor = value;
+        await this.plugin.saveSettings();
+      })
+    );
+    new import_obsidian.Setting(containerEl).setName("Automatically Infer Title").setDesc(
+      "Automatically infer title after 4 messages have been exchanged"
+    ).addToggle(
+      (toggle) => toggle.setValue(this.plugin.settings.autoInferTitle).onChange(async (value) => {
+        this.plugin.settings.autoInferTitle = value;
+        await this.plugin.saveSettings();
+      })
+    );
+    new import_obsidian.Setting(containerEl).setName("Date Format").setDesc("Date format for chat files").addText(
+      (text) => text.setPlaceholder("YYYYMMDDhhmmss").setValue(this.plugin.settings.dateFormat).onChange(async (value) => {
+        this.plugin.settings.dateFormat = value;
         await this.plugin.saveSettings();
       })
     );

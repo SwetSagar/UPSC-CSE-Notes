@@ -265,7 +265,7 @@ Is a group of 5 international organisations :
 - Once parties have consented to arbitration they cannot withdraw consent unilaterally.
 - IN is not a mem
 
-## International Bank for Reconstruction and Development IBRD
+## 2.2.5 International Bank for Reconstruction and Development IBRD
 
 - started functioning in 1945.
 - Oldest WB institution focused on post war development and later in dev of middle income and credit worthy poorer economies.
@@ -274,7 +274,7 @@ Is a group of 5 international organisations :
 - **To be a member of WB it is necessary to be a mem of IMF**
 - WB is a development institution and IMF seeks to maintain an orderly system of payment and receipts b/w nations
 
-## 2.2.5 Changes Required Post-recession in WB and IMF
+## 2.2.6 Changes Required Post-recession in WB and IMF
 
 **In World Bank**
 

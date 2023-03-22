@@ -14,5 +14,6 @@
   "attachmentFolderPath": "Attachements",
   "spellcheckLanguages": [
     "en-US"
-  ]
+  ],
+  "promptDelete": false
 }

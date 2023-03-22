@@ -1,4 +1,4 @@
-# Planning in India
+# Economic Planning and Planning in India
 
 2020-06-09 18:58:27
 
@@ -35,7 +35,8 @@
 	- Ex Monnet plant of France in 1947.
 3. There are many other types of planning based on the point of view ex . zi regional or national, centralised or decentralised, long term and short term. **Financial Planning** : physical targets are set against available fin resources, focuses on mobilisaiton and expenditure pattern. **Physical Planning** : output production prioritized.
 
-India has been following normative planning believing that until a prgramme/ scheme run by the govt are not able to connect with customs and traditions of population their acceptability will not be of the desired level.
+India has moved towards **normative planning** believing that until a prgramme/ scheme run by the govt are not able to connect with customs and traditions of population their acceptability will not be of the desired level. 
+Its counterpart is **Systems planning** which solely focuses on Economic aspects of and social cultural variables are not given much importance, India earlier used to follow this since it catered well to the ideas of secularism, equality and other democratic values.
 
 **Rolling Plan**
 
@@ -46,10 +47,10 @@ India has been following normative planning believing that until a prgramme/ sch
 
 **M Visvesvaraya** #MainsPYQ
 
-- proposed the 10 year plan for IN in 1934, 1st attempt at planning
+- proposed the 10 year plan for IN in 1934, 1st attempt at planning.
 - proposed to double the income of country, through bold policies, comprehensive reports of progress
-- designer of Kirshnarajasagar dam
-- Installed irrigation system at Khadakvasla reservoir, Tigra Dam of Gwalior and Krishnarajsagar Dams
+- designer of Kirshnarajasagar dam.
+- Installed irrigation system at Khadakvasla reservoir, Tigra Dam of Gwalior and Krishnarajsagar Dams.
 - Govt Eng college in Bangalore; Road construction to Tirupati; New rail lines in Mysore.
 
 **FICCI Proposal 1934**

@@ -56,7 +56,6 @@
   "obsidian-tasks-plugin",
   "obsidian-git",
   "obsidian-wordpress",
-  "obsidian-pandoc",
   "obsidian-enhancing-export",
   "obsidian-minimal-settings",
   "obsidian-image-toolkit",
@@ -71,11 +70,13 @@
   "short-internal-links-to-headings",
   "image-captions",
   "obsidian-task-marker",
-  "better-pdf-plugin",
   "obsidian-local-images-plus",
   "obsidian-imgur-plugin",
   "surfing",
   "obsidian-local-rest-api",
   "home-tab",
-  "chatgpt-md"
+  "obsidian-textgenerator-plugin",
+  "rss-reader",
+  "obsidian-annotator",
+  "better-pdf-plugin"
 ]
