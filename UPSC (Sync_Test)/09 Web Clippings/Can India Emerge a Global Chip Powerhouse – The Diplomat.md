@@ -1,0 +1,38 @@
+---
+page-title: "Can India Emerge a Global Chip Powerhouse? – The Diplomat"
+url: https://thediplomat.com/2023/02/can-india-emerge-a-global-chip-powerhouse/
+date: "2023-03-25 09:01:55"
+---
+### [The Pulse](https://thediplomat.com/category/the-pulse/) | [Economy](https://thediplomat.com/topics/economy/) | [South Asia](https://thediplomat.com/regions/south-asia/)
+
+While capitalizing on its domestic tech skills, India will need to enter into collaborative tech alliances to make itself an integral part of the global semiconductor industry.
+
+![Can India Emerge a Global Chip Powerhouse?](https://thediplomat.com/wp-content/uploads/2023/02/sizes/td-story-s-1/thediplomat_2023-02-15-090146.jpg "Can India Emerge a Global Chip Powerhouse?")
+
+Credit: [Depositphotos](https://depositphotos.com/32954191/stock-photo-mother-board.html)
+
+The world is in the grip of the geopolitics of technology. The race to achieve self-reliance in the technology of the future has pushed countries to up their game in the techno-political arena. India too has realized its potential in possessing technologies that are critical to its economic growth and for that, it has opened itself to foreign investment in high-tech. As India moves toward presenting its economy as a workshop to the world, cooperation for establishing the foundation for domestic manufacturing is essential. This is where strategic alliances come into play.
+
+Earlier this month, India and the United States [launched](https://thediplomat.com/2023/02/icet-strengthening-the-india-us-tech-agenda/) their partnership on the Critical and Emerging Technology (iCET) initiative. The opening dialogue was held in Washington, D.C. The meeting covered myriad [agenda points](https://www.whitehouse.gov/briefing-room/statements-releases/2023/01/31/fact-sheet-united-states-and-india-elevate-strategic-partnership-with-the-initiative-on-critical-and-emerging-technology-icet/), including but not limited to strengthening the innovation ecosystem, defense innovation and technology cooperation, space, next generation telecommunications, and, most important, building resilient semiconductor supply chains. The two sides showed interest in materializing deeper partnerships across areas of defense and critical and emerging technologies.
+
+Today, India is entering the global race for semiconductor manufacturing. On one hand, it is looking to expand its strategic alliances in the field of semiconductors and on the other, it is seeking to draw chip manufacturing into the country. For instance, in 2019 Indian Prime Minister Narendra Modi launched the [India Semiconductor Mission (ISM)](https://www.cfr.org/blog/indias-prospects-global-semiconductor-manufacturing-race) to lend integrity to its Make in India Initiative. Since then, India has put in place a $10 billion incentive plan to attract manufacturers into setting up new [semiconductor fabrication plants](https://www.ft.com/content/cbd50844-853e-4435-8028-f581d536a89a) (fabs) in the country. Correspondingly, through iCET, India has entered into a public-private collaboration in the chip ecosystem with the U.S. Semiconductor Industry Association (SIA), whose goals are to elevate [India’s presence in the global chip industry](https://www.semiconductors.org/u-s-and-india-semiconductor-groups-announce-initiative-to-strengthen-public-private-collaboration-in-chip-ecosystem/).
+
+The question is whether iCET will facilitate India’s quest to become a chip powerhouse, and if it does, what is at stake?
+
+First, China is the big elephant in the room. The U.S. goal for exploiting the Indian market is to lessen or, failing that, to emulate China’s influence in the global chip supply chain. While India has a functional semiconductor talent pipeline and future expansion opportunities, other resources such as raw materials, water, and electricity will be more difficult to come by. Many of the necessary metals and alloys are [controlled](https://www.reuters.com/article/us-usa-china-rareearth-explainer/explainer-chinas-rare-earth-supplies-could-be-vital-bargaining-chip-in-u-s-trade-war-idUSKCN1T00EK) by China. So countering China’s hegemony in such a critical industry may not be easy for India.
+
+Second, there are concerns over the U.S. game plan. It is an undeniable reality that India plays a pivotal role in the United States attaining its objectives in the region. Liu Zongyi, the secretary general of the Research Center for China-South Asia Cooperation at the Shanghai Institute for International Studies, [told](https://www.globaltimes.cn/page/202302/1284632.shtml) Global Times that “to rope in India, on the one hand, it \[the U.S.\] has to cater to what the country wants, on the other hand, it can promote an agenda that puts India as part of ‘friend-shoring,’ and then India can become a supply-chain alternative to China.”
+
+India’s policy of strategic autonomy gives it an edge. It is unlikely to move too far away from China as it is an important neighbor. Neither will India fully commit to the geostrategic approach of the U.S. toward China and Russia. Consequently, Washington’s endeavor to use India to control Beijing and Moscow is short-sighted.
+
+There is the question too of the U.S. willingness to elevate India’s status. To what extent the United States will share its advanced technology and defense systems with India is debatable, as it would not like India to become another potential adversary, similar to China. At this point, the U.S. would like to exploit India’s well-educated yet cheap labor force, as the manufacturing of semiconductors requires skilled engineers in large numbers.
+
+Lastly, India’s ambitions of becoming a major player in the semiconductor industry are hindered not only by investments in the sector but also by its [limited electricity](https://www.bbc.com/news/world-asia-india-61330302), [water,](https://water.org/our-impact/where-we-work/india/) and [bureaucratic capabilities](https://www.forbes.com/2007/09/06/intel-india-china-markets-equity-cx_rd_0906markets1.html?sh=5874a5964bf9). Despite having an abundance of talent and the political will to make it happen, India has found it difficult to implement the Make in India initiative and to provide the basic resources necessary to create the semiconductor ecosystem.
+
+Establishing a competitive semiconductor industry is a long-term endeavor. It took the leading chip makers in the world many years to [create a mature ecosystem](https://www.csis.org/blogs/perspectives-innovation/japans-semiconductor-industrial-policy-1970s-today). Thus, India will need to put in place comprehensive policies to address these challenges. Only then can it hope to become a global semiconductor powerhouse.
+
+The global shortage in semiconductors has made it a weaponized entity, both as a political and diplomatic tool. This has prompted countries to build techno-alliances to secure the global supply chain and curtail their overreliance on China.
+
+India will need to expand its collaborative partnerships to establish itself as a chip manufacturer. It should enter into techno-alliances like the [Chip 4 alliance](https://www.trtworld.com/business/what-is-the-chip-4-alliance-59586), which includes the U.S., Taiwan, South Korea, and Japan. Similarly, India should also utilize the Quad platform fully by resuming its [Semiconductor Supply Chain Initiative,](https://www.whitehouse.gov/briefing-room/statements-releases/2021/09/24/fact-sheet-quad-leaders-summit/) as excessive dependence on the United States alone to reinvigorate its chip ecosystem will be a myopic decision.
+
+India must capitalize on its strengths and utilize diplomatic and cooperative strategies to make itself an integral part of the global semiconductor industry.

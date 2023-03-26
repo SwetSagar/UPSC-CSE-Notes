@@ -47,10 +47,10 @@ Its counterpart is **Systems planning** which solely focuses on Economic aspects
 
 **M Visvesvaraya** #MainsPYQ
 
-- proposed the 10 year plan for IN in 1934, 1st attempt at planning.
+- proposed the 10 year plan for IN in 1934, 1st attempt at planning
 - proposed to double the income of country, through bold policies, comprehensive reports of progress
-- designer of Kirshnarajasagar dam.
-- Installed irrigation system at Khadakvasla reservoir, Tigra Dam of Gwalior and Krishnarajsagar Dams.
+- designer of Kirshnarajasagar dam
+- Installed irrigation system at Khadakvasla reservoir, Tigra Dam of Gwalior and Krishnarajsagar Dams
 - Govt Eng college in Bangalore; Road construction to Tirupati; New rail lines in Mysore.
 
 **FICCI Proposal 1934**
@@ -161,10 +161,12 @@ Area-wise reports
 - **aim growth for social justice**
 - cut short by Janata Party Gov its 6th FYP
 - was removed from official records, 79-80 was Plan Holiday
+- **Garibi Hatao**
+- Integrated Rural Development Program 1978.
 
 **6th Plan (1980-85)**
 
-- **Garibi Hatao**, also emphasis on infrastructure
+- emphasis on infrastructure
 - 5.7% growth was more than target
 
 **7th Plan (1985-90)**

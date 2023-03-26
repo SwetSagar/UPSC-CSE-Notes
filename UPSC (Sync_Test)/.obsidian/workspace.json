@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "e15edf6c19c786a2",
+        "id": "50d443ea238b20f9",
         "type": "tabs",
         "children": [
           {
-            "id": "59e4ae61a0f97af8",
+            "id": "fe6f32a0753ab6de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Subject Wise Notes/💶 Economy/002 Planning.md",
-                "mode": "preview",
-                "source": false
+                "file": "04 GS-1/3 👨‍👨‍👦‍👦Society/3.2 Role of Women and Women's organisation, population and other associated Issues, poverty and development issues, Urbanization, their problems and remedies..md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "86ae6df530e782b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04 GS-1/3 👨‍👨‍👦‍👦Society/3.2 Role of Women and Women's organisation, population and other associated Issues, poverty and development issues, Urbanization, their problems and remedies..md",
+                "mode": "source",
+                "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -38,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "candida auris",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5110321044922
+    "width": 273.5110321044922
   },
   "right": {
     "id": "5683b48c38d8adc9",
@@ -87,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 Subject Wise Notes/💶 Economy/002 Planning.md"
+                "file": "04 GS-1/3 👨‍👨‍👦‍👦Society/3.2 Role of Women and Women's organisation, population and other associated Issues, poverty and development issues, Urbanization, their problems and remedies..md"
               }
             }
           },
@@ -115,8 +128,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "aef4a4deef8e92b9",
@@ -144,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 Subject Wise Notes/💶 Economy/002 Planning.md",
+                "file": "04 GS-1/3 👨‍👨‍👦‍👦Society/3.2 Role of Women and Women's organisation, population and other associated Issues, poverty and development issues, Urbanization, their problems and remedies..md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 Subject Wise Notes/💶 Economy/002 Planning.md",
+                "file": "04 GS-1/3 👨‍👨‍👦‍👦Society/3.2 Role of Women and Women's organisation, population and other associated Issues, poverty and development issues, Urbanization, their problems and remedies..md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -199,8 +211,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334.5,
-    "collapsed": true
+    "width": 324.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -233,38 +244,38 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "59e4ae61a0f97af8",
+  "active": "86ae6df530e782b4",
   "lastOpenFiles": [
-    "01 Subject Wise Notes/💶 Economy/008 International Economic Organisation and India.md",
-    "01 Subject Wise Notes/💶 Economy/006 Inflation.md",
-    "01 Subject Wise Notes/💶 Economy/002 Planning.md",
-    "01 Subject Wise Notes/💶 Economy/009 Industry and Infrastructure.md",
-    "01 Subject Wise Notes/💶 Economy/Public Finance - ESI and Budget/ESI 2020 II - State of Economy.md",
-    "09 Web Clippings/Japan PM Fumio Kishida meets Modi, says will announce new Indo-Pacific plan  Reader View.md",
-    "01 Subject Wise Notes/💶 Economy/007 External Sector and Foreign Trade.md",
+    "04 GS-1/3 👨‍👨‍👦‍👦Society/3.1 Salient featues of Indian Society, Diversity of India. Effects of globalisation on Indian Society, Social Empowerment..md",
+    "05 GS-2/3. Social Justice/3.2 Issues Relating to development and management of Social Sector relating to Health, Education, HR; Issues Relating to Poverty and Hunger.md",
+    "04 GS-1/1. 📜History/1.1 Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.md",
+    "CA 1 - Social Sector viz Health, Education, HRD April 2019 - Jan 2020.md",
+    "04 GS-1/3 👨‍👨‍👦‍👦Society/3.2 Role of Women and Women's organisation, population and other associated Issues, poverty and development issues, Urbanization, their problems and remedies..md",
+    "04 GS-1/2. 🌏 Geography/2.2 Earthquakes, Tsunami etc (Geophysical Phenomena).md",
+    "04 GS-1/2. 🌏 Geography/2.1 Distribution of Natural Resources, Factors for location for Industries.md",
+    "04 GS-1/1. 📜History/1.3 World History will include events from 18th century viz IR, WW, redrawal of national boundaries, colonization, decolonisationn, etc.md",
+    "04 GS-1/1. 📜History/1.2 Modern Indian History from about the middle of the 18th century until present significant events, personalities, issues. The Freedom Struggle..md",
+    "09 Web Clippings/Can India Emerge a Global Chip Powerhouse – The Diplomat.md",
+    "09 Web Clippings/India Ups Its Game in the Middle East – The Diplomat.md",
+    "06 GS-3/1. Economy/1.2 Inclusive Growth and Budgeting.md",
+    "06 GS-3/1. Economy/1.1 Indian Economy and issues relating to planning, mobilisation of resources, growth dev and employement.md",
+    "08.3 Modern-History/8. Indian Nationalism factors/8.7 The Moderates and Extremists.md",
+    "09 Web Clippings/France-India-UAE Trilateral India’s Minilateral Engagements Ticks Up – The Diplomat.md",
+    "09 Web Clippings/India misses RE capacity target due to low solar rooftop, wind energy project installations Parliamentary panel - The Hindu.md",
+    "08.3 Modern-History/8. Indian Nationalism factors/8.6 Social composition of Early Congress.md",
+    "08.3 Modern-History/8. Indian Nationalism factors/8.5 Programmes and Objective of Early Congress.md",
+    "08.3 Modern-History/8. Indian Nationalism factors/8.3 Foundation of Indian National Congress.md",
+    "08.3 Modern-History/8. Indian Nationalism factors/8.2 Politics of Association.md",
+    "08.3 Modern-History/8. Indian Nationalism factors/8.1 Factors Leading to the Birth of Indian Nationalism.md",
+    "08.3 Modern-History/6. Social-Religious-Reform-in-Bengal/6.6 Islamic Revivalism - Faraizi and Wahabi Movement.md",
+    "08.3 Modern-History/6. Social-Religious-Reform-in-Bengal/6.5 Contribution of Indian Renaissance to growth of Modern India.md",
+    "08.3 Modern-History/6. Social-Religious-Reform-in-Bengal/6.4 Social Reform movements viz Sati,Widow Remarriage,Child Marriage etc..md",
+    "08.3 Modern-History/6. Social-Religious-Reform-in-Bengal/6.3 Dayanand Saraswati.md",
+    "08.3 Modern-History/6. Social-Religious-Reform-in-Bengal/6.1 The Brahmo Movement.md",
     "Attachements/legy212.pdf",
-    "01 Subject Wise Notes/💶 Economy/001 Economy and Economics.md",
-    "05 GS-2/4. International Relations/4.3 International Bodies, their structure, mandate etc.md",
-    "06 GS-3/2. Agriculture/2.1 Food Security, MSP, Farm Subsidies.md",
-    "10. Knowledge Dump/Untitled.md",
-    "Untitled.md",
-    "10. Knowledge Dump/My brother, do you know naatu Also, do you know the many words English owes to Indian languages.md",
-    "10. Knowledge Dump/Non Environmental Conventions.md",
-    "10. Knowledge Dump/Do we have an Obligation to Diversify our Media Consumption .md",
-    "10. Knowledge Dump/Arrest warrant against Putin  What powers does the ICC have against the Russian president.md",
-    "10. Knowledge Dump/Amritpal Singh case  Plan laid 2 weeks ago  Mann met Shah for Central forces, waited for G20 meets to end.md",
-    "10. Knowledge Dump/Why most plastic can’t be recycled.md",
-    "10. Knowledge Dump/Why Actions Matter  The Case for Fluid Moral Status.md",
-    "10. Knowledge Dump/Straits.md",
-    "10. Knowledge Dump/Announcing the Winners and Runners Up in the 9th Annual National Oxford Uehiro Prize in Practical Ethics.md",
-    "10. Knowledge Dump/700 Indians in Canada face deportation over fake college offer letters  How did the racket operate.md",
     "matcha-windows-amd64.exe",
     "config.yaml",
     "rss-feeds-export.opml",
-    "10. Knowledge Dump/My Ex Refuses to Delete Images of My Father’s Corpse. What Can I Do.md",
-    "09 Web Clippings/Explained  Combining social welfare and capital markets through SSE - The Hindu.md",
-    "09 Web Clippings/Today’s Paper News, Breaking News, Top headlines - The HinduBusinessLine.md",
-    "Daily Notes and Todos/30-11-2021.md",
     "10. Knowledge Dump",
     "ChatGPT_MD",
     "09 Web Clippings",
