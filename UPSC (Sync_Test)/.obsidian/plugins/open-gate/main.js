@@ -27,7 +27,7 @@ __export(main_exports, {
   default: () => OpenGatePlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian8 = require("obsidian");
+var import_obsidian9 = require("obsidian");
 
 // src/SetingTab.ts
 var import_obsidian3 = require("obsidian");
@@ -483,6 +483,29 @@ var unloadView = async (workspace, gate) => {
   }
 };
 
+// src/ModalListGates.ts
+var import_obsidian8 = require("obsidian");
+var ModalListGates = class extends import_obsidian8.Modal {
+  constructor(app, gates, onSubmit) {
+    super(app);
+    this.onSubmit = onSubmit;
+    this.gates = gates;
+  }
+  onOpen() {
+    const { contentEl } = this;
+    for (const gateId in this.gates) {
+      const gate = this.gates[gateId];
+      const container = contentEl.createEl("div", { cls: "open-gate--quick-list-item" });
+      container.createEl(`svg`, { cls: "svg-icon" }).innerHTML = gate.icon;
+      container.createEl("span", { text: gate.title });
+      container.addEventListener("click", async () => {
+        await openView(this.app.workspace, gate.id, gate.position);
+        this.close();
+      });
+    }
+  }
+};
+
 // src/main.ts
 var DEFAULT_SETTINGS = {
   isFirstRun: true,
@@ -493,7 +516,7 @@ var defaultGateOption = {
   zoomFactor: 1,
   userAgent: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
 };
-var OpenGatePlugin = class extends import_obsidian8.Plugin {
+var OpenGatePlugin = class extends import_obsidian9.Plugin {
   async onload() {
     await this.loadSettings();
     if (this.settings.isFirstRun) {
@@ -519,6 +542,15 @@ var OpenGatePlugin = class extends import_obsidian8.Plugin {
         }).open();
       }
     });
+    this.addCommand({
+      id: `open-list-gates-modal`,
+      name: `List Gates`,
+      callback: async () => {
+        new ModalListGates(this.app, this.settings.gates, async (gate) => {
+          await this.addGate(gate);
+        }).open();
+      }
+    });
   }
   onunload() {
   }
@@ -526,7 +558,7 @@ var OpenGatePlugin = class extends import_obsidian8.Plugin {
     if (!this.settings.gates.hasOwnProperty(gate.id)) {
       registerGate(this, gate);
     } else {
-      new import_obsidian8.Notice("This change will take effect after you reload Obsidian.");
+      new import_obsidian9.Notice("This change will take effect after you reload Obsidian.");
     }
     if (gate.profileKey === "" || gate.profileKey === void 0) {
       gate.profileKey = defaultGateOption.profileKey;
@@ -539,13 +571,13 @@ var OpenGatePlugin = class extends import_obsidian8.Plugin {
   }
   async removeGate(gateId) {
     if (!this.settings.gates[gateId]) {
-      new import_obsidian8.Notice("Gate not found");
+      new import_obsidian9.Notice("Gate not found");
     }
     const gate = this.settings.gates[gateId];
     await unloadView(this.app.workspace, gate);
     delete this.settings.gates[gateId];
     await this.saveSettings();
-    new import_obsidian8.Notice("This change will take effect after you reload Obsidian.");
+    new import_obsidian9.Notice("This change will take effect after you reload Obsidian.");
   }
   async loadSettings() {
     this.settings = await this.loadData();

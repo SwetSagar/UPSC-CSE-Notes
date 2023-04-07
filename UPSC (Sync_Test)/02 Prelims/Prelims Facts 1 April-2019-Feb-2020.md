@@ -278,7 +278,7 @@
 - IN 1st e-waste clinic for segregating, processing in Bhopal
 - Indian Council of World Affairs ICWA for the study of int relations and foreign affairs estd 1943
 - Ganga Amantran Abhiyan is month long open water rafting and kayaking expedition by the NMCG
-- Saturn has the highest number of moons - 20 new ones discovered earlier Jupiter w/ 79 was top.
+- Jupiter has the most number of moons. Saturn has the 2 nd highest number of moons - 20 new ones discovered earlier Jupiter w/ 79 was top.
 - Meghalaya excluded 'unrepresented tribes' from provision of 6th Schedule. Bodo-Kachari, Hajong, Koch, Mann and Rabba they are indigenous
 - Gagan Enabled Mariners Instrument for Navigation and Information GEMINI device dissemination of emergency info on disaster warning through GAGAN sat
 - Carpet Export Promotion Council CEPC non-profit by Mo Textiles promote its exports in 1982

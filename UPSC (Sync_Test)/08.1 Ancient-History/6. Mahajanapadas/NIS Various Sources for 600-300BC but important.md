@@ -12,7 +12,7 @@ Brahmanical text that can be used a source of history from 600-300BC are :
 
 Various sources that have been used to decide the date of Buddha's parinibbana are :
 
-- Dipavamsa and Mahavamsa
+- Dipavamsa and Mahavamsa is written in Pali and contains stories, epics related to Buddhism.
 - Pali chronicles
 - Sanskrit and Chinese sources
 - Ahraura minor rock edict of Ashoka

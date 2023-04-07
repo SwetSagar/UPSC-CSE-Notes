@@ -34,10 +34,13 @@
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "Templates",
+  "announceUpdates": true,
+  "version": "0.17.1",
   "migrations": {
     "migrateToMacroIDFromEmbeddedMacro": true,
     "useQuickAddTemplateFolder": true,
     "incrementFileNameSettingMoveToDefaultBehavior": true,
-    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true
   }
 }

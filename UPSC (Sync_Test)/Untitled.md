@@ -60,8 +60,6 @@
 
 
 
-
-
 | Detail | Name | State |
 | --- | --- | --- |
 | Silk and cotton saree with intricate motifs and geometric ikat style of dyeing | Pochampalli | Andhra Pradesh |

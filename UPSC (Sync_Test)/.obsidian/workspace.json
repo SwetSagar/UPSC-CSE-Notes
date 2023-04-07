@@ -13,26 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 GS-1/3 👨‍👨‍👦‍👦Society/3.2 Role of Women and Women's organisation, population and other associated Issues, poverty and development issues, Urbanization, their problems and remedies..md",
-                "mode": "source",
+                "file": "01 Subject Wise Notes/🌏 Geography Static Notes/3. Economic Geography and Location of Industries/3.5 Human Geography Crops.md",
+                "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "86ae6df530e782b4",
+            "id": "2494cb6d7978eaf9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04 GS-1/3 👨‍👨‍👦‍👦Society/3.2 Role of Women and Women's organisation, population and other associated Issues, poverty and development issues, Urbanization, their problems and remedies..md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "home-tab-view",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -51,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "candida auris",
+                "query": "duar",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,7 +87,7 @@
       {
         "id": "101698b123868760",
         "type": "tabs",
-        "dimension": 51.33819951338201,
+        "dimension": 54.18781725888325,
         "children": [
           {
             "id": "4fddf2ce530b1d83",
@@ -100,8 +95,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 GS-1/3 👨‍👨‍👦‍👦Society/3.2 Role of Women and Women's organisation, population and other associated Issues, poverty and development issues, Urbanization, their problems and remedies..md"
+                "file": "01 Subject Wise Notes/🌏 Geography Static Notes/3. Economic Geography and Location of Industries/3.5 Human Geography Crops.md"
               }
+            }
+          },
+          {
+            "id": "171967fb9c2babea",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           },
           {
@@ -121,52 +124,21 @@
             }
           },
           {
-            "id": "fc104b1317aba166",
+            "id": "eaf48cde3393aade",
             "type": "leaf",
             "state": {
-              "type": "RSS_FEED",
+              "type": "aHR0cDovL2xvY2FsaG9zdDo3MDcwLw==",
               "state": {}
             }
           }
-        ]
-      },
-      {
-        "id": "aef4a4deef8e92b9",
-        "type": "tabs",
-        "dimension": 24.330900243308996,
-        "children": [
-          {
-            "id": "171967fb9c2babea",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "548a9e20c43e4ddf",
         "type": "tabs",
-        "dimension": 24.330900243308996,
+        "dimension": 45.81218274111675,
         "children": [
-          {
-            "id": "03884fd20c5354ee",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "04 GS-1/3 👨‍👨‍👦‍👦Society/3.2 Role of Women and Women's organisation, population and other associated Issues, poverty and development issues, Urbanization, their problems and remedies..md",
-                "collapseAll": true,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
           {
             "id": "880e880cbd93cb17",
             "type": "leaf",
@@ -179,12 +151,29 @@
             }
           },
           {
+            "id": "03884fd20c5354ee",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01 Subject Wise Notes/🌏 Geography Static Notes/3. Economic Geography and Location of Industries/3.5 Human Geography Crops.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
             "id": "22d771889f36216a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04 GS-1/3 👨‍👨‍👦‍👦Society/3.2 Role of Women and Women's organisation, population and other associated Issues, poverty and development issues, Urbanization, their problems and remedies..md",
+                "file": "01 Subject Wise Notes/🌏 Geography Static Notes/3. Economic Geography and Location of Industries/3.5 Human Geography Crops.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -207,11 +196,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 324.5
+    "width": 318.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,53 +215,57 @@
       "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-gallery:Gallery": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
       "obsidian-tts:Text to Speech": false,
       "chronology:Open Chronology": false,
       "webpage-html-export:Export Vault to HTML": false,
       "file-forgetting-curve-obsidian:View - File Forgetting Curve": false,
       "obsidian-wordpress:WordPress Publish": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "omnisearch:Omnisearch": false,
       "custom-sort:Toggle custom sorting": false,
-      "gpt3-notes:GPT-3 Notes": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "omnisearch:Omnisearch": false,
       "open-gate:Just a moment...": false,
       "open-gate:GitHub: Let’s build from here · GitHub": false,
       "open-gate:Access denied": false,
       "open-gate:https://www.google.com/": false,
-      "periodic-notes:Open today": false
+      "gpt3-notes:GPT-3 Notes": false,
+      "open-gate:RSS Feeds": false,
+      "periodic-notes:Open today": false,
+      "notion-like-tables:Create Notion-Like table": false
     }
   },
-  "active": "86ae6df530e782b4",
+  "active": "fe6f32a0753ab6de",
   "lastOpenFiles": [
-    "04 GS-1/3 👨‍👨‍👦‍👦Society/3.1 Salient featues of Indian Society, Diversity of India. Effects of globalisation on Indian Society, Social Empowerment..md",
-    "05 GS-2/3. Social Justice/3.2 Issues Relating to development and management of Social Sector relating to Health, Education, HR; Issues Relating to Poverty and Hunger.md",
-    "04 GS-1/1. 📜History/1.1 Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.md",
-    "CA 1 - Social Sector viz Health, Education, HRD April 2019 - Jan 2020.md",
-    "04 GS-1/3 👨‍👨‍👦‍👦Society/3.2 Role of Women and Women's organisation, population and other associated Issues, poverty and development issues, Urbanization, their problems and remedies..md",
+    "09 Web Clippings/Microearthquakes TH.md",
+    "01 Subject Wise Notes/🌏 Geography Static Notes/3. Economic Geography and Location of Industries/3.4 Location of Industries.md",
+    "01 Subject Wise Notes/🌏 Geography Static Notes/3. Economic Geography and Location of Industries/3.3 Petroleum Mineral Oil and Natural Gas.md",
+    "01 Subject Wise Notes/🌏 Geography Static Notes/3. Economic Geography and Location of Industries/3.5 Human Geography Crops.md",
+    "01 Subject Wise Notes/🌏 Geography Static Notes/3. Economic Geography and Location of Industries/3.2 Iron Ore.md",
+    "01 Subject Wise Notes/🌏 Geography Static Notes/3. Economic Geography and Location of Industries/3.1 Coal.md",
+    "01 Subject Wise Notes/🌏 Geography Static Notes/2. Indian Geography/2.1 Indian Physiography.md",
     "04 GS-1/2. 🌏 Geography/2.2 Earthquakes, Tsunami etc (Geophysical Phenomena).md",
-    "04 GS-1/2. 🌏 Geography/2.1 Distribution of Natural Resources, Factors for location for Industries.md",
-    "04 GS-1/1. 📜History/1.3 World History will include events from 18th century viz IR, WW, redrawal of national boundaries, colonization, decolonisationn, etc.md",
-    "04 GS-1/1. 📜History/1.2 Modern Indian History from about the middle of the 18th century until present significant events, personalities, issues. The Freedom Struggle..md",
-    "09 Web Clippings/Can India Emerge a Global Chip Powerhouse – The Diplomat.md",
-    "09 Web Clippings/India Ups Its Game in the Middle East – The Diplomat.md",
-    "06 GS-3/1. Economy/1.2 Inclusive Growth and Budgeting.md",
-    "06 GS-3/1. Economy/1.1 Indian Economy and issues relating to planning, mobilisation of resources, growth dev and employement.md",
-    "08.3 Modern-History/8. Indian Nationalism factors/8.7 The Moderates and Extremists.md",
-    "09 Web Clippings/France-India-UAE Trilateral India’s Minilateral Engagements Ticks Up – The Diplomat.md",
-    "09 Web Clippings/India misses RE capacity target due to low solar rooftop, wind energy project installations Parliamentary panel - The Hindu.md",
-    "08.3 Modern-History/8. Indian Nationalism factors/8.6 Social composition of Early Congress.md",
-    "08.3 Modern-History/8. Indian Nationalism factors/8.5 Programmes and Objective of Early Congress.md",
-    "08.3 Modern-History/8. Indian Nationalism factors/8.3 Foundation of Indian National Congress.md",
-    "08.3 Modern-History/8. Indian Nationalism factors/8.2 Politics of Association.md",
-    "08.3 Modern-History/8. Indian Nationalism factors/8.1 Factors Leading to the Birth of Indian Nationalism.md",
-    "08.3 Modern-History/6. Social-Religious-Reform-in-Bengal/6.6 Islamic Revivalism - Faraizi and Wahabi Movement.md",
-    "08.3 Modern-History/6. Social-Religious-Reform-in-Bengal/6.5 Contribution of Indian Renaissance to growth of Modern India.md",
-    "08.3 Modern-History/6. Social-Religious-Reform-in-Bengal/6.4 Social Reform movements viz Sati,Widow Remarriage,Child Marriage etc..md",
-    "08.3 Modern-History/6. Social-Religious-Reform-in-Bengal/6.3 Dayanand Saraswati.md",
-    "08.3 Modern-History/6. Social-Religious-Reform-in-Bengal/6.1 The Brahmo Movement.md",
+    "04 GS-1/2. 🌏 Geography/2.3 World Physical Geography.md",
+    "06 GS-3/4. Environment/4.1 Environment, Pollutions, EIA and DM Feb 2020 Onwards.md",
+    "10. Knowledge Dump/Note Bin/Modern.md",
+    "Untitled.md",
+    "09 Web Clippings/Comparative Analysis of Impeachment Procedure of President of India and the U.S..md",
+    "01 Subject Wise Notes/🌏 Geography Static Notes/2. Indian Geography/2.2 Indian Vegetation.md",
+    "08.1 Ancient-History/6. Mahajanapadas/NIS Various Sources for 600-300BC but important.md",
+    "08.1 Ancient-History/7. Mauryan-Empire/7.4 Ashoka, Concept of Dharma.md",
+    "08.1 Ancient-History/8. Post-Maurayan (Indo-Greeks-Shakas-Kushanas)/8.4 Mahayana.md",
+    "08.1 Ancient-History/8. Post-Maurayan (Indo-Greeks-Shakas-Kushanas)/8.1 Contact with Outside World.md",
+    "08.1 Ancient-History/9. Early-State-and-Society-in-East-Deccan-South/9.5 Economy, Land Grants, Coinage and Trade Guilds.md",
+    "Attachements/kegy104.pdf",
+    "Attachements/Pasted image 20230405112519.png",
+    "Attachements/Pasted image 20230405112509.png",
+    "Attachements/Pasted image 20230405110806.png",
+    "02 Prelims/PYQ  Analysis and Rules/Tricks and Hacks.md",
+    "01 Subject Wise Notes/🌏 Geography Static Notes/1. Geomorphology and Climatology/1.3 Climate of the World.md",
+    "01 Subject Wise Notes/🌏 Geography Static Notes/1. Geomorphology and Climatology/1.2 Landforms.md",
+    "01 Subject Wise Notes/🌏 Geography Static Notes/1. Geomorphology and Climatology/1.4 Oceans and Coastal Landforms.md",
+    "02 Prelims/Prelims Facts 2 March 2020-March 2021.md",
+    "02 Prelims/Prelims Facts 1 April-2019-Feb-2020.md",
+    "01 Subject Wise Notes/🌏 Geography Static Notes/1. Geomorphology and Climatology/1.1 Earth.md",
     "Attachements/legy212.pdf",
     "matcha-windows-amd64.exe",
     "config.yaml",
@@ -282,7 +276,6 @@
     "Canvas/Physical Geography Links.canvas",
     "Canvas/Defence Indigenisation Issue.canvas",
     "Attachements/Globalisation and Social Change NCERT.pdf",
-    "Attachements/63 - National Disaster Management Authority.pdf",
-    "Attachements/62 - National Investigation Agency.pdf"
+    "Attachements/63 - National Disaster Management Authority.pdf"
   ]
 }

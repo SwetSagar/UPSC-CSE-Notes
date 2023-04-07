@@ -19,7 +19,7 @@
 - Cri MAC or Crime Multi Agency centre to share info b/w police forces on ==heinous crimes==
 - Giraffes IUCN Vulnerable
 - Oculudentavis khaungraae - smallest dinosaur discovered yet
-- A **vulture restaurant** was opened in PongDam Lake in HP.
+- A **vulture restaurant** was opened in PongDam Lake in HP. 1 st Vulture restaurant was at Phansad.
 - Circuit breaker to prevent market from crashing - halts trading of stocks.
 - Central Board of Indirect Taxes and Customs responsible for the collection of excise duty
 - MoEFCC has designated industries on the basis of Pollution index into Red, Orange, Green and White
