@@ -10,12 +10,43 @@
           {
             "id": "2494cb6d7978eaf9",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "home-tab-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "08.1 Ancient-History/8. Post-Maurayan (Indo-Greeks-Shakas-Kushanas)/8.6 Art, Architecture and Culture.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "b8e304ce1ebacdef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "08.1 Ancient-History/10. Guptas-Vakatakas-and-Vardhans/10.1 Polity and Administration.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8ce3906983e50c23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "08.1 Ancient-History/11. Regional-States-during-Gupta-Era/11.3 Chalukyas of Badami aka Western Chalukyas.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -34,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\" mixed farming",
+                "query": "simhavish",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +113,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "08.1 Ancient-History/11. Regional-States-during-Gupta-Era/11.3 Chalukyas of Badami aka Western Chalukyas.md"
+              }
             }
           },
           {
@@ -118,7 +151,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "548a9e20c43e4ddf",
@@ -142,6 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "08.1 Ancient-History/11. Regional-States-during-Gupta-Era/11.3 Chalukyas of Badami aka Western Chalukyas.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,6 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "08.1 Ancient-History/11. Regional-States-during-Gupta-Era/11.3 Chalukyas of Badami aka Western Chalukyas.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -208,48 +243,46 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "omnisearch:Omnisearch": false,
-      "open-gate:Just a moment...": false,
-      "open-gate:GitHub: Let’s build from here · GitHub": false,
       "open-gate:Access denied": false,
-      "open-gate:https://www.google.com/": false,
       "gpt3-notes:GPT-3 Notes": false,
       "open-gate:RSS Feeds": false,
-      "periodic-notes:Open today": false,
-      "notion-like-tables:Create Notion-Like table": false
+      "notion-like-tables:Create Notion-Like table": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "2494cb6d7978eaf9",
+  "active": "8ce3906983e50c23",
   "lastOpenFiles": [
-    "01 Subject Wise Notes/🌏 Geography Static Notes/2. Indian Geography/Prelims PYQ.md",
-    "01 Subject Wise Notes/🌏 Geography Static Notes/2. Indian Geography/2.2 Indian Vegetation.md",
-    "01 Subject Wise Notes/🍃 Environment and Disaster Management/4. Agriculture/4.1 Agriculture.md",
-    "08.1 Ancient-History/5. Aryans and Vedic Period/5.4 Transformation from Rig Vedic to later Vedic.md",
-    "02 Prelims/PYQ  Analysis and Rules/2012.md",
-    "01 Subject Wise Notes/🌏 Geography Static Notes/3. Economic Geography and Location of Industries/3.5 Human Geography Crops.md",
-    "09 Web Clippings/Microearthquakes TH.md",
-    "01 Subject Wise Notes/🌏 Geography Static Notes/3. Economic Geography and Location of Industries/3.4 Location of Industries.md",
-    "01 Subject Wise Notes/🌏 Geography Static Notes/3. Economic Geography and Location of Industries/3.3 Petroleum Mineral Oil and Natural Gas.md",
-    "01 Subject Wise Notes/🌏 Geography Static Notes/3. Economic Geography and Location of Industries/3.2 Iron Ore.md",
-    "01 Subject Wise Notes/🌏 Geography Static Notes/3. Economic Geography and Location of Industries/3.1 Coal.md",
-    "01 Subject Wise Notes/🌏 Geography Static Notes/2. Indian Geography/2.1 Indian Physiography.md",
-    "04 GS-1/2. 🌏 Geography/2.2 Earthquakes, Tsunami etc (Geophysical Phenomena).md",
-    "04 GS-1/2. 🌏 Geography/2.3 World Physical Geography.md",
-    "06 GS-3/4. Environment/4.1 Environment, Pollutions, EIA and DM Feb 2020 Onwards.md",
-    "10. Knowledge Dump/Note Bin/Modern.md",
-    "Untitled.md",
-    "09 Web Clippings/Comparative Analysis of Impeachment Procedure of President of India and the U.S..md",
-    "08.1 Ancient-History/6. Mahajanapadas/NIS Various Sources for 600-300BC but important.md",
-    "08.1 Ancient-History/7. Mauryan-Empire/7.4 Ashoka, Concept of Dharma.md",
-    "08.1 Ancient-History/8. Post-Maurayan (Indo-Greeks-Shakas-Kushanas)/8.4 Mahayana.md",
+    "08.1 Ancient-History/11. Regional-States-during-Gupta-Era/11.2 Pallavas.md",
+    "08.1 Ancient-History/10. Guptas-Vakatakas-and-Vardhans/10.1 Polity and Administration.md",
+    "08.1 Ancient-History/1. Sources/1.2 Literary Sources.md",
+    "08.1 Ancient-History/10. Guptas-Vakatakas-and-Vardhans/10.3 Coinage of the Guptas.md",
+    "08.1 Ancient-History/10. Guptas-Vakatakas-and-Vardhans/10.2 Economic Conditions.md",
     "08.1 Ancient-History/8. Post-Maurayan (Indo-Greeks-Shakas-Kushanas)/8.1 Contact with Outside World.md",
+    "08.1 Ancient-History/8. Post-Maurayan (Indo-Greeks-Shakas-Kushanas)/8.6 Art, Architecture and Culture.md",
+    "08.1 Ancient-History/11. Regional-States-during-Gupta-Era/11.16 Chola.md",
+    "08.1 Ancient-History/11. Regional-States-during-Gupta-Era/11.1 The-Kadambas.md",
+    "08.1 Ancient-History/10. Guptas-Vakatakas-and-Vardhans/10.11 Art and Culture.md",
+    "08.1 Ancient-History/10. Guptas-Vakatakas-and-Vardhans/10.10 Literature, Scientific Literature.md",
+    "08.1 Ancient-History/10. Guptas-Vakatakas-and-Vardhans/10.9 Education-and-Edu.-Institutions.md",
+    "08.1 Ancient-History/10. Guptas-Vakatakas-and-Vardhans/10.8 Position of Women.md",
+    "08.1 Ancient-History/10. Guptas-Vakatakas-and-Vardhans/10.7 Caste System.md",
+    "08.1 Ancient-History/10. Guptas-Vakatakas-and-Vardhans/10.6 Indian Feudalism.md",
+    "08.1 Ancient-History/10. Guptas-Vakatakas-and-Vardhans/10.5 Decline of Urban Centres.md",
+    "08.1 Ancient-History/10. Guptas-Vakatakas-and-Vardhans/10.4 Land-Grants.md",
+    "08.1 Ancient-History/8. Post-Maurayan (Indo-Greeks-Shakas-Kushanas)/8.7 Literature and Science.md",
+    "08.2 Medieval-India/2. Cultural-Traditions-750-1200/2.1 Philosophy.md",
+    "08.1 Ancient-History/11. Regional-States-during-Gupta-Era/11.11 Paramaras.md",
+    "08.1 Ancient-History/9. Early-State-and-Society-in-East-Deccan-South/9.8 Art and Architecture.md",
+    "08.1 Ancient-History/9. Early-State-and-Society-in-East-Deccan-South/9.7 Sangam Literature and Culture.md",
+    "08.1 Ancient-History/9. Early-State-and-Society-in-East-Deccan-South/9.6 Buddhist Centers.md",
     "08.1 Ancient-History/9. Early-State-and-Society-in-East-Deccan-South/9.5 Economy, Land Grants, Coinage and Trade Guilds.md",
+    "08.1 Ancient-History/9. Early-State-and-Society-in-East-Deccan-South/9.4 Administration.md",
+    "08.1 Ancient-History/9. Early-State-and-Society-in-East-Deccan-South/9.3 Tamil Sates of Sangam Age.md",
+    "Untitled.table",
     "Attachements/kegy104.pdf",
     "Attachements/Pasted image 20230405112519.png",
     "Attachements/Pasted image 20230405112509.png",
     "Attachements/Pasted image 20230405110806.png",
-    "02 Prelims/PYQ  Analysis and Rules/Tricks and Hacks.md",
-    "01 Subject Wise Notes/🌏 Geography Static Notes/1. Geomorphology and Climatology/1.3 Climate of the World.md",
-    "01 Subject Wise Notes/🌏 Geography Static Notes/1. Geomorphology and Climatology/1.2 Landforms.md",
     "Attachements/legy212.pdf",
     "matcha-windows-amd64.exe",
     "config.yaml",
@@ -259,7 +292,6 @@
     "09 Web Clippings",
     "Canvas/Physical Geography Links.canvas",
     "Canvas/Defence Indigenisation Issue.canvas",
-    "Attachements/Globalisation and Social Change NCERT.pdf",
-    "Attachements/63 - National Disaster Management Authority.pdf"
+    "Attachements/Globalisation and Social Change NCERT.pdf"
   ]
 }

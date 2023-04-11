@@ -43,5 +43,17 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": []
+  "treeData": [
+    {
+      "id": "dce22e8e849d17d8",
+      "parent": 0,
+      "droppable": true,
+      "text": "1504072718P08-M33-AllahabadPillarInscriptionofSamudragupta-LM.pdf",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    }
+  ]
 }
