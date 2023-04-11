@@ -27,26 +27,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "08.1 Ancient-History/10. Guptas-Vakatakas-and-Vardhans/10.1 Polity and Administration.md",
+                "file": "08.1 Ancient-History/11. Regional-States-during-Gupta-Era/11.16 Chola.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8ce3906983e50c23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "08.1 Ancient-History/11. Regional-States-during-Gupta-Era/11.3 Chalukyas of Badami aka Western Chalukyas.md",
-                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "simhavish",
+                "query": "pratihara",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08.1 Ancient-History/11. Regional-States-during-Gupta-Era/11.3 Chalukyas of Badami aka Western Chalukyas.md"
+                "file": "08.1 Ancient-History/11. Regional-States-during-Gupta-Era/11.16 Chola.md"
               }
             }
           },
@@ -175,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "08.1 Ancient-History/11. Regional-States-during-Gupta-Era/11.3 Chalukyas of Badami aka Western Chalukyas.md",
+                "file": "08.1 Ancient-History/11. Regional-States-during-Gupta-Era/11.16 Chola.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "08.1 Ancient-History/11. Regional-States-during-Gupta-Era/11.3 Chalukyas of Badami aka Western Chalukyas.md",
+                "file": "08.1 Ancient-History/11. Regional-States-during-Gupta-Era/11.16 Chola.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -250,35 +238,35 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8ce3906983e50c23",
+  "active": "b8e304ce1ebacdef",
   "lastOpenFiles": [
-    "08.1 Ancient-History/11. Regional-States-during-Gupta-Era/11.2 Pallavas.md",
+    "08.1 Ancient-History/11. Regional-States-during-Gupta-Era/11.8 Palas.md",
+    "08.1 Ancient-History/11. Regional-States-during-Gupta-Era/11.10 Rashtrakutas.md",
+    "08.2 Medieval-India/1. Early-750-1200-AD/1.2 Origin and the Rise of Rajputs.md",
+    "08.2 Medieval-India/1. Early-750-1200-AD/1.1 Major-Political-Development-in-Northern-India.md",
+    "Untitled.md",
+    "08.1 Ancient-History/8. Post-Maurayan (Indo-Greeks-Shakas-Kushanas)/8.6 Art, Architecture and Culture.md",
     "08.1 Ancient-History/10. Guptas-Vakatakas-and-Vardhans/10.1 Polity and Administration.md",
+    "Untitled.table",
+    "08.1 Ancient-History/11. Regional-States-during-Gupta-Era/11.2 Pallavas.md",
+    "08.1 Ancient-History/11. Regional-States-during-Gupta-Era/11.3 Chalukyas of Badami aka Western Chalukyas.md",
+    "08.1 Ancient-History/11. Regional-States-during-Gupta-Era/11.4 Trade-Guilds.md",
+    "08.1 Ancient-History/11. Regional-States-during-Gupta-Era/11.16 Chola.md",
+    "08.2 Medieval-India/2. Cultural-Traditions-750-1200/2.2 Religion.md",
+    "08.1 Ancient-History/10. Guptas-Vakatakas-and-Vardhans/10.8 Position of Women.md",
     "08.1 Ancient-History/1. Sources/1.2 Literary Sources.md",
     "08.1 Ancient-History/10. Guptas-Vakatakas-and-Vardhans/10.3 Coinage of the Guptas.md",
     "08.1 Ancient-History/10. Guptas-Vakatakas-and-Vardhans/10.2 Economic Conditions.md",
     "08.1 Ancient-History/8. Post-Maurayan (Indo-Greeks-Shakas-Kushanas)/8.1 Contact with Outside World.md",
-    "08.1 Ancient-History/8. Post-Maurayan (Indo-Greeks-Shakas-Kushanas)/8.6 Art, Architecture and Culture.md",
-    "08.1 Ancient-History/11. Regional-States-during-Gupta-Era/11.16 Chola.md",
     "08.1 Ancient-History/11. Regional-States-during-Gupta-Era/11.1 The-Kadambas.md",
     "08.1 Ancient-History/10. Guptas-Vakatakas-and-Vardhans/10.11 Art and Culture.md",
     "08.1 Ancient-History/10. Guptas-Vakatakas-and-Vardhans/10.10 Literature, Scientific Literature.md",
     "08.1 Ancient-History/10. Guptas-Vakatakas-and-Vardhans/10.9 Education-and-Edu.-Institutions.md",
-    "08.1 Ancient-History/10. Guptas-Vakatakas-and-Vardhans/10.8 Position of Women.md",
     "08.1 Ancient-History/10. Guptas-Vakatakas-and-Vardhans/10.7 Caste System.md",
     "08.1 Ancient-History/10. Guptas-Vakatakas-and-Vardhans/10.6 Indian Feudalism.md",
     "08.1 Ancient-History/10. Guptas-Vakatakas-and-Vardhans/10.5 Decline of Urban Centres.md",
     "08.1 Ancient-History/10. Guptas-Vakatakas-and-Vardhans/10.4 Land-Grants.md",
     "08.1 Ancient-History/8. Post-Maurayan (Indo-Greeks-Shakas-Kushanas)/8.7 Literature and Science.md",
-    "08.2 Medieval-India/2. Cultural-Traditions-750-1200/2.1 Philosophy.md",
-    "08.1 Ancient-History/11. Regional-States-during-Gupta-Era/11.11 Paramaras.md",
-    "08.1 Ancient-History/9. Early-State-and-Society-in-East-Deccan-South/9.8 Art and Architecture.md",
-    "08.1 Ancient-History/9. Early-State-and-Society-in-East-Deccan-South/9.7 Sangam Literature and Culture.md",
-    "08.1 Ancient-History/9. Early-State-and-Society-in-East-Deccan-South/9.6 Buddhist Centers.md",
-    "08.1 Ancient-History/9. Early-State-and-Society-in-East-Deccan-South/9.5 Economy, Land Grants, Coinage and Trade Guilds.md",
-    "08.1 Ancient-History/9. Early-State-and-Society-in-East-Deccan-South/9.4 Administration.md",
-    "08.1 Ancient-History/9. Early-State-and-Society-in-East-Deccan-South/9.3 Tamil Sates of Sangam Age.md",
-    "Untitled.table",
     "Attachements/kegy104.pdf",
     "Attachements/Pasted image 20230405112519.png",
     "Attachements/Pasted image 20230405112509.png",

@@ -23,7 +23,7 @@
   "useCustomIcons": false,
   "useWebview": false,
   "useIconList": true,
-  "darkMode": true,
+  "darkMode": false,
   "bookmarkManager": {
     "openBookMark": false,
     "saveBookMark": false,
@@ -45,10 +45,10 @@
   },
   "treeData": [
     {
-      "id": "dce22e8e849d17d8",
+      "id": "2936d263d1ce96c2",
       "parent": 0,
       "droppable": true,
-      "text": "1504072718P08-M33-AllahabadPillarInscriptionofSamudragupta-LM.pdf",
+      "text": "Santarakshita - Google Search",
       "data": {
         "fileType": "site",
         "fileSize": "",
