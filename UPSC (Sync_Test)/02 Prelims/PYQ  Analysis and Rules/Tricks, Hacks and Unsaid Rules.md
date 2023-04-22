@@ -9,7 +9,7 @@ uid: c9a09e5a334af020b5d7ae38f4ccf55f
 
 ---
 
-- **Data/Stats/facts mostly wrong like Dates/years/ figures or Numerical values are wrong.** 
+- **Data/Stats/facts mostly wrong like Dates/years/ figures or Numerical values are wrong. Unless it is with an Act.** 
 
 - **'Contemporary' word is wrong.**
 
@@ -64,3 +64,7 @@ uid: c9a09e5a334af020b5d7ae38f4ccf55f
 - **Look for look-alike choices. One of them can be the answer.**
 
 - **artificially complicated option is wrong in most cases**
+
+- **Similar sounding words are generally right.**
+
+- **superlative adjectives like critical, extremely important etc are wrong**
