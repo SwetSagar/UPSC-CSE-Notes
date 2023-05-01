@@ -15,5 +15,6 @@
   "spellcheckLanguages": [
     "en-US"
   ],
-  "promptDelete": false
+  "promptDelete": false,
+  "vimMode": false
 }

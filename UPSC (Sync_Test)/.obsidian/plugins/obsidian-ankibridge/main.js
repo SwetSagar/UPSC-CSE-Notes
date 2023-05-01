@@ -23774,12 +23774,33 @@ var CodeBlockBlueprint = class extends Blueprint {
       const fieldsEl = containerEl.createDiv("ankibridge-card-fields");
       const frontEl = fieldsEl.createDiv("ankibridge-card-front ankibridge-card-content");
       import_obsidian6.MarkdownRenderer.renderMarkdown(front, frontEl, ctx.sourcePath, renderChild);
+      this.includeImages(frontEl, ctx.sourcePath);
       if (back !== null) {
         const separatorEl = fieldsEl.createDiv("ankibridge-card-separator");
         const backEl = fieldsEl.createDiv("ankibridge-card-back ankibridge-card-content");
         import_obsidian6.MarkdownRenderer.renderMarkdown(back, backEl, ctx.sourcePath, renderChild);
+        this.includeImages(backEl, ctx.sourcePath);
       }
       return renderChild;
+    });
+  }
+  includeImages(element, sourcePath) {
+    element.findAll(".internal-embed").forEach((el) => {
+      const src = el.getAttribute("src");
+      if (src === null)
+        return;
+      const target = this.app.metadataCache.getFirstLinkpathDest(src, sourcePath);
+      if (target !== null && target.extension !== "md") {
+        el.innerText = "";
+        el.createEl("img", { attr: { src: this.app.vault.getResourcePath(target) } }, (img) => {
+          var _a, _b;
+          if (el.hasAttribute("width"))
+            img.setAttribute("width", (_a = el.getAttribute("width")) != null ? _a : "");
+          if (el.hasAttribute("alt"))
+            img.setAttribute("alt", (_b = el.getAttribute("alt")) != null ? _b : "");
+        });
+        el.addClasses(["image-embed", "is-loaded"]);
+      }
     });
   }
   renderErrorCard(el, ctx, error) {

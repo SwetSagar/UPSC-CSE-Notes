@@ -75,7 +75,7 @@
 
 #### 1.2.2.1 Non Debt Creating Capital Receipts
 
-- they are not borrowing but give rise to debts Ex recovery of loans, disinvestment ^8ce0a9
+- they create reduction in financial assets but do not create debt. Ex recovery of loans, disinvestment ^8ce0a9
 - Recoveries of Loans & Advances (is not the same as interest receipts)
 - Disinvestment, issue of Bonus shares, Writebacks of amt
 

@@ -27,7 +27,7 @@ __export(main_exports, {
   default: () => Khoj
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian4 = require("obsidian");
+var import_obsidian5 = require("obsidian");
 
 // src/settings.ts
 var import_obsidian = require("obsidian");
@@ -35,11 +35,12 @@ var DEFAULT_SETTINGS = {
   resultsCount: 6,
   khojUrl: "http://localhost:8000",
   connectedToBackend: false,
-  autoConfigure: true
+  autoConfigure: true,
+  openaiApiKey: ""
 };
 var KhojSettingTab = class extends import_obsidian.PluginSettingTab {
-  constructor(app, plugin) {
-    super(app, plugin);
+  constructor(app2, plugin) {
+    super(app2, plugin);
     this.plugin = plugin;
   }
   display() {
@@ -51,6 +52,10 @@ var KhojSettingTab = class extends import_obsidian.PluginSettingTab {
       this.plugin.settings.khojUrl = value.trim();
       await this.plugin.saveSettings();
       (_a = containerEl.firstElementChild) == null ? void 0 : _a.setText(this.getBackendStatusMessage());
+    }));
+    new import_obsidian.Setting(containerEl).setName("OpenAI API Key").setDesc("Your OpenAI API Key for Khoj Chat").addText((text) => text.setValue(`${this.plugin.settings.openaiApiKey}`).onChange(async (value) => {
+      this.plugin.settings.openaiApiKey = value.trim();
+      await this.plugin.saveSettings();
     }));
     new import_obsidian.Setting(containerEl).setName("Results Count").setDesc("The number of search results to show").addSlider((slider) => slider.setLimits(1, 10, 1).setValue(this.plugin.settings.resultsCount).setDynamicTooltip().onChange(async (value) => {
       this.plugin.settings.resultsCount = value;
@@ -98,13 +103,152 @@ var KhojSettingTab = class extends import_obsidian.PluginSettingTab {
   }
 };
 
-// src/modal.ts
+// src/search_modal.ts
+var import_obsidian3 = require("obsidian");
+
+// src/utils.ts
 var import_obsidian2 = require("obsidian");
-var KhojModal = class extends import_obsidian2.SuggestModal {
-  constructor(app, setting, find_similar_notes = false) {
-    super(app);
+function getVaultAbsolutePath(vault) {
+  let adaptor = vault.adapter;
+  if (adaptor instanceof import_obsidian2.FileSystemAdapter) {
+    return adaptor.getBasePath();
+  }
+  return "";
+}
+async function configureKhojBackend(vault, setting, notify = true) {
+  let vaultPath = getVaultAbsolutePath(vault);
+  let mdInVault = `${vaultPath}/**/*.md`;
+  let khojConfigUrl = `${setting.khojUrl}/api/config/data`;
+  let khoj_already_configured = await (0, import_obsidian2.request)(khojConfigUrl).then((response) => {
+    setting.connectedToBackend = true;
+    return response !== "null";
+  }).catch((error) => {
+    setting.connectedToBackend = false;
+    if (notify)
+      new import_obsidian2.Notice(`\u2757\uFE0FEnsure Khoj backend is running and Khoj URL is pointing to it in the plugin settings.
+
+${error}`);
+  });
+  if (!setting.connectedToBackend)
+    return;
+  let indexName = vaultPath.replace(/\//g, "_").replace(/\\/g, "_").replace(/ /g, "_").replace(/:/g, "_");
+  let defaultConfig = await (0, import_obsidian2.request)(`${khojConfigUrl}/default`).then((response) => JSON.parse(response));
+  let khojDefaultIndexDirectory = getIndexDirectoryFromBackendConfig(defaultConfig["content-type"]["markdown"]["embeddings-file"]);
+  let khojDefaultChatDirectory = getIndexDirectoryFromBackendConfig(defaultConfig["processor"]["conversation"]["conversation-logfile"]);
+  let khojDefaultChatModelName = defaultConfig["processor"]["conversation"]["model"];
+  await (0, import_obsidian2.request)(khoj_already_configured ? khojConfigUrl : `${khojConfigUrl}/default`).then((response) => JSON.parse(response)).then((data) => {
+    if (!khoj_already_configured) {
+      data["content-type"] = {
+        "markdown": {
+          "input-filter": [mdInVault],
+          "input-files": null,
+          "embeddings-file": `${khojDefaultIndexDirectory}/${indexName}.pt`,
+          "compressed-jsonl": `${khojDefaultIndexDirectory}/${indexName}.jsonl.gz`
+        }
+      };
+    } else if (!data["content-type"]["markdown"]) {
+      data["content-type"]["markdown"] = {
+        "input-filter": [mdInVault],
+        "input-files": null,
+        "embeddings-file": `${khojDefaultIndexDirectory}/${indexName}.pt`,
+        "compressed-jsonl": `${khojDefaultIndexDirectory}/${indexName}.jsonl.gz`
+      };
+    } else if (data["content-type"]["markdown"]["input-filter"].length != 1 || data["content-type"]["markdown"]["input-filter"][0] !== mdInVault) {
+      let khojIndexDirectory = getIndexDirectoryFromBackendConfig(data["content-type"]["markdown"]["embeddings-file"]);
+      data["content-type"]["markdown"] = {
+        "input-filter": [mdInVault],
+        "input-files": null,
+        "embeddings-file": `${khojIndexDirectory}/${indexName}.pt`,
+        "compressed-jsonl": `${khojIndexDirectory}/${indexName}.jsonl.gz`
+      };
+    }
+    if (!setting.openaiApiKey) {
+      delete data["processor"];
+    } else if (!khoj_already_configured || !data["processor"]) {
+      data["processor"] = {
+        "conversation": {
+          "conversation-logfile": `${khojDefaultChatDirectory}/conversation.json`,
+          "model": khojDefaultChatModelName,
+          "openai-api-key": setting.openaiApiKey
+        }
+      };
+    } else if (!data["processor"]["conversation"]) {
+      data["processor"]["conversation"] = {
+        "conversation-logfile": `${khojDefaultChatDirectory}/conversation.json`,
+        "model": khojDefaultChatModelName,
+        "openai-api-key": setting.openaiApiKey
+      };
+    } else if (data["processor"]["conversation"]["openai-api-key"] !== setting.openaiApiKey) {
+      data["processor"]["conversation"] = {
+        "conversation-logfile": data["processor"]["conversation"]["conversation-logfile"],
+        "model": data["processor"]["conversation"]["model"],
+        "openai-api-key": setting.openaiApiKey
+      };
+    }
+    updateKhojBackend(setting.khojUrl, data);
+    if (!khoj_already_configured)
+      console.log(`Khoj: Created khoj backend config:
+${JSON.stringify(data)}`);
+    else
+      console.log(`Khoj: Updated khoj backend config:
+${JSON.stringify(data)}`);
+  }).catch((error) => {
+    if (notify)
+      new import_obsidian2.Notice(`\u2757\uFE0FFailed to configure Khoj backend. Contact developer on Github.
+
+Error: ${error}`);
+  });
+}
+async function updateKhojBackend(khojUrl, khojConfig) {
+  let requestContent = {
+    url: `${khojUrl}/api/config/data`,
+    body: JSON.stringify(khojConfig),
+    method: "POST",
+    contentType: "application/json"
+  };
+  await (0, import_obsidian2.request)(requestContent).then((_) => (0, import_obsidian2.request)(`${khojUrl}/api/update?t=markdown`));
+}
+function getIndexDirectoryFromBackendConfig(filepath) {
+  return filepath.split("/").slice(0, -1).join("/");
+}
+async function createNote(name, newLeaf = false) {
+  var _a, _b;
+  try {
+    let pathPrefix;
+    switch (app.vault.getConfig("newFileLocation")) {
+      case "current":
+        pathPrefix = ((_b = (_a = app.workspace.getActiveFile()) == null ? void 0 : _a.parent.path) != null ? _b : "") + "/";
+        break;
+      case "folder":
+        pathPrefix = this.app.vault.getConfig("newFileFolderPath") + "/";
+        break;
+      default:
+        pathPrefix = "";
+        break;
+    }
+    await app.workspace.openLinkText(`${pathPrefix}${name}.md`, "", newLeaf);
+  } catch (e) {
+    console.error("Khoj: Could not create note.\n" + e.message);
+    throw e;
+  }
+}
+async function createNoteAndCloseModal(query, modal, opt) {
+  try {
+    await createNote(query, opt == null ? void 0 : opt.newLeaf);
+  } catch (e) {
+    new import_obsidian2.Notice(e.message);
+    return;
+  }
+  modal.close();
+}
+
+// src/search_modal.ts
+var KhojSearchModal = class extends import_obsidian3.SuggestModal {
+  constructor(app2, setting, find_similar_notes = false) {
+    super(app2);
     this.rerank = false;
-    this.app = app;
+    this.query = "";
+    this.app = app2;
     this.setting = setting;
     this.find_similar_notes = find_similar_notes;
     this.inputEl.hidden = this.find_similar_notes;
@@ -112,6 +256,14 @@ var KhojModal = class extends import_obsidian2.SuggestModal {
       this.rerank = true;
       this.inputEl.dispatchEvent(new Event("input"));
       this.rerank = false;
+    });
+    this.scope.register(["Shift"], "Enter", async () => {
+      if (this.query != "")
+        createNoteAndCloseModal(this.query, this);
+    });
+    this.scope.register(["Ctrl", "Shift"], "Enter", async () => {
+      if (this.query != "")
+        createNoteAndCloseModal(this.query, this, { newLeaf: true });
     });
     const modalInstructions = [
       {
@@ -123,7 +275,7 @@ var KhojModal = class extends import_obsidian2.SuggestModal {
         purpose: "to open"
       },
       {
-        command: import_obsidian2.Platform.isMacOS ? "cmd \u21B5" : "ctrl \u21B5",
+        command: import_obsidian3.Platform.isMacOS ? "cmd \u21B5" : "ctrl \u21B5",
         purpose: "to rerank"
       },
       {
@@ -150,7 +302,7 @@ var KhojModal = class extends import_obsidian2.SuggestModal {
   async getSuggestions(query) {
     let encodedQuery = encodeURIComponent(query);
     let searchUrl = `${this.setting.khojUrl}/api/search?q=${encodedQuery}&n=${this.setting.resultsCount}&r=${this.rerank}&t=markdown`;
-    let response = await (0, import_obsidian2.request)(searchUrl);
+    let response = await (0, import_obsidian3.request)(searchUrl);
     let data = JSON.parse(response);
     let results = data.filter((result) => {
       var _a;
@@ -158,14 +310,19 @@ var KhojModal = class extends import_obsidian2.SuggestModal {
     }).map((result) => {
       return { entry: result.entry, file: result.additional.file };
     });
+    this.query = query;
     return results;
   }
   async renderSuggestion(result, el) {
-    let words_to_render = 30;
-    let entry_words = result.entry.split(" ");
-    let entry_snipped_indicator = entry_words.length > words_to_render ? " **...**" : "";
-    let snipped_entry = entry_words.slice(0, words_to_render).join(" ");
-    import_obsidian2.MarkdownRenderer.renderMarkdown(snipped_entry + entry_snipped_indicator, el, null, null);
+    let lines_to_render = 8;
+    let os_path_separator = result.file.includes("\\") ? "\\" : "/";
+    let filename = result.file.split(os_path_separator).pop();
+    result.entry = result.entry.replace(/---[\n\r][\s\S]*---[\n\r]/, "");
+    let entry_snipped_indicator = result.entry.split("\n").length > lines_to_render ? " **...**" : "";
+    let snipped_entry = result.entry.split("\n").slice(0, lines_to_render).join("\n");
+    el.createEl("div", { cls: "khoj-result-file" }).setText(filename != null ? filename : "");
+    let result_el = el.createEl("div", { cls: "khoj-result-entry" });
+    import_obsidian3.MarkdownRenderer.renderMarkdown(snipped_entry + entry_snipped_indicator, result_el, null, null);
   }
   async onChooseSuggestion(result, _) {
     const mdFiles = this.app.vault.getMarkdownFiles();
@@ -179,92 +336,96 @@ var KhojModal = class extends import_obsidian2.SuggestModal {
   }
 };
 
-// src/utils.ts
-var import_obsidian3 = require("obsidian");
-function getVaultAbsolutePath(vault) {
-  let adaptor = vault.adapter;
-  if (adaptor instanceof import_obsidian3.FileSystemAdapter) {
-    return adaptor.getBasePath();
+// src/chat_modal.ts
+var import_obsidian4 = require("obsidian");
+var KhojChatModal = class extends import_obsidian4.Modal {
+  constructor(app2, setting) {
+    super(app2);
+    this.setting = setting;
+    this.scope.register([], "Enter", async () => {
+      let input_el = this.contentEl.getElementsByClassName("khoj-chat-input")[0];
+      let user_message = input_el.value;
+      input_el.value = "";
+      await this.getChatResponse(user_message);
+    });
   }
-  return "";
-}
-async function configureKhojBackend(vault, setting, notify = true) {
-  let mdInVault = `${getVaultAbsolutePath(vault)}/**/*.md`;
-  let khojConfigUrl = `${setting.khojUrl}/api/config/data`;
-  let khoj_already_configured = await (0, import_obsidian3.request)(khojConfigUrl).then((response) => {
-    setting.connectedToBackend = true;
-    return response !== "null";
-  }).catch((error) => {
-    setting.connectedToBackend = false;
-    if (notify)
-      new import_obsidian3.Notice(`\u2757\uFE0FEnsure Khoj backend is running and Khoj URL is pointing to it in the plugin settings.
-
-${error}`);
-  });
-  if (!setting.connectedToBackend)
-    return;
-  let indexName = getVaultAbsolutePath(vault).replace(/\//g, "_").replace(/ /g, "_");
-  let khojDefaultIndexDirectory = await (0, import_obsidian3.request)(`${khojConfigUrl}/default`).then((response) => JSON.parse(response)).then((data) => {
-    return getIndexDirectoryFromBackendConfig(data);
-  });
-  await (0, import_obsidian3.request)(khoj_already_configured ? khojConfigUrl : `${khojConfigUrl}/default`).then((response) => JSON.parse(response)).then((data) => {
-    if (!khoj_already_configured) {
-      data["content-type"] = {
-        "markdown": {
-          "input-filter": [mdInVault],
-          "input-files": null,
-          "embeddings-file": `${khojDefaultIndexDirectory}/${indexName}.pt`,
-          "compressed-jsonl": `${khojDefaultIndexDirectory}/${indexName}.jsonl.gz`
-        }
-      };
-      delete data["processor"];
-      updateKhojBackend(setting.khojUrl, data);
-      console.log(`Khoj: Created khoj backend config:
-${JSON.stringify(data)}`);
-    } else if (!data["content-type"]["markdown"]) {
-      data["content-type"]["markdown"] = {
-        "input-filter": [mdInVault],
-        "input-files": null,
-        "embeddings-file": `${khojDefaultIndexDirectory}/${indexName}.pt`,
-        "compressed-jsonl": `${khojDefaultIndexDirectory}/${indexName}.jsonl.gz`
-      };
-      updateKhojBackend(setting.khojUrl, data);
-      console.log(`Khoj: Added markdown config to khoj backend config:
-${JSON.stringify(data["content-type"])}`);
-    } else if (data["content-type"]["markdown"]["input-filter"].length != 1 || data["content-type"]["markdown"]["input-filter"][0] !== mdInVault) {
-      let khojIndexDirectory = getIndexDirectoryFromBackendConfig(data);
-      data["content-type"]["markdown"] = {
-        "input-filter": [mdInVault],
-        "input-files": null,
-        "embeddings-file": `${khojIndexDirectory}/${indexName}.pt`,
-        "compressed-jsonl": `${khojIndexDirectory}/${indexName}.jsonl.gz`
-      };
-      updateKhojBackend(setting.khojUrl, data);
-      console.log(`Khoj: Updated markdown config in khoj backend config:
-${JSON.stringify(data["content-type"]["markdown"])}`);
+  async onOpen() {
+    let { contentEl } = this;
+    contentEl.addClass("khoj-chat");
+    contentEl.createEl("h1", { attr: { id: "khoj-chat-title" }, text: "Khoj Chat" });
+    contentEl.createDiv({ attr: { id: "khoj-chat-body", class: "khoj-chat-body" } });
+    let chatUrl = `${this.setting.khojUrl}/api/chat?`;
+    let response = await (0, import_obsidian4.request)(chatUrl);
+    let chatLogs = JSON.parse(response).response;
+    chatLogs.forEach((chatLog) => {
+      this.renderMessageWithReferences(chatLog.message, chatLog.by, chatLog.context, new Date(chatLog.created));
+    });
+    contentEl.createEl("input", {
+      attr: {
+        type: "text",
+        id: "khoj-chat-input",
+        autofocus: "autofocus",
+        placeholder: "Chat with Khoj \u{1F985} [Hit Enter to send message]",
+        class: "khoj-chat-input option"
+      }
+    }).addEventListener("change", (event) => {
+      this.result = event.target.value;
+    });
+    this.modalEl.scrollTop = this.modalEl.scrollHeight;
+  }
+  generateReference(messageEl, reference, index) {
+    let escaped_ref = reference.replace(/"/g, '\\"');
+    return messageEl.createEl("sup").createEl("abbr", {
+      attr: {
+        title: escaped_ref,
+        tabindex: "0"
+      },
+      text: `[${index}] `
+    });
+  }
+  renderMessageWithReferences(message, sender, context, dt) {
+    let messageEl = this.renderMessage(message, sender, dt);
+    if (context && !!messageEl) {
+      context.map((reference, index) => this.generateReference(messageEl, reference, index + 1));
     }
-  }).catch((error) => {
-    if (notify)
-      new import_obsidian3.Notice(`\u2757\uFE0FFailed to configure Khoj backend. Contact developer on Github.
-
-Error: ${error}`);
-  });
-}
-async function updateKhojBackend(khojUrl, khojConfig) {
-  let requestContent = {
-    url: `${khojUrl}/api/config/data`,
-    body: JSON.stringify(khojConfig),
-    method: "POST",
-    contentType: "application/json"
-  };
-  await (0, import_obsidian3.request)(requestContent).then((_) => (0, import_obsidian3.request)(`${khojUrl}/api/update?t=markdown`));
-}
-function getIndexDirectoryFromBackendConfig(khojConfig) {
-  return khojConfig["content-type"]["markdown"]["embeddings-file"].split("/").slice(0, -1).join("/");
-}
+  }
+  renderMessage(message, sender, dt) {
+    let message_time = this.formatDate(dt != null ? dt : new Date());
+    let emojified_sender = sender == "khoj" ? "\u{1F985} Khoj" : "\u{1F914} You";
+    let chat_body_el = this.contentEl.getElementsByClassName("khoj-chat-body")[0];
+    let chat_message_el = chat_body_el.createDiv({
+      attr: {
+        "data-meta": `${emojified_sender} at ${message_time}`,
+        class: `khoj-chat-message ${sender}`
+      }
+    }).createDiv({
+      attr: {
+        class: `khoj-chat-message-text ${sender}`
+      },
+      text: `${message}`
+    });
+    this.modalEl.scrollTop = this.modalEl.scrollHeight;
+    return chat_message_el;
+  }
+  formatDate(date) {
+    let time_string = date.toLocaleTimeString("en-IN", { hour: "2-digit", minute: "2-digit", hour12: false });
+    let date_string = date.toLocaleString("en-IN", { year: "numeric", month: "short", day: "2-digit" }).replace(/-/g, " ");
+    return `${time_string}, ${date_string}`;
+  }
+  async getChatResponse(query) {
+    if (!query || query === "")
+      return;
+    this.renderMessage(query, "you");
+    let encodedQuery = encodeURIComponent(query);
+    let chatUrl = `${this.setting.khojUrl}/api/chat?q=${encodedQuery}`;
+    let response = await (0, import_obsidian4.request)(chatUrl);
+    let data = JSON.parse(response);
+    this.renderMessage(data.response, "khoj");
+  }
+};
 
 // src/main.ts
-var Khoj = class extends import_obsidian4.Plugin {
+var Khoj = class extends import_obsidian5.Plugin {
   async onload() {
     await this.loadSettings();
     this.addCommand({
@@ -272,7 +433,7 @@ var Khoj = class extends import_obsidian4.Plugin {
       name: "Search",
       checkCallback: (checking) => {
         if (!checking && this.settings.connectedToBackend)
-          new KhojModal(this.app, this.settings).open();
+          new KhojSearchModal(this.app, this.settings).open();
         return this.settings.connectedToBackend;
       }
     });
@@ -281,12 +442,21 @@ var Khoj = class extends import_obsidian4.Plugin {
       name: "Find similar notes",
       editorCheckCallback: (checking) => {
         if (!checking && this.settings.connectedToBackend)
-          new KhojModal(this.app, this.settings, true).open();
+          new KhojSearchModal(this.app, this.settings, true).open();
         return this.settings.connectedToBackend;
       }
     });
+    this.addCommand({
+      id: "chat",
+      name: "Chat",
+      checkCallback: (checking) => {
+        if (!checking && this.settings.connectedToBackend && !!this.settings.openaiApiKey)
+          new KhojChatModal(this.app, this.settings).open();
+        return !!this.settings.openaiApiKey;
+      }
+    });
     this.addRibbonIcon("search", "Khoj", (_) => {
-      this.settings.connectedToBackend ? new KhojModal(this.app, this.settings).open() : new import_obsidian4.Notice(`\u2757\uFE0FEnsure Khoj backend is running and Khoj URL is pointing to it in the plugin settings`);
+      this.settings.connectedToBackend ? new KhojSearchModal(this.app, this.settings).open() : new import_obsidian5.Notice(`\u2757\uFE0FEnsure Khoj backend is running and Khoj URL is pointing to it in the plugin settings`);
     });
     this.addSettingTab(new KhojSettingTab(this.app, this));
   }

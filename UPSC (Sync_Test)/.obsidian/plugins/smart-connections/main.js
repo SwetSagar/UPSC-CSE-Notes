@@ -4,6 +4,7 @@ const crypto = require("crypto");
 
 const DEFAULT_SETTINGS = {
   api_key: "",
+  chat_open: true,
   file_exclusions: "",
   folder_exclusions: "",
   header_exclusions: "",
@@ -24,6 +25,7 @@ const DEFAULT_SETTINGS = {
 const MAX_EMBED_STRING_LENGTH = 25000;
 
 let VERSION;
+const SUPPORTED_FILE_TYPES = ["md", "canvas"];
 
 //create one object with all the translations
 // research : SMART_TRANSLATION[language][key]
@@ -63,6 +65,7 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
     this.embeddings = null;
     this.embeddings_external = null;
     this.file_exclusions = [];
+    this.folders = [];
     this.has_new_embeddings = false;
     this.header_exclusions = [];
     this.nearest_cache = {};
@@ -78,6 +81,7 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
     this.render_log.tokens_saved_by_cache = 0;
     this.retry_notice_timeout = null;
     this.save_timeout = null;
+    this.sc_branding = {};
     this.self_ref_kw_regex = null;
     this.update_available = false;
   }
@@ -92,7 +96,10 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
     // VERSION = '1.0.0';
     // console.log(VERSION);
     await this.loadSettings();
-    await this.check_for_update();
+    // run after 3 seconds
+    setTimeout(this.check_for_update.bind(this), 3000);
+    // run check for update every 3 hours
+    setInterval(this.check_for_update.bind(this), 10800000);
 
     this.addIcon();
     this.addCommand({
@@ -130,6 +137,15 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
         this.open_chat();
       }
     });
+    // open random note from nearest cache
+    this.addCommand({
+      id: "smart-connections-random",
+      name: "Open: Random Note from Smart Connections",
+      callback: () => {
+        this.open_random_note();
+      }
+    });
+    // add settings tab
     this.addSettingTab(new SmartConnectionsSettingsTab(this.app, this));
     // register main view type
     this.registerView(SMART_CONNECTIONS_VIEW_TYPE, (leaf) => (new SmartConnectionsView(leaf, this)));
@@ -141,6 +157,10 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
     // if this settings.view_open is true, open view on startup
     if(this.settings.view_open) {
       this.open_view();
+    }
+    // if this settings.chat_open is true, open chat on startup
+    if(this.settings.chat_open) {
+      this.open_chat();
     }
     // on new version
     if(this.settings.version !== VERSION) {
@@ -236,6 +256,7 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
       if(latest_release !== VERSION) {
         new Obsidian.Notice(`[Smart Connections] A new version is available! (v${latest_release})`);
         this.update_available = true;
+        this.render_brand("all")
       }
     } catch (error) {
       console.log(error);
@@ -277,6 +298,22 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
     <circle cx="30" cy="50" r="9" fill="currentColor"/>`);
   }
 
+  // open random note
+  async open_random_note() {
+    const curr_file = this.app.workspace.getActiveFile();
+    const curr_key = this.get_file_key(curr_file);
+    // if no nearest cache, create Obsidian notice
+    if(typeof this.nearest_cache[curr_key] === "undefined") {
+      new Obsidian.Notice("[Smart Connections] No Smart Connections found. Open a note to get Smart Connections.");
+      return;
+    }
+    // get random from nearest cache
+    const rand = Math.floor(Math.random() * this.nearest_cache[curr_key].length/2); // divide by 2 to limit to top half of results
+    const random_file = this.nearest_cache[curr_key][rand];
+    // open random file
+    this.open_note(random_file);
+  }
+
   async open_view() {
     this.app.workspace.detachLeavesOfType(SMART_CONNECTIONS_VIEW_TYPE);
     await this.app.workspace.getRightLeaf(false).setViewState({
@@ -309,8 +346,9 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
   
   // get embeddings for all files
   async get_all_embeddings() {
-    // get all files in vault
-    const files = await this.app.vault.getMarkdownFiles();
+    // get all files in vault and filter all but markdown and canvas files
+    const files = (await this.app.vault.getFiles()).filter((file) => file instanceof Obsidian.TFile && (file.extension === "md" || file.extension === "canvas"));
+    // const files = await this.app.vault.getMarkdownFiles();
     // get open files to skip if file is currently open
     const open_files = this.app.workspace.getLeavesOfType("markdown").map((leaf) => leaf.view.file);
     this.render_log.total_files = files.length;
@@ -484,36 +522,6 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
     await this.app.vault.adapter.write(".smart-connections/failed-embeddings.txt", failed_embeddings);
     // reload failed_embeddings to prevent retrying failed files until explicitly requested
     await this.load_failed_files();
-  }
-  // test writing file to check if file system is read-only
-  async test_file_writing () {
-    // wrap in try catch to prevent error from crashing plugin
-    let log = "Begin test:";
-    try {
-      // check if test file already exists
-      const test_file_exists = await this.app.vault.adapter.exists(".smart-connections/embeddings-test.json");
-      // if test file exists then delete it
-      if(test_file_exists) {
-        await this.app.vault.adapter.remove(".smart-connections/embeddings-test.json");
-      }
-      // write test file
-      await this.app.vault.adapter.write(".smart-connections/embeddings-test.json", "test");
-      // update test file
-      if(this.embeddings){
-        await this.app.vault.adapter.write(".smart-connections/embeddings-test.json", JSON.stringify(this.embeddings));
-      }else{
-        log += "<br>No embeddings to test, writing test content to file."
-        await this.app.vault.adapter.write(".smart-connections/embeddings-test.json", "test2");
-      }
-      // delete test file
-      // await this.app.vault.adapter.remove(".smart-connections/embeddings-test.json");
-      // return "File writing test passed."
-      log += "<br>File writing test passed.";
-    }catch(error) {
-      // return error message
-      log += "<br>File writing test failed: "+error;
-    }
-    return log;
   }
   
   // load failed files from failed-embeddings.txt
@@ -724,7 +732,7 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
     let req_batch = [];
     let blocks = [];
     // initiate curr_file_key from md5(curr_file.path)
-    const curr_file_key = crypto.createHash('md5').update(curr_file.path).digest('hex');
+    const curr_file_key = this.get_file_key(curr_file);
     // intiate file_file_embed_input by removing .md and converting file path to breadcrumbs (" > ")
     let file_embed_input = curr_file.path.replace(".md", "");
     file_embed_input = file_embed_input.replace(/\//g, " > ");
@@ -751,7 +759,37 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
       await this.get_embeddings_batch(req_batch);
       return;
     }
-
+    /**
+     * BEGIN Canvas file type Embedding
+     */
+    if(curr_file.extension === "canvas") {
+      // get file contents and parse as JSON
+      const canvas_contents = await this.app.vault.cachedRead(curr_file);
+      if((typeof canvas_contents === "string") && (canvas_contents.indexOf("nodes") > -1)) {
+        const canvas_json = JSON.parse(canvas_contents);
+        // for each object in nodes array
+        for(let j = 0; j < canvas_json.nodes.length; j++) {
+          // if object has text property
+          if(canvas_json.nodes[j].text) {
+            // add to file_embed_input
+            file_embed_input += "\n" + canvas_json.nodes[j].text;
+          }
+          // if object has file property
+          if(canvas_json.nodes[j].file) {
+            // add to file_embed_input
+            file_embed_input += "\nLink: " + canvas_json.nodes[j].file;
+          }
+        }
+      }
+      // console.log(file_embed_input);
+      req_batch.push([curr_file_key, file_embed_input, {
+        mtime: curr_file.stat.mtime,
+        path: curr_file.path,
+      }]);
+      await this.get_embeddings_batch(req_batch);
+      return;
+    }
+    
     /**
      * BEGIN Block "section" embedding
      */
@@ -932,6 +970,10 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
     }
 
   }
+  get_file_key(curr_file) {
+    return crypto.createHash('md5').update(curr_file.path).digest('hex');
+  }
+
   update_render_log(blocks, file_embed_input) {
     if (blocks.length > 0) {
       // multiply by 2 because implies we saved token spending on blocks(sections), too
@@ -1096,7 +1138,7 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
     }
   }
 
-  find_nearest_embedding(to_vec, to_key=null) {
+  find_nearest_embedding(to_vec, filter={}) {
     let nearest = [];
     const from_keys = Object.keys(this.embeddings);
     this.render_log.total_embeddings = from_keys.length;
@@ -1107,10 +1149,18 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
         if(from_path.indexOf("#") > -1) continue; // skip if contains # indicating block (section)
         // TODO: consider using presence of meta.file to skip files (faster checking?)
       }
-      if(to_key){
-        if(to_key==from_keys[i]) continue; // skip matching to current note
-        if(to_key==this.embeddings[from_keys[i]].meta.file) continue; // skip if to_key matches meta.file
+      if(filter.skip_key){
+        if(filter.skip_key===from_keys[i]) continue; // skip matching to current note
+        if(filter.skip_key===this.embeddings[from_keys[i]].meta.file) continue; // skip if filter.skip_key matches meta.file
       }
+      // if filter.path_begins_with is set (folder filter)
+      if(filter.path_begins_with){
+        // if type is string & meta.path does not begin with filter.path_begins_with, skip
+        if(typeof filter.path_begins_with === "string" && !this.embeddings[from_keys[i]].meta.path.startsWith(filter.path_begins_with)) continue;
+        // if type is array & meta.path does not begin with any of the filter.path_begins_with, skip
+        if(Array.isArray(filter.path_begins_with) && !filter.path_begins_with.some((path) => this.embeddings[from_keys[i]].meta.path.startsWith(path))) continue;
+      }
+        
       nearest.push({
         link: this.embeddings[from_keys[i]].meta.path,
         similarity: this.computeCosineSimilarity(to_vec, this.embeddings[from_keys[i]].vec),
@@ -1204,7 +1254,7 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
       current_note_embedding_vec = this.embeddings[curr_key].vec;
       
       // compute cosine similarity between current note and all other notes via embeddings
-      nearest = this.find_nearest_embedding(current_note_embedding_vec, curr_key);
+      nearest = this.find_nearest_embedding(current_note_embedding_vec, {skip_key: curr_key});
   
       // save to this.nearest_cache
       this.nearest_cache[curr_key] = nearest;
@@ -1224,6 +1274,7 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
     this.output_render_log();
     console.log("unloading plugin");
     this.app.workspace.detachLeavesOfType(SMART_CONNECTIONS_VIEW_TYPE);
+    this.app.workspace.detachLeavesOfType(SMART_CONNECTIONS_CHAT_VIEW_TYPE);
   }
   
   computeCosineSimilarity(vector1, vector2) {
@@ -1578,9 +1629,22 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
     return valid;
   }
   // render "Smart Connections" text fixed in the bottom right corner
-  render_brand(container) {
+  render_brand(container, location="default") {
+    // if location is all then get Object.keys(this.sc_branding) and call this function for each
+    if (container === "all") {
+      const locations = Object.keys(this.sc_branding);
+      for (let i = 0; i < locations.length; i++) {
+        this.render_brand(this.sc_branding[locations[i]], locations[i]);
+      }
+      return;
+    }
     // brand container
-    const brand_container = container.createEl("div", { cls: "sc-brand" });
+    this.sc_branding[location] = container;
+    // if this.sc_branding[location] contains child with class "sc-brand", remove it
+    if (this.sc_branding[location].querySelector(".sc-brand")) {
+      this.sc_branding[location].querySelector(".sc-brand").remove();
+    }
+    const brand_container = this.sc_branding[location].createEl("div", { cls: "sc-brand" });
     // add text
     // add SVG signal icon using getIcon
     Obsidian.setIcon(brand_container, "smart-connections");
@@ -1710,7 +1774,7 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
         }
         this.add_link_listeners(contents, nearest[i], item);
       }
-      this.render_brand(container);
+      this.render_brand(container, "block");
       return;
     }
 
@@ -1853,12 +1917,12 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
         }
       }
     }
-    this.render_brand(container);
+    this.render_brand(container, "file");
   }
 
   add_link_listeners(item, curr, list) {
     item.addEventListener("click", async (event) => {
-      await this.handle_click(curr, event);
+      await this.open_note(curr, event);
     });
     // drag-on
     // currently only works with full-file links
@@ -1888,7 +1952,7 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
 
   // get target file from link path
   // if sub-section is linked, open file and scroll to sub-section
-  async handle_click(curr, event) {
+  async open_note(curr, event=null) {
     let targetFile;
     let heading;
     if (curr.link.indexOf("#") > -1) {
@@ -1924,10 +1988,16 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
     } else {
       targetFile = this.app.metadataCache.getFirstLinkpathDest(curr.link, "");
     }
-    // properly handle if the meta/ctrl key is pressed
-    const mod = Obsidian.Keymap.isModEvent(event);
-    // get most recent leaf
-    let leaf = this.app.workspace.getLeaf(mod);
+    let leaf;
+    if(event) {
+      // properly handle if the meta/ctrl key is pressed
+      const mod = Obsidian.Keymap.isModEvent(event);
+      // get most recent leaf
+      leaf = this.app.workspace.getLeaf(mod);
+    }else{
+      // get most recent leaf
+      leaf = this.app.workspace.getMostRecentLeaf();
+    }
     await leaf.openFile(targetFile);
     if (heading) {
       let { editor } = leaf.view;
@@ -1975,7 +2045,24 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
     // wrap domain in <small> and add line break
     return `<small>🌐 ${domain}</small><br>${meta.title}`;
   }
-
+  // get all folders
+  async get_all_folders() {
+    if(!this.folders || this.folders.length === 0){
+      this.folders = await this.get_folders();
+    }
+    return this.folders;
+  }
+  // get folders, traverse non-hidden sub-folders
+  async get_folders(path = "/") {
+    let folders = (await this.app.vault.adapter.list(path)).folders;
+    let folder_list = [];
+    for (let i = 0; i < folders.length; i++) {
+      if (folders[i].startsWith(".")) continue;
+      folder_list.push(folders[i]);
+      folder_list = folder_list.concat(await this.get_folders(folders[i] + "/"));
+    }
+    return folder_list;
+  }
 }
 
 const SMART_CONNECTIONS_VIEW_TYPE = "smart-connections-view";
@@ -2174,17 +2261,11 @@ class SmartConnectionsView extends Obsidian.ItemView {
         // console.log("no file open, returning");
         return;
       }
-      // return if file type is not markdown
-      if(file.extension !== "md") {
-        // if file is 'canvas' and length of current view content is greater than 300 then return
-        if((file.extension === "canvas") && (container.innerHTML.length > 1000)) {
-          // prevents clearing view of search results when still on the same canvas
-          // console.log("prevented clearing view of search results when still on the same canvas")
-          return;
-        }
+      // return if file type is not supported
+      if(SUPPORTED_FILE_TYPES.indexOf(file.extension) === -1) {
         return this.set_message([
           "File: "+file.name
-          ,"Smart Connections only works with Markdown files."
+          ,"Unsupported file type (Supported: "+SUPPORTED_FILE_TYPES.join(", ")+")"
         ]);
       }
       // run render_connections after 1 second to allow for file to load
@@ -2200,6 +2281,10 @@ class SmartConnectionsView extends Obsidian.ItemView {
 
     this.app.workspace.registerHoverLinkSource(SMART_CONNECTIONS_VIEW_TYPE, {
         display: 'Smart Connections Files',
+        defaultMod: true,
+    });
+    this.app.workspace.registerHoverLinkSource(SMART_CONNECTIONS_CHAT_VIEW_TYPE, {
+        display: 'Smart Chat Links',
         defaultMod: true,
     });
 
@@ -2398,11 +2483,11 @@ class ScSearchApi {
     this.app = app;
     this.plugin = plugin;
   }
-  async search (search_text) {
+  async search (search_text, filter={}) {
     let nearest = [];
     const resp = await this.plugin.request_embedding_from_input(search_text);
     if (resp && resp.data && resp.data[0] && resp.data[0].embedding) {
-      nearest = this.plugin.find_nearest_embedding(resp.data[0].embedding);
+      nearest = this.plugin.find_nearest_embedding(resp.data[0].embedding, filter);
     } else {
       // resp is null, undefined, or missing data
       new Obsidian.Notice("Smart Connections: Error getting embedding");
@@ -2517,6 +2602,11 @@ class SmartConnectionsSettingsTab extends Obsidian.PluginSettingTab {
       this.plugin.settings.view_open = value;
       await this.plugin.saveSettings(true);
     }));
+    // toggle chat_open on Obsidian startup
+    new Obsidian.Setting(containerEl).setName("chat_open").setDesc("Open view on Obsidian startup.").addToggle((toggle) => toggle.setValue(this.plugin.settings.chat_open).onChange(async (value) => {
+      this.plugin.settings.chat_open = value;
+      await this.plugin.saveSettings(true);
+    }));
     containerEl.createEl("h2", {
       text: "Advanced"
     });
@@ -2539,19 +2629,6 @@ class SmartConnectionsSettingsTab extends Obsidian.PluginSettingTab {
     containerEl.createEl("h3", {
       text: "Test File Writing"
     });
-    // container for displaying test file writing results
-    let test_file_writing_results = containerEl.createEl("div");
-    new Obsidian.Setting(containerEl).setName("test_file_writing").setDesc("Test File Writing").addButton((button) => button.setButtonText("Test File Writing").onClick(async () => {
-      test_file_writing_results.empty();
-      test_file_writing_results.createEl("p", {
-        text: "Testing file writing..."
-      });
-      // test file writing
-      const resp = await this.plugin.test_file_writing();
-      test_file_writing_results.empty();
-      let log = test_file_writing_results.createEl("p");
-      log.innerHTML = resp;
-    }));
     // manual save button
     containerEl.createEl("h3", {
       text: "Manual Save"
@@ -2639,6 +2716,7 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
     this.plugin = plugin;
     this.active_elm = null;
     this.active_stream = null;
+    this.brackets_ct = 0;
     this.chat = null;
     this.chat_box = null;
     this.chat_container = null;
@@ -2659,9 +2737,11 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
   }
   onOpen() {
     this.new_chat();
+    this.plugin.get_all_folders(); // sets this.plugin.folders necessary for folder-context
   }
   onClose() {
     this.chat.save_chat();
+    this.app.workspace.unregisterHoverLinkSource(SMART_CONNECTIONS_CHAT_VIEW_TYPE);
   }
   render_chat() {
     this.containerEl.empty();
@@ -2672,7 +2752,7 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
     this.render_chat_box();
     // render chat input
     this.render_chat_input();
-    this.plugin.render_brand(this.containerEl);
+    this.plugin.render_brand(this.containerEl, "chat");
   }
   // render plus sign for clear button
   render_top_bar() {
@@ -2740,7 +2820,7 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
     await this.chat.load_chat(chat_id);
     this.render_chat();
     for (let i = 0; i < this.chat.chat_ml.length; i++) {
-      this.render_message(this.chat.chat_ml[i].content, this.chat.chat_ml[i].role);
+      await this.render_message(this.chat.chat_ml[i].content, this.chat.chat_ml[i].role);
     }
   }
   // clear current chat state
@@ -2780,13 +2860,78 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
     // create container for message
     this.message_container = this.chat_box.createDiv("sc-message-container");
   }
+  // open file suggestion modal
+  open_file_suggestion_modal() {
+    // open file suggestion modal
+    if(!this.file_selector) this.file_selector = new SmartConnectionsFileSelectModal(this.app, this);
+    this.file_selector.open();
+  }
+  // open folder suggestion modal
+  async open_folder_suggestion_modal() {
+    // open folder suggestion modal
+    if(!this.folder_selector){
+      this.folder_selector = new SmartConnectionsFolderSelectModal(this.app, this);
+    }
+    this.folder_selector.open();
+  }
+  // insert_selection from file suggestion modal
+  insert_selection(insert_text) {
+    // get caret position
+    let caret_pos = this.textarea.selectionStart;
+    // get text before caret
+    let text_before = this.textarea.value.substring(0, caret_pos);
+    // get text after caret
+    let text_after = this.textarea.value.substring(caret_pos, this.textarea.value.length);
+    // insert text
+    this.textarea.value = text_before + insert_text + text_after;
+    // set caret position
+    this.textarea.selectionStart = caret_pos + insert_text.length;
+    this.textarea.selectionEnd = caret_pos + insert_text.length;
+    // focus on textarea
+    this.textarea.focus();
+  }
+
   // render chat textarea and button
   render_chat_input() {
     // create container for chat input
     let chat_input = this.chat_container.createDiv("sc-chat-form");
     // create textarea
-    this.textarea = chat_input.createEl("textarea", {cls: "sc-chat-input"});
+    this.textarea = chat_input.createEl("textarea", {
+      cls: "sc-chat-input",
+      attr: {
+        placeholder: `Try "Based on my notes" or "Summarize [[this note]]" or "Important tasks in /folder/"`
+      }
+    });
+    // use contenteditable instead of textarea
+    // this.textarea = chat_input.createEl("div", {cls: "sc-chat-input", attr: {contenteditable: true}});
     // add event listener to listen for shift+enter
+    chat_input.addEventListener("keyup", (e) => {
+      if(["[", "/"].indexOf(e.key) === -1) return; // skip if key is not [ or /
+      const caret_pos = this.textarea.selectionStart;
+      // if key is open square bracket
+      if (e.key === "[") {
+        // if previous char is [
+        if(this.textarea.value[caret_pos - 2] === "["){
+          // open file suggestion modal
+          this.open_file_suggestion_modal();
+          return;
+        }
+      }else{
+        this.brackets_ct = 0;
+      }
+      // if / is pressed
+      if (e.key === "/") {
+        // get caret position
+        // if this is first char or previous char is space
+        if (this.textarea.value.length === 1 || this.textarea.value[caret_pos - 2] === " ") {
+          // open folder suggestion modal
+          this.open_folder_suggestion_modal();
+          return;
+        }
+      }
+
+    });
+
     chat_input.addEventListener("keydown", (e) => {
       if (e.key === "Enter" && e.shiftKey) {
         e.preventDefault();
@@ -2836,27 +2981,26 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
   async initialize_response(user_input) {
     this.set_streaming_ux();
     // render message
-    this.render_message(user_input, "user");
+    await this.render_message(user_input, "user");
     this.chat.new_message_in_thread({
       role: "user",
       content: user_input
     });
-    if(this.dotdotdot_interval) clearInterval(this.dotdotdot_interval);
-    this.render_message("...", "assistant");
-    // if is '...', then initiate interval to change to '.' and then to '..' and then to '...'
-    let dots = 0;
-    this.active_elm.innerHTML = '...';
-    this.dotdotdot_interval = setInterval(() => {
-      dots++;
-      if(dots > 3) dots = 1;
-      this.active_elm.innerHTML = '.'.repeat(dots);
-    }, 500);
-    // wait 2 seconds for testing
-    // await new Promise(r => setTimeout(r, 2000));
-    // if does not include keywords referring to one's own notes, then just use chatgpt and return
-    if(!this.contains_self_referential_keywords(user_input)) {
-      this.request_chatgpt_completion();
-    }else{
+    await this.render_dotdotdot();
+
+    // if contains internal link represented by [[link]]
+    if(this.chat.contains_internal_link(user_input)) {
+      this.chat.get_response_with_note_context(user_input, this);
+      return;
+    }
+    // // for testing purposes
+    // if(this.chat.contains_folder_reference(user_input)) {
+    //   const folders = this.chat.get_folder_references(user_input);
+    //   console.log(folders);
+    //   return;
+    // }
+    // if contains self referential keywords or folder reference
+    if(this.contains_self_referential_keywords(user_input) || this.chat.contains_folder_reference(user_input)) {
       // get hyde
       const context = await this.get_context_hyde(user_input);
       // get user input with added context
@@ -2874,24 +3018,50 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
         }
       ];
       this.request_chatgpt_completion({messages: chatml, temperature: 0});
+      return;
     }
+    // completion without any specific context
+    this.request_chatgpt_completion();
   }
   
+  async render_dotdotdot() {
+    if (this.dotdotdot_interval)
+      clearInterval(this.dotdotdot_interval);
+    await this.render_message("...", "assistant");
+    // if is '...', then initiate interval to change to '.' and then to '..' and then to '...'
+    let dots = 0;
+    this.active_elm.innerHTML = '...';
+    this.dotdotdot_interval = setInterval(() => {
+      dots++;
+      if (dots > 3)
+        dots = 1;
+      this.active_elm.innerHTML = '.'.repeat(dots);
+    }, 500);
+    // wait 2 seconds for testing
+    // await new Promise(r => setTimeout(r, 2000));
+  }
+
   set_streaming_ux() {
     this.prevent_input = true;
     // hide send button
-    document.getElementById("sc-send-button").style.display = "none";
+    if(document.getElementById("sc-send-button"))
+      document.getElementById("sc-send-button").style.display = "none";
     // show abort button
-    document.getElementById("sc-abort-button").style.display = "block";
+    if(document.getElementById("sc-abort-button"))
+      document.getElementById("sc-abort-button").style.display = "block";
   }
   unset_streaming_ux() {
     this.prevent_input = false;
     // show send button, remove display none
-    document.getElementById("sc-send-button").style.display = "";
+    if(document.getElementById("sc-send-button"))
+      document.getElementById("sc-send-button").style.display = "";
     // hide abort button
-    document.getElementById("sc-abort-button").style.display = "none";
+    if(document.getElementById("sc-abort-button"))
+      document.getElementById("sc-abort-button").style.display = "none";
   }
 
+
+  // check if includes keywords referring to one's own notes
   contains_self_referential_keywords(user_input) {
     const matches = user_input.match(this.plugin.self_ref_kw_regex);
     if(matches) return true;
@@ -2899,7 +3069,7 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
   }
 
   // render message
-  render_message(message, from="assistant", append_last=false) {
+  async render_message(message, from="assistant", append_last=false) {
     // if dotdotdot interval is set, then clear it
     if(this.dotdotdot_interval) {
       clearInterval(this.dotdotdot_interval);
@@ -2909,72 +3079,115 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
     }
     if(append_last) {
       this.current_message_raw += message;
-      this.active_elm.innerHTML = '';
-      // append to last message
-      Obsidian.MarkdownRenderer.renderMarkdown(this.current_message_raw, this.active_elm, '?no-dataview', void 0);
-    }else{
-      // if final from assistant stream, then render message button
-      if(this.current_message_raw === message) {
-        if(this.chat.context && this.chat.hyd) {
-          // render button to copy hyd in smart-connections code block
-          const context_view = this.active_elm.createEl("span", {
-            cls: "sc-msg-button",
-            attr: {
-              title: "Copy context to clipboard" /* tooltip */
-            }
-          });
-          const this_hyd = this.chat.hyd;
-          Obsidian.setIcon(context_view, "eye");
-          context_view.addEventListener("click", () => {
-            // copy to clipboard
-            navigator.clipboard.writeText("```smart-connections\n" + this_hyd + "\n```\n");
-            new Obsidian.Notice("[Smart Connections] Context code block copied to clipboard");
-          });
-          // render copy context button
-          const copy_prompt_button = this.active_elm.createEl("span", {
-            cls: "sc-msg-button",
-            attr: {
-              title: "Copy prompt to clipboard" /* tooltip */
-            }
-          });
-          const this_context = this.chat.context.trimLeft();
-          Obsidian.setIcon(copy_prompt_button, "files");
-          copy_prompt_button.addEventListener("click", () => {
-            // copy to clipboard
-            navigator.clipboard.writeText("```prompt-context\n"+this_context+"\n```\n");
-            new Obsidian.Notice("[Smart Connections] Context copied to clipboard");
-          });
-        }
-        // render copy button
-        const copy_button = this.active_elm.createEl("span", {
-          cls: "sc-msg-button",
-          attr: {
-            title: "Copy message to clipboard" /* tooltip */
-          }
-        });
-        Obsidian.setIcon(copy_button, "copy");
-        copy_button.addEventListener("click", () => {
-          // copy message to clipboard
-          navigator.clipboard.writeText(message.trimLeft());
-          new Obsidian.Notice("[Smart Connections] Message copied to clipboard");
-        });
-        return; // end here since message is already rendered
+      if(message.indexOf('\n') === -1) {
+        this.active_elm.innerHTML += message;
+      }else{
+        this.active_elm.innerHTML = '';
+        // append to last message
+        await Obsidian.MarkdownRenderer.renderMarkdown(this.current_message_raw, this.active_elm, '?no-dataview', void 0);
       }
+    }else{
       this.current_message_raw = '';
       if((this.chat.thread.length === 0) || (this.last_from !== from)) {
         // create message
         this.new_messsage_bubble(from);
       }
       // set message text
-      Obsidian.MarkdownRenderer.renderMarkdown(message, this.active_elm, '?no-dataview', void 0);
+      this.active_elm.innerHTML = '';
+      await Obsidian.MarkdownRenderer.renderMarkdown(message, this.active_elm, '?no-dataview', void 0);
+      // get links
+      this.handle_links_in_message();
+      // render button(s)
+      this.render_message_action_buttons(message);
     }
     // scroll to bottom
     this.message_container.scrollTop = this.message_container.scrollHeight;
   }
+  render_message_action_buttons(message) {
+    if (this.chat.context && this.chat.hyd) {
+      // render button to copy hyd in smart-connections code block
+      const context_view = this.active_elm.createEl("span", {
+        cls: "sc-msg-button",
+        attr: {
+          title: "Copy context to clipboard" /* tooltip */
+        }
+      });
+      const this_hyd = this.chat.hyd;
+      Obsidian.setIcon(context_view, "eye");
+      context_view.addEventListener("click", () => {
+        // copy to clipboard
+        navigator.clipboard.writeText("```smart-connections\n" + this_hyd + "\n```\n");
+        new Obsidian.Notice("[Smart Connections] Context code block copied to clipboard");
+      });
+    }
+    if(this.chat.context) {
+      // render copy context button
+      const copy_prompt_button = this.active_elm.createEl("span", {
+        cls: "sc-msg-button",
+        attr: {
+          title: "Copy prompt to clipboard" /* tooltip */
+        }
+      });
+      const this_context = this.chat.context.replace(/\`\`\`/g, "\t```").trimLeft();
+      Obsidian.setIcon(copy_prompt_button, "files");
+      copy_prompt_button.addEventListener("click", () => {
+        // copy to clipboard
+        navigator.clipboard.writeText("```prompt-context\n" + this_context + "\n```\n");
+        new Obsidian.Notice("[Smart Connections] Context copied to clipboard");
+      });
+    }
+    // render copy button
+    const copy_button = this.active_elm.createEl("span", {
+      cls: "sc-msg-button",
+      attr: {
+        title: "Copy message to clipboard" /* tooltip */
+      }
+    });
+    Obsidian.setIcon(copy_button, "copy");
+    copy_button.addEventListener("click", () => {
+      // copy message to clipboard
+      navigator.clipboard.writeText(message.trimLeft());
+      new Obsidian.Notice("[Smart Connections] Message copied to clipboard");
+    });
+  }
+
+  handle_links_in_message() {
+    const links = this.active_elm.querySelectorAll("a");
+    // if this active element contains a link
+    if (links.length > 0) {
+      for (let i = 0; i < links.length; i++) {
+        const link = links[i];
+        const link_text = link.getAttribute("data-href");
+        // trigger hover event on link
+        link.addEventListener("mouseover", (event) => {
+          this.app.workspace.trigger("hover-link", {
+            event,
+            source: SMART_CONNECTIONS_CHAT_VIEW_TYPE,
+            hoverParent: link.parentElement,
+            targetEl: link,
+            // extract link text from a.data-href
+            linktext: link_text
+          });
+        });
+        // trigger open link event on link
+        link.addEventListener("click", (event) => {
+          const link_tfile = this.app.metadataCache.getFirstLinkpathDest(link_text, "/");
+          // properly handle if the meta/ctrl key is pressed
+          const mod = Obsidian.Keymap.isModEvent(event);
+          // get most recent leaf
+          let leaf = this.app.workspace.getLeaf(mod);
+          leaf.openFile(link_tfile);
+        });
+      }
+    }
+  }
+
   new_messsage_bubble(from) {
     let message_el = this.message_container.createDiv(`sc-message ${from}`);
     // create message content
     this.active_elm = message_el.createDiv("sc-message-content");
+    // set last from
+    this.last_from = from;
   }
 
   async request_chatgpt_completion(opts={}) {
@@ -3042,7 +3255,7 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
         }
       });
       // console.log(full_str);
-      this.render_message(full_str, "assistant");
+      await this.render_message(full_str, "assistant");
       this.chat.new_message_in_thread({
         role: "assistant",
         content: full_str
@@ -3073,8 +3286,8 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
     if(this.active_stream){
       this.active_stream.close();
       this.active_stream = null;
-      this.unset_streaming_ux();
     }
+    this.unset_streaming_ux();
     if(this.dotdotdot_interval){
       clearInterval(this.dotdotdot_interval);
       this.dotdotdot_interval = null;
@@ -3107,8 +3320,21 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
     });
     this.chat.hyd = hyd;
     // console.log(hyd);
+    let filter = {};
+    // if contains folder reference represented by /folder/
+    if(this.chat.contains_folder_reference(user_input)) {
+      // get folder references
+      const folder_refs = this.chat.get_folder_references(user_input);
+      // console.log(folder_refs);
+      // if folder references are valid (string or array of strings)
+      if(folder_refs){
+        filter = {
+          path_begins_with: folder_refs
+        };
+      }
+    }
     // search for nearest based on hyd
-    let nearest = await this.plugin.api.search(hyd);
+    let nearest = await this.plugin.api.search(hyd, filter);
     console.log("nearest", nearest.length);
     nearest = this.get_nearest_until_next_dev_exceeds_std_dev(nearest);
     console.log("nearest after std dev slice", nearest.length);
@@ -3256,7 +3482,7 @@ class SmartConnectionsChatModel {
       JSON.stringify(this.thread, null, 2)
     );
   }
-  async load_chat(chat_id, view) {
+  async load_chat(chat_id) {
     this.chat_id = chat_id;
     // load chat from file in .smart-connections folder
     // filename is chat_id
@@ -3372,6 +3598,124 @@ class SmartConnectionsChatModel {
   get_file_date_string() {
     return new Date().toISOString().replace(/(T|:|\..*)/g, " ").trim();
   }
+  // get response from with note context
+  async get_response_with_note_context(user_input, chat_view) {
+    let system_input = "Imagine the following notes were written by the user and contain the necessary information to synthesize a useful answer the user's query:\n";
+    // extract internal links
+    const notes = this.extract_internal_links(user_input);
+    // get content of internal links as context
+    let max_chars = 10000;
+    for(let i = 0; i < notes.length; i++){
+      // max chars for this note is max_chars divided by number of notes left
+      const this_max_chars = (notes.length - i > 1) ? Math.floor(max_chars / (notes.length - i)) : max_chars;
+      const note_content = await this.get_note_contents(notes[i], {char_limit: this_max_chars});
+      system_input += `---BEGIN NOTE: [[${notes[i].basename}]]---\n`
+      system_input += note_content;
+      system_input += `---END NOTE---\n`
+      max_chars -= note_content.length;
+      if(max_chars <= 0) break;
+    }
+    this.context = system_input;
+    const chatml = [
+      {
+        role: "system",
+        content: system_input
+      },
+      {
+        role: "user",
+        content: user_input
+      }
+    ];
+    chat_view.request_chatgpt_completion({messages: chatml, temperature: 0});
+  }
+  // check if contains internal link
+  contains_internal_link(user_input) {
+    if(user_input.indexOf("[[") === -1) return false;
+    if(user_input.indexOf("]]") === -1) return false;
+    return true;
+  }
+  // check if contains folder reference (ex. /folder/, or /folder/subfolder/)
+  contains_folder_reference(user_input) {
+    if(user_input.indexOf("/") === -1) return false;
+    if(user_input.indexOf("/") === user_input.lastIndexOf("/")) return false;
+    return true;
+  }
+  // get folder references from user input
+  get_folder_references(user_input) {
+    // use this.folders to extract folder references by longest first (ex. /folder/subfolder/ before /folder/) to avoid matching /folder/subfolder/ as /folder/
+    const folders = this.plugin.folders.slice(); // copy folders array
+    const matches = folders.sort((a, b) => b.length - a.length).map(folder => {
+      // check if folder is in user_input
+      if(user_input.indexOf(folder) !== -1){
+        // remove folder from user_input to prevent matching /folder/subfolder/ as /folder/
+        user_input = user_input.replace(folder, "");
+        return folder;
+      }
+      return false;
+    }).filter(folder => folder);
+    console.log(matches);
+    // return array of matches
+    if(matches) return matches;
+    return false;
+  }
+
+
+  // extract internal links
+  extract_internal_links(user_input) {
+    const matches = user_input.match(/\[\[(.*?)\]\]/g);
+    console.log(matches);
+    // return array of TFile objects
+    if(matches) return matches.map(match => {
+      return this.app.metadataCache.getFirstLinkpathDest(match.replace("[[", "").replace("]]", ""), "/");
+    });
+    return [];
+  }
+  // get context from internal links
+  async get_note_contents(note, opts={}) {
+    opts = {
+      char_limit: 10000,
+      ...opts
+    }
+    // return if note is not a file
+    if(!(note instanceof Obsidian.TFile)) return "";
+    // get file content
+    let file_content = await this.app.vault.cachedRead(note);
+    // check if contains dataview code block
+    if(file_content.indexOf("```dataview") > -1){
+      // if contains dataview code block get all dataview code blocks
+      file_content = await this.render_dataview_queries(file_content, note.path, opts);
+    }
+    return file_content.substring(0, opts.char_limit);
+  }
+
+
+  async render_dataview_queries(file_content, note_path, opts={}) {
+    opts = {
+      char_limit: null,
+      ...opts
+    };
+    // use window to get dataview api
+    const dataview_api = window["DataviewAPI"];
+    // skip if dataview api not found
+    if(!dataview_api) return file_content;
+    const dataview_code_blocks = file_content.match(/```dataview(.*?)```/gs);
+    // for each dataview code block
+    for (let i = 0; i < dataview_code_blocks.length; i++) {
+      // if opts char_limit is less than indexOf dataview code block, break
+      if(opts.char_limit && opts.char_limit < file_content.indexOf(dataview_code_blocks[i])) break;
+      // get dataview code block
+      const dataview_code_block = dataview_code_blocks[i];
+      // get content of dataview code block
+      const dataview_code_block_content = dataview_code_block.replace("```dataview", "").replace("```", "");
+      // get dataview query result
+      const dataview_query_result = await dataview_api.queryMarkdown(dataview_code_block_content, note_path, null);
+      // if query result is successful, replace dataview code block with query result
+      if (dataview_query_result.successful) {
+        file_content = file_content.replace(dataview_code_block, dataview_query_result.value);
+      }
+    }
+    return file_content;
+  }
 }
 
 class SmartConnectionsChatHistoryModal extends Obsidian.FuzzySuggestModal {
@@ -3396,6 +3740,44 @@ class SmartConnectionsChatHistoryModal extends Obsidian.FuzzySuggestModal {
   }
   onChooseItem(session) {
     this.view.open_chat(session);
+  }
+}
+
+// File Select Fuzzy Suggest Modal
+class SmartConnectionsFileSelectModal extends Obsidian.FuzzySuggestModal {
+  constructor(app, view) {
+    super(app);
+    this.app = app;
+    this.view = view;
+    this.setPlaceholder("Type the name of a file...");
+  }
+  getItems() {
+    // get all markdown files
+    return this.app.vault.getMarkdownFiles().sort((a, b) => a.basename.localeCompare(b.basename));
+  }
+  getItemText(item) {
+    return item.basename;
+  }
+  onChooseItem(file) {
+    this.view.insert_selection(file.basename + "]] ");
+  }
+}
+// Folder Select Fuzzy Suggest Modal
+class SmartConnectionsFolderSelectModal extends Obsidian.FuzzySuggestModal {
+  constructor(app, view) {
+    super(app);
+    this.app = app;
+    this.view = view;
+    this.setPlaceholder("Type the name of a folder...");
+  }
+  getItems() {
+    return this.view.plugin.folders;
+  }
+  getItemText(item) {
+    return item;
+  }
+  onChooseItem(folder) {
+    this.view.insert_selection(folder + "/ ");
   }
 }
 

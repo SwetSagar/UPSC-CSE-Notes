@@ -40,8 +40,8 @@ var import_obsidian = require("obsidian");
 
 // src/fns/getSvgIcon.ts
 var getSvgIcon = (siteUrl) => {
-  const hostName = new URL(siteUrl).hostname;
-  return `<svg viewBox="0 0 100 100"><image href="https://www.google.com/s2/favicons?domain=${hostName}&sz=100" height="100" width="100" /></svg>`;
+  const siteId = encodeURIComponent(btoa(siteUrl));
+  return `<svg viewBox="0 0 100 100"><image href="https://fetch-favicon.fly.dev/favicon/${siteId}" height="100" width="100" /></svg>`;
 };
 
 // src/fns/normalizeGateOption.ts
@@ -336,7 +336,6 @@ var GateView = class extends import_obsidian4.ItemView {
     super.onunload();
   }
   webViewWillNavigate(event, url) {
-    console.log("will-navigate", url);
   }
   onPaneMenu(menu, source) {
     super.onPaneMenu(menu, source);
@@ -495,7 +494,9 @@ var ModalListGates = class extends import_obsidian8.Modal {
     const { contentEl } = this;
     for (const gateId in this.gates) {
       const gate = this.gates[gateId];
-      const container = contentEl.createEl("div", { cls: "open-gate--quick-list-item" });
+      const container = contentEl.createEl("div", {
+        cls: "open-gate--quick-list-item"
+      });
       container.createEl(`svg`, { cls: "svg-icon" }).innerHTML = gate.icon;
       container.createEl("span", { text: gate.title });
       container.addEventListener("click", async () => {
@@ -508,7 +509,7 @@ var ModalListGates = class extends import_obsidian8.Modal {
 
 // src/main.ts
 var DEFAULT_SETTINGS = {
-  isFirstRun: true,
+  uuid: "",
   gates: {}
 };
 var defaultGateOption = {
@@ -519,8 +520,8 @@ var defaultGateOption = {
 var OpenGatePlugin = class extends import_obsidian9.Plugin {
   async onload() {
     await this.loadSettings();
-    if (this.settings.isFirstRun) {
-      this.settings.isFirstRun = false;
+    if (this.settings.uuid === "") {
+      this.settings.uuid = this.generateUuid();
       await this.saveSettings();
       if (Object.keys(this.settings.gates).length === 0) {
         new ModalOnBoarding(this.app, createEmptyGateOption(), async (gate) => {
@@ -545,6 +546,7 @@ var OpenGatePlugin = class extends import_obsidian9.Plugin {
     this.addCommand({
       id: `open-list-gates-modal`,
       name: `List Gates`,
+      hotkeys: [{ modifiers: ["Mod", "Shift"], key: "g" }],
       callback: async () => {
         new ModalListGates(this.app, this.settings.gates, async (gate) => {
           await this.addGate(gate);
@@ -594,5 +596,8 @@ var OpenGatePlugin = class extends import_obsidian9.Plugin {
   }
   async saveSettings() {
     await this.saveData(this.settings);
+  }
+  generateUuid() {
+    return Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
   }
 };

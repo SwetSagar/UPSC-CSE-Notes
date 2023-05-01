@@ -1,5 +1,5 @@
 {
-  "isFirstRun": false,
+  "uuid": "bjqeonumj1a1lanc6pknhd",
   "gates": {
     "aHR0cHM6Ly9jaGF0Lm9wZW5haS5jb20v": {
       "id": "aHR0cHM6Ly9jaGF0Lm9wZW5haS5jb20v",
@@ -22,5 +22,6 @@
       "zoomFactor": 1,
       "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
     }
-  }
+  },
+  "isFirstRun": false
 }

@@ -11,7 +11,7 @@
 
 ## Types of Inflation
 
-- Creeping inflation upto 4%,
+- Creeping inflation upto 4%, 
 - Trotting inflation - 4-8%,
 - Galloping Inflation 8-10%, [Ramesh Singh had mentioned Galloping as 10 - 200/300 % and Runaway as its type]
 - Runaway inflation 10-20%,
@@ -77,7 +77,7 @@
 - aka transaction at first point of bulk sale in domestic market
 - Different goods have diff weightage
 - it checks inflation from the perspective of the wholesale mandis.
-- *published by Mo Commerce w/ base year as 2011-12*, updated monthly
+- *published by Mo Commerce w/ base year as 2011-12*, ==**updated monthly**== #PrelimsPYQ 
 - Divided into **primary articles; fuel, power; & mfd goods**
 - **Seasonality** factor is considered
 - Uses
