@@ -3,7 +3,7 @@ uid: c9a09e5a334af020b5d7ae38f4ccf55f
 ---
 
 # Unsaid Rules, Tips and Tricks
-==Comes secondary to knowledge and common sense.== 
+==Comes secondary to knowledge, common sense/ logic and sometimes intuition.== 
 
 2020-08-25 17:43:50
 
@@ -41,7 +41,7 @@ uid: c9a09e5a334af020b5d7ae38f4ccf55f
 
 - **Vijaynagar, Andaman Nicobar, ASEAN, WTO are repeated and often the answers.**
 
-- **Read questions in Hindi**.
+> - **Read questions in Hindi**.
 
 - **concepts like OMO, Money mulitplier, asset, liability, monetary measures, currency valuation asked.**
 

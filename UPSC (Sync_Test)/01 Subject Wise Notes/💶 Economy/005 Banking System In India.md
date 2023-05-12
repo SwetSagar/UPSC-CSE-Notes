@@ -169,7 +169,9 @@
 2. **M2** = M1 + Demand deposits of the post offices (i.e. savings schemes money)
 3. **M3** = M1 + Time/Term deposits of the banks (ie money lying in Recurring deposits and fixed deposits)
 4. **M4** = M3 + total deposits of the post offices (both, Demand and Term/Time Deposits)
+
 RBI has now published set of new monetary aggregates after recom from YV Reddy report 1998. That recom 4 monetary aggregates M0 (monetary base), M1 (narrow money), M2 and M3 (broad money). It also recommended 3 liquidity aggregates namely L1, L2 and L3.
+
 **New Monetary Aggregates are**
 5. **Reserve Money M0** = Currency in circulation + Bankers deposit with RBI + Other deposits with RBI
 	- Data on this is available on weekly basis. For M1 and M3 on fortnightly.

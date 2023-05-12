@@ -216,7 +216,7 @@ Money Printed by RBI is called ==high powered money or reserve money or monetary
 	- to bring fiscal discipline, mgt of expenditure, revenue and debt
 	- macroeconomic stability, coordination b/w fiscal and monetary policy
 	- transparency in fiscal operation of Gov, balance budget
-- Dealt w/ 4 fiscal parameters [[#Revenue Deficit]], [[#Fiscal Deficit]], Tax revenue and outstanding liabilities all represented as a % of GDP
+- Dealt w/ 4 fiscal parameters [[#Revenue Deficit]], [[#Fiscal Deficit]], Tax revenue (% to GDP) and outstanding liabilities all represented as a % of GDP.
 - Provided for certain documents to be tabled in the parliament
 	- Medium-term Fiscal Policy Statement
 	- Fiscal Policy Strategy Statement

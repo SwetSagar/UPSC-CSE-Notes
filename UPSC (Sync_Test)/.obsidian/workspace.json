@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "091a061827079bb1",
+        "id": "de3ace7ea8ae9474",
         "type": "tabs",
         "children": [
           {
-            "id": "5205b2b3f5d69b23",
+            "id": "83d3d26a66065ddd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Subject Wise Notes/💶 Economy/003 Fiscal System or Public Finance in India.md",
+                "file": "01 Subject Wise Notes/💶 Economy/001 Economy and Economics.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7216fbf36799df1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Prelims/PYQ  Analysis and Rules/2018.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -64,13 +77,21 @@
               "type": "surfing-tab-tree",
               "state": {}
             }
+          },
+          {
+            "id": "15694c1b94b27858",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ],
         "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 273.5110321044922
+    "width": 279.0110321044922
   },
   "right": {
     "id": "5683b48c38d8adc9",
@@ -87,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 Subject Wise Notes/💶 Economy/003 Fiscal System or Public Finance in India.md"
+                "file": "02 Prelims/PYQ  Analysis and Rules/2018.md"
               }
             }
           },
@@ -148,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 Subject Wise Notes/💶 Economy/003 Fiscal System or Public Finance in India.md",
+                "file": "02 Prelims/PYQ  Analysis and Rules/2018.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 Subject Wise Notes/💶 Economy/003 Fiscal System or Public Finance in India.md",
+                "file": "02 Prelims/PYQ  Analysis and Rules/2018.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +213,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 330.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,7 +232,6 @@
       "webpage-html-export:Export Vault to HTML": false,
       "file-forgetting-curve-obsidian:View - File Forgetting Curve": false,
       "gpt3-notes:GPT-3 Notes": false,
-      "periodic-notes:Open today": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-wordpress:WordPress Publish": false,
       "obsidian-full-calendar:Open Full Calendar": false,
@@ -219,37 +239,39 @@
       "notion-like-tables:Create Notion-Like table": false,
       "custom-sort:Toggle custom sorting": false,
       "open-gate:Access denied": false,
-      "open-gate:RSS Feeds": false
+      "open-gate:RSS Feeds": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "5205b2b3f5d69b23",
+  "active": "0803f948315da93b",
   "lastOpenFiles": [
-    "01 Subject Wise Notes/💶 Economy/006 Finanacial Market - Money and Capital Market.md",
-    "01 Subject Wise Notes/💶 Economy/006 Inflation.md",
-    "01 Subject Wise Notes/💶 Economy/001 Economy and Economics.md",
-    "01 Subject Wise Notes/💶 Economy/005 Monetary and Credit Policy.md",
-    "01 Subject Wise Notes/💶 Economy/005 Banking System In India.md",
-    "01 Subject Wise Notes/🍃 Environment and Disaster Management/5. Acts, Orgs, Convention, Env Issues/5.4 International Environmental Conventions Organisations.md",
-    "02 Prelims/PYQ  Analysis and Rules/Tricks, Hacks and Unsaid Rules.md",
-    "01 Subject Wise Notes/🍃 Environment and Disaster Management/4. Agriculture/4.1 Agriculture.md",
-    "08.3 Modern-History/7. Indian-Response/Peasant-Movements-and-Tribal-Uprisings-in-the-18th-and-19th-Century/7.7 Munda Ulgulan 1899-1900.md",
-    "01 Subject Wise Notes/🍃 Environment and Disaster Management/2. Biodiveristy/2.5 Plant Diversity of India.md",
-    "01 Subject Wise Notes/🍃 Environment and Disaster Management/2. Biodiveristy/2.6 Marine Organism.md",
-    "01 Subject Wise Notes/🍃 Environment and Disaster Management/2. Biodiveristy/2.4 Animal Diversity of India.md",
-    "01 Subject Wise Notes/🍃 Environment and Disaster Management/2. Biodiveristy/2.3 WPA 1972.md",
-    "01 Subject Wise Notes/🍃 Environment and Disaster Management/2. Biodiveristy/2.7 Protected Area Network.md",
-    "01 Subject Wise Notes/🍃 Environment and Disaster Management/2. Biodiveristy/2.2 Indian Biodiversity.md",
-    "01 Subject Wise Notes/🍃 Environment and Disaster Management/2. Biodiveristy/2.1 Biodiversity.md",
-    "01 Subject Wise Notes/🍃 Environment and Disaster Management/2. Biodiveristy/2.8 Conservation Efforts.md",
-    "01 Subject Wise Notes/🍃 Environment and Disaster Management/3 Climate Change/3.5 Climate Change Organisations.md",
-    "01 Subject Wise Notes/🍃 Environment and Disaster Management/3 Climate Change/3.4 India and Climate Change.md",
-    "01 Subject Wise Notes/🍃 Environment and Disaster Management/3 Climate Change/3.3 Mitigation Strategies.md",
-    "01 Subject Wise Notes/🍃 Environment and Disaster Management/3 Climate Change/3.2 Ocean Acidification and Ocean Depletion.md",
-    "01 Subject Wise Notes/🍃 Environment and Disaster Management/3 Climate Change/3.1 Climate Change and Impact on India.md",
+    "02 Prelims/Prelims Facts 1 April-2019-Feb-2020.md",
+    "02 Prelims/Prelims Facts 2 March 2020-March 2021.md",
     "01 Subject Wise Notes/🍃 Environment and Disaster Management/5. Acts, Orgs, Convention, Env Issues/5.1 Acts and Policies.md",
-    "01 Subject Wise Notes/🍃 Environment and Disaster Management/1. Environmental, Ecology/1.2 Functions of an Ecosystem.md",
-    "01 Subject Wise Notes/🍃 Environment and Disaster Management/5. Acts, Orgs, Convention, Env Issues/5.2 Institutions and Measures.md",
-    "01 Subject Wise Notes/🍃 Environment and Disaster Management/5. Acts, Orgs, Convention, Env Issues/5.5 Environmental Issues and Health Effects.md",
+    "08.3 Modern-History/10. Constituional-Dev_/10.1 Constitutional Development between 1858-1935.md",
+    "08.3 Modern-History/9. Rise-of-Gandhi/9.18 Cabinet Mission.md",
+    "08.3 Modern-History/9. Rise-of-Gandhi/9.17 Wavell Plan.md",
+    "08.3 Modern-History/9. Rise-of-Gandhi/9.16 The Quit India Movement.md",
+    "08.3 Modern-History/9. Rise-of-Gandhi/9.15 Cripps Mission.md",
+    "08.3 Modern-History/9. Rise-of-Gandhi/9.14 Election of 1937 and formation of Ministries.md",
+    "08.3 Modern-History/9. Rise-of-Gandhi/9.13 Women and Indian youth and students in Indian politics 1885-1947.md",
+    "08.3 Modern-History/9. Rise-of-Gandhi/9.12 Nationalism and Working Class Movements.md",
+    "08.3 Modern-History/9. Rise-of-Gandhi/9.11 Nationalism and Peasant Movements - Peasant Movement in the 1930s and 1940s.md",
+    "08.3 Modern-History/9. Rise-of-Gandhi/9.10 The RTCs.md",
+    "08.3 Modern-History/9. Rise-of-Gandhi/9.9 The Nehru Report.md",
+    "08.3 Modern-History/9. Rise-of-Gandhi/9.8 Simon Commission.md",
+    "08.3 Modern-History/9. Rise-of-Gandhi/9.7 The 2 phases of CDM.md",
+    "08.1 Ancient-History/1. Sources/1.2 Literary Sources.md",
+    "08.1 Ancient-History/1. Sources/1.1 Archaeological-Sources.md",
+    "01 Subject Wise Notes/💶 Economy/009 Industry and Infrastructure.md",
+    "01 Subject Wise Notes/🌏 Geography Static Notes/3. Economic Geography and Location of Industries/3.4 Location of Industries.md",
+    "01 Subject Wise Notes/🌏 Geography Static Notes/3. Economic Geography and Location of Industries/3.1 Coal.md",
+    "06 GS-3/5. Security/5.3 Various security forces and Agencies and their mandate; Linkages of Organised Crime with Terrorism.md",
+    "08.1 Ancient-History/10. Guptas-Vakatakas-and-Vardhans/10.10 Literature, Scientific Literature.md",
+    "08.3 Modern-History/9. Rise-of-Gandhi/9.6 National Politics from NCN to CDM.md",
+    "08.3 Modern-History/9. Rise-of-Gandhi/9.5 Non Cooperation Movement.md",
+    "08.3 Modern-History/9. Rise-of-Gandhi/9.4 Khilafat Movement.md",
+    "Canvas/Development Financial Institution.canvas",
     "Untitled.table",
     "Attachements/kegy104.pdf",
     "Attachements/Pasted image 20230405112519.png",

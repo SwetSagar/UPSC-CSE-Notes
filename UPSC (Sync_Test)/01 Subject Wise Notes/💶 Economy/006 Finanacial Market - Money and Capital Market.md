@@ -47,7 +47,7 @@
 
 #### 2. Certificate of Deposit CD
 
-- Used by banks and issued to a depositor for a specified period ranging less than 1 year.
+- Used by banks and issued to a depositor for a specified period ranging less than 1 year. Unsecured.
 - issued by SCBs and FI's ~ RRBs and Local Area Banks cannot issue CD's.
 - Negotiable Promissory note/ negotiable instrument, secured and short term.
 	- Negotiable instrument means a signed document that promises a sum of payment to a specified person or the assignee.
@@ -83,7 +83,7 @@
 
 #### 5. Call Money Aka Notice Money
 
-- borrowed or lent for 1 - 14 days and are also known as overnight borrowing market or money at call or Notice money or short money.
+- borrowed or lent for 1 - 14 days and are also known as overnight borrowing market or money at call or Notice money or short money. Call money is overnight,  Notice money is 2-14 days.
 - does not require collateral but is done in goodwill or promissory notes. But borrowing could be done against security too.
 - Done to even out day to day deficit and surplus.
 - Interest rates glide with the repo rate and reall call rate revolves around current repo
@@ -327,7 +327,7 @@ Mutual Funds invest in stock market securities, bonds etc
 - Private Equity is reverse of IPO, they take part in mgt of company
 Hundis
 - Chit Funds are a type of savings scheme, governed by state and central laws
-- Qualified Institutional Placement QIPs
+- Qualified Institutional Placement QIPs.
 	- they are qualified to sell shares, debentures etc.
 - **NBFC**
 	- do not include institutions whose principal business is agriculture or Industrial activity

@@ -1,9 +1,9 @@
 {
 	"nodes":[
-		{"id":"9426d1fefa0702be","x":-333,"y":-642,"width":390,"height":387,"color":"5","type":"text","text":"![[006 Finanacial Market - Money and Capital Market#Development Finance Institutions DFIs:]]"},
-		{"id":"585dadc0e3bcb15e","x":289,"y":-859,"width":451,"height":217,"color":"2","type":"text","text":"**Challenges** : \n- Governance issues ex ==Political interference== \n- Public DFIs are ==incompetent==\n- ==Survial Challenges== ex merger of ICICI and IDBI\n- Competition from private companies\n- Corruption and lack of clarity among DFIs\n"},
-		{"id":"38a2a9b101650672","x":289,"y":-448,"width":451,"height":314,"type":"file","file":"Attachements/Pasted image 20230113082314.png"},
-		{"id":"1080204350d42e62","x":-954,"y":-430,"width":392,"height":351,"color":"6","type":"text","text":"**Way ahead** : \n- Allow ==flexible organisation== structure to meet competition\n- Improve quality of Board deliberation through target based approach for goals and **Board corporate Governance principles**.\n- Operational autonomy to dec political interference\n- Safeguards to make decision w/o fear of compliance\n- **Capacity building**"}
+		{"type":"text","text":"![[006 Finanacial Market - Money and Capital Market#Development Finance Institutions DFIs:]]","id":"9426d1fefa0702be","x":-333,"y":-642,"width":390,"height":387,"color":"5"},
+		{"type":"text","text":"**Challenges** : \n- Governance issues ex ==Political interference== \n- Public DFIs are ==incompetent==\n- ==Survial Challenges== ex merger of ICICI and IDBI\n- Competition from private companies\n- Corruption and lack of clarity among DFIs\n","id":"585dadc0e3bcb15e","x":289,"y":-859,"width":451,"height":217,"color":"2"},
+		{"type":"file","file":"Attachements/Pasted image 20230113082314.png","id":"38a2a9b101650672","x":289,"y":-448,"width":451,"height":314},
+		{"type":"text","text":"**Way ahead** : \n- Allow ==flexible organisation== structure to meet competition\n- Improve quality of Board deliberation through target based approach for goals and **Board corporate Governance principles**.\n- Operational autonomy to dec political interference\n- Safeguards to make decision w/o fear of compliance\n- **Capacity building**","id":"1080204350d42e62","x":-954,"y":-430,"width":392,"height":351,"color":"6"}
 	],
 	"edges":[
 		{"id":"c8bbdb9ba627eef1","fromNode":"9426d1fefa0702be","fromSide":"right","toNode":"38a2a9b101650672","toSide":"left"},
