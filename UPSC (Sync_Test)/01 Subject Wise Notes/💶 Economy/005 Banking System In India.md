@@ -468,5 +468,4 @@ Deposit in these accounts are considered as external debts outstanding.
 - **Third party insurance** : provided by non-life insurance companies on vehicles that covers the risk other than the 2 parties ie the car and the owner. It covers the insured legal liability ie death/ disability of third party loss or damage to the 3rd party.
 
 [^1]: <https://prsindia.org/billtrack/the-banking-regulation-amendment-bill-2020>
-
 [^2]: <https://www.ibef.org/industry/insurance-sector-india.aspx>

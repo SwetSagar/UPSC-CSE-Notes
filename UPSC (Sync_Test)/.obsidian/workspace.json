@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "83d3d26a66065ddd",
+            "id": "c0e559cd9d6d4b8d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Subject Wise Notes/💶 Economy/001 Economy and Economics.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7216fbf36799df1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 Prelims/PYQ  Analysis and Rules/2018.md",
+                "file": "Daily Notes and Todos/02-12-2021.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -51,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\" anki",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 Prelims/PYQ  Analysis and Rules/2018.md"
+                "file": "Daily Notes and Todos/02-12-2021.md"
               }
             }
           },
@@ -145,7 +132,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "548a9e20c43e4ddf",
@@ -169,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 Prelims/PYQ  Analysis and Rules/2018.md",
+                "file": "Daily Notes and Todos/02-12-2021.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 Prelims/PYQ  Analysis and Rules/2018.md",
+                "file": "Daily Notes and Todos/02-12-2021.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +200,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5
+    "width": 330.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -243,9 +231,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0803f948315da93b",
+  "active": "c0e559cd9d6d4b8d",
   "lastOpenFiles": [
+    "Daily Notes and Todos/01-12-2021.md",
+    "01 Subject Wise Notes/💶 Economy/005 Monetary and Credit Policy.md",
+    "01 Subject Wise Notes/💶 Economy/005 Banking System In India.md",
+    "01 Subject Wise Notes/💶 Economy/004 Taxation in India.md",
+    "01 Subject Wise Notes/💶 Economy/003 Fiscal System or Public Finance in India.md",
+    "01 Subject Wise Notes/💶 Economy/002 Planning.md",
+    "01 Subject Wise Notes/💶 Economy/001 Economy and Economics.md",
+    "04 GS-1/1. 📜History/1.1 Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.md",
+    "06 GS-3/3. Science and Technology/3.1 Science and Technology.md",
+    "05 GS-2/3. Social Justice/3.2 Issues Relating to development and management of Social Sector relating to Health, Education, HR; Issues Relating to Poverty and Hunger.md",
+    "08.1 Ancient-History/1. Sources/1.2 Literary Sources.md",
+    "01 Subject Wise Notes/🧑‍🔬Science and Technology/Biology.md",
     "02 Prelims/Prelims Facts 1 April-2019-Feb-2020.md",
+    "09 Web Clippings/Today’s Paper News, Breaking News, Top headlines - The HinduBusinessLine.md",
+    "09 Web Clippings/UAPA Membership.md",
+    "10. Knowledge Dump/Straits.md",
+    "10. Knowledge Dump/Some other Battles during this time.md",
+    "10. Knowledge Dump/Non Environmental Conventions.md",
+    "02 Prelims/PYQ  Analysis and Rules/2018.md",
     "02 Prelims/Prelims Facts 2 March 2020-March 2021.md",
     "01 Subject Wise Notes/🍃 Environment and Disaster Management/5. Acts, Orgs, Convention, Env Issues/5.1 Acts and Policies.md",
     "08.3 Modern-History/10. Constituional-Dev_/10.1 Constitutional Development between 1858-1935.md",
@@ -253,24 +259,6 @@
     "08.3 Modern-History/9. Rise-of-Gandhi/9.17 Wavell Plan.md",
     "08.3 Modern-History/9. Rise-of-Gandhi/9.16 The Quit India Movement.md",
     "08.3 Modern-History/9. Rise-of-Gandhi/9.15 Cripps Mission.md",
-    "08.3 Modern-History/9. Rise-of-Gandhi/9.14 Election of 1937 and formation of Ministries.md",
-    "08.3 Modern-History/9. Rise-of-Gandhi/9.13 Women and Indian youth and students in Indian politics 1885-1947.md",
-    "08.3 Modern-History/9. Rise-of-Gandhi/9.12 Nationalism and Working Class Movements.md",
-    "08.3 Modern-History/9. Rise-of-Gandhi/9.11 Nationalism and Peasant Movements - Peasant Movement in the 1930s and 1940s.md",
-    "08.3 Modern-History/9. Rise-of-Gandhi/9.10 The RTCs.md",
-    "08.3 Modern-History/9. Rise-of-Gandhi/9.9 The Nehru Report.md",
-    "08.3 Modern-History/9. Rise-of-Gandhi/9.8 Simon Commission.md",
-    "08.3 Modern-History/9. Rise-of-Gandhi/9.7 The 2 phases of CDM.md",
-    "08.1 Ancient-History/1. Sources/1.2 Literary Sources.md",
-    "08.1 Ancient-History/1. Sources/1.1 Archaeological-Sources.md",
-    "01 Subject Wise Notes/💶 Economy/009 Industry and Infrastructure.md",
-    "01 Subject Wise Notes/🌏 Geography Static Notes/3. Economic Geography and Location of Industries/3.4 Location of Industries.md",
-    "01 Subject Wise Notes/🌏 Geography Static Notes/3. Economic Geography and Location of Industries/3.1 Coal.md",
-    "06 GS-3/5. Security/5.3 Various security forces and Agencies and their mandate; Linkages of Organised Crime with Terrorism.md",
-    "08.1 Ancient-History/10. Guptas-Vakatakas-and-Vardhans/10.10 Literature, Scientific Literature.md",
-    "08.3 Modern-History/9. Rise-of-Gandhi/9.6 National Politics from NCN to CDM.md",
-    "08.3 Modern-History/9. Rise-of-Gandhi/9.5 Non Cooperation Movement.md",
-    "08.3 Modern-History/9. Rise-of-Gandhi/9.4 Khilafat Movement.md",
     "Canvas/Development Financial Institution.canvas",
     "Untitled.table",
     "Attachements/kegy104.pdf",

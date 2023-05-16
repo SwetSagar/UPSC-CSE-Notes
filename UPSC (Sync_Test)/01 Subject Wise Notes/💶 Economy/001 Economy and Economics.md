@@ -45,6 +45,7 @@
 - create finished product from primary ones, Manufacturing and Construction are 2 processes by which this is done.
 - Further divided into *Light Industry* ie less capital intensive ex shoes, electronics etc and *Heavy* or more capital intensive ones ex auto, steel, petroleum etc.
 - One of the largest employers and economies based on it are called industrial economy.
+- Primary and secondary sectors together are called real sector.
 
 **Tertiary or Services Sector**
 
@@ -163,7 +164,7 @@
 
 > total market value of all final goods and services produced in the country in a given year
 > = National Private Consumption(C) + Gross Investment(I) + Govt spending(G) + Trade balance(Exports - Imports)(X)
-> = GVA + Taxes - Subsidies
+> = **GVA + Taxes - Subsidies**
 
 - focuses on where it is produced, care economy is not included
 - it is a comparative concept as well as a quantitative concept.
@@ -172,7 +173,7 @@
 	- valued at current year prices, does not account for inflation
 
 	> = Real GDP x GDP Deflator
-	- Mo Commerce and Industry publishes a depreciation rate/ wear and tear rate that is used by companies to calculate NDP -> this depreciation rate is used as a tool of policymaking.
+	- **Mo Commerce and Industry** publishes a depreciation rate/ wear and tear rate that is used by companies to calculate NDP -> this depreciation rate is used as a tool of policymaking.
 	- NDP is uded for domestic purposes to analyse sectoral situation of depreciation in industry and trade and to show achievement in R&D to cut depreciation.
 - **Real GDP** : calculated on base year prices, considers inflation ^1c427e
 
@@ -190,7 +191,7 @@
 
 > GNP = GDP + (production by citizens abroad - what foreigners produce)
 >
-> Production by citizens abroad includes = Private Remittances + Interest of External Loans + External Grants
+> Production by citizens abroad includes = **Private Remittances + Interest of External Loans + External Grants**
 
 - Net Interest rate in India's case has been negative since it has been a net borrower.
 - In India's case the net income from abroad has been negative dur to trade deficit and interest payment on foreign loans -> that *India's GNP < GDP*
@@ -385,7 +386,7 @@ Advantages
 
 **Growth Recession**
 
-- Economy grows at such a slow pace that more jo****bs are being lost than being added.
+- Economy grows at such a slow pace that more jobs are being lost than being added.
 
 ---
 - Indian economy classified into 3 ie Agriculture, Industry, Services
