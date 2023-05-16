@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes and Todos/02-12-2021.md",
+                "file": "Daily_Notes_and_Todos/02-12-2021.md",
                 "mode": "preview",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes and Todos/02-12-2021.md"
+                "file": "Daily_Notes_and_Todos/02-12-2021.md"
               }
             }
           },
@@ -132,7 +132,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "548a9e20c43e4ddf",
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes and Todos/02-12-2021.md",
+                "file": "Daily_Notes_and_Todos/02-12-2021.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes and Todos/02-12-2021.md",
+                "file": "Daily_Notes_and_Todos/02-12-2021.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -200,8 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5,
-    "collapsed": true
+    "width": 330.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -233,7 +232,7 @@
   },
   "active": "c0e559cd9d6d4b8d",
   "lastOpenFiles": [
-    "Daily Notes and Todos/01-12-2021.md",
+    "Daily_Notes_and_Todos/01-12-2021.md",
     "01 Subject Wise Notes/💶 Economy/005 Monetary and Credit Policy.md",
     "01 Subject Wise Notes/💶 Economy/005 Banking System In India.md",
     "01 Subject Wise Notes/💶 Economy/004 Taxation in India.md",
