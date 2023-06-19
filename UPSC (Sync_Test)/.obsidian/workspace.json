@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily_Notes_and_Todos/02-12-2021.md",
-                "mode": "preview",
+                "file": "05 GS-2/1. Polity/1.7 Statutory, Regulatory and Various Quasi Judicial Bodies, Appointment in them.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -38,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\" anki",
+                "query": "\" TRIMS",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.0110321044922
+    "width": 276.5110321044922
   },
   "right": {
     "id": "5683b48c38d8adc9",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily_Notes_and_Todos/02-12-2021.md"
+                "file": "05 GS-2/1. Polity/1.7 Statutory, Regulatory and Various Quasi Judicial Bodies, Appointment in them.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             }
           },
           {
-            "id": "ad38ed8bbba294c6",
+            "id": "1798a22b977374ad",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -116,18 +116,10 @@
             }
           },
           {
-            "id": "072985476c6147b3",
+            "id": "9fa50dbd443a9734",
             "type": "leaf",
             "state": {
               "type": "chronology-calendar-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "eaf48cde3393aade",
-            "type": "leaf",
-            "state": {
-              "type": "aHR0cDovL2xvY2FsaG9zdDo3MDcwLw==",
               "state": {}
             }
           }
@@ -156,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily_Notes_and_Todos/02-12-2021.md",
+                "file": "05 GS-2/1. Polity/1.7 Statutory, Regulatory and Various Quasi Judicial Bodies, Appointment in them.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily_Notes_and_Todos/02-12-2021.md",
+                "file": "05 GS-2/1. Polity/1.7 Statutory, Regulatory and Various Quasi Judicial Bodies, Appointment in them.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -200,10 +192,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5
+    "width": 269.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "digitalgarden:Digital Garden Publication Center": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -216,48 +209,50 @@
       "obsidian-gallery:Gallery": false,
       "obsidian-tts:Text to Speech": false,
       "chronology:Open Chronology": false,
-      "webpage-html-export:Export Vault to HTML": false,
       "file-forgetting-curve-obsidian:View - File Forgetting Curve": false,
       "gpt3-notes:GPT-3 Notes": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-wordpress:WordPress Publish": false,
       "obsidian-full-calendar:Open Full Calendar": false,
+      "custom-sort:Toggle custom sorting": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "omnisearch:Omnisearch": false,
       "notion-like-tables:Create Notion-Like table": false,
-      "custom-sort:Toggle custom sorting": false,
       "open-gate:Access denied": false,
       "open-gate:RSS Feeds": false,
+      "obsidian-local-images-plus:Local Images Plus  0.15.7\r\nDownload media files": false,
+      "webpage-html-export:Export Vault to HTML": false,
       "periodic-notes:Open today": false
     }
   },
   "active": "c0e559cd9d6d4b8d",
   "lastOpenFiles": [
-    "Daily_Notes_and_Todos/01-12-2021.md",
-    "01 Subject Wise Notes/💶 Economy/005 Monetary and Credit Policy.md",
-    "01 Subject Wise Notes/💶 Economy/005 Banking System In India.md",
-    "01 Subject Wise Notes/💶 Economy/004 Taxation in India.md",
-    "01 Subject Wise Notes/💶 Economy/003 Fiscal System or Public Finance in India.md",
-    "01 Subject Wise Notes/💶 Economy/002 Planning.md",
-    "01 Subject Wise Notes/💶 Economy/001 Economy and Economics.md",
-    "04 GS-1/1. 📜History/1.1 Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.md",
-    "06 GS-3/3. Science and Technology/3.1 Science and Technology.md",
-    "05 GS-2/3. Social Justice/3.2 Issues Relating to development and management of Social Sector relating to Health, Education, HR; Issues Relating to Poverty and Hunger.md",
-    "08.1 Ancient-History/1. Sources/1.2 Literary Sources.md",
-    "01 Subject Wise Notes/🧑‍🔬Science and Technology/Biology.md",
-    "02 Prelims/Prelims Facts 1 April-2019-Feb-2020.md",
-    "09 Web Clippings/Today’s Paper News, Breaking News, Top headlines - The HinduBusinessLine.md",
-    "09 Web Clippings/UAPA Membership.md",
-    "10. Knowledge Dump/Straits.md",
-    "10. Knowledge Dump/Some other Battles during this time.md",
-    "10. Knowledge Dump/Non Environmental Conventions.md",
-    "02 Prelims/PYQ  Analysis and Rules/2018.md",
-    "02 Prelims/Prelims Facts 2 March 2020-March 2021.md",
-    "01 Subject Wise Notes/🍃 Environment and Disaster Management/5. Acts, Orgs, Convention, Env Issues/5.1 Acts and Policies.md",
-    "08.3 Modern-History/10. Constituional-Dev_/10.1 Constitutional Development between 1858-1935.md",
-    "08.3 Modern-History/9. Rise-of-Gandhi/9.18 Cabinet Mission.md",
-    "08.3 Modern-History/9. Rise-of-Gandhi/9.17 Wavell Plan.md",
-    "08.3 Modern-History/9. Rise-of-Gandhi/9.16 The Quit India Movement.md",
-    "08.3 Modern-History/9. Rise-of-Gandhi/9.15 Cripps Mission.md",
+    "05 GS-2/1. Polity/1.6 Salient Features of Representation of Peoples Act 1951.md",
+    "05 GS-2/1. Polity/1.5 Structure, Organisation and functioning of Executive and Judiciary Ministries and Department of the Govt; pressure groups and formal, informal associations and their role in Polity.md",
+    "05 GS-2/1. Polity/1.4 Parliament and State legislatures - Structure, functioning, conduct of business, powers & privileges and issues arising out of these. Comparison of Constitutions etc.md",
+    "05 GS-2/1. Polity/1.3 Separation of Power between various organs, dispute redressal mechanisms. Judiciary.md",
+    "05 GS-2/1. Polity/1.2 Functions Responsibility of Union and States, Issues with Federal Structure, Devolution of powers and finances etc..md",
+    "05 GS-2/1. Polity/1.1 Indian Constitution - historical underpinnings, evolution, features, amendments, significant provisions and basic structure, Devolution etc.md",
+    "08.2 Medieval-India/10. Economy-Society-16-17-Century/10.7 Conditions of Peasants and Women.md",
+    "08.2 Medieval-India/10. Economy-Society-16-17-Century/10.6 Banking, Insurance and Credit Systems.md",
+    "08.2 Medieval-India/10. Economy-Society-16-17-Century/10.5 Indian-Mercantile-Classes.md",
+    "08.2 Medieval-India/10. Economy-Society-16-17-Century/10.4 Trade Revolution.md",
+    "08.2 Medieval-India/10. Economy-Society-16-17-Century/10.3 Commerce with Europe through Dutch, English and French Companies.md",
+    "08.2 Medieval-India/10. Economy-Society-16-17-Century/10.2 Towns.md",
+    "08.2 Medieval-India/10. Economy-Society-16-17-Century/10.1 Population,-Agriculture-production,-Craft-Production.md",
+    "08.2 Medieval-India/9. Mughal-Empire-in-17th-Century/NIS - Conquests under Jehangir, Shah Jahan and Aurangzeb.md",
+    "08.2 Medieval-India/9. Mughal-Empire-in-17th-Century/9.7 Shivaji-and-the-Early-Maratha-Kingdom.md",
+    "08.2 Medieval-India/9. Mughal-Empire-in-17th-Century/9.6 The-Ahom-Kingdom.md",
+    "08.2 Medieval-India/9. Mughal-Empire-in-17th-Century/9.5 Late 17th Century crisis and the Revolts.md",
+    "08.2 Medieval-India/9. Mughal-Empire-in-17th-Century/9.4 Nature of Mughal State.md",
+    "08.2 Medieval-India/9. Mughal-Empire-in-17th-Century/9.3 Religious policies of Jahangir, Shahjahan and Aurangzeb.md",
+    "08.2 Medieval-India/9. Mughal-Empire-in-17th-Century/9.2 The Empire and the Zamindars.md",
+    "08.2 Medieval-India/9. Mughal-Empire-in-17th-Century/9.1 Major Administrative Policies of Jahangir, Shahjahan and Aurangzeb.md",
+    "08.2 Medieval-India/8. Akbar/8.6 Court-Patronage-of-Art-and-Technology.md",
+    "08.2 Medieval-India/8. Akbar/8.5 Theory of Sulh-i-Kul and Religious Policy.md",
+    "08.2 Medieval-India/8. Akbar/8.4 Evolution of Religious and Social Outlook.md",
+    "08.2 Medieval-India/8. Akbar/8.3 Rajput Policy.md",
+    "08.2 Medieval-India/8. Akbar/8.2 Establishment of Jagir and Mansab System.md",
+    "Canvas/Defence Indigenisation Issue.canvas",
     "Canvas/Development Financial Institution.canvas",
     "Untitled.table",
     "Attachements/kegy104.pdf",
@@ -272,7 +267,6 @@
     "ChatGPT_MD",
     "09 Web Clippings",
     "Canvas/Physical Geography Links.canvas",
-    "Canvas/Defence Indigenisation Issue.canvas",
     "Attachements/Globalisation and Social Change NCERT.pdf"
   ]
 }

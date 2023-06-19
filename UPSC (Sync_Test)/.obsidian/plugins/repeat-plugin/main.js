@@ -4411,16 +4411,22 @@ function parseRepeatTimeOfDay(timeOfDaySuffix) {
   return "AM";
 }
 function parseRepeat(repeat) {
-  var _a, _b, _c, _d;
-  const processedRepeat = repeat.toLowerCase();
-  const repetitionRegex = new RegExp(`(?<description>daily|weekly|monthly|yearly|annually|((?<spaced>spaced ?)?(every (${joinedUnits})|every (?<period>\\d+) (${joinedUnits})s?)))(?<timeOfDaySuffix>.*)`);
+  var _a, _b, _c;
+  let processedRepeat = repeat.toLowerCase();
+  let repeatStrategy = "PERIODIC";
+  const spacedRegex = /^spaced ?/;
+  if (processedRepeat.match(spacedRegex)) {
+    repeatStrategy = "SPACED";
+    processedRepeat = processedRepeat.split(spacedRegex)[1];
+  }
+  const repetitionRegex = new RegExp(`(?<description>daily|weekly|monthly|yearly|annually|((every (${joinedUnits})|every (?<period>\\d+) (${joinedUnits})s?)))(?<timeOfDaySuffix>.*)`);
   let result;
   if (result = repetitionRegex.exec(processedRepeat)) {
     return {
-      repeatStrategy: (((_a = result == null ? void 0 : result.groups) == null ? void 0 : _a.spaced) || "").trim() === "spaced" ? "SPACED" : "PERIODIC",
-      repeatPeriod: parseInt(((_b = result == null ? void 0 : result.groups) == null ? void 0 : _b.period) || "1"),
-      repeatPeriodUnit: parseRepeatPeriodUnit(((_c = result == null ? void 0 : result.groups) == null ? void 0 : _c.description) || "day"),
-      repeatTimeOfDay: parseRepeatTimeOfDay(((_d = result == null ? void 0 : result.groups) == null ? void 0 : _d.timeOfDaySuffix) || "am")
+      repeatStrategy,
+      repeatPeriod: parseInt(((_a = result == null ? void 0 : result.groups) == null ? void 0 : _a.period) || "1"),
+      repeatPeriodUnit: parseRepeatPeriodUnit(((_b = result == null ? void 0 : result.groups) == null ? void 0 : _b.description) || "day"),
+      repeatTimeOfDay: parseRepeatTimeOfDay(((_c = result == null ? void 0 : result.groups) == null ? void 0 : _c.timeOfDaySuffix) || "am")
     };
   }
   return {
@@ -4606,9 +4612,17 @@ function determineEmbedType(node) {
   }
   return "Note" /* Note */;
 }
-async function renderMarkdown(markdown, containerEl, sourcePath, lifecycleComponent, vault) {
-  await import_obsidian2.MarkdownPreviewView.renderMarkdown(markdown, containerEl, sourcePath, lifecycleComponent);
-  const nodes = containerEl.querySelectorAll("span.internal-embed");
+async function renderMarkdown(markdown, outerContainer, sourcePath, lifecycleComponent, vault) {
+  const innerContainer = createEl("div", {
+    cls: ["markdown-preview-view", "markdown-rendered"]
+  });
+  const contentContainer = createEl("div", {
+    cls: ["markdown-preview-sizer markdown-preview-section"]
+  });
+  outerContainer.appendChild(innerContainer);
+  innerContainer.appendChild(contentContainer);
+  await import_obsidian2.MarkdownPreviewView.renderMarkdown(markdown, contentContainer, sourcePath, lifecycleComponent);
+  const nodes = contentContainer.querySelectorAll("span.internal-embed");
   nodes.forEach((node) => {
     const embedType = determineEmbedType(node);
     if (embedType === "Image" /* Image */) {
@@ -4646,7 +4660,7 @@ async function renderMarkdown(markdown, containerEl, sourcePath, lifecycleCompon
       console.error(node);
     }
   });
-  const links = containerEl.querySelectorAll("a.internal-link");
+  const links = contentContainer.querySelectorAll("a.internal-link");
   links.forEach((node) => {
     if (!node.getAttribute("href")) {
       return;
@@ -4787,7 +4801,9 @@ var RepeatView = class extends import_obsidian3.ItemView {
     choices.forEach((choice) => this.addRepeatButton(choice, file));
     this.previewContainer.addClass("markdown-embed");
     renderTitleElement(this.previewContainer, file, this.app.vault);
-    const markdownContainer = createEl("div");
+    const markdownContainer = createEl("div", {
+      cls: "markdown-embed-content"
+    });
     if ((_a = page == null ? void 0 : page.repetition) == null ? void 0 : _a.hidden) {
       markdownContainer.addClass("repeat-markdown_blurred");
       const onBlurredClick = (event) => {

@@ -374,7 +374,7 @@ var KhojChatModal = class extends import_obsidian4.Modal {
     this.modalEl.scrollTop = this.modalEl.scrollHeight;
   }
   generateReference(messageEl, reference, index) {
-    let escaped_ref = reference.replace(/"/g, '\\"');
+    let escaped_ref = reference.replace(/"/g, "&quot;");
     return messageEl.createEl("sup").createEl("abbr", {
       attr: {
         title: escaped_ref,

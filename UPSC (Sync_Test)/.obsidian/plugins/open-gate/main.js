@@ -27,7 +27,7 @@ __export(main_exports, {
   default: () => OpenGatePlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian9 = require("obsidian");
+var import_obsidian11 = require("obsidian");
 
 // src/SetingTab.ts
 var import_obsidian3 = require("obsidian");
@@ -157,7 +157,7 @@ var createEmptyGateOption = () => {
     profileKey: "open-gate",
     url: "",
     zoomFactor: 1,
-    userAgent: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+    userAgent: ""
   };
 };
 
@@ -237,12 +237,13 @@ var import_obsidian4 = require("obsidian");
 
 // src/fns/createWebviewTag.ts
 var createWebviewTag = (params) => {
+  var _a;
   const webviewTag = document.createElement("webview");
   webviewTag.setAttribute("allowpopups", "true");
   webviewTag.setAttribute("partition", "persist:" + params.profileKey);
-  webviewTag.setAttribute("src", params.url);
+  webviewTag.setAttribute("src", (_a = params.url) != null ? _a : "about:blank");
   webviewTag.addClass("open-gate-webview");
-  if (params.userAgent) {
+  if (params.userAgent && params.userAgent !== "") {
     webviewTag.setAttribute("useragent", params.userAgent);
   }
   webviewTag.addEventListener("did-attach", () => {
@@ -257,11 +258,13 @@ var createWebviewTag = (params) => {
 var import_obsidian5 = require("obsidian");
 
 // src/fns/createIframe.ts
-var createIframe = (url) => {
+var createIframe = (params) => {
+  var _a;
   const iframe = document.createElement("iframe");
   iframe.setAttribute("allowpopups", "");
   iframe.setAttribute("credentialless", "true");
-  iframe.setAttribute("src", url);
+  iframe.setAttribute("src", (_a = params.url) != null ? _a : "about:blank");
+  iframe.setAttribute("sandbox", "allow-scripts allow-same-origin allow-popups allow-forms");
   iframe.addClass("open-gate-iframe");
   return iframe;
 };
@@ -301,7 +304,7 @@ var GateView = class extends import_obsidian4.ItemView {
     this.contentEl.empty();
     this.contentEl.addClass("open-gate-view");
     if (this.useIframe) {
-      this.frame = createIframe(this.options.url);
+      this.frame = createIframe(this.options);
     } else {
       this.frame = createWebviewTag(this.options);
     }
@@ -507,6 +510,79 @@ var ModalListGates = class extends import_obsidian8.Modal {
   }
 };
 
+// src/fns/registerCodeBlockProcessor.ts
+var import_obsidian9 = require("obsidian");
+function registerCodeBlockProcessor(plugin) {
+  plugin.registerMarkdownCodeBlockProcessor("gate", (sourceCode, el, ctx) => {
+    el.addClass("open-gate-view");
+    const lines = sourceCode.split("\n").filter((row) => row.length > 0).map((row) => row.trim());
+    if (lines.length === 0) {
+      return;
+    }
+    let src = "";
+    let height = "fit-content";
+    let profileKey = "open-gate";
+    for (const line of lines) {
+      if (line.startsWith("http")) {
+        src = line.trim();
+      } else if (line.startsWith("height:")) {
+        height = line.replace("height:", "").trim();
+      } else if (line.startsWith("profile:")) {
+        profileKey = line.replace("profile:", "").trim();
+      }
+    }
+    let frame;
+    const options = {
+      profileKey,
+      url: src
+    };
+    if (import_obsidian9.Platform.isMobileApp) {
+      frame = createIframe(options);
+    } else {
+      frame = createWebviewTag(options);
+    }
+    frame.style.height = height;
+    el.appendChild(frame);
+  });
+}
+
+// src/fns/registerLinkProcessor.ts
+var import_obsidian10 = require("obsidian");
+var registerLinkProcessor = (plugin) => {
+  plugin.registerMarkdownPostProcessor((element, context) => {
+    const imgElements = element.querySelectorAll("img");
+    imgElements.forEach((el) => {
+      var _a, _b, _c;
+      const src = el.getAttribute("src");
+      const alt = el.getAttribute("alt");
+      const altArr = alt == null ? void 0 : alt.split(";");
+      const height = altArr ? (_b = (_a = altArr[0].replace("height:", "")) == null ? void 0 : _a.trim()) != null ? _b : "400px" : "400px";
+      const profileKey = altArr ? (_c = altArr[1]) == null ? void 0 : _c.replace("profile:", "") : "open-gate";
+      if (!src || isImageExt(src)) {
+        return;
+      }
+      let frame;
+      const options = {
+        profileKey,
+        url: src
+      };
+      if (import_obsidian10.Platform.isMobileApp) {
+        frame = createIframe(options);
+      } else {
+        frame = createWebviewTag(options);
+      }
+      frame.setAttribute("style", "width: 100%; height: " + height + ";");
+      el.replaceWith(frame);
+    });
+  });
+};
+var isImageExt = (url) => {
+  const exts = ["jpg", "jpeg", "png", "gif", "svg"];
+  const urlArr = url.split(".");
+  const ext = urlArr[urlArr.length - 1];
+  return exts.includes(ext);
+};
+
 // src/main.ts
 var DEFAULT_SETTINGS = {
   uuid: "",
@@ -514,12 +590,18 @@ var DEFAULT_SETTINGS = {
 };
 var defaultGateOption = {
   profileKey: "open-gate",
-  zoomFactor: 1,
-  userAgent: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+  zoomFactor: 1
 };
-var OpenGatePlugin = class extends import_obsidian9.Plugin {
+var OpenGatePlugin = class extends import_obsidian11.Plugin {
   async onload() {
     await this.loadSettings();
+    await this.initFrames();
+    this.addSettingTab(new SettingTab(this.app, this));
+    this.registerCommands();
+    registerCodeBlockProcessor(this);
+    registerLinkProcessor(this);
+  }
+  async initFrames() {
     if (this.settings.uuid === "") {
       this.settings.uuid = this.generateUuid();
       await this.saveSettings();
@@ -533,7 +615,8 @@ var OpenGatePlugin = class extends import_obsidian9.Plugin {
       const gate = this.settings.gates[gateId];
       registerGate(this, gate);
     }
-    this.addSettingTab(new SettingTab(this.app, this));
+  }
+  registerCommands() {
     this.addCommand({
       id: `open-gate-create-new`,
       name: `Create new gate`,
@@ -560,7 +643,7 @@ var OpenGatePlugin = class extends import_obsidian9.Plugin {
     if (!this.settings.gates.hasOwnProperty(gate.id)) {
       registerGate(this, gate);
     } else {
-      new import_obsidian9.Notice("This change will take effect after you reload Obsidian.");
+      new import_obsidian11.Notice("This change will take effect after you reload Obsidian.");
     }
     if (gate.profileKey === "" || gate.profileKey === void 0) {
       gate.profileKey = defaultGateOption.profileKey;
@@ -573,13 +656,13 @@ var OpenGatePlugin = class extends import_obsidian9.Plugin {
   }
   async removeGate(gateId) {
     if (!this.settings.gates[gateId]) {
-      new import_obsidian9.Notice("Gate not found");
+      new import_obsidian11.Notice("Gate not found");
     }
     const gate = this.settings.gates[gateId];
     await unloadView(this.app.workspace, gate);
     delete this.settings.gates[gateId];
     await this.saveSettings();
-    new import_obsidian9.Notice("This change will take effect after you reload Obsidian.");
+    new import_obsidian11.Notice("This change will take effect after you reload Obsidian.");
   }
   async loadSettings() {
     this.settings = await this.loadData();

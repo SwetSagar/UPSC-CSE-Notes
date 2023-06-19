@@ -435,6 +435,7 @@ var _CustomFrameView = class extends import_obsidian3.ItemView {
     this.data = data;
     this.name = name;
     this.frame = new CustomFrame(settings, data);
+    this.navigation = data.openInCenter;
     for (let action of _CustomFrameView.actions)
       this.addAction(action.icon, action.name, () => action.action(this));
   }

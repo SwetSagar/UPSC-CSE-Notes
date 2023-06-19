@@ -1,4 +1,4 @@
-# Inflation
+D# Inflation
 
 2020-06-09 18:57:50
 
@@ -108,7 +108,7 @@
 - CPI - UNME (Urban Non Manual Employees) and is used to determine Dearness Allowance DA of employees of some foreign companies operating in India. Has been discontinued and replaced by CPI - Urban.
 - New CPI 2015 **by CSO, MOSPI**
 	- base year has been changed to 2012
-	- Pan, Tobacco and intoxicants made a different gro
+	- Pan, Tobacco and intoxicants made a different group.
 	- Groups inc to six, tobacco, egg made separate sub-group.
 	- Only transaction prices taken, electronic validation of data
 	- Price of PDS items under Antyodaya Anna Yojana has also been included for compilation of indices under PDS items.
