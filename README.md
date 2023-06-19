@@ -2,7 +2,7 @@
 
 ## About
 
-Notes that I made while preparing for UPSC Civil Services Examination. The notes are comprehensive, covers GS subjects and History Optional. 
+Notes that I made while preparing for UPSC Civil Services Examination. The notes are comprehensive, covers GS subjects and History Optional. Answers are AI/GPT generated.
 
 ## Anki Deck links
 1. GS Decks Part 1 : https://ankiweb.net/shared/info/1558080665
