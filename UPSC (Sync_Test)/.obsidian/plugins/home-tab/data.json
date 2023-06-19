@@ -22,7 +22,20 @@
   "showShortcuts": true,
   "markdownOnly": false,
   "unresolvedLinks": false,
-  "recentFilesStore": [],
+  "recentFilesStore": [
+    {
+      "filepath": "Attachements/Globalisation and Social Change NCERT.pdf",
+      "timestamp": 1687183688170
+    },
+    {
+      "filepath": "Attachements/44.png",
+      "timestamp": 1687183627681
+    },
+    {
+      "filepath": "Attachements/How to prepare for Essay Anudeep Summary.pdf",
+      "timestamp": 1687183548087
+    }
+  ],
   "starredFileStore": [],
   "searchDelay": 0,
   "replaceNewTabs": true,
