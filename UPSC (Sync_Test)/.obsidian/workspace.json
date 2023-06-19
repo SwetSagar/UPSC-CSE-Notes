@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "de3ace7ea8ae9474",
+        "id": "288cc9abdd9a7239",
         "type": "tabs",
         "children": [
           {
-            "id": "c0e559cd9d6d4b8d",
+            "id": "aa1fd18de47ffd61",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Attachements/Globalisation and Social Change NCERT.pdf"
-              }
+              "type": "home-tab-view",
+              "state": {}
             }
           }
         ]
@@ -92,9 +90,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Attachements/Globalisation and Social Change NCERT.pdf"
-              }
+              "state": {}
             }
           },
           {
@@ -146,7 +142,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attachements/Globalisation and Social Change NCERT.pdf",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +158,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attachements/Globalisation and Social Change NCERT.pdf",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -222,8 +216,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c0e559cd9d6d4b8d",
+  "active": "aa1fd18de47ffd61",
   "lastOpenFiles": [
+    "Attachements/Globalisation and Social Change NCERT.pdf",
     "Attachements/77 - Pressure Groups.pdf",
     "Attachements/76 - Anti Defection Law.pdf",
     "Attachements/75 - Coalition Government.pdf",
@@ -235,7 +230,6 @@
     "Attachements/70 - Role of Regional Parties.pdf",
     "Attachements/44.png",
     "Attachements/69 - Political Parties.pdf",
-    "Attachements/63 - National Disaster Management Authority.pdf",
     "Attachements/Hallur.jpg",
     "Attachements/Govt Initiatives for Defence Indigenisation.png",
     "Attachements/Palavoy.jpg",
