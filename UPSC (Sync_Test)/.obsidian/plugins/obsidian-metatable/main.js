@@ -38,7 +38,10 @@ module.exports = __toCommonJS(main_exports);
 var import_obsidian6 = require("obsidian");
 
 // node_modules/solid-js/dist/solid.js
-var sharedConfig = {};
+var sharedConfig = {
+  context: void 0,
+  registry: void 0
+};
 function setHydrateContext(context) {
   sharedConfig.context = context;
 }
@@ -80,7 +83,7 @@ function createRoot(fn, detachedOwner) {
     owned: null,
     cleanups: null,
     context: null,
-    owner: detachedOwner || owner
+    owner: detachedOwner === void 0 ? owner : detachedOwner
   }, updateFn = unowned ? fn : () => fn(() => untrack(() => cleanNode(root)));
   Owner = root;
   Listener = null;
@@ -122,7 +125,8 @@ function createEffect(fn, value, options) {
   const c = createComputation(fn, value, false, STALE), s = SuspenseContext && lookup(Owner, SuspenseContext.id);
   if (s)
     c.suspense = s;
-  c.user = true;
+  if (!options || !options.render)
+    c.user = true;
   Effects ? Effects.push(c) : updateComputation(c);
 }
 function createMemo(fn, value, options) {
@@ -139,6 +143,8 @@ function createMemo(fn, value, options) {
   return readSignal.bind(c);
 }
 function untrack(fn) {
+  if (Listener === null)
+    return fn();
   const listener = Listener;
   Listener = null;
   try {
@@ -159,18 +165,21 @@ function onCleanup(fn) {
     Owner.cleanups.push(fn);
   return fn;
 }
-function onError(fn) {
+function catchError(fn, handler) {
   ERROR || (ERROR = Symbol("error"));
-  if (Owner === null)
-    ;
-  else if (Owner.context === null)
-    Owner.context = {
-      [ERROR]: [fn]
-    };
-  else if (!Owner.context[ERROR])
-    Owner.context[ERROR] = [fn];
-  else
-    Owner.context[ERROR].push(fn);
+  Owner = createComputation(void 0, void 0, true);
+  Owner.context = {
+    [ERROR]: [handler]
+  };
+  if (Transition && Transition.running)
+    Transition.sources.add(Owner);
+  try {
+    return fn();
+  } catch (err) {
+    handleError(err);
+  } finally {
+    Owner = Owner.owner;
+  }
 }
 function startTransition(fn) {
   if (Transition && Transition.running) {
@@ -224,8 +233,8 @@ function children(fn) {
 var SuspenseContext;
 function readSignal() {
   const runningTransition = Transition && Transition.running;
-  if (this.sources && (!runningTransition && this.state || runningTransition && this.tState)) {
-    if (!runningTransition && this.state === STALE || runningTransition && this.tState === STALE)
+  if (this.sources && (runningTransition ? this.tState : this.state)) {
+    if ((runningTransition ? this.tState : this.state) === STALE)
       updateComputation(this);
     else {
       const updates = Updates;
@@ -275,7 +284,7 @@ function writeSignal(node, value, isComp) {
           const TransitionRunning = Transition && Transition.running;
           if (TransitionRunning && Transition.disposed.has(o))
             continue;
-          if (TransitionRunning && !o.tState || !TransitionRunning && !o.state) {
+          if (TransitionRunning ? !o.tState : !o.state) {
             if (o.pure)
               Updates.push(o);
             else
@@ -283,10 +292,10 @@ function writeSignal(node, value, isComp) {
             if (o.observers)
               markDownstream(o);
           }
-          if (TransitionRunning)
-            o.tState = STALE;
-          else
+          if (!TransitionRunning)
             o.state = STALE;
+          else
+            o.tState = STALE;
         }
         if (Updates.length > 1e6) {
           Updates = [];
@@ -335,7 +344,8 @@ function runComputation(node, value, time) {
         node.owned = null;
       }
     }
-    handleError(err);
+    node.updatedAt = time + 1;
+    return handleError(err);
   }
   if (!node.updatedAt || node.updatedAt <= time) {
     if (node.updatedAt != null && "observers" in node) {
@@ -398,9 +408,9 @@ function createComputation(fn, init, pure, state = STALE, options) {
 }
 function runTop(node) {
   const runningTransition = Transition && Transition.running;
-  if (!runningTransition && node.state === 0 || runningTransition && node.tState === 0)
+  if ((runningTransition ? node.tState : node.state) === 0)
     return;
-  if (!runningTransition && node.state === PENDING || runningTransition && node.tState === PENDING)
+  if ((runningTransition ? node.tState : node.state) === PENDING)
     return lookUpstream(node);
   if (node.suspense && untrack(node.suspense.inFallback))
     return node.suspense.effects.push(node);
@@ -408,7 +418,7 @@ function runTop(node) {
   while ((node = node.owner) && (!node.updatedAt || node.updatedAt < ExecCount)) {
     if (runningTransition && Transition.disposed.has(node))
       return;
-    if (!runningTransition && node.state || runningTransition && node.tState)
+    if (runningTransition ? node.tState : node.state)
       ancestors.push(node);
   }
   for (let i = ancestors.length - 1; i >= 0; i--) {
@@ -420,9 +430,9 @@ function runTop(node) {
           return;
       }
     }
-    if (!runningTransition && node.state === STALE || runningTransition && node.tState === STALE) {
+    if ((runningTransition ? node.tState : node.state) === STALE) {
       updateComputation(node);
-    } else if (!runningTransition && node.state === PENDING || runningTransition && node.tState === PENDING) {
+    } else if ((runningTransition ? node.tState : node.state) === PENDING) {
       const updates = Updates;
       Updates = null;
       runUpdates(() => lookUpstream(node, ancestors[0]), false);
@@ -446,8 +456,9 @@ function runUpdates(fn, init) {
     completeUpdates(wait);
     return res;
   } catch (err) {
-    if (!Updates)
+    if (!wait)
       Effects = null;
+    Updates = null;
     handleError(err);
   }
 }
@@ -549,10 +560,11 @@ function lookUpstream(node, ignore) {
   for (let i = 0; i < node.sources.length; i += 1) {
     const source = node.sources[i];
     if (source.sources) {
-      if (!runningTransition && source.state === STALE || runningTransition && source.tState === STALE) {
-        if (source !== ignore)
+      const state = runningTransition ? source.tState : source.state;
+      if (state === STALE) {
+        if (source !== ignore && (!source.updatedAt || source.updatedAt < ExecCount))
           runTop(source);
-      } else if (!runningTransition && source.state === PENDING || runningTransition && source.tState === PENDING)
+      } else if (state === PENDING)
         lookUpstream(source, ignore);
     }
   }
@@ -561,7 +573,7 @@ function markDownstream(node) {
   const runningTransition = Transition && Transition.running;
   for (let i = 0; i < node.observers.length; i += 1) {
     const o = node.observers[i];
-    if (!runningTransition && !o.state || runningTransition && !o.tState) {
+    if (runningTransition ? !o.tState : !o.state) {
       if (runningTransition)
         o.tState = PENDING;
       else
@@ -591,18 +603,18 @@ function cleanNode(node) {
   }
   if (Transition && Transition.running && node.pure) {
     if (node.tOwned) {
-      for (i = 0; i < node.tOwned.length; i++)
+      for (i = node.tOwned.length - 1; i >= 0; i--)
         cleanNode(node.tOwned[i]);
       delete node.tOwned;
     }
     reset(node, true);
   } else if (node.owned) {
-    for (i = 0; i < node.owned.length; i++)
+    for (i = node.owned.length - 1; i >= 0; i--)
       cleanNode(node.owned[i]);
     node.owned = null;
   }
   if (node.cleanups) {
-    for (i = 0; i < node.cleanups.length; i++)
+    for (i = node.cleanups.length - 1; i >= 0; i--)
       node.cleanups[i]();
     node.cleanups = null;
   }
@@ -623,17 +635,37 @@ function reset(node, top) {
   }
 }
 function castError(err) {
-  if (err instanceof Error || typeof err === "string")
+  if (err instanceof Error)
     return err;
-  return new Error("Unknown error");
+  return new Error(typeof err === "string" ? err : "Unknown error", {
+    cause: err
+  });
 }
-function handleError(err) {
-  err = castError(err);
-  const fns = ERROR && lookup(Owner, ERROR);
+function handleError(err, owner = Owner) {
+  const fns = ERROR && lookup(owner, ERROR);
+  const error = castError(err);
   if (!fns)
-    throw err;
-  for (const f of fns)
-    f(err);
+    throw error;
+  if (Effects)
+    Effects.push({
+      fn() {
+        try {
+          for (const f of fns)
+            f(error);
+        } catch (e) {
+          handleError(e, (owner == null ? void 0 : owner.owner) || null);
+        }
+      },
+      state: STALE
+    });
+  else {
+    try {
+      for (const f of fns)
+        f(error);
+    } catch (e) {
+      handleError(e, (owner == null ? void 0 : owner.owner) || null);
+    }
+  }
 }
 function lookup(owner, key) {
   return owner ? owner.context && owner.context[key] !== void 0 ? owner.context[key] : lookup(owner.owner, key) : void 0;
@@ -771,6 +803,7 @@ function createComponent(Comp, props) {
   }
   return untrack(() => Comp(props || {}));
 }
+var narrowedError = (name) => `Stale read from <${name}>.`;
 function For(props) {
   const fallback = "fallback" in props && {
     fallback: () => props.fallback
@@ -778,26 +811,27 @@ function For(props) {
   return createMemo(mapArray(() => props.each, props.children, fallback || void 0));
 }
 function Show(props) {
-  let strictEqual = false;
   const keyed = props.keyed;
   const condition = createMemo(() => props.when, void 0, {
-    equals: (a, b) => strictEqual ? a === b : !a === !b
+    equals: (a, b) => keyed ? a === b : !a === !b
   });
   return createMemo(() => {
     const c = condition();
     if (c) {
       const child = props.children;
       const fn = typeof child === "function" && child.length > 0;
-      strictEqual = keyed || fn;
-      return fn ? untrack(() => child(c)) : child;
+      return fn ? untrack(() => child(keyed ? c : () => {
+        if (!untrack(condition))
+          throw narrowedError("Show");
+        return props.when;
+      })) : child;
     }
     return props.fallback;
   }, void 0, void 0);
 }
 function Switch(props) {
-  let strictEqual = false;
   let keyed = false;
-  const equals = (a, b) => a[0] === b[0] && (strictEqual ? a[1] === b[1] : !a[1] === !b[1]) && a[2] === b[2];
+  const equals = (a, b) => a[0] === b[0] && (keyed ? a[1] === b[1] : !a[1] === !b[1]) && a[2] === b[2];
   const conditions = children(() => props.children), evalConditions = createMemo(() => {
     let conds = conditions();
     if (!Array.isArray(conds))
@@ -819,8 +853,11 @@ function Switch(props) {
       return props.fallback;
     const c = cond.children;
     const fn = typeof c === "function" && c.length > 0;
-    strictEqual = keyed || fn;
-    return fn ? untrack(() => c(when)) : c;
+    return fn ? untrack(() => c(keyed ? when : () => {
+      if (untrack(evalConditions)[0] !== index)
+        throw narrowedError("Match");
+      return cond.when;
+    })) : c;
   }, void 0, void 0);
 }
 function Match(props) {
@@ -840,12 +877,9 @@ function ErrorBoundary(props) {
     let e;
     if (e = errored()) {
       const f = props.fallback;
-      const res = typeof f === "function" && f.length ? untrack(() => f(e, () => setErrored())) : f;
-      onError(setErrored);
-      return res;
+      return typeof f === "function" && f.length ? untrack(() => f(e, () => setErrored())) : f;
     }
-    onError(setErrored);
-    return props.children;
+    return catchError(() => props.children, setErrored);
   }, void 0, void 0);
 }
 var SuspenseListContext = createContext();
@@ -921,13 +955,16 @@ function render(code, element, init, options = {}) {
     element.textContent = "";
   };
 }
-function template(html, check, isSVG) {
-  const t = document.createElement("template");
-  t.innerHTML = html;
-  let node = t.content.firstChild;
-  if (isSVG)
-    node = node.firstChild;
-  return node;
+function template(html, isCE, isSVG) {
+  let node;
+  const create = () => {
+    const t = document.createElement("template");
+    t.innerHTML = html;
+    return isSVG ? t.content.firstChild.firstChild : t.content.firstChild;
+  };
+  const fn = isCE ? () => untrack(() => document.importNode(node || (node = create()), true)) : () => (node || (node = create())).cloneNode(true);
+  fn.cloneNode = fn;
+  return fn;
 }
 function delegateEvents(eventNames, document2 = window.document) {
   const e = document2[$$EVENTS] || (document2[$$EVENTS] = /* @__PURE__ */ new Set());
@@ -976,17 +1013,8 @@ function eventHandler(e) {
       return node || document;
     }
   });
-  if (sharedConfig.registry && !sharedConfig.done) {
-    sharedConfig.done = true;
-    document.querySelectorAll("[id^=pl-]").forEach((elem) => {
-      while (elem && elem.nodeType !== 8 && elem.nodeValue !== "pl-" + e) {
-        let x = elem.nextSibling;
-        elem.remove();
-        elem = x;
-      }
-      elem && elem.remove();
-    });
-  }
+  if (sharedConfig.registry && !sharedConfig.done)
+    sharedConfig.done = _$HY.done = true;
   while (node) {
     const handler = node[key];
     if (handler && !node.disabled) {
@@ -999,8 +1027,18 @@ function eventHandler(e) {
   }
 }
 function insertExpression(parent, value, current, marker, unwrapArray) {
-  if (sharedConfig.context && !current)
-    current = [...parent.childNodes];
+  if (sharedConfig.context) {
+    !current && (current = [...parent.childNodes]);
+    let cleaned = [];
+    for (let i = 0; i < current.length; i++) {
+      const node = current[i];
+      if (node.nodeType === 8 && node.data.slice(0, 2) === "!$")
+        node.remove();
+      else
+        cleaned.push(node);
+    }
+    current = cleaned;
+  }
   while (typeof current === "function")
     current = current();
   if (value === current)
@@ -1066,7 +1104,7 @@ function insertExpression(parent, value, current, marker, unwrapArray) {
       appendNodes(parent, array);
     }
     current = array;
-  } else if (value instanceof Node) {
+  } else if (value.nodeType) {
     if (sharedConfig.context && value.parentNode)
       return current = multi ? [value] : value;
     if (Array.isArray(current)) {
@@ -1079,20 +1117,20 @@ function insertExpression(parent, value, current, marker, unwrapArray) {
       parent.replaceChild(value, parent.firstChild);
     current = value;
   } else
-    ;
+    console.warn(`Unrecognized value. Skipped inserting`, value);
   return current;
 }
 function normalizeIncomingArray(normalized, array, current, unwrap) {
   let dynamic = false;
   for (let i = 0, len = array.length; i < len; i++) {
-    let item = array[i], prev = current && current[i];
-    if (item instanceof Node) {
-      normalized.push(item);
-    } else if (item == null || item === true || item === false)
+    let item = array[i], prev = current && current[i], t;
+    if (item == null || item === true || item === false)
       ;
-    else if (Array.isArray(item)) {
+    else if ((t = typeof item) === "object" && item.nodeType) {
+      normalized.push(item);
+    } else if (Array.isArray(item)) {
       dynamic = normalizeIncomingArray(normalized, item, prev) || dynamic;
-    } else if (typeof item === "function") {
+    } else if (t === "function") {
       if (unwrap) {
         while (typeof item === "function")
           item = item();
@@ -1103,9 +1141,9 @@ function normalizeIncomingArray(normalized, array, current, unwrap) {
       }
     } else {
       const value = String(item);
-      if (prev && prev.nodeType === 3 && prev.data === value) {
+      if (prev && prev.nodeType === 3 && prev.data === value)
         normalized.push(prev);
-      } else
+      else
         normalized.push(document.createTextNode(value));
     }
   }
@@ -1298,13 +1336,13 @@ function cleanData(data, settings) {
 }
 function normalise(entries) {
   return entries.map(([key, value]) => {
-    if (key.toLocaleLowerCase() == "tags") {
-      return [key, normaliseTags(value)];
+    if (["tags", "aliases"].includes(key.toLocaleLowerCase())) {
+      return [key, normaliseSpuriousArray(value)];
     }
     return [key, value];
   });
 }
-function normaliseTags(data) {
+function normaliseSpuriousArray(data) {
   if (data == null) {
     return [];
   }
@@ -1367,8 +1405,8 @@ function MixtureProvider(props) {
 var import_obsidian4 = require("obsidian");
 
 // src/components/List.tsx
-var _tmpl$ = /* @__PURE__ */ template(`<ul></ul>`, 2);
-var _tmpl$2 = /* @__PURE__ */ template(`<li></li>`, 2);
+var _tmpl$ = /* @__PURE__ */ template(`<ul>`);
+var _tmpl$2 = /* @__PURE__ */ template(`<li>`);
 function List(props) {
   const name = `list-${props.key}`;
   return createComponent(Show, {
@@ -1376,7 +1414,7 @@ function List(props) {
       return props.value.length > 0;
     },
     get children() {
-      const _el$ = _tmpl$.cloneNode(true);
+      const _el$ = _tmpl$();
       className(_el$, `list ${name}`);
       setAttribute(_el$, "part", `list ${name}`);
       insert(_el$, createComponent(For, {
@@ -1384,7 +1422,7 @@ function List(props) {
           return props.value;
         },
         children: (item, index) => (() => {
-          const _el$2 = _tmpl$2.cloneNode(true);
+          const _el$2 = _tmpl$2();
           insert(_el$2, () => createComponent(Value, {
             get key() {
               return props.key;
@@ -1412,12 +1450,12 @@ function List(props) {
 }
 
 // src/components/Member.tsx
-var _tmpl$3 = /* @__PURE__ */ template(`<td class="value" part="value"></td>`, 2);
-var _tmpl$22 = /* @__PURE__ */ template(`<th class="key" part="key"></th>`, 2);
-var _tmpl$32 = /* @__PURE__ */ template(`<tr class="member" part="member"></tr>`, 2);
-var _tmpl$4 = /* @__PURE__ */ template(`<p class="parse-error">Error: </p>`, 2);
-var _tmpl$5 = /* @__PURE__ */ template(`<th class="key toggle" role="button" tabindex="0"><span></span></th>`, 4);
-var _tmpl$6 = /* @__PURE__ */ template(`<div class="marker" part="marker"></div>`, 2);
+var _tmpl$3 = /* @__PURE__ */ template(`<td class="value" part="value">`);
+var _tmpl$22 = /* @__PURE__ */ template(`<th class="key" part="key">`);
+var _tmpl$32 = /* @__PURE__ */ template(`<tr class="member" part="member">`);
+var _tmpl$4 = /* @__PURE__ */ template(`<p class="parse-error">Error: `);
+var _tmpl$5 = /* @__PURE__ */ template(`<th class="key toggle" role="button" tabindex="0"><span>`);
+var _tmpl$6 = /* @__PURE__ */ template(`<div class="marker" part="marker">`);
 function Member(props) {
   const {
     cleanData: cleanData2,
@@ -1431,7 +1469,7 @@ function Member(props) {
   const depth = () => props.depth + 1;
   return createComponent(ErrorBoundary, {
     fallback: (error) => (() => {
-      const _el$5 = _tmpl$4.cloneNode(true), _el$6 = _el$5.firstChild;
+      const _el$5 = _tmpl$4(), _el$6 = _el$5.firstChild;
       insert(_el$5, error, null);
       return _el$5;
     })(),
@@ -1441,7 +1479,7 @@ function Member(props) {
           return !(isEmptyValue(data()) && settings.ignoreNulls);
         },
         get children() {
-          const _el$ = _tmpl$32.cloneNode(true);
+          const _el$ = _tmpl$32();
           insert(_el$, createComponent(Switch, {
             get children() {
               return [createComponent(Match, {
@@ -1460,7 +1498,7 @@ function Member(props) {
                       return props.key;
                     }
                   }), (() => {
-                    const _el$2 = _tmpl$3.cloneNode(true);
+                    const _el$2 = _tmpl$3();
                     insert(_el$2, createComponent(Value, {
                       get key() {
                         return props.key;
@@ -1483,12 +1521,12 @@ function Member(props) {
                 },
                 get children() {
                   return [(() => {
-                    const _el$3 = _tmpl$22.cloneNode(true);
+                    const _el$3 = _tmpl$22();
                     insert(_el$3, () => props.key);
                     createRenderEffect(() => setAttribute(_el$3, "title", props.key));
                     return _el$3;
                   })(), (() => {
-                    const _el$4 = _tmpl$3.cloneNode(true);
+                    const _el$4 = _tmpl$3();
                     insert(_el$4, createComponent(Value, {
                       get key() {
                         return props.key;
@@ -1528,7 +1566,7 @@ function Key(props) {
     }
   };
   return (() => {
-    const _el$7 = _tmpl$5.cloneNode(true), _el$8 = _el$7.firstChild;
+    const _el$7 = _tmpl$5(), _el$8 = _el$7.firstChild;
     _el$7.$$keydown = keyHandler;
     _el$7.$$click = clickHandler;
     insert(_el$8, () => props.children);
@@ -1549,16 +1587,16 @@ function Key(props) {
   })();
 }
 function Marker() {
-  return _tmpl$6.cloneNode(true);
+  return _tmpl$6();
 }
 delegateEvents(["click", "keydown"]);
 
 // src/components/Set.tsx
-var _tmpl$7 = /* @__PURE__ */ template(`<table></table>`, 2);
+var _tmpl$7 = /* @__PURE__ */ template(`<table>`);
 function Set2(props) {
   const name = `set-${props.key}`;
   return (() => {
-    const _el$ = _tmpl$7.cloneNode(true);
+    const _el$ = _tmpl$7();
     className(_el$, `set ${name}`);
     setAttribute(_el$, "part", `set ${name}`);
     insert(_el$, createComponent(For, {
@@ -1581,7 +1619,7 @@ function Set2(props) {
 }
 
 // src/components/Tag.tsx
-var _tmpl$8 = /* @__PURE__ */ template(`<a class="tag" target="_blank" rel="noopener"></a>`, 2);
+var _tmpl$8 = /* @__PURE__ */ template(`<a class="tag" target="_blank" rel="noopener">`);
 function Tag(props) {
   const {
     openTag
@@ -1594,7 +1632,7 @@ function Tag(props) {
     openTag(trigger.getAttribute("href"));
   };
   return (() => {
-    const _el$ = _tmpl$8.cloneNode(true);
+    const _el$ = _tmpl$8();
     _el$.$$click = clickHandler;
     insert(_el$, () => props.value);
     createRenderEffect((_p$) => {
@@ -1615,7 +1653,7 @@ delegateEvents(["click"]);
 
 // src/components/InternalLink.tsx
 var import_obsidian2 = require("obsidian");
-var _tmpl$9 = /* @__PURE__ */ template(`<a class="leaf link internal-link" part="leaf link internal-link" target="_blank" rel="noopener"></a>`, 2);
+var _tmpl$9 = /* @__PURE__ */ template(`<a class="leaf link internal-link" part="leaf link internal-link" target="_blank" rel="noopener">`);
 function InternalLink(props) {
   const value = props.value;
   return createComponent(Switch, {
@@ -1729,30 +1767,59 @@ function ObsidianLink(props) {
 function isObsidianUrl(url) {
   return url instanceof URL && url.protocol == "obsidian:";
 }
+function expandUrl(url, parent) {
+  var _a;
+  if (!url.startsWith(".") || !url.startsWith("..")) {
+    return url;
+  }
+  const parentTrail = (_a = parent == null ? void 0 : parent.split("/").filter((step) => step.length > 0)) != null ? _a : [];
+  const [relativeStep, ...trail] = url.split("/");
+  if (relativeStep === "..") {
+    parentTrail.pop();
+  }
+  return `/${parentTrail.concat(trail).join("/")}`;
+}
 function Link(props) {
+  const {
+    workspace
+  } = useMixture();
+  const [parent, setParent] = createSignal();
+  const view = () => workspace.getActiveViewOfType(import_obsidian2.MarkdownView);
+  createEffect(() => {
+    var _a, _b;
+    setParent((_b = (_a = view()) == null ? void 0 : _a.file.parent) == null ? void 0 : _b.path);
+  });
   const {
     openNote
   } = useMixture();
-  const label = props.label;
-  const url = props.url;
-  const localUrl = (0, import_obsidian2.getLinkpath)(url);
+  const label = () => props.label;
+  const url = () => decodeURIComponent(props.url);
+  const localUrl = () => (0, import_obsidian2.getLinkpath)(url());
   const clickHandler = (event) => {
     event.preventDefault();
-    openNote(event.target.dataset.href);
+    const href = event.target.dataset.href;
+    openNote(expandUrl(href, parent()));
   };
   return (() => {
-    const _el$ = _tmpl$9.cloneNode(true);
+    const _el$ = _tmpl$9();
     _el$.$$click = clickHandler;
-    setAttribute(_el$, "href", localUrl);
-    setAttribute(_el$, "data-href", localUrl);
     insert(_el$, label);
+    createRenderEffect((_p$) => {
+      const _v$ = localUrl(), _v$2 = localUrl();
+      _v$ !== _p$._v$ && setAttribute(_el$, "href", _p$._v$ = _v$);
+      _v$2 !== _p$._v$2 && setAttribute(_el$, "data-href", _p$._v$2 = _v$2);
+      return _p$;
+    }, {
+      _v$: void 0,
+      _v$2: void 0
+    });
     return _el$;
   })();
 }
 delegateEvents(["click"]);
 
 // src/components/ExternalLink.tsx
-var _tmpl$10 = /* @__PURE__ */ template(`<a class="leaf link external-link" part="leaf link external-link" target="_blank" rel="noopener"></a>`, 2);
+var _tmpl$10 = /* @__PURE__ */ template(`<a class="leaf link external-link" part="leaf link external-link" target="_blank" rel="noopener">`);
 function ExternalLink(props) {
   return createComponent(Link2, {
     get label() {
@@ -1782,7 +1849,7 @@ function Link2(props) {
   const label = props.label;
   const url = props.url;
   return (() => {
-    const _el$ = _tmpl$10.cloneNode(true);
+    const _el$ = _tmpl$10();
     setAttribute(_el$, "href", url);
     insert(_el$, label);
     return _el$;
@@ -1790,12 +1857,12 @@ function Link2(props) {
 }
 
 // src/components/Leaf.tsx
-var _tmpl$11 = /* @__PURE__ */ template(`<span class="leaf number" part="leaf number"></span>`, 2);
-var _tmpl$23 = /* @__PURE__ */ template(`<span class="leaf boolean" part="leaf boolean"></span>`, 2);
-var _tmpl$33 = /* @__PURE__ */ template(`<span class="leaf nil" part="leaf nil"></span>`, 2);
-var _tmpl$42 = /* @__PURE__ */ template(`<span class="leaf isodate" part="leaf isodate"></span>`, 2);
-var _tmpl$52 = /* @__PURE__ */ template(`<span class="leaf" part="leaf"></span>`, 2);
-var _tmpl$62 = /* @__PURE__ */ template(`<span class="leaf string" part="leaf string"></span>`, 2);
+var _tmpl$11 = /* @__PURE__ */ template(`<span class="leaf number" part="leaf number">`);
+var _tmpl$23 = /* @__PURE__ */ template(`<span class="leaf boolean" part="leaf boolean">`);
+var _tmpl$33 = /* @__PURE__ */ template(`<span class="leaf nil" part="leaf nil">`);
+var _tmpl$42 = /* @__PURE__ */ template(`<span class="leaf isodate" part="leaf isodate">`);
+var _tmpl$52 = /* @__PURE__ */ template(`<span class="leaf" part="leaf">`);
+var _tmpl$62 = /* @__PURE__ */ template(`<span class="leaf string" part="leaf string">`);
 var ISODATE_RE = new RegExp(/^\d{4}-\d{2}-\d{2}$/);
 var MD_LINK_RE = new RegExp(/^\[(?<label>[^\[\]]+)\]\((?<url>[^\(\)]+)\)$/);
 function Leaf(props) {
@@ -1809,14 +1876,14 @@ function Leaf(props) {
       return [createComponent(Match, {
         when: typeof value === "number",
         get children() {
-          const _el$ = _tmpl$11.cloneNode(true);
+          const _el$ = _tmpl$11();
           insert(_el$, value);
           return _el$;
         }
       }), createComponent(Match, {
         when: typeof value === "boolean",
         get children() {
-          const _el$2 = _tmpl$23.cloneNode(true);
+          const _el$2 = _tmpl$23();
           insert(_el$2, () => value.toString());
           return _el$2;
         }
@@ -1832,7 +1899,7 @@ function Leaf(props) {
           return value === settings.nullValue;
         },
         get children() {
-          const _el$3 = _tmpl$33.cloneNode(true);
+          const _el$3 = _tmpl$33();
           insert(_el$3, value);
           return _el$3;
         }
@@ -1841,7 +1908,7 @@ function Leaf(props) {
           return ISODATE_RE.test(value.trim());
         },
         get children() {
-          const _el$4 = _tmpl$42.cloneNode(true);
+          const _el$4 = _tmpl$42();
           insert(_el$4, value);
           return _el$4;
         }
@@ -1856,7 +1923,7 @@ function Leaf(props) {
       }), createComponent(Match, {
         when: true,
         get children() {
-          const _el$5 = _tmpl$52.cloneNode(true);
+          const _el$5 = _tmpl$52();
           insert(_el$5, value);
           return _el$5;
         }
@@ -1903,7 +1970,7 @@ function String2(props) {
       }), createComponent(Match, {
         when: true,
         get children() {
-          const _el$6 = _tmpl$62.cloneNode(true);
+          const _el$6 = _tmpl$62();
           insert(_el$6, value);
           return _el$6;
         }
@@ -1912,31 +1979,33 @@ function String2(props) {
   });
 }
 function MarkdownLink(props) {
-  const result = props.value.match(MD_LINK_RE);
-  const {
-    label,
-    url
-  } = result.groups;
+  const groups = () => props.value.match(MD_LINK_RE).groups;
   return createComponent(Switch, {
     get children() {
       return [createComponent(Match, {
         get when() {
-          return isInternalLink(url);
-        },
-        get children() {
-          return createComponent(Link, {
-            label,
-            url
-          });
-        }
-      }), createComponent(Match, {
-        get when() {
-          return isExternalLink(url);
+          return isExternalLink(groups().url);
         },
         get children() {
           return createComponent(Link2, {
-            label,
-            url
+            get label() {
+              return groups().label;
+            },
+            get url() {
+              return groups().url;
+            }
+          });
+        }
+      }), createComponent(Match, {
+        when: true,
+        get children() {
+          return createComponent(Link, {
+            get label() {
+              return groups().label;
+            },
+            get url() {
+              return groups().url;
+            }
           });
         }
       })];
@@ -2024,7 +2093,7 @@ function Metatable(props) {
 }
 
 // src/components/ParseError.tsx
-var _tmpl$12 = /* @__PURE__ */ template(`<div class="parse-error"><p></p><pre></pre></div>`, 6);
+var _tmpl$12 = /* @__PURE__ */ template(`<div class="parse-error"><p></p><pre>`);
 function ParseError(props) {
   const message = props.message;
   const error = () => {
@@ -2035,7 +2104,7 @@ function ParseError(props) {
     };
   };
   return (() => {
-    const _el$ = _tmpl$12.cloneNode(true), _el$2 = _el$.firstChild, _el$3 = _el$2.nextSibling;
+    const _el$ = _tmpl$12(), _el$2 = _el$.firstChild, _el$3 = _el$2.nextSibling;
     insert(_el$2, () => error().message);
     insert(_el$3, () => error().trace);
     return _el$;
@@ -2090,14 +2159,14 @@ function computeState(state, seed, settings) {
 }
 
 // src/metatable.css
-var metatable_default = ':host {\n  /* global */\n  --metatable-font-family: var(--font-text, sans-serif);\n  --metatable-font-size: 14px;\n\n  /* symbols */\n  --metatable-collapsed-symbol: "\u25B6\uFE0E";\n  --metatable-expanded-symbol: "\u25BC";\n  --metatable-mark-symbol: "\u2026";\n  --metatable-tag-symbol: "";\n\n  /* palette */\n  --metatable-background-primary-alt: var(--background-primary-alt);\n  /* DEPRECATED: 0.14.0 --metatable-background */\n  --metatable-background-primary: var(--metatable-background, transparent);\n  --metatable-background-secondary: var(--background-secondary);\n  --metatable-background-secondary-alt: var(--background-secondary-alt);\n  --metatable-text-focus: inherit;\n  /* DEPRECATED: 0.14.0 --metatable-foreground */\n  --metatable-text-primary: var(--metatable-foreground, var(--text-muted));\n  --metatable-text-secondary: var(--text-normal);\n\n  --metatable-background-link: transparent;\n  --metatable-text-link: var(--text-accent);\n  --metatable-text-link-hover: var(--text-accent-hover);\n\n\n  /* part palette */\n\n  /* root */\n  --metatable-root-background: var(--metatable-background-primary);\n  --metatable-root-color: var(--metatable-text-primary);\n\n  /* summary */\n  --metatable-summary-background: transparent;\n  --metatable-summary-color: inherit;\n  --metatable-summary-background-focus: var(--metatable-background-focus);\n  --metatable-summary-color-focus: var(--metatable-text-focus);\n\n  /* set */\n  --metatable-set-background: transparent;\n  --metatable-set-color: inherit;\n\n  /** member */\n  --metatable-member-background: inherit;\n  --metatable-member-color: inherit;\n\n  /*** key */\n  --metatable-key-background: transparent;\n  --metatable-key-color: inherit;\n  /* DEPRECATED: 0.14.0 --metatable-key-focus */\n  --metatable-key-background-focus: var(--metatable-key-focus, var(--metatable-background-focus));\n  --metatable-key-color-focus: var(--metatable-text-focus);\n\n  /*** value */\n  --metatable-value-background: transparent;\n  --metatable-value-color: inherit;\n\n  /* tags */\n  --metatable-tag-background: var(--metatable-background-primary-alt);\n  --metatable-tag-color: var(--metatable-text-primary);\n  --metatable-tag-border: none;\n  --metatable-tag-background-focus: var(--metatable-background-focus);\n  --metatable-tag-color-focus: var(--metatable-text-focus);\n\n  /* links */\n  --metatable-external-link-background: var(--metatable-background-link);\n  --metatable-external-link-color: var(--metatable-text-link);\n  --metatable-external-link-background-hover: transparent;\n  --metatable-external-link-color-hover: var(--metatable-text-link-hover);\n  --metatable-external-link-background-focus: var(--metatable-background-focus);\n  --metatable-external-link-color-focus: var(--metatable-text-focus);\n  --metatable-external-link-icon: url(app://obsidian.md/public/images/874d8b8e340f75575caa.svg);\n\n  --metatable-internal-link-background: var(--metatable-background-link);\n  --metatable-internal-link-color: var(--metatable-text-link);\n  --metatable-internal-link-background-hover: transparent;\n  --metatable-internal-link-color-hover: var(--metatable-text-hover);\n  --metatable-internal-link-background-focus: var(--metatable-background-focus);\n  --metatable-internal-link-color-focus: var(--metatable-text-link-focus);\n}\n\n:host(.light) {\n  /* global */\n  --metatable-background-focus: lightyellow;\n\n  /* leafs */\n  --metatable-leaf-number-color: purple;\n  --metatable-leaf-boolean-color: slateblue;\n  --metatable-leaf-date-color: darkolivegreen;\n  --metatable-leaf-nil-color: inherit;\n\n  /* warning */\n  --metatable-warning-background: lightgoldenrodyellow;\n  --metatable-warning-foreground: brown;\n  --metatable-warning-border: 2px solid palegoldenrod;\n}\n\n:host(.dark) {\n  --metatable-background-focus: black;\n  --metatable-text-focus: orange;\n\n  /* leafs */\n  --metatable-leaf-number-color: lightpink;\n  --metatable-leaf-boolean-color: lightskyblue;\n  --metatable-leaf-date-color: darkseagreen;\n  --metatable-leaf-nil-color: inherit;\n\n  /* tags */\n  --metatable-tag-background: black;\n\n  /* links */\n  --metatable-warning-background: transparent;\n  --metatable-warning-color: gold;\n  --metatable-warning-border: 2px solid palegoldenrod;\n}\n\n\n:host(.light.obsidian-metatable-sidebar) {\n  --metatable-tag-background: var(--metatable-background-secondary-alt);\n}\n\n\n* {\n  box-sizing: border-box;\n}\n\n.root {\n  background: var(--metatable-root-background);\n  color: var(--metatable-root-color);\n  font-family: var(--metatable-font-family);\n  font-size: var(--metatable-font-size);\n\n  user-select: text;\n}\n\n.metatable-sidebar {\n  font-size: calc(var(--metatable-font-size) - 1px);\n}\n.metatable-sidebar.root {\n  margin: 10px;\n}\n\ndetails {\n  margin-bottom: 20px;\n}\n\nsummary {\n  background: var(--metatable-summary-background);\n  color: var(--metatable-summary-color);\n\n  cursor: pointer;\n\n  display: grid;\n  grid-gap: 4px;\n  grid-template-columns: 10px auto;\n}\n\nsummary::before {\n  display: block;\n  font-size: 10px;\n  padding-top: 4px;\n  content: var(--metatable-collapsed-symbol);\n}\n\ndetails[open] summary::before {\n  padding-top: 5px;\n  content: var(--metatable-expanded-symbol);\n}\n\nsummary:focus,\nsummary:focus-visible {\n  background: var(--metatable-summary-background-focus);\n\n  outline: none;\n}\n\nsummary + * {\n  margin-top: 20px;\n}\n\n.metatable-sidebar > .summary {\n  font-size: var(--font-text-size, 1.2rem);\n  margin-top: 0;\n}\n\n\n.set {\n  background: var(--metatable-set-background);\n  color: var(--metatable-set-color);\n\n  display: grid;\n  grid-gap: 2px;\n}\n\n.member {\n  background: var(--metatable-member-background);\n  color: var(--metatable-member-color);\n\n  grid-gap: 2px;\n  display: grid;\n  grid-template-areas: "key value";\n  grid-template-columns: minmax(0, 2fr) minmax(0, 4fr);\n}\n\n.member:nth-child(even) {\n  background: var(--metatable-background-alt);\n}\n\n.tight .member {\n  display: block;\n}\n\n.member .key {\n  background: var(--metatable-key-background);\n  color: var(--metatable-key-color);\n\n  display: block;\n  font-weight: 600;\n  overflow: hidden;\n  padding: 2px 4px;\n  text-align: left;\n  text-overflow: ellipsis;\n}\n\n.key > span {\n  display: block;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n\n.member .key.toggle {\n  display: grid;\n  grid-area: key;\n  grid-gap: 4px;\n  grid-template-columns: 10px auto;\n}\n\n.member .key[role=button] {\n  cursor: pointer;\n}\n\n.member .key:focus,\n.member .key:focus-visible {\n  background: var(--metatable-key-background-focus);\n  color: var(--metatable-key-color-focus);\n\n  outline: none;\n}\n\n.key[aria-expanded]::before {\n  font-size: 8px;\n  padding-top: 6px;\n}\n\n.key[aria-expanded=true]::before {\n  padding-top: 7px;\n}\n\n.metatable-sidebar .key[aria-expanded]::before {\n  padding-top: 1px;\n}\n\n.metatable-sidebar .key[aria-expanded=true]::before {\n  padding-top: 2px;\n}\n\n.key[aria-expanded=true]::before {\n  content: var(--metatable-expanded-symbol);\n}\n\n.key[aria-expanded=false]::before {\n  content: var(--metatable-collapsed-symbol);\n}\n\n.key[aria-expanded=false] + .value > :first-child {\n  display: none;\n}\n\n.key[aria-expanded=false] + .value > .marker::after {\n  content: var(--metatable-mark-symbol);\n\n  display: block;\n  padding-top: 2px;\n}\n\n.member .value {\n  background: var(--metatable-value-background);\n  color: var(--metatable-value-color);\n\n  display: block;\n  grid-area: value;\n  margin: 0;\n  overflow: auto;\n  padding: 2px 4px;\n}\n\n.tight .member .value {\n  margin-left: 16px;\n}\n\n.member .toggle + .value {\n  padding: 0;\n}\n\n.list {\n  margin: 0;\n  padding: 0 0 0 16px;\n}\n\n.list-item {\n  margin-left: 1rem;\n}\n\n/* warning */\n.parse-error {\n  background: var(--metatable-warning-background);\n  color: var(--metatable-warning-color);\n  border: var(--metatable-warning-border);\n\n  margin: 0;\n  padding: 8px;\n}\n\n.parse-error p {\n  margin-top: 0;\n}\n\n\n/* Leafs */\n.number {\n  color: var(--metatable-leaf-number-color);\n}\n\n.boolean {\n  color: var(--metatable-leaf-boolean-color);\n}\n\n.isodate {\n  color: var(--metatable-leaf-date-color);\n}\n\n.nil {\n  color: var(--metatable-leaf-nil-color);\n}\n\n\n/* links */\n.external-link {\n  background: var(--metatable-external-link-background);\n  color: var(--metatable-external-link-color);\n\n  display: inline-block;\n  white-space: nowrap;\n}\n\n.external-link::after {\n  content: var(--metatable-external-link-icon);\n\n  display: inline-block;\n  margin-left: 0.3rem;\n  vertical-align: sub;\n}\n\n.external-link:hover {\n  background: var(--metatable-external-link-background-hover);\n  color: var(--metatable-external-link-color-hover);\n}\n\n.external-link:focus, .external-link:focus-visible {\n  background: var(--metatable-internal-link-background-focus);\n  color: var(--metatable-internal-link-color-focus);\n}\n\n.internal-link {\n  background: var(--metatable-internal-link-background);\n  color: var(--metatable-internal-link-color);\n\n  display: inline-block;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  max-width: 450px;\n  white-space: nowrap;\n}\n\n.internal-link:hover {\n  background: var(--metatable-internal-link-background-hover);\n  color: var(--metatable-internal-link-color-hover);\n}\n\n.internal-link:focus, .internal-link:focus-visible {\n  background: var(--metatable-internal-link-background-focus);\n  color: var(--metatable-internal-link-color-focus);\n}\n\n\n/* tags */\n.value .list-tags {\n  padding: 2px 0 0 0;\n}\n\n.list-tags li {\n  display: inline-block;\n  margin: 0 4px 4px 0;\n}\n\n.tag {\n  background: var(--metatable-tag-background);\n  color: var(--metatable-tag-color);\n  border: var(--metatable-tag-border);\n\n  display: block;\n  border-radius: 16px;\n  margin: 0;\n  padding: 0 10px;\n  text-decoration: none;\n}\n\n.tag::before {\n  content: var(--metatable-tag-symbol);\n}\n\n.tag:hover {\n  filter: brightness(0.8);\n}\n\n.tag:focus, .external-link:focus, .internal-link:focus {\n  outline: none;\n}\n\n.tag:focus-visible, .external-link:focus-visible, .internal-link:focus-visible {\n  background: var(--metatable-tag-background-focus);\n  color: var(--metatable-tag-color-focus);\n\n  outline: none;\n}\n\n\n\n.pane-empty {\n  color: var(--metadata-text-primary);\n  font-size: 16px;\n  margin: 6px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n';
+var metatable_default = ':host {\n  /* global */\n  --metatable-font-family: var(--font-text, sans-serif);\n  --metatable-font-size: 14px;\n\n  /* symbols */\n  --metatable-collapsed-symbol: "\u25B6\uFE0E";\n  --metatable-expanded-symbol: "\u25BC";\n  --metatable-mark-symbol: "\u2026";\n  --metatable-tag-symbol: "";\n  --metatable-alias-symbol: "\u2021";\n\n  /* palette */\n  --metatable-background-primary-alt: var(--background-primary-alt);\n  /* DEPRECATED: 0.14.0 --metatable-background */\n  --metatable-background-primary: var(--metatable-background, transparent);\n  --metatable-background-secondary: var(--background-secondary);\n  --metatable-background-secondary-alt: var(--background-secondary-alt);\n  --metatable-text-focus: inherit;\n  /* DEPRECATED: 0.14.0 --metatable-foreground */\n  --metatable-text-primary: var(--metatable-foreground, var(--text-muted));\n  --metatable-text-secondary: var(--text-normal);\n\n  --metatable-background-link: transparent;\n  --metatable-text-link: var(--text-accent);\n  --metatable-text-link-hover: var(--text-accent-hover);\n\n\n  /* part palette */\n\n  /* root */\n  --metatable-root-background: var(--metatable-background-primary);\n  --metatable-root-color: var(--metatable-text-primary);\n\n  /* set */\n  --metatable-set-background: transparent;\n  --metatable-set-color: inherit;\n\n  /** member */\n  --metatable-member-background: inherit;\n  --metatable-member-color: inherit;\n\n  /*** key */\n  --metatable-key-background: transparent;\n  --metatable-key-color: inherit;\n  /* DEPRECATED: 0.14.0 --metatable-key-focus */\n  --metatable-key-background-focus: var(--metatable-key-focus, var(--metatable-background-focus));\n  --metatable-key-color-focus: var(--metatable-text-focus);\n\n  /*** value */\n  --metatable-value-background: transparent;\n  --metatable-value-color: inherit;\n\n  /* tags */\n  --metatable-tag-background: var(--metatable-background-primary-alt);\n  --metatable-tag-color: var(--metatable-text-primary);\n  --metatable-tag-border: none;\n  --metatable-tag-background-focus: var(--metatable-background-focus);\n  --metatable-tag-color-focus: var(--metatable-text-focus);\n\n  /* aliases */\n  --metatable-alias-color: var(--text-muted);\n\n  /* links */\n  --metatable-external-link-background: var(--metatable-background-link);\n  --metatable-external-link-color: var(--metatable-text-link);\n  --metatable-external-link-background-hover: transparent;\n  --metatable-external-link-color-hover: var(--metatable-text-link-hover);\n  --metatable-external-link-background-focus: var(--metatable-background-focus);\n  --metatable-external-link-color-focus: var(--metatable-text-focus);\n  --metatable-external-link-icon: url(app://obsidian.md/public/images/874d8b8e340f75575caa.svg);\n\n  --metatable-internal-link-background: var(--metatable-background-link);\n  --metatable-internal-link-color: var(--metatable-text-link);\n  --metatable-internal-link-background-hover: transparent;\n  --metatable-internal-link-color-hover: var(--metatable-text-hover);\n  --metatable-internal-link-background-focus: var(--metatable-background-focus);\n  --metatable-internal-link-color-focus: var(--metatable-text-link-focus);\n}\n\n:host(.light) {\n  /* global */\n  --metatable-background-focus: lightyellow;\n\n  /* leafs */\n  --metatable-leaf-number-color: purple;\n  --metatable-leaf-boolean-color: slateblue;\n  --metatable-leaf-date-color: darkolivegreen;\n  --metatable-leaf-nil-color: inherit;\n\n  /* warning */\n  --metatable-warning-background: lightgoldenrodyellow;\n  --metatable-warning-foreground: brown;\n  --metatable-warning-border: 2px solid palegoldenrod;\n}\n\n:host(.dark) {\n  --metatable-background-focus: black;\n  --metatable-text-focus: orange;\n\n  /* leafs */\n  --metatable-leaf-number-color: lightpink;\n  --metatable-leaf-boolean-color: lightskyblue;\n  --metatable-leaf-date-color: darkseagreen;\n  --metatable-leaf-nil-color: inherit;\n\n  /* tags */\n  --metatable-tag-background: black;\n\n  /* aliases */\n  --metatable-alias-background: black;\n\n  /* links */\n  --metatable-warning-background: transparent;\n  --metatable-warning-color: gold;\n  --metatable-warning-border: 2px solid palegoldenrod;\n}\n\n\n:host(.light.obsidian-metatable-sidebar) {\n  --metatable-tag-background: var(--metatable-background-secondary-alt);\n}\n\n\n* {\n  box-sizing: border-box;\n}\n\n.root {\n  background: var(--metatable-root-background);\n  color: var(--metatable-root-color);\n  font-family: var(--metatable-font-family);\n  font-size: var(--metatable-font-size);\n\n  user-select: text;\n}\n\n.metatable-sidebar {\n  font-size: calc(var(--metatable-font-size) - 1px);\n}\n\n.metatable-sidebar.root {\n  margin: 10px;\n}\n\ndetails {\n  margin-bottom: 20px;\n}\n\nsummary+* {\n  margin-top: 10px;\n}\n\n.metatable-sidebar>.summary {\n  font-size: var(--font-text-size, 1.2rem);\n  margin-top: 0;\n}\n\n\n.set {\n  background: var(--metatable-set-background);\n  color: var(--metatable-set-color);\n\n  display: grid;\n  grid-gap: 2px;\n}\n\n.member {\n  background: var(--metatable-member-background);\n  color: var(--metatable-member-color);\n\n  grid-gap: 2px;\n  display: grid;\n  grid-template-areas: "key value";\n  grid-template-columns: minmax(0, 2fr) minmax(0, 4fr);\n}\n\n.member:nth-child(even) {\n  background: var(--metatable-background-alt);\n}\n\n.tight .member {\n  display: block;\n}\n\n.member .key {\n  background: var(--metatable-key-background);\n  color: var(--metatable-key-color);\n\n  display: block;\n  font-weight: 600;\n  overflow: hidden;\n  padding: 2px 4px;\n  text-align: left;\n  text-overflow: ellipsis;\n}\n\n.key>span {\n  display: block;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n\n.member .key.toggle {\n  display: grid;\n  grid-area: key;\n  grid-gap: 4px;\n  grid-template-columns: 10px auto;\n}\n\n.member .key[role=button] {\n  cursor: pointer;\n}\n\n.member .key:focus,\n.member .key:focus-visible {\n  background: var(--metatable-key-background-focus);\n  color: var(--metatable-key-color-focus);\n\n  outline: none;\n}\n\n.key[aria-expanded]::before {\n  font-size: 8px;\n  padding-top: 5px;\n}\n\n.key[aria-expanded=true]::before {\n  padding-top: 5px;\n}\n\n.metatable-sidebar .key[aria-expanded]::before {\n  padding-top: 4px;\n}\n\n.metatable-sidebar .key[aria-expanded=true]::before {\n  padding-top: 4px;\n}\n\n.key[aria-expanded=true]::before {\n  content: var(--metatable-expanded-symbol);\n}\n\n.key[aria-expanded=false]::before {\n  content: var(--metatable-collapsed-symbol);\n}\n\n.key[aria-expanded=false]+.value> :first-child {\n  display: none;\n}\n\n.key[aria-expanded=false]+.value>.marker::after {\n  content: var(--metatable-mark-symbol);\n\n  display: block;\n  padding-top: 2px;\n}\n\n.member .value {\n  background: var(--metatable-value-background);\n  color: var(--metatable-value-color);\n\n  display: block;\n  grid-area: value;\n  margin: 0;\n  overflow: auto;\n  padding: 2px 4px;\n}\n\n.tight .member .value {\n  margin-left: 16px;\n}\n\n.member .toggle+.value {\n  padding: 0;\n}\n\n.list {\n  margin: 0;\n  padding: 0 0 0 16px;\n}\n\n.list-item {\n  margin-left: 1rem;\n}\n\n/* warning */\n.parse-error {\n  background: var(--metatable-warning-background);\n  color: var(--metatable-warning-color);\n  border: var(--metatable-warning-border);\n\n  margin: 0;\n  padding: 8px;\n}\n\n.parse-error p {\n  margin-top: 0;\n}\n\n\n/* Leafs */\n.number {\n  color: var(--metatable-leaf-number-color);\n}\n\n.boolean {\n  color: var(--metatable-leaf-boolean-color);\n}\n\n.isodate {\n  color: var(--metatable-leaf-date-color);\n}\n\n.nil {\n  color: var(--metatable-leaf-nil-color);\n}\n\n\n/* links */\n.external-link {\n  background: var(--metatable-external-link-background);\n  color: var(--metatable-external-link-color);\n\n  display: inline-block;\n  white-space: nowrap;\n}\n\n.external-link::after {\n  content: var(--metatable-external-link-icon);\n\n  display: inline-block;\n  margin-left: 0.3rem;\n  vertical-align: sub;\n}\n\n.external-link:hover {\n  background: var(--metatable-external-link-background-hover);\n  color: var(--metatable-external-link-color-hover);\n}\n\n.external-link:focus,\n.external-link:focus-visible {\n  background: var(--metatable-internal-link-background-focus);\n  color: var(--metatable-internal-link-color-focus);\n}\n\n.internal-link {\n  background: var(--metatable-internal-link-background);\n  color: var(--metatable-internal-link-color);\n\n  display: inline-block;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  max-width: 450px;\n  white-space: nowrap;\n}\n\n.internal-link:hover {\n  background: var(--metatable-internal-link-background-hover);\n  color: var(--metatable-internal-link-color-hover);\n}\n\n.internal-link:focus,\n.internal-link:focus-visible {\n  background: var(--metatable-internal-link-background-focus);\n  color: var(--metatable-internal-link-color-focus);\n}\n\n\n/* tags */\n.value .list-tags {\n  padding: 2px 0 0 0;\n}\n\n.list-tags li {\n  display: inline-block;\n  margin: 0 4px 4px 0;\n}\n\n.tag {\n  background: var(--metatable-tag-background);\n  color: var(--metatable-tag-color);\n  border: var(--metatable-tag-border);\n\n  display: block;\n  border-radius: 16px;\n  margin: 0;\n  padding: 0 10px;\n  text-decoration: none;\n}\n\n.tag::before {\n  content: var(--metatable-tag-symbol);\n}\n\n.tag:hover {\n  filter: brightness(0.8);\n}\n\n.tag:focus,\n.external-link:focus,\n.internal-link:focus {\n  outline: none;\n}\n\n.tag:focus-visible,\n.external-link:focus-visible,\n.internal-link:focus-visible {\n  background: var(--metatable-tag-background-focus);\n  color: var(--metatable-tag-color-focus);\n\n  outline: none;\n}\n\n/* aliases */\n.value .list-aliases {\n  padding: 0;\n}\n\n.list-aliases li {\n  display: inline-block;\n  margin: 0 4px 4px 0;\n}\n\n.list-aliases li span {\n  text-decoration: none;\n}\n\n.list-aliases li::before {\n  content: var(--metatable-alias-symbol);\n  color: var(--metatable-alias-color);\n}\n\n.pane-empty {\n  color: var(--metadata-text-primary);\n  font-size: 16px;\n  margin: 6px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n';
 
 // src/components/Sidebar.tsx
-var _tmpl$13 = /* @__PURE__ */ template(`<style></style>`, 2);
-var _tmpl$24 = /* @__PURE__ */ template(`<h1 part="summary">Metadata for \u201C<!>\u201D</h1>`, 3);
-var _tmpl$34 = /* @__PURE__ */ template(`<section part="root"></section>`, 2);
-var _tmpl$43 = /* @__PURE__ */ template(`<p class="pane-empty">No markdown files active.</p>`, 2);
-var _tmpl$53 = /* @__PURE__ */ template(`<p>(empty)</p>`, 2);
+var _tmpl$13 = /* @__PURE__ */ template(`<style>`);
+var _tmpl$24 = /* @__PURE__ */ template(`<h1 part="summary">Metadata for \u201C<!>\u201D`);
+var _tmpl$34 = /* @__PURE__ */ template(`<section part="root">`);
+var _tmpl$43 = /* @__PURE__ */ template(`<p class="pane-empty">No markdown files active.`);
+var _tmpl$53 = /* @__PURE__ */ template(`<p>(empty)`);
 function Sidebar() {
   const {
     workspace,
@@ -2141,12 +2210,12 @@ function Sidebar() {
   return [createComponent(Show, {
     when: !isNaked,
     get children() {
-      const _el$ = _tmpl$13.cloneNode(true);
+      const _el$ = _tmpl$13();
       insert(_el$, metatable_default);
       return _el$;
     }
   }), (() => {
-    const _el$2 = _tmpl$34.cloneNode(true);
+    const _el$2 = _tmpl$34();
     const _ref$ = root;
     typeof _ref$ === "function" ? use(_ref$, _el$2) : root = _el$2;
     insert(_el$2, createComponent(Show, {
@@ -2154,16 +2223,16 @@ function Sidebar() {
         return state().name !== void 0;
       },
       get fallback() {
-        return _tmpl$43.cloneNode(true);
+        return _tmpl$43();
       },
       get children() {
         return [(() => {
-          const _el$3 = _tmpl$24.cloneNode(true), _el$4 = _el$3.firstChild, _el$6 = _el$4.nextSibling, _el$5 = _el$6.nextSibling;
+          const _el$3 = _tmpl$24(), _el$4 = _el$3.firstChild, _el$6 = _el$4.nextSibling, _el$5 = _el$6.nextSibling;
           insert(_el$3, () => state().name, _el$6);
           return _el$3;
         })(), createComponent(Switch, {
           get fallback() {
-            return _tmpl$53.cloneNode(true);
+            return _tmpl$53();
           },
           get children() {
             return [createComponent(Match, {
@@ -2248,8 +2317,8 @@ var SidebarView = class extends import_obsidian5.ItemView {
 };
 
 // src/components/Inline.tsx
-var _tmpl$14 = /* @__PURE__ */ template(`<style></style>`, 2);
-var _tmpl$25 = /* @__PURE__ */ template(`<details class="metatable root" part="root"><summary part="summary">Metatable</summary></details>`, 4);
+var _tmpl$14 = /* @__PURE__ */ template(`<style>`);
+var _tmpl$25 = /* @__PURE__ */ template(`<details class="metatable root" part="root"><summary part="summary">Metatable`);
 function Inline(props) {
   let {
     settings,
@@ -2267,7 +2336,7 @@ function Inline(props) {
       return !settings.naked;
     },
     get children() {
-      const _el$ = _tmpl$14.cloneNode(true);
+      const _el$ = _tmpl$14();
       insert(_el$, metatable_default);
       return _el$;
     }
@@ -2283,7 +2352,7 @@ function Inline(props) {
       }), createComponent(Match, {
         when: metadata !== void 0,
         get children() {
-          const _el$2 = _tmpl$25.cloneNode(true), _el$3 = _el$2.firstChild;
+          const _el$2 = _tmpl$25(), _el$3 = _el$2.firstChild;
           insert(_el$2, createComponent(Metatable, {
             data: metadata
           }), null);

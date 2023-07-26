@@ -3460,7 +3460,7 @@ var require_lodash = __commonJS({
           comparator = typeof comparator == "function" ? comparator : undefined2;
           return baseUniq(baseFlatten(arrays, 1, isArrayLikeObject, true), undefined2, comparator);
         });
-        function uniq3(array) {
+        function uniq4(array) {
           return array && array.length ? baseUniq(array) : [];
         }
         function uniqBy(array, iteratee2) {
@@ -5122,7 +5122,7 @@ var require_lodash = __commonJS({
         lodash.union = union;
         lodash.unionBy = unionBy;
         lodash.unionWith = unionWith;
-        lodash.uniq = uniq3;
+        lodash.uniq = uniq4;
         lodash.uniqBy = uniqBy;
         lodash.uniqWith = uniqWith;
         lodash.unset = unset;
@@ -10605,6 +10605,15 @@ var TooltipViewManager = class {
     this.tooltipViews = this.tooltips.map(createTooltipView);
   }
   update(update) {
+    if (update.focusChanged && !update.view.hasFocus) {
+      let input2 = update.state.facet(this.facet);
+      for (let t4 of this.tooltipViews)
+        t4.dom.remove();
+      this.input = input2;
+      this.tooltips = [];
+      this.tooltipViews = [];
+      return true;
+    }
     let input = update.state.facet(this.facet);
     let tooltips2 = input.filter((x5) => x5);
     if (input === this.input) {
@@ -12108,7 +12117,7 @@ var calloutField = import_state2.StateField.define({
     return import_view2.Decoration.none;
   },
   update(value, tr) {
-    if (tr.state.field(flowTypeStateField) != "doc") {
+    if (tr.state.field(flowTypeStateField, false) != "doc") {
       return value;
     }
     let builder = new import_state2.RangeSetBuilder();
@@ -22692,14 +22701,14 @@ var combinedRangeFacets = (rangeA, rangeB) => {
 };
 var editableRange = import_state3.Annotation.define();
 var contentRange = import_state3.Annotation.define();
-var hiddenLine = import_view3.Decoration.replace({ inclusive: true });
+var hiddenLine = import_view3.Decoration.replace({ inclusive: true, block: true });
 var hideLine = import_state3.StateField.define({
   create() {
     return import_view3.Decoration.none;
   },
   update(value, tr) {
     let builder = new import_state3.RangeSetBuilder();
-    const betterFacet = combinedRangeFacets(tr.state.field(selectiveLinesFacet), tr.state.field(frontmatterFacet));
+    const betterFacet = combinedRangeFacets(tr.state.field(selectiveLinesFacet, false), tr.state.field(frontmatterFacet, false));
     if ((betterFacet == null ? void 0 : betterFacet[0]) != null) {
       const starterLine = Math.min(
         tr.state.doc.lines,
@@ -22707,16 +22716,17 @@ var hideLine = import_state3.StateField.define({
       );
       builder.add(
         tr.state.doc.line(1).from,
-        tr.state.doc.line(starterLine).from,
+        tr.state.doc.line(starterLine).from - 1,
         hiddenLine
       );
-      builder.add(
-        tr.state.doc.line(
-          Math.min(tr.newDoc.lines, betterFacet[1])
-        ).to,
-        tr.state.doc.line(tr.newDoc.lines).to,
-        hiddenLine
-      );
+      if (tr.newDoc.lines != betterFacet[1])
+        builder.add(
+          tr.state.doc.line(
+            Math.min(tr.newDoc.lines, betterFacet[1])
+          ).to,
+          tr.state.doc.line(tr.newDoc.lines).to,
+          hiddenLine
+        );
     }
     const dec = builder.finish();
     return dec;
@@ -22761,28 +22771,30 @@ var lineRangeToPosRange = (state, range) => {
 };
 var smartDelete = import_state3.EditorState.transactionFilter.of(
   (tr) => {
-    if (tr.isUserEvent("delete") && !tr.isUserEvent("delete.smart")) {
+    if (tr.isUserEvent("delete") && !tr.annotation(import_state3.Transaction.userEvent).endsWith(".smart")) {
       const initialSelections = tr.startState.selection.ranges.map((range) => ({
         from: range.from,
         to: range.to
       }));
-      const betterFacet = combinedRangeFacets(tr.startState.field(selectiveLinesFacet), tr.startState.field(frontmatterFacet));
+      const betterFacet = combinedRangeFacets(tr.startState.field(selectiveLinesFacet, false), tr.startState.field(frontmatterFacet, false));
       if (initialSelections.length > 0 && (betterFacet == null ? void 0 : betterFacet[0])) {
         const posRange = lineRangeToPosRange(
           tr.startState,
           betterFacet
         );
-        const minFrom = Math.max(posRange.from, initialSelections[0].from);
-        const minTo = Math.min(posRange.to, initialSelections[0].to);
-        tr.startState.update({
-          changes: {
-            from: Math.min(minFrom, minTo),
-            to: Math.max(minFrom, minTo)
-          },
-          annotations: import_state3.Transaction.userEvent.of(
-            `${tr.annotation(import_state3.Transaction.userEvent)}.smart`
-          )
-        });
+        if (tr.changes.touchesRange(0, posRange.from - 1)) {
+          const minFrom = Math.max(posRange.from, initialSelections[0].from);
+          const minTo = Math.min(posRange.to, initialSelections[0].to);
+          return [{
+            changes: {
+              from: Math.min(minFrom, minTo),
+              to: Math.max(minFrom, minTo)
+            },
+            annotations: import_state3.Transaction.userEvent.of(
+              `${tr.annotation(import_state3.Transaction.userEvent)}.smart`
+            )
+          }];
+        }
       }
     }
     return tr;
@@ -22792,14 +22804,16 @@ var preventModifyTargetRanges = import_state3.EditorState.transactionFilter.of(
   (tr) => {
     let newTrans = [];
     try {
-      const selectiveLines = combinedRangeFacets(tr.startState.field(selectiveLinesFacet), tr.startState.field(frontmatterFacet));
+      const editableLines = tr.startState.field(selectiveLinesFacet, false);
+      const contentLines = tr.startState.field(frontmatterFacet, false);
+      const selectiveLines = combinedRangeFacets(editableLines, contentLines);
       if (tr.isUserEvent("input") || tr.isUserEvent("delete") || tr.isUserEvent("move")) {
         if (selectiveLines == null ? void 0 : selectiveLines[0]) {
           const posRange = lineRangeToPosRange(
             tr.startState,
             selectiveLines
           );
-          if (tr.changes.touchesRange(0, posRange.from - 1) || !tr.changes.touchesRange(posRange.from, posRange.to)) {
+          if (!tr.changes.touchesRange(posRange.from, posRange.to)) {
             return [];
           }
         }
@@ -22812,22 +22826,38 @@ var preventModifyTargetRanges = import_state3.EditorState.transactionFilter.of(
             selectiveLines
           );
           if (tr.changes.touchesRange(0, posRange.from - 1)) {
+            const newAnnotations = [];
+            if (editableLines[0]) {
+              newAnnotations.push(editableRange.of([
+                editableLines[0] + numberNewLines,
+                editableLines[1] + numberNewLines
+              ]));
+            }
+            if (contentLines[0]) {
+              newAnnotations.push(contentRange.of([
+                contentLines[0] + numberNewLines,
+                contentLines[1] + numberNewLines
+              ]));
+            }
             newTrans.push({
-              annotations: [
-                editableRange.of([
-                  selectiveLines[0] + numberNewLines,
-                  selectiveLines[1] + numberNewLines
-                ])
-              ]
+              annotations: newAnnotations
             });
           } else if (tr.changes.touchesRange(posRange.from - 1, posRange.to)) {
+            const newAnnotations = [];
+            if (editableLines[0]) {
+              newAnnotations.push(editableRange.of([
+                editableLines[0],
+                editableLines[1] + numberNewLines
+              ]));
+            }
+            if (contentLines[0]) {
+              newAnnotations.push(contentRange.of([
+                contentLines[0],
+                contentLines[1] + numberNewLines
+              ]));
+            }
             newTrans.push({
-              annotations: [
-                editableRange.of([
-                  selectiveLines[0],
-                  selectiveLines[1] + numberNewLines
-                ])
-              ]
+              annotations: newAnnotations
             });
           }
         }
@@ -33259,10 +33289,8 @@ var SelectMenu = Cn.forwardRef(
         const newTags = tags.filter((f4) => f4.value != removeTag);
         setSuggestions(newSuggestions);
         setTags(newTags);
-        props2.saveOptions(
-          newSuggestions.map((f4) => f4.value),
-          newTags.map((f4) => f4.value)
-        );
+        if (props2.removeOption)
+          props2.removeOption(removeTag);
         props2.hide();
       },
       [tags, suggestions, props2]
@@ -33430,6 +33458,7 @@ var disclosureMenuItem = (menuItem, multi, editable, title, value, options, save
 };
 
 // src/components/ContextView/DataTypeView/OptionCell.tsx
+var import_lodash5 = __toESM(require_lodash());
 var OptionCell = (props2) => {
   var _a2, _b2;
   const initialValue = (props2.multi ? (_a2 = parseMultiString(props2.initialValue)) != null ? _a2 : [] : [props2.initialValue]).filter((f4) => f4);
@@ -33453,6 +33482,16 @@ var OptionCell = (props2) => {
       serializeMultiString(newValues)
     );
   };
+  const removeOption = (option) => {
+    const newOptions = options.filter((f4) => f4.value != option);
+    const newValues = value.filter((f4) => f4 != option);
+    setOptions(newOptions);
+    setValue(newValues);
+    props2.saveOptions(
+      serializeMultiString(newOptions.map((f4) => f4.value)),
+      serializeMultiString(newValues)
+    );
+  };
   const saveOptions = (_options, _value) => {
     if (!props2.multi) {
       setOptions(
@@ -33464,7 +33503,7 @@ var OptionCell = (props2) => {
         serializeMultiString(_value)
       );
     } else {
-      const newValues = _value;
+      const newValues = (0, import_lodash5.uniq)([...value, _value[0]]);
       setOptions(
         _options.map((t4) => ({ name: t4, value: t4, removeable: true }))
       );
@@ -33481,6 +33520,7 @@ var OptionCell = (props2) => {
     value,
     options: !props2.multi ? [{ name: i18n_default.menu.none, value: "" }, ...options] : options,
     saveOptions,
+    removeOption,
     placeholder: i18n_default.labels.optionItemSelectPlaceholder,
     searchable: true,
     showAll: true,
@@ -39074,7 +39114,7 @@ var TextCell = (props2) => {
 };
 
 // src/components/ContextView/TableView/TableView.tsx
-var import_lodash5 = __toESM(require_lodash());
+var import_lodash6 = __toESM(require_lodash());
 var import_obsidian28 = require("obsidian");
 
 // src/components/ContextView/DataTypeView/ImageCell.tsx
@@ -39311,7 +39351,7 @@ var TableView = (props2) => {
     debouncedSavePredicate(newColSize);
   };
   const debouncedSavePredicate = T2(
-    (0, import_lodash5.debounce)(
+    (0, import_lodash6.debounce)(
       (nextValue) => savePredicate({
         ...predicate,
         colsSize: nextValue
@@ -41037,6 +41077,7 @@ var FlowEditor = class extends nosuper(import_obsidian31.HoverPopover) {
     this.rootSplit.getContainer = () => FlowEditor.containerForDocument(this.document);
     this.titleEl.insertAdjacentElement("afterend", this.rootSplit.containerEl);
     let leaf = this.plugin.app.workspace.createLeafInParent(this.rootSplit, 0);
+    leaf.isFlowBlock = true;
     this.updateLeaves();
     return leaf;
   }
@@ -41204,7 +41245,6 @@ var FlowEditor = class extends nosuper(import_obsidian31.HoverPopover) {
       if (this.detaching)
         this.hide();
     }
-    this.plugin.app.workspace.setActiveLeaf(leaf);
     return leaf;
   }
   async openFile(file, openState, useLeaf) {
@@ -41221,7 +41261,6 @@ var FlowEditor = class extends nosuper(import_obsidian31.HoverPopover) {
       if (this.detaching)
         this.hide();
     }
-    this.plugin.app.workspace.setActiveLeaf(leaf);
     return leaf;
   }
   buildState(parentMode, eState) {
@@ -42231,6 +42270,11 @@ var openTFile = async (file, plugin, newLeaf) => {
   let leaf = app.workspace.getLeaf(newLeaf);
   app.workspace.setActiveLeaf(leaf, { focus: true });
   await leaf.openFile(file, { eState: { focus: true } });
+  const fileCache = plugin.index.filesIndex.get(file.path);
+  if ((fileCache == null ? void 0 : fileCache.sticker) && leaf.tabHeaderInnerIconEl) {
+    const icon = stickerFromString(fileCache.sticker, plugin);
+    leaf.tabHeaderInnerIconEl.innerHTML = icon;
+  }
 };
 var openTFolder = async (file, plugin, newLeaf) => {
   if (!plugin.settings.contextEnabled)
@@ -42242,6 +42286,11 @@ var openTFolder = async (file, plugin, newLeaf) => {
     type: viewType,
     state: { contextPath: file.path }
   });
+  const fileCache = plugin.index.filesIndex.get(file.path);
+  if ((fileCache == null ? void 0 : fileCache.sticker) && leaf.tabHeaderInnerIconEl) {
+    const icon = stickerFromString(fileCache.sticker, plugin);
+    leaf.tabHeaderInnerIconEl.innerHTML = icon;
+  }
   await app.workspace.requestSaveLayout();
   if (platformIsMobile()) {
     app.workspace.leftSplit.collapse();
@@ -42517,7 +42566,7 @@ var RemoveFromSpaceModal = class extends import_obsidian38.FuzzySuggestModal {
 };
 
 // src/superstate/spacesStore/spaces.ts
-var import_lodash7 = __toESM(require_lodash());
+var import_lodash8 = __toESM(require_lodash());
 var import_obsidian39 = require("obsidian");
 
 // src/schemas/spaces.ts
@@ -42538,7 +42587,7 @@ var spaceItemsSchema = {
 };
 
 // src/superstate/cacheParsers.ts
-var import_lodash6 = __toESM(require_lodash());
+var import_lodash7 = __toESM(require_lodash());
 var fileMetadataToVaultItem = (cache) => {
   var _a2, _b2;
   return {
@@ -42564,7 +42613,7 @@ var rebuildIndex = async (plugin, save) => {
   var _a2, _b2;
   console.time("Make.md Vault Index");
   const newTables = indexCurrentFileTree(plugin, (_a2 = plugin.index.vaultDBCache) != null ? _a2 : [], (_b2 = plugin.index.spacesItemsDBCache) != null ? _b2 : []);
-  if (save && (!import_lodash7.default.isEqual(newTables.vault.rows, plugin.index.vaultDBCache) || !import_lodash7.default.isEqual(newTables.spaceItems.rows, plugin.index.spacesItemsDBCache))) {
+  if (save && (!import_lodash8.default.isEqual(newTables.vault.rows, plugin.index.vaultDBCache) || !import_lodash8.default.isEqual(newTables.spaceItems.rows, plugin.index.spacesItemsDBCache))) {
     await plugin.index.saveSpacesDatabaseToDisk(newTables, save);
   }
   plugin.index.initialize();
@@ -42729,7 +42778,7 @@ var moveAFileToNewParentAtIndex = async (plugin, item, newParent, index) => {
     parent: newParent,
     rank: index.toString()
   };
-  if (getAbstractFileAtPath(app, newParent)) {
+  if (getAbstractFileAtPath(app, newPath)) {
     new import_obsidian39.Notice(i18n_default.notice.fileExists);
     return;
   }
@@ -43015,7 +43064,6 @@ var renameContext = (plugin, context, newName) => {
     renameTag(plugin, tagPathToTag(context.contextPath), newName);
   } else if (context.type == "space") {
     const space = (_a2 = plugin.index.spacesIndex.get(spaceNameFromContextPath(context.contextPath))) == null ? void 0 : _a2.space;
-    console.log(space, context);
     if (space) {
       saveSpace(plugin, space.name, { ...space, name: newName });
     }
@@ -43168,7 +43216,7 @@ var preloadFlowEditor = import_state6.EditorState.transactionFilter.of(
     if (value && !tr.annotation(toggleFlowEditor)) {
       newTrans.push(
         ...value.filter((f4) => f4.expandedState == 1).map((f4) => {
-          if (tr.state.field(flowTypeStateField) == "doc") {
+          if (tr.state.field(flowTypeStateField, false) == "doc") {
             return {
               annotations: toggleFlowEditor.of([f4.id, 2])
             };
@@ -43333,7 +43381,7 @@ var flowEditorInfo = import_state6.StateField.define({
 });
 var flowEditorRangeset = (state, plugin) => {
   let builder = new import_state6.RangeSetBuilder();
-  const infoFields = state.field(flowEditorInfo);
+  const infoFields = state.field(flowEditorInfo, false);
   for (let info of infoFields) {
     const { from, to, embed: embedType, expandedState } = info;
     const lineFix = from - 3 == state.doc.lineAt(from).from && to + 2 == state.doc.lineAt(from).to;
@@ -43400,8 +43448,8 @@ var FlowEditorSelector = class extends import_view4.WidgetType {
     const div = document.createElement("div");
     div.toggleClass("mk-floweditor-selector", true);
     const reactEl = createRoot(div);
-    if (this.info.link && view.state.field(import_obsidian40.editorInfoField)) {
-      const infoField = view.state.field(import_obsidian40.editorInfoField);
+    if (this.info.link && view.state.field(import_obsidian40.editorInfoField, false)) {
+      const infoField = view.state.field(import_obsidian40.editorInfoField, false);
       const file = infoField.file;
       const path = pathByString(this.info.link, file.path);
       reactEl.render(
@@ -44111,10 +44159,11 @@ var Backlinks = (props2) => {
     dangerouslySetInnerHTML: {
       __html: uiIconSet["mk-ui-collapse-sm"]
     }
-  })), /* @__PURE__ */ Cn.createElement("div", null, !collapsed && backlinks.map((f4) => {
+  })), /* @__PURE__ */ Cn.createElement("div", null, !collapsed && backlinks.map((f4, i4) => {
     var _a2;
     return /* @__PURE__ */ Cn.createElement(BacklinkItem, {
       path: f4,
+      key: i4,
       plugin: props2.plugin,
       source: (_a2 = props2.file) == null ? void 0 : _a2.path
     });
@@ -44976,7 +45025,7 @@ var StatefulDecorationSet = class {
     var _a2;
     if (!show)
       return import_view7.Decoration.none;
-    if (!state.field(import_obsidian44.editorInfoField))
+    if (!state.field(import_obsidian44.editorInfoField, false))
       return null;
     const infoField = state.field(import_obsidian44.editorInfoField);
     if (!((_a2 = infoField.editor) == null ? void 0 : _a2.cm))
@@ -45002,7 +45051,7 @@ var StatefulDecorationSet = class {
         import_view7.Decoration.widget({
           widget: new BacklinksWidget(this.plugin, file, contentEl),
           side: 1,
-          block: true
+          block: false
         }).range(state.doc.length)
       );
     }
@@ -45019,8 +45068,6 @@ var StatefulDecorationSet = class {
 };
 var frontmatterHider = (plugin) => import_state10.EditorState.transactionFilter.of((tr) => {
   let newTrans = [];
-  const selectiveLines = tr.startState.field(selectiveLinesFacet);
-  let builder = new import_state10.RangeSetBuilder();
   const isFM = (typeString) => {
     if (typeString.contains("hmd-frontmatter")) {
       return true;
@@ -45037,7 +45084,7 @@ var frontmatterHider = (plugin) => import_state10.EditorState.transactionFilter.
     }
   });
   const livePreview = tr.state.field(import_obsidian44.editorLivePreviewField);
-  if (fmStart > 1 && fmStart < tr.state.doc.lines && plugin.settings.hideFrontmatter && livePreview) {
+  if (fmStart > 1 && fmStart <= tr.state.doc.lines && plugin.settings.hideFrontmatter && livePreview) {
     newTrans.push({
       annotations: [contentRange.of([fmStart, fmEnd])]
     });
@@ -45114,7 +45161,7 @@ var lineNumberExtension = (plugin) => (0, import_view8.lineNumbers)({
 
 // src/cm-extensions/cmExtensions.ts
 var cmExtensions = (plugin, mobile) => {
-  let extensions = [];
+  const extensions = [...editBlockExtensions()];
   if (plugin.settings.makerMode) {
     if (plugin.settings.inlineContext && plugin.settings.lineNumbers) {
       extensions.push(lineNumberExtension(plugin));
@@ -45132,7 +45179,6 @@ var cmExtensions = (plugin, mobile) => {
     if (plugin.settings.editorFlow) {
       extensions.push(
         flowTypeStateField,
-        editBlockExtensions(),
         preloadFlowEditor,
         flowEditorField(plugin),
         flowEditorInfo,
@@ -52655,7 +52701,7 @@ var TagChangeModal = class extends import_obsidian51.Modal {
 };
 
 // src/components/Spaces/TagContextList/TagContextList.tsx
-var import_lodash8 = __toESM(require_lodash());
+var import_lodash9 = __toESM(require_lodash());
 var import_obsidian52 = require("obsidian");
 var TagContextList = (props2) => {
   const [allTags, setAllTags] = h2([]);
@@ -52712,14 +52758,14 @@ var TagContextList = (props2) => {
       (f5) => f5 instanceof import_obsidian52.TFile && f5.extension == "mdb" && f5.name.charAt(0) == "#"
     ).map((f5) => tagPathToTag(fileNameToString(f5.name)))) != null ? _a2 : [];
     setAllTags(
-      (0, import_lodash8.uniq)([...f4.filter((g4) => g4), ...Object.keys(app.metadataCache.getTags())])
+      (0, import_lodash9.uniq)([...f4.filter((g4) => g4), ...Object.keys(app.metadataCache.getTags())])
     );
   };
   p2(() => {
     refreshData();
   }, []);
   const tags = F2(() => {
-    return (0, import_lodash8.uniq)(
+    return (0, import_lodash9.uniq)(
       allTags.reduce((p3, c4) => {
         const r3 = c4.split("/");
         const allSubTags = r3.reduce((a5, b4, i4, array) => {
@@ -53371,24 +53417,6 @@ var MakeMDPluginSettingsTab = class extends import_obsidian54.PluginSettingTab {
         })
       );
     }
-    new import_obsidian54.Setting(containerEl).setName(i18n_default.settings.defaultDateFormat.name).setDesc(i18n_default.settings.defaultDateFormat.desc).addText((text2) => {
-      text2.setValue(this.plugin.settings.defaultDateFormat).onChange(async (value) => {
-        this.plugin.settings.defaultDateFormat = value;
-        await this.plugin.saveSettings();
-      });
-    });
-    new import_obsidian54.Setting(containerEl).setName(i18n_default.settings.defaultDateFormat.name).setDesc(i18n_default.settings.defaultDateFormat.desc).addText((text2) => {
-      text2.setValue(this.plugin.settings.defaultDateFormat).onChange(async (value) => {
-        this.plugin.settings.defaultDateFormat = value;
-        await this.plugin.saveSettings();
-      });
-    });
-    new import_obsidian54.Setting(containerEl).setName(i18n_default.settings.defaultDateFormat.name).setDesc(i18n_default.settings.defaultDateFormat.desc).addText((text2) => {
-      text2.setValue(this.plugin.settings.defaultDateFormat).onChange(async (value) => {
-        this.plugin.settings.defaultDateFormat = value;
-        await this.plugin.saveSettings();
-      });
-    });
   }
 };
 
@@ -53771,7 +53799,7 @@ var onFolderDeleted = async (plugin, oldPath) => {
 var import_obsidian_dataview = __toESM(require_lib());
 
 // src/superstate/superstate.ts
-var import_lodash9 = __toESM(require_lodash());
+var import_lodash10 = __toESM(require_lodash());
 var import_obsidian60 = require("obsidian");
 
 // src/types/indexMap.ts
@@ -54126,7 +54154,7 @@ var Superstate = class extends import_obsidian60.Component {
     this.app = app2;
     this.indexVersion = indexVersion;
     this.onChange = onChange;
-    this.debounceSaveSpaceDatabase = (0, import_lodash9.debounce)(
+    this.debounceSaveSpaceDatabase = (0, import_lodash10.debounce)(
       (tables) => {
         saveDBToPath(this.plugin, this.plugin.spacesDBPath, tables).then((f4) => {
           this.updateSpaceLastUpdated();
@@ -54636,7 +54664,7 @@ var Superstate = class extends import_obsidian60.Component {
       this.tagsMap.set(file.path, new Set(cache.tags));
       this.contextsMap.set(file.path, new Set(cache.contexts));
       this.linksMap.set(file.path, new Set(cache.outlinks));
-      if (!import_lodash9.default.isEqual(cache.spaces, Array.from(this.spacesMap.get(file.path)))) {
+      if (!import_lodash10.default.isEqual(cache.spaces, Array.from(this.spacesMap.get(file.path)))) {
         this.spacesMap.set(file.path, new Set(cache.spaces));
         this.broadcast("space");
       }
@@ -55030,7 +55058,7 @@ var MakeMDPlugin = class extends import_obsidian63.Plugin {
         if (showAfterAttach && !app.workspace.leftSplit.collapsed)
           this.app.workspace.revealLeaf(leaf);
       } else {
-        if (!app.workspace.leftSplit.collapsed)
+        if (!app.workspace.leftSplit.collapsed && showAfterAttach)
           leafs.forEach((leaf) => this.app.workspace.revealLeaf(leaf));
       }
       if (platformIsMobile()) {
@@ -55203,22 +55231,22 @@ var MakeMDPlugin = class extends import_obsidian63.Plugin {
   }
   getActiveFile() {
     let filePath = null;
-    const activeLeaf = app.workspace.activeLeaf;
-    if ((activeLeaf == null ? void 0 : activeLeaf.view.getViewType()) == CONTEXT_VIEW_TYPE) {
+    const leaf = app.workspace.activeLeaf;
+    const activeView2 = leaf == null ? void 0 : leaf.view;
+    if (!activeView2 || leaf.isFlowBlock)
+      return null;
+    if (activeView2.getViewType() == CONTEXT_VIEW_TYPE) {
       const context = mdbContextByPath(
         this,
-        activeLeaf == null ? void 0 : activeLeaf.view.getState().contextPath
+        activeView2.getState().contextPath
       );
       if ((context == null ? void 0 : context.type) == "folder") {
         const file = getAbstractFileAtPath(app, context.contextPath);
         if (file)
           filePath = file.path;
       }
-    } else if ((activeLeaf == null ? void 0 : activeLeaf.view.getViewType()) == "markdown") {
-      const view = app.workspace.getActiveViewOfType(import_obsidian63.MarkdownView);
-      if (view instanceof import_obsidian63.MarkdownView) {
-        filePath = view.file.path;
-      }
+    } else if (activeView2.getViewType() == "markdown") {
+      filePath = activeView2.file.path;
     }
     return filePath;
   }

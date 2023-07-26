@@ -13,7 +13,7 @@
 - 4000 yr coffin - containing dal, rice, shields, swords, chariots **Sanauli** in Upper Ganga doab UP biggest necropolis suggest warrior culture late mature Harappa period
 - IN FR naval exercise Varuna 19.1 Goa Coast, 1st 1983
 - Hangul aka Kashmir stag **Critically endangered** now only in Dachigam NP
-- MeghalayaMawmluh cave (stalagmite)
+- Meghalaya Mawmluh cave (stalagmite)
 - UK Modern Slavery Innovation Fund for countries like RSA IN.
 - CN IN trade begins from Nathu La (Sikkim)
 - World Press Freedom day May 3 by UN, Guillermo Cano prize given. **Windhoek Declaration** by African journalists press freedom principles
@@ -452,4 +452,6 @@
 - MoU between **India and USA** to access tip line reports on Missing and Exploited Children
 - 5th Kalvari class Diesel electric sub INS Vagir built under Project 75
 
-[^1]:
+![[Prelims Facts 2 March 2020-March 2021]]
+
+![[Prelims Facts 3 April 2021 onwards]]

@@ -54,10 +54,6 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
   mod
 ));
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
-var __publicField = (obj, key, value) => {
-  __defNormalProp(obj, typeof key !== "symbol" ? key + "" : key, value);
-  return value;
-};
 var __async = (__this, __arguments, generator) => {
   return new Promise((resolve, reject) => {
     var fulfilled = (value) => {
@@ -236,20 +232,20 @@ var require_react_development = __commonJS({
         {
           Object.freeze(emptyObject);
         }
-        function Component(props, context, updater) {
+        function Component2(props, context, updater) {
           this.props = props;
           this.context = context;
           this.refs = emptyObject;
           this.updater = updater || ReactNoopUpdateQueue;
         }
-        Component.prototype.isReactComponent = {};
-        Component.prototype.setState = function(partialState, callback) {
+        Component2.prototype.isReactComponent = {};
+        Component2.prototype.setState = function(partialState, callback) {
           if (typeof partialState !== "object" && typeof partialState !== "function" && partialState != null) {
             throw new Error("setState(...): takes an object of state variables to update or a function which returns an object of state variables.");
           }
           this.updater.enqueueSetState(this, partialState, callback, "setState");
         };
-        Component.prototype.forceUpdate = function(callback) {
+        Component2.prototype.forceUpdate = function(callback) {
           this.updater.enqueueForceUpdate(this, callback, "forceUpdate");
         };
         {
@@ -258,7 +254,7 @@ var require_react_development = __commonJS({
             replaceState: ["replaceState", "Refactor your code to use setState instead (see https://github.com/facebook/react/issues/3236)."]
           };
           var defineDeprecationWarning = function(methodName, info) {
-            Object.defineProperty(Component.prototype, methodName, {
+            Object.defineProperty(Component2.prototype, methodName, {
               get: function() {
                 warn("%s(...) is deprecated in plain JavaScript React classes. %s", info[0], info[1]);
                 return void 0;
@@ -273,7 +269,7 @@ var require_react_development = __commonJS({
         }
         function ComponentDummy() {
         }
-        ComponentDummy.prototype = Component.prototype;
+        ComponentDummy.prototype = Component2.prototype;
         function PureComponent(props, context, updater) {
           this.props = props;
           this.context = context;
@@ -282,7 +278,7 @@ var require_react_development = __commonJS({
         }
         var pureComponentPrototype = PureComponent.prototype = new ComponentDummy();
         pureComponentPrototype.constructor = PureComponent;
-        assign(pureComponentPrototype, Component.prototype);
+        assign(pureComponentPrototype, Component2.prototype);
         pureComponentPrototype.isPureReactComponent = true;
         function createRef() {
           var refObject = {
@@ -1323,8 +1319,8 @@ var require_react_development = __commonJS({
             return describeNativeComponentFrame(fn2, false);
           }
         }
-        function shouldConstruct(Component2) {
-          var prototype = Component2.prototype;
+        function shouldConstruct(Component3) {
+          var prototype = Component3.prototype;
           return !!(prototype && prototype.isReactComponent);
         }
         function describeUnknownElementTypeFrameInDEV(type, source, ownerFn) {
@@ -1828,7 +1824,7 @@ var require_react_development = __commonJS({
           only: onlyChild
         };
         exports.Children = Children;
-        exports.Component = Component;
+        exports.Component = Component2;
         exports.Fragment = REACT_FRAGMENT_TYPE;
         exports.Profiler = REACT_PROFILER_TYPE;
         exports.PureComponent = PureComponent;
@@ -2354,9 +2350,9 @@ var require_react_dom_development = __commonJS({
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
         }
-        var React49 = require_react();
+        var React52 = require_react();
         var Scheduler = require_scheduler();
-        var ReactSharedInternals = React49.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var ReactSharedInternals = React52.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         var suppressWarning = false;
         function setSuppressWarning(newSuppressWarning) {
           {
@@ -3312,8 +3308,8 @@ var require_react_dom_development = __commonJS({
             return describeNativeComponentFrame(fn2, false);
           }
         }
-        function shouldConstruct(Component) {
-          var prototype = Component.prototype;
+        function shouldConstruct(Component2) {
+          var prototype = Component2.prototype;
           return !!(prototype && prototype.isReactComponent);
         }
         function describeUnknownElementTypeFrameInDEV(type, source, ownerFn) {
@@ -3877,7 +3873,7 @@ var require_react_dom_development = __commonJS({
           {
             if (props.value == null) {
               if (typeof props.children === "object" && props.children !== null) {
-                React49.Children.forEach(props.children, function(child) {
+                React52.Children.forEach(props.children, function(child) {
                   if (child == null) {
                     return;
                   }
@@ -10466,9 +10462,9 @@ var require_react_dom_development = __commonJS({
         var contextStackCursor = createCursor(emptyContextObject);
         var didPerformWorkStackCursor = createCursor(false);
         var previousContext = emptyContextObject;
-        function getUnmaskedContext(workInProgress2, Component, didPushOwnContextIfProvider) {
+        function getUnmaskedContext(workInProgress2, Component2, didPushOwnContextIfProvider) {
           {
-            if (didPushOwnContextIfProvider && isContextProvider(Component)) {
+            if (didPushOwnContextIfProvider && isContextProvider(Component2)) {
               return previousContext;
             }
             return contextStackCursor.current;
@@ -10605,8 +10601,8 @@ var require_react_dom_development = __commonJS({
                 case HostRoot:
                   return node.stateNode.context;
                 case ClassComponent: {
-                  var Component = node.type;
-                  if (isContextProvider(Component)) {
+                  var Component2 = node.type;
+                  if (isContextProvider(Component2)) {
                     return node.stateNode.__reactInternalMemoizedMergedChildContext;
                   }
                   break;
@@ -11362,10 +11358,10 @@ var require_react_dom_development = __commonJS({
             pendingLegacyContextWarning = /* @__PURE__ */ new Map();
           };
         }
-        function resolveDefaultProps(Component, baseProps) {
-          if (Component && Component.defaultProps) {
+        function resolveDefaultProps(Component2, baseProps) {
+          if (Component2 && Component2.defaultProps) {
             var props = assign({}, baseProps);
-            var defaultProps = Component.defaultProps;
+            var defaultProps = Component2.defaultProps;
             for (var propName in defaultProps) {
               if (props[propName] === void 0) {
                 props[propName] = defaultProps[propName];
@@ -12038,7 +12034,7 @@ var require_react_dom_development = __commonJS({
           }
         }
         var fakeInternalInstance = {};
-        var emptyRefsObject = new React49.Component().refs;
+        var emptyRefsObject = new React52.Component().refs;
         var didWarnAboutStateAssignmentForComponent;
         var didWarnAboutUninitializedState;
         var didWarnAboutGetSnapshotBeforeUpdateWithoutDidUpdate;
@@ -13617,7 +13613,7 @@ var require_react_dom_development = __commonJS({
           }
           return true;
         }
-        function renderWithHooks(current2, workInProgress2, Component, props, secondArg, nextRenderLanes) {
+        function renderWithHooks(current2, workInProgress2, Component2, props, secondArg, nextRenderLanes) {
           renderLanes = nextRenderLanes;
           currentlyRenderingFiber$1 = workInProgress2;
           {
@@ -13637,7 +13633,7 @@ var require_react_dom_development = __commonJS({
               ReactCurrentDispatcher$1.current = HooksDispatcherOnMountInDEV;
             }
           }
-          var children = Component(props, secondArg);
+          var children = Component2(props, secondArg);
           if (didScheduleRenderPhaseUpdateDuringThisPass) {
             var numberOfReRenders = 0;
             do {
@@ -13657,7 +13653,7 @@ var require_react_dom_development = __commonJS({
                 hookTypesUpdateIndexDev = -1;
               }
               ReactCurrentDispatcher$1.current = HooksDispatcherOnRerenderInDEV;
-              children = Component(props, secondArg);
+              children = Component2(props, secondArg);
             } while (didScheduleRenderPhaseUpdateDuringThisPass);
           }
           ReactCurrentDispatcher$1.current = ContextOnlyDispatcher;
@@ -15756,21 +15752,21 @@ var require_react_dom_development = __commonJS({
           workInProgress2.child = reconcileChildFibers(workInProgress2, current2.child, null, renderLanes2);
           workInProgress2.child = reconcileChildFibers(workInProgress2, null, nextChildren, renderLanes2);
         }
-        function updateForwardRef(current2, workInProgress2, Component, nextProps, renderLanes2) {
+        function updateForwardRef(current2, workInProgress2, Component2, nextProps, renderLanes2) {
           {
             if (workInProgress2.type !== workInProgress2.elementType) {
-              var innerPropTypes = Component.propTypes;
+              var innerPropTypes = Component2.propTypes;
               if (innerPropTypes) {
                 checkPropTypes(
                   innerPropTypes,
                   nextProps,
                   "prop",
-                  getComponentNameFromType(Component)
+                  getComponentNameFromType(Component2)
                 );
               }
             }
           }
-          var render2 = Component.render;
+          var render2 = Component2.render;
           var ref = workInProgress2.ref;
           var nextChildren;
           var hasId;
@@ -15808,10 +15804,10 @@ var require_react_dom_development = __commonJS({
           reconcileChildren(current2, workInProgress2, nextChildren, renderLanes2);
           return workInProgress2.child;
         }
-        function updateMemoComponent(current2, workInProgress2, Component, nextProps, renderLanes2) {
+        function updateMemoComponent(current2, workInProgress2, Component2, nextProps, renderLanes2) {
           if (current2 === null) {
-            var type = Component.type;
-            if (isSimpleFunctionComponent(type) && Component.compare === null && Component.defaultProps === void 0) {
+            var type = Component2.type;
+            if (isSimpleFunctionComponent(type) && Component2.compare === null && Component2.defaultProps === void 0) {
               var resolvedType = type;
               {
                 resolvedType = resolveFunctionForHotReloading(type);
@@ -15834,14 +15830,14 @@ var require_react_dom_development = __commonJS({
                 );
               }
             }
-            var child = createFiberFromTypeAndProps(Component.type, null, nextProps, workInProgress2, workInProgress2.mode, renderLanes2);
+            var child = createFiberFromTypeAndProps(Component2.type, null, nextProps, workInProgress2, workInProgress2.mode, renderLanes2);
             child.ref = workInProgress2.ref;
             child.return = workInProgress2;
             workInProgress2.child = child;
             return child;
           }
           {
-            var _type = Component.type;
+            var _type = Component2.type;
             var _innerPropTypes = _type.propTypes;
             if (_innerPropTypes) {
               checkPropTypes(
@@ -15856,7 +15852,7 @@ var require_react_dom_development = __commonJS({
           var hasScheduledUpdateOrContext = checkScheduledUpdateOrContext(current2, renderLanes2);
           if (!hasScheduledUpdateOrContext) {
             var prevProps = currentChild.memoizedProps;
-            var compare = Component.compare;
+            var compare = Component2.compare;
             compare = compare !== null ? compare : shallowEqual2;
             if (compare(prevProps, nextProps) && current2.ref === workInProgress2.ref) {
               return bailoutOnAlreadyFinishedWork(current2, workInProgress2, renderLanes2);
@@ -15869,7 +15865,7 @@ var require_react_dom_development = __commonJS({
           workInProgress2.child = newChild;
           return newChild;
         }
-        function updateSimpleMemoComponent(current2, workInProgress2, Component, nextProps, renderLanes2) {
+        function updateSimpleMemoComponent(current2, workInProgress2, Component2, nextProps, renderLanes2) {
           {
             if (workInProgress2.type !== workInProgress2.elementType) {
               var outerMemoType = workInProgress2.elementType;
@@ -15907,7 +15903,7 @@ var require_react_dom_development = __commonJS({
               }
             }
           }
-          return updateFunctionComponent(current2, workInProgress2, Component, nextProps, renderLanes2);
+          return updateFunctionComponent(current2, workInProgress2, Component2, nextProps, renderLanes2);
         }
         function updateOffscreenComponent(current2, workInProgress2, renderLanes2) {
           var nextProps = workInProgress2.pendingProps;
@@ -15997,23 +15993,23 @@ var require_react_dom_development = __commonJS({
             }
           }
         }
-        function updateFunctionComponent(current2, workInProgress2, Component, nextProps, renderLanes2) {
+        function updateFunctionComponent(current2, workInProgress2, Component2, nextProps, renderLanes2) {
           {
             if (workInProgress2.type !== workInProgress2.elementType) {
-              var innerPropTypes = Component.propTypes;
+              var innerPropTypes = Component2.propTypes;
               if (innerPropTypes) {
                 checkPropTypes(
                   innerPropTypes,
                   nextProps,
                   "prop",
-                  getComponentNameFromType(Component)
+                  getComponentNameFromType(Component2)
                 );
               }
             }
           }
           var context;
           {
-            var unmaskedContext = getUnmaskedContext(workInProgress2, Component, true);
+            var unmaskedContext = getUnmaskedContext(workInProgress2, Component2, true);
             context = getMaskedContext(workInProgress2, unmaskedContext);
           }
           var nextChildren;
@@ -16025,12 +16021,12 @@ var require_react_dom_development = __commonJS({
           {
             ReactCurrentOwner$1.current = workInProgress2;
             setIsRendering(true);
-            nextChildren = renderWithHooks(current2, workInProgress2, Component, nextProps, context, renderLanes2);
+            nextChildren = renderWithHooks(current2, workInProgress2, Component2, nextProps, context, renderLanes2);
             hasId = checkDidRenderIdHook();
             if (workInProgress2.mode & StrictLegacyMode) {
               setIsStrictModeForDevtools(true);
               try {
-                nextChildren = renderWithHooks(current2, workInProgress2, Component, nextProps, context, renderLanes2);
+                nextChildren = renderWithHooks(current2, workInProgress2, Component2, nextProps, context, renderLanes2);
                 hasId = checkDidRenderIdHook();
               } finally {
                 setIsStrictModeForDevtools(false);
@@ -16052,7 +16048,7 @@ var require_react_dom_development = __commonJS({
           reconcileChildren(current2, workInProgress2, nextChildren, renderLanes2);
           return workInProgress2.child;
         }
-        function updateClassComponent(current2, workInProgress2, Component, nextProps, renderLanes2) {
+        function updateClassComponent(current2, workInProgress2, Component2, nextProps, renderLanes2) {
           {
             switch (shouldError(workInProgress2)) {
               case false: {
@@ -16075,19 +16071,19 @@ var require_react_dom_development = __commonJS({
               }
             }
             if (workInProgress2.type !== workInProgress2.elementType) {
-              var innerPropTypes = Component.propTypes;
+              var innerPropTypes = Component2.propTypes;
               if (innerPropTypes) {
                 checkPropTypes(
                   innerPropTypes,
                   nextProps,
                   "prop",
-                  getComponentNameFromType(Component)
+                  getComponentNameFromType(Component2)
                 );
               }
             }
           }
           var hasContext;
-          if (isContextProvider(Component)) {
+          if (isContextProvider(Component2)) {
             hasContext = true;
             pushContextProvider(workInProgress2);
           } else {
@@ -16098,15 +16094,15 @@ var require_react_dom_development = __commonJS({
           var shouldUpdate;
           if (instance === null) {
             resetSuspendedCurrentOnMountInLegacyMode(current2, workInProgress2);
-            constructClassInstance(workInProgress2, Component, nextProps);
-            mountClassInstance(workInProgress2, Component, nextProps, renderLanes2);
+            constructClassInstance(workInProgress2, Component2, nextProps);
+            mountClassInstance(workInProgress2, Component2, nextProps, renderLanes2);
             shouldUpdate = true;
           } else if (current2 === null) {
-            shouldUpdate = resumeMountClassInstance(workInProgress2, Component, nextProps, renderLanes2);
+            shouldUpdate = resumeMountClassInstance(workInProgress2, Component2, nextProps, renderLanes2);
           } else {
-            shouldUpdate = updateClassInstance(current2, workInProgress2, Component, nextProps, renderLanes2);
+            shouldUpdate = updateClassInstance(current2, workInProgress2, Component2, nextProps, renderLanes2);
           }
-          var nextUnitOfWork = finishClassComponent(current2, workInProgress2, Component, shouldUpdate, hasContext, renderLanes2);
+          var nextUnitOfWork = finishClassComponent(current2, workInProgress2, Component2, shouldUpdate, hasContext, renderLanes2);
           {
             var inst = workInProgress2.stateNode;
             if (shouldUpdate && inst.props !== nextProps) {
@@ -16118,19 +16114,19 @@ var require_react_dom_development = __commonJS({
           }
           return nextUnitOfWork;
         }
-        function finishClassComponent(current2, workInProgress2, Component, shouldUpdate, hasContext, renderLanes2) {
+        function finishClassComponent(current2, workInProgress2, Component2, shouldUpdate, hasContext, renderLanes2) {
           markRef(current2, workInProgress2);
           var didCaptureError = (workInProgress2.flags & DidCapture) !== NoFlags;
           if (!shouldUpdate && !didCaptureError) {
             if (hasContext) {
-              invalidateContextProvider(workInProgress2, Component, false);
+              invalidateContextProvider(workInProgress2, Component2, false);
             }
             return bailoutOnAlreadyFinishedWork(current2, workInProgress2, renderLanes2);
           }
           var instance = workInProgress2.stateNode;
           ReactCurrentOwner$1.current = workInProgress2;
           var nextChildren;
-          if (didCaptureError && typeof Component.getDerivedStateFromError !== "function") {
+          if (didCaptureError && typeof Component2.getDerivedStateFromError !== "function") {
             nextChildren = null;
             {
               stopProfilerTimerIfRunning();
@@ -16164,7 +16160,7 @@ var require_react_dom_development = __commonJS({
           }
           workInProgress2.memoizedState = instance.state;
           if (hasContext) {
-            invalidateContextProvider(workInProgress2, Component, true);
+            invalidateContextProvider(workInProgress2, Component2, true);
           }
           return workInProgress2.child;
         }
@@ -16264,44 +16260,44 @@ var require_react_dom_development = __commonJS({
           var lazyComponent = elementType;
           var payload = lazyComponent._payload;
           var init2 = lazyComponent._init;
-          var Component = init2(payload);
-          workInProgress2.type = Component;
-          var resolvedTag = workInProgress2.tag = resolveLazyComponentTag(Component);
-          var resolvedProps = resolveDefaultProps(Component, props);
+          var Component2 = init2(payload);
+          workInProgress2.type = Component2;
+          var resolvedTag = workInProgress2.tag = resolveLazyComponentTag(Component2);
+          var resolvedProps = resolveDefaultProps(Component2, props);
           var child;
           switch (resolvedTag) {
             case FunctionComponent: {
               {
-                validateFunctionComponentInDev(workInProgress2, Component);
-                workInProgress2.type = Component = resolveFunctionForHotReloading(Component);
+                validateFunctionComponentInDev(workInProgress2, Component2);
+                workInProgress2.type = Component2 = resolveFunctionForHotReloading(Component2);
               }
-              child = updateFunctionComponent(null, workInProgress2, Component, resolvedProps, renderLanes2);
+              child = updateFunctionComponent(null, workInProgress2, Component2, resolvedProps, renderLanes2);
               return child;
             }
             case ClassComponent: {
               {
-                workInProgress2.type = Component = resolveClassForHotReloading(Component);
+                workInProgress2.type = Component2 = resolveClassForHotReloading(Component2);
               }
-              child = updateClassComponent(null, workInProgress2, Component, resolvedProps, renderLanes2);
+              child = updateClassComponent(null, workInProgress2, Component2, resolvedProps, renderLanes2);
               return child;
             }
             case ForwardRef: {
               {
-                workInProgress2.type = Component = resolveForwardRefForHotReloading(Component);
+                workInProgress2.type = Component2 = resolveForwardRefForHotReloading(Component2);
               }
-              child = updateForwardRef(null, workInProgress2, Component, resolvedProps, renderLanes2);
+              child = updateForwardRef(null, workInProgress2, Component2, resolvedProps, renderLanes2);
               return child;
             }
             case MemoComponent: {
               {
                 if (workInProgress2.type !== workInProgress2.elementType) {
-                  var outerPropTypes = Component.propTypes;
+                  var outerPropTypes = Component2.propTypes;
                   if (outerPropTypes) {
                     checkPropTypes(
                       outerPropTypes,
                       resolvedProps,
                       "prop",
-                      getComponentNameFromType(Component)
+                      getComponentNameFromType(Component2)
                     );
                   }
                 }
@@ -16309,8 +16305,8 @@ var require_react_dom_development = __commonJS({
               child = updateMemoComponent(
                 null,
                 workInProgress2,
-                Component,
-                resolveDefaultProps(Component.type, resolvedProps),
+                Component2,
+                resolveDefaultProps(Component2.type, resolvedProps),
                 renderLanes2
               );
               return child;
@@ -16318,33 +16314,33 @@ var require_react_dom_development = __commonJS({
           }
           var hint = "";
           {
-            if (Component !== null && typeof Component === "object" && Component.$$typeof === REACT_LAZY_TYPE) {
+            if (Component2 !== null && typeof Component2 === "object" && Component2.$$typeof === REACT_LAZY_TYPE) {
               hint = " Did you wrap a component in React.lazy() more than once?";
             }
           }
-          throw new Error("Element type is invalid. Received a promise that resolves to: " + Component + ". " + ("Lazy element type must resolve to a class or function." + hint));
+          throw new Error("Element type is invalid. Received a promise that resolves to: " + Component2 + ". " + ("Lazy element type must resolve to a class or function." + hint));
         }
-        function mountIncompleteClassComponent(_current, workInProgress2, Component, nextProps, renderLanes2) {
+        function mountIncompleteClassComponent(_current, workInProgress2, Component2, nextProps, renderLanes2) {
           resetSuspendedCurrentOnMountInLegacyMode(_current, workInProgress2);
           workInProgress2.tag = ClassComponent;
           var hasContext;
-          if (isContextProvider(Component)) {
+          if (isContextProvider(Component2)) {
             hasContext = true;
             pushContextProvider(workInProgress2);
           } else {
             hasContext = false;
           }
           prepareToReadContext(workInProgress2, renderLanes2);
-          constructClassInstance(workInProgress2, Component, nextProps);
-          mountClassInstance(workInProgress2, Component, nextProps, renderLanes2);
-          return finishClassComponent(null, workInProgress2, Component, true, hasContext, renderLanes2);
+          constructClassInstance(workInProgress2, Component2, nextProps);
+          mountClassInstance(workInProgress2, Component2, nextProps, renderLanes2);
+          return finishClassComponent(null, workInProgress2, Component2, true, hasContext, renderLanes2);
         }
-        function mountIndeterminateComponent(_current, workInProgress2, Component, renderLanes2) {
+        function mountIndeterminateComponent(_current, workInProgress2, Component2, renderLanes2) {
           resetSuspendedCurrentOnMountInLegacyMode(_current, workInProgress2);
           var props = workInProgress2.pendingProps;
           var context;
           {
-            var unmaskedContext = getUnmaskedContext(workInProgress2, Component, false);
+            var unmaskedContext = getUnmaskedContext(workInProgress2, Component2, false);
             context = getMaskedContext(workInProgress2, unmaskedContext);
           }
           prepareToReadContext(workInProgress2, renderLanes2);
@@ -16354,8 +16350,8 @@ var require_react_dom_development = __commonJS({
             markComponentRenderStarted(workInProgress2);
           }
           {
-            if (Component.prototype && typeof Component.prototype.render === "function") {
-              var componentName = getComponentNameFromType(Component) || "Unknown";
+            if (Component2.prototype && typeof Component2.prototype.render === "function") {
+              var componentName = getComponentNameFromType(Component2) || "Unknown";
               if (!didWarnAboutBadClass[componentName]) {
                 error("The <%s /> component appears to have a render method, but doesn't extend React.Component. This is likely to cause errors. Change %s to extend React.Component instead.", componentName, componentName);
                 didWarnAboutBadClass[componentName] = true;
@@ -16366,7 +16362,7 @@ var require_react_dom_development = __commonJS({
             }
             setIsRendering(true);
             ReactCurrentOwner$1.current = workInProgress2;
-            value = renderWithHooks(null, workInProgress2, Component, props, context, renderLanes2);
+            value = renderWithHooks(null, workInProgress2, Component2, props, context, renderLanes2);
             hasId = checkDidRenderIdHook();
             setIsRendering(false);
           }
@@ -16376,7 +16372,7 @@ var require_react_dom_development = __commonJS({
           workInProgress2.flags |= PerformedWork;
           {
             if (typeof value === "object" && value !== null && typeof value.render === "function" && value.$$typeof === void 0) {
-              var _componentName = getComponentNameFromType(Component) || "Unknown";
+              var _componentName = getComponentNameFromType(Component2) || "Unknown";
               if (!didWarnAboutModulePatternComponent[_componentName]) {
                 error("The <%s /> component appears to be a function component that returns a class instance. Change %s to a class that extends React.Component instead. If you can't use a class try assigning the prototype on the function as a workaround. `%s.prototype = React.Component.prototype`. Don't use an arrow function since it cannot be called with `new` by React.", _componentName, _componentName, _componentName);
                 didWarnAboutModulePatternComponent[_componentName] = true;
@@ -16385,7 +16381,7 @@ var require_react_dom_development = __commonJS({
           }
           if (typeof value === "object" && value !== null && typeof value.render === "function" && value.$$typeof === void 0) {
             {
-              var _componentName2 = getComponentNameFromType(Component) || "Unknown";
+              var _componentName2 = getComponentNameFromType(Component2) || "Unknown";
               if (!didWarnAboutModulePatternComponent[_componentName2]) {
                 error("The <%s /> component appears to be a function component that returns a class instance. Change %s to a class that extends React.Component instead. If you can't use a class try assigning the prototype on the function as a workaround. `%s.prototype = React.Component.prototype`. Don't use an arrow function since it cannot be called with `new` by React.", _componentName2, _componentName2, _componentName2);
                 didWarnAboutModulePatternComponent[_componentName2] = true;
@@ -16395,7 +16391,7 @@ var require_react_dom_development = __commonJS({
             workInProgress2.memoizedState = null;
             workInProgress2.updateQueue = null;
             var hasContext = false;
-            if (isContextProvider(Component)) {
+            if (isContextProvider(Component2)) {
               hasContext = true;
               pushContextProvider(workInProgress2);
             } else {
@@ -16404,15 +16400,15 @@ var require_react_dom_development = __commonJS({
             workInProgress2.memoizedState = value.state !== null && value.state !== void 0 ? value.state : null;
             initializeUpdateQueue(workInProgress2);
             adoptClassInstance(workInProgress2, value);
-            mountClassInstance(workInProgress2, Component, props, renderLanes2);
-            return finishClassComponent(null, workInProgress2, Component, true, hasContext, renderLanes2);
+            mountClassInstance(workInProgress2, Component2, props, renderLanes2);
+            return finishClassComponent(null, workInProgress2, Component2, true, hasContext, renderLanes2);
           } else {
             workInProgress2.tag = FunctionComponent;
             {
               if (workInProgress2.mode & StrictLegacyMode) {
                 setIsStrictModeForDevtools(true);
                 try {
-                  value = renderWithHooks(null, workInProgress2, Component, props, context, renderLanes2);
+                  value = renderWithHooks(null, workInProgress2, Component2, props, context, renderLanes2);
                   hasId = checkDidRenderIdHook();
                 } finally {
                   setIsStrictModeForDevtools(false);
@@ -16424,16 +16420,16 @@ var require_react_dom_development = __commonJS({
             }
             reconcileChildren(null, workInProgress2, value, renderLanes2);
             {
-              validateFunctionComponentInDev(workInProgress2, Component);
+              validateFunctionComponentInDev(workInProgress2, Component2);
             }
             return workInProgress2.child;
           }
         }
-        function validateFunctionComponentInDev(workInProgress2, Component) {
+        function validateFunctionComponentInDev(workInProgress2, Component2) {
           {
-            if (Component) {
-              if (Component.childContextTypes) {
-                error("%s(...): childContextTypes cannot be defined on a function component.", Component.displayName || Component.name || "Component");
+            if (Component2) {
+              if (Component2.childContextTypes) {
+                error("%s(...): childContextTypes cannot be defined on a function component.", Component2.displayName || Component2.name || "Component");
               }
             }
             if (workInProgress2.ref !== null) {
@@ -16452,15 +16448,15 @@ var require_react_dom_development = __commonJS({
                 error("Function components cannot be given refs. Attempts to access this ref will fail. Did you mean to use React.forwardRef()?%s", info);
               }
             }
-            if (typeof Component.getDerivedStateFromProps === "function") {
-              var _componentName3 = getComponentNameFromType(Component) || "Unknown";
+            if (typeof Component2.getDerivedStateFromProps === "function") {
+              var _componentName3 = getComponentNameFromType(Component2) || "Unknown";
               if (!didWarnAboutGetDerivedStateOnFunctionComponent[_componentName3]) {
                 error("%s: Function components do not support getDerivedStateFromProps.", _componentName3);
                 didWarnAboutGetDerivedStateOnFunctionComponent[_componentName3] = true;
               }
             }
-            if (typeof Component.contextType === "object" && Component.contextType !== null) {
-              var _componentName4 = getComponentNameFromType(Component) || "Unknown";
+            if (typeof Component2.contextType === "object" && Component2.contextType !== null) {
+              var _componentName4 = getComponentNameFromType(Component2) || "Unknown";
               if (!didWarnAboutContextTypeOnFunctionComponent[_componentName4]) {
                 error("%s: Function components do not support contextType.", _componentName4);
                 didWarnAboutContextTypeOnFunctionComponent[_componentName4] = true;
@@ -17203,8 +17199,8 @@ var require_react_dom_development = __commonJS({
               pushHostContext(workInProgress2);
               break;
             case ClassComponent: {
-              var Component = workInProgress2.type;
-              if (isContextProvider(Component)) {
+              var Component2 = workInProgress2.type;
+              if (isContextProvider(Component2)) {
                 pushContextProvider(workInProgress2);
               }
               break;
@@ -17328,10 +17324,10 @@ var require_react_dom_development = __commonJS({
               return mountLazyComponent(current2, workInProgress2, elementType, renderLanes2);
             }
             case FunctionComponent: {
-              var Component = workInProgress2.type;
+              var Component2 = workInProgress2.type;
               var unresolvedProps = workInProgress2.pendingProps;
-              var resolvedProps = workInProgress2.elementType === Component ? unresolvedProps : resolveDefaultProps(Component, unresolvedProps);
-              return updateFunctionComponent(current2, workInProgress2, Component, resolvedProps, renderLanes2);
+              var resolvedProps = workInProgress2.elementType === Component2 ? unresolvedProps : resolveDefaultProps(Component2, unresolvedProps);
+              return updateFunctionComponent(current2, workInProgress2, Component2, resolvedProps, renderLanes2);
             }
             case ClassComponent: {
               var _Component = workInProgress2.type;
@@ -17635,8 +17631,8 @@ var require_react_dom_development = __commonJS({
               bubbleProperties(workInProgress2);
               return null;
             case ClassComponent: {
-              var Component = workInProgress2.type;
-              if (isContextProvider(Component)) {
+              var Component2 = workInProgress2.type;
+              if (isContextProvider(Component2)) {
                 popContext(workInProgress2);
               }
               bubbleProperties(workInProgress2);
@@ -17944,8 +17940,8 @@ var require_react_dom_development = __commonJS({
           popTreeContext(workInProgress2);
           switch (workInProgress2.tag) {
             case ClassComponent: {
-              var Component = workInProgress2.type;
-              if (isContextProvider(Component)) {
+              var Component2 = workInProgress2.type;
+              if (isContextProvider(Component2)) {
                 popContext(workInProgress2);
               }
               var flags = workInProgress2.flags;
@@ -21597,18 +21593,18 @@ var require_react_dom_development = __commonJS({
         var createFiber = function(tag, pendingProps, key, mode) {
           return new FiberNode(tag, pendingProps, key, mode);
         };
-        function shouldConstruct$1(Component) {
-          var prototype = Component.prototype;
+        function shouldConstruct$1(Component2) {
+          var prototype = Component2.prototype;
           return !!(prototype && prototype.isReactComponent);
         }
         function isSimpleFunctionComponent(type) {
           return typeof type === "function" && !shouldConstruct$1(type) && type.defaultProps === void 0;
         }
-        function resolveLazyComponentTag(Component) {
-          if (typeof Component === "function") {
-            return shouldConstruct$1(Component) ? ClassComponent : FunctionComponent;
-          } else if (Component !== void 0 && Component !== null) {
-            var $$typeof = Component.$$typeof;
+        function resolveLazyComponentTag(Component2) {
+          if (typeof Component2 === "function") {
+            return shouldConstruct$1(Component2) ? ClassComponent : FunctionComponent;
+          } else if (Component2 !== void 0 && Component2 !== null) {
+            var $$typeof = Component2.$$typeof;
             if ($$typeof === REACT_FORWARD_REF_TYPE) {
               return ForwardRef;
             }
@@ -22042,9 +22038,9 @@ var require_react_dom_development = __commonJS({
           var fiber = get(parentComponent);
           var parentContext = findCurrentUnmaskedContext(fiber);
           if (fiber.tag === ClassComponent) {
-            var Component = fiber.type;
-            if (isContextProvider(Component)) {
-              return processChildContext(fiber, Component, parentContext);
+            var Component2 = fiber.type;
+            if (isContextProvider(Component2)) {
+              return processChildContext(fiber, Component2, parentContext);
             }
           }
           return parentContext;
@@ -22954,6 +22950,686 @@ var require_client = __commonJS({
   }
 });
 
+// node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.development.js
+var require_use_sync_external_store_shim_development = __commonJS({
+  "node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.development.js"(exports) {
+    "use strict";
+    if (true) {
+      (function() {
+        "use strict";
+        if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
+          __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
+        }
+        var React52 = require_react();
+        var ReactSharedInternals = React52.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        function error(format) {
+          {
+            {
+              for (var _len2 = arguments.length, args = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++) {
+                args[_key2 - 1] = arguments[_key2];
+              }
+              printWarning("error", format, args);
+            }
+          }
+        }
+        function printWarning(level, format, args) {
+          {
+            var ReactDebugCurrentFrame = ReactSharedInternals.ReactDebugCurrentFrame;
+            var stack = ReactDebugCurrentFrame.getStackAddendum();
+            if (stack !== "") {
+              format += "%s";
+              args = args.concat([stack]);
+            }
+            var argsWithFormat = args.map(function(item) {
+              return String(item);
+            });
+            argsWithFormat.unshift("Warning: " + format);
+            Function.prototype.apply.call(console[level], console, argsWithFormat);
+          }
+        }
+        function is(x2, y2) {
+          return x2 === y2 && (x2 !== 0 || 1 / x2 === 1 / y2) || x2 !== x2 && y2 !== y2;
+        }
+        var objectIs = typeof Object.is === "function" ? Object.is : is;
+        var useState2 = React52.useState, useEffect2 = React52.useEffect, useLayoutEffect2 = React52.useLayoutEffect, useDebugValue2 = React52.useDebugValue;
+        var didWarnOld18Alpha = false;
+        var didWarnUncachedGetSnapshot = false;
+        function useSyncExternalStore3(subscribe2, getSnapshot, getServerSnapshot) {
+          {
+            if (!didWarnOld18Alpha) {
+              if (React52.startTransition !== void 0) {
+                didWarnOld18Alpha = true;
+                error("You are using an outdated, pre-release alpha of React 18 that does not support useSyncExternalStore. The use-sync-external-store shim will not work correctly. Upgrade to a newer pre-release.");
+              }
+            }
+          }
+          var value = getSnapshot();
+          {
+            if (!didWarnUncachedGetSnapshot) {
+              var cachedValue = getSnapshot();
+              if (!objectIs(value, cachedValue)) {
+                error("The result of getSnapshot should be cached to avoid an infinite loop");
+                didWarnUncachedGetSnapshot = true;
+              }
+            }
+          }
+          var _useState = useState2({
+            inst: {
+              value,
+              getSnapshot
+            }
+          }), inst = _useState[0].inst, forceUpdate = _useState[1];
+          useLayoutEffect2(function() {
+            inst.value = value;
+            inst.getSnapshot = getSnapshot;
+            if (checkIfSnapshotChanged(inst)) {
+              forceUpdate({
+                inst
+              });
+            }
+          }, [subscribe2, value, getSnapshot]);
+          useEffect2(function() {
+            if (checkIfSnapshotChanged(inst)) {
+              forceUpdate({
+                inst
+              });
+            }
+            var handleStoreChange = function() {
+              if (checkIfSnapshotChanged(inst)) {
+                forceUpdate({
+                  inst
+                });
+              }
+            };
+            return subscribe2(handleStoreChange);
+          }, [subscribe2]);
+          useDebugValue2(value);
+          return value;
+        }
+        function checkIfSnapshotChanged(inst) {
+          var latestGetSnapshot = inst.getSnapshot;
+          var prevValue = inst.value;
+          try {
+            var nextValue = latestGetSnapshot();
+            return !objectIs(prevValue, nextValue);
+          } catch (error2) {
+            return true;
+          }
+        }
+        function useSyncExternalStore$1(subscribe2, getSnapshot, getServerSnapshot) {
+          return getSnapshot();
+        }
+        var canUseDOM2 = !!(typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined");
+        var isServerEnvironment = !canUseDOM2;
+        var shim = isServerEnvironment ? useSyncExternalStore$1 : useSyncExternalStore3;
+        var useSyncExternalStore$2 = React52.useSyncExternalStore !== void 0 ? React52.useSyncExternalStore : shim;
+        exports.useSyncExternalStore = useSyncExternalStore$2;
+        if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") {
+          __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
+        }
+      })();
+    }
+  }
+});
+
+// node_modules/use-sync-external-store/shim/index.js
+var require_shim = __commonJS({
+  "node_modules/use-sync-external-store/shim/index.js"(exports, module2) {
+    "use strict";
+    if (false) {
+      module2.exports = null;
+    } else {
+      module2.exports = require_use_sync_external_store_shim_development();
+    }
+  }
+});
+
+// node_modules/use-sync-external-store/cjs/use-sync-external-store-shim/with-selector.development.js
+var require_with_selector_development = __commonJS({
+  "node_modules/use-sync-external-store/cjs/use-sync-external-store-shim/with-selector.development.js"(exports) {
+    "use strict";
+    if (true) {
+      (function() {
+        "use strict";
+        if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
+          __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
+        }
+        var React52 = require_react();
+        var shim = require_shim();
+        function is(x2, y2) {
+          return x2 === y2 && (x2 !== 0 || 1 / x2 === 1 / y2) || x2 !== x2 && y2 !== y2;
+        }
+        var objectIs = typeof Object.is === "function" ? Object.is : is;
+        var useSyncExternalStore3 = shim.useSyncExternalStore;
+        var useRef3 = React52.useRef, useEffect2 = React52.useEffect, useMemo3 = React52.useMemo, useDebugValue2 = React52.useDebugValue;
+        function useSyncExternalStoreWithSelector3(subscribe2, getSnapshot, getServerSnapshot, selector, isEqual) {
+          var instRef = useRef3(null);
+          var inst;
+          if (instRef.current === null) {
+            inst = {
+              hasValue: false,
+              value: null
+            };
+            instRef.current = inst;
+          } else {
+            inst = instRef.current;
+          }
+          var _useMemo = useMemo3(function() {
+            var hasMemo = false;
+            var memoizedSnapshot;
+            var memoizedSelection;
+            var memoizedSelector = function(nextSnapshot) {
+              if (!hasMemo) {
+                hasMemo = true;
+                memoizedSnapshot = nextSnapshot;
+                var _nextSelection = selector(nextSnapshot);
+                if (isEqual !== void 0) {
+                  if (inst.hasValue) {
+                    var currentSelection = inst.value;
+                    if (isEqual(currentSelection, _nextSelection)) {
+                      memoizedSelection = currentSelection;
+                      return currentSelection;
+                    }
+                  }
+                }
+                memoizedSelection = _nextSelection;
+                return _nextSelection;
+              }
+              var prevSnapshot = memoizedSnapshot;
+              var prevSelection = memoizedSelection;
+              if (objectIs(prevSnapshot, nextSnapshot)) {
+                return prevSelection;
+              }
+              var nextSelection = selector(nextSnapshot);
+              if (isEqual !== void 0 && isEqual(prevSelection, nextSelection)) {
+                return prevSelection;
+              }
+              memoizedSnapshot = nextSnapshot;
+              memoizedSelection = nextSelection;
+              return nextSelection;
+            };
+            var maybeGetServerSnapshot = getServerSnapshot === void 0 ? null : getServerSnapshot;
+            var getSnapshotWithSelector = function() {
+              return memoizedSelector(getSnapshot());
+            };
+            var getServerSnapshotWithSelector = maybeGetServerSnapshot === null ? void 0 : function() {
+              return memoizedSelector(maybeGetServerSnapshot());
+            };
+            return [getSnapshotWithSelector, getServerSnapshotWithSelector];
+          }, [getSnapshot, getServerSnapshot, selector, isEqual]), getSelection = _useMemo[0], getServerSelection = _useMemo[1];
+          var value = useSyncExternalStore3(subscribe2, getSelection, getServerSelection);
+          useEffect2(function() {
+            inst.hasValue = true;
+            inst.value = value;
+          }, [value]);
+          useDebugValue2(value);
+          return value;
+        }
+        exports.useSyncExternalStoreWithSelector = useSyncExternalStoreWithSelector3;
+        if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") {
+          __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
+        }
+      })();
+    }
+  }
+});
+
+// node_modules/use-sync-external-store/shim/with-selector.js
+var require_with_selector = __commonJS({
+  "node_modules/use-sync-external-store/shim/with-selector.js"(exports, module2) {
+    "use strict";
+    if (false) {
+      module2.exports = null;
+    } else {
+      module2.exports = require_with_selector_development();
+    }
+  }
+});
+
+// node_modules/react-is/cjs/react-is.development.js
+var require_react_is_development = __commonJS({
+  "node_modules/react-is/cjs/react-is.development.js"(exports) {
+    "use strict";
+    if (true) {
+      (function() {
+        "use strict";
+        var hasSymbol = typeof Symbol === "function" && Symbol.for;
+        var REACT_ELEMENT_TYPE = hasSymbol ? Symbol.for("react.element") : 60103;
+        var REACT_PORTAL_TYPE = hasSymbol ? Symbol.for("react.portal") : 60106;
+        var REACT_FRAGMENT_TYPE = hasSymbol ? Symbol.for("react.fragment") : 60107;
+        var REACT_STRICT_MODE_TYPE = hasSymbol ? Symbol.for("react.strict_mode") : 60108;
+        var REACT_PROFILER_TYPE = hasSymbol ? Symbol.for("react.profiler") : 60114;
+        var REACT_PROVIDER_TYPE = hasSymbol ? Symbol.for("react.provider") : 60109;
+        var REACT_CONTEXT_TYPE = hasSymbol ? Symbol.for("react.context") : 60110;
+        var REACT_ASYNC_MODE_TYPE = hasSymbol ? Symbol.for("react.async_mode") : 60111;
+        var REACT_CONCURRENT_MODE_TYPE = hasSymbol ? Symbol.for("react.concurrent_mode") : 60111;
+        var REACT_FORWARD_REF_TYPE = hasSymbol ? Symbol.for("react.forward_ref") : 60112;
+        var REACT_SUSPENSE_TYPE = hasSymbol ? Symbol.for("react.suspense") : 60113;
+        var REACT_SUSPENSE_LIST_TYPE = hasSymbol ? Symbol.for("react.suspense_list") : 60120;
+        var REACT_MEMO_TYPE = hasSymbol ? Symbol.for("react.memo") : 60115;
+        var REACT_LAZY_TYPE = hasSymbol ? Symbol.for("react.lazy") : 60116;
+        var REACT_BLOCK_TYPE = hasSymbol ? Symbol.for("react.block") : 60121;
+        var REACT_FUNDAMENTAL_TYPE = hasSymbol ? Symbol.for("react.fundamental") : 60117;
+        var REACT_RESPONDER_TYPE = hasSymbol ? Symbol.for("react.responder") : 60118;
+        var REACT_SCOPE_TYPE = hasSymbol ? Symbol.for("react.scope") : 60119;
+        function isValidElementType2(type) {
+          return typeof type === "string" || typeof type === "function" || type === REACT_FRAGMENT_TYPE || type === REACT_CONCURRENT_MODE_TYPE || type === REACT_PROFILER_TYPE || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || typeof type === "object" && type !== null && (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_FUNDAMENTAL_TYPE || type.$$typeof === REACT_RESPONDER_TYPE || type.$$typeof === REACT_SCOPE_TYPE || type.$$typeof === REACT_BLOCK_TYPE);
+        }
+        function typeOf(object) {
+          if (typeof object === "object" && object !== null) {
+            var $$typeof = object.$$typeof;
+            switch ($$typeof) {
+              case REACT_ELEMENT_TYPE:
+                var type = object.type;
+                switch (type) {
+                  case REACT_ASYNC_MODE_TYPE:
+                  case REACT_CONCURRENT_MODE_TYPE:
+                  case REACT_FRAGMENT_TYPE:
+                  case REACT_PROFILER_TYPE:
+                  case REACT_STRICT_MODE_TYPE:
+                  case REACT_SUSPENSE_TYPE:
+                    return type;
+                  default:
+                    var $$typeofType = type && type.$$typeof;
+                    switch ($$typeofType) {
+                      case REACT_CONTEXT_TYPE:
+                      case REACT_FORWARD_REF_TYPE:
+                      case REACT_LAZY_TYPE:
+                      case REACT_MEMO_TYPE:
+                      case REACT_PROVIDER_TYPE:
+                        return $$typeofType;
+                      default:
+                        return $$typeof;
+                    }
+                }
+              case REACT_PORTAL_TYPE:
+                return $$typeof;
+            }
+          }
+          return void 0;
+        }
+        var AsyncMode = REACT_ASYNC_MODE_TYPE;
+        var ConcurrentMode = REACT_CONCURRENT_MODE_TYPE;
+        var ContextConsumer = REACT_CONTEXT_TYPE;
+        var ContextProvider = REACT_PROVIDER_TYPE;
+        var Element = REACT_ELEMENT_TYPE;
+        var ForwardRef = REACT_FORWARD_REF_TYPE;
+        var Fragment2 = REACT_FRAGMENT_TYPE;
+        var Lazy = REACT_LAZY_TYPE;
+        var Memo = REACT_MEMO_TYPE;
+        var Portal = REACT_PORTAL_TYPE;
+        var Profiler = REACT_PROFILER_TYPE;
+        var StrictMode = REACT_STRICT_MODE_TYPE;
+        var Suspense = REACT_SUSPENSE_TYPE;
+        var hasWarnedAboutDeprecatedIsAsyncMode = false;
+        function isAsyncMode(object) {
+          {
+            if (!hasWarnedAboutDeprecatedIsAsyncMode) {
+              hasWarnedAboutDeprecatedIsAsyncMode = true;
+              console["warn"]("The ReactIs.isAsyncMode() alias has been deprecated, and will be removed in React 17+. Update your code to use ReactIs.isConcurrentMode() instead. It has the exact same API.");
+            }
+          }
+          return isConcurrentMode(object) || typeOf(object) === REACT_ASYNC_MODE_TYPE;
+        }
+        function isConcurrentMode(object) {
+          return typeOf(object) === REACT_CONCURRENT_MODE_TYPE;
+        }
+        function isContextConsumer2(object) {
+          return typeOf(object) === REACT_CONTEXT_TYPE;
+        }
+        function isContextProvider(object) {
+          return typeOf(object) === REACT_PROVIDER_TYPE;
+        }
+        function isElement(object) {
+          return typeof object === "object" && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
+        }
+        function isForwardRef(object) {
+          return typeOf(object) === REACT_FORWARD_REF_TYPE;
+        }
+        function isFragment(object) {
+          return typeOf(object) === REACT_FRAGMENT_TYPE;
+        }
+        function isLazy(object) {
+          return typeOf(object) === REACT_LAZY_TYPE;
+        }
+        function isMemo(object) {
+          return typeOf(object) === REACT_MEMO_TYPE;
+        }
+        function isPortal(object) {
+          return typeOf(object) === REACT_PORTAL_TYPE;
+        }
+        function isProfiler(object) {
+          return typeOf(object) === REACT_PROFILER_TYPE;
+        }
+        function isStrictMode(object) {
+          return typeOf(object) === REACT_STRICT_MODE_TYPE;
+        }
+        function isSuspense(object) {
+          return typeOf(object) === REACT_SUSPENSE_TYPE;
+        }
+        exports.AsyncMode = AsyncMode;
+        exports.ConcurrentMode = ConcurrentMode;
+        exports.ContextConsumer = ContextConsumer;
+        exports.ContextProvider = ContextProvider;
+        exports.Element = Element;
+        exports.ForwardRef = ForwardRef;
+        exports.Fragment = Fragment2;
+        exports.Lazy = Lazy;
+        exports.Memo = Memo;
+        exports.Portal = Portal;
+        exports.Profiler = Profiler;
+        exports.StrictMode = StrictMode;
+        exports.Suspense = Suspense;
+        exports.isAsyncMode = isAsyncMode;
+        exports.isConcurrentMode = isConcurrentMode;
+        exports.isContextConsumer = isContextConsumer2;
+        exports.isContextProvider = isContextProvider;
+        exports.isElement = isElement;
+        exports.isForwardRef = isForwardRef;
+        exports.isFragment = isFragment;
+        exports.isLazy = isLazy;
+        exports.isMemo = isMemo;
+        exports.isPortal = isPortal;
+        exports.isProfiler = isProfiler;
+        exports.isStrictMode = isStrictMode;
+        exports.isSuspense = isSuspense;
+        exports.isValidElementType = isValidElementType2;
+        exports.typeOf = typeOf;
+      })();
+    }
+  }
+});
+
+// node_modules/react-is/index.js
+var require_react_is = __commonJS({
+  "node_modules/react-is/index.js"(exports, module2) {
+    "use strict";
+    if (false) {
+      module2.exports = null;
+    } else {
+      module2.exports = require_react_is_development();
+    }
+  }
+});
+
+// node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js
+var require_hoist_non_react_statics_cjs = __commonJS({
+  "node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js"(exports, module2) {
+    "use strict";
+    var reactIs = require_react_is();
+    var REACT_STATICS = {
+      childContextTypes: true,
+      contextType: true,
+      contextTypes: true,
+      defaultProps: true,
+      displayName: true,
+      getDefaultProps: true,
+      getDerivedStateFromError: true,
+      getDerivedStateFromProps: true,
+      mixins: true,
+      propTypes: true,
+      type: true
+    };
+    var KNOWN_STATICS = {
+      name: true,
+      length: true,
+      prototype: true,
+      caller: true,
+      callee: true,
+      arguments: true,
+      arity: true
+    };
+    var FORWARD_REF_STATICS = {
+      "$$typeof": true,
+      render: true,
+      defaultProps: true,
+      displayName: true,
+      propTypes: true
+    };
+    var MEMO_STATICS = {
+      "$$typeof": true,
+      compare: true,
+      defaultProps: true,
+      displayName: true,
+      propTypes: true,
+      type: true
+    };
+    var TYPE_STATICS = {};
+    TYPE_STATICS[reactIs.ForwardRef] = FORWARD_REF_STATICS;
+    TYPE_STATICS[reactIs.Memo] = MEMO_STATICS;
+    function getStatics(component) {
+      if (reactIs.isMemo(component)) {
+        return MEMO_STATICS;
+      }
+      return TYPE_STATICS[component["$$typeof"]] || REACT_STATICS;
+    }
+    var defineProperty = Object.defineProperty;
+    var getOwnPropertyNames = Object.getOwnPropertyNames;
+    var getOwnPropertySymbols = Object.getOwnPropertySymbols;
+    var getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
+    var getPrototypeOf = Object.getPrototypeOf;
+    var objectPrototype = Object.prototype;
+    function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
+      if (typeof sourceComponent !== "string") {
+        if (objectPrototype) {
+          var inheritedComponent = getPrototypeOf(sourceComponent);
+          if (inheritedComponent && inheritedComponent !== objectPrototype) {
+            hoistNonReactStatics(targetComponent, inheritedComponent, blacklist);
+          }
+        }
+        var keys = getOwnPropertyNames(sourceComponent);
+        if (getOwnPropertySymbols) {
+          keys = keys.concat(getOwnPropertySymbols(sourceComponent));
+        }
+        var targetStatics = getStatics(targetComponent);
+        var sourceStatics = getStatics(sourceComponent);
+        for (var i2 = 0; i2 < keys.length; ++i2) {
+          var key = keys[i2];
+          if (!KNOWN_STATICS[key] && !(blacklist && blacklist[key]) && !(sourceStatics && sourceStatics[key]) && !(targetStatics && targetStatics[key])) {
+            var descriptor = getOwnPropertyDescriptor(sourceComponent, key);
+            try {
+              defineProperty(targetComponent, key, descriptor);
+            } catch (e) {
+            }
+          }
+        }
+      }
+      return targetComponent;
+    }
+    module2.exports = hoistNonReactStatics;
+  }
+});
+
+// node_modules/react-redux/node_modules/react-is/cjs/react-is.development.js
+var require_react_is_development2 = __commonJS({
+  "node_modules/react-redux/node_modules/react-is/cjs/react-is.development.js"(exports) {
+    "use strict";
+    if (true) {
+      (function() {
+        "use strict";
+        var REACT_ELEMENT_TYPE = Symbol.for("react.element");
+        var REACT_PORTAL_TYPE = Symbol.for("react.portal");
+        var REACT_FRAGMENT_TYPE = Symbol.for("react.fragment");
+        var REACT_STRICT_MODE_TYPE = Symbol.for("react.strict_mode");
+        var REACT_PROFILER_TYPE = Symbol.for("react.profiler");
+        var REACT_PROVIDER_TYPE = Symbol.for("react.provider");
+        var REACT_CONTEXT_TYPE = Symbol.for("react.context");
+        var REACT_SERVER_CONTEXT_TYPE = Symbol.for("react.server_context");
+        var REACT_FORWARD_REF_TYPE = Symbol.for("react.forward_ref");
+        var REACT_SUSPENSE_TYPE = Symbol.for("react.suspense");
+        var REACT_SUSPENSE_LIST_TYPE = Symbol.for("react.suspense_list");
+        var REACT_MEMO_TYPE = Symbol.for("react.memo");
+        var REACT_LAZY_TYPE = Symbol.for("react.lazy");
+        var REACT_OFFSCREEN_TYPE = Symbol.for("react.offscreen");
+        var enableScopeAPI = false;
+        var enableCacheElement = false;
+        var enableTransitionTracing = false;
+        var enableLegacyHidden = false;
+        var enableDebugTracing = false;
+        var REACT_MODULE_REFERENCE;
+        {
+          REACT_MODULE_REFERENCE = Symbol.for("react.module.reference");
+        }
+        function isValidElementType2(type) {
+          if (typeof type === "string" || typeof type === "function") {
+            return true;
+          }
+          if (type === REACT_FRAGMENT_TYPE || type === REACT_PROFILER_TYPE || enableDebugTracing || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || enableLegacyHidden || type === REACT_OFFSCREEN_TYPE || enableScopeAPI || enableCacheElement || enableTransitionTracing) {
+            return true;
+          }
+          if (typeof type === "object" && type !== null) {
+            if (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_MODULE_REFERENCE || type.getModuleId !== void 0) {
+              return true;
+            }
+          }
+          return false;
+        }
+        function typeOf(object) {
+          if (typeof object === "object" && object !== null) {
+            var $$typeof = object.$$typeof;
+            switch ($$typeof) {
+              case REACT_ELEMENT_TYPE:
+                var type = object.type;
+                switch (type) {
+                  case REACT_FRAGMENT_TYPE:
+                  case REACT_PROFILER_TYPE:
+                  case REACT_STRICT_MODE_TYPE:
+                  case REACT_SUSPENSE_TYPE:
+                  case REACT_SUSPENSE_LIST_TYPE:
+                    return type;
+                  default:
+                    var $$typeofType = type && type.$$typeof;
+                    switch ($$typeofType) {
+                      case REACT_SERVER_CONTEXT_TYPE:
+                      case REACT_CONTEXT_TYPE:
+                      case REACT_FORWARD_REF_TYPE:
+                      case REACT_LAZY_TYPE:
+                      case REACT_MEMO_TYPE:
+                      case REACT_PROVIDER_TYPE:
+                        return $$typeofType;
+                      default:
+                        return $$typeof;
+                    }
+                }
+              case REACT_PORTAL_TYPE:
+                return $$typeof;
+            }
+          }
+          return void 0;
+        }
+        var ContextConsumer = REACT_CONTEXT_TYPE;
+        var ContextProvider = REACT_PROVIDER_TYPE;
+        var Element = REACT_ELEMENT_TYPE;
+        var ForwardRef = REACT_FORWARD_REF_TYPE;
+        var Fragment2 = REACT_FRAGMENT_TYPE;
+        var Lazy = REACT_LAZY_TYPE;
+        var Memo = REACT_MEMO_TYPE;
+        var Portal = REACT_PORTAL_TYPE;
+        var Profiler = REACT_PROFILER_TYPE;
+        var StrictMode = REACT_STRICT_MODE_TYPE;
+        var Suspense = REACT_SUSPENSE_TYPE;
+        var SuspenseList = REACT_SUSPENSE_LIST_TYPE;
+        var hasWarnedAboutDeprecatedIsAsyncMode = false;
+        var hasWarnedAboutDeprecatedIsConcurrentMode = false;
+        function isAsyncMode(object) {
+          {
+            if (!hasWarnedAboutDeprecatedIsAsyncMode) {
+              hasWarnedAboutDeprecatedIsAsyncMode = true;
+              console["warn"]("The ReactIs.isAsyncMode() alias has been deprecated, and will be removed in React 18+.");
+            }
+          }
+          return false;
+        }
+        function isConcurrentMode(object) {
+          {
+            if (!hasWarnedAboutDeprecatedIsConcurrentMode) {
+              hasWarnedAboutDeprecatedIsConcurrentMode = true;
+              console["warn"]("The ReactIs.isConcurrentMode() alias has been deprecated, and will be removed in React 18+.");
+            }
+          }
+          return false;
+        }
+        function isContextConsumer2(object) {
+          return typeOf(object) === REACT_CONTEXT_TYPE;
+        }
+        function isContextProvider(object) {
+          return typeOf(object) === REACT_PROVIDER_TYPE;
+        }
+        function isElement(object) {
+          return typeof object === "object" && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
+        }
+        function isForwardRef(object) {
+          return typeOf(object) === REACT_FORWARD_REF_TYPE;
+        }
+        function isFragment(object) {
+          return typeOf(object) === REACT_FRAGMENT_TYPE;
+        }
+        function isLazy(object) {
+          return typeOf(object) === REACT_LAZY_TYPE;
+        }
+        function isMemo(object) {
+          return typeOf(object) === REACT_MEMO_TYPE;
+        }
+        function isPortal(object) {
+          return typeOf(object) === REACT_PORTAL_TYPE;
+        }
+        function isProfiler(object) {
+          return typeOf(object) === REACT_PROFILER_TYPE;
+        }
+        function isStrictMode(object) {
+          return typeOf(object) === REACT_STRICT_MODE_TYPE;
+        }
+        function isSuspense(object) {
+          return typeOf(object) === REACT_SUSPENSE_TYPE;
+        }
+        function isSuspenseList(object) {
+          return typeOf(object) === REACT_SUSPENSE_LIST_TYPE;
+        }
+        exports.ContextConsumer = ContextConsumer;
+        exports.ContextProvider = ContextProvider;
+        exports.Element = Element;
+        exports.ForwardRef = ForwardRef;
+        exports.Fragment = Fragment2;
+        exports.Lazy = Lazy;
+        exports.Memo = Memo;
+        exports.Portal = Portal;
+        exports.Profiler = Profiler;
+        exports.StrictMode = StrictMode;
+        exports.Suspense = Suspense;
+        exports.SuspenseList = SuspenseList;
+        exports.isAsyncMode = isAsyncMode;
+        exports.isConcurrentMode = isConcurrentMode;
+        exports.isContextConsumer = isContextConsumer2;
+        exports.isContextProvider = isContextProvider;
+        exports.isElement = isElement;
+        exports.isForwardRef = isForwardRef;
+        exports.isFragment = isFragment;
+        exports.isLazy = isLazy;
+        exports.isMemo = isMemo;
+        exports.isPortal = isPortal;
+        exports.isProfiler = isProfiler;
+        exports.isStrictMode = isStrictMode;
+        exports.isSuspense = isSuspense;
+        exports.isSuspenseList = isSuspenseList;
+        exports.isValidElementType = isValidElementType2;
+        exports.typeOf = typeOf;
+      })();
+    }
+  }
+});
+
+// node_modules/react-redux/node_modules/react-is/index.js
+var require_react_is2 = __commonJS({
+  "node_modules/react-redux/node_modules/react-is/index.js"(exports, module2) {
+    "use strict";
+    if (false) {
+      module2.exports = null;
+    } else {
+      module2.exports = require_react_is_development2();
+    }
+  }
+});
+
 // node_modules/react/cjs/react-jsx-runtime.development.js
 var require_react_jsx_runtime_development = __commonJS({
   "node_modules/react/cjs/react-jsx-runtime.development.js"(exports) {
@@ -22961,7 +23637,7 @@ var require_react_jsx_runtime_development = __commonJS({
     if (true) {
       (function() {
         "use strict";
-        var React49 = require_react();
+        var React52 = require_react();
         var REACT_ELEMENT_TYPE = Symbol.for("react.element");
         var REACT_PORTAL_TYPE = Symbol.for("react.portal");
         var REACT_FRAGMENT_TYPE = Symbol.for("react.fragment");
@@ -22987,7 +23663,7 @@ var require_react_jsx_runtime_development = __commonJS({
           }
           return null;
         }
-        var ReactSharedInternals = React49.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var ReactSharedInternals = React52.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         function error(format) {
           {
             {
@@ -23314,8 +23990,8 @@ var require_react_jsx_runtime_development = __commonJS({
             return describeNativeComponentFrame(fn2, false);
           }
         }
-        function shouldConstruct(Component) {
-          var prototype = Component.prototype;
+        function shouldConstruct(Component2) {
+          var prototype = Component2.prototype;
           return !!(prototype && prototype.isReactComponent);
         }
         function describeUnknownElementTypeFrameInDEV(type, source, ownerFn) {
@@ -24630,9 +25306,9 @@ var require_emotion_weak_memoize_cjs = __commonJS({
   }
 });
 
-// node_modules/@emotion/cache/node_modules/@emotion/memoize/dist/emotion-memoize.cjs.dev.js
+// node_modules/@emotion/memoize/dist/emotion-memoize.cjs.dev.js
 var require_emotion_memoize_cjs_dev = __commonJS({
-  "node_modules/@emotion/cache/node_modules/@emotion/memoize/dist/emotion-memoize.cjs.dev.js"(exports) {
+  "node_modules/@emotion/memoize/dist/emotion-memoize.cjs.dev.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     function memoize(fn2) {
@@ -24647,9 +25323,9 @@ var require_emotion_memoize_cjs_dev = __commonJS({
   }
 });
 
-// node_modules/@emotion/cache/node_modules/@emotion/memoize/dist/emotion-memoize.cjs.js
+// node_modules/@emotion/memoize/dist/emotion-memoize.cjs.js
 var require_emotion_memoize_cjs = __commonJS({
-  "node_modules/@emotion/cache/node_modules/@emotion/memoize/dist/emotion-memoize.cjs.js"(exports, module2) {
+  "node_modules/@emotion/memoize/dist/emotion-memoize.cjs.js"(exports, module2) {
     "use strict";
     if (false) {
       module2.exports = null;
@@ -25140,260 +25816,6 @@ var require_extends = __commonJS({
   }
 });
 
-// node_modules/hoist-non-react-statics/node_modules/react-is/cjs/react-is.development.js
-var require_react_is_development = __commonJS({
-  "node_modules/hoist-non-react-statics/node_modules/react-is/cjs/react-is.development.js"(exports) {
-    "use strict";
-    if (true) {
-      (function() {
-        "use strict";
-        var hasSymbol = typeof Symbol === "function" && Symbol.for;
-        var REACT_ELEMENT_TYPE = hasSymbol ? Symbol.for("react.element") : 60103;
-        var REACT_PORTAL_TYPE = hasSymbol ? Symbol.for("react.portal") : 60106;
-        var REACT_FRAGMENT_TYPE = hasSymbol ? Symbol.for("react.fragment") : 60107;
-        var REACT_STRICT_MODE_TYPE = hasSymbol ? Symbol.for("react.strict_mode") : 60108;
-        var REACT_PROFILER_TYPE = hasSymbol ? Symbol.for("react.profiler") : 60114;
-        var REACT_PROVIDER_TYPE = hasSymbol ? Symbol.for("react.provider") : 60109;
-        var REACT_CONTEXT_TYPE = hasSymbol ? Symbol.for("react.context") : 60110;
-        var REACT_ASYNC_MODE_TYPE = hasSymbol ? Symbol.for("react.async_mode") : 60111;
-        var REACT_CONCURRENT_MODE_TYPE = hasSymbol ? Symbol.for("react.concurrent_mode") : 60111;
-        var REACT_FORWARD_REF_TYPE = hasSymbol ? Symbol.for("react.forward_ref") : 60112;
-        var REACT_SUSPENSE_TYPE = hasSymbol ? Symbol.for("react.suspense") : 60113;
-        var REACT_SUSPENSE_LIST_TYPE = hasSymbol ? Symbol.for("react.suspense_list") : 60120;
-        var REACT_MEMO_TYPE = hasSymbol ? Symbol.for("react.memo") : 60115;
-        var REACT_LAZY_TYPE = hasSymbol ? Symbol.for("react.lazy") : 60116;
-        var REACT_BLOCK_TYPE = hasSymbol ? Symbol.for("react.block") : 60121;
-        var REACT_FUNDAMENTAL_TYPE = hasSymbol ? Symbol.for("react.fundamental") : 60117;
-        var REACT_RESPONDER_TYPE = hasSymbol ? Symbol.for("react.responder") : 60118;
-        var REACT_SCOPE_TYPE = hasSymbol ? Symbol.for("react.scope") : 60119;
-        function isValidElementType2(type) {
-          return typeof type === "string" || typeof type === "function" || type === REACT_FRAGMENT_TYPE || type === REACT_CONCURRENT_MODE_TYPE || type === REACT_PROFILER_TYPE || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || typeof type === "object" && type !== null && (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_FUNDAMENTAL_TYPE || type.$$typeof === REACT_RESPONDER_TYPE || type.$$typeof === REACT_SCOPE_TYPE || type.$$typeof === REACT_BLOCK_TYPE);
-        }
-        function typeOf(object) {
-          if (typeof object === "object" && object !== null) {
-            var $$typeof = object.$$typeof;
-            switch ($$typeof) {
-              case REACT_ELEMENT_TYPE:
-                var type = object.type;
-                switch (type) {
-                  case REACT_ASYNC_MODE_TYPE:
-                  case REACT_CONCURRENT_MODE_TYPE:
-                  case REACT_FRAGMENT_TYPE:
-                  case REACT_PROFILER_TYPE:
-                  case REACT_STRICT_MODE_TYPE:
-                  case REACT_SUSPENSE_TYPE:
-                    return type;
-                  default:
-                    var $$typeofType = type && type.$$typeof;
-                    switch ($$typeofType) {
-                      case REACT_CONTEXT_TYPE:
-                      case REACT_FORWARD_REF_TYPE:
-                      case REACT_LAZY_TYPE:
-                      case REACT_MEMO_TYPE:
-                      case REACT_PROVIDER_TYPE:
-                        return $$typeofType;
-                      default:
-                        return $$typeof;
-                    }
-                }
-              case REACT_PORTAL_TYPE:
-                return $$typeof;
-            }
-          }
-          return void 0;
-        }
-        var AsyncMode = REACT_ASYNC_MODE_TYPE;
-        var ConcurrentMode = REACT_CONCURRENT_MODE_TYPE;
-        var ContextConsumer = REACT_CONTEXT_TYPE;
-        var ContextProvider = REACT_PROVIDER_TYPE;
-        var Element = REACT_ELEMENT_TYPE;
-        var ForwardRef = REACT_FORWARD_REF_TYPE;
-        var Fragment2 = REACT_FRAGMENT_TYPE;
-        var Lazy = REACT_LAZY_TYPE;
-        var Memo = REACT_MEMO_TYPE;
-        var Portal = REACT_PORTAL_TYPE;
-        var Profiler = REACT_PROFILER_TYPE;
-        var StrictMode = REACT_STRICT_MODE_TYPE;
-        var Suspense = REACT_SUSPENSE_TYPE;
-        var hasWarnedAboutDeprecatedIsAsyncMode = false;
-        function isAsyncMode(object) {
-          {
-            if (!hasWarnedAboutDeprecatedIsAsyncMode) {
-              hasWarnedAboutDeprecatedIsAsyncMode = true;
-              console["warn"]("The ReactIs.isAsyncMode() alias has been deprecated, and will be removed in React 17+. Update your code to use ReactIs.isConcurrentMode() instead. It has the exact same API.");
-            }
-          }
-          return isConcurrentMode(object) || typeOf(object) === REACT_ASYNC_MODE_TYPE;
-        }
-        function isConcurrentMode(object) {
-          return typeOf(object) === REACT_CONCURRENT_MODE_TYPE;
-        }
-        function isContextConsumer2(object) {
-          return typeOf(object) === REACT_CONTEXT_TYPE;
-        }
-        function isContextProvider(object) {
-          return typeOf(object) === REACT_PROVIDER_TYPE;
-        }
-        function isElement(object) {
-          return typeof object === "object" && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
-        }
-        function isForwardRef(object) {
-          return typeOf(object) === REACT_FORWARD_REF_TYPE;
-        }
-        function isFragment(object) {
-          return typeOf(object) === REACT_FRAGMENT_TYPE;
-        }
-        function isLazy(object) {
-          return typeOf(object) === REACT_LAZY_TYPE;
-        }
-        function isMemo(object) {
-          return typeOf(object) === REACT_MEMO_TYPE;
-        }
-        function isPortal(object) {
-          return typeOf(object) === REACT_PORTAL_TYPE;
-        }
-        function isProfiler(object) {
-          return typeOf(object) === REACT_PROFILER_TYPE;
-        }
-        function isStrictMode(object) {
-          return typeOf(object) === REACT_STRICT_MODE_TYPE;
-        }
-        function isSuspense(object) {
-          return typeOf(object) === REACT_SUSPENSE_TYPE;
-        }
-        exports.AsyncMode = AsyncMode;
-        exports.ConcurrentMode = ConcurrentMode;
-        exports.ContextConsumer = ContextConsumer;
-        exports.ContextProvider = ContextProvider;
-        exports.Element = Element;
-        exports.ForwardRef = ForwardRef;
-        exports.Fragment = Fragment2;
-        exports.Lazy = Lazy;
-        exports.Memo = Memo;
-        exports.Portal = Portal;
-        exports.Profiler = Profiler;
-        exports.StrictMode = StrictMode;
-        exports.Suspense = Suspense;
-        exports.isAsyncMode = isAsyncMode;
-        exports.isConcurrentMode = isConcurrentMode;
-        exports.isContextConsumer = isContextConsumer2;
-        exports.isContextProvider = isContextProvider;
-        exports.isElement = isElement;
-        exports.isForwardRef = isForwardRef;
-        exports.isFragment = isFragment;
-        exports.isLazy = isLazy;
-        exports.isMemo = isMemo;
-        exports.isPortal = isPortal;
-        exports.isProfiler = isProfiler;
-        exports.isStrictMode = isStrictMode;
-        exports.isSuspense = isSuspense;
-        exports.isValidElementType = isValidElementType2;
-        exports.typeOf = typeOf;
-      })();
-    }
-  }
-});
-
-// node_modules/hoist-non-react-statics/node_modules/react-is/index.js
-var require_react_is = __commonJS({
-  "node_modules/hoist-non-react-statics/node_modules/react-is/index.js"(exports, module2) {
-    "use strict";
-    if (false) {
-      module2.exports = null;
-    } else {
-      module2.exports = require_react_is_development();
-    }
-  }
-});
-
-// node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js
-var require_hoist_non_react_statics_cjs = __commonJS({
-  "node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js"(exports, module2) {
-    "use strict";
-    var reactIs = require_react_is();
-    var REACT_STATICS = {
-      childContextTypes: true,
-      contextType: true,
-      contextTypes: true,
-      defaultProps: true,
-      displayName: true,
-      getDefaultProps: true,
-      getDerivedStateFromError: true,
-      getDerivedStateFromProps: true,
-      mixins: true,
-      propTypes: true,
-      type: true
-    };
-    var KNOWN_STATICS = {
-      name: true,
-      length: true,
-      prototype: true,
-      caller: true,
-      callee: true,
-      arguments: true,
-      arity: true
-    };
-    var FORWARD_REF_STATICS = {
-      "$$typeof": true,
-      render: true,
-      defaultProps: true,
-      displayName: true,
-      propTypes: true
-    };
-    var MEMO_STATICS = {
-      "$$typeof": true,
-      compare: true,
-      defaultProps: true,
-      displayName: true,
-      propTypes: true,
-      type: true
-    };
-    var TYPE_STATICS = {};
-    TYPE_STATICS[reactIs.ForwardRef] = FORWARD_REF_STATICS;
-    TYPE_STATICS[reactIs.Memo] = MEMO_STATICS;
-    function getStatics(component) {
-      if (reactIs.isMemo(component)) {
-        return MEMO_STATICS;
-      }
-      return TYPE_STATICS[component["$$typeof"]] || REACT_STATICS;
-    }
-    var defineProperty = Object.defineProperty;
-    var getOwnPropertyNames = Object.getOwnPropertyNames;
-    var getOwnPropertySymbols = Object.getOwnPropertySymbols;
-    var getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
-    var getPrototypeOf = Object.getPrototypeOf;
-    var objectPrototype = Object.prototype;
-    function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
-      if (typeof sourceComponent !== "string") {
-        if (objectPrototype) {
-          var inheritedComponent = getPrototypeOf(sourceComponent);
-          if (inheritedComponent && inheritedComponent !== objectPrototype) {
-            hoistNonReactStatics(targetComponent, inheritedComponent, blacklist);
-          }
-        }
-        var keys = getOwnPropertyNames(sourceComponent);
-        if (getOwnPropertySymbols) {
-          keys = keys.concat(getOwnPropertySymbols(sourceComponent));
-        }
-        var targetStatics = getStatics(targetComponent);
-        var sourceStatics = getStatics(sourceComponent);
-        for (var i2 = 0; i2 < keys.length; ++i2) {
-          var key = keys[i2];
-          if (!KNOWN_STATICS[key] && !(blacklist && blacklist[key]) && !(sourceStatics && sourceStatics[key]) && !(targetStatics && targetStatics[key])) {
-            var descriptor = getOwnPropertyDescriptor(sourceComponent, key);
-            try {
-              defineProperty(targetComponent, key, descriptor);
-            } catch (e) {
-            }
-          }
-        }
-      }
-      return targetComponent;
-    }
-    module2.exports = hoistNonReactStatics;
-  }
-});
-
 // node_modules/@emotion/react/_isolated-hnrs/dist/emotion-react-_isolated-hnrs.cjs.dev.js
 var require_emotion_react_isolated_hnrs_cjs_dev = __commonJS({
   "node_modules/@emotion/react/_isolated-hnrs/dist/emotion-react-_isolated-hnrs.cjs.dev.js"(exports) {
@@ -25470,9 +25892,9 @@ var require_emotion_utils_cjs = __commonJS({
   }
 });
 
-// node_modules/@emotion/react/node_modules/@emotion/hash/dist/emotion-hash.cjs.dev.js
+// node_modules/@emotion/hash/dist/emotion-hash.cjs.dev.js
 var require_emotion_hash_cjs_dev = __commonJS({
-  "node_modules/@emotion/react/node_modules/@emotion/hash/dist/emotion-hash.cjs.dev.js"(exports) {
+  "node_modules/@emotion/hash/dist/emotion-hash.cjs.dev.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     function murmur2(str) {
@@ -25501,9 +25923,9 @@ var require_emotion_hash_cjs_dev = __commonJS({
   }
 });
 
-// node_modules/@emotion/react/node_modules/@emotion/hash/dist/emotion-hash.cjs.js
+// node_modules/@emotion/hash/dist/emotion-hash.cjs.js
 var require_emotion_hash_cjs = __commonJS({
-  "node_modules/@emotion/react/node_modules/@emotion/hash/dist/emotion-hash.cjs.js"(exports, module2) {
+  "node_modules/@emotion/hash/dist/emotion-hash.cjs.js"(exports, module2) {
     "use strict";
     if (false) {
       module2.exports = null;
@@ -25513,9 +25935,9 @@ var require_emotion_hash_cjs = __commonJS({
   }
 });
 
-// node_modules/@emotion/react/node_modules/@emotion/unitless/dist/emotion-unitless.cjs.dev.js
+// node_modules/@emotion/unitless/dist/emotion-unitless.cjs.dev.js
 var require_emotion_unitless_cjs_dev = __commonJS({
-  "node_modules/@emotion/react/node_modules/@emotion/unitless/dist/emotion-unitless.cjs.dev.js"(exports) {
+  "node_modules/@emotion/unitless/dist/emotion-unitless.cjs.dev.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var unitlessKeys = {
@@ -25570,9 +25992,9 @@ var require_emotion_unitless_cjs_dev = __commonJS({
   }
 });
 
-// node_modules/@emotion/react/node_modules/@emotion/unitless/dist/emotion-unitless.cjs.js
+// node_modules/@emotion/unitless/dist/emotion-unitless.cjs.js
 var require_emotion_unitless_cjs = __commonJS({
-  "node_modules/@emotion/react/node_modules/@emotion/unitless/dist/emotion-unitless.cjs.js"(exports, module2) {
+  "node_modules/@emotion/unitless/dist/emotion-unitless.cjs.js"(exports, module2) {
     "use strict";
     if (false) {
       module2.exports = null;
@@ -25582,43 +26004,14 @@ var require_emotion_unitless_cjs = __commonJS({
   }
 });
 
-// node_modules/@emotion/react/node_modules/@emotion/memoize/dist/emotion-memoize.cjs.dev.js
-var require_emotion_memoize_cjs_dev2 = __commonJS({
-  "node_modules/@emotion/react/node_modules/@emotion/memoize/dist/emotion-memoize.cjs.dev.js"(exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    function memoize(fn2) {
-      var cache = /* @__PURE__ */ Object.create(null);
-      return function(arg) {
-        if (cache[arg] === void 0)
-          cache[arg] = fn2(arg);
-        return cache[arg];
-      };
-    }
-    exports["default"] = memoize;
-  }
-});
-
-// node_modules/@emotion/react/node_modules/@emotion/memoize/dist/emotion-memoize.cjs.js
-var require_emotion_memoize_cjs2 = __commonJS({
-  "node_modules/@emotion/react/node_modules/@emotion/memoize/dist/emotion-memoize.cjs.js"(exports, module2) {
-    "use strict";
-    if (false) {
-      module2.exports = null;
-    } else {
-      module2.exports = require_emotion_memoize_cjs_dev2();
-    }
-  }
-});
-
-// node_modules/@emotion/react/node_modules/@emotion/serialize/dist/emotion-serialize.cjs.dev.js
+// node_modules/@emotion/serialize/dist/emotion-serialize.cjs.dev.js
 var require_emotion_serialize_cjs_dev = __commonJS({
-  "node_modules/@emotion/react/node_modules/@emotion/serialize/dist/emotion-serialize.cjs.dev.js"(exports) {
+  "node_modules/@emotion/serialize/dist/emotion-serialize.cjs.dev.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var hashString2 = require_emotion_hash_cjs();
     var unitless = require_emotion_unitless_cjs();
-    var memoize = require_emotion_memoize_cjs2();
+    var memoize = require_emotion_memoize_cjs();
     function _interopDefault(e) {
       return e && e.__esModule ? e : { "default": e };
     }
@@ -25879,9 +26272,9 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
   }
 });
 
-// node_modules/@emotion/react/node_modules/@emotion/serialize/dist/emotion-serialize.cjs.js
+// node_modules/@emotion/serialize/dist/emotion-serialize.cjs.js
 var require_emotion_serialize_cjs = __commonJS({
-  "node_modules/@emotion/react/node_modules/@emotion/serialize/dist/emotion-serialize.cjs.js"(exports, module2) {
+  "node_modules/@emotion/serialize/dist/emotion-serialize.cjs.js"(exports, module2) {
     "use strict";
     if (false) {
       module2.exports = null;
@@ -25891,12 +26284,12 @@ var require_emotion_serialize_cjs = __commonJS({
   }
 });
 
-// node_modules/@emotion/react/node_modules/@emotion/use-insertion-effect-with-fallbacks/dist/emotion-use-insertion-effect-with-fallbacks.cjs.dev.js
+// node_modules/@emotion/use-insertion-effect-with-fallbacks/dist/emotion-use-insertion-effect-with-fallbacks.cjs.dev.js
 var require_emotion_use_insertion_effect_with_fallbacks_cjs_dev = __commonJS({
-  "node_modules/@emotion/react/node_modules/@emotion/use-insertion-effect-with-fallbacks/dist/emotion-use-insertion-effect-with-fallbacks.cjs.dev.js"(exports) {
+  "node_modules/@emotion/use-insertion-effect-with-fallbacks/dist/emotion-use-insertion-effect-with-fallbacks.cjs.dev.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    var React49 = require_react();
+    var React52 = require_react();
     function _interopNamespace(e) {
       if (e && e.__esModule)
         return e;
@@ -25917,7 +26310,7 @@ var require_emotion_use_insertion_effect_with_fallbacks_cjs_dev = __commonJS({
       n2["default"] = e;
       return Object.freeze(n2);
     }
-    var React__namespace = /* @__PURE__ */ _interopNamespace(React49);
+    var React__namespace = /* @__PURE__ */ _interopNamespace(React52);
     var isBrowser = typeof document !== "undefined";
     var syncFallback = function syncFallback2(create) {
       return create();
@@ -25930,9 +26323,9 @@ var require_emotion_use_insertion_effect_with_fallbacks_cjs_dev = __commonJS({
   }
 });
 
-// node_modules/@emotion/react/node_modules/@emotion/use-insertion-effect-with-fallbacks/dist/emotion-use-insertion-effect-with-fallbacks.cjs.js
+// node_modules/@emotion/use-insertion-effect-with-fallbacks/dist/emotion-use-insertion-effect-with-fallbacks.cjs.js
 var require_emotion_use_insertion_effect_with_fallbacks_cjs = __commonJS({
-  "node_modules/@emotion/react/node_modules/@emotion/use-insertion-effect-with-fallbacks/dist/emotion-use-insertion-effect-with-fallbacks.cjs.js"(exports, module2) {
+  "node_modules/@emotion/use-insertion-effect-with-fallbacks/dist/emotion-use-insertion-effect-with-fallbacks.cjs.js"(exports, module2) {
     "use strict";
     if (false) {
       module2.exports = null;
@@ -25946,7 +26339,7 @@ var require_emotion_use_insertion_effect_with_fallbacks_cjs = __commonJS({
 var require_emotion_element_48d2c2e4_cjs_dev = __commonJS({
   "node_modules/@emotion/react/dist/emotion-element-48d2c2e4.cjs.dev.js"(exports) {
     "use strict";
-    var React49 = require_react();
+    var React52 = require_react();
     var createCache = require_emotion_cache_cjs();
     var _extends2 = require_extends();
     var weakMemoize = require_emotion_weak_memoize_cjs();
@@ -25977,7 +26370,7 @@ var require_emotion_element_48d2c2e4_cjs_dev = __commonJS({
       n2["default"] = e;
       return Object.freeze(n2);
     }
-    var React__namespace = /* @__PURE__ */ _interopNamespace(React49);
+    var React__namespace = /* @__PURE__ */ _interopNamespace(React52);
     var createCache__default = /* @__PURE__ */ _interopDefault(createCache);
     var weakMemoize__default = /* @__PURE__ */ _interopDefault(weakMemoize);
     var isBrowser = typeof document !== "undefined";
@@ -25992,18 +26385,18 @@ var require_emotion_element_48d2c2e4_cjs_dev = __commonJS({
     }
     var CacheProvider2 = EmotionCacheContext.Provider;
     var __unsafe_useEmotionCache2 = function useEmotionCache() {
-      return React49.useContext(EmotionCacheContext);
+      return React52.useContext(EmotionCacheContext);
     };
     exports.withEmotionCache = function withEmotionCache2(func) {
-      return /* @__PURE__ */ React49.forwardRef(function(props, ref) {
-        var cache = React49.useContext(EmotionCacheContext);
+      return /* @__PURE__ */ React52.forwardRef(function(props, ref) {
+        var cache = React52.useContext(EmotionCacheContext);
         return func(props, cache, ref);
       });
     };
     if (!isBrowser) {
       exports.withEmotionCache = function withEmotionCache2(func) {
         return function(props) {
-          var cache = React49.useContext(EmotionCacheContext);
+          var cache = React52.useContext(EmotionCacheContext);
           if (cache === null) {
             cache = createCache__default["default"]({
               key: "css"
@@ -26051,18 +26444,18 @@ var require_emotion_element_48d2c2e4_cjs_dev = __commonJS({
         value: theme
       }, props.children);
     };
-    function withTheme2(Component) {
-      var componentName = Component.displayName || Component.name || "Component";
+    function withTheme2(Component2) {
+      var componentName = Component2.displayName || Component2.name || "Component";
       var render = function render2(props, ref) {
         var theme = React__namespace.useContext(ThemeContext2);
-        return /* @__PURE__ */ React__namespace.createElement(Component, _extends2({
+        return /* @__PURE__ */ React__namespace.createElement(Component2, _extends2({
           theme,
           ref
         }, props));
       };
       var WithTheme = /* @__PURE__ */ React__namespace.forwardRef(render);
       WithTheme.displayName = "WithTheme(" + componentName + ")";
-      return _isolatedHnrs_dist_emotionReact_isolatedHnrs["default"](WithTheme, Component);
+      return _isolatedHnrs_dist_emotionReact_isolatedHnrs["default"](WithTheme, Component2);
     }
     var getLastPart = function getLastPart2(functionName) {
       var parts = functionName.split(".");
@@ -26256,439 +26649,13 @@ var require_emotion_react_jsx_runtime_cjs = __commonJS({
   }
 });
 
-// node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.development.js
-var require_use_sync_external_store_shim_development = __commonJS({
-  "node_modules/use-sync-external-store/cjs/use-sync-external-store-shim.development.js"(exports) {
-    "use strict";
-    if (true) {
-      (function() {
-        "use strict";
-        if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
-          __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
-        }
-        var React49 = require_react();
-        var ReactSharedInternals = React49.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
-        function error(format) {
-          {
-            {
-              for (var _len2 = arguments.length, args = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++) {
-                args[_key2 - 1] = arguments[_key2];
-              }
-              printWarning("error", format, args);
-            }
-          }
-        }
-        function printWarning(level, format, args) {
-          {
-            var ReactDebugCurrentFrame = ReactSharedInternals.ReactDebugCurrentFrame;
-            var stack = ReactDebugCurrentFrame.getStackAddendum();
-            if (stack !== "") {
-              format += "%s";
-              args = args.concat([stack]);
-            }
-            var argsWithFormat = args.map(function(item) {
-              return String(item);
-            });
-            argsWithFormat.unshift("Warning: " + format);
-            Function.prototype.apply.call(console[level], console, argsWithFormat);
-          }
-        }
-        function is(x2, y2) {
-          return x2 === y2 && (x2 !== 0 || 1 / x2 === 1 / y2) || x2 !== x2 && y2 !== y2;
-        }
-        var objectIs = typeof Object.is === "function" ? Object.is : is;
-        var useState2 = React49.useState, useEffect2 = React49.useEffect, useLayoutEffect2 = React49.useLayoutEffect, useDebugValue2 = React49.useDebugValue;
-        var didWarnOld18Alpha = false;
-        var didWarnUncachedGetSnapshot = false;
-        function useSyncExternalStore3(subscribe2, getSnapshot, getServerSnapshot) {
-          {
-            if (!didWarnOld18Alpha) {
-              if (React49.startTransition !== void 0) {
-                didWarnOld18Alpha = true;
-                error("You are using an outdated, pre-release alpha of React 18 that does not support useSyncExternalStore. The use-sync-external-store shim will not work correctly. Upgrade to a newer pre-release.");
-              }
-            }
-          }
-          var value = getSnapshot();
-          {
-            if (!didWarnUncachedGetSnapshot) {
-              var cachedValue = getSnapshot();
-              if (!objectIs(value, cachedValue)) {
-                error("The result of getSnapshot should be cached to avoid an infinite loop");
-                didWarnUncachedGetSnapshot = true;
-              }
-            }
-          }
-          var _useState = useState2({
-            inst: {
-              value,
-              getSnapshot
-            }
-          }), inst = _useState[0].inst, forceUpdate = _useState[1];
-          useLayoutEffect2(function() {
-            inst.value = value;
-            inst.getSnapshot = getSnapshot;
-            if (checkIfSnapshotChanged(inst)) {
-              forceUpdate({
-                inst
-              });
-            }
-          }, [subscribe2, value, getSnapshot]);
-          useEffect2(function() {
-            if (checkIfSnapshotChanged(inst)) {
-              forceUpdate({
-                inst
-              });
-            }
-            var handleStoreChange = function() {
-              if (checkIfSnapshotChanged(inst)) {
-                forceUpdate({
-                  inst
-                });
-              }
-            };
-            return subscribe2(handleStoreChange);
-          }, [subscribe2]);
-          useDebugValue2(value);
-          return value;
-        }
-        function checkIfSnapshotChanged(inst) {
-          var latestGetSnapshot = inst.getSnapshot;
-          var prevValue = inst.value;
-          try {
-            var nextValue = latestGetSnapshot();
-            return !objectIs(prevValue, nextValue);
-          } catch (error2) {
-            return true;
-          }
-        }
-        function useSyncExternalStore$1(subscribe2, getSnapshot, getServerSnapshot) {
-          return getSnapshot();
-        }
-        var canUseDOM2 = !!(typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined");
-        var isServerEnvironment = !canUseDOM2;
-        var shim = isServerEnvironment ? useSyncExternalStore$1 : useSyncExternalStore3;
-        var useSyncExternalStore$2 = React49.useSyncExternalStore !== void 0 ? React49.useSyncExternalStore : shim;
-        exports.useSyncExternalStore = useSyncExternalStore$2;
-        if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") {
-          __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
-        }
-      })();
-    }
-  }
-});
-
-// node_modules/use-sync-external-store/shim/index.js
-var require_shim = __commonJS({
-  "node_modules/use-sync-external-store/shim/index.js"(exports, module2) {
-    "use strict";
-    if (false) {
-      module2.exports = null;
-    } else {
-      module2.exports = require_use_sync_external_store_shim_development();
-    }
-  }
-});
-
-// node_modules/use-sync-external-store/cjs/use-sync-external-store-shim/with-selector.development.js
-var require_with_selector_development = __commonJS({
-  "node_modules/use-sync-external-store/cjs/use-sync-external-store-shim/with-selector.development.js"(exports) {
-    "use strict";
-    if (true) {
-      (function() {
-        "use strict";
-        if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
-          __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
-        }
-        var React49 = require_react();
-        var shim = require_shim();
-        function is(x2, y2) {
-          return x2 === y2 && (x2 !== 0 || 1 / x2 === 1 / y2) || x2 !== x2 && y2 !== y2;
-        }
-        var objectIs = typeof Object.is === "function" ? Object.is : is;
-        var useSyncExternalStore3 = shim.useSyncExternalStore;
-        var useRef3 = React49.useRef, useEffect2 = React49.useEffect, useMemo3 = React49.useMemo, useDebugValue2 = React49.useDebugValue;
-        function useSyncExternalStoreWithSelector3(subscribe2, getSnapshot, getServerSnapshot, selector, isEqual) {
-          var instRef = useRef3(null);
-          var inst;
-          if (instRef.current === null) {
-            inst = {
-              hasValue: false,
-              value: null
-            };
-            instRef.current = inst;
-          } else {
-            inst = instRef.current;
-          }
-          var _useMemo = useMemo3(function() {
-            var hasMemo = false;
-            var memoizedSnapshot;
-            var memoizedSelection;
-            var memoizedSelector = function(nextSnapshot) {
-              if (!hasMemo) {
-                hasMemo = true;
-                memoizedSnapshot = nextSnapshot;
-                var _nextSelection = selector(nextSnapshot);
-                if (isEqual !== void 0) {
-                  if (inst.hasValue) {
-                    var currentSelection = inst.value;
-                    if (isEqual(currentSelection, _nextSelection)) {
-                      memoizedSelection = currentSelection;
-                      return currentSelection;
-                    }
-                  }
-                }
-                memoizedSelection = _nextSelection;
-                return _nextSelection;
-              }
-              var prevSnapshot = memoizedSnapshot;
-              var prevSelection = memoizedSelection;
-              if (objectIs(prevSnapshot, nextSnapshot)) {
-                return prevSelection;
-              }
-              var nextSelection = selector(nextSnapshot);
-              if (isEqual !== void 0 && isEqual(prevSelection, nextSelection)) {
-                return prevSelection;
-              }
-              memoizedSnapshot = nextSnapshot;
-              memoizedSelection = nextSelection;
-              return nextSelection;
-            };
-            var maybeGetServerSnapshot = getServerSnapshot === void 0 ? null : getServerSnapshot;
-            var getSnapshotWithSelector = function() {
-              return memoizedSelector(getSnapshot());
-            };
-            var getServerSnapshotWithSelector = maybeGetServerSnapshot === null ? void 0 : function() {
-              return memoizedSelector(maybeGetServerSnapshot());
-            };
-            return [getSnapshotWithSelector, getServerSnapshotWithSelector];
-          }, [getSnapshot, getServerSnapshot, selector, isEqual]), getSelection = _useMemo[0], getServerSelection = _useMemo[1];
-          var value = useSyncExternalStore3(subscribe2, getSelection, getServerSelection);
-          useEffect2(function() {
-            inst.hasValue = true;
-            inst.value = value;
-          }, [value]);
-          useDebugValue2(value);
-          return value;
-        }
-        exports.useSyncExternalStoreWithSelector = useSyncExternalStoreWithSelector3;
-        if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") {
-          __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
-        }
-      })();
-    }
-  }
-});
-
-// node_modules/use-sync-external-store/shim/with-selector.js
-var require_with_selector = __commonJS({
-  "node_modules/use-sync-external-store/shim/with-selector.js"(exports, module2) {
-    "use strict";
-    if (false) {
-      module2.exports = null;
-    } else {
-      module2.exports = require_with_selector_development();
-    }
-  }
-});
-
-// node_modules/react-is/cjs/react-is.development.js
-var require_react_is_development2 = __commonJS({
-  "node_modules/react-is/cjs/react-is.development.js"(exports) {
-    "use strict";
-    if (true) {
-      (function() {
-        "use strict";
-        var REACT_ELEMENT_TYPE = Symbol.for("react.element");
-        var REACT_PORTAL_TYPE = Symbol.for("react.portal");
-        var REACT_FRAGMENT_TYPE = Symbol.for("react.fragment");
-        var REACT_STRICT_MODE_TYPE = Symbol.for("react.strict_mode");
-        var REACT_PROFILER_TYPE = Symbol.for("react.profiler");
-        var REACT_PROVIDER_TYPE = Symbol.for("react.provider");
-        var REACT_CONTEXT_TYPE = Symbol.for("react.context");
-        var REACT_SERVER_CONTEXT_TYPE = Symbol.for("react.server_context");
-        var REACT_FORWARD_REF_TYPE = Symbol.for("react.forward_ref");
-        var REACT_SUSPENSE_TYPE = Symbol.for("react.suspense");
-        var REACT_SUSPENSE_LIST_TYPE = Symbol.for("react.suspense_list");
-        var REACT_MEMO_TYPE = Symbol.for("react.memo");
-        var REACT_LAZY_TYPE = Symbol.for("react.lazy");
-        var REACT_OFFSCREEN_TYPE = Symbol.for("react.offscreen");
-        var enableScopeAPI = false;
-        var enableCacheElement = false;
-        var enableTransitionTracing = false;
-        var enableLegacyHidden = false;
-        var enableDebugTracing = false;
-        var REACT_MODULE_REFERENCE;
-        {
-          REACT_MODULE_REFERENCE = Symbol.for("react.module.reference");
-        }
-        function isValidElementType2(type) {
-          if (typeof type === "string" || typeof type === "function") {
-            return true;
-          }
-          if (type === REACT_FRAGMENT_TYPE || type === REACT_PROFILER_TYPE || enableDebugTracing || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || enableLegacyHidden || type === REACT_OFFSCREEN_TYPE || enableScopeAPI || enableCacheElement || enableTransitionTracing) {
-            return true;
-          }
-          if (typeof type === "object" && type !== null) {
-            if (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_MODULE_REFERENCE || type.getModuleId !== void 0) {
-              return true;
-            }
-          }
-          return false;
-        }
-        function typeOf(object) {
-          if (typeof object === "object" && object !== null) {
-            var $$typeof = object.$$typeof;
-            switch ($$typeof) {
-              case REACT_ELEMENT_TYPE:
-                var type = object.type;
-                switch (type) {
-                  case REACT_FRAGMENT_TYPE:
-                  case REACT_PROFILER_TYPE:
-                  case REACT_STRICT_MODE_TYPE:
-                  case REACT_SUSPENSE_TYPE:
-                  case REACT_SUSPENSE_LIST_TYPE:
-                    return type;
-                  default:
-                    var $$typeofType = type && type.$$typeof;
-                    switch ($$typeofType) {
-                      case REACT_SERVER_CONTEXT_TYPE:
-                      case REACT_CONTEXT_TYPE:
-                      case REACT_FORWARD_REF_TYPE:
-                      case REACT_LAZY_TYPE:
-                      case REACT_MEMO_TYPE:
-                      case REACT_PROVIDER_TYPE:
-                        return $$typeofType;
-                      default:
-                        return $$typeof;
-                    }
-                }
-              case REACT_PORTAL_TYPE:
-                return $$typeof;
-            }
-          }
-          return void 0;
-        }
-        var ContextConsumer = REACT_CONTEXT_TYPE;
-        var ContextProvider = REACT_PROVIDER_TYPE;
-        var Element = REACT_ELEMENT_TYPE;
-        var ForwardRef = REACT_FORWARD_REF_TYPE;
-        var Fragment2 = REACT_FRAGMENT_TYPE;
-        var Lazy = REACT_LAZY_TYPE;
-        var Memo = REACT_MEMO_TYPE;
-        var Portal = REACT_PORTAL_TYPE;
-        var Profiler = REACT_PROFILER_TYPE;
-        var StrictMode = REACT_STRICT_MODE_TYPE;
-        var Suspense = REACT_SUSPENSE_TYPE;
-        var SuspenseList = REACT_SUSPENSE_LIST_TYPE;
-        var hasWarnedAboutDeprecatedIsAsyncMode = false;
-        var hasWarnedAboutDeprecatedIsConcurrentMode = false;
-        function isAsyncMode(object) {
-          {
-            if (!hasWarnedAboutDeprecatedIsAsyncMode) {
-              hasWarnedAboutDeprecatedIsAsyncMode = true;
-              console["warn"]("The ReactIs.isAsyncMode() alias has been deprecated, and will be removed in React 18+.");
-            }
-          }
-          return false;
-        }
-        function isConcurrentMode(object) {
-          {
-            if (!hasWarnedAboutDeprecatedIsConcurrentMode) {
-              hasWarnedAboutDeprecatedIsConcurrentMode = true;
-              console["warn"]("The ReactIs.isConcurrentMode() alias has been deprecated, and will be removed in React 18+.");
-            }
-          }
-          return false;
-        }
-        function isContextConsumer2(object) {
-          return typeOf(object) === REACT_CONTEXT_TYPE;
-        }
-        function isContextProvider(object) {
-          return typeOf(object) === REACT_PROVIDER_TYPE;
-        }
-        function isElement(object) {
-          return typeof object === "object" && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
-        }
-        function isForwardRef(object) {
-          return typeOf(object) === REACT_FORWARD_REF_TYPE;
-        }
-        function isFragment(object) {
-          return typeOf(object) === REACT_FRAGMENT_TYPE;
-        }
-        function isLazy(object) {
-          return typeOf(object) === REACT_LAZY_TYPE;
-        }
-        function isMemo(object) {
-          return typeOf(object) === REACT_MEMO_TYPE;
-        }
-        function isPortal(object) {
-          return typeOf(object) === REACT_PORTAL_TYPE;
-        }
-        function isProfiler(object) {
-          return typeOf(object) === REACT_PROFILER_TYPE;
-        }
-        function isStrictMode(object) {
-          return typeOf(object) === REACT_STRICT_MODE_TYPE;
-        }
-        function isSuspense(object) {
-          return typeOf(object) === REACT_SUSPENSE_TYPE;
-        }
-        function isSuspenseList(object) {
-          return typeOf(object) === REACT_SUSPENSE_LIST_TYPE;
-        }
-        exports.ContextConsumer = ContextConsumer;
-        exports.ContextProvider = ContextProvider;
-        exports.Element = Element;
-        exports.ForwardRef = ForwardRef;
-        exports.Fragment = Fragment2;
-        exports.Lazy = Lazy;
-        exports.Memo = Memo;
-        exports.Portal = Portal;
-        exports.Profiler = Profiler;
-        exports.StrictMode = StrictMode;
-        exports.Suspense = Suspense;
-        exports.SuspenseList = SuspenseList;
-        exports.isAsyncMode = isAsyncMode;
-        exports.isConcurrentMode = isConcurrentMode;
-        exports.isContextConsumer = isContextConsumer2;
-        exports.isContextProvider = isContextProvider;
-        exports.isElement = isElement;
-        exports.isForwardRef = isForwardRef;
-        exports.isFragment = isFragment;
-        exports.isLazy = isLazy;
-        exports.isMemo = isMemo;
-        exports.isPortal = isPortal;
-        exports.isProfiler = isProfiler;
-        exports.isStrictMode = isStrictMode;
-        exports.isSuspense = isSuspense;
-        exports.isSuspenseList = isSuspenseList;
-        exports.isValidElementType = isValidElementType2;
-        exports.typeOf = typeOf;
-      })();
-    }
-  }
-});
-
-// node_modules/react-is/index.js
-var require_react_is2 = __commonJS({
-  "node_modules/react-is/index.js"(exports, module2) {
-    "use strict";
-    if (false) {
-      module2.exports = null;
-    } else {
-      module2.exports = require_react_is_development2();
-    }
-  }
-});
-
 // node_modules/@emotion/react/dist/emotion-react.cjs.dev.js
 var require_emotion_react_cjs_dev = __commonJS({
   "node_modules/@emotion/react/dist/emotion-react.cjs.dev.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var emotionElement = require_emotion_element_48d2c2e4_cjs_dev();
-    var React49 = require_react();
+    var React52 = require_react();
     var utils = require_emotion_utils_cjs();
     var useInsertionEffectWithFallbacks = require_emotion_use_insertion_effect_with_fallbacks_cjs();
     var serialize2 = require_emotion_serialize_cjs();
@@ -26717,7 +26684,7 @@ var require_emotion_react_cjs_dev = __commonJS({
       n2["default"] = e;
       return Object.freeze(n2);
     }
-    var React__namespace = /* @__PURE__ */ _interopNamespace(React49);
+    var React__namespace = /* @__PURE__ */ _interopNamespace(React52);
     var pkg = {
       name: "@emotion/react",
       version: "11.11.0",
@@ -27117,57 +27084,57 @@ var require_emotion_react_cjs = __commonJS({
   }
 });
 
-// node_modules/react-select/node_modules/@babel/runtime/helpers/typeof.js
+// node_modules/@babel/runtime/helpers/typeof.js
 var require_typeof = __commonJS({
-  "node_modules/react-select/node_modules/@babel/runtime/helpers/typeof.js"(exports, module2) {
-    function _typeof(obj) {
+  "node_modules/@babel/runtime/helpers/typeof.js"(exports, module2) {
+    function _typeof2(obj) {
       "@babel/helpers - typeof";
-      return module2.exports = _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(obj2) {
+      return module2.exports = _typeof2 = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(obj2) {
         return typeof obj2;
       } : function(obj2) {
         return obj2 && "function" == typeof Symbol && obj2.constructor === Symbol && obj2 !== Symbol.prototype ? "symbol" : typeof obj2;
-      }, module2.exports.__esModule = true, module2.exports["default"] = module2.exports, _typeof(obj);
+      }, module2.exports.__esModule = true, module2.exports["default"] = module2.exports, _typeof2(obj);
     }
-    module2.exports = _typeof, module2.exports.__esModule = true, module2.exports["default"] = module2.exports;
+    module2.exports = _typeof2, module2.exports.__esModule = true, module2.exports["default"] = module2.exports;
   }
 });
 
-// node_modules/react-select/node_modules/@babel/runtime/helpers/toPrimitive.js
+// node_modules/@babel/runtime/helpers/toPrimitive.js
 var require_toPrimitive = __commonJS({
-  "node_modules/react-select/node_modules/@babel/runtime/helpers/toPrimitive.js"(exports, module2) {
-    var _typeof = require_typeof()["default"];
-    function _toPrimitive(input, hint) {
-      if (_typeof(input) !== "object" || input === null)
+  "node_modules/@babel/runtime/helpers/toPrimitive.js"(exports, module2) {
+    var _typeof2 = require_typeof()["default"];
+    function _toPrimitive2(input, hint) {
+      if (_typeof2(input) !== "object" || input === null)
         return input;
       var prim = input[Symbol.toPrimitive];
       if (prim !== void 0) {
         var res = prim.call(input, hint || "default");
-        if (_typeof(res) !== "object")
+        if (_typeof2(res) !== "object")
           return res;
         throw new TypeError("@@toPrimitive must return a primitive value.");
       }
       return (hint === "string" ? String : Number)(input);
     }
-    module2.exports = _toPrimitive, module2.exports.__esModule = true, module2.exports["default"] = module2.exports;
+    module2.exports = _toPrimitive2, module2.exports.__esModule = true, module2.exports["default"] = module2.exports;
   }
 });
 
-// node_modules/react-select/node_modules/@babel/runtime/helpers/toPropertyKey.js
+// node_modules/@babel/runtime/helpers/toPropertyKey.js
 var require_toPropertyKey = __commonJS({
-  "node_modules/react-select/node_modules/@babel/runtime/helpers/toPropertyKey.js"(exports, module2) {
-    var _typeof = require_typeof()["default"];
+  "node_modules/@babel/runtime/helpers/toPropertyKey.js"(exports, module2) {
+    var _typeof2 = require_typeof()["default"];
     var toPrimitive = require_toPrimitive();
-    function _toPropertyKey(arg) {
+    function _toPropertyKey2(arg) {
       var key = toPrimitive(arg, "string");
-      return _typeof(key) === "symbol" ? key : String(key);
+      return _typeof2(key) === "symbol" ? key : String(key);
     }
-    module2.exports = _toPropertyKey, module2.exports.__esModule = true, module2.exports["default"] = module2.exports;
+    module2.exports = _toPropertyKey2, module2.exports.__esModule = true, module2.exports["default"] = module2.exports;
   }
 });
 
-// node_modules/react-select/node_modules/@babel/runtime/helpers/defineProperty.js
+// node_modules/@babel/runtime/helpers/defineProperty.js
 var require_defineProperty = __commonJS({
-  "node_modules/react-select/node_modules/@babel/runtime/helpers/defineProperty.js"(exports, module2) {
+  "node_modules/@babel/runtime/helpers/defineProperty.js"(exports, module2) {
     var toPropertyKey = require_toPropertyKey();
     function _defineProperty2(obj, key, value) {
       key = toPropertyKey(key);
@@ -27187,9 +27154,9 @@ var require_defineProperty = __commonJS({
   }
 });
 
-// node_modules/react-select/node_modules/@babel/runtime/helpers/objectSpread2.js
+// node_modules/@babel/runtime/helpers/objectSpread2.js
 var require_objectSpread2 = __commonJS({
-  "node_modules/react-select/node_modules/@babel/runtime/helpers/objectSpread2.js"(exports, module2) {
+  "node_modules/@babel/runtime/helpers/objectSpread2.js"(exports, module2) {
     var defineProperty = require_defineProperty();
     function ownKeys2(object, enumerableOnly) {
       var keys = Object.keys(object);
@@ -27216,9 +27183,9 @@ var require_objectSpread2 = __commonJS({
   }
 });
 
-// node_modules/react-select/node_modules/@babel/runtime/helpers/arrayWithHoles.js
+// node_modules/@babel/runtime/helpers/arrayWithHoles.js
 var require_arrayWithHoles = __commonJS({
-  "node_modules/react-select/node_modules/@babel/runtime/helpers/arrayWithHoles.js"(exports, module2) {
+  "node_modules/@babel/runtime/helpers/arrayWithHoles.js"(exports, module2) {
     function _arrayWithHoles(arr) {
       if (Array.isArray(arr))
         return arr;
@@ -27227,9 +27194,9 @@ var require_arrayWithHoles = __commonJS({
   }
 });
 
-// node_modules/react-select/node_modules/@babel/runtime/helpers/iterableToArrayLimit.js
+// node_modules/@babel/runtime/helpers/iterableToArrayLimit.js
 var require_iterableToArrayLimit = __commonJS({
-  "node_modules/react-select/node_modules/@babel/runtime/helpers/iterableToArrayLimit.js"(exports, module2) {
+  "node_modules/@babel/runtime/helpers/iterableToArrayLimit.js"(exports, module2) {
     function _iterableToArrayLimit(arr, i2) {
       var _i = null == arr ? null : "undefined" != typeof Symbol && arr[Symbol.iterator] || arr["@@iterator"];
       if (null != _i) {
@@ -27260,9 +27227,9 @@ var require_iterableToArrayLimit = __commonJS({
   }
 });
 
-// node_modules/react-select/node_modules/@babel/runtime/helpers/arrayLikeToArray.js
+// node_modules/@babel/runtime/helpers/arrayLikeToArray.js
 var require_arrayLikeToArray = __commonJS({
-  "node_modules/react-select/node_modules/@babel/runtime/helpers/arrayLikeToArray.js"(exports, module2) {
+  "node_modules/@babel/runtime/helpers/arrayLikeToArray.js"(exports, module2) {
     function _arrayLikeToArray(arr, len) {
       if (len == null || len > arr.length)
         len = arr.length;
@@ -27274,9 +27241,9 @@ var require_arrayLikeToArray = __commonJS({
   }
 });
 
-// node_modules/react-select/node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js
+// node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js
 var require_unsupportedIterableToArray = __commonJS({
-  "node_modules/react-select/node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js"(exports, module2) {
+  "node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js"(exports, module2) {
     var arrayLikeToArray = require_arrayLikeToArray();
     function _unsupportedIterableToArray(o2, minLen) {
       if (!o2)
@@ -27295,9 +27262,9 @@ var require_unsupportedIterableToArray = __commonJS({
   }
 });
 
-// node_modules/react-select/node_modules/@babel/runtime/helpers/nonIterableRest.js
+// node_modules/@babel/runtime/helpers/nonIterableRest.js
 var require_nonIterableRest = __commonJS({
-  "node_modules/react-select/node_modules/@babel/runtime/helpers/nonIterableRest.js"(exports, module2) {
+  "node_modules/@babel/runtime/helpers/nonIterableRest.js"(exports, module2) {
     function _nonIterableRest() {
       throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
     }
@@ -27305,9 +27272,9 @@ var require_nonIterableRest = __commonJS({
   }
 });
 
-// node_modules/react-select/node_modules/@babel/runtime/helpers/slicedToArray.js
+// node_modules/@babel/runtime/helpers/slicedToArray.js
 var require_slicedToArray = __commonJS({
-  "node_modules/react-select/node_modules/@babel/runtime/helpers/slicedToArray.js"(exports, module2) {
+  "node_modules/@babel/runtime/helpers/slicedToArray.js"(exports, module2) {
     var arrayWithHoles = require_arrayWithHoles();
     var iterableToArrayLimit = require_iterableToArrayLimit();
     var unsupportedIterableToArray = require_unsupportedIterableToArray();
@@ -27319,9 +27286,9 @@ var require_slicedToArray = __commonJS({
   }
 });
 
-// node_modules/react-select/node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js
+// node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js
 var require_objectWithoutPropertiesLoose = __commonJS({
-  "node_modules/react-select/node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js"(exports, module2) {
+  "node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js"(exports, module2) {
     function _objectWithoutPropertiesLoose2(source, excluded) {
       if (source == null)
         return {};
@@ -27340,9 +27307,9 @@ var require_objectWithoutPropertiesLoose = __commonJS({
   }
 });
 
-// node_modules/react-select/node_modules/@babel/runtime/helpers/objectWithoutProperties.js
+// node_modules/@babel/runtime/helpers/objectWithoutProperties.js
 var require_objectWithoutProperties = __commonJS({
-  "node_modules/react-select/node_modules/@babel/runtime/helpers/objectWithoutProperties.js"(exports, module2) {
+  "node_modules/@babel/runtime/helpers/objectWithoutProperties.js"(exports, module2) {
     var objectWithoutPropertiesLoose = require_objectWithoutPropertiesLoose();
     function _objectWithoutProperties(source, excluded) {
       if (source == null)
@@ -27373,33 +27340,33 @@ var require_useStateManager_7748b351_cjs_dev = __commonJS({
     var _objectSpread = require_objectSpread2();
     var _slicedToArray = require_slicedToArray();
     var _objectWithoutProperties = require_objectWithoutProperties();
-    var React49 = require_react();
+    var React52 = require_react();
     var _excluded = ["defaultInputValue", "defaultMenuIsOpen", "defaultValue", "inputValue", "menuIsOpen", "onChange", "onInputChange", "onMenuClose", "onMenuOpen", "value"];
     function useStateManager(_ref) {
       var _ref$defaultInputValu = _ref.defaultInputValue, defaultInputValue = _ref$defaultInputValu === void 0 ? "" : _ref$defaultInputValu, _ref$defaultMenuIsOpe = _ref.defaultMenuIsOpen, defaultMenuIsOpen = _ref$defaultMenuIsOpe === void 0 ? false : _ref$defaultMenuIsOpe, _ref$defaultValue = _ref.defaultValue, defaultValue = _ref$defaultValue === void 0 ? null : _ref$defaultValue, propsInputValue = _ref.inputValue, propsMenuIsOpen = _ref.menuIsOpen, propsOnChange = _ref.onChange, propsOnInputChange = _ref.onInputChange, propsOnMenuClose = _ref.onMenuClose, propsOnMenuOpen = _ref.onMenuOpen, propsValue = _ref.value, restSelectProps = _objectWithoutProperties(_ref, _excluded);
-      var _useState = React49.useState(propsInputValue !== void 0 ? propsInputValue : defaultInputValue), _useState2 = _slicedToArray(_useState, 2), stateInputValue = _useState2[0], setStateInputValue = _useState2[1];
-      var _useState3 = React49.useState(propsMenuIsOpen !== void 0 ? propsMenuIsOpen : defaultMenuIsOpen), _useState4 = _slicedToArray(_useState3, 2), stateMenuIsOpen = _useState4[0], setStateMenuIsOpen = _useState4[1];
-      var _useState5 = React49.useState(propsValue !== void 0 ? propsValue : defaultValue), _useState6 = _slicedToArray(_useState5, 2), stateValue = _useState6[0], setStateValue = _useState6[1];
-      var onChange = React49.useCallback(function(value2, actionMeta) {
+      var _useState = React52.useState(propsInputValue !== void 0 ? propsInputValue : defaultInputValue), _useState2 = _slicedToArray(_useState, 2), stateInputValue = _useState2[0], setStateInputValue = _useState2[1];
+      var _useState3 = React52.useState(propsMenuIsOpen !== void 0 ? propsMenuIsOpen : defaultMenuIsOpen), _useState4 = _slicedToArray(_useState3, 2), stateMenuIsOpen = _useState4[0], setStateMenuIsOpen = _useState4[1];
+      var _useState5 = React52.useState(propsValue !== void 0 ? propsValue : defaultValue), _useState6 = _slicedToArray(_useState5, 2), stateValue = _useState6[0], setStateValue = _useState6[1];
+      var onChange = React52.useCallback(function(value2, actionMeta) {
         if (typeof propsOnChange === "function") {
           propsOnChange(value2, actionMeta);
         }
         setStateValue(value2);
       }, [propsOnChange]);
-      var onInputChange = React49.useCallback(function(value2, actionMeta) {
+      var onInputChange = React52.useCallback(function(value2, actionMeta) {
         var newValue;
         if (typeof propsOnInputChange === "function") {
           newValue = propsOnInputChange(value2, actionMeta);
         }
         setStateInputValue(newValue !== void 0 ? newValue : value2);
       }, [propsOnInputChange]);
-      var onMenuOpen = React49.useCallback(function() {
+      var onMenuOpen = React52.useCallback(function() {
         if (typeof propsOnMenuOpen === "function") {
           propsOnMenuOpen();
         }
         setStateMenuIsOpen(true);
       }, [propsOnMenuOpen]);
-      var onMenuClose = React49.useCallback(function() {
+      var onMenuClose = React52.useCallback(function() {
         if (typeof propsOnMenuClose === "function") {
           propsOnMenuClose();
         }
@@ -27422,30 +27389,9 @@ var require_useStateManager_7748b351_cjs_dev = __commonJS({
   }
 });
 
-// node_modules/react-select/node_modules/@babel/runtime/helpers/extends.js
-var require_extends2 = __commonJS({
-  "node_modules/react-select/node_modules/@babel/runtime/helpers/extends.js"(exports, module2) {
-    function _extends2() {
-      module2.exports = _extends2 = Object.assign ? Object.assign.bind() : function(target) {
-        for (var i2 = 1; i2 < arguments.length; i2++) {
-          var source = arguments[i2];
-          for (var key in source) {
-            if (Object.prototype.hasOwnProperty.call(source, key)) {
-              target[key] = source[key];
-            }
-          }
-        }
-        return target;
-      }, module2.exports.__esModule = true, module2.exports["default"] = module2.exports;
-      return _extends2.apply(this, arguments);
-    }
-    module2.exports = _extends2, module2.exports.__esModule = true, module2.exports["default"] = module2.exports;
-  }
-});
-
-// node_modules/react-select/node_modules/@babel/runtime/helpers/classCallCheck.js
+// node_modules/@babel/runtime/helpers/classCallCheck.js
 var require_classCallCheck = __commonJS({
-  "node_modules/react-select/node_modules/@babel/runtime/helpers/classCallCheck.js"(exports, module2) {
+  "node_modules/@babel/runtime/helpers/classCallCheck.js"(exports, module2) {
     function _classCallCheck(instance, Constructor) {
       if (!(instance instanceof Constructor)) {
         throw new TypeError("Cannot call a class as a function");
@@ -27455,9 +27401,9 @@ var require_classCallCheck = __commonJS({
   }
 });
 
-// node_modules/react-select/node_modules/@babel/runtime/helpers/createClass.js
+// node_modules/@babel/runtime/helpers/createClass.js
 var require_createClass = __commonJS({
-  "node_modules/react-select/node_modules/@babel/runtime/helpers/createClass.js"(exports, module2) {
+  "node_modules/@babel/runtime/helpers/createClass.js"(exports, module2) {
     var toPropertyKey = require_toPropertyKey();
     function _defineProperties(target, props) {
       for (var i2 = 0; i2 < props.length; i2++) {
@@ -27483,9 +27429,9 @@ var require_createClass = __commonJS({
   }
 });
 
-// node_modules/react-select/node_modules/@babel/runtime/helpers/setPrototypeOf.js
+// node_modules/@babel/runtime/helpers/setPrototypeOf.js
 var require_setPrototypeOf = __commonJS({
-  "node_modules/react-select/node_modules/@babel/runtime/helpers/setPrototypeOf.js"(exports, module2) {
+  "node_modules/@babel/runtime/helpers/setPrototypeOf.js"(exports, module2) {
     function _setPrototypeOf(o2, p2) {
       module2.exports = _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf2(o3, p3) {
         o3.__proto__ = p3;
@@ -27497,9 +27443,9 @@ var require_setPrototypeOf = __commonJS({
   }
 });
 
-// node_modules/react-select/node_modules/@babel/runtime/helpers/inherits.js
+// node_modules/@babel/runtime/helpers/inherits.js
 var require_inherits = __commonJS({
-  "node_modules/react-select/node_modules/@babel/runtime/helpers/inherits.js"(exports, module2) {
+  "node_modules/@babel/runtime/helpers/inherits.js"(exports, module2) {
     var setPrototypeOf = require_setPrototypeOf();
     function _inherits(subClass, superClass) {
       if (typeof superClass !== "function" && superClass !== null) {
@@ -27522,9 +27468,9 @@ var require_inherits = __commonJS({
   }
 });
 
-// node_modules/react-select/node_modules/@babel/runtime/helpers/getPrototypeOf.js
+// node_modules/@babel/runtime/helpers/getPrototypeOf.js
 var require_getPrototypeOf = __commonJS({
-  "node_modules/react-select/node_modules/@babel/runtime/helpers/getPrototypeOf.js"(exports, module2) {
+  "node_modules/@babel/runtime/helpers/getPrototypeOf.js"(exports, module2) {
     function _getPrototypeOf(o2) {
       module2.exports = _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf2(o3) {
         return o3.__proto__ || Object.getPrototypeOf(o3);
@@ -27535,9 +27481,9 @@ var require_getPrototypeOf = __commonJS({
   }
 });
 
-// node_modules/react-select/node_modules/@babel/runtime/helpers/isNativeReflectConstruct.js
+// node_modules/@babel/runtime/helpers/isNativeReflectConstruct.js
 var require_isNativeReflectConstruct = __commonJS({
-  "node_modules/react-select/node_modules/@babel/runtime/helpers/isNativeReflectConstruct.js"(exports, module2) {
+  "node_modules/@babel/runtime/helpers/isNativeReflectConstruct.js"(exports, module2) {
     function _isNativeReflectConstruct() {
       if (typeof Reflect === "undefined" || !Reflect.construct)
         return false;
@@ -27557,9 +27503,9 @@ var require_isNativeReflectConstruct = __commonJS({
   }
 });
 
-// node_modules/react-select/node_modules/@babel/runtime/helpers/assertThisInitialized.js
+// node_modules/@babel/runtime/helpers/assertThisInitialized.js
 var require_assertThisInitialized = __commonJS({
-  "node_modules/react-select/node_modules/@babel/runtime/helpers/assertThisInitialized.js"(exports, module2) {
+  "node_modules/@babel/runtime/helpers/assertThisInitialized.js"(exports, module2) {
     function _assertThisInitialized(self2) {
       if (self2 === void 0) {
         throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
@@ -27570,13 +27516,13 @@ var require_assertThisInitialized = __commonJS({
   }
 });
 
-// node_modules/react-select/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js
+// node_modules/@babel/runtime/helpers/possibleConstructorReturn.js
 var require_possibleConstructorReturn = __commonJS({
-  "node_modules/react-select/node_modules/@babel/runtime/helpers/possibleConstructorReturn.js"(exports, module2) {
-    var _typeof = require_typeof()["default"];
+  "node_modules/@babel/runtime/helpers/possibleConstructorReturn.js"(exports, module2) {
+    var _typeof2 = require_typeof()["default"];
     var assertThisInitialized = require_assertThisInitialized();
     function _possibleConstructorReturn(self2, call2) {
-      if (call2 && (_typeof(call2) === "object" || typeof call2 === "function")) {
+      if (call2 && (_typeof2(call2) === "object" || typeof call2 === "function")) {
         return call2;
       } else if (call2 !== void 0) {
         throw new TypeError("Derived constructors may only return object or undefined");
@@ -27587,9 +27533,9 @@ var require_possibleConstructorReturn = __commonJS({
   }
 });
 
-// node_modules/react-select/node_modules/@babel/runtime/helpers/createSuper.js
+// node_modules/@babel/runtime/helpers/createSuper.js
 var require_createSuper = __commonJS({
-  "node_modules/react-select/node_modules/@babel/runtime/helpers/createSuper.js"(exports, module2) {
+  "node_modules/@babel/runtime/helpers/createSuper.js"(exports, module2) {
     var getPrototypeOf = require_getPrototypeOf();
     var isNativeReflectConstruct = require_isNativeReflectConstruct();
     var possibleConstructorReturn = require_possibleConstructorReturn();
@@ -27610,9 +27556,9 @@ var require_createSuper = __commonJS({
   }
 });
 
-// node_modules/react-select/node_modules/@babel/runtime/helpers/arrayWithoutHoles.js
+// node_modules/@babel/runtime/helpers/arrayWithoutHoles.js
 var require_arrayWithoutHoles = __commonJS({
-  "node_modules/react-select/node_modules/@babel/runtime/helpers/arrayWithoutHoles.js"(exports, module2) {
+  "node_modules/@babel/runtime/helpers/arrayWithoutHoles.js"(exports, module2) {
     var arrayLikeToArray = require_arrayLikeToArray();
     function _arrayWithoutHoles(arr) {
       if (Array.isArray(arr))
@@ -27622,9 +27568,9 @@ var require_arrayWithoutHoles = __commonJS({
   }
 });
 
-// node_modules/react-select/node_modules/@babel/runtime/helpers/iterableToArray.js
+// node_modules/@babel/runtime/helpers/iterableToArray.js
 var require_iterableToArray = __commonJS({
-  "node_modules/react-select/node_modules/@babel/runtime/helpers/iterableToArray.js"(exports, module2) {
+  "node_modules/@babel/runtime/helpers/iterableToArray.js"(exports, module2) {
     function _iterableToArray(iter) {
       if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null)
         return Array.from(iter);
@@ -27633,9 +27579,9 @@ var require_iterableToArray = __commonJS({
   }
 });
 
-// node_modules/react-select/node_modules/@babel/runtime/helpers/nonIterableSpread.js
+// node_modules/@babel/runtime/helpers/nonIterableSpread.js
 var require_nonIterableSpread = __commonJS({
-  "node_modules/react-select/node_modules/@babel/runtime/helpers/nonIterableSpread.js"(exports, module2) {
+  "node_modules/@babel/runtime/helpers/nonIterableSpread.js"(exports, module2) {
     function _nonIterableSpread() {
       throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
     }
@@ -27643,9 +27589,9 @@ var require_nonIterableSpread = __commonJS({
   }
 });
 
-// node_modules/react-select/node_modules/@babel/runtime/helpers/toConsumableArray.js
+// node_modules/@babel/runtime/helpers/toConsumableArray.js
 var require_toConsumableArray = __commonJS({
-  "node_modules/react-select/node_modules/@babel/runtime/helpers/toConsumableArray.js"(exports, module2) {
+  "node_modules/@babel/runtime/helpers/toConsumableArray.js"(exports, module2) {
     var arrayWithoutHoles = require_arrayWithoutHoles();
     var iterableToArray = require_iterableToArray();
     var unsupportedIterableToArray = require_unsupportedIterableToArray();
@@ -27657,9 +27603,9 @@ var require_toConsumableArray = __commonJS({
   }
 });
 
-// node_modules/react-select/node_modules/@babel/runtime/helpers/taggedTemplateLiteral.js
+// node_modules/@babel/runtime/helpers/taggedTemplateLiteral.js
 var require_taggedTemplateLiteral = __commonJS({
-  "node_modules/react-select/node_modules/@babel/runtime/helpers/taggedTemplateLiteral.js"(exports, module2) {
+  "node_modules/@babel/runtime/helpers/taggedTemplateLiteral.js"(exports, module2) {
     function _taggedTemplateLiteral(strings, raw) {
       if (!raw) {
         raw = strings.slice(0);
@@ -29366,14 +29312,14 @@ var require_index_2fe3dc33_cjs_dev = __commonJS({
   "node_modules/react-select/dist/index-2fe3dc33.cjs.dev.js"(exports) {
     "use strict";
     var _objectSpread = require_objectSpread2();
-    var _extends2 = require_extends2();
+    var _extends2 = require_extends();
     var react = require_emotion_react_cjs();
     var _slicedToArray = require_slicedToArray();
     var _objectWithoutProperties = require_objectWithoutProperties();
-    var _typeof = require_typeof();
+    var _typeof2 = require_typeof();
     var _taggedTemplateLiteral = require_taggedTemplateLiteral();
     var _defineProperty2 = require_defineProperty();
-    var React49 = require_react();
+    var React52 = require_react();
     var reactDom = require_react_dom();
     var dom = require_floating_ui_dom_umd();
     var useLayoutEffect2 = require_use_isomorphic_layout_effect_browser_cjs();
@@ -29414,7 +29360,7 @@ var require_index_2fe3dc33_cjs_dev = __commonJS({
     var cleanValue = function cleanValue2(value) {
       if (isArray(value))
         return value.filter(Boolean);
-      if (_typeof(value) === "object" && value !== null)
+      if (_typeof2(value) === "object" && value !== null)
         return [value];
       return [];
     };
@@ -29722,13 +29668,13 @@ var require_index_2fe3dc33_cjs_dev = __commonJS({
         marginTop: spacing.menuGutter
       });
     };
-    var PortalPlacementContext = /* @__PURE__ */ React49.createContext(null);
+    var PortalPlacementContext = /* @__PURE__ */ React52.createContext(null);
     var MenuPlacer = function MenuPlacer2(props) {
       var children = props.children, minMenuHeight = props.minMenuHeight, maxMenuHeight = props.maxMenuHeight, menuPlacement = props.menuPlacement, menuPosition = props.menuPosition, menuShouldScrollIntoView = props.menuShouldScrollIntoView, theme = props.theme;
-      var _ref3 = React49.useContext(PortalPlacementContext) || {}, setPortalPlacement = _ref3.setPortalPlacement;
-      var ref = React49.useRef(null);
-      var _useState = React49.useState(maxMenuHeight), _useState2 = _slicedToArray(_useState, 2), maxHeight = _useState2[0], setMaxHeight = _useState2[1];
-      var _useState3 = React49.useState(null), _useState4 = _slicedToArray(_useState3, 2), placement = _useState4[0], setPlacement = _useState4[1];
+      var _ref3 = React52.useContext(PortalPlacementContext) || {}, setPortalPlacement = _ref3.setPortalPlacement;
+      var ref = React52.useRef(null);
+      var _useState = React52.useState(maxMenuHeight), _useState2 = _slicedToArray(_useState, 2), maxHeight = _useState2[0], setMaxHeight = _useState2[1];
+      var _useState3 = React52.useState(null), _useState4 = _slicedToArray(_useState3, 2), placement = _useState4[0], setPlacement = _useState4[1];
       var controlHeight = theme.spacing.controlHeight;
       useLayoutEffect__default["default"](function() {
         var menuEl = ref.current;
@@ -29830,16 +29776,16 @@ var require_index_2fe3dc33_cjs_dev = __commonJS({
     };
     var MenuPortal = function MenuPortal2(props) {
       var appendTo = props.appendTo, children = props.children, controlElement = props.controlElement, innerProps = props.innerProps, menuPlacement = props.menuPlacement, menuPosition = props.menuPosition;
-      var menuPortalRef = React49.useRef(null);
-      var cleanupRef = React49.useRef(null);
-      var _useState5 = React49.useState(coercePlacement(menuPlacement)), _useState6 = _slicedToArray(_useState5, 2), placement = _useState6[0], setPortalPlacement = _useState6[1];
-      var portalPlacementContext = React49.useMemo(function() {
+      var menuPortalRef = React52.useRef(null);
+      var cleanupRef = React52.useRef(null);
+      var _useState5 = React52.useState(coercePlacement(menuPlacement)), _useState6 = _slicedToArray(_useState5, 2), placement = _useState6[0], setPortalPlacement = _useState6[1];
+      var portalPlacementContext = React52.useMemo(function() {
         return {
           setPortalPlacement
         };
       }, []);
-      var _useState7 = React49.useState(null), _useState8 = _slicedToArray(_useState7, 2), computedPosition = _useState8[0], setComputedPosition = _useState8[1];
-      var updateComputedPosition = React49.useCallback(function() {
+      var _useState7 = React52.useState(null), _useState8 = _slicedToArray(_useState7, 2), computedPosition = _useState8[0], setComputedPosition = _useState8[1];
+      var updateComputedPosition = React52.useCallback(function() {
         if (!controlElement)
           return;
         var rect = getBoundingClientObj(controlElement);
@@ -29855,7 +29801,7 @@ var require_index_2fe3dc33_cjs_dev = __commonJS({
       useLayoutEffect__default["default"](function() {
         updateComputedPosition();
       }, [updateComputedPosition]);
-      var runAutoUpdate = React49.useCallback(function() {
+      var runAutoUpdate = React52.useCallback(function() {
         if (typeof cleanupRef.current === "function") {
           cleanupRef.current();
           cleanupRef.current = null;
@@ -29869,7 +29815,7 @@ var require_index_2fe3dc33_cjs_dev = __commonJS({
       useLayoutEffect__default["default"](function() {
         runAutoUpdate();
       }, [runAutoUpdate]);
-      var setMenuPortalElement = React49.useCallback(function(menuPortalElement) {
+      var setMenuPortalElement = React52.useCallback(function(menuPortalElement) {
         menuPortalRef.current = menuPortalElement;
         runAutoUpdate();
       }, [runAutoUpdate]);
@@ -30203,7 +30149,7 @@ var require_index_2fe3dc33_cjs_dev = __commonJS({
         width: "100%"
       }, spacingStyle);
     };
-    var Input = function Input2(props) {
+    var Input2 = function Input3(props) {
       var cx = props.cx, value = props.value;
       var _cleanCommonProps = cleanCommonProps(props), innerRef = _cleanCommonProps.innerRef, isDisabled = _cleanCommonProps.isDisabled, isHidden = _cleanCommonProps.isHidden, inputClassName = _cleanCommonProps.inputClassName, innerProps = _objectWithoutProperties(_cleanCommonProps, _excluded);
       return react.jsx("div", _extends2({}, getStyleProps(props, "input", {
@@ -30219,7 +30165,7 @@ var require_index_2fe3dc33_cjs_dev = __commonJS({
         disabled: isDisabled
       }, innerProps)));
     };
-    var Input$1 = Input;
+    var Input$1 = Input2;
     var multiValueCSS = function multiValueCSS2(_ref, unstyled) {
       var _ref$theme = _ref.theme, spacing = _ref$theme.spacing, borderRadius = _ref$theme.borderRadius, colors = _ref$theme.colors;
       return _objectSpread({
@@ -30509,14 +30455,14 @@ var require_memoize_one_cjs = __commonJS({
 var require_Select_5041a4f3_cjs_dev = __commonJS({
   "node_modules/react-select/dist/Select-5041a4f3.cjs.dev.js"(exports) {
     "use strict";
-    var _extends2 = require_extends2();
+    var _extends2 = require_extends();
     var _objectSpread = require_objectSpread2();
     var _classCallCheck = require_classCallCheck();
     var _createClass = require_createClass();
     var _inherits = require_inherits();
     var _createSuper = require_createSuper();
     var _toConsumableArray = require_toConsumableArray();
-    var React49 = require_react();
+    var React52 = require_react();
     var index = require_index_2fe3dc33_cjs_dev();
     var react = require_emotion_react_cjs();
     var memoizeOne = require_memoize_one_cjs();
@@ -30544,7 +30490,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
       n2["default"] = e;
       return Object.freeze(n2);
     }
-    var React__namespace = /* @__PURE__ */ _interopNamespace(React49);
+    var React__namespace = /* @__PURE__ */ _interopNamespace(React52);
     var memoizeOne__default = /* @__PURE__ */ _interopDefault(memoizeOne);
     function _EMOTION_STRINGIFIED_CSS_ERROR__$2() {
       return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g. as value of the `className` prop), but rather handed to emotion so it can handle it (e.g. as value of `css` prop).";
@@ -30620,10 +30566,10 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
       var ariaLiveMessages = selectProps.ariaLiveMessages, getOptionLabel2 = selectProps.getOptionLabel, inputValue = selectProps.inputValue, isMulti = selectProps.isMulti, isOptionDisabled2 = selectProps.isOptionDisabled, isSearchable = selectProps.isSearchable, menuIsOpen = selectProps.menuIsOpen, options = selectProps.options, screenReaderStatus = selectProps.screenReaderStatus, tabSelectsValue = selectProps.tabSelectsValue;
       var ariaLabel = selectProps["aria-label"];
       var ariaLive = selectProps["aria-live"];
-      var messages = React49.useMemo(function() {
+      var messages = React52.useMemo(function() {
         return _objectSpread(_objectSpread({}, defaultAriaLiveMessages), ariaLiveMessages || {});
       }, [ariaLiveMessages]);
-      var ariaSelected = React49.useMemo(function() {
+      var ariaSelected = React52.useMemo(function() {
         var message = "";
         if (ariaSelection && messages.onChange) {
           var option = ariaSelection.option, selectedOptions = ariaSelection.options, removedValue = ariaSelection.removedValue, removedValues = ariaSelection.removedValues, value = ariaSelection.value;
@@ -30643,7 +30589,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         }
         return message;
       }, [ariaSelection, messages, isOptionDisabled2, selectValue, getOptionLabel2]);
-      var ariaFocused = React49.useMemo(function() {
+      var ariaFocused = React52.useMemo(function() {
         var focusMsg = "";
         var focused = focusedOption || focusedValue;
         var isSelected = !!(focusedOption && selectValue && selectValue.includes(focusedOption));
@@ -30661,7 +30607,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         }
         return focusMsg;
       }, [focusedOption, focusedValue, getOptionLabel2, isOptionDisabled2, messages, focusableOptions, selectValue]);
-      var ariaResults = React49.useMemo(function() {
+      var ariaResults = React52.useMemo(function() {
         var resultsMsg = "";
         if (menuIsOpen && options.length && messages.onFilter) {
           var resultsMessage = screenReaderStatus({
@@ -30674,7 +30620,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         }
         return resultsMsg;
       }, [focusableOptions, inputValue, menuIsOpen, messages, options, screenReaderStatus]);
-      var ariaGuidance = React49.useMemo(function() {
+      var ariaGuidance = React52.useMemo(function() {
         var guidanceMsg = "";
         if (messages.guidance) {
           var context = focusedValue ? "value" : menuIsOpen ? "menu" : "input";
@@ -30690,13 +30636,13 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         return guidanceMsg;
       }, [ariaLabel, focusedOption, focusedValue, isMulti, isOptionDisabled2, isSearchable, menuIsOpen, messages, selectValue, tabSelectsValue]);
       var ariaContext = "".concat(ariaFocused, " ").concat(ariaResults, " ").concat(ariaGuidance);
-      var ScreenReaderText = react.jsx(React49.Fragment, null, react.jsx("span", {
+      var ScreenReaderText = react.jsx(React52.Fragment, null, react.jsx("span", {
         id: "aria-selection"
       }, ariaSelected), react.jsx("span", {
         id: "aria-context"
       }, ariaContext));
       var isInitialFocus = (ariaSelection === null || ariaSelection === void 0 ? void 0 : ariaSelection.action) === "initial-input-focus";
-      return react.jsx(React49.Fragment, null, react.jsx(A11yText$1, {
+      return react.jsx(React52.Fragment, null, react.jsx(A11yText$1, {
         id: id2
       }, isInitialFocus && ScreenReaderText), react.jsx(A11yText$1, {
         "aria-live": ariaLive,
@@ -31038,11 +30984,11 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
     };
     function useScrollCapture(_ref3) {
       var isEnabled = _ref3.isEnabled, onBottomArrive = _ref3.onBottomArrive, onBottomLeave = _ref3.onBottomLeave, onTopArrive = _ref3.onTopArrive, onTopLeave = _ref3.onTopLeave;
-      var isBottom = React49.useRef(false);
-      var isTop = React49.useRef(false);
-      var touchStart = React49.useRef(0);
-      var scrollTarget = React49.useRef(null);
-      var handleEventDelta = React49.useCallback(function(event, delta) {
+      var isBottom = React52.useRef(false);
+      var isTop = React52.useRef(false);
+      var touchStart = React52.useRef(0);
+      var scrollTarget = React52.useRef(null);
+      var handleEventDelta = React52.useCallback(function(event, delta) {
         if (scrollTarget.current === null)
           return;
         var _scrollTarget$current = scrollTarget.current, scrollTop = _scrollTarget$current.scrollTop, scrollHeight = _scrollTarget$current.scrollHeight, clientHeight = _scrollTarget$current.clientHeight;
@@ -31079,17 +31025,17 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
           cancelScroll(event);
         }
       }, [onBottomArrive, onBottomLeave, onTopArrive, onTopLeave]);
-      var onWheel = React49.useCallback(function(event) {
+      var onWheel = React52.useCallback(function(event) {
         handleEventDelta(event, event.deltaY);
       }, [handleEventDelta]);
-      var onTouchStart = React49.useCallback(function(event) {
+      var onTouchStart = React52.useCallback(function(event) {
         touchStart.current = event.changedTouches[0].clientY;
       }, []);
-      var onTouchMove = React49.useCallback(function(event) {
+      var onTouchMove = React52.useCallback(function(event) {
         var deltaY = touchStart.current - event.changedTouches[0].clientY;
         handleEventDelta(event, deltaY);
       }, [handleEventDelta]);
-      var startListening = React49.useCallback(function(el) {
+      var startListening = React52.useCallback(function(el) {
         if (!el)
           return;
         var notPassive = index.supportsPassiveEvents ? {
@@ -31099,14 +31045,14 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         el.addEventListener("touchstart", onTouchStart, notPassive);
         el.addEventListener("touchmove", onTouchMove, notPassive);
       }, [onTouchMove, onTouchStart, onWheel]);
-      var stopListening = React49.useCallback(function(el) {
+      var stopListening = React52.useCallback(function(el) {
         if (!el)
           return;
         el.removeEventListener("wheel", onWheel, false);
         el.removeEventListener("touchstart", onTouchStart, false);
         el.removeEventListener("touchmove", onTouchMove, false);
       }, [onTouchMove, onTouchStart, onWheel]);
-      React49.useEffect(function() {
+      React52.useEffect(function() {
         if (!isEnabled)
           return;
         var element = scrollTarget.current;
@@ -31153,9 +31099,9 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
     };
     function useScrollLock(_ref3) {
       var isEnabled = _ref3.isEnabled, _ref$accountForScroll = _ref3.accountForScrollbars, accountForScrollbars = _ref$accountForScroll === void 0 ? true : _ref$accountForScroll;
-      var originalStyles = React49.useRef({});
-      var scrollTarget = React49.useRef(null);
-      var addScrollLock = React49.useCallback(function(touchScrollTarget) {
+      var originalStyles = React52.useRef({});
+      var scrollTarget = React52.useRef(null);
+      var addScrollLock = React52.useCallback(function(touchScrollTarget) {
         if (!canUseDOM2)
           return;
         var target = document.body;
@@ -31189,7 +31135,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         }
         activeScrollLocks += 1;
       }, [accountForScrollbars]);
-      var removeScrollLock = React49.useCallback(function(touchScrollTarget) {
+      var removeScrollLock = React52.useCallback(function(touchScrollTarget) {
         if (!canUseDOM2)
           return;
         var target = document.body;
@@ -31211,7 +31157,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
           }
         }
       }, [accountForScrollbars]);
-      React49.useEffect(function() {
+      React52.useEffect(function() {
         if (!isEnabled)
           return;
         var element = scrollTarget.current;
@@ -31255,7 +31201,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         setScrollCaptureTarget(element);
         setScrollLockTarget(element);
       };
-      return react.jsx(React49.Fragment, null, lockEnabled && react.jsx("div", {
+      return react.jsx(React52.Fragment, null, lockEnabled && react.jsx("div", {
         onClick: blurSelectInput,
         css: _ref2$1
       }), children(targetRef));
@@ -32329,7 +32275,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         key: "renderInput",
         value: function renderInput() {
           var _this$props8 = this.props, isDisabled = _this$props8.isDisabled, isSearchable = _this$props8.isSearchable, inputId = _this$props8.inputId, inputValue = _this$props8.inputValue, tabIndex = _this$props8.tabIndex, form = _this$props8.form, menuIsOpen = _this$props8.menuIsOpen, required = _this$props8.required;
-          var _this$getComponents = this.getComponents(), Input = _this$getComponents.Input;
+          var _this$getComponents = this.getComponents(), Input2 = _this$getComponents.Input;
           var _this$state4 = this.state, inputIsHidden = _this$state4.inputIsHidden, ariaSelection = _this$state4.ariaSelection;
           var commonProps = this.commonProps;
           var id2 = inputId || this.getElementId("input");
@@ -32367,7 +32313,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
               value: ""
             }, ariaAttributes));
           }
-          return /* @__PURE__ */ React__namespace.createElement(Input, _extends2({}, commonProps, {
+          return /* @__PURE__ */ React__namespace.createElement(Input2, _extends2({}, commonProps, {
             autoCapitalize: "none",
             autoComplete: "off",
             autoCorrect: "off",
@@ -32771,7 +32717,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         }
       }]);
       return Select2;
-    }(React49.Component);
+    }(React52.Component);
     Select.defaultProps = defaultProps;
     exports.Select = Select;
     exports.createFilter = createFilter;
@@ -32789,8 +32735,8 @@ var require_react_select_cjs_dev = __commonJS({
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var useStateManager = require_useStateManager_7748b351_cjs_dev();
-    var _extends2 = require_extends2();
-    var React49 = require_react();
+    var _extends2 = require_extends();
+    var React52 = require_react();
     var Select = require_Select_5041a4f3_cjs_dev();
     var react = require_emotion_react_cjs();
     var createCache = require_emotion_cache_cjs();
@@ -32833,9 +32779,9 @@ var require_react_select_cjs_dev = __commonJS({
       n2["default"] = e;
       return Object.freeze(n2);
     }
-    var React__namespace = /* @__PURE__ */ _interopNamespace(React49);
+    var React__namespace = /* @__PURE__ */ _interopNamespace(React52);
     var createCache__default = /* @__PURE__ */ _interopDefault(createCache);
-    var StateManagedSelect = /* @__PURE__ */ React49.forwardRef(function(props, ref) {
+    var StateManagedSelect = /* @__PURE__ */ React52.forwardRef(function(props, ref) {
       var baseSelectProps = useStateManager.useStateManager(props);
       return /* @__PURE__ */ React__namespace.createElement(Select.Select, _extends2({
         ref
@@ -32844,7 +32790,7 @@ var require_react_select_cjs_dev = __commonJS({
     var StateManagedSelect$1 = StateManagedSelect;
     var NonceProvider = function(_ref) {
       var nonce = _ref.nonce, children = _ref.children, cacheKey = _ref.cacheKey;
-      var emotionCache = React49.useMemo(function() {
+      var emotionCache = React52.useMemo(function() {
         return createCache__default["default"]({
           key: cacheKey,
           nonce
@@ -32880,6 +32826,566 @@ var require_react_select_cjs = __commonJS({
 var require_react_select_cjs_default = __commonJS({
   "node_modules/react-select/dist/react-select.cjs.default.js"(exports) {
     exports._default = require_react_select_cjs().default;
+  }
+});
+
+// node_modules/papaparse/papaparse.min.js
+var require_papaparse_min = __commonJS({
+  "node_modules/papaparse/papaparse.min.js"(exports, module2) {
+    !function(e, t2) {
+      "function" == typeof define && define.amd ? define([], t2) : "object" == typeof module2 && "undefined" != typeof exports ? module2.exports = t2() : e.Papa = t2();
+    }(exports, function s2() {
+      "use strict";
+      var f3 = "undefined" != typeof self ? self : "undefined" != typeof window ? window : void 0 !== f3 ? f3 : {};
+      var n2 = !f3.document && !!f3.postMessage, o2 = f3.IS_PAPA_WORKER || false, a2 = {}, u2 = 0, b2 = { parse: function(e, t2) {
+        var r3 = (t2 = t2 || {}).dynamicTyping || false;
+        J(r3) && (t2.dynamicTypingFunction = r3, r3 = {});
+        if (t2.dynamicTyping = r3, t2.transform = !!J(t2.transform) && t2.transform, t2.worker && b2.WORKERS_SUPPORTED) {
+          var i2 = function() {
+            if (!b2.WORKERS_SUPPORTED)
+              return false;
+            var e2 = (r4 = f3.URL || f3.webkitURL || null, i3 = s2.toString(), b2.BLOB_URL || (b2.BLOB_URL = r4.createObjectURL(new Blob(["var global = (function() { if (typeof self !== 'undefined') { return self; } if (typeof window !== 'undefined') { return window; } if (typeof global !== 'undefined') { return global; } return {}; })(); global.IS_PAPA_WORKER=true; ", "(", i3, ")();"], { type: "text/javascript" })))), t3 = new f3.Worker(e2);
+            var r4, i3;
+            return t3.onmessage = _3, t3.id = u2++, a2[t3.id] = t3;
+          }();
+          return i2.userStep = t2.step, i2.userChunk = t2.chunk, i2.userComplete = t2.complete, i2.userError = t2.error, t2.step = J(t2.step), t2.chunk = J(t2.chunk), t2.complete = J(t2.complete), t2.error = J(t2.error), delete t2.worker, void i2.postMessage({ input: e, config: t2, workerId: i2.id });
+        }
+        var n3 = null;
+        b2.NODE_STREAM_INPUT, "string" == typeof e ? (e = function(e2) {
+          if (65279 === e2.charCodeAt(0))
+            return e2.slice(1);
+          return e2;
+        }(e), n3 = t2.download ? new l2(t2) : new p2(t2)) : true === e.readable && J(e.read) && J(e.on) ? n3 = new g2(t2) : (f3.File && e instanceof File || e instanceof Object) && (n3 = new c2(t2));
+        return n3.stream(e);
+      }, unparse: function(e, t2) {
+        var n3 = false, _4 = true, m3 = ",", y3 = "\r\n", s3 = '"', a3 = s3 + s3, r3 = false, i2 = null, o3 = false;
+        !function() {
+          if ("object" != typeof t2)
+            return;
+          "string" != typeof t2.delimiter || b2.BAD_DELIMITERS.filter(function(e2) {
+            return -1 !== t2.delimiter.indexOf(e2);
+          }).length || (m3 = t2.delimiter);
+          ("boolean" == typeof t2.quotes || "function" == typeof t2.quotes || Array.isArray(t2.quotes)) && (n3 = t2.quotes);
+          "boolean" != typeof t2.skipEmptyLines && "string" != typeof t2.skipEmptyLines || (r3 = t2.skipEmptyLines);
+          "string" == typeof t2.newline && (y3 = t2.newline);
+          "string" == typeof t2.quoteChar && (s3 = t2.quoteChar);
+          "boolean" == typeof t2.header && (_4 = t2.header);
+          if (Array.isArray(t2.columns)) {
+            if (0 === t2.columns.length)
+              throw new Error("Option columns is empty");
+            i2 = t2.columns;
+          }
+          void 0 !== t2.escapeChar && (a3 = t2.escapeChar + s3);
+          ("boolean" == typeof t2.escapeFormulae || t2.escapeFormulae instanceof RegExp) && (o3 = t2.escapeFormulae instanceof RegExp ? t2.escapeFormulae : /^[=+\-@\t\r].*$/);
+        }();
+        var u3 = new RegExp(Q2(s3), "g");
+        "string" == typeof e && (e = JSON.parse(e));
+        if (Array.isArray(e)) {
+          if (!e.length || Array.isArray(e[0]))
+            return h3(null, e, r3);
+          if ("object" == typeof e[0])
+            return h3(i2 || Object.keys(e[0]), e, r3);
+        } else if ("object" == typeof e)
+          return "string" == typeof e.data && (e.data = JSON.parse(e.data)), Array.isArray(e.data) && (e.fields || (e.fields = e.meta && e.meta.fields || i2), e.fields || (e.fields = Array.isArray(e.data[0]) ? e.fields : "object" == typeof e.data[0] ? Object.keys(e.data[0]) : []), Array.isArray(e.data[0]) || "object" == typeof e.data[0] || (e.data = [e.data])), h3(e.fields || [], e.data || [], r3);
+        throw new Error("Unable to serialize unrecognized input");
+        function h3(e2, t3, r4) {
+          var i3 = "";
+          "string" == typeof e2 && (e2 = JSON.parse(e2)), "string" == typeof t3 && (t3 = JSON.parse(t3));
+          var n4 = Array.isArray(e2) && 0 < e2.length, s4 = !Array.isArray(t3[0]);
+          if (n4 && _4) {
+            for (var a4 = 0; a4 < e2.length; a4++)
+              0 < a4 && (i3 += m3), i3 += v3(e2[a4], a4);
+            0 < t3.length && (i3 += y3);
+          }
+          for (var o4 = 0; o4 < t3.length; o4++) {
+            var u4 = n4 ? e2.length : t3[o4].length, h4 = false, f4 = n4 ? 0 === Object.keys(t3[o4]).length : 0 === t3[o4].length;
+            if (r4 && !n4 && (h4 = "greedy" === r4 ? "" === t3[o4].join("").trim() : 1 === t3[o4].length && 0 === t3[o4][0].length), "greedy" === r4 && n4) {
+              for (var d3 = [], l3 = 0; l3 < u4; l3++) {
+                var c3 = s4 ? e2[l3] : l3;
+                d3.push(t3[o4][c3]);
+              }
+              h4 = "" === d3.join("").trim();
+            }
+            if (!h4) {
+              for (var p3 = 0; p3 < u4; p3++) {
+                0 < p3 && !f4 && (i3 += m3);
+                var g3 = n4 && s4 ? e2[p3] : p3;
+                i3 += v3(t3[o4][g3], p3);
+              }
+              o4 < t3.length - 1 && (!r4 || 0 < u4 && !f4) && (i3 += y3);
+            }
+          }
+          return i3;
+        }
+        function v3(e2, t3) {
+          if (null == e2)
+            return "";
+          if (e2.constructor === Date)
+            return JSON.stringify(e2).slice(1, 25);
+          var r4 = false;
+          o3 && "string" == typeof e2 && o3.test(e2) && (e2 = "'" + e2, r4 = true);
+          var i3 = e2.toString().replace(u3, a3);
+          return (r4 = r4 || true === n3 || "function" == typeof n3 && n3(e2, t3) || Array.isArray(n3) && n3[t3] || function(e3, t4) {
+            for (var r5 = 0; r5 < t4.length; r5++)
+              if (-1 < e3.indexOf(t4[r5]))
+                return true;
+            return false;
+          }(i3, b2.BAD_DELIMITERS) || -1 < i3.indexOf(m3) || " " === i3.charAt(0) || " " === i3.charAt(i3.length - 1)) ? s3 + i3 + s3 : i3;
+        }
+      } };
+      if (b2.RECORD_SEP = String.fromCharCode(30), b2.UNIT_SEP = String.fromCharCode(31), b2.BYTE_ORDER_MARK = "\uFEFF", b2.BAD_DELIMITERS = ["\r", "\n", '"', b2.BYTE_ORDER_MARK], b2.WORKERS_SUPPORTED = !n2 && !!f3.Worker, b2.NODE_STREAM_INPUT = 1, b2.LocalChunkSize = 10485760, b2.RemoteChunkSize = 5242880, b2.DefaultDelimiter = ",", b2.Parser = E2, b2.ParserHandle = r2, b2.NetworkStreamer = l2, b2.FileStreamer = c2, b2.StringStreamer = p2, b2.ReadableStreamStreamer = g2, f3.jQuery) {
+        var d2 = f3.jQuery;
+        d2.fn.parse = function(o3) {
+          var r3 = o3.config || {}, u3 = [];
+          return this.each(function(e2) {
+            if (!("INPUT" === d2(this).prop("tagName").toUpperCase() && "file" === d2(this).attr("type").toLowerCase() && f3.FileReader) || !this.files || 0 === this.files.length)
+              return true;
+            for (var t2 = 0; t2 < this.files.length; t2++)
+              u3.push({ file: this.files[t2], inputElem: this, instanceConfig: d2.extend({}, r3) });
+          }), e(), this;
+          function e() {
+            if (0 !== u3.length) {
+              var e2, t2, r4, i2, n3 = u3[0];
+              if (J(o3.before)) {
+                var s3 = o3.before(n3.file, n3.inputElem);
+                if ("object" == typeof s3) {
+                  if ("abort" === s3.action)
+                    return e2 = "AbortError", t2 = n3.file, r4 = n3.inputElem, i2 = s3.reason, void (J(o3.error) && o3.error({ name: e2 }, t2, r4, i2));
+                  if ("skip" === s3.action)
+                    return void h3();
+                  "object" == typeof s3.config && (n3.instanceConfig = d2.extend(n3.instanceConfig, s3.config));
+                } else if ("skip" === s3)
+                  return void h3();
+              }
+              var a3 = n3.instanceConfig.complete;
+              n3.instanceConfig.complete = function(e3) {
+                J(a3) && a3(e3, n3.file, n3.inputElem), h3();
+              }, b2.parse(n3.file, n3.instanceConfig);
+            } else
+              J(o3.complete) && o3.complete();
+          }
+          function h3() {
+            u3.splice(0, 1), e();
+          }
+        };
+      }
+      function h2(e) {
+        this._handle = null, this._finished = false, this._completed = false, this._halted = false, this._input = null, this._baseIndex = 0, this._partialLine = "", this._rowCount = 0, this._start = 0, this._nextChunk = null, this.isFirstChunk = true, this._completeResults = { data: [], errors: [], meta: {} }, function(e2) {
+          var t2 = w2(e2);
+          t2.chunkSize = parseInt(t2.chunkSize), e2.step || e2.chunk || (t2.chunkSize = null);
+          this._handle = new r2(t2), (this._handle.streamer = this)._config = t2;
+        }.call(this, e), this.parseChunk = function(e2, t2) {
+          if (this.isFirstChunk && J(this._config.beforeFirstChunk)) {
+            var r3 = this._config.beforeFirstChunk(e2);
+            void 0 !== r3 && (e2 = r3);
+          }
+          this.isFirstChunk = false, this._halted = false;
+          var i2 = this._partialLine + e2;
+          this._partialLine = "";
+          var n3 = this._handle.parse(i2, this._baseIndex, !this._finished);
+          if (!this._handle.paused() && !this._handle.aborted()) {
+            var s3 = n3.meta.cursor;
+            this._finished || (this._partialLine = i2.substring(s3 - this._baseIndex), this._baseIndex = s3), n3 && n3.data && (this._rowCount += n3.data.length);
+            var a3 = this._finished || this._config.preview && this._rowCount >= this._config.preview;
+            if (o2)
+              f3.postMessage({ results: n3, workerId: b2.WORKER_ID, finished: a3 });
+            else if (J(this._config.chunk) && !t2) {
+              if (this._config.chunk(n3, this._handle), this._handle.paused() || this._handle.aborted())
+                return void (this._halted = true);
+              n3 = void 0, this._completeResults = void 0;
+            }
+            return this._config.step || this._config.chunk || (this._completeResults.data = this._completeResults.data.concat(n3.data), this._completeResults.errors = this._completeResults.errors.concat(n3.errors), this._completeResults.meta = n3.meta), this._completed || !a3 || !J(this._config.complete) || n3 && n3.meta.aborted || (this._config.complete(this._completeResults, this._input), this._completed = true), a3 || n3 && n3.meta.paused || this._nextChunk(), n3;
+          }
+          this._halted = true;
+        }, this._sendError = function(e2) {
+          J(this._config.error) ? this._config.error(e2) : o2 && this._config.error && f3.postMessage({ workerId: b2.WORKER_ID, error: e2, finished: false });
+        };
+      }
+      function l2(e) {
+        var i2;
+        (e = e || {}).chunkSize || (e.chunkSize = b2.RemoteChunkSize), h2.call(this, e), this._nextChunk = n2 ? function() {
+          this._readChunk(), this._chunkLoaded();
+        } : function() {
+          this._readChunk();
+        }, this.stream = function(e2) {
+          this._input = e2, this._nextChunk();
+        }, this._readChunk = function() {
+          if (this._finished)
+            this._chunkLoaded();
+          else {
+            if (i2 = new XMLHttpRequest(), this._config.withCredentials && (i2.withCredentials = this._config.withCredentials), n2 || (i2.onload = v2(this._chunkLoaded, this), i2.onerror = v2(this._chunkError, this)), i2.open(this._config.downloadRequestBody ? "POST" : "GET", this._input, !n2), this._config.downloadRequestHeaders) {
+              var e2 = this._config.downloadRequestHeaders;
+              for (var t2 in e2)
+                i2.setRequestHeader(t2, e2[t2]);
+            }
+            if (this._config.chunkSize) {
+              var r3 = this._start + this._config.chunkSize - 1;
+              i2.setRequestHeader("Range", "bytes=" + this._start + "-" + r3);
+            }
+            try {
+              i2.send(this._config.downloadRequestBody);
+            } catch (e3) {
+              this._chunkError(e3.message);
+            }
+            n2 && 0 === i2.status && this._chunkError();
+          }
+        }, this._chunkLoaded = function() {
+          4 === i2.readyState && (i2.status < 200 || 400 <= i2.status ? this._chunkError() : (this._start += this._config.chunkSize ? this._config.chunkSize : i2.responseText.length, this._finished = !this._config.chunkSize || this._start >= function(e2) {
+            var t2 = e2.getResponseHeader("Content-Range");
+            if (null === t2)
+              return -1;
+            return parseInt(t2.substring(t2.lastIndexOf("/") + 1));
+          }(i2), this.parseChunk(i2.responseText)));
+        }, this._chunkError = function(e2) {
+          var t2 = i2.statusText || e2;
+          this._sendError(new Error(t2));
+        };
+      }
+      function c2(e) {
+        var i2, n3;
+        (e = e || {}).chunkSize || (e.chunkSize = b2.LocalChunkSize), h2.call(this, e);
+        var s3 = "undefined" != typeof FileReader;
+        this.stream = function(e2) {
+          this._input = e2, n3 = e2.slice || e2.webkitSlice || e2.mozSlice, s3 ? ((i2 = new FileReader()).onload = v2(this._chunkLoaded, this), i2.onerror = v2(this._chunkError, this)) : i2 = new FileReaderSync(), this._nextChunk();
+        }, this._nextChunk = function() {
+          this._finished || this._config.preview && !(this._rowCount < this._config.preview) || this._readChunk();
+        }, this._readChunk = function() {
+          var e2 = this._input;
+          if (this._config.chunkSize) {
+            var t2 = Math.min(this._start + this._config.chunkSize, this._input.size);
+            e2 = n3.call(e2, this._start, t2);
+          }
+          var r3 = i2.readAsText(e2, this._config.encoding);
+          s3 || this._chunkLoaded({ target: { result: r3 } });
+        }, this._chunkLoaded = function(e2) {
+          this._start += this._config.chunkSize, this._finished = !this._config.chunkSize || this._start >= this._input.size, this.parseChunk(e2.target.result);
+        }, this._chunkError = function() {
+          this._sendError(i2.error);
+        };
+      }
+      function p2(e) {
+        var r3;
+        h2.call(this, e = e || {}), this.stream = function(e2) {
+          return r3 = e2, this._nextChunk();
+        }, this._nextChunk = function() {
+          if (!this._finished) {
+            var e2, t2 = this._config.chunkSize;
+            return t2 ? (e2 = r3.substring(0, t2), r3 = r3.substring(t2)) : (e2 = r3, r3 = ""), this._finished = !r3, this.parseChunk(e2);
+          }
+        };
+      }
+      function g2(e) {
+        h2.call(this, e = e || {});
+        var t2 = [], r3 = true, i2 = false;
+        this.pause = function() {
+          h2.prototype.pause.apply(this, arguments), this._input.pause();
+        }, this.resume = function() {
+          h2.prototype.resume.apply(this, arguments), this._input.resume();
+        }, this.stream = function(e2) {
+          this._input = e2, this._input.on("data", this._streamData), this._input.on("end", this._streamEnd), this._input.on("error", this._streamError);
+        }, this._checkIsFinished = function() {
+          i2 && 1 === t2.length && (this._finished = true);
+        }, this._nextChunk = function() {
+          this._checkIsFinished(), t2.length ? this.parseChunk(t2.shift()) : r3 = true;
+        }, this._streamData = v2(function(e2) {
+          try {
+            t2.push("string" == typeof e2 ? e2 : e2.toString(this._config.encoding)), r3 && (r3 = false, this._checkIsFinished(), this.parseChunk(t2.shift()));
+          } catch (e3) {
+            this._streamError(e3);
+          }
+        }, this), this._streamError = v2(function(e2) {
+          this._streamCleanUp(), this._sendError(e2);
+        }, this), this._streamEnd = v2(function() {
+          this._streamCleanUp(), i2 = true, this._streamData("");
+        }, this), this._streamCleanUp = v2(function() {
+          this._input.removeListener("data", this._streamData), this._input.removeListener("end", this._streamEnd), this._input.removeListener("error", this._streamError);
+        }, this);
+      }
+      function r2(m3) {
+        var a3, o3, u3, i2 = Math.pow(2, 53), n3 = -i2, s3 = /^\s*-?(\d+\.?|\.\d+|\d+\.\d+)([eE][-+]?\d+)?\s*$/, h3 = /^((\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d\.\d+([+-][0-2]\d:[0-5]\d|Z))|(\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d([+-][0-2]\d:[0-5]\d|Z))|(\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d([+-][0-2]\d:[0-5]\d|Z)))$/, t2 = this, r3 = 0, f4 = 0, d3 = false, e = false, l3 = [], c3 = { data: [], errors: [], meta: {} };
+        if (J(m3.step)) {
+          var p3 = m3.step;
+          m3.step = function(e2) {
+            if (c3 = e2, _4())
+              g3();
+            else {
+              if (g3(), 0 === c3.data.length)
+                return;
+              r3 += e2.data.length, m3.preview && r3 > m3.preview ? o3.abort() : (c3.data = c3.data[0], p3(c3, t2));
+            }
+          };
+        }
+        function y3(e2) {
+          return "greedy" === m3.skipEmptyLines ? "" === e2.join("").trim() : 1 === e2.length && 0 === e2[0].length;
+        }
+        function g3() {
+          return c3 && u3 && (k2("Delimiter", "UndetectableDelimiter", "Unable to auto-detect delimiting character; defaulted to '" + b2.DefaultDelimiter + "'"), u3 = false), m3.skipEmptyLines && (c3.data = c3.data.filter(function(e2) {
+            return !y3(e2);
+          })), _4() && function() {
+            if (!c3)
+              return;
+            function e2(e3, t4) {
+              J(m3.transformHeader) && (e3 = m3.transformHeader(e3, t4)), l3.push(e3);
+            }
+            if (Array.isArray(c3.data[0])) {
+              for (var t3 = 0; _4() && t3 < c3.data.length; t3++)
+                c3.data[t3].forEach(e2);
+              c3.data.splice(0, 1);
+            } else
+              c3.data.forEach(e2);
+          }(), function() {
+            if (!c3 || !m3.header && !m3.dynamicTyping && !m3.transform)
+              return c3;
+            function e2(e3, t4) {
+              var r4, i3 = m3.header ? {} : [];
+              for (r4 = 0; r4 < e3.length; r4++) {
+                var n4 = r4, s4 = e3[r4];
+                m3.header && (n4 = r4 >= l3.length ? "__parsed_extra" : l3[r4]), m3.transform && (s4 = m3.transform(s4, n4)), s4 = v3(n4, s4), "__parsed_extra" === n4 ? (i3[n4] = i3[n4] || [], i3[n4].push(s4)) : i3[n4] = s4;
+              }
+              return m3.header && (r4 > l3.length ? k2("FieldMismatch", "TooManyFields", "Too many fields: expected " + l3.length + " fields but parsed " + r4, f4 + t4) : r4 < l3.length && k2("FieldMismatch", "TooFewFields", "Too few fields: expected " + l3.length + " fields but parsed " + r4, f4 + t4)), i3;
+            }
+            var t3 = 1;
+            !c3.data.length || Array.isArray(c3.data[0]) ? (c3.data = c3.data.map(e2), t3 = c3.data.length) : c3.data = e2(c3.data, 0);
+            m3.header && c3.meta && (c3.meta.fields = l3);
+            return f4 += t3, c3;
+          }();
+        }
+        function _4() {
+          return m3.header && 0 === l3.length;
+        }
+        function v3(e2, t3) {
+          return r4 = e2, m3.dynamicTypingFunction && void 0 === m3.dynamicTyping[r4] && (m3.dynamicTyping[r4] = m3.dynamicTypingFunction(r4)), true === (m3.dynamicTyping[r4] || m3.dynamicTyping) ? "true" === t3 || "TRUE" === t3 || "false" !== t3 && "FALSE" !== t3 && (function(e3) {
+            if (s3.test(e3)) {
+              var t4 = parseFloat(e3);
+              if (n3 < t4 && t4 < i2)
+                return true;
+            }
+            return false;
+          }(t3) ? parseFloat(t3) : h3.test(t3) ? new Date(t3) : "" === t3 ? null : t3) : t3;
+          var r4;
+        }
+        function k2(e2, t3, r4, i3) {
+          var n4 = { type: e2, code: t3, message: r4 };
+          void 0 !== i3 && (n4.row = i3), c3.errors.push(n4);
+        }
+        this.parse = function(e2, t3, r4) {
+          var i3 = m3.quoteChar || '"';
+          if (m3.newline || (m3.newline = function(e3, t4) {
+            e3 = e3.substring(0, 1048576);
+            var r5 = new RegExp(Q2(t4) + "([^]*?)" + Q2(t4), "gm"), i4 = (e3 = e3.replace(r5, "")).split("\r"), n5 = e3.split("\n"), s5 = 1 < n5.length && n5[0].length < i4[0].length;
+            if (1 === i4.length || s5)
+              return "\n";
+            for (var a4 = 0, o4 = 0; o4 < i4.length; o4++)
+              "\n" === i4[o4][0] && a4++;
+            return a4 >= i4.length / 2 ? "\r\n" : "\r";
+          }(e2, i3)), u3 = false, m3.delimiter)
+            J(m3.delimiter) && (m3.delimiter = m3.delimiter(e2), c3.meta.delimiter = m3.delimiter);
+          else {
+            var n4 = function(e3, t4, r5, i4, n5) {
+              var s5, a4, o4, u4;
+              n5 = n5 || [",", "	", "|", ";", b2.RECORD_SEP, b2.UNIT_SEP];
+              for (var h4 = 0; h4 < n5.length; h4++) {
+                var f5 = n5[h4], d4 = 0, l4 = 0, c4 = 0;
+                o4 = void 0;
+                for (var p4 = new E2({ comments: i4, delimiter: f5, newline: t4, preview: 10 }).parse(e3), g4 = 0; g4 < p4.data.length; g4++)
+                  if (r5 && y3(p4.data[g4]))
+                    c4++;
+                  else {
+                    var _5 = p4.data[g4].length;
+                    l4 += _5, void 0 !== o4 ? 0 < _5 && (d4 += Math.abs(_5 - o4), o4 = _5) : o4 = _5;
+                  }
+                0 < p4.data.length && (l4 /= p4.data.length - c4), (void 0 === a4 || d4 <= a4) && (void 0 === u4 || u4 < l4) && 1.99 < l4 && (a4 = d4, s5 = f5, u4 = l4);
+              }
+              return { successful: !!(m3.delimiter = s5), bestDelimiter: s5 };
+            }(e2, m3.newline, m3.skipEmptyLines, m3.comments, m3.delimitersToGuess);
+            n4.successful ? m3.delimiter = n4.bestDelimiter : (u3 = true, m3.delimiter = b2.DefaultDelimiter), c3.meta.delimiter = m3.delimiter;
+          }
+          var s4 = w2(m3);
+          return m3.preview && m3.header && s4.preview++, a3 = e2, o3 = new E2(s4), c3 = o3.parse(a3, t3, r4), g3(), d3 ? { meta: { paused: true } } : c3 || { meta: { paused: false } };
+        }, this.paused = function() {
+          return d3;
+        }, this.pause = function() {
+          d3 = true, o3.abort(), a3 = J(m3.chunk) ? "" : a3.substring(o3.getCharIndex());
+        }, this.resume = function() {
+          t2.streamer._halted ? (d3 = false, t2.streamer.parseChunk(a3, true)) : setTimeout(t2.resume, 3);
+        }, this.aborted = function() {
+          return e;
+        }, this.abort = function() {
+          e = true, o3.abort(), c3.meta.aborted = true, J(m3.complete) && m3.complete(c3), a3 = "";
+        };
+      }
+      function Q2(e) {
+        return e.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      }
+      function E2(j2) {
+        var z2, M2 = (j2 = j2 || {}).delimiter, P2 = j2.newline, U2 = j2.comments, q2 = j2.step, N2 = j2.preview, B2 = j2.fastMode, K = z2 = void 0 === j2.quoteChar || null === j2.quoteChar ? '"' : j2.quoteChar;
+        if (void 0 !== j2.escapeChar && (K = j2.escapeChar), ("string" != typeof M2 || -1 < b2.BAD_DELIMITERS.indexOf(M2)) && (M2 = ","), U2 === M2)
+          throw new Error("Comment character same as delimiter");
+        true === U2 ? U2 = "#" : ("string" != typeof U2 || -1 < b2.BAD_DELIMITERS.indexOf(U2)) && (U2 = false), "\n" !== P2 && "\r" !== P2 && "\r\n" !== P2 && (P2 = "\n");
+        var W2 = 0, H2 = false;
+        this.parse = function(i2, t2, r3) {
+          if ("string" != typeof i2)
+            throw new Error("Input must be a string");
+          var n3 = i2.length, e = M2.length, s3 = P2.length, a3 = U2.length, o3 = J(q2), u3 = [], h3 = [], f4 = [], d3 = W2 = 0;
+          if (!i2)
+            return L2();
+          if (j2.header && !t2) {
+            var l3 = i2.split(P2)[0].split(M2), c3 = [], p3 = {}, g3 = false;
+            for (var _4 in l3) {
+              var m3 = l3[_4];
+              J(j2.transformHeader) && (m3 = j2.transformHeader(m3, _4));
+              var y3 = m3, v3 = p3[m3] || 0;
+              for (0 < v3 && (g3 = true, y3 = m3 + "_" + v3), p3[m3] = v3 + 1; c3.includes(y3); )
+                y3 = y3 + "_" + v3;
+              c3.push(y3);
+            }
+            if (g3) {
+              var k2 = i2.split(P2);
+              k2[0] = c3.join(M2), i2 = k2.join(P2);
+            }
+          }
+          if (B2 || false !== B2 && -1 === i2.indexOf(z2)) {
+            for (var b3 = i2.split(P2), E3 = 0; E3 < b3.length; E3++) {
+              if (f4 = b3[E3], W2 += f4.length, E3 !== b3.length - 1)
+                W2 += P2.length;
+              else if (r3)
+                return L2();
+              if (!U2 || f4.substring(0, a3) !== U2) {
+                if (o3) {
+                  if (u3 = [], I2(f4.split(M2)), F2(), H2)
+                    return L2();
+                } else
+                  I2(f4.split(M2));
+                if (N2 && N2 <= E3)
+                  return u3 = u3.slice(0, N2), L2(true);
+              }
+            }
+            return L2();
+          }
+          for (var w3 = i2.indexOf(M2, W2), R2 = i2.indexOf(P2, W2), C = new RegExp(Q2(K) + Q2(z2), "g"), S2 = i2.indexOf(z2, W2); ; )
+            if (i2[W2] !== z2)
+              if (U2 && 0 === f4.length && i2.substring(W2, W2 + a3) === U2) {
+                if (-1 === R2)
+                  return L2();
+                W2 = R2 + s3, R2 = i2.indexOf(P2, W2), w3 = i2.indexOf(M2, W2);
+              } else if (-1 !== w3 && (w3 < R2 || -1 === R2))
+                f4.push(i2.substring(W2, w3)), W2 = w3 + e, w3 = i2.indexOf(M2, W2);
+              else {
+                if (-1 === R2)
+                  break;
+                if (f4.push(i2.substring(W2, R2)), D2(R2 + s3), o3 && (F2(), H2))
+                  return L2();
+                if (N2 && u3.length >= N2)
+                  return L2(true);
+              }
+            else
+              for (S2 = W2, W2++; ; ) {
+                if (-1 === (S2 = i2.indexOf(z2, S2 + 1)))
+                  return r3 || h3.push({ type: "Quotes", code: "MissingQuotes", message: "Quoted field unterminated", row: u3.length, index: W2 }), T();
+                if (S2 === n3 - 1)
+                  return T(i2.substring(W2, S2).replace(C, z2));
+                if (z2 !== K || i2[S2 + 1] !== K) {
+                  if (z2 === K || 0 === S2 || i2[S2 - 1] !== K) {
+                    -1 !== w3 && w3 < S2 + 1 && (w3 = i2.indexOf(M2, S2 + 1)), -1 !== R2 && R2 < S2 + 1 && (R2 = i2.indexOf(P2, S2 + 1));
+                    var O2 = A2(-1 === R2 ? w3 : Math.min(w3, R2));
+                    if (i2.substr(S2 + 1 + O2, e) === M2) {
+                      f4.push(i2.substring(W2, S2).replace(C, z2)), i2[W2 = S2 + 1 + O2 + e] !== z2 && (S2 = i2.indexOf(z2, W2)), w3 = i2.indexOf(M2, W2), R2 = i2.indexOf(P2, W2);
+                      break;
+                    }
+                    var x2 = A2(R2);
+                    if (i2.substring(S2 + 1 + x2, S2 + 1 + x2 + s3) === P2) {
+                      if (f4.push(i2.substring(W2, S2).replace(C, z2)), D2(S2 + 1 + x2 + s3), w3 = i2.indexOf(M2, W2), S2 = i2.indexOf(z2, W2), o3 && (F2(), H2))
+                        return L2();
+                      if (N2 && u3.length >= N2)
+                        return L2(true);
+                      break;
+                    }
+                    h3.push({ type: "Quotes", code: "InvalidQuotes", message: "Trailing quote on quoted field is malformed", row: u3.length, index: W2 }), S2++;
+                  }
+                } else
+                  S2++;
+              }
+          return T();
+          function I2(e2) {
+            u3.push(e2), d3 = W2;
+          }
+          function A2(e2) {
+            var t3 = 0;
+            if (-1 !== e2) {
+              var r4 = i2.substring(S2 + 1, e2);
+              r4 && "" === r4.trim() && (t3 = r4.length);
+            }
+            return t3;
+          }
+          function T(e2) {
+            return r3 || (void 0 === e2 && (e2 = i2.substring(W2)), f4.push(e2), W2 = n3, I2(f4), o3 && F2()), L2();
+          }
+          function D2(e2) {
+            W2 = e2, I2(f4), f4 = [], R2 = i2.indexOf(P2, W2);
+          }
+          function L2(e2) {
+            return { data: u3, errors: h3, meta: { delimiter: M2, linebreak: P2, aborted: H2, truncated: !!e2, cursor: d3 + (t2 || 0) } };
+          }
+          function F2() {
+            q2(L2()), u3 = [], h3 = [];
+          }
+        }, this.abort = function() {
+          H2 = true;
+        }, this.getCharIndex = function() {
+          return W2;
+        };
+      }
+      function _3(e) {
+        var t2 = e.data, r3 = a2[t2.workerId], i2 = false;
+        if (t2.error)
+          r3.userError(t2.error, t2.file);
+        else if (t2.results && t2.results.data) {
+          var n3 = { abort: function() {
+            i2 = true, m2(t2.workerId, { data: [], errors: [], meta: { aborted: true } });
+          }, pause: y2, resume: y2 };
+          if (J(r3.userStep)) {
+            for (var s3 = 0; s3 < t2.results.data.length && (r3.userStep({ data: t2.results.data[s3], errors: t2.results.errors, meta: t2.results.meta }, n3), !i2); s3++)
+              ;
+            delete t2.results;
+          } else
+            J(r3.userChunk) && (r3.userChunk(t2.results, n3, t2.file), delete t2.results);
+        }
+        t2.finished && !i2 && m2(t2.workerId, t2.results);
+      }
+      function m2(e, t2) {
+        var r3 = a2[e];
+        J(r3.userComplete) && r3.userComplete(t2), r3.terminate(), delete a2[e];
+      }
+      function y2() {
+        throw new Error("Not implemented.");
+      }
+      function w2(e) {
+        if ("object" != typeof e || null === e)
+          return e;
+        var t2 = Array.isArray(e) ? [] : {};
+        for (var r3 in e)
+          t2[r3] = w2(e[r3]);
+        return t2;
+      }
+      function v2(e, t2) {
+        return function() {
+          e.apply(t2, arguments);
+        };
+      }
+      function J(e) {
+        return "function" == typeof e;
+      }
+      return o2 && (f3.onmessage = function(e) {
+        var t2 = e.data;
+        void 0 === b2.WORKER_ID && t2 && (b2.WORKER_ID = t2.workerId);
+        if ("string" == typeof t2.input)
+          f3.postMessage({ workerId: b2.WORKER_ID, results: b2.parse(t2.input, t2.config), finished: true });
+        else if (f3.File && t2.input instanceof File || t2.input instanceof Object) {
+          var r3 = b2.parse(t2.input, t2.config);
+          r3 && f3.postMessage({ workerId: b2.WORKER_ID, results: r3, finished: true });
+        }
+      }), (l2.prototype = Object.create(h2.prototype)).constructor = l2, (c2.prototype = Object.create(h2.prototype)).constructor = c2, (p2.prototype = Object.create(p2.prototype)).constructor = p2, (g2.prototype = Object.create(h2.prototype)).constructor = g2, b2;
+    });
   }
 });
 
@@ -33463,566 +33969,6 @@ var require_fuzzysort = __commonJS({
       };
       var q2 = fastpriorityqueue();
       return { "single": single, "go": go, "highlight": highlight, "prepare": prepare, "indexes": indexes, "cleanup": cleanup };
-    });
-  }
-});
-
-// node_modules/papaparse/papaparse.min.js
-var require_papaparse_min = __commonJS({
-  "node_modules/papaparse/papaparse.min.js"(exports, module2) {
-    !function(e, t2) {
-      "function" == typeof define && define.amd ? define([], t2) : "object" == typeof module2 && "undefined" != typeof exports ? module2.exports = t2() : e.Papa = t2();
-    }(exports, function s2() {
-      "use strict";
-      var f3 = "undefined" != typeof self ? self : "undefined" != typeof window ? window : void 0 !== f3 ? f3 : {};
-      var n2 = !f3.document && !!f3.postMessage, o2 = f3.IS_PAPA_WORKER || false, a2 = {}, u2 = 0, b2 = { parse: function(e, t2) {
-        var r3 = (t2 = t2 || {}).dynamicTyping || false;
-        J(r3) && (t2.dynamicTypingFunction = r3, r3 = {});
-        if (t2.dynamicTyping = r3, t2.transform = !!J(t2.transform) && t2.transform, t2.worker && b2.WORKERS_SUPPORTED) {
-          var i2 = function() {
-            if (!b2.WORKERS_SUPPORTED)
-              return false;
-            var e2 = (r4 = f3.URL || f3.webkitURL || null, i3 = s2.toString(), b2.BLOB_URL || (b2.BLOB_URL = r4.createObjectURL(new Blob(["var global = (function() { if (typeof self !== 'undefined') { return self; } if (typeof window !== 'undefined') { return window; } if (typeof global !== 'undefined') { return global; } return {}; })(); global.IS_PAPA_WORKER=true; ", "(", i3, ")();"], { type: "text/javascript" })))), t3 = new f3.Worker(e2);
-            var r4, i3;
-            return t3.onmessage = _3, t3.id = u2++, a2[t3.id] = t3;
-          }();
-          return i2.userStep = t2.step, i2.userChunk = t2.chunk, i2.userComplete = t2.complete, i2.userError = t2.error, t2.step = J(t2.step), t2.chunk = J(t2.chunk), t2.complete = J(t2.complete), t2.error = J(t2.error), delete t2.worker, void i2.postMessage({ input: e, config: t2, workerId: i2.id });
-        }
-        var n3 = null;
-        b2.NODE_STREAM_INPUT, "string" == typeof e ? (e = function(e2) {
-          if (65279 === e2.charCodeAt(0))
-            return e2.slice(1);
-          return e2;
-        }(e), n3 = t2.download ? new l2(t2) : new p2(t2)) : true === e.readable && J(e.read) && J(e.on) ? n3 = new g2(t2) : (f3.File && e instanceof File || e instanceof Object) && (n3 = new c2(t2));
-        return n3.stream(e);
-      }, unparse: function(e, t2) {
-        var n3 = false, _4 = true, m3 = ",", y3 = "\r\n", s3 = '"', a3 = s3 + s3, r3 = false, i2 = null, o3 = false;
-        !function() {
-          if ("object" != typeof t2)
-            return;
-          "string" != typeof t2.delimiter || b2.BAD_DELIMITERS.filter(function(e2) {
-            return -1 !== t2.delimiter.indexOf(e2);
-          }).length || (m3 = t2.delimiter);
-          ("boolean" == typeof t2.quotes || "function" == typeof t2.quotes || Array.isArray(t2.quotes)) && (n3 = t2.quotes);
-          "boolean" != typeof t2.skipEmptyLines && "string" != typeof t2.skipEmptyLines || (r3 = t2.skipEmptyLines);
-          "string" == typeof t2.newline && (y3 = t2.newline);
-          "string" == typeof t2.quoteChar && (s3 = t2.quoteChar);
-          "boolean" == typeof t2.header && (_4 = t2.header);
-          if (Array.isArray(t2.columns)) {
-            if (0 === t2.columns.length)
-              throw new Error("Option columns is empty");
-            i2 = t2.columns;
-          }
-          void 0 !== t2.escapeChar && (a3 = t2.escapeChar + s3);
-          ("boolean" == typeof t2.escapeFormulae || t2.escapeFormulae instanceof RegExp) && (o3 = t2.escapeFormulae instanceof RegExp ? t2.escapeFormulae : /^[=+\-@\t\r].*$/);
-        }();
-        var u3 = new RegExp(Q2(s3), "g");
-        "string" == typeof e && (e = JSON.parse(e));
-        if (Array.isArray(e)) {
-          if (!e.length || Array.isArray(e[0]))
-            return h3(null, e, r3);
-          if ("object" == typeof e[0])
-            return h3(i2 || Object.keys(e[0]), e, r3);
-        } else if ("object" == typeof e)
-          return "string" == typeof e.data && (e.data = JSON.parse(e.data)), Array.isArray(e.data) && (e.fields || (e.fields = e.meta && e.meta.fields || i2), e.fields || (e.fields = Array.isArray(e.data[0]) ? e.fields : "object" == typeof e.data[0] ? Object.keys(e.data[0]) : []), Array.isArray(e.data[0]) || "object" == typeof e.data[0] || (e.data = [e.data])), h3(e.fields || [], e.data || [], r3);
-        throw new Error("Unable to serialize unrecognized input");
-        function h3(e2, t3, r4) {
-          var i3 = "";
-          "string" == typeof e2 && (e2 = JSON.parse(e2)), "string" == typeof t3 && (t3 = JSON.parse(t3));
-          var n4 = Array.isArray(e2) && 0 < e2.length, s4 = !Array.isArray(t3[0]);
-          if (n4 && _4) {
-            for (var a4 = 0; a4 < e2.length; a4++)
-              0 < a4 && (i3 += m3), i3 += v3(e2[a4], a4);
-            0 < t3.length && (i3 += y3);
-          }
-          for (var o4 = 0; o4 < t3.length; o4++) {
-            var u4 = n4 ? e2.length : t3[o4].length, h4 = false, f4 = n4 ? 0 === Object.keys(t3[o4]).length : 0 === t3[o4].length;
-            if (r4 && !n4 && (h4 = "greedy" === r4 ? "" === t3[o4].join("").trim() : 1 === t3[o4].length && 0 === t3[o4][0].length), "greedy" === r4 && n4) {
-              for (var d3 = [], l3 = 0; l3 < u4; l3++) {
-                var c3 = s4 ? e2[l3] : l3;
-                d3.push(t3[o4][c3]);
-              }
-              h4 = "" === d3.join("").trim();
-            }
-            if (!h4) {
-              for (var p3 = 0; p3 < u4; p3++) {
-                0 < p3 && !f4 && (i3 += m3);
-                var g3 = n4 && s4 ? e2[p3] : p3;
-                i3 += v3(t3[o4][g3], p3);
-              }
-              o4 < t3.length - 1 && (!r4 || 0 < u4 && !f4) && (i3 += y3);
-            }
-          }
-          return i3;
-        }
-        function v3(e2, t3) {
-          if (null == e2)
-            return "";
-          if (e2.constructor === Date)
-            return JSON.stringify(e2).slice(1, 25);
-          var r4 = false;
-          o3 && "string" == typeof e2 && o3.test(e2) && (e2 = "'" + e2, r4 = true);
-          var i3 = e2.toString().replace(u3, a3);
-          return (r4 = r4 || true === n3 || "function" == typeof n3 && n3(e2, t3) || Array.isArray(n3) && n3[t3] || function(e3, t4) {
-            for (var r5 = 0; r5 < t4.length; r5++)
-              if (-1 < e3.indexOf(t4[r5]))
-                return true;
-            return false;
-          }(i3, b2.BAD_DELIMITERS) || -1 < i3.indexOf(m3) || " " === i3.charAt(0) || " " === i3.charAt(i3.length - 1)) ? s3 + i3 + s3 : i3;
-        }
-      } };
-      if (b2.RECORD_SEP = String.fromCharCode(30), b2.UNIT_SEP = String.fromCharCode(31), b2.BYTE_ORDER_MARK = "\uFEFF", b2.BAD_DELIMITERS = ["\r", "\n", '"', b2.BYTE_ORDER_MARK], b2.WORKERS_SUPPORTED = !n2 && !!f3.Worker, b2.NODE_STREAM_INPUT = 1, b2.LocalChunkSize = 10485760, b2.RemoteChunkSize = 5242880, b2.DefaultDelimiter = ",", b2.Parser = E2, b2.ParserHandle = r2, b2.NetworkStreamer = l2, b2.FileStreamer = c2, b2.StringStreamer = p2, b2.ReadableStreamStreamer = g2, f3.jQuery) {
-        var d2 = f3.jQuery;
-        d2.fn.parse = function(o3) {
-          var r3 = o3.config || {}, u3 = [];
-          return this.each(function(e2) {
-            if (!("INPUT" === d2(this).prop("tagName").toUpperCase() && "file" === d2(this).attr("type").toLowerCase() && f3.FileReader) || !this.files || 0 === this.files.length)
-              return true;
-            for (var t2 = 0; t2 < this.files.length; t2++)
-              u3.push({ file: this.files[t2], inputElem: this, instanceConfig: d2.extend({}, r3) });
-          }), e(), this;
-          function e() {
-            if (0 !== u3.length) {
-              var e2, t2, r4, i2, n3 = u3[0];
-              if (J(o3.before)) {
-                var s3 = o3.before(n3.file, n3.inputElem);
-                if ("object" == typeof s3) {
-                  if ("abort" === s3.action)
-                    return e2 = "AbortError", t2 = n3.file, r4 = n3.inputElem, i2 = s3.reason, void (J(o3.error) && o3.error({ name: e2 }, t2, r4, i2));
-                  if ("skip" === s3.action)
-                    return void h3();
-                  "object" == typeof s3.config && (n3.instanceConfig = d2.extend(n3.instanceConfig, s3.config));
-                } else if ("skip" === s3)
-                  return void h3();
-              }
-              var a3 = n3.instanceConfig.complete;
-              n3.instanceConfig.complete = function(e3) {
-                J(a3) && a3(e3, n3.file, n3.inputElem), h3();
-              }, b2.parse(n3.file, n3.instanceConfig);
-            } else
-              J(o3.complete) && o3.complete();
-          }
-          function h3() {
-            u3.splice(0, 1), e();
-          }
-        };
-      }
-      function h2(e) {
-        this._handle = null, this._finished = false, this._completed = false, this._halted = false, this._input = null, this._baseIndex = 0, this._partialLine = "", this._rowCount = 0, this._start = 0, this._nextChunk = null, this.isFirstChunk = true, this._completeResults = { data: [], errors: [], meta: {} }, function(e2) {
-          var t2 = w2(e2);
-          t2.chunkSize = parseInt(t2.chunkSize), e2.step || e2.chunk || (t2.chunkSize = null);
-          this._handle = new r2(t2), (this._handle.streamer = this)._config = t2;
-        }.call(this, e), this.parseChunk = function(e2, t2) {
-          if (this.isFirstChunk && J(this._config.beforeFirstChunk)) {
-            var r3 = this._config.beforeFirstChunk(e2);
-            void 0 !== r3 && (e2 = r3);
-          }
-          this.isFirstChunk = false, this._halted = false;
-          var i2 = this._partialLine + e2;
-          this._partialLine = "";
-          var n3 = this._handle.parse(i2, this._baseIndex, !this._finished);
-          if (!this._handle.paused() && !this._handle.aborted()) {
-            var s3 = n3.meta.cursor;
-            this._finished || (this._partialLine = i2.substring(s3 - this._baseIndex), this._baseIndex = s3), n3 && n3.data && (this._rowCount += n3.data.length);
-            var a3 = this._finished || this._config.preview && this._rowCount >= this._config.preview;
-            if (o2)
-              f3.postMessage({ results: n3, workerId: b2.WORKER_ID, finished: a3 });
-            else if (J(this._config.chunk) && !t2) {
-              if (this._config.chunk(n3, this._handle), this._handle.paused() || this._handle.aborted())
-                return void (this._halted = true);
-              n3 = void 0, this._completeResults = void 0;
-            }
-            return this._config.step || this._config.chunk || (this._completeResults.data = this._completeResults.data.concat(n3.data), this._completeResults.errors = this._completeResults.errors.concat(n3.errors), this._completeResults.meta = n3.meta), this._completed || !a3 || !J(this._config.complete) || n3 && n3.meta.aborted || (this._config.complete(this._completeResults, this._input), this._completed = true), a3 || n3 && n3.meta.paused || this._nextChunk(), n3;
-          }
-          this._halted = true;
-        }, this._sendError = function(e2) {
-          J(this._config.error) ? this._config.error(e2) : o2 && this._config.error && f3.postMessage({ workerId: b2.WORKER_ID, error: e2, finished: false });
-        };
-      }
-      function l2(e) {
-        var i2;
-        (e = e || {}).chunkSize || (e.chunkSize = b2.RemoteChunkSize), h2.call(this, e), this._nextChunk = n2 ? function() {
-          this._readChunk(), this._chunkLoaded();
-        } : function() {
-          this._readChunk();
-        }, this.stream = function(e2) {
-          this._input = e2, this._nextChunk();
-        }, this._readChunk = function() {
-          if (this._finished)
-            this._chunkLoaded();
-          else {
-            if (i2 = new XMLHttpRequest(), this._config.withCredentials && (i2.withCredentials = this._config.withCredentials), n2 || (i2.onload = v2(this._chunkLoaded, this), i2.onerror = v2(this._chunkError, this)), i2.open(this._config.downloadRequestBody ? "POST" : "GET", this._input, !n2), this._config.downloadRequestHeaders) {
-              var e2 = this._config.downloadRequestHeaders;
-              for (var t2 in e2)
-                i2.setRequestHeader(t2, e2[t2]);
-            }
-            if (this._config.chunkSize) {
-              var r3 = this._start + this._config.chunkSize - 1;
-              i2.setRequestHeader("Range", "bytes=" + this._start + "-" + r3);
-            }
-            try {
-              i2.send(this._config.downloadRequestBody);
-            } catch (e3) {
-              this._chunkError(e3.message);
-            }
-            n2 && 0 === i2.status && this._chunkError();
-          }
-        }, this._chunkLoaded = function() {
-          4 === i2.readyState && (i2.status < 200 || 400 <= i2.status ? this._chunkError() : (this._start += this._config.chunkSize ? this._config.chunkSize : i2.responseText.length, this._finished = !this._config.chunkSize || this._start >= function(e2) {
-            var t2 = e2.getResponseHeader("Content-Range");
-            if (null === t2)
-              return -1;
-            return parseInt(t2.substring(t2.lastIndexOf("/") + 1));
-          }(i2), this.parseChunk(i2.responseText)));
-        }, this._chunkError = function(e2) {
-          var t2 = i2.statusText || e2;
-          this._sendError(new Error(t2));
-        };
-      }
-      function c2(e) {
-        var i2, n3;
-        (e = e || {}).chunkSize || (e.chunkSize = b2.LocalChunkSize), h2.call(this, e);
-        var s3 = "undefined" != typeof FileReader;
-        this.stream = function(e2) {
-          this._input = e2, n3 = e2.slice || e2.webkitSlice || e2.mozSlice, s3 ? ((i2 = new FileReader()).onload = v2(this._chunkLoaded, this), i2.onerror = v2(this._chunkError, this)) : i2 = new FileReaderSync(), this._nextChunk();
-        }, this._nextChunk = function() {
-          this._finished || this._config.preview && !(this._rowCount < this._config.preview) || this._readChunk();
-        }, this._readChunk = function() {
-          var e2 = this._input;
-          if (this._config.chunkSize) {
-            var t2 = Math.min(this._start + this._config.chunkSize, this._input.size);
-            e2 = n3.call(e2, this._start, t2);
-          }
-          var r3 = i2.readAsText(e2, this._config.encoding);
-          s3 || this._chunkLoaded({ target: { result: r3 } });
-        }, this._chunkLoaded = function(e2) {
-          this._start += this._config.chunkSize, this._finished = !this._config.chunkSize || this._start >= this._input.size, this.parseChunk(e2.target.result);
-        }, this._chunkError = function() {
-          this._sendError(i2.error);
-        };
-      }
-      function p2(e) {
-        var r3;
-        h2.call(this, e = e || {}), this.stream = function(e2) {
-          return r3 = e2, this._nextChunk();
-        }, this._nextChunk = function() {
-          if (!this._finished) {
-            var e2, t2 = this._config.chunkSize;
-            return t2 ? (e2 = r3.substring(0, t2), r3 = r3.substring(t2)) : (e2 = r3, r3 = ""), this._finished = !r3, this.parseChunk(e2);
-          }
-        };
-      }
-      function g2(e) {
-        h2.call(this, e = e || {});
-        var t2 = [], r3 = true, i2 = false;
-        this.pause = function() {
-          h2.prototype.pause.apply(this, arguments), this._input.pause();
-        }, this.resume = function() {
-          h2.prototype.resume.apply(this, arguments), this._input.resume();
-        }, this.stream = function(e2) {
-          this._input = e2, this._input.on("data", this._streamData), this._input.on("end", this._streamEnd), this._input.on("error", this._streamError);
-        }, this._checkIsFinished = function() {
-          i2 && 1 === t2.length && (this._finished = true);
-        }, this._nextChunk = function() {
-          this._checkIsFinished(), t2.length ? this.parseChunk(t2.shift()) : r3 = true;
-        }, this._streamData = v2(function(e2) {
-          try {
-            t2.push("string" == typeof e2 ? e2 : e2.toString(this._config.encoding)), r3 && (r3 = false, this._checkIsFinished(), this.parseChunk(t2.shift()));
-          } catch (e3) {
-            this._streamError(e3);
-          }
-        }, this), this._streamError = v2(function(e2) {
-          this._streamCleanUp(), this._sendError(e2);
-        }, this), this._streamEnd = v2(function() {
-          this._streamCleanUp(), i2 = true, this._streamData("");
-        }, this), this._streamCleanUp = v2(function() {
-          this._input.removeListener("data", this._streamData), this._input.removeListener("end", this._streamEnd), this._input.removeListener("error", this._streamError);
-        }, this);
-      }
-      function r2(m3) {
-        var a3, o3, u3, i2 = Math.pow(2, 53), n3 = -i2, s3 = /^\s*-?(\d+\.?|\.\d+|\d+\.\d+)([eE][-+]?\d+)?\s*$/, h3 = /^((\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d\.\d+([+-][0-2]\d:[0-5]\d|Z))|(\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d([+-][0-2]\d:[0-5]\d|Z))|(\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d([+-][0-2]\d:[0-5]\d|Z)))$/, t2 = this, r3 = 0, f4 = 0, d3 = false, e = false, l3 = [], c3 = { data: [], errors: [], meta: {} };
-        if (J(m3.step)) {
-          var p3 = m3.step;
-          m3.step = function(e2) {
-            if (c3 = e2, _4())
-              g3();
-            else {
-              if (g3(), 0 === c3.data.length)
-                return;
-              r3 += e2.data.length, m3.preview && r3 > m3.preview ? o3.abort() : (c3.data = c3.data[0], p3(c3, t2));
-            }
-          };
-        }
-        function y3(e2) {
-          return "greedy" === m3.skipEmptyLines ? "" === e2.join("").trim() : 1 === e2.length && 0 === e2[0].length;
-        }
-        function g3() {
-          return c3 && u3 && (k2("Delimiter", "UndetectableDelimiter", "Unable to auto-detect delimiting character; defaulted to '" + b2.DefaultDelimiter + "'"), u3 = false), m3.skipEmptyLines && (c3.data = c3.data.filter(function(e2) {
-            return !y3(e2);
-          })), _4() && function() {
-            if (!c3)
-              return;
-            function e2(e3, t4) {
-              J(m3.transformHeader) && (e3 = m3.transformHeader(e3, t4)), l3.push(e3);
-            }
-            if (Array.isArray(c3.data[0])) {
-              for (var t3 = 0; _4() && t3 < c3.data.length; t3++)
-                c3.data[t3].forEach(e2);
-              c3.data.splice(0, 1);
-            } else
-              c3.data.forEach(e2);
-          }(), function() {
-            if (!c3 || !m3.header && !m3.dynamicTyping && !m3.transform)
-              return c3;
-            function e2(e3, t4) {
-              var r4, i3 = m3.header ? {} : [];
-              for (r4 = 0; r4 < e3.length; r4++) {
-                var n4 = r4, s4 = e3[r4];
-                m3.header && (n4 = r4 >= l3.length ? "__parsed_extra" : l3[r4]), m3.transform && (s4 = m3.transform(s4, n4)), s4 = v3(n4, s4), "__parsed_extra" === n4 ? (i3[n4] = i3[n4] || [], i3[n4].push(s4)) : i3[n4] = s4;
-              }
-              return m3.header && (r4 > l3.length ? k2("FieldMismatch", "TooManyFields", "Too many fields: expected " + l3.length + " fields but parsed " + r4, f4 + t4) : r4 < l3.length && k2("FieldMismatch", "TooFewFields", "Too few fields: expected " + l3.length + " fields but parsed " + r4, f4 + t4)), i3;
-            }
-            var t3 = 1;
-            !c3.data.length || Array.isArray(c3.data[0]) ? (c3.data = c3.data.map(e2), t3 = c3.data.length) : c3.data = e2(c3.data, 0);
-            m3.header && c3.meta && (c3.meta.fields = l3);
-            return f4 += t3, c3;
-          }();
-        }
-        function _4() {
-          return m3.header && 0 === l3.length;
-        }
-        function v3(e2, t3) {
-          return r4 = e2, m3.dynamicTypingFunction && void 0 === m3.dynamicTyping[r4] && (m3.dynamicTyping[r4] = m3.dynamicTypingFunction(r4)), true === (m3.dynamicTyping[r4] || m3.dynamicTyping) ? "true" === t3 || "TRUE" === t3 || "false" !== t3 && "FALSE" !== t3 && (function(e3) {
-            if (s3.test(e3)) {
-              var t4 = parseFloat(e3);
-              if (n3 < t4 && t4 < i2)
-                return true;
-            }
-            return false;
-          }(t3) ? parseFloat(t3) : h3.test(t3) ? new Date(t3) : "" === t3 ? null : t3) : t3;
-          var r4;
-        }
-        function k2(e2, t3, r4, i3) {
-          var n4 = { type: e2, code: t3, message: r4 };
-          void 0 !== i3 && (n4.row = i3), c3.errors.push(n4);
-        }
-        this.parse = function(e2, t3, r4) {
-          var i3 = m3.quoteChar || '"';
-          if (m3.newline || (m3.newline = function(e3, t4) {
-            e3 = e3.substring(0, 1048576);
-            var r5 = new RegExp(Q2(t4) + "([^]*?)" + Q2(t4), "gm"), i4 = (e3 = e3.replace(r5, "")).split("\r"), n5 = e3.split("\n"), s5 = 1 < n5.length && n5[0].length < i4[0].length;
-            if (1 === i4.length || s5)
-              return "\n";
-            for (var a4 = 0, o4 = 0; o4 < i4.length; o4++)
-              "\n" === i4[o4][0] && a4++;
-            return a4 >= i4.length / 2 ? "\r\n" : "\r";
-          }(e2, i3)), u3 = false, m3.delimiter)
-            J(m3.delimiter) && (m3.delimiter = m3.delimiter(e2), c3.meta.delimiter = m3.delimiter);
-          else {
-            var n4 = function(e3, t4, r5, i4, n5) {
-              var s5, a4, o4, u4;
-              n5 = n5 || [",", "	", "|", ";", b2.RECORD_SEP, b2.UNIT_SEP];
-              for (var h4 = 0; h4 < n5.length; h4++) {
-                var f5 = n5[h4], d4 = 0, l4 = 0, c4 = 0;
-                o4 = void 0;
-                for (var p4 = new E2({ comments: i4, delimiter: f5, newline: t4, preview: 10 }).parse(e3), g4 = 0; g4 < p4.data.length; g4++)
-                  if (r5 && y3(p4.data[g4]))
-                    c4++;
-                  else {
-                    var _5 = p4.data[g4].length;
-                    l4 += _5, void 0 !== o4 ? 0 < _5 && (d4 += Math.abs(_5 - o4), o4 = _5) : o4 = _5;
-                  }
-                0 < p4.data.length && (l4 /= p4.data.length - c4), (void 0 === a4 || d4 <= a4) && (void 0 === u4 || u4 < l4) && 1.99 < l4 && (a4 = d4, s5 = f5, u4 = l4);
-              }
-              return { successful: !!(m3.delimiter = s5), bestDelimiter: s5 };
-            }(e2, m3.newline, m3.skipEmptyLines, m3.comments, m3.delimitersToGuess);
-            n4.successful ? m3.delimiter = n4.bestDelimiter : (u3 = true, m3.delimiter = b2.DefaultDelimiter), c3.meta.delimiter = m3.delimiter;
-          }
-          var s4 = w2(m3);
-          return m3.preview && m3.header && s4.preview++, a3 = e2, o3 = new E2(s4), c3 = o3.parse(a3, t3, r4), g3(), d3 ? { meta: { paused: true } } : c3 || { meta: { paused: false } };
-        }, this.paused = function() {
-          return d3;
-        }, this.pause = function() {
-          d3 = true, o3.abort(), a3 = J(m3.chunk) ? "" : a3.substring(o3.getCharIndex());
-        }, this.resume = function() {
-          t2.streamer._halted ? (d3 = false, t2.streamer.parseChunk(a3, true)) : setTimeout(t2.resume, 3);
-        }, this.aborted = function() {
-          return e;
-        }, this.abort = function() {
-          e = true, o3.abort(), c3.meta.aborted = true, J(m3.complete) && m3.complete(c3), a3 = "";
-        };
-      }
-      function Q2(e) {
-        return e.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-      }
-      function E2(j2) {
-        var z2, M2 = (j2 = j2 || {}).delimiter, P2 = j2.newline, U2 = j2.comments, q2 = j2.step, N2 = j2.preview, B2 = j2.fastMode, K = z2 = void 0 === j2.quoteChar || null === j2.quoteChar ? '"' : j2.quoteChar;
-        if (void 0 !== j2.escapeChar && (K = j2.escapeChar), ("string" != typeof M2 || -1 < b2.BAD_DELIMITERS.indexOf(M2)) && (M2 = ","), U2 === M2)
-          throw new Error("Comment character same as delimiter");
-        true === U2 ? U2 = "#" : ("string" != typeof U2 || -1 < b2.BAD_DELIMITERS.indexOf(U2)) && (U2 = false), "\n" !== P2 && "\r" !== P2 && "\r\n" !== P2 && (P2 = "\n");
-        var W2 = 0, H2 = false;
-        this.parse = function(i2, t2, r3) {
-          if ("string" != typeof i2)
-            throw new Error("Input must be a string");
-          var n3 = i2.length, e = M2.length, s3 = P2.length, a3 = U2.length, o3 = J(q2), u3 = [], h3 = [], f4 = [], d3 = W2 = 0;
-          if (!i2)
-            return L2();
-          if (j2.header && !t2) {
-            var l3 = i2.split(P2)[0].split(M2), c3 = [], p3 = {}, g3 = false;
-            for (var _4 in l3) {
-              var m3 = l3[_4];
-              J(j2.transformHeader) && (m3 = j2.transformHeader(m3, _4));
-              var y3 = m3, v3 = p3[m3] || 0;
-              for (0 < v3 && (g3 = true, y3 = m3 + "_" + v3), p3[m3] = v3 + 1; c3.includes(y3); )
-                y3 = y3 + "_" + v3;
-              c3.push(y3);
-            }
-            if (g3) {
-              var k2 = i2.split(P2);
-              k2[0] = c3.join(M2), i2 = k2.join(P2);
-            }
-          }
-          if (B2 || false !== B2 && -1 === i2.indexOf(z2)) {
-            for (var b3 = i2.split(P2), E3 = 0; E3 < b3.length; E3++) {
-              if (f4 = b3[E3], W2 += f4.length, E3 !== b3.length - 1)
-                W2 += P2.length;
-              else if (r3)
-                return L2();
-              if (!U2 || f4.substring(0, a3) !== U2) {
-                if (o3) {
-                  if (u3 = [], I2(f4.split(M2)), F2(), H2)
-                    return L2();
-                } else
-                  I2(f4.split(M2));
-                if (N2 && N2 <= E3)
-                  return u3 = u3.slice(0, N2), L2(true);
-              }
-            }
-            return L2();
-          }
-          for (var w3 = i2.indexOf(M2, W2), R2 = i2.indexOf(P2, W2), C = new RegExp(Q2(K) + Q2(z2), "g"), S2 = i2.indexOf(z2, W2); ; )
-            if (i2[W2] !== z2)
-              if (U2 && 0 === f4.length && i2.substring(W2, W2 + a3) === U2) {
-                if (-1 === R2)
-                  return L2();
-                W2 = R2 + s3, R2 = i2.indexOf(P2, W2), w3 = i2.indexOf(M2, W2);
-              } else if (-1 !== w3 && (w3 < R2 || -1 === R2))
-                f4.push(i2.substring(W2, w3)), W2 = w3 + e, w3 = i2.indexOf(M2, W2);
-              else {
-                if (-1 === R2)
-                  break;
-                if (f4.push(i2.substring(W2, R2)), D2(R2 + s3), o3 && (F2(), H2))
-                  return L2();
-                if (N2 && u3.length >= N2)
-                  return L2(true);
-              }
-            else
-              for (S2 = W2, W2++; ; ) {
-                if (-1 === (S2 = i2.indexOf(z2, S2 + 1)))
-                  return r3 || h3.push({ type: "Quotes", code: "MissingQuotes", message: "Quoted field unterminated", row: u3.length, index: W2 }), T();
-                if (S2 === n3 - 1)
-                  return T(i2.substring(W2, S2).replace(C, z2));
-                if (z2 !== K || i2[S2 + 1] !== K) {
-                  if (z2 === K || 0 === S2 || i2[S2 - 1] !== K) {
-                    -1 !== w3 && w3 < S2 + 1 && (w3 = i2.indexOf(M2, S2 + 1)), -1 !== R2 && R2 < S2 + 1 && (R2 = i2.indexOf(P2, S2 + 1));
-                    var O2 = A2(-1 === R2 ? w3 : Math.min(w3, R2));
-                    if (i2.substr(S2 + 1 + O2, e) === M2) {
-                      f4.push(i2.substring(W2, S2).replace(C, z2)), i2[W2 = S2 + 1 + O2 + e] !== z2 && (S2 = i2.indexOf(z2, W2)), w3 = i2.indexOf(M2, W2), R2 = i2.indexOf(P2, W2);
-                      break;
-                    }
-                    var x2 = A2(R2);
-                    if (i2.substring(S2 + 1 + x2, S2 + 1 + x2 + s3) === P2) {
-                      if (f4.push(i2.substring(W2, S2).replace(C, z2)), D2(S2 + 1 + x2 + s3), w3 = i2.indexOf(M2, W2), S2 = i2.indexOf(z2, W2), o3 && (F2(), H2))
-                        return L2();
-                      if (N2 && u3.length >= N2)
-                        return L2(true);
-                      break;
-                    }
-                    h3.push({ type: "Quotes", code: "InvalidQuotes", message: "Trailing quote on quoted field is malformed", row: u3.length, index: W2 }), S2++;
-                  }
-                } else
-                  S2++;
-              }
-          return T();
-          function I2(e2) {
-            u3.push(e2), d3 = W2;
-          }
-          function A2(e2) {
-            var t3 = 0;
-            if (-1 !== e2) {
-              var r4 = i2.substring(S2 + 1, e2);
-              r4 && "" === r4.trim() && (t3 = r4.length);
-            }
-            return t3;
-          }
-          function T(e2) {
-            return r3 || (void 0 === e2 && (e2 = i2.substring(W2)), f4.push(e2), W2 = n3, I2(f4), o3 && F2()), L2();
-          }
-          function D2(e2) {
-            W2 = e2, I2(f4), f4 = [], R2 = i2.indexOf(P2, W2);
-          }
-          function L2(e2) {
-            return { data: u3, errors: h3, meta: { delimiter: M2, linebreak: P2, aborted: H2, truncated: !!e2, cursor: d3 + (t2 || 0) } };
-          }
-          function F2() {
-            q2(L2()), u3 = [], h3 = [];
-          }
-        }, this.abort = function() {
-          H2 = true;
-        }, this.getCharIndex = function() {
-          return W2;
-        };
-      }
-      function _3(e) {
-        var t2 = e.data, r3 = a2[t2.workerId], i2 = false;
-        if (t2.error)
-          r3.userError(t2.error, t2.file);
-        else if (t2.results && t2.results.data) {
-          var n3 = { abort: function() {
-            i2 = true, m2(t2.workerId, { data: [], errors: [], meta: { aborted: true } });
-          }, pause: y2, resume: y2 };
-          if (J(r3.userStep)) {
-            for (var s3 = 0; s3 < t2.results.data.length && (r3.userStep({ data: t2.results.data[s3], errors: t2.results.errors, meta: t2.results.meta }, n3), !i2); s3++)
-              ;
-            delete t2.results;
-          } else
-            J(r3.userChunk) && (r3.userChunk(t2.results, n3, t2.file), delete t2.results);
-        }
-        t2.finished && !i2 && m2(t2.workerId, t2.results);
-      }
-      function m2(e, t2) {
-        var r3 = a2[e];
-        J(r3.userComplete) && r3.userComplete(t2), r3.terminate(), delete a2[e];
-      }
-      function y2() {
-        throw new Error("Not implemented.");
-      }
-      function w2(e) {
-        if ("object" != typeof e || null === e)
-          return e;
-        var t2 = Array.isArray(e) ? [] : {};
-        for (var r3 in e)
-          t2[r3] = w2(e[r3]);
-        return t2;
-      }
-      function v2(e, t2) {
-        return function() {
-          e.apply(t2, arguments);
-        };
-      }
-      function J(e) {
-        return "function" == typeof e;
-      }
-      return o2 && (f3.onmessage = function(e) {
-        var t2 = e.data;
-        void 0 === b2.WORKER_ID && t2 && (b2.WORKER_ID = t2.workerId);
-        if ("string" == typeof t2.input)
-          f3.postMessage({ workerId: b2.WORKER_ID, results: b2.parse(t2.input, t2.config), finished: true });
-        else if (f3.File && t2.input instanceof File || t2.input instanceof Object) {
-          var r3 = b2.parse(t2.input, t2.config);
-          r3 && f3.postMessage({ workerId: b2.WORKER_ID, results: r3, finished: true });
-        }
-      }), (l2.prototype = Object.create(h2.prototype)).constructor = l2, (c2.prototype = Object.create(h2.prototype)).constructor = c2, (p2.prototype = Object.create(p2.prototype)).constructor = p2, (g2.prototype = Object.create(h2.prototype)).constructor = g2, b2;
     });
   }
 });
@@ -39468,97 +39414,12 @@ var require_lodash = __commonJS({
 // src/main.ts
 var main_exports = {};
 __export(main_exports, {
+  DATA_LOOM_PLUGIN_ID: () => DATA_LOOM_PLUGIN_ID,
   DEFAULT_SETTINGS: () => DEFAULT_SETTINGS,
-  default: () => NLTPlugin
+  default: () => DataLoomPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian14 = require("obsidian");
-
-// src/obsidian/nlt-settings-tab.ts
-var import_obsidian = require("obsidian");
-var import_obsidian2 = require("obsidian");
-var NLTSettingsTab = class extends import_obsidian.PluginSettingTab {
-  constructor(app2, plugin) {
-    super(app2, plugin);
-    __publicField(this, "plugin");
-    this.plugin = plugin;
-  }
-  display() {
-    const { containerEl } = this;
-    containerEl.empty();
-    containerEl.createEl("h2", { text: "Notion-Like Tables" });
-    containerEl.createSpan(
-      {},
-      (span) => span.innerHTML = `<strong style="color: var(--text-accent); font-size: 12px;">Please restart Obsidian for these settings to take effect</strong>`
-    );
-    new import_obsidian2.Setting(containerEl).setName("File").setHeading();
-    const attachmentsFolderDesc = new DocumentFragment();
-    attachmentsFolderDesc.createSpan({}, (span) => {
-      span.innerHTML = `Create tables in the attachments folder defined in the Obsidian settings.<br><br>This can be changed in <span style="color: var(--text-accent);">Files & Links -> Default location for new attachments</span><br><br>Otherwise, the custom location below will be used.`;
-    });
-    new import_obsidian2.Setting(containerEl).setName("Create new tables in the attachments folder").setDesc(attachmentsFolderDesc).addToggle((cb) => {
-      cb.setValue(
-        this.plugin.settings.createAtObsidianAttachmentFolder
-      ).onChange((value) => __async(this, null, function* () {
-        this.plugin.settings.createAtObsidianAttachmentFolder = value;
-        yield this.plugin.saveSettings();
-        this.display();
-      }));
-    });
-    const customLocationDesc = new DocumentFragment();
-    customLocationDesc.createSpan({}, (span) => {
-      span.innerHTML = `Folder that new tables will be created in. Please don't include a slash at the start or end.<br>e.g. <strong>myfolder/subdirectory</strong><br><br>Default location is the vault root folder, if not specified.`;
-    });
-    if (this.plugin.settings.createAtObsidianAttachmentFolder === false) {
-      new import_obsidian2.Setting(containerEl).setName("Custom location for new tables").setDesc(customLocationDesc).addText((cb) => {
-        cb.setValue(
-          this.plugin.settings.customFolderForNewTables
-        ).onChange((value) => __async(this, null, function* () {
-          this.plugin.settings.customFolderForNewTables = value;
-          yield this.plugin.saveSettings();
-        }));
-      });
-    }
-    const activeFileNameTimestampDesc = new DocumentFragment();
-    activeFileNameTimestampDesc.createSpan({}, (span) => {
-      span.innerHTML = `If a markdown file is open, the active file name and current timestamp will be used as the table name.<br>e.g. if <strong>Test.md</strong> is open, the table will be named <strong>Test-2023-04-14T13.12.59-06.00.table</strong><br><br>Otherwise, the default table file name will be used.<br>e.g <strong>Untitled.table</strong>`;
-    });
-    new import_obsidian2.Setting(containerEl).setName(
-      "Create table name based on active file name and timestamp"
-    ).setDesc(activeFileNameTimestampDesc).addToggle((cb) => {
-      cb.setValue(
-        this.plugin.settings.nameWithActiveFileNameAndTimestamp
-      ).onChange((value) => __async(this, null, function* () {
-        this.plugin.settings.nameWithActiveFileNameAndTimestamp = value;
-        yield this.plugin.saveSettings();
-      }));
-    });
-    const exportRenderMarkdownDesc = new DocumentFragment();
-    exportRenderMarkdownDesc.createSpan({}, (span) => {
-      span.innerHTML = "This will cause all exported values to be rendered in markdown format. Disable this option if you primarily export in CSV and don't want markdown, like links wrapped in brackets.";
-    });
-    new import_obsidian2.Setting(containerEl).setName("Export").setHeading();
-    new import_obsidian2.Setting(containerEl).setName("Render markdown values").setDesc(exportRenderMarkdownDesc).addToggle((cb) => {
-      cb.setValue(this.plugin.settings.exportRenderMarkdown).onChange(
-        (value) => __async(this, null, function* () {
-          this.plugin.settings.exportRenderMarkdown = value;
-          yield this.plugin.saveSettings();
-        })
-      );
-    });
-    new import_obsidian2.Setting(containerEl).setName("Debug").setHeading();
-    new import_obsidian2.Setting(containerEl).setName("Debug mode").setDesc(
-      "Turns on console.log for plugin events. This is useful for troubleshooting."
-    ).addToggle((cb) => {
-      cb.setValue(this.plugin.settings.shouldDebug).onChange(
-        (value) => __async(this, null, function* () {
-          this.plugin.settings.shouldDebug = value;
-          yield this.plugin.saveSettings();
-        })
-      );
-    });
-  }
-};
+var import_obsidian15 = require("obsidian");
 
 // node_modules/immer/dist/immer.esm.mjs
 function n(n2) {
@@ -40045,8 +39906,39 @@ var ln = an.createDraft.bind(an);
 var dn = an.finishDraft.bind(an);
 var immer_esm_default = fn;
 
+// node_modules/@babel/runtime/helpers/esm/typeof.js
+function _typeof(obj) {
+  "@babel/helpers - typeof";
+  return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(obj2) {
+    return typeof obj2;
+  } : function(obj2) {
+    return obj2 && "function" == typeof Symbol && obj2.constructor === Symbol && obj2 !== Symbol.prototype ? "symbol" : typeof obj2;
+  }, _typeof(obj);
+}
+
+// node_modules/@babel/runtime/helpers/esm/toPrimitive.js
+function _toPrimitive(input, hint) {
+  if (_typeof(input) !== "object" || input === null)
+    return input;
+  var prim = input[Symbol.toPrimitive];
+  if (prim !== void 0) {
+    var res = prim.call(input, hint || "default");
+    if (_typeof(res) !== "object")
+      return res;
+    throw new TypeError("@@toPrimitive must return a primitive value.");
+  }
+  return (hint === "string" ? String : Number)(input);
+}
+
+// node_modules/@babel/runtime/helpers/esm/toPropertyKey.js
+function _toPropertyKey(arg) {
+  var key = _toPrimitive(arg, "string");
+  return _typeof(key) === "symbol" ? key : String(key);
+}
+
 // node_modules/@babel/runtime/helpers/esm/defineProperty.js
 function _defineProperty(obj, key, value) {
+  key = _toPropertyKey(key);
   if (key in obj) {
     Object.defineProperty(obj, key, {
       value,
@@ -41127,9 +41019,8 @@ N();
 
 // src/redux/global/global-slice.ts
 var initialState = {
-  isDarkMode: false,
-  shouldDebug: false,
-  exportRenderMarkdown: true
+  settings: DEFAULT_SETTINGS,
+  isDarkMode: false
 };
 var globalSlice = createSlice({
   name: "global",
@@ -41138,15 +41029,12 @@ var globalSlice = createSlice({
     setDarkMode(state, action) {
       state.isDarkMode = action.payload;
     },
-    setDebugMode(state, action) {
-      state.shouldDebug = action.payload;
-    },
-    setExportRenderMarkdown(state, action) {
-      state.exportRenderMarkdown = action.payload;
+    setSettings(state, action) {
+      state.settings = action.payload;
     }
   }
 });
-var { setDarkMode, setDebugMode, setExportRenderMarkdown } = globalSlice.actions;
+var { setDarkMode, setSettings } = globalSlice.actions;
 var global_slice_default = globalSlice.reducer;
 
 // src/redux/global/store.ts
@@ -41156,20 +41044,1715 @@ var store = configureStore({
   }
 });
 
-// src/obsidian/nlt-view.tsx
-var import_obsidian10 = require("obsidian");
+// src/obsidian/dataloom-view.tsx
+var import_obsidian8 = require("obsidian");
 var import_client2 = __toESM(require_client());
 
-// src/obsidian-shim/build/mount-context.tsx
+// src/data/constants.ts
+var CURRENT_PLUGIN_VERSION = "8.0.0";
+var DEFAULT_LOOM_NAME = "Untitled";
+var CURRENT_FILE_EXTENSION = "loom";
+var EXTENSION_REGEX = new RegExp(/\.[a-z]*$/);
+var WIKI_LINK_REGEX = new RegExp(/\[\[([^|\]]+)(?:\|([\w-]+))?\]\]/g);
+
+// src/shared/types/index.ts
+var Color = /* @__PURE__ */ ((Color2) => {
+  Color2["LIGHT_GRAY"] = "light gray";
+  Color2["GRAY"] = "gray";
+  Color2["BROWN"] = "brown";
+  Color2["ORANGE"] = "orange";
+  Color2["YELLOW"] = "yellow";
+  Color2["GREEN"] = "green";
+  Color2["BLUE"] = "blue";
+  Color2["PURPLE"] = "purple";
+  Color2["PINK"] = "pink";
+  Color2["RED"] = "red";
+  return Color2;
+})(Color || {});
+var PaddingSize = /* @__PURE__ */ ((PaddingSize5) => {
+  PaddingSize5["UNSET"] = "unset";
+  PaddingSize5["SM"] = "sm";
+  PaddingSize5["MD"] = "md";
+  PaddingSize5["LG"] = "lg";
+  PaddingSize5["XL"] = "xl";
+  PaddingSize5["XXL"] = "2xl";
+  PaddingSize5["XXXL"] = "3xl";
+  PaddingSize5["XXXXL"] = "4xl";
+  return PaddingSize5;
+})(PaddingSize || {});
+var CellType = /* @__PURE__ */ ((CellType5) => {
+  CellType5["TEXT"] = "text";
+  CellType5["EMBED"] = "embed";
+  CellType5["FILE"] = "file";
+  CellType5["NUMBER"] = "number";
+  CellType5["CURRENCY"] = "currency";
+  CellType5["TAG"] = "tag";
+  CellType5["MULTI_TAG"] = "multi-tag";
+  CellType5["DATE"] = "date";
+  CellType5["CHECKBOX"] = "checkbox";
+  CellType5["CREATION_TIME"] = "creation-time";
+  CellType5["LAST_EDITED_TIME"] = "last-edited-time";
+  return CellType5;
+})(CellType || {});
+var DateFormat = /* @__PURE__ */ ((DateFormat9) => {
+  DateFormat9["MM_DD_YYYY"] = "mm/dd/yyyy";
+  DateFormat9["DD_MM_YYYY"] = "dd/mm/yyyy";
+  DateFormat9["YYYY_MM_DD"] = "yyyy/mm/dd";
+  DateFormat9["FULL"] = "full";
+  DateFormat9["RELATIVE"] = "relative";
+  return DateFormat9;
+})(DateFormat || {});
+var CurrencyType = /* @__PURE__ */ ((CurrencyType9) => {
+  CurrencyType9["UNITED_STATES"] = "USD";
+  CurrencyType9["CANADA"] = "CAD";
+  CurrencyType9["SINGAPORE"] = "SGB";
+  CurrencyType9["EUROPE"] = "EUR";
+  CurrencyType9["SWEDEN"] = "SEK";
+  CurrencyType9["DENMARK"] = "DKK";
+  CurrencyType9["NORWAY"] = "NOK";
+  CurrencyType9["ICELAND"] = "ISK";
+  CurrencyType9["POUND"] = "GBP";
+  CurrencyType9["RUSSIA"] = "RUB";
+  CurrencyType9["AUSTRALIA"] = "AUD";
+  CurrencyType9["JAPAN"] = "JPY";
+  CurrencyType9["INDIA"] = "INR";
+  CurrencyType9["CHINA"] = "CNY";
+  CurrencyType9["BRAZIL"] = "BRL";
+  CurrencyType9["COLOMBIA"] = "COP";
+  CurrencyType9["MEXICO"] = "MXN";
+  CurrencyType9["ARGENTINA"] = "ARS";
+  return CurrencyType9;
+})(CurrencyType || {});
+var Calculation = /* @__PURE__ */ ((Calculation3) => {
+  Calculation3["NONE"] = "none";
+  Calculation3["COUNT_ALL"] = "count-all";
+  Calculation3["COUNT_VALUES"] = "count-values";
+  Calculation3["COUNT_UNIQUE"] = "count-unique";
+  Calculation3["COUNT_EMPTY"] = "count-empty";
+  Calculation3["COUNT_NOT_EMPTY"] = "count-not-empty";
+  Calculation3["PERCENT_EMPTY"] = "percent-empty";
+  Calculation3["PERCENT_NOT_EMPTY"] = "percent-not-empty";
+  return Calculation3;
+})(Calculation || {});
+var NumberCalculation = /* @__PURE__ */ ((NumberCalculation2) => {
+  NumberCalculation2["SUM"] = "sum";
+  NumberCalculation2["AVG"] = "avg";
+  NumberCalculation2["MIN"] = "min";
+  NumberCalculation2["MAX"] = "max";
+  NumberCalculation2["MEDIAN"] = "median";
+  NumberCalculation2["RANGE"] = "range";
+  return NumberCalculation2;
+})(NumberCalculation || {});
+var AspectRatio = /* @__PURE__ */ ((AspectRatio5) => {
+  AspectRatio5["UNSET"] = "unset";
+  AspectRatio5["NINE_BY_SIXTEEN"] = "9/16";
+  AspectRatio5["FOUR_BY_THREE"] = "4/3";
+  AspectRatio5["SIXTEEN_BY_NINE"] = "16/9";
+  return AspectRatio5;
+})(AspectRatio || {});
+
+// src/shared/types/types-6.7.0.ts
+var GeneralFunction = /* @__PURE__ */ ((GeneralFunction2) => {
+  GeneralFunction2["NONE"] = "none";
+  GeneralFunction2["COUNT_ALL"] = "count_all";
+  GeneralFunction2["COUNT_VALUES"] = "count_values";
+  GeneralFunction2["COUNT_UNIQUE"] = "count_unique";
+  GeneralFunction2["COUNT_EMPTY"] = "count_empty";
+  GeneralFunction2["COUNT_NOT_EMPTY"] = "count_not_empty";
+  GeneralFunction2["PERCENT_EMPTY"] = "percent_empty";
+  GeneralFunction2["PERCENT_NOT_EMPTY"] = "percent_not_empty";
+  return GeneralFunction2;
+})(GeneralFunction || {});
+var GeneralFunction670 = GeneralFunction;
+
+// src/shared/loom-state/loom-error.ts
+var ColumNotFoundError = class extends Error {
+  constructor(id2) {
+    super(`Column ${id2} was not found`);
+    this.name = "ColumNotFoundError";
+  }
+};
+var TagNotFoundError = class extends Error {
+  constructor(id2) {
+    super(`Tag ${id2} was not found`);
+    this.name = "TagNotFoundError";
+  }
+};
+var RowNotFoundError = class extends Error {
+  constructor(id2) {
+    super(`Row ${id2} was not found`);
+    this.name = "RowNotFoundError";
+  }
+};
+var CellNotFoundError = class extends Error {
+  constructor(options) {
+    const { id: id2, rowId, columnId } = options || {};
+    if (rowId || columnId)
+      super(`Cell ${rowId}:${columnId} was not found`);
+    super(`Cell ${id2} was not found`);
+    this.name = "CellNotFoundError";
+  }
+};
+
+// src/shared/color.ts
+var findColorClassName = (isDarkMode, color) => {
+  switch (color) {
+    case "light gray" /* LIGHT_GRAY */:
+      return isDarkMode ? "DataLoom__light-gray--dark" : "DataLoom__light-gray--light";
+    case "gray" /* GRAY */:
+      return isDarkMode ? "DataLoom__gray--dark" : "DataLoom__gray--light";
+    case "brown" /* BROWN */:
+      return isDarkMode ? "DataLoom__brown--dark" : "DataLoom__brown--light";
+    case "orange" /* ORANGE */:
+      return isDarkMode ? "DataLoom__orange--dark" : "DataLoom__orange--light";
+    case "yellow" /* YELLOW */:
+      return isDarkMode ? "DataLoom__yellow--dark" : "DataLoom__yellow--light";
+    case "green" /* GREEN */:
+      return isDarkMode ? "DataLoom__green--dark" : "DataLoom__green--light";
+    case "blue" /* BLUE */:
+      return isDarkMode ? "DataLoom__blue--dark" : "DataLoom__blue--light";
+    case "purple" /* PURPLE */:
+      return isDarkMode ? "DataLoom__purple--dark" : "DataLoom__purple--light";
+    case "pink" /* PINK */:
+      return isDarkMode ? "DataLoom__pink--dark" : "DataLoom__pink--light";
+    case "red" /* RED */:
+      return isDarkMode ? "DataLoom__red--dark" : "DataLoom__red--light";
+    default:
+      return "";
+  }
+};
+var randomColor = () => {
+  const index = Math.floor(Math.random() * Object.values(Color).length);
+  return Object.values(Color)[index];
+};
+
+// node_modules/uuid/dist/esm-browser/rng.js
+var getRandomValues;
+var rnds8 = new Uint8Array(16);
+function rng() {
+  if (!getRandomValues) {
+    getRandomValues = typeof crypto !== "undefined" && crypto.getRandomValues && crypto.getRandomValues.bind(crypto);
+    if (!getRandomValues) {
+      throw new Error("crypto.getRandomValues() not supported. See https://github.com/uuidjs/uuid#getrandomvalues-not-supported");
+    }
+  }
+  return getRandomValues(rnds8);
+}
+
+// node_modules/uuid/dist/esm-browser/regex.js
+var regex_default = /^(?:[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}|00000000-0000-0000-0000-000000000000)$/i;
+
+// node_modules/uuid/dist/esm-browser/validate.js
+function validate(uuid) {
+  return typeof uuid === "string" && regex_default.test(uuid);
+}
+var validate_default = validate;
+
+// node_modules/uuid/dist/esm-browser/stringify.js
+var byteToHex = [];
+for (let i2 = 0; i2 < 256; ++i2) {
+  byteToHex.push((i2 + 256).toString(16).slice(1));
+}
+function unsafeStringify(arr, offset = 0) {
+  return (byteToHex[arr[offset + 0]] + byteToHex[arr[offset + 1]] + byteToHex[arr[offset + 2]] + byteToHex[arr[offset + 3]] + "-" + byteToHex[arr[offset + 4]] + byteToHex[arr[offset + 5]] + "-" + byteToHex[arr[offset + 6]] + byteToHex[arr[offset + 7]] + "-" + byteToHex[arr[offset + 8]] + byteToHex[arr[offset + 9]] + "-" + byteToHex[arr[offset + 10]] + byteToHex[arr[offset + 11]] + byteToHex[arr[offset + 12]] + byteToHex[arr[offset + 13]] + byteToHex[arr[offset + 14]] + byteToHex[arr[offset + 15]]).toLowerCase();
+}
+
+// node_modules/uuid/dist/esm-browser/parse.js
+function parse(uuid) {
+  if (!validate_default(uuid)) {
+    throw TypeError("Invalid UUID");
+  }
+  let v2;
+  const arr = new Uint8Array(16);
+  arr[0] = (v2 = parseInt(uuid.slice(0, 8), 16)) >>> 24;
+  arr[1] = v2 >>> 16 & 255;
+  arr[2] = v2 >>> 8 & 255;
+  arr[3] = v2 & 255;
+  arr[4] = (v2 = parseInt(uuid.slice(9, 13), 16)) >>> 8;
+  arr[5] = v2 & 255;
+  arr[6] = (v2 = parseInt(uuid.slice(14, 18), 16)) >>> 8;
+  arr[7] = v2 & 255;
+  arr[8] = (v2 = parseInt(uuid.slice(19, 23), 16)) >>> 8;
+  arr[9] = v2 & 255;
+  arr[10] = (v2 = parseInt(uuid.slice(24, 36), 16)) / 1099511627776 & 255;
+  arr[11] = v2 / 4294967296 & 255;
+  arr[12] = v2 >>> 24 & 255;
+  arr[13] = v2 >>> 16 & 255;
+  arr[14] = v2 >>> 8 & 255;
+  arr[15] = v2 & 255;
+  return arr;
+}
+var parse_default = parse;
+
+// node_modules/uuid/dist/esm-browser/v35.js
+function stringToBytes(str) {
+  str = unescape(encodeURIComponent(str));
+  const bytes = [];
+  for (let i2 = 0; i2 < str.length; ++i2) {
+    bytes.push(str.charCodeAt(i2));
+  }
+  return bytes;
+}
+var DNS = "6ba7b810-9dad-11d1-80b4-00c04fd430c8";
+var URL = "6ba7b811-9dad-11d1-80b4-00c04fd430c8";
+function v35(name, version, hashfunc) {
+  function generateUUID(value, namespace, buf, offset) {
+    var _namespace;
+    if (typeof value === "string") {
+      value = stringToBytes(value);
+    }
+    if (typeof namespace === "string") {
+      namespace = parse_default(namespace);
+    }
+    if (((_namespace = namespace) === null || _namespace === void 0 ? void 0 : _namespace.length) !== 16) {
+      throw TypeError("Namespace must be array-like (16 iterable integer values, 0-255)");
+    }
+    let bytes = new Uint8Array(16 + value.length);
+    bytes.set(namespace);
+    bytes.set(value, namespace.length);
+    bytes = hashfunc(bytes);
+    bytes[6] = bytes[6] & 15 | version;
+    bytes[8] = bytes[8] & 63 | 128;
+    if (buf) {
+      offset = offset || 0;
+      for (let i2 = 0; i2 < 16; ++i2) {
+        buf[offset + i2] = bytes[i2];
+      }
+      return buf;
+    }
+    return unsafeStringify(bytes);
+  }
+  try {
+    generateUUID.name = name;
+  } catch (err) {
+  }
+  generateUUID.DNS = DNS;
+  generateUUID.URL = URL;
+  return generateUUID;
+}
+
+// node_modules/uuid/dist/esm-browser/native.js
+var randomUUID = typeof crypto !== "undefined" && crypto.randomUUID && crypto.randomUUID.bind(crypto);
+var native_default = {
+  randomUUID
+};
+
+// node_modules/uuid/dist/esm-browser/v4.js
+function v4(options, buf, offset) {
+  if (native_default.randomUUID && !buf && !options) {
+    return native_default.randomUUID();
+  }
+  options = options || {};
+  const rnds = options.random || (options.rng || rng)();
+  rnds[6] = rnds[6] & 15 | 64;
+  rnds[8] = rnds[8] & 63 | 128;
+  if (buf) {
+    offset = offset || 0;
+    for (let i2 = 0; i2 < 16; ++i2) {
+      buf[offset + i2] = rnds[i2];
+    }
+    return buf;
+  }
+  return unsafeStringify(rnds);
+}
+var v4_default = v4;
+
+// node_modules/uuid/dist/esm-browser/sha1.js
+function f2(s2, x2, y2, z2) {
+  switch (s2) {
+    case 0:
+      return x2 & y2 ^ ~x2 & z2;
+    case 1:
+      return x2 ^ y2 ^ z2;
+    case 2:
+      return x2 & y2 ^ x2 & z2 ^ y2 & z2;
+    case 3:
+      return x2 ^ y2 ^ z2;
+  }
+}
+function ROTL(x2, n2) {
+  return x2 << n2 | x2 >>> 32 - n2;
+}
+function sha1(bytes) {
+  const K = [1518500249, 1859775393, 2400959708, 3395469782];
+  const H2 = [1732584193, 4023233417, 2562383102, 271733878, 3285377520];
+  if (typeof bytes === "string") {
+    const msg = unescape(encodeURIComponent(bytes));
+    bytes = [];
+    for (let i2 = 0; i2 < msg.length; ++i2) {
+      bytes.push(msg.charCodeAt(i2));
+    }
+  } else if (!Array.isArray(bytes)) {
+    bytes = Array.prototype.slice.call(bytes);
+  }
+  bytes.push(128);
+  const l2 = bytes.length / 4 + 2;
+  const N2 = Math.ceil(l2 / 16);
+  const M2 = new Array(N2);
+  for (let i2 = 0; i2 < N2; ++i2) {
+    const arr = new Uint32Array(16);
+    for (let j2 = 0; j2 < 16; ++j2) {
+      arr[j2] = bytes[i2 * 64 + j2 * 4] << 24 | bytes[i2 * 64 + j2 * 4 + 1] << 16 | bytes[i2 * 64 + j2 * 4 + 2] << 8 | bytes[i2 * 64 + j2 * 4 + 3];
+    }
+    M2[i2] = arr;
+  }
+  M2[N2 - 1][14] = (bytes.length - 1) * 8 / Math.pow(2, 32);
+  M2[N2 - 1][14] = Math.floor(M2[N2 - 1][14]);
+  M2[N2 - 1][15] = (bytes.length - 1) * 8 & 4294967295;
+  for (let i2 = 0; i2 < N2; ++i2) {
+    const W2 = new Uint32Array(80);
+    for (let t2 = 0; t2 < 16; ++t2) {
+      W2[t2] = M2[i2][t2];
+    }
+    for (let t2 = 16; t2 < 80; ++t2) {
+      W2[t2] = ROTL(W2[t2 - 3] ^ W2[t2 - 8] ^ W2[t2 - 14] ^ W2[t2 - 16], 1);
+    }
+    let a2 = H2[0];
+    let b2 = H2[1];
+    let c2 = H2[2];
+    let d2 = H2[3];
+    let e = H2[4];
+    for (let t2 = 0; t2 < 80; ++t2) {
+      const s2 = Math.floor(t2 / 20);
+      const T = ROTL(a2, 5) + f2(s2, b2, c2, d2) + e + K[s2] + W2[t2] >>> 0;
+      e = d2;
+      d2 = c2;
+      c2 = ROTL(b2, 30) >>> 0;
+      b2 = a2;
+      a2 = T;
+    }
+    H2[0] = H2[0] + a2 >>> 0;
+    H2[1] = H2[1] + b2 >>> 0;
+    H2[2] = H2[2] + c2 >>> 0;
+    H2[3] = H2[3] + d2 >>> 0;
+    H2[4] = H2[4] + e >>> 0;
+  }
+  return [H2[0] >> 24 & 255, H2[0] >> 16 & 255, H2[0] >> 8 & 255, H2[0] & 255, H2[1] >> 24 & 255, H2[1] >> 16 & 255, H2[1] >> 8 & 255, H2[1] & 255, H2[2] >> 24 & 255, H2[2] >> 16 & 255, H2[2] >> 8 & 255, H2[2] & 255, H2[3] >> 24 & 255, H2[3] >> 16 & 255, H2[3] >> 8 & 255, H2[3] & 255, H2[4] >> 24 & 255, H2[4] >> 16 & 255, H2[4] >> 8 & 255, H2[4] & 255];
+}
+var sha1_default = sha1;
+
+// node_modules/uuid/dist/esm-browser/v5.js
+var v5 = v35("v5", 80, sha1_default);
+var v5_default = v5;
+
+// src/shared/loom-state/constants.ts
+var MIN_COLUMN_WIDTH = 40;
+var CHECKBOX_MARKDOWN_CHECKED = "[x]";
+var CHECKBOX_MARKDOWN_UNCHECKED = "[ ]";
+
+// src/data/loom-state-factory.ts
+var createColumn = (options) => {
+  const { cellType = "text" /* TEXT */ } = options || {};
+  return {
+    id: v4_default(),
+    sortDir: "default" /* NONE */,
+    isVisible: true,
+    width: "140px",
+    type: cellType,
+    currencyType: "USD" /* UNITED_STATES */,
+    dateFormat: "mm/dd/yyyy" /* MM_DD_YYYY */,
+    shouldWrapOverflow: true,
+    tags: [],
+    calculationType: "none" /* NONE */,
+    aspectRatio: "unset" /* UNSET */,
+    horizontalPadding: "unset" /* UNSET */,
+    verticalPadding: "unset" /* UNSET */
+  };
+};
+var createHeaderRow = () => {
+  return {
+    id: v4_default()
+  };
+};
+var createFooterRow = () => {
+  return {
+    id: v4_default()
+  };
+};
+var createBodyRow = (index) => {
+  const currentTime = Date.now();
+  return {
+    id: v4_default(),
+    index,
+    creationTime: currentTime,
+    lastEditedTime: currentTime
+  };
+};
+var createHeaderCell = (columnId, rowId) => {
+  return {
+    id: v4_default(),
+    columnId,
+    rowId,
+    markdown: "New Column"
+  };
+};
+var createBodyCell = (columnId, rowId, options = {}) => {
+  const { cellType, tagIds = [] } = options || {};
+  return {
+    id: v4_default(),
+    isExternalLink: false,
+    columnId,
+    rowId,
+    dateTime: null,
+    markdown: cellType === "checkbox" /* CHECKBOX */ ? CHECKBOX_MARKDOWN_UNCHECKED : "",
+    tagIds
+  };
+};
+var createFilterRule = (columnId) => {
+  return {
+    id: v4_default(),
+    columnId,
+    type: "is" /* IS */,
+    text: "",
+    tagIds: [],
+    isEnabled: true
+  };
+};
+var createFooterCell = (columnId, rowId) => {
+  return {
+    id: v4_default(),
+    columnId,
+    rowId
+  };
+};
+var createTag = (markdown, options) => {
+  const { color = randomColor() } = options || {};
+  return {
+    id: v4_default(),
+    markdown,
+    color
+  };
+};
+var createLoomState = (numColumns, numRows, options) => {
+  const { cellType } = options || {};
+  const columns = [];
+  for (let i2 = 0; i2 < numColumns; i2++)
+    columns.push(createColumn({ cellType }));
+  const headerRows = [];
+  headerRows.push(createHeaderRow());
+  const headerCells = [];
+  for (let x2 = 0; x2 < numColumns; x2++) {
+    headerCells.push(createHeaderCell(columns[x2].id, headerRows[0].id));
+  }
+  const bodyRows = [];
+  for (let i2 = 0; i2 < numRows; i2++)
+    bodyRows.push(createBodyRow(i2));
+  const bodyCells = [];
+  for (let y2 = 0; y2 < numRows; y2++) {
+    for (let x2 = 0; x2 < numColumns; x2++) {
+      bodyCells.push(createBodyCell(columns[x2].id, bodyRows[y2].id));
+    }
+  }
+  const footerRows = [];
+  footerRows.push(createFooterRow());
+  footerRows.push(createFooterRow());
+  const footerCells = [];
+  for (let y2 = 0; y2 < 2; y2++) {
+    for (let x2 = 0; x2 < numColumns; x2++) {
+      footerCells.push(createFooterCell(columns[x2].id, footerRows[y2].id));
+    }
+  }
+  const filterRules = [];
+  return {
+    model: {
+      columns,
+      headerRows,
+      bodyRows,
+      footerRows,
+      headerCells,
+      bodyCells,
+      footerCells,
+      filterRules
+    },
+    pluginVersion: CURRENT_PLUGIN_VERSION
+  };
+};
+
+// src/shared/types/types-6.1.0.ts
+var CurrencyType2 = /* @__PURE__ */ ((CurrencyType9) => {
+  CurrencyType9["UNITED_STATES"] = "USD";
+  CurrencyType9["CANADA"] = "CAD";
+  CurrencyType9["SINGAPORE"] = "SGB";
+  CurrencyType9["EUROPE"] = "EUR";
+  CurrencyType9["POUND"] = "GBP";
+  CurrencyType9["RUSSIA"] = "RUB";
+  CurrencyType9["AUSTRALIA"] = "AUD";
+  CurrencyType9["JAPAN"] = "JPY";
+  CurrencyType9["INDIA"] = "INR";
+  CurrencyType9["CHINA"] = "CNY";
+  CurrencyType9["BRAZIL"] = "BRL";
+  CurrencyType9["COLOMBIA"] = "COP";
+  CurrencyType9["MEXICO"] = "MXN";
+  CurrencyType9["ARGENTINA"] = "ARS";
+  return CurrencyType9;
+})(CurrencyType2 || {});
+var CurrencyType610 = CurrencyType2;
+
+// src/shared/types/types-6.2.0.ts
+var DateFormat2 = /* @__PURE__ */ ((DateFormat9) => {
+  DateFormat9["MM_DD_YYYY"] = "mm/dd/yyyy";
+  DateFormat9["DD_MM_YYYY"] = "dd/mm/yyyy";
+  DateFormat9["YYYY_MM_DD"] = "yyyy/mm/dd";
+  DateFormat9["FULL"] = "full";
+  DateFormat9["RELATIVE"] = "relative";
+  return DateFormat9;
+})(DateFormat2 || {});
+var DateFormat620 = DateFormat2;
+
+// src/shared/versioning.ts
+var legacyVersionToString = (version) => {
+  return version.toString().split("").join(".");
+};
+var isVersionLessThan = (oldVersion, newVersion) => {
+  const oldVersionArray = oldVersion.split(".");
+  const newVersionArray = newVersion.split(".");
+  for (let i2 = 0; i2 < oldVersionArray.length; i2++) {
+    const oldVersionNumber = parseInt(oldVersionArray[i2]);
+    const newVersionNumber = parseInt(newVersionArray[i2]);
+    if (oldVersionNumber < newVersionNumber) {
+      return true;
+    }
+    if (oldVersionNumber > newVersionNumber) {
+      return false;
+    }
+  }
+  return false;
+};
+
+// src/data/serialize-loom-state.ts
+var serializeLoomState = (LoomState8) => {
+  return JSON.stringify(LoomState8, null, 2);
+};
+var deserializeLoomState = (data) => {
+  const parsedState = JSON.parse(data);
+  const untypedVersion = parsedState["pluginVersion"];
+  let pluginVersion = "";
+  if (typeof untypedVersion === "number") {
+    pluginVersion = legacyVersionToString(untypedVersion);
+  } else if (typeof untypedVersion === "string") {
+    pluginVersion = untypedVersion;
+  }
+  let currentState = parsedState;
+  if (isVersionLessThan(pluginVersion, "6.1.0")) {
+    const LoomState9 = currentState;
+    const { columns } = LoomState9.model;
+    columns.forEach((column) => {
+      const typedColumn = column;
+      typedColumn.currencyType = CurrencyType610.UNITED_STATES;
+    });
+  }
+  if (isVersionLessThan(pluginVersion, "6.2.0")) {
+    const LoomState9 = currentState;
+    const { columns } = LoomState9.model;
+    columns.forEach((column) => {
+      const typedColumn = column;
+      typedColumn.dateFormat = DateFormat620.YYYY_MM_DD;
+    });
+  }
+  if (isVersionLessThan(pluginVersion, "6.3.0")) {
+    const LoomState9 = currentState;
+    const { columns, rows, cells } = LoomState9.model;
+    columns.forEach((column) => {
+      const typedColumn = column;
+      if (typedColumn["hasAutoWidth"]) {
+        delete typedColumn.hasAutoWidth;
+      }
+    });
+    rows.forEach((row, i2) => {
+      const typedRow = row;
+      typedRow.index = i2;
+    });
+    columns.forEach((column) => {
+      const typedColumn = column;
+      typedColumn.isVisible = true;
+    });
+    cells.forEach((cell) => {
+      const typedCell = cell;
+      typedCell.dateTime = null;
+    });
+  }
+  if (isVersionLessThan(pluginVersion, "6.4.0")) {
+    const LoomState9 = parsedState;
+    const { columns, tags, rows, cells } = LoomState9.model;
+    const newState = __spreadProps(__spreadValues({}, LoomState9), {
+      model: {
+        columns: [],
+        headerRows: [],
+        bodyRows: [],
+        footerRows: [],
+        headerCells: [],
+        bodyCells: [],
+        footerCells: [],
+        tags: []
+      }
+    });
+    newState.model.headerRows = [];
+    newState.model.headerRows.push(createHeaderRow());
+    newState.model.bodyRows = rows.filter((_row, i2) => i2 !== 0).map((row) => {
+      return {
+        id: row.id,
+        index: row.index - 1,
+        creationTime: row.creationTime,
+        lastEditedTime: row.lastEditedTime,
+        menuCellId: row.menuCellId
+      };
+    });
+    newState.model.footerRows = [];
+    newState.model.footerRows.push(createFooterRow());
+    newState.model.footerRows.push(createFooterRow());
+    newState.model.columns = columns.map((column) => {
+      return {
+        id: column.id,
+        sortDir: column.sortDir,
+        width: column.width,
+        type: column.type,
+        isVisible: column.isVisible,
+        dateFormat: column.dateFormat,
+        currencyType: column.currencyType,
+        shouldWrapOverflow: column.shouldWrapOverflow
+      };
+    });
+    newState.model.headerCells = cells.filter((cell) => cell.isHeader).map((cell) => {
+      return {
+        id: cell.id,
+        columnId: cell.columnId,
+        rowId: newState.model.headerRows[0].id,
+        markdown: cell.markdown
+      };
+    });
+    newState.model.bodyCells = cells.filter((cell) => !cell.isHeader).map((cell) => {
+      return {
+        id: cell.id,
+        columnId: cell.columnId,
+        rowId: cell.rowId,
+        dateTime: cell.dateTime,
+        markdown: cell.markdown
+      };
+    });
+    for (let i2 = 0; i2 < 2; i2++) {
+      columns.forEach((column) => {
+        newState.model.footerCells.push({
+          id: v4_default(),
+          columnId: column.id,
+          rowId: newState.model.footerRows[i2].id,
+          functionType: GeneralFunction670.NONE
+        });
+      });
+    }
+    newState.model.tags = tags;
+    currentState = newState;
+  }
+  if (isVersionLessThan(pluginVersion, "6.8.0")) {
+    const LoomState9 = currentState;
+    const { model } = LoomState9;
+    const { bodyCells, columns } = model;
+    const invalidState = currentState;
+    if (invalidState["bodyRows"]) {
+      delete invalidState.bodyRows;
+    }
+    const unknownModel = model;
+    const typedModal = unknownModel;
+    typedModal.filterRules = [];
+    bodyCells.forEach((cell) => {
+      const column = columns.find(
+        (column2) => column2.id === cell.columnId
+      );
+      if (!column)
+        throw new ColumNotFoundError(cell.columnId);
+      if (column.type === "checkbox" /* CHECKBOX */) {
+        if (cell.markdown === "") {
+          cell.markdown = CHECKBOX_MARKDOWN_UNCHECKED;
+        }
+      }
+    });
+  }
+  if (isVersionLessThan(pluginVersion, "6.9.1")) {
+    const LoomState9 = currentState;
+    const { footerCells } = LoomState9.model;
+    footerCells.forEach((cell) => {
+      const typedCell = cell;
+      if (typedCell["functionType"]) {
+        typedCell.functionType = typedCell.functionType.replace(/_/g, "-");
+      }
+    });
+  }
+  if (isVersionLessThan(pluginVersion, "6.10.0")) {
+    const LoomState9 = currentState;
+    const { columns, tags, bodyCells, bodyRows } = LoomState9.model;
+    columns.forEach((column) => {
+      const typedColumn = column;
+      typedColumn.tags = [];
+    });
+    bodyCells.forEach((cell) => {
+      const typedCell = cell;
+      typedCell.tagIds = [];
+    });
+    tags.forEach((tag) => {
+      const { id: id2, columnId, markdown, color } = tag;
+      const column = columns.find(
+        (column2) => column2.id === columnId
+      );
+      if (!column)
+        throw new ColumNotFoundError(columnId);
+      const typedColumn = column;
+      typedColumn.tags.push({
+        id: id2,
+        markdown,
+        color
+      });
+      tag.cellIds.forEach((cellId) => {
+        const cell = bodyCells.find(
+          (cell2) => cell2.id === cellId
+        );
+        if (!cell)
+          return;
+        const typedCell = cell;
+        typedCell.tagIds.push(id2);
+      });
+    });
+    const unknownModel = LoomState9.model;
+    const typedModel = unknownModel;
+    delete typedModel.tags;
+    bodyRows.forEach((row) => {
+      const typedRow = row;
+      if (typedRow["menuCellId"]) {
+        delete typedRow.menuCellId;
+      }
+    });
+  }
+  if (isVersionLessThan(pluginVersion, "6.12.3")) {
+    const LoomState9 = currentState;
+    const { columns, footerCells } = LoomState9.model;
+    footerCells.forEach((cell) => {
+      const column = columns.find(
+        (column2) => column2.id === cell.columnId
+      );
+      if (!column)
+        throw new ColumNotFoundError(cell.columnId);
+      const unknownColumn = column;
+      const typedColumn = unknownColumn;
+      typedColumn.functionType = cell.functionType;
+      const unknownCell = cell;
+      const typedCell = unknownCell;
+      if (typedCell["functionType"]) {
+        delete typedCell.functionType;
+      }
+    });
+  }
+  if (isVersionLessThan(pluginVersion, "6.17.0")) {
+    const LoomState9 = currentState;
+    const { columns } = LoomState9.model;
+    columns.forEach((column) => {
+      const typedColumn = column;
+      typedColumn.isLocked = false;
+      typedColumn.aspectRatio = "unset";
+      typedColumn.horizontalPadding = "unset";
+      typedColumn.verticalPadding = "unset";
+    });
+  }
+  if (isVersionLessThan(pluginVersion, "6.18.6")) {
+    const LoomState9 = currentState;
+    const { columns, bodyRows } = LoomState9.model;
+    columns.forEach((column) => {
+      const typedColumn = column;
+      typedColumn.sortDir = "default" /* NONE */;
+    });
+    bodyRows.sort((a2, b2) => a2.index - b2.index);
+    bodyRows.forEach((row, i2) => {
+      const typedRow = row;
+      typedRow.index = i2;
+    });
+  }
+  if (isVersionLessThan(pluginVersion, "6.19.0")) {
+    const LoomState9 = currentState;
+    const { columns, bodyCells } = LoomState9.model;
+    columns.forEach((column) => {
+      const typedColumn = column;
+      typedColumn.calculationType = typedColumn.functionType;
+      if (typedColumn["functionType"])
+        delete typedColumn.functionType;
+    });
+    bodyCells.forEach((cell) => {
+      const typedCell = cell;
+      typedCell.isExternalLink = true;
+    });
+  }
+  const LoomState8 = currentState;
+  LoomState8.pluginVersion = CURRENT_PLUGIN_VERSION;
+  return LoomState8;
+};
+
+// src/shared/events.ts
+var obsidianEvent = (name) => {
+  return "dataloom-" + name;
+};
+var EVENT_COLUMN_ADD = obsidianEvent("add-column");
+var EVENT_COLUMN_DELETE = obsidianEvent("delete-column");
+var EVENT_ROW_ADD = obsidianEvent("add-row");
+var EVENT_ROW_DELETE = obsidianEvent("delete-row");
+var EVENT_REFRESH_APP = obsidianEvent("refresh-app");
+var EVENT_REFRESH_EDITING_VIEW = obsidianEvent("refresh-editing-view");
+var EVENT_OUTSIDE_CLICK = obsidianEvent("outside-click");
+var EVENT_OUTSIDE_KEYDOWN = obsidianEvent("outside-keydown");
+var EVENT_DOWNLOAD_CSV = obsidianEvent("download-csv");
+var EVENT_DOWNLOAD_MARKDOWN = obsidianEvent("download-markdown");
+
+// node_modules/react-redux/es/index.js
+var import_shim = __toESM(require_shim());
+var import_with_selector = __toESM(require_with_selector());
+
+// node_modules/react-redux/es/utils/reactBatchedUpdates.js
+var import_react_dom = __toESM(require_react_dom());
+
+// node_modules/react-redux/es/utils/batch.js
+function defaultNoopBatch(callback) {
+  callback();
+}
+var batch = defaultNoopBatch;
+var setBatch = (newBatch) => batch = newBatch;
+var getBatch = () => batch;
+
+// node_modules/react-redux/es/hooks/useSelector.js
+var import_react3 = __toESM(require_react());
+
+// node_modules/react-redux/es/hooks/useReduxContext.js
+var import_react2 = __toESM(require_react());
+
+// node_modules/react-redux/es/components/Context.js
 var import_react = __toESM(require_react());
+var ReactReduxContext = /* @__PURE__ */ (0, import_react.createContext)(null);
+if (true) {
+  ReactReduxContext.displayName = "ReactRedux";
+}
+
+// node_modules/react-redux/es/hooks/useReduxContext.js
+function useReduxContext() {
+  const contextValue = (0, import_react2.useContext)(ReactReduxContext);
+  if (!contextValue) {
+    throw new Error("could not find react-redux context value; please ensure the component is wrapped in a <Provider>");
+  }
+  return contextValue;
+}
+
+// node_modules/react-redux/es/utils/useSyncExternalStore.js
+var notInitialized = () => {
+  throw new Error("uSES not initialized!");
+};
+
+// node_modules/react-redux/es/hooks/useSelector.js
+var useSyncExternalStoreWithSelector = notInitialized;
+var initializeUseSelector = (fn2) => {
+  useSyncExternalStoreWithSelector = fn2;
+};
+var refEquality = (a2, b2) => a2 === b2;
+function createSelectorHook(context = ReactReduxContext) {
+  const useReduxContext2 = context === ReactReduxContext ? useReduxContext : () => (0, import_react3.useContext)(context);
+  return function useSelector2(selector, equalityFn = refEquality) {
+    if (true) {
+      if (!selector) {
+        throw new Error(`You must pass a selector to useSelector`);
+      }
+      if (typeof selector !== "function") {
+        throw new Error(`You must pass a function as a selector to useSelector`);
+      }
+      if (typeof equalityFn !== "function") {
+        throw new Error(`You must pass a function as an equality function to useSelector`);
+      }
+    }
+    const {
+      store: store2,
+      subscription,
+      getServerState
+    } = useReduxContext2();
+    const selectedState = useSyncExternalStoreWithSelector(subscription.addNestedSub, store2.getState, getServerState || store2.getState, selector, equalityFn);
+    (0, import_react3.useDebugValue)(selectedState);
+    return selectedState;
+  };
+}
+var useSelector = /* @__PURE__ */ createSelectorHook();
+
+// node_modules/react-redux/es/components/connect.js
+var import_hoist_non_react_statics = __toESM(require_hoist_non_react_statics_cjs());
+var import_react5 = __toESM(require_react());
+var import_react_is = __toESM(require_react_is2());
+
+// node_modules/react-redux/es/utils/Subscription.js
+function createListenerCollection() {
+  const batch2 = getBatch();
+  let first = null;
+  let last2 = null;
+  return {
+    clear() {
+      first = null;
+      last2 = null;
+    },
+    notify() {
+      batch2(() => {
+        let listener2 = first;
+        while (listener2) {
+          listener2.callback();
+          listener2 = listener2.next;
+        }
+      });
+    },
+    get() {
+      let listeners = [];
+      let listener2 = first;
+      while (listener2) {
+        listeners.push(listener2);
+        listener2 = listener2.next;
+      }
+      return listeners;
+    },
+    subscribe(callback) {
+      let isSubscribed = true;
+      let listener2 = last2 = {
+        callback,
+        next: null,
+        prev: last2
+      };
+      if (listener2.prev) {
+        listener2.prev.next = listener2;
+      } else {
+        first = listener2;
+      }
+      return function unsubscribe() {
+        if (!isSubscribed || first === null)
+          return;
+        isSubscribed = false;
+        if (listener2.next) {
+          listener2.next.prev = listener2.prev;
+        } else {
+          last2 = listener2.prev;
+        }
+        if (listener2.prev) {
+          listener2.prev.next = listener2.next;
+        } else {
+          first = listener2.next;
+        }
+      };
+    }
+  };
+}
+var nullListeners = {
+  notify() {
+  },
+  get: () => []
+};
+function createSubscription(store2, parentSub) {
+  let unsubscribe;
+  let listeners = nullListeners;
+  function addNestedSub(listener2) {
+    trySubscribe();
+    return listeners.subscribe(listener2);
+  }
+  function notifyNestedSubs() {
+    listeners.notify();
+  }
+  function handleChangeWrapper() {
+    if (subscription.onStateChange) {
+      subscription.onStateChange();
+    }
+  }
+  function isSubscribed() {
+    return Boolean(unsubscribe);
+  }
+  function trySubscribe() {
+    if (!unsubscribe) {
+      unsubscribe = parentSub ? parentSub.addNestedSub(handleChangeWrapper) : store2.subscribe(handleChangeWrapper);
+      listeners = createListenerCollection();
+    }
+  }
+  function tryUnsubscribe() {
+    if (unsubscribe) {
+      unsubscribe();
+      unsubscribe = void 0;
+      listeners.clear();
+      listeners = nullListeners;
+    }
+  }
+  const subscription = {
+    addNestedSub,
+    notifyNestedSubs,
+    handleChangeWrapper,
+    isSubscribed,
+    trySubscribe,
+    tryUnsubscribe,
+    getListeners: () => listeners
+  };
+  return subscription;
+}
+
+// node_modules/react-redux/es/utils/useIsomorphicLayoutEffect.js
+var import_react4 = __toESM(require_react());
+var canUseDOM = !!(typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined");
+var useIsomorphicLayoutEffect = canUseDOM ? import_react4.useLayoutEffect : import_react4.useEffect;
+
+// node_modules/react-redux/es/components/connect.js
+var useSyncExternalStore = notInitialized;
+var initializeConnect = (fn2) => {
+  useSyncExternalStore = fn2;
+};
+
+// node_modules/react-redux/es/components/Provider.js
+var import_react6 = __toESM(require_react());
+function Provider({
+  store: store2,
+  context,
+  children,
+  serverState
+}) {
+  const contextValue = (0, import_react6.useMemo)(() => {
+    const subscription = createSubscription(store2);
+    return {
+      store: store2,
+      subscription,
+      getServerState: serverState ? () => serverState : void 0
+    };
+  }, [store2, serverState]);
+  const previousState = (0, import_react6.useMemo)(() => store2.getState(), [store2]);
+  useIsomorphicLayoutEffect(() => {
+    const {
+      subscription
+    } = contextValue;
+    subscription.onStateChange = subscription.notifyNestedSubs;
+    subscription.trySubscribe();
+    if (previousState !== store2.getState()) {
+      subscription.notifyNestedSubs();
+    }
+    return () => {
+      subscription.tryUnsubscribe();
+      subscription.onStateChange = void 0;
+    };
+  }, [contextValue, previousState]);
+  const Context = context || ReactReduxContext;
+  return /* @__PURE__ */ import_react6.default.createElement(Context.Provider, {
+    value: contextValue
+  }, children);
+}
+var Provider_default = Provider;
+
+// node_modules/react-redux/es/hooks/useStore.js
+var import_react7 = __toESM(require_react());
+
+// node_modules/react-redux/es/index.js
+initializeUseSelector(import_with_selector.useSyncExternalStoreWithSelector);
+initializeConnect(import_shim.useSyncExternalStore);
+setBatch(import_react_dom.unstable_batchedUpdates);
+
+// src/shared/dragging/drag-context.tsx
+var import_react8 = __toESM(require_react());
 
 // node_modules/@emotion/react/jsx-runtime/dist/emotion-react-jsx-runtime.cjs.mjs
 var import_emotion_react_jsx_runtime_cjs = __toESM(require_emotion_react_jsx_runtime_cjs(), 1);
 
-// src/obsidian-shim/build/mount-context.tsx
-var MountContext = import_react.default.createContext(null);
+// src/shared/dragging/drag-context.tsx
+var DragContext = import_react8.default.createContext(null);
+var useDragContext = () => {
+  const value = import_react8.default.useContext(DragContext);
+  if (value === null) {
+    throw new Error(
+      "useDragContext() called without a <DragProvider /> in the tree."
+    );
+  }
+  return value;
+};
+function DragProvider({ children }) {
+  const [dragData, setDragData] = import_react8.default.useState(null);
+  const [touchDropZone, setTouchDropZone] = import_react8.default.useState(
+    null
+  );
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(DragContext.Provider, {
+    value: { dragData, touchDropZone, setDragData, setTouchDropZone },
+    children
+  });
+}
+
+// src/shared/menu/menu-context.tsx
+var import_react10 = __toESM(require_react());
+
+// src/shared/menu/focus-visible.ts
+var focusMenuElement = (menuId) => {
+  const el = document.querySelector(
+    `[data-menu-id="${menuId}"]`
+  );
+  if (el) {
+    el.focus();
+    addFocusVisibleClass(el);
+  }
+};
+var addFocusVisibleClass = (el) => {
+  if (el)
+    el.classList.add("DataLoom__focus-visible");
+};
+var removeFocusVisibleClass = () => {
+  const el = document.querySelector(".DataLoom__focus-visible");
+  if (el)
+    el.classList.remove("DataLoom__focus-visible");
+};
+var getFocusableLayerEl = (appId, topMenu) => {
+  const appEl = document.querySelector(`.DataLoom__app[data-id="${appId}"]`);
+  if (!appEl)
+    return null;
+  let layerEl = appEl;
+  if (topMenu) {
+    const { id: id2 } = topMenu;
+    const menuEl = document.querySelector(
+      `.DataLoom__menu[data-id="${id2}"]`
+    );
+    if (menuEl)
+      layerEl = menuEl;
+  }
+  return layerEl;
+};
+var focusNextElement = (layerEl, focusableEls) => {
+  const focusedEl = document.activeElement;
+  if (focusedEl) {
+    const currentIndex = Array.from(focusableEls).indexOf(focusedEl);
+    if (currentIndex !== -1) {
+      let index = currentIndex + 1;
+      if (index > focusableEls.length - 1)
+        index = 0;
+      focusableEls[index].focus();
+      return;
+    }
+  }
+  const selectedEl = layerEl.querySelector(".DataLoom__selected");
+  if (selectedEl) {
+    selectedEl.focus();
+  } else {
+    focusableEls[0].focus();
+  }
+};
+
+// src/shared/logger.ts
+var import_react9 = __toESM(require_react());
+
+// src/redux/global/hooks.ts
+var useAppSelector = useSelector;
+
+// src/shared/logger.ts
+var log = (shouldDebug) => (message, args = {}) => {
+  if (shouldDebug) {
+    console.log(message);
+    if (Object.keys(args).length !== 0)
+      console.log(args);
+  }
+};
+var useLogger = () => {
+  const { shouldDebug } = useAppSelector((state) => state.global.settings);
+  const logger = import_react9.default.useCallback(
+    (message, args) => log(shouldDebug)(message, args),
+    [shouldDebug]
+  );
+  return logger;
+};
+
+// src/shared/menu/menu-context.tsx
+var MenuContext = import_react10.default.createContext(null);
+var useMenuState = () => {
+  const value = import_react10.default.useContext(MenuContext);
+  if (value === null) {
+    throw new Error(
+      "useMenu() called without a <MenuProvider /> in the tree."
+    );
+  }
+  return value;
+};
+function MenuProvider({ children }) {
+  const [currentMenus, setCurrentMenus] = import_react10.default.useState([]);
+  const logger = useLogger();
+  const [menuCloseRequest, setMenuCloseRequest] = import_react10.default.useState(null);
+  const isMenuOpen = import_react10.default.useCallback(
+    (menu) => {
+      return currentMenus.find((m2) => m2.id === menu.id) !== void 0;
+    },
+    [currentMenus]
+  );
+  const hasOpenMenu = import_react10.default.useCallback(() => {
+    return currentMenus.length !== 0;
+  }, [currentMenus]);
+  const getTopMenu = import_react10.default.useCallback(() => {
+    if (currentMenus.length === 0)
+      return null;
+    return currentMenus[currentMenus.length - 1];
+  }, [currentMenus]);
+  const canOpenMenu = import_react10.default.useCallback(
+    (menu) => {
+      return currentMenus.find((m2) => m2.level === menu.level) === void 0 || currentMenus.length === 0;
+    },
+    [currentMenus]
+  );
+  const openMenu = import_react10.default.useCallback(
+    (menu) => {
+      if (!canOpenMenu(menu))
+        return;
+      setCurrentMenus((prev) => [...prev, menu]);
+      removeFocusVisibleClass();
+    },
+    [canOpenMenu]
+  );
+  function closeAllMenus(shouldFocusTrigger = true) {
+    logger("MenuProvider closeAllMenus");
+    if (currentMenus.length === 0)
+      return;
+    const menu = currentMenus[0];
+    if (shouldFocusTrigger) {
+      const { id: id2 } = menu;
+      focusMenuElement(id2);
+    }
+    setCurrentMenus([]);
+    setMenuCloseRequest(null);
+  }
+  const closeTopMenu = import_react10.default.useCallback(
+    (options) => {
+      logger("MenuProvider closeTopMenu");
+      const { shouldFocusTrigger = true } = options || {};
+      const menu = getTopMenu();
+      if (!menu)
+        return;
+      if (shouldFocusTrigger) {
+        const { id: id2 } = menu;
+        focusMenuElement(id2);
+      }
+      setCurrentMenus((prev) => prev.slice(0, prev.length - 1));
+      setMenuCloseRequest(null);
+    },
+    [getTopMenu, logger]
+  );
+  const requestCloseTopMenu = import_react10.default.useCallback(
+    (type) => {
+      logger("MenuProvider requestCloseTopMenu");
+      const menu = getTopMenu();
+      if (!menu)
+        return;
+      if (menu.shouldRequestOnClose) {
+        setMenuCloseRequest({
+          id: menu.id,
+          requestTime: Date.now(),
+          type
+        });
+        return;
+      }
+      closeTopMenu();
+    },
+    [closeTopMenu, getTopMenu, logger]
+  );
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuContext.Provider, {
+    value: {
+      topMenu: getTopMenu(),
+      hasOpenMenu,
+      isMenuOpen,
+      openMenu,
+      canOpenMenu,
+      menuCloseRequest,
+      requestCloseTopMenu,
+      closeTopMenu,
+      closeAllMenus
+    },
+    children
+  });
+}
+
+// src/shared/loom-state/loom-state-context.tsx
+var import_react12 = __toESM(require_react());
+
+// src/shared/commands/command-errors.ts
+var CommandUndoError = class extends Error {
+  constructor() {
+    super(`execute() must be called before undo() is available`);
+    this.name = "CommandUndoError";
+  }
+};
+var CommandRedoError = class extends Error {
+  constructor() {
+    super(`undo() must be called before redo() is available`);
+    this.name = "CommandRedoError";
+  }
+};
+var DeleteCommandArgumentsError = class extends Error {
+  constructor() {
+    super(`Either 'id' or 'last' must be defined`);
+    this.name = "DeleteCommandArgumentsError";
+  }
+};
+
+// src/shared/loom-state/loom-state-command.ts
+var LoomStateCommand = class {
+  constructor(shouldSortRows = false) {
+    this.hasExecuteBeenCalled = false;
+    this.hasUndoBeenCalled = false;
+    this.shouldSortRows = shouldSortRows;
+  }
+  onExecute() {
+    this.hasExecuteBeenCalled = true;
+  }
+  onRedo() {
+    if (!this.hasUndoBeenCalled)
+      throw new CommandRedoError();
+    this.hasUndoBeenCalled = false;
+  }
+  onUndo() {
+    if (!this.hasExecuteBeenCalled)
+      throw new CommandUndoError();
+    this.hasUndoBeenCalled = true;
+  }
+};
+
+// src/shared/match/regex.ts
+var NUMBER_REGEX = new RegExp(/^-?\d+\.?\d*$/);
+var NUMBER_INPUT_REGEX = new RegExp(/(^$)|(^-$)|(^-?\d+\.?\d*$)/);
+var DATE_REGEX = new RegExp(/^\d{4}\/\d{2}\/\d{2}$/);
+var CHECKBOX_REGEX = new RegExp(/^\[[x ]{0,1}\]$/);
+var CHECKBOX_CHECKED_REGEX = new RegExp(/^\[[x]\]$/);
+var IMAGE_EXTENSION_REGEX = new RegExp(
+  /\.(jpe?g|png|gif|bmp|tiff?|ico|webp)$/i
+);
+var YOUTUBE_LINK_REGEX = new RegExp(
+  /^https?:\/\/(?:www\.)?(?:youtube\.com\/\S+|youtu\.be\/\S+)$/
+);
+var TWITTER_LINK_REGEX = new RegExp(
+  /^https?:\/\/(?:www\.)?twitter\.com\/\S+|\bt\.co\/\S+$/
+);
+
+// src/shared/match/index.ts
+var isNumber = (value) => {
+  return value.match(NUMBER_REGEX) !== null;
+};
+var isNumberInput = (value) => {
+  return value.match(NUMBER_INPUT_REGEX) !== null;
+};
+var isCheckbox = (value) => {
+  return value.match(CHECKBOX_REGEX) !== null;
+};
+var isCheckboxChecked = (value) => {
+  return value.match(CHECKBOX_CHECKED_REGEX) !== null;
+};
+var isImage = (value) => {
+  return value.match(IMAGE_EXTENSION_REGEX) !== null;
+};
+var isYouTubeLink = (value) => {
+  return value.match(YOUTUBE_LINK_REGEX) !== null;
+};
+var isTwitterLink = (value) => {
+  return value.match(TWITTER_LINK_REGEX) !== null;
+};
+var isNumberCalcuation = (value) => {
+  return Object.values(NumberCalculation).includes(
+    value
+  );
+};
+
+// src/shared/commands/row-sort-command.ts
+var RowSortCommand = class extends LoomStateCommand {
+  constructor() {
+    super(...arguments);
+    this.previousRowSort = [];
+  }
+  sortByTag(columnId, columns, rows, cells, sortDir) {
+    const newRows = [...rows];
+    newRows.sort((a2, b2) => {
+      const cellA = cells.find(
+        (c2) => c2.columnId === columnId && c2.rowId === a2.id
+      );
+      if (!cellA)
+        throw new CellNotFoundError({ rowId: a2.id, columnId });
+      const cellB = cells.find(
+        (c2) => c2.columnId === columnId && c2.rowId === b2.id
+      );
+      if (!cellB)
+        throw new CellNotFoundError({ rowId: b2.id, columnId });
+      const column = columns.find((c2) => c2.id === columnId);
+      if (!column)
+        throw new ColumNotFoundError(columnId);
+      if (cellA.tagIds.length === 0 && cellB.tagIds.length > 0)
+        return 1;
+      if (cellA.tagIds.length > 0 && cellB.tagIds.length === 0)
+        return -1;
+      if (cellA.tagIds.length === 0 && cellB.tagIds.length === 0)
+        return 0;
+      let tagLength = cellA.tagIds.length;
+      if (cellB.tagIds.length > cellA.tagIds.length) {
+        tagLength = cellB.tagIds.length;
+      }
+      for (let i2 = 0; i2 < tagLength; i2++) {
+        const tagIdA = cellA.tagIds[i2];
+        if (tagIdA === void 0)
+          return -1;
+        const tagA = column.tags.find((t2) => t2.id === tagIdA);
+        if (!tagA)
+          throw new TagNotFoundError(tagIdA);
+        const tagIdB = cellB.tagIds[i2];
+        if (tagIdB === void 0)
+          return 1;
+        const tagB = column.tags.find((t2) => t2.id === tagIdB);
+        if (!tagB)
+          throw new TagNotFoundError(tagIdA);
+        if (sortDir === "asc" /* ASC */) {
+          const result = tagA.markdown.localeCompare(tagB.markdown);
+          if (result !== 0)
+            return result;
+        } else if (sortDir === "desc" /* DESC */) {
+          const result = tagB.markdown.localeCompare(tagA.markdown);
+          if (result !== 0)
+            return result;
+        }
+      }
+      return 0;
+    });
+    return newRows;
+  }
+  sortByMarkdown(columnId, rows, cells, sortDir) {
+    const newRows = [...rows];
+    newRows.sort((a2, b2) => {
+      const cellA = cells.find(
+        (c2) => c2.columnId === columnId && c2.rowId === a2.id
+      );
+      if (!cellA)
+        throw new CellNotFoundError({
+          rowId: a2.id,
+          columnId
+        });
+      const cellB = cells.find(
+        (c2) => c2.columnId === columnId && c2.rowId === b2.id
+      );
+      if (!cellB)
+        throw new CellNotFoundError({
+          rowId: b2.id,
+          columnId
+        });
+      const markdownA = cellA.markdown;
+      const markdownB = cellB.markdown;
+      if (markdownA === "" && markdownB !== "")
+        return 1;
+      if (markdownA !== "" && markdownB === "")
+        return -1;
+      if (markdownA === "" && markdownB === "")
+        return 0;
+      if (sortDir === "asc" /* ASC */) {
+        return markdownA.localeCompare(markdownB);
+      } else if (sortDir === "desc" /* DESC */) {
+        return markdownB.localeCompare(markdownA);
+      } else {
+        return 0;
+      }
+    });
+    return newRows;
+  }
+  sortByNumber(columnId, rows, cells, sortDir) {
+    const newRows = [...rows];
+    newRows.sort((a2, b2) => {
+      const cellA = cells.find(
+        (c2) => c2.columnId === columnId && c2.rowId === a2.id
+      );
+      if (!cellA)
+        throw new CellNotFoundError({
+          rowId: a2.id,
+          columnId
+        });
+      const cellB = cells.find(
+        (c2) => c2.columnId === columnId && c2.rowId === b2.id
+      );
+      if (!cellB)
+        throw new CellNotFoundError({
+          rowId: b2.id,
+          columnId
+        });
+      const markdownA = cellA.markdown;
+      const markdownB = cellB.markdown;
+      if (markdownA === "" && markdownB !== "")
+        return 1;
+      if (markdownA !== "" && markdownB === "")
+        return -1;
+      if (markdownA === "" && markdownB === "")
+        return 0;
+      if (sortDir === "asc" /* ASC */) {
+        return parseFloat(markdownA) - parseFloat(markdownB);
+      } else if (sortDir === "desc" /* DESC */) {
+        return parseFloat(markdownB) - parseFloat(markdownA);
+      } else {
+        return 0;
+      }
+    });
+    return newRows;
+  }
+  sortByCheckbox(columnId, rows, cells, sortDir) {
+    const newRows = [...rows];
+    newRows.sort((a2, b2) => {
+      const cellA = cells.find(
+        (c2) => c2.columnId === columnId && c2.rowId === a2.id
+      );
+      if (!cellA)
+        throw new CellNotFoundError({
+          rowId: a2.id,
+          columnId
+        });
+      const cellB = cells.find(
+        (c2) => c2.columnId === columnId && c2.rowId === b2.id
+      );
+      if (!cellB)
+        throw new CellNotFoundError({
+          rowId: b2.id,
+          columnId
+        });
+      const isCheckedA = isCheckboxChecked(cellA.markdown);
+      const isCheckedB = isCheckboxChecked(cellB.markdown);
+      if (sortDir === "asc" /* ASC */) {
+        if (isCheckedA && !isCheckedB)
+          return 1;
+        if (!isCheckedA && isCheckedB)
+          return -1;
+        return 0;
+      } else if (sortDir === "desc" /* DESC */) {
+        if (!isCheckedA && isCheckedB)
+          return 1;
+        if (isCheckedA && !isCheckedB)
+          return -1;
+        return 0;
+      } else {
+        return 0;
+      }
+    });
+    return newRows;
+  }
+  sortByDate(columnId, rows, cells, sortDir) {
+    const newRows = [...rows];
+    newRows.sort((a2, b2) => {
+      const cellA = cells.find(
+        (c2) => c2.columnId === columnId && c2.rowId === a2.id
+      );
+      if (!cellA)
+        throw new CellNotFoundError({
+          rowId: a2.id,
+          columnId
+        });
+      const cellB = cells.find(
+        (c2) => c2.columnId === columnId && c2.rowId === b2.id
+      );
+      if (!cellB)
+        throw new CellNotFoundError({
+          rowId: b2.id,
+          columnId
+        });
+      const dateTimeA = cellA.dateTime || 0;
+      const dateTimeB = cellB.dateTime || 0;
+      if (sortDir === "asc" /* ASC */) {
+        return dateTimeA - dateTimeB;
+      } else if (sortDir === "desc" /* DESC */) {
+        return dateTimeB - dateTimeA;
+      } else {
+        return 0;
+      }
+    });
+    return newRows;
+  }
+  sortByCreationTime(rows, sortDir) {
+    const newRows = [...rows];
+    newRows.sort((a2, b2) => {
+      if (sortDir === "asc" /* ASC */) {
+        return a2.creationTime - b2.creationTime;
+      } else if (sortDir === "desc" /* DESC */) {
+        return b2.creationTime - a2.creationTime;
+      } else {
+        return 0;
+      }
+    });
+    return newRows;
+  }
+  sortByLastEditedTime(rows, sortDir) {
+    const newRows = [...rows];
+    newRows.sort((a2, b2) => {
+      if (sortDir === "asc" /* ASC */) {
+        return a2.lastEditedTime - b2.lastEditedTime;
+      } else if (sortDir === "desc" /* DESC */) {
+        return b2.lastEditedTime - a2.lastEditedTime;
+      } else {
+        return 0;
+      }
+    });
+    return newRows;
+  }
+  sortByDir(columnId, columnType, sortDir, columns, rows, cells) {
+    if (columnType === "number" /* NUMBER */ || columnType === "currency" /* CURRENCY */) {
+      return this.sortByNumber(columnId, rows, cells, sortDir);
+    } else if (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */) {
+      return this.sortByTag(columnId, columns, rows, cells, sortDir);
+    } else if (columnType === "date" /* DATE */) {
+      return this.sortByDate(columnId, rows, cells, sortDir);
+    } else if (columnType === "last-edited-time" /* LAST_EDITED_TIME */) {
+      return this.sortByLastEditedTime(rows, sortDir);
+    } else if (columnType === "creation-time" /* CREATION_TIME */) {
+      return this.sortByCreationTime(rows, sortDir);
+    } else if (columnType === "checkbox" /* CHECKBOX */) {
+      return this.sortByCheckbox(columnId, rows, cells, sortDir);
+    } else {
+      return this.sortByMarkdown(columnId, rows, cells, sortDir);
+    }
+  }
+  sortByIndex(rows) {
+    const newRows = [...rows];
+    newRows.sort((a2, b2) => {
+      return a2.index - b2.index;
+    });
+    return newRows;
+  }
+  execute(prevState) {
+    super.onExecute();
+    const { columns, bodyRows, bodyCells } = prevState.model;
+    const sortedColumn = columns.find(
+      (columns2) => columns2.sortDir !== "default" /* NONE */
+    );
+    this.previousRowSort = bodyRows.map((row) => ({
+      id: row.id,
+      index: row.index
+    }));
+    let newBodyRows = [...bodyRows];
+    if (sortedColumn) {
+      newBodyRows = this.sortByDir(
+        sortedColumn.id,
+        sortedColumn.type,
+        sortedColumn.sortDir,
+        columns,
+        bodyRows,
+        bodyCells
+      );
+    } else {
+      newBodyRows = this.sortByIndex(bodyRows);
+    }
+    return __spreadProps(__spreadValues({}, prevState), {
+      model: __spreadProps(__spreadValues({}, prevState.model), {
+        bodyRows: newBodyRows
+      })
+    });
+  }
+  redo(prevState) {
+    super.onRedo();
+    return this.execute(prevState);
+  }
+  undo(prevState) {
+    super.onUndo();
+    const { bodyRows } = prevState.model;
+    const newBodyRows = this.previousRowSort.map((prev) => {
+      const row = bodyRows.find((row2) => row2.id === prev.id);
+      if (!row)
+        throw new RowNotFoundError(prev.id);
+      return __spreadProps(__spreadValues({}, row), {
+        index: prev.index
+      });
+    });
+    return __spreadProps(__spreadValues({}, prevState), {
+      model: __spreadProps(__spreadValues({}, prevState.model), {
+        bodyRows: newBodyRows
+      })
+    });
+  }
+};
+
+// src/react/loom-app/mount-provider.tsx
+var import_react11 = __toESM(require_react());
+var MountContext = import_react11.default.createContext(null);
 var useMountState = () => {
-  const value = import_react.default.useContext(MountContext);
+  const value = import_react11.default.useContext(MountContext);
   if (value === null) {
     throw new Error(
       "useMountState() called without a <MountProvider /> in the tree."
@@ -41179,23 +42762,129 @@ var useMountState = () => {
 };
 function MountProvider({
   appId,
-  leaf,
-  filePath,
+  mountLeaf,
+  loomFile,
   isMarkdownView,
   children
 }) {
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MountContext.Provider, {
-    value: { appId, leaf, filePath, isMarkdownView },
+    value: { appId, mountLeaf, loomFile, isMarkdownView },
     children
   });
 }
 
-// src/react/table-app/table/index.tsx
-var import_react15 = __toESM(require_react());
+// src/shared/loom-state/loom-state-context.tsx
+var LoomStateContext = import_react12.default.createContext(null);
+var useLoomState = () => {
+  const value = import_react12.default.useContext(LoomStateContext);
+  if (value === null) {
+    throw new Error(
+      "useLoomState() called without a <LoomStateProvider /> in the tree."
+    );
+  }
+  return value;
+};
+function LoomStateProvider({
+  initialState: initialState2,
+  onSaveState,
+  children
+}) {
+  const [LoomState8, setLoomState] = import_react12.default.useState(initialState2);
+  const [searchText, setSearchText] = import_react12.default.useState("");
+  const [isSearchBarVisible, setSearchBarVisible] = import_react12.default.useState(false);
+  const [resizingColumnId, setResizingColumnId] = import_react12.default.useState(null);
+  const [history, setHistory] = import_react12.default.useState([
+    null
+  ]);
+  const [position, setPosition] = import_react12.default.useState(0);
+  const logger = useLogger();
+  const { appId } = useMountState();
+  const isMountedRef = import_react12.default.useRef(false);
+  import_react12.default.useEffect(() => {
+    if (!isMountedRef.current) {
+      isMountedRef.current = true;
+      return;
+    }
+    onSaveState(appId, LoomState8);
+  }, [appId, LoomState8, onSaveState]);
+  function handleToggleSearchBar() {
+    setSearchBarVisible((prevState) => !prevState);
+  }
+  const undo = import_react12.default.useCallback(() => {
+    if (position > 0) {
+      logger("handleUndoEvent");
+      const currentPosition = position - 1;
+      setPosition(currentPosition);
+      const command = history[position];
+      if (command !== null) {
+        logger(command.constructor.name + ".undo");
+        let newState = command.undo(LoomState8);
+        if (command.shouldSortRows) {
+          newState = new RowSortCommand().execute(newState);
+        }
+        setLoomState(newState);
+      }
+    }
+  }, [position, history, LoomState8, logger]);
+  const redo = import_react12.default.useCallback(() => {
+    if (position < history.length - 1) {
+      logger("handleRedoEvent");
+      const currentPosition = position + 1;
+      setPosition(currentPosition);
+      const command = history[currentPosition];
+      if (command !== null) {
+        logger(command.constructor.name + ".redo");
+        let newState = command.redo(LoomState8);
+        if (command.shouldSortRows) {
+          newState = new RowSortCommand().execute(newState);
+        }
+        setLoomState(newState);
+      }
+    }
+  }, [position, history, LoomState8, logger]);
+  const doCommand = import_react12.default.useCallback(
+    (command) => {
+      setHistory((prevState) => {
+        if (position < history.length - 1) {
+          const newState2 = prevState.slice(0, position + 1);
+          return [...newState2, command];
+        } else {
+          return [...prevState, command];
+        }
+      });
+      setPosition((prevState) => prevState + 1);
+      let newState = command.execute(LoomState8);
+      if (command.shouldSortRows) {
+        newState = new RowSortCommand().execute(newState);
+      }
+      setLoomState(newState);
+    },
+    [position, history, LoomState8]
+  );
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(LoomStateContext.Provider, {
+    value: {
+      LoomState: LoomState8,
+      setLoomState,
+      doCommand,
+      commandRedo: redo,
+      commandUndo: undo,
+      isSearchBarVisible,
+      searchText,
+      resizingColumnId,
+      setResizingColumnId,
+      toggleSearchBar: handleToggleSearchBar,
+      setSearchText
+    },
+    children
+  });
+}
+
+// src/react/loom-app/table/index.tsx
+var import_react16 = __toESM(require_react());
 
 // node_modules/react-virtuoso/dist/index.mjs
-var import_react2 = __toESM(require_react(), 1);
-var import_react_dom = __toESM(require_react_dom(), 1);
+var import_react13 = __toESM(require_react(), 1);
+var import_react_dom2 = __toESM(require_react_dom(), 1);
 var PUBLISH = 0;
 var SUBSCRIBE = 1;
 var RESET = 2;
@@ -41518,13 +43207,13 @@ function omit(keys, obj) {
   }
   return result;
 }
-var useIsomorphicLayoutEffect$2 = typeof document !== "undefined" ? import_react2.default.useLayoutEffect : import_react2.default.useEffect;
+var useIsomorphicLayoutEffect$2 = typeof document !== "undefined" ? import_react13.default.useLayoutEffect : import_react13.default.useEffect;
 function systemToComponent(systemSpec, map2, Root4) {
   const requiredPropNames = Object.keys(map2.required || {});
   const optionalPropNames = Object.keys(map2.optional || {});
   const methodNames = Object.keys(map2.methods || {});
   const eventNames = Object.keys(map2.events || {});
-  const Context = import_react2.default.createContext({});
+  const Context = import_react13.default.createContext({});
   function applyPropsToSystem(system2, props) {
     if (system2["propsReady"]) {
       publish(system2["propsReady"], false);
@@ -41558,12 +43247,12 @@ function systemToComponent(systemSpec, map2, Root4) {
       return handlers;
     }, {});
   }
-  const Component = import_react2.default.forwardRef((propsWithChildren, ref) => {
+  const Component2 = import_react13.default.forwardRef((propsWithChildren, ref) => {
     const _a = propsWithChildren, { children } = _a, props = __objRest(_a, ["children"]);
-    const [system2] = import_react2.default.useState(() => {
+    const [system2] = import_react13.default.useState(() => {
       return tap(init(systemSpec), (system22) => applyPropsToSystem(system22, props));
     });
-    const [handlers] = import_react2.default.useState(curry1to0(buildEventHandlers, system2));
+    const [handlers] = import_react13.default.useState(curry1to0(buildEventHandlers, system2));
     useIsomorphicLayoutEffect$2(() => {
       for (const eventName of eventNames) {
         if (eventName in props) {
@@ -41577,11 +43266,11 @@ function systemToComponent(systemSpec, map2, Root4) {
     useIsomorphicLayoutEffect$2(() => {
       applyPropsToSystem(system2, props);
     });
-    import_react2.default.useImperativeHandle(ref, always(buildMethods(system2)));
-    return import_react2.default.createElement(
+    import_react13.default.useImperativeHandle(ref, always(buildMethods(system2)));
+    return import_react13.default.createElement(
       Context.Provider,
       { value: system2 },
-      Root4 ? import_react2.default.createElement(
+      Root4 ? import_react13.default.createElement(
         Root4,
         omit([...requiredPropNames, ...optionalPropNames, ...eventNames], props),
         children
@@ -41589,12 +43278,12 @@ function systemToComponent(systemSpec, map2, Root4) {
     );
   });
   const usePublisher2 = (key) => {
-    return import_react2.default.useCallback(curry2to1(publish, import_react2.default.useContext(Context)[key]), [key]);
+    return import_react13.default.useCallback(curry2to1(publish, import_react13.default.useContext(Context)[key]), [key]);
   };
   const useEmitterValue2 = (key) => {
-    const system2 = import_react2.default.useContext(Context);
+    const system2 = import_react13.default.useContext(Context);
     const source = system2[key];
-    const [value, setValue] = import_react2.default.useState(curry1to0(getValue, source));
+    const [value, setValue] = import_react13.default.useState(curry1to0(getValue, source));
     useIsomorphicLayoutEffect$2(
       () => subscribe(source, (next) => {
         if (next !== value) {
@@ -41606,19 +43295,19 @@ function systemToComponent(systemSpec, map2, Root4) {
     return value;
   };
   const useEmitter2 = (key, callback) => {
-    const context = import_react2.default.useContext(Context);
+    const context = import_react13.default.useContext(Context);
     const source = context[key];
     useIsomorphicLayoutEffect$2(() => subscribe(source, callback), [callback, source]);
   };
   return {
-    Component,
+    Component: Component2,
     usePublisher: usePublisher2,
     useEmitterValue: useEmitterValue2,
     useEmitter: useEmitter2
   };
 }
-var useIsomorphicLayoutEffect = typeof document !== "undefined" ? import_react2.default.useLayoutEffect : import_react2.default.useEffect;
-var useIsomorphicLayoutEffect$1 = useIsomorphicLayoutEffect;
+var useIsomorphicLayoutEffect2 = typeof document !== "undefined" ? import_react13.default.useLayoutEffect : import_react13.default.useEffect;
+var useIsomorphicLayoutEffect$1 = useIsomorphicLayoutEffect2;
 var LogLevel = /* @__PURE__ */ ((LogLevel2) => {
   LogLevel2[LogLevel2["DEBUG"] = 0] = "DEBUG";
   LogLevel2[LogLevel2["INFO"] = 1] = "INFO";
@@ -41658,11 +43347,11 @@ var loggerSystem = system(
   { singleton: true }
 );
 function useSizeWithElRef(callback, enabled = true) {
-  const ref = import_react2.default.useRef(null);
+  const ref = import_react13.default.useRef(null);
   let callbackRef = (_el) => {
   };
   if (typeof ResizeObserver !== "undefined") {
-    const observer = import_react2.default.useMemo(() => {
+    const observer = import_react13.default.useMemo(() => {
       return new ResizeObserver((entries) => {
         const element = entries[0].target;
         if (element.offsetParent !== null) {
@@ -41688,7 +43377,7 @@ function useSize(callback, enabled = true) {
   return useSizeWithElRef(callback, enabled).callbackRef;
 }
 function useChangedListContentsSizes(callback, itemSize, enabled, scrollContainerStateCallback, log2, gap, customScrollParent) {
-  const memoedCallback = import_react2.default.useCallback(
+  const memoedCallback = import_react13.default.useCallback(
     (el) => {
       const ranges = getChangedChildSizes(el.children, itemSize, "offsetHeight", log2);
       let scrollableElement = el.parentElement;
@@ -41758,10 +43447,10 @@ function approximatelyEqual(num1, num2) {
   return Math.abs(num1 - num2) < 1.01;
 }
 function useScrollTop(scrollContainerStateCallback, smoothScrollTargetReached, scrollerElement, scrollerRefCallback = noop, customScrollParent) {
-  const scrollerRef = import_react2.default.useRef(null);
-  const scrollTopTarget = import_react2.default.useRef(null);
-  const timeoutRef = import_react2.default.useRef(null);
-  const handler = import_react2.default.useCallback(
+  const scrollerRef = import_react13.default.useRef(null);
+  const scrollTopTarget = import_react13.default.useRef(null);
+  const timeoutRef = import_react13.default.useRef(null);
+  const handler = import_react13.default.useCallback(
     (ev) => {
       const el = ev.target;
       const windowScroll = el === window || el === document;
@@ -41778,7 +43467,7 @@ function useScrollTop(scrollContainerStateCallback, smoothScrollTargetReached, s
       if (ev.suppressFlushSync) {
         call2();
       } else {
-        import_react_dom.default.flushSync(call2);
+        import_react_dom2.default.flushSync(call2);
       }
       if (scrollTopTarget.current !== null) {
         if (scrollTop === scrollTopTarget.current || scrollTop <= 0 || scrollTop === scrollHeight - viewportHeight) {
@@ -41793,7 +43482,7 @@ function useScrollTop(scrollContainerStateCallback, smoothScrollTargetReached, s
     },
     [scrollContainerStateCallback, smoothScrollTargetReached]
   );
-  import_react2.default.useEffect(() => {
+  import_react13.default.useEffect(() => {
     const localRef = customScrollParent ? customScrollParent : scrollerRef.current;
     scrollerRefCallback(customScrollParent ? customScrollParent : scrollerRef.current);
     handler({ target: localRef, suppressFlushSync: true });
@@ -44065,8 +45754,8 @@ var positionStickyCssValue = simpleMemoize(() => {
   return node.style.position === WEBKIT_STICKY ? WEBKIT_STICKY : STICKY;
 });
 function useWindowViewportRectRef(callback, customScrollParent) {
-  const viewportInfo = import_react2.default.useRef(null);
-  const calculateInfo = import_react2.default.useCallback(
+  const viewportInfo = import_react13.default.useRef(null);
+  const calculateInfo = import_react13.default.useCallback(
     (element) => {
       if (element === null || !element.offsetParent) {
         return;
@@ -44093,10 +45782,10 @@ function useWindowViewportRectRef(callback, customScrollParent) {
     [callback, customScrollParent]
   );
   const { callbackRef, ref } = useSizeWithElRef(calculateInfo);
-  const scrollAndResizeEventHandler = import_react2.default.useCallback(() => {
+  const scrollAndResizeEventHandler = import_react13.default.useCallback(() => {
     calculateInfo(ref.current);
   }, [calculateInfo, ref]);
-  import_react2.default.useEffect(() => {
+  import_react13.default.useEffect(() => {
     if (customScrollParent) {
       customScrollParent.addEventListener("scroll", scrollAndResizeEventHandler);
       const observer = new ResizeObserver(scrollAndResizeEventHandler);
@@ -44116,8 +45805,8 @@ function useWindowViewportRectRef(callback, customScrollParent) {
   }, [scrollAndResizeEventHandler, customScrollParent]);
   return callbackRef;
 }
-var VirtuosoMockContext = import_react2.default.createContext(void 0);
-var VirtuosoGridMockContext = import_react2.default.createContext(void 0);
+var VirtuosoMockContext = import_react13.default.createContext(void 0);
+var VirtuosoGridMockContext = import_react13.default.createContext(void 0);
 function identity(value) {
   return value;
 }
@@ -44161,10 +45850,10 @@ var listComponentPropsSystem = /* @__PURE__ */ system(() => {
 var combinedSystem$2 = /* @__PURE__ */ system(([listSystem2, propsSystem]) => {
   return __spreadValues(__spreadValues({}, listSystem2), propsSystem);
 }, tup(listSystem, listComponentPropsSystem));
-var DefaultScrollSeekPlaceholder$1 = ({ height }) => /* @__PURE__ */ import_react2.default.createElement("div", { style: { height } });
+var DefaultScrollSeekPlaceholder$1 = ({ height }) => /* @__PURE__ */ import_react13.default.createElement("div", { style: { height } });
 var GROUP_STYLE = { position: positionStickyCssValue(), zIndex: 1, overflowAnchor: "none" };
 var ITEM_STYLE = { overflowAnchor: "none" };
-var Items$1 = /* @__PURE__ */ import_react2.default.memo(function VirtuosoItems({ showTopList = false }) {
+var Items$1 = /* @__PURE__ */ import_react13.default.memo(function VirtuosoItems({ showTopList = false }) {
   const listState = useEmitterValue$2("listState");
   const sizeRanges = usePublisher$2("sizeRanges");
   const useWindowScroll = useEmitterValue$2("useWindowScroll");
@@ -44188,7 +45877,7 @@ var Items$1 = /* @__PURE__ */ import_react2.default.memo(function VirtuosoItems(
     listGap,
     customScrollParent
   );
-  const [deviation, setDeviation] = import_react2.default.useState(0);
+  const [deviation, setDeviation] = import_react13.default.useState(0);
   useEmitter$2("deviation", (value) => {
     if (deviation !== value) {
       setDeviation(value);
@@ -44211,9 +45900,9 @@ var Items$1 = /* @__PURE__ */ import_react2.default.memo(function VirtuosoItems(
     marginTop: deviation
   }, scrolledToInitialItem ? {} : { visibility: "hidden" });
   if (!showTopList && listState.totalCount === 0 && EmptyPlaceholder) {
-    return import_react2.default.createElement(EmptyPlaceholder, contextPropIfNotDomElement(EmptyPlaceholder, context));
+    return import_react13.default.createElement(EmptyPlaceholder, contextPropIfNotDomElement(EmptyPlaceholder, context));
   }
-  return import_react2.default.createElement(
+  return import_react13.default.createElement(
     ListComponent,
     __spreadProps(__spreadValues({}, contextPropIfNotDomElement(ListComponent, context)), {
       ref: callbackRef,
@@ -44224,7 +45913,7 @@ var Items$1 = /* @__PURE__ */ import_react2.default.memo(function VirtuosoItems(
       const index = item.originalIndex;
       const key = computeItemKey(index + listState.firstItemIndex, item.data, context);
       if (isSeeking) {
-        return import_react2.default.createElement(ScrollSeekPlaceholder, __spreadValues(__spreadProps(__spreadValues({}, contextPropIfNotDomElement(ScrollSeekPlaceholder, context)), {
+        return import_react13.default.createElement(ScrollSeekPlaceholder, __spreadValues(__spreadProps(__spreadValues({}, contextPropIfNotDomElement(ScrollSeekPlaceholder, context)), {
           key,
           index: item.index,
           height: item.size,
@@ -44232,7 +45921,7 @@ var Items$1 = /* @__PURE__ */ import_react2.default.memo(function VirtuosoItems(
         }), item.type === "group" ? {} : { groupIndex: item.groupIndex }));
       }
       if (item.type === "group") {
-        return import_react2.default.createElement(
+        return import_react13.default.createElement(
           GroupComponent,
           __spreadProps(__spreadValues({}, contextPropIfNotDomElement(GroupComponent, context)), {
             key,
@@ -44244,7 +45933,7 @@ var Items$1 = /* @__PURE__ */ import_react2.default.memo(function VirtuosoItems(
           groupContent(item.index, context)
         );
       } else {
-        return import_react2.default.createElement(
+        return import_react13.default.createElement(
           ItemComponent,
           __spreadProps(__spreadValues({}, contextPropIfNotDomElement(ItemComponent, context)), {
             key,
@@ -44286,24 +45975,24 @@ function contextPropIfNotDomElement(element, context) {
   }
   return { context };
 }
-var Header$1 = /* @__PURE__ */ import_react2.default.memo(function VirtuosoHeader() {
+var Header$1 = /* @__PURE__ */ import_react13.default.memo(function VirtuosoHeader() {
   const Header2 = useEmitterValue$2("HeaderComponent");
   const headerHeight = usePublisher$2("headerHeight");
   const headerFooterTag = useEmitterValue$2("headerFooterTag");
   const ref = useSize((el) => headerHeight(correctItemSize(el, "height")));
   const context = useEmitterValue$2("context");
-  return Header2 ? import_react2.default.createElement(headerFooterTag, { ref }, import_react2.default.createElement(Header2, contextPropIfNotDomElement(Header2, context))) : null;
+  return Header2 ? import_react13.default.createElement(headerFooterTag, { ref }, import_react13.default.createElement(Header2, contextPropIfNotDomElement(Header2, context))) : null;
 });
-var Footer$1 = /* @__PURE__ */ import_react2.default.memo(function VirtuosoFooter() {
+var Footer$1 = /* @__PURE__ */ import_react13.default.memo(function VirtuosoFooter() {
   const Footer2 = useEmitterValue$2("FooterComponent");
   const footerHeight = usePublisher$2("footerHeight");
   const headerFooterTag = useEmitterValue$2("headerFooterTag");
   const ref = useSize((el) => footerHeight(correctItemSize(el, "height")));
   const context = useEmitterValue$2("context");
-  return Footer2 ? import_react2.default.createElement(headerFooterTag, { ref }, import_react2.default.createElement(Footer2, contextPropIfNotDomElement(Footer2, context))) : null;
+  return Footer2 ? import_react13.default.createElement(headerFooterTag, { ref }, import_react13.default.createElement(Footer2, contextPropIfNotDomElement(Footer2, context))) : null;
 });
 function buildScroller({ usePublisher: usePublisher2, useEmitter: useEmitter2, useEmitterValue: useEmitterValue2 }) {
-  const Scroller2 = import_react2.default.memo(function VirtuosoScroller(_a) {
+  const Scroller2 = import_react13.default.memo(function VirtuosoScroller(_a) {
     var _b = _a, { style, children } = _b, props = __objRest(_b, ["style", "children"]);
     const scrollContainerStateCallback = usePublisher2("scrollContainerState");
     const ScrollerComponent = useEmitterValue2("ScrollerComponent");
@@ -44318,7 +46007,7 @@ function buildScroller({ usePublisher: usePublisher2, useEmitter: useEmitter2, u
     );
     useEmitter2("scrollTo", scrollToCallback);
     useEmitter2("scrollBy", scrollByCallback);
-    return import_react2.default.createElement(
+    return import_react13.default.createElement(
       ScrollerComponent,
       __spreadValues(__spreadValues({
         ref: scrollerRef,
@@ -44333,7 +46022,7 @@ function buildScroller({ usePublisher: usePublisher2, useEmitter: useEmitter2, u
   return Scroller2;
 }
 function buildWindowScroller({ usePublisher: usePublisher2, useEmitter: useEmitter2, useEmitterValue: useEmitterValue2 }) {
-  const Scroller2 = import_react2.default.memo(function VirtuosoWindowScroller(_a) {
+  const Scroller2 = import_react13.default.memo(function VirtuosoWindowScroller(_a) {
     var _b = _a, { style, children } = _b, props = __objRest(_b, ["style", "children"]);
     const scrollContainerStateCallback = usePublisher2("windowScrollContainerState");
     const ScrollerComponent = useEmitterValue2("ScrollerComponent");
@@ -44357,7 +46046,7 @@ function buildWindowScroller({ usePublisher: usePublisher2, useEmitter: useEmitt
     }, [scrollerRef, customScrollParent]);
     useEmitter2("windowScrollTo", scrollToCallback);
     useEmitter2("scrollBy", scrollByCallback);
-    return import_react2.default.createElement(
+    return import_react13.default.createElement(
       ScrollerComponent,
       __spreadValues(__spreadValues({
         style: __spreadValues(__spreadValues({ position: "relative" }, style), totalListHeight !== 0 ? { height: totalListHeight + deviation } : {}),
@@ -44369,46 +46058,46 @@ function buildWindowScroller({ usePublisher: usePublisher2, useEmitter: useEmitt
   return Scroller2;
 }
 var Viewport$2 = ({ children }) => {
-  const ctx = import_react2.default.useContext(VirtuosoMockContext);
+  const ctx = import_react13.default.useContext(VirtuosoMockContext);
   const viewportHeight = usePublisher$2("viewportHeight");
   const fixedItemHeight = usePublisher$2("fixedItemHeight");
   const viewportRef = useSize(compose2(viewportHeight, (el) => correctItemSize(el, "height")));
-  import_react2.default.useEffect(() => {
+  import_react13.default.useEffect(() => {
     if (ctx) {
       viewportHeight(ctx.viewportHeight);
       fixedItemHeight(ctx.itemHeight);
     }
   }, [ctx, viewportHeight, fixedItemHeight]);
-  return /* @__PURE__ */ import_react2.default.createElement("div", { style: viewportStyle, ref: viewportRef, "data-viewport-type": "element" }, children);
+  return /* @__PURE__ */ import_react13.default.createElement("div", { style: viewportStyle, ref: viewportRef, "data-viewport-type": "element" }, children);
 };
 var WindowViewport$2 = ({ children }) => {
-  const ctx = import_react2.default.useContext(VirtuosoMockContext);
+  const ctx = import_react13.default.useContext(VirtuosoMockContext);
   const windowViewportRect = usePublisher$2("windowViewportRect");
   const fixedItemHeight = usePublisher$2("fixedItemHeight");
   const customScrollParent = useEmitterValue$2("customScrollParent");
   const viewportRef = useWindowViewportRectRef(windowViewportRect, customScrollParent);
-  import_react2.default.useEffect(() => {
+  import_react13.default.useEffect(() => {
     if (ctx) {
       fixedItemHeight(ctx.itemHeight);
       windowViewportRect({ offsetTop: 0, visibleHeight: ctx.viewportHeight, visibleWidth: 100 });
     }
   }, [ctx, windowViewportRect, fixedItemHeight]);
-  return /* @__PURE__ */ import_react2.default.createElement("div", { ref: viewportRef, style: viewportStyle, "data-viewport-type": "window" }, children);
+  return /* @__PURE__ */ import_react13.default.createElement("div", { ref: viewportRef, style: viewportStyle, "data-viewport-type": "window" }, children);
 };
 var TopItemListContainer = ({ children }) => {
   const TopItemList = useEmitterValue$2("TopItemListComponent");
   const headerHeight = useEmitterValue$2("headerHeight");
   const style = __spreadProps(__spreadValues({}, topItemListStyle), { marginTop: `${headerHeight}px` });
   const context = useEmitterValue$2("context");
-  return import_react2.default.createElement(TopItemList || "div", { style, context }, children);
+  return import_react13.default.createElement(TopItemList || "div", { style, context }, children);
 };
-var ListRoot = /* @__PURE__ */ import_react2.default.memo(function VirtuosoRoot(props) {
+var ListRoot = /* @__PURE__ */ import_react13.default.memo(function VirtuosoRoot(props) {
   const useWindowScroll = useEmitterValue$2("useWindowScroll");
   const showTopList = useEmitterValue$2("topItemsIndexes").length > 0;
   const customScrollParent = useEmitterValue$2("customScrollParent");
   const TheScroller = customScrollParent || useWindowScroll ? WindowScroller$2 : Scroller$2;
   const TheViewport = customScrollParent || useWindowScroll ? WindowViewport$2 : Viewport$2;
-  return /* @__PURE__ */ import_react2.default.createElement(TheScroller, __spreadValues({}, props), showTopList && /* @__PURE__ */ import_react2.default.createElement(TopItemListContainer, null, /* @__PURE__ */ import_react2.default.createElement(Items$1, { showTopList: true })), /* @__PURE__ */ import_react2.default.createElement(TheViewport, null, /* @__PURE__ */ import_react2.default.createElement(Header$1, null), /* @__PURE__ */ import_react2.default.createElement(Items$1, null), /* @__PURE__ */ import_react2.default.createElement(Footer$1, null)));
+  return /* @__PURE__ */ import_react13.default.createElement(TheScroller, __spreadValues({}, props), showTopList && /* @__PURE__ */ import_react13.default.createElement(TopItemListContainer, null, /* @__PURE__ */ import_react13.default.createElement(Items$1, { showTopList: true })), /* @__PURE__ */ import_react13.default.createElement(TheViewport, null, /* @__PURE__ */ import_react13.default.createElement(Header$1, null), /* @__PURE__ */ import_react13.default.createElement(Items$1, null), /* @__PURE__ */ import_react13.default.createElement(Footer$1, null)));
 });
 var {
   Component: List,
@@ -44788,7 +46477,7 @@ var gridComponentPropsSystem = /* @__PURE__ */ system(() => {
 var combinedSystem$1 = /* @__PURE__ */ system(([gridSystem2, gridComponentPropsSystem2]) => {
   return __spreadValues(__spreadValues({}, gridSystem2), gridComponentPropsSystem2);
 }, tup(gridSystem, gridComponentPropsSystem));
-var GridItems = /* @__PURE__ */ import_react2.default.memo(function GridItems2() {
+var GridItems = /* @__PURE__ */ import_react13.default.memo(function GridItems2() {
   const gridState = useEmitterValue$1("gridState");
   const listClassName = useEmitterValue$1("listClassName");
   const itemClassName = useEmitterValue$1("itemClassName");
@@ -44815,7 +46504,7 @@ var GridItems = /* @__PURE__ */ import_react2.default.memo(function GridItems2()
       column: resolveGapValue("column-gap", getComputedStyle(el).columnGap, log2)
     });
   });
-  return import_react2.default.createElement(
+  return import_react13.default.createElement(
     ListComponent,
     __spreadProps(__spreadValues({
       ref: listRef,
@@ -44826,13 +46515,13 @@ var GridItems = /* @__PURE__ */ import_react2.default.memo(function GridItems2()
     }),
     gridState.items.map((item) => {
       const key = computeItemKey(item.index, item.data, context);
-      return isSeeking ? import_react2.default.createElement(ScrollSeekPlaceholder, __spreadProps(__spreadValues({
+      return isSeeking ? import_react13.default.createElement(ScrollSeekPlaceholder, __spreadProps(__spreadValues({
         key
       }, contextPropIfNotDomElement(ScrollSeekPlaceholder, context)), {
         index: item.index,
         height: gridState.itemHeight,
         width: gridState.itemWidth
-      })) : import_react2.default.createElement(
+      })) : import_react13.default.createElement(
         ItemComponent,
         __spreadProps(__spreadValues({}, contextPropIfNotDomElement(ItemComponent, context)), { className: itemClassName, "data-index": item.index, key }),
         itemContent(item.index, item.data, context)
@@ -44840,58 +46529,58 @@ var GridItems = /* @__PURE__ */ import_react2.default.memo(function GridItems2()
     })
   );
 });
-var Header = import_react2.default.memo(function VirtuosoHeader2() {
+var Header = import_react13.default.memo(function VirtuosoHeader2() {
   const Header2 = useEmitterValue$1("HeaderComponent");
   const headerHeight = usePublisher$1("headerHeight");
   const headerFooterTag = useEmitterValue$1("headerFooterTag");
   const ref = useSize((el) => headerHeight(correctItemSize(el, "height")));
   const context = useEmitterValue$1("context");
-  return Header2 ? import_react2.default.createElement(headerFooterTag, { ref }, import_react2.default.createElement(Header2, contextPropIfNotDomElement(Header2, context))) : null;
+  return Header2 ? import_react13.default.createElement(headerFooterTag, { ref }, import_react13.default.createElement(Header2, contextPropIfNotDomElement(Header2, context))) : null;
 });
-var Footer = import_react2.default.memo(function VirtuosoGridFooter() {
+var Footer = import_react13.default.memo(function VirtuosoGridFooter() {
   const Footer2 = useEmitterValue$1("FooterComponent");
   const footerHeight = usePublisher$1("footerHeight");
   const headerFooterTag = useEmitterValue$1("headerFooterTag");
   const ref = useSize((el) => footerHeight(correctItemSize(el, "height")));
   const context = useEmitterValue$1("context");
-  return Footer2 ? import_react2.default.createElement(headerFooterTag, { ref }, import_react2.default.createElement(Footer2, contextPropIfNotDomElement(Footer2, context))) : null;
+  return Footer2 ? import_react13.default.createElement(headerFooterTag, { ref }, import_react13.default.createElement(Footer2, contextPropIfNotDomElement(Footer2, context))) : null;
 });
 var Viewport$1 = ({ children }) => {
-  const ctx = import_react2.default.useContext(VirtuosoGridMockContext);
+  const ctx = import_react13.default.useContext(VirtuosoGridMockContext);
   const itemDimensions = usePublisher$1("itemDimensions");
   const viewportDimensions = usePublisher$1("viewportDimensions");
   const viewportRef = useSize((el) => {
     viewportDimensions(el.getBoundingClientRect());
   });
-  import_react2.default.useEffect(() => {
+  import_react13.default.useEffect(() => {
     if (ctx) {
       viewportDimensions({ height: ctx.viewportHeight, width: ctx.viewportWidth });
       itemDimensions({ height: ctx.itemHeight, width: ctx.itemWidth });
     }
   }, [ctx, viewportDimensions, itemDimensions]);
-  return /* @__PURE__ */ import_react2.default.createElement("div", { style: viewportStyle, ref: viewportRef }, children);
+  return /* @__PURE__ */ import_react13.default.createElement("div", { style: viewportStyle, ref: viewportRef }, children);
 };
 var WindowViewport$1 = ({ children }) => {
-  const ctx = import_react2.default.useContext(VirtuosoGridMockContext);
+  const ctx = import_react13.default.useContext(VirtuosoGridMockContext);
   const windowViewportRect = usePublisher$1("windowViewportRect");
   const itemDimensions = usePublisher$1("itemDimensions");
   const customScrollParent = useEmitterValue$1("customScrollParent");
   const viewportRef = useWindowViewportRectRef(windowViewportRect, customScrollParent);
-  import_react2.default.useEffect(() => {
+  import_react13.default.useEffect(() => {
     if (ctx) {
       itemDimensions({ height: ctx.itemHeight, width: ctx.itemWidth });
       windowViewportRect({ offsetTop: 0, visibleHeight: ctx.viewportHeight, visibleWidth: ctx.viewportWidth });
     }
   }, [ctx, windowViewportRect, itemDimensions]);
-  return /* @__PURE__ */ import_react2.default.createElement("div", { ref: viewportRef, style: viewportStyle }, children);
+  return /* @__PURE__ */ import_react13.default.createElement("div", { ref: viewportRef, style: viewportStyle }, children);
 };
-var GridRoot = /* @__PURE__ */ import_react2.default.memo(function GridRoot2(_a) {
+var GridRoot = /* @__PURE__ */ import_react13.default.memo(function GridRoot2(_a) {
   var props = __objRest(_a, []);
   const useWindowScroll = useEmitterValue$1("useWindowScroll");
   const customScrollParent = useEmitterValue$1("customScrollParent");
   const TheScroller = customScrollParent || useWindowScroll ? WindowScroller$1 : Scroller$1;
   const TheViewport = customScrollParent || useWindowScroll ? WindowViewport$1 : Viewport$1;
-  return /* @__PURE__ */ import_react2.default.createElement(TheScroller, __spreadValues({}, props), /* @__PURE__ */ import_react2.default.createElement(TheViewport, null, /* @__PURE__ */ import_react2.default.createElement(Header, null), /* @__PURE__ */ import_react2.default.createElement(GridItems, null), /* @__PURE__ */ import_react2.default.createElement(Footer, null)));
+  return /* @__PURE__ */ import_react13.default.createElement(TheScroller, __spreadValues({}, props), /* @__PURE__ */ import_react13.default.createElement(TheViewport, null, /* @__PURE__ */ import_react13.default.createElement(Header, null), /* @__PURE__ */ import_react13.default.createElement(GridItems, null), /* @__PURE__ */ import_react13.default.createElement(Footer, null)));
 });
 var {
   Component: Grid,
@@ -44946,7 +46635,7 @@ function resolveGapValue(property, value, log2) {
   return parseInt(value != null ? value : "0", 10);
 }
 var tableComponentPropsSystem = /* @__PURE__ */ system(() => {
-  const itemContent = statefulStream((index) => /* @__PURE__ */ import_react2.default.createElement("td", null, "Item $", index));
+  const itemContent = statefulStream((index) => /* @__PURE__ */ import_react13.default.createElement("td", null, "Item $", index));
   const context = statefulStream(null);
   const fixedHeaderContent = statefulStream(null);
   const fixedFooterContent = statefulStream(null);
@@ -44985,9 +46674,9 @@ var tableComponentPropsSystem = /* @__PURE__ */ system(() => {
 var combinedSystem = /* @__PURE__ */ system(([listSystem2, propsSystem]) => {
   return __spreadValues(__spreadValues({}, listSystem2), propsSystem);
 }, tup(listSystem, tableComponentPropsSystem));
-var DefaultScrollSeekPlaceholder = ({ height }) => /* @__PURE__ */ import_react2.default.createElement("tr", null, /* @__PURE__ */ import_react2.default.createElement("td", { style: { height } }));
-var DefaultFillerRow = ({ height }) => /* @__PURE__ */ import_react2.default.createElement("tr", null, /* @__PURE__ */ import_react2.default.createElement("td", { style: { height, padding: 0, border: 0 } }));
-var Items = /* @__PURE__ */ import_react2.default.memo(function VirtuosoItems2() {
+var DefaultScrollSeekPlaceholder = ({ height }) => /* @__PURE__ */ import_react13.default.createElement("tr", null, /* @__PURE__ */ import_react13.default.createElement("td", { style: { height } }));
+var DefaultFillerRow = ({ height }) => /* @__PURE__ */ import_react13.default.createElement("tr", null, /* @__PURE__ */ import_react13.default.createElement("td", { style: { height, padding: 0, border: 0 } }));
+var Items = /* @__PURE__ */ import_react13.default.memo(function VirtuosoItems2() {
   const listState = useEmitterValue("listState");
   const sizeRanges = usePublisher("sizeRanges");
   const useWindowScroll = useEmitterValue("useWindowScroll");
@@ -45008,7 +46697,7 @@ var Items = /* @__PURE__ */ import_react2.default.memo(function VirtuosoItems2()
     void 0,
     customScrollParent
   );
-  const [deviation, setDeviation] = import_react2.default.useState(0);
+  const [deviation, setDeviation] = import_react13.default.useState(0);
   useEmitter("deviation", (value) => {
     if (deviation !== value) {
       ref.current.style.marginTop = `${value}px`;
@@ -45027,24 +46716,24 @@ var Items = /* @__PURE__ */ import_react2.default.memo(function VirtuosoItems2()
   const statefulTotalCount = useEmitterValue("statefulTotalCount");
   const context = useEmitterValue("context");
   if (statefulTotalCount === 0 && EmptyPlaceholder) {
-    return import_react2.default.createElement(EmptyPlaceholder, contextPropIfNotDomElement(EmptyPlaceholder, context));
+    return import_react13.default.createElement(EmptyPlaceholder, contextPropIfNotDomElement(EmptyPlaceholder, context));
   }
   const paddingTop = listState.offsetTop + paddingTopAddition + deviation;
   const paddingBottom = listState.offsetBottom;
-  const paddingTopEl = paddingTop > 0 ? /* @__PURE__ */ import_react2.default.createElement(FillerRow, { height: paddingTop, key: "padding-top", context }) : null;
-  const paddingBottomEl = paddingBottom > 0 ? /* @__PURE__ */ import_react2.default.createElement(FillerRow, { height: paddingBottom, key: "padding-bottom", context }) : null;
+  const paddingTopEl = paddingTop > 0 ? /* @__PURE__ */ import_react13.default.createElement(FillerRow, { height: paddingTop, key: "padding-top", context }) : null;
+  const paddingBottomEl = paddingBottom > 0 ? /* @__PURE__ */ import_react13.default.createElement(FillerRow, { height: paddingBottom, key: "padding-bottom", context }) : null;
   const items = listState.items.map((item) => {
     const index = item.originalIndex;
     const key = computeItemKey(index + firstItemIndex, item.data, context);
     if (isSeeking) {
-      return import_react2.default.createElement(ScrollSeekPlaceholder, __spreadProps(__spreadValues({}, contextPropIfNotDomElement(ScrollSeekPlaceholder, context)), {
+      return import_react13.default.createElement(ScrollSeekPlaceholder, __spreadProps(__spreadValues({}, contextPropIfNotDomElement(ScrollSeekPlaceholder, context)), {
         key,
         index: item.index,
         height: item.size,
         type: item.type || "item"
       }));
     }
-    return import_react2.default.createElement(
+    return import_react13.default.createElement(
       TableRowComponent,
       __spreadProps(__spreadValues({}, contextPropIfNotDomElement(TableRowComponent, context)), {
         key,
@@ -45057,40 +46746,40 @@ var Items = /* @__PURE__ */ import_react2.default.memo(function VirtuosoItems2()
       itemContent(item.index, item.data, context)
     );
   });
-  return import_react2.default.createElement(
+  return import_react13.default.createElement(
     TableBodyComponent,
     __spreadValues({ ref: callbackRef, "data-test-id": "virtuoso-item-list" }, contextPropIfNotDomElement(TableBodyComponent, context)),
     [paddingTopEl, ...items, paddingBottomEl]
   );
 });
 var Viewport = ({ children }) => {
-  const ctx = import_react2.default.useContext(VirtuosoMockContext);
+  const ctx = import_react13.default.useContext(VirtuosoMockContext);
   const viewportHeight = usePublisher("viewportHeight");
   const fixedItemHeight = usePublisher("fixedItemHeight");
   const viewportRef = useSize(compose2(viewportHeight, (el) => correctItemSize(el, "height")));
-  import_react2.default.useEffect(() => {
+  import_react13.default.useEffect(() => {
     if (ctx) {
       viewportHeight(ctx.viewportHeight);
       fixedItemHeight(ctx.itemHeight);
     }
   }, [ctx, viewportHeight, fixedItemHeight]);
-  return /* @__PURE__ */ import_react2.default.createElement("div", { style: viewportStyle, ref: viewportRef, "data-viewport-type": "element" }, children);
+  return /* @__PURE__ */ import_react13.default.createElement("div", { style: viewportStyle, ref: viewportRef, "data-viewport-type": "element" }, children);
 };
 var WindowViewport = ({ children }) => {
-  const ctx = import_react2.default.useContext(VirtuosoMockContext);
+  const ctx = import_react13.default.useContext(VirtuosoMockContext);
   const windowViewportRect = usePublisher("windowViewportRect");
   const fixedItemHeight = usePublisher("fixedItemHeight");
   const customScrollParent = useEmitterValue("customScrollParent");
   const viewportRef = useWindowViewportRectRef(windowViewportRect, customScrollParent);
-  import_react2.default.useEffect(() => {
+  import_react13.default.useEffect(() => {
     if (ctx) {
       fixedItemHeight(ctx.itemHeight);
       windowViewportRect({ offsetTop: 0, visibleHeight: ctx.viewportHeight, visibleWidth: 100 });
     }
   }, [ctx, windowViewportRect, fixedItemHeight]);
-  return /* @__PURE__ */ import_react2.default.createElement("div", { ref: viewportRef, style: viewportStyle, "data-viewport-type": "window" }, children);
+  return /* @__PURE__ */ import_react13.default.createElement("div", { ref: viewportRef, style: viewportStyle, "data-viewport-type": "window" }, children);
 };
-var TableRoot = /* @__PURE__ */ import_react2.default.memo(function TableVirtuosoRoot(props) {
+var TableRoot = /* @__PURE__ */ import_react13.default.memo(function TableVirtuosoRoot(props) {
   const useWindowScroll = useEmitterValue("useWindowScroll");
   const customScrollParent = useEmitterValue("customScrollParent");
   const fixedHeaderHeight = usePublisher("fixedHeaderHeight");
@@ -45105,7 +46794,7 @@ var TableRoot = /* @__PURE__ */ import_react2.default.memo(function TableVirtuos
   const TheTable = useEmitterValue("TableComponent");
   const TheTHead = useEmitterValue("TableHeadComponent");
   const TheTFoot = useEmitterValue("TableFooterComponent");
-  const theHead = fixedHeaderContent ? import_react2.default.createElement(
+  const theHead = fixedHeaderContent ? import_react13.default.createElement(
     TheTHead,
     __spreadValues({
       key: "TableHead",
@@ -45114,7 +46803,7 @@ var TableRoot = /* @__PURE__ */ import_react2.default.memo(function TableVirtuos
     }, contextPropIfNotDomElement(TheTHead, context)),
     fixedHeaderContent()
   ) : null;
-  const theFoot = fixedFooterContent ? import_react2.default.createElement(
+  const theFoot = fixedFooterContent ? import_react13.default.createElement(
     TheTFoot,
     __spreadValues({
       key: "TableFoot",
@@ -45123,9 +46812,9 @@ var TableRoot = /* @__PURE__ */ import_react2.default.memo(function TableVirtuos
     }, contextPropIfNotDomElement(TheTFoot, context)),
     fixedFooterContent()
   ) : null;
-  return /* @__PURE__ */ import_react2.default.createElement(TheScroller, __spreadValues({}, props), /* @__PURE__ */ import_react2.default.createElement(TheViewport, null, import_react2.default.createElement(TheTable, __spreadValues({ style: { borderSpacing: 0 } }, contextPropIfNotDomElement(TheTable, context)), [
+  return /* @__PURE__ */ import_react13.default.createElement(TheScroller, __spreadValues({}, props), /* @__PURE__ */ import_react13.default.createElement(TheViewport, null, import_react13.default.createElement(TheTable, __spreadValues({ style: { borderSpacing: 0 } }, contextPropIfNotDomElement(TheTable, context)), [
     theHead,
-    /* @__PURE__ */ import_react2.default.createElement(Items, { key: "TableBody" }),
+    /* @__PURE__ */ import_react13.default.createElement(Items, { key: "TableBody" }),
     theFoot
   ])));
 });
@@ -45192,913 +46881,6 @@ var Scroller = /* @__PURE__ */ buildScroller({ usePublisher, useEmitterValue, us
 var WindowScroller = /* @__PURE__ */ buildWindowScroller({ usePublisher, useEmitterValue, useEmitter });
 var TableVirtuoso = Table;
 
-// src/shared/table-state/table-state-context.tsx
-var import_react11 = __toESM(require_react());
-
-// src/shared/logger.ts
-var import_react10 = __toESM(require_react());
-
-// node_modules/react-redux/es/index.js
-var import_shim = __toESM(require_shim());
-var import_with_selector = __toESM(require_with_selector());
-
-// node_modules/react-redux/es/utils/reactBatchedUpdates.js
-var import_react_dom2 = __toESM(require_react_dom());
-
-// node_modules/react-redux/es/utils/batch.js
-function defaultNoopBatch(callback) {
-  callback();
-}
-var batch = defaultNoopBatch;
-var setBatch = (newBatch) => batch = newBatch;
-var getBatch = () => batch;
-
-// node_modules/react-redux/es/hooks/useSelector.js
-var import_react5 = __toESM(require_react());
-
-// node_modules/react-redux/es/hooks/useReduxContext.js
-var import_react4 = __toESM(require_react());
-
-// node_modules/react-redux/es/components/Context.js
-var import_react3 = __toESM(require_react());
-var ReactReduxContext = /* @__PURE__ */ (0, import_react3.createContext)(null);
-if (true) {
-  ReactReduxContext.displayName = "ReactRedux";
-}
-
-// node_modules/react-redux/es/hooks/useReduxContext.js
-function useReduxContext() {
-  const contextValue = (0, import_react4.useContext)(ReactReduxContext);
-  if (!contextValue) {
-    throw new Error("could not find react-redux context value; please ensure the component is wrapped in a <Provider>");
-  }
-  return contextValue;
-}
-
-// node_modules/react-redux/es/utils/useSyncExternalStore.js
-var notInitialized = () => {
-  throw new Error("uSES not initialized!");
-};
-
-// node_modules/react-redux/es/hooks/useSelector.js
-var useSyncExternalStoreWithSelector = notInitialized;
-var initializeUseSelector = (fn2) => {
-  useSyncExternalStoreWithSelector = fn2;
-};
-var refEquality = (a2, b2) => a2 === b2;
-function createSelectorHook(context = ReactReduxContext) {
-  const useReduxContext2 = context === ReactReduxContext ? useReduxContext : () => (0, import_react5.useContext)(context);
-  return function useSelector2(selector, equalityFn = refEquality) {
-    if (true) {
-      if (!selector) {
-        throw new Error(`You must pass a selector to useSelector`);
-      }
-      if (typeof selector !== "function") {
-        throw new Error(`You must pass a function as a selector to useSelector`);
-      }
-      if (typeof equalityFn !== "function") {
-        throw new Error(`You must pass a function as an equality function to useSelector`);
-      }
-    }
-    const {
-      store: store2,
-      subscription,
-      getServerState
-    } = useReduxContext2();
-    const selectedState = useSyncExternalStoreWithSelector(subscription.addNestedSub, store2.getState, getServerState || store2.getState, selector, equalityFn);
-    (0, import_react5.useDebugValue)(selectedState);
-    return selectedState;
-  };
-}
-var useSelector = /* @__PURE__ */ createSelectorHook();
-
-// node_modules/react-redux/es/components/connect.js
-var import_hoist_non_react_statics = __toESM(require_hoist_non_react_statics_cjs());
-var import_react7 = __toESM(require_react());
-var import_react_is = __toESM(require_react_is2());
-
-// node_modules/react-redux/es/utils/Subscription.js
-function createListenerCollection() {
-  const batch2 = getBatch();
-  let first = null;
-  let last2 = null;
-  return {
-    clear() {
-      first = null;
-      last2 = null;
-    },
-    notify() {
-      batch2(() => {
-        let listener2 = first;
-        while (listener2) {
-          listener2.callback();
-          listener2 = listener2.next;
-        }
-      });
-    },
-    get() {
-      let listeners = [];
-      let listener2 = first;
-      while (listener2) {
-        listeners.push(listener2);
-        listener2 = listener2.next;
-      }
-      return listeners;
-    },
-    subscribe(callback) {
-      let isSubscribed = true;
-      let listener2 = last2 = {
-        callback,
-        next: null,
-        prev: last2
-      };
-      if (listener2.prev) {
-        listener2.prev.next = listener2;
-      } else {
-        first = listener2;
-      }
-      return function unsubscribe() {
-        if (!isSubscribed || first === null)
-          return;
-        isSubscribed = false;
-        if (listener2.next) {
-          listener2.next.prev = listener2.prev;
-        } else {
-          last2 = listener2.prev;
-        }
-        if (listener2.prev) {
-          listener2.prev.next = listener2.next;
-        } else {
-          first = listener2.next;
-        }
-      };
-    }
-  };
-}
-var nullListeners = {
-  notify() {
-  },
-  get: () => []
-};
-function createSubscription(store2, parentSub) {
-  let unsubscribe;
-  let listeners = nullListeners;
-  function addNestedSub(listener2) {
-    trySubscribe();
-    return listeners.subscribe(listener2);
-  }
-  function notifyNestedSubs() {
-    listeners.notify();
-  }
-  function handleChangeWrapper() {
-    if (subscription.onStateChange) {
-      subscription.onStateChange();
-    }
-  }
-  function isSubscribed() {
-    return Boolean(unsubscribe);
-  }
-  function trySubscribe() {
-    if (!unsubscribe) {
-      unsubscribe = parentSub ? parentSub.addNestedSub(handleChangeWrapper) : store2.subscribe(handleChangeWrapper);
-      listeners = createListenerCollection();
-    }
-  }
-  function tryUnsubscribe() {
-    if (unsubscribe) {
-      unsubscribe();
-      unsubscribe = void 0;
-      listeners.clear();
-      listeners = nullListeners;
-    }
-  }
-  const subscription = {
-    addNestedSub,
-    notifyNestedSubs,
-    handleChangeWrapper,
-    isSubscribed,
-    trySubscribe,
-    tryUnsubscribe,
-    getListeners: () => listeners
-  };
-  return subscription;
-}
-
-// node_modules/react-redux/es/utils/useIsomorphicLayoutEffect.js
-var import_react6 = __toESM(require_react());
-var canUseDOM = !!(typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined");
-var useIsomorphicLayoutEffect2 = canUseDOM ? import_react6.useLayoutEffect : import_react6.useEffect;
-
-// node_modules/react-redux/es/components/connect.js
-var useSyncExternalStore = notInitialized;
-var initializeConnect = (fn2) => {
-  useSyncExternalStore = fn2;
-};
-
-// node_modules/react-redux/es/components/Provider.js
-var import_react8 = __toESM(require_react());
-function Provider({
-  store: store2,
-  context,
-  children,
-  serverState
-}) {
-  const contextValue = (0, import_react8.useMemo)(() => {
-    const subscription = createSubscription(store2);
-    return {
-      store: store2,
-      subscription,
-      getServerState: serverState ? () => serverState : void 0
-    };
-  }, [store2, serverState]);
-  const previousState = (0, import_react8.useMemo)(() => store2.getState(), [store2]);
-  useIsomorphicLayoutEffect2(() => {
-    const {
-      subscription
-    } = contextValue;
-    subscription.onStateChange = subscription.notifyNestedSubs;
-    subscription.trySubscribe();
-    if (previousState !== store2.getState()) {
-      subscription.notifyNestedSubs();
-    }
-    return () => {
-      subscription.tryUnsubscribe();
-      subscription.onStateChange = void 0;
-    };
-  }, [contextValue, previousState]);
-  const Context = context || ReactReduxContext;
-  return /* @__PURE__ */ import_react8.default.createElement(Context.Provider, {
-    value: contextValue
-  }, children);
-}
-var Provider_default = Provider;
-
-// node_modules/react-redux/es/hooks/useStore.js
-var import_react9 = __toESM(require_react());
-
-// node_modules/react-redux/es/index.js
-initializeUseSelector(import_with_selector.useSyncExternalStoreWithSelector);
-initializeConnect(import_shim.useSyncExternalStore);
-setBatch(import_react_dom2.unstable_batchedUpdates);
-
-// src/redux/global/hooks.ts
-var useAppSelector = useSelector;
-
-// src/shared/logger.ts
-var log = (shouldDebug) => (message, args = {}) => {
-  if (shouldDebug) {
-    console.log(message);
-    if (Object.keys(args).length !== 0)
-      console.log(args);
-  }
-};
-var useLogger = () => {
-  const { shouldDebug } = useAppSelector((state) => state.global);
-  const logger = import_react10.default.useCallback(
-    (message, args) => log(shouldDebug)(message, args),
-    [shouldDebug]
-  );
-  return logger;
-};
-
-// src/shared/table-state/table-error.ts
-var ColumNotFoundError = class extends Error {
-  constructor(id2) {
-    super(`Column ${id2} was not found`);
-    this.name = "ColumNotFoundError";
-  }
-};
-var TagNotFoundError = class extends Error {
-  constructor(id2) {
-    super(`Tag ${id2} was not found`);
-    this.name = "TagNotFoundError";
-  }
-};
-var RowNotFoundError = class extends Error {
-  constructor(id2) {
-    super(`Row ${id2} was not found`);
-    this.name = "RowNotFoundError";
-  }
-};
-var CellNotFoundError = class extends Error {
-  constructor(options) {
-    const { id: id2, rowId, columnId } = options || {};
-    if (rowId || columnId)
-      super(`Cell ${rowId}:${columnId} was not found`);
-    super(`Cell ${id2} was not found`);
-    this.name = "CellNotFoundError";
-  }
-};
-
-// src/shared/commands/command-errors.ts
-var CommandUndoError = class extends Error {
-  constructor() {
-    super(`execute() must be called before undo() is available`);
-    this.name = "CommandUndoError";
-  }
-};
-var CommandRedoError = class extends Error {
-  constructor() {
-    super(`undo() must be called before redo() is available`);
-    this.name = "CommandRedoError";
-  }
-};
-var DeleteCommandArgumentsError = class extends Error {
-  constructor() {
-    super(`Either 'id' or 'last' must be defined`);
-    this.name = "DeleteCommandArgumentsError";
-  }
-};
-
-// src/shared/table-state/table-state-command.ts
-var TableStateCommand = class {
-  constructor(shouldSortRows = false) {
-    __publicField(this, "shouldSortRows");
-    __publicField(this, "hasExecuteBeenCalled");
-    __publicField(this, "hasUndoBeenCalled");
-    this.hasExecuteBeenCalled = false;
-    this.hasUndoBeenCalled = false;
-    this.shouldSortRows = shouldSortRows;
-  }
-  onExecute() {
-    this.hasExecuteBeenCalled = true;
-  }
-  onRedo() {
-    if (!this.hasUndoBeenCalled)
-      throw new CommandRedoError();
-    this.hasUndoBeenCalled = false;
-  }
-  onUndo() {
-    if (!this.hasExecuteBeenCalled)
-      throw new CommandUndoError();
-    this.hasUndoBeenCalled = true;
-  }
-};
-
-// src/shared/types/index.ts
-var Color = /* @__PURE__ */ ((Color2) => {
-  Color2["LIGHT_GRAY"] = "light gray";
-  Color2["GRAY"] = "gray";
-  Color2["BROWN"] = "brown";
-  Color2["ORANGE"] = "orange";
-  Color2["YELLOW"] = "yellow";
-  Color2["GREEN"] = "green";
-  Color2["BLUE"] = "blue";
-  Color2["PURPLE"] = "purple";
-  Color2["PINK"] = "pink";
-  Color2["RED"] = "red";
-  return Color2;
-})(Color || {});
-var PaddingSize = /* @__PURE__ */ ((PaddingSize5) => {
-  PaddingSize5["SM"] = "sm";
-  PaddingSize5["MD"] = "md";
-  PaddingSize5["LG"] = "lg";
-  PaddingSize5["XL"] = "xl";
-  PaddingSize5["XXL"] = "2xl";
-  PaddingSize5["XXXL"] = "3xl";
-  PaddingSize5["XXXXL"] = "4xl";
-  PaddingSize5["UNSET"] = "unset";
-  return PaddingSize5;
-})(PaddingSize || {});
-var CellType = /* @__PURE__ */ ((CellType5) => {
-  CellType5["TEXT"] = "text";
-  CellType5["EMBED"] = "embed";
-  CellType5["FILE"] = "file";
-  CellType5["NUMBER"] = "number";
-  CellType5["CURRENCY"] = "currency";
-  CellType5["TAG"] = "tag";
-  CellType5["MULTI_TAG"] = "multi-tag";
-  CellType5["DATE"] = "date";
-  CellType5["CHECKBOX"] = "checkbox";
-  CellType5["CREATION_TIME"] = "creation-time";
-  CellType5["LAST_EDITED_TIME"] = "last-edited-time";
-  return CellType5;
-})(CellType || {});
-var DateFormat = /* @__PURE__ */ ((DateFormat9) => {
-  DateFormat9["MM_DD_YYYY"] = "mm/dd/yyyy";
-  DateFormat9["DD_MM_YYYY"] = "dd/mm/yyyy";
-  DateFormat9["YYYY_MM_DD"] = "yyyy/mm/dd";
-  DateFormat9["FULL"] = "full";
-  DateFormat9["RELATIVE"] = "relative";
-  return DateFormat9;
-})(DateFormat || {});
-var CurrencyType = /* @__PURE__ */ ((CurrencyType9) => {
-  CurrencyType9["UNITED_STATES"] = "USD";
-  CurrencyType9["CANADA"] = "CAD";
-  CurrencyType9["SINGAPORE"] = "SGB";
-  CurrencyType9["EUROPE"] = "EUR";
-  CurrencyType9["SWEDEN"] = "SEK";
-  CurrencyType9["DENMARK"] = "DKK";
-  CurrencyType9["NORWAY"] = "NOK";
-  CurrencyType9["ICELAND"] = "ISK";
-  CurrencyType9["POUND"] = "GBP";
-  CurrencyType9["RUSSIA"] = "RUB";
-  CurrencyType9["AUSTRALIA"] = "AUD";
-  CurrencyType9["JAPAN"] = "JPY";
-  CurrencyType9["INDIA"] = "INR";
-  CurrencyType9["CHINA"] = "CNY";
-  CurrencyType9["BRAZIL"] = "BRL";
-  CurrencyType9["COLOMBIA"] = "COP";
-  CurrencyType9["MEXICO"] = "MXN";
-  CurrencyType9["ARGENTINA"] = "ARS";
-  return CurrencyType9;
-})(CurrencyType || {});
-var GeneralFunction = /* @__PURE__ */ ((GeneralFunction3) => {
-  GeneralFunction3["NONE"] = "none";
-  GeneralFunction3["COUNT_ALL"] = "count-all";
-  GeneralFunction3["COUNT_VALUES"] = "count-values";
-  GeneralFunction3["COUNT_UNIQUE"] = "count-unique";
-  GeneralFunction3["COUNT_EMPTY"] = "count-empty";
-  GeneralFunction3["COUNT_NOT_EMPTY"] = "count-not-empty";
-  GeneralFunction3["PERCENT_EMPTY"] = "percent-empty";
-  GeneralFunction3["PERCENT_NOT_EMPTY"] = "percent-not-empty";
-  return GeneralFunction3;
-})(GeneralFunction || {});
-var NumberFunction = /* @__PURE__ */ ((NumberFunction2) => {
-  NumberFunction2["SUM"] = "sum";
-  NumberFunction2["AVG"] = "avg";
-  NumberFunction2["MIN"] = "min";
-  NumberFunction2["MAX"] = "max";
-  NumberFunction2["MEDIAN"] = "median";
-  NumberFunction2["RANGE"] = "range";
-  return NumberFunction2;
-})(NumberFunction || {});
-var AspectRatio = /* @__PURE__ */ ((AspectRatio5) => {
-  AspectRatio5["ONE_BY_ONE"] = "1/1";
-  AspectRatio5["NINE_BY_SIXTEEN"] = "9/16";
-  AspectRatio5["FOUR_BY_THREE"] = "4/3";
-  AspectRatio5["SIXTEEN_BY_NINE"] = "16/9";
-  return AspectRatio5;
-})(AspectRatio || {});
-
-// src/shared/regex.ts
-var NUMBER_REGEX = new RegExp(/^-?\d+\.?\d*$/);
-var NUMBER_INPUT_REGEX = new RegExp(/(^$)|(^-$)|(^-?\d+\.?\d*$)/);
-var CSS_MEASUREMENT_PIXEL_REGEX = new RegExp(/^([1-9])([0-9]*)px$/);
-var DATE_REGEX = new RegExp(/^\d{4}\/\d{2}\/\d{2}$/);
-var CHECKBOX_REGEX = new RegExp(/^\[[x ]{0,1}\]$/);
-var CHECKBOX_CHECKED_REGEX = new RegExp(/^\[[x]\]$/);
-var URL_REGEX = new RegExp(
-  /^https?:\/\/(www\.)?[\w.-]+\.[\w.-]+(\/[\w.-]+)*(\/?(\?[\w.-]+=[\w.-]+(&[\w.-]+=[\w.-]+)*)?)?$/i
-);
-
-// src/shared/validators.ts
-var isNumber = (input) => {
-  return input.match(NUMBER_REGEX) !== null;
-};
-var isValidNumberInput = (input) => {
-  return input.match(NUMBER_INPUT_REGEX) !== null;
-};
-var isCheckbox = (input) => {
-  return input.match(CHECKBOX_REGEX) !== null;
-};
-var isCheckboxChecked = (input) => {
-  return input.match(CHECKBOX_CHECKED_REGEX) !== null;
-};
-var isURL = (input) => {
-  return input.match(URL_REGEX) !== null;
-};
-var isGeneralFunction = (value) => {
-  return Object.values(GeneralFunction).includes(value);
-};
-var isNumberFunction = (value) => {
-  return Object.values(NumberFunction).includes(value);
-};
-
-// src/shared/commands/row-sort-command.ts
-var RowSortCommand = class extends TableStateCommand {
-  constructor() {
-    super(...arguments);
-    __publicField(this, "previousRowSort", []);
-  }
-  sortByTag(columnId, columns, rows, cells, sortDir) {
-    const newRows = [...rows];
-    newRows.sort((a2, b2) => {
-      const cellA = cells.find(
-        (c2) => c2.columnId === columnId && c2.rowId === a2.id
-      );
-      if (!cellA)
-        throw new CellNotFoundError({ rowId: a2.id, columnId });
-      const cellB = cells.find(
-        (c2) => c2.columnId === columnId && c2.rowId === b2.id
-      );
-      if (!cellB)
-        throw new CellNotFoundError({ rowId: b2.id, columnId });
-      const column = columns.find((c2) => c2.id === columnId);
-      if (!column)
-        throw new ColumNotFoundError(columnId);
-      if (cellA.tagIds.length === 0 && cellB.tagIds.length > 0)
-        return 1;
-      if (cellA.tagIds.length > 0 && cellB.tagIds.length === 0)
-        return -1;
-      if (cellA.tagIds.length === 0 && cellB.tagIds.length === 0)
-        return 0;
-      let tagLength = cellA.tagIds.length;
-      if (cellB.tagIds.length > cellA.tagIds.length) {
-        tagLength = cellB.tagIds.length;
-      }
-      for (let i2 = 0; i2 < tagLength; i2++) {
-        const tagIdA = cellA.tagIds[i2];
-        if (tagIdA === void 0)
-          return -1;
-        const tagA = column.tags.find((t2) => t2.id === tagIdA);
-        if (!tagA)
-          throw new TagNotFoundError(tagIdA);
-        const tagIdB = cellB.tagIds[i2];
-        if (tagIdB === void 0)
-          return 1;
-        const tagB = column.tags.find((t2) => t2.id === tagIdB);
-        if (!tagB)
-          throw new TagNotFoundError(tagIdA);
-        if (sortDir === "asc" /* ASC */) {
-          const result = tagA.markdown.localeCompare(tagB.markdown);
-          if (result !== 0)
-            return result;
-        } else if (sortDir === "desc" /* DESC */) {
-          const result = tagB.markdown.localeCompare(tagA.markdown);
-          if (result !== 0)
-            return result;
-        }
-      }
-      return 0;
-    });
-    return newRows;
-  }
-  sortByMarkdown(columnId, rows, cells, sortDir) {
-    const newRows = [...rows];
-    newRows.sort((a2, b2) => {
-      const cellA = cells.find(
-        (c2) => c2.columnId === columnId && c2.rowId === a2.id
-      );
-      if (!cellA)
-        throw new CellNotFoundError({
-          rowId: a2.id,
-          columnId
-        });
-      const cellB = cells.find(
-        (c2) => c2.columnId === columnId && c2.rowId === b2.id
-      );
-      if (!cellB)
-        throw new CellNotFoundError({
-          rowId: b2.id,
-          columnId
-        });
-      const markdownA = cellA.markdown;
-      const markdownB = cellB.markdown;
-      if (markdownA === "" && markdownB !== "")
-        return 1;
-      if (markdownA !== "" && markdownB === "")
-        return -1;
-      if (markdownA === "" && markdownB === "")
-        return 0;
-      if (sortDir === "asc" /* ASC */) {
-        return markdownA.localeCompare(markdownB);
-      } else if (sortDir === "desc" /* DESC */) {
-        return markdownB.localeCompare(markdownA);
-      } else {
-        return 0;
-      }
-    });
-    return newRows;
-  }
-  sortByNumber(columnId, rows, cells, sortDir) {
-    const newRows = [...rows];
-    newRows.sort((a2, b2) => {
-      const cellA = cells.find(
-        (c2) => c2.columnId === columnId && c2.rowId === a2.id
-      );
-      if (!cellA)
-        throw new CellNotFoundError({
-          rowId: a2.id,
-          columnId
-        });
-      const cellB = cells.find(
-        (c2) => c2.columnId === columnId && c2.rowId === b2.id
-      );
-      if (!cellB)
-        throw new CellNotFoundError({
-          rowId: b2.id,
-          columnId
-        });
-      const markdownA = cellA.markdown;
-      const markdownB = cellB.markdown;
-      if (markdownA === "" && markdownB !== "")
-        return 1;
-      if (markdownA !== "" && markdownB === "")
-        return -1;
-      if (markdownA === "" && markdownB === "")
-        return 0;
-      if (sortDir === "asc" /* ASC */) {
-        return parseFloat(markdownA) - parseFloat(markdownB);
-      } else if (sortDir === "desc" /* DESC */) {
-        return parseFloat(markdownB) - parseFloat(markdownA);
-      } else {
-        return 0;
-      }
-    });
-    return newRows;
-  }
-  sortByCheckbox(columnId, rows, cells, sortDir) {
-    const newRows = [...rows];
-    newRows.sort((a2, b2) => {
-      const cellA = cells.find(
-        (c2) => c2.columnId === columnId && c2.rowId === a2.id
-      );
-      if (!cellA)
-        throw new CellNotFoundError({
-          rowId: a2.id,
-          columnId
-        });
-      const cellB = cells.find(
-        (c2) => c2.columnId === columnId && c2.rowId === b2.id
-      );
-      if (!cellB)
-        throw new CellNotFoundError({
-          rowId: b2.id,
-          columnId
-        });
-      const isCheckedA = isCheckboxChecked(cellA.markdown);
-      const isCheckedB = isCheckboxChecked(cellB.markdown);
-      if (sortDir === "asc" /* ASC */) {
-        if (isCheckedA && !isCheckedB)
-          return 1;
-        if (!isCheckedA && isCheckedB)
-          return -1;
-        return 0;
-      } else if (sortDir === "desc" /* DESC */) {
-        if (!isCheckedA && isCheckedB)
-          return 1;
-        if (isCheckedA && !isCheckedB)
-          return -1;
-        return 0;
-      } else {
-        return 0;
-      }
-    });
-    return newRows;
-  }
-  sortByDate(columnId, rows, cells, sortDir) {
-    const newRows = [...rows];
-    newRows.sort((a2, b2) => {
-      const cellA = cells.find(
-        (c2) => c2.columnId === columnId && c2.rowId === a2.id
-      );
-      if (!cellA)
-        throw new CellNotFoundError({
-          rowId: a2.id,
-          columnId
-        });
-      const cellB = cells.find(
-        (c2) => c2.columnId === columnId && c2.rowId === b2.id
-      );
-      if (!cellB)
-        throw new CellNotFoundError({
-          rowId: b2.id,
-          columnId
-        });
-      const dateTimeA = cellA.dateTime || 0;
-      const dateTimeB = cellB.dateTime || 0;
-      if (sortDir === "asc" /* ASC */) {
-        return dateTimeA - dateTimeB;
-      } else if (sortDir === "desc" /* DESC */) {
-        return dateTimeB - dateTimeA;
-      } else {
-        return 0;
-      }
-    });
-    return newRows;
-  }
-  sortByCreationTime(rows, sortDir) {
-    const newRows = [...rows];
-    newRows.sort((a2, b2) => {
-      if (sortDir === "asc" /* ASC */) {
-        return a2.creationTime - b2.creationTime;
-      } else if (sortDir === "desc" /* DESC */) {
-        return b2.creationTime - a2.creationTime;
-      } else {
-        return 0;
-      }
-    });
-    return newRows;
-  }
-  sortByLastEditedTime(rows, sortDir) {
-    const newRows = [...rows];
-    newRows.sort((a2, b2) => {
-      if (sortDir === "asc" /* ASC */) {
-        return a2.lastEditedTime - b2.lastEditedTime;
-      } else if (sortDir === "desc" /* DESC */) {
-        return b2.lastEditedTime - a2.lastEditedTime;
-      } else {
-        return 0;
-      }
-    });
-    return newRows;
-  }
-  sortByDir(columnId, columnType, sortDir, columns, rows, cells) {
-    if (columnType === "number" /* NUMBER */ || columnType === "currency" /* CURRENCY */) {
-      return this.sortByNumber(columnId, rows, cells, sortDir);
-    } else if (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */) {
-      return this.sortByTag(columnId, columns, rows, cells, sortDir);
-    } else if (columnType === "date" /* DATE */) {
-      return this.sortByDate(columnId, rows, cells, sortDir);
-    } else if (columnType === "last-edited-time" /* LAST_EDITED_TIME */) {
-      return this.sortByLastEditedTime(rows, sortDir);
-    } else if (columnType === "creation-time" /* CREATION_TIME */) {
-      return this.sortByCreationTime(rows, sortDir);
-    } else if (columnType === "checkbox" /* CHECKBOX */) {
-      return this.sortByCheckbox(columnId, rows, cells, sortDir);
-    } else {
-      return this.sortByMarkdown(columnId, rows, cells, sortDir);
-    }
-  }
-  sortByIndex(rows) {
-    const newRows = [...rows];
-    newRows.sort((a2, b2) => {
-      return a2.index - b2.index;
-    });
-    return newRows;
-  }
-  execute(prevState) {
-    super.onExecute();
-    const { columns, bodyRows, bodyCells } = prevState.model;
-    const sortedColumn = columns.find(
-      (columns2) => columns2.sortDir !== "default" /* NONE */
-    );
-    this.previousRowSort = bodyRows.map((row) => ({
-      id: row.id,
-      index: row.index
-    }));
-    let newBodyRows = [...bodyRows];
-    if (sortedColumn) {
-      newBodyRows = this.sortByDir(
-        sortedColumn.id,
-        sortedColumn.type,
-        sortedColumn.sortDir,
-        columns,
-        bodyRows,
-        bodyCells
-      );
-    } else {
-      newBodyRows = this.sortByIndex(bodyRows);
-    }
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        bodyRows: newBodyRows
-      })
-    });
-  }
-  redo(prevState) {
-    super.onRedo();
-    return this.execute(prevState);
-  }
-  undo(prevState) {
-    super.onUndo();
-    const { bodyRows } = prevState.model;
-    const newBodyRows = this.previousRowSort.map((prev) => {
-      const row = bodyRows.find((row2) => row2.id === prev.id);
-      if (!row)
-        throw new RowNotFoundError(prev.id);
-      return __spreadProps(__spreadValues({}, row), {
-        index: prev.index
-      });
-    });
-    return __spreadProps(__spreadValues({}, prevState), {
-      model: __spreadProps(__spreadValues({}, prevState.model), {
-        bodyRows: newBodyRows
-      })
-    });
-  }
-};
-
-// src/shared/table-state/table-state-context.tsx
-var TableStateContext = import_react11.default.createContext(null);
-var useTableState = () => {
-  const value = import_react11.default.useContext(TableStateContext);
-  if (value === null) {
-    throw new Error(
-      "useTableState() called without a <TableStateProvider /> in the tree."
-    );
-  }
-  return value;
-};
-function TableStateProvider({
-  initialState: initialState2,
-  onSaveState,
-  children
-}) {
-  const [tableState, setTableState] = import_react11.default.useState(initialState2);
-  const [searchText, setSearchText] = import_react11.default.useState("");
-  const [isSearchBarVisible, setSearchBarVisible] = import_react11.default.useState(false);
-  const [resizingColumnId, setResizingColumnId] = import_react11.default.useState(null);
-  const [history, setHistory] = import_react11.default.useState([
-    null
-  ]);
-  const [position, setPosition] = import_react11.default.useState(0);
-  const logger = useLogger();
-  const { appId } = useMountState();
-  const isMountedRef = import_react11.default.useRef(false);
-  import_react11.default.useEffect(() => {
-    if (!isMountedRef.current) {
-      isMountedRef.current = true;
-      return;
-    }
-    onSaveState(appId, tableState);
-  }, [appId, tableState, onSaveState]);
-  function handleToggleSearchBar() {
-    setSearchBarVisible((prevState) => !prevState);
-  }
-  const undo = import_react11.default.useCallback(() => {
-    if (position > 0) {
-      logger("handleUndoEvent");
-      const currentPosition = position - 1;
-      setPosition(currentPosition);
-      const command = history[position];
-      if (command !== null) {
-        logger(command.constructor.name + ".undo");
-        let newState = command.undo(tableState);
-        if (command.shouldSortRows) {
-          newState = new RowSortCommand().execute(newState);
-        }
-        setTableState(newState);
-      }
-    }
-  }, [position, history, tableState, logger]);
-  const redo = import_react11.default.useCallback(() => {
-    if (position < history.length - 1) {
-      logger("handleRedoEvent");
-      const currentPosition = position + 1;
-      setPosition(currentPosition);
-      const command = history[currentPosition];
-      if (command !== null) {
-        logger(command.constructor.name + ".redo");
-        let newState = command.redo(tableState);
-        if (command.shouldSortRows) {
-          newState = new RowSortCommand().execute(newState);
-        }
-        setTableState(newState);
-      }
-    }
-  }, [position, history, tableState, logger]);
-  const doCommand = import_react11.default.useCallback(
-    (command) => {
-      setHistory((prevState) => {
-        if (position < history.length - 1) {
-          const newState2 = prevState.slice(0, position + 1);
-          return [...newState2, command];
-        } else {
-          return [...prevState, command];
-        }
-      });
-      setPosition((prevState) => prevState + 1);
-      let newState = command.execute(tableState);
-      if (command.shouldSortRows) {
-        newState = new RowSortCommand().execute(newState);
-      }
-      setTableState(newState);
-    },
-    [position, history, tableState]
-  );
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TableStateContext.Provider, {
-    value: {
-      tableState,
-      setTableState,
-      doCommand,
-      commandRedo: redo,
-      commandUndo: undo,
-      isSearchBarVisible,
-      searchText,
-      resizingColumnId,
-      setResizingColumnId,
-      toggleSearchBar: handleToggleSearchBar,
-      setSearchText
-    },
-    children
-  });
-}
-
-// src/shared/dragging/drag-context.tsx
-var import_react12 = __toESM(require_react());
-var DragContext = import_react12.default.createContext(null);
-var useDragContext = () => {
-  const value = import_react12.default.useContext(DragContext);
-  if (value === null) {
-    throw new Error(
-      "useDragContext() called without a <DragProvider /> in the tree."
-    );
-  }
-  return value;
-};
-function DragProvider({ children }) {
-  const [dragData, setDragData] = import_react12.default.useState(null);
-  const [touchDropZone, setTouchDropZone] = import_react12.default.useState(
-    null
-  );
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(DragContext.Provider, {
-    value: { dragData, touchDropZone, setDragData, setTouchDropZone },
-    children
-  });
-}
-
 // src/shared/dragging/utils.ts
 var getRowId = (rowEl) => {
   const td = rowEl.firstChild;
@@ -46107,12 +46889,12 @@ var getRowId = (rowEl) => {
   const id2 = td.getAttribute("data-row-id");
   return id2 != null ? id2 : null;
 };
-var dropDrag = (targetRowId, dragData, tableState, onTableStateChange) => {
+var dropDrag = (targetRowId, dragData, LoomState8, onLoomStateChange) => {
   if (dragData === null)
     throw Error("No drag data found");
   if (dragData.type !== "row")
     return;
-  const { columns } = tableState.model;
+  const { columns } = LoomState8.model;
   const isSorted = columns.find((column) => column.sortDir !== "default" /* NONE */);
   if (isSorted) {
     if (!window.confirm(
@@ -46120,7 +46902,7 @@ var dropDrag = (targetRowId, dragData, tableState, onTableStateChange) => {
     ))
       return;
   }
-  onTableStateChange((prevState) => {
+  onLoomStateChange((prevState) => {
     const { bodyRows, columns: columns2 } = prevState.model;
     const draggedElIndex = bodyRows.findIndex(
       (row) => row.id === dragData.id
@@ -46148,7 +46930,7 @@ var dropDrag = (targetRowId, dragData, tableState, onTableStateChange) => {
   });
 };
 
-// src/react/table-app/table/table-body-row.tsx
+// src/react/loom-app/table/table-body-row.tsx
 function TableBodyRow(_a) {
   var _b = _a, {
     style,
@@ -46157,7 +46939,7 @@ function TableBodyRow(_a) {
     "style",
     "children"
   ]);
-  const { tableState, setTableState } = useTableState();
+  const { LoomState: LoomState8, setLoomState } = useLoomState();
   const { dragData, setDragData } = useDragContext();
   function handleDragStart(e) {
     const el = e.target;
@@ -46180,7 +46962,7 @@ function TableBodyRow(_a) {
     const targetId = getRowId(target);
     if (!targetId)
       return;
-    dropDrag(targetId, dragData, tableState, setTableState);
+    dropDrag(targetId, dragData, LoomState8, setLoomState);
   }
   function handleDragOver(e) {
     e.preventDefault();
@@ -46199,7 +46981,7 @@ function TableBodyRow(_a) {
 // node_modules/@emotion/react/dist/emotion-react.cjs.mjs
 var import_emotion_react_cjs = __toESM(require_emotion_react_cjs(), 1);
 
-// src/react/table-app/table/table-header-cell.tsx
+// src/react/loom-app/table/table-header-cell.tsx
 var cellStyle = import_emotion_react_cjs.css`
 	position: sticky;
 	top: 0;
@@ -46212,7 +46994,7 @@ var cellStyle = import_emotion_react_cjs.css`
 	font-weight: 400;
 	overflow: visible;
 	text-align: start;
-	color: var(--text-normal); //Prevents dimming on hover in embedded table
+	color: var(--text-normal); //Prevents dimming on hover in embedded loom
 
 	&:first-of-type {
 		border-top: 0;
@@ -46232,7 +47014,7 @@ function TableHeaderCell({
   content,
   isDraggable
 }) {
-  const { setTableState } = useTableState();
+  const { setLoomState } = useLoomState();
   const { dragData, touchDropZone, setDragData, setTouchDropZone } = useDragContext();
   function startDrag(el) {
     const columnId2 = getColumnId(el);
@@ -46248,7 +47030,7 @@ function TableHeaderCell({
       throw new Error("No drag data found");
     if (dragData.type !== "column")
       return;
-    setTableState((prevState) => {
+    setLoomState((prevState) => {
       const { columns } = prevState.model;
       const draggedElIndex = columns.findIndex(
         (column) => column.id === dragData.id
@@ -46271,13 +47053,13 @@ function TableHeaderCell({
     const child = thEl.firstChild;
     if (!child)
       return;
-    if (child.classList.contains("NLT__focusable"))
-      thEl.classList.add("NLT__th--drag-over");
+    if (child.classList.contains("DataLoom__focusable"))
+      thEl.classList.add("DataLoom__th--drag-over");
   }
   function removeDragHover() {
-    const el = document.querySelector(".NLT__th--drag-over");
+    const el = document.querySelector(".DataLoom__th--drag-over");
     if (el)
-      el.classList.remove("NLT__th--drag-over");
+      el.classList.remove("DataLoom__th--drag-over");
   }
   function getColumnId(columnEl) {
     const id2 = columnEl.getAttribute("data-column-id");
@@ -46373,221 +47155,10 @@ function TableHeaderCell({
 }
 
 // src/shared/hooks.ts
-var import_react14 = __toESM(require_react());
-
-// node_modules/uuid/dist/esm-browser/rng.js
-var getRandomValues;
-var rnds8 = new Uint8Array(16);
-function rng() {
-  if (!getRandomValues) {
-    getRandomValues = typeof crypto !== "undefined" && crypto.getRandomValues && crypto.getRandomValues.bind(crypto);
-    if (!getRandomValues) {
-      throw new Error("crypto.getRandomValues() not supported. See https://github.com/uuidjs/uuid#getrandomvalues-not-supported");
-    }
-  }
-  return getRandomValues(rnds8);
-}
-
-// node_modules/uuid/dist/esm-browser/regex.js
-var regex_default = /^(?:[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}|00000000-0000-0000-0000-000000000000)$/i;
-
-// node_modules/uuid/dist/esm-browser/validate.js
-function validate(uuid) {
-  return typeof uuid === "string" && regex_default.test(uuid);
-}
-var validate_default = validate;
-
-// node_modules/uuid/dist/esm-browser/stringify.js
-var byteToHex = [];
-for (let i2 = 0; i2 < 256; ++i2) {
-  byteToHex.push((i2 + 256).toString(16).slice(1));
-}
-function unsafeStringify(arr, offset = 0) {
-  return (byteToHex[arr[offset + 0]] + byteToHex[arr[offset + 1]] + byteToHex[arr[offset + 2]] + byteToHex[arr[offset + 3]] + "-" + byteToHex[arr[offset + 4]] + byteToHex[arr[offset + 5]] + "-" + byteToHex[arr[offset + 6]] + byteToHex[arr[offset + 7]] + "-" + byteToHex[arr[offset + 8]] + byteToHex[arr[offset + 9]] + "-" + byteToHex[arr[offset + 10]] + byteToHex[arr[offset + 11]] + byteToHex[arr[offset + 12]] + byteToHex[arr[offset + 13]] + byteToHex[arr[offset + 14]] + byteToHex[arr[offset + 15]]).toLowerCase();
-}
-
-// node_modules/uuid/dist/esm-browser/parse.js
-function parse(uuid) {
-  if (!validate_default(uuid)) {
-    throw TypeError("Invalid UUID");
-  }
-  let v2;
-  const arr = new Uint8Array(16);
-  arr[0] = (v2 = parseInt(uuid.slice(0, 8), 16)) >>> 24;
-  arr[1] = v2 >>> 16 & 255;
-  arr[2] = v2 >>> 8 & 255;
-  arr[3] = v2 & 255;
-  arr[4] = (v2 = parseInt(uuid.slice(9, 13), 16)) >>> 8;
-  arr[5] = v2 & 255;
-  arr[6] = (v2 = parseInt(uuid.slice(14, 18), 16)) >>> 8;
-  arr[7] = v2 & 255;
-  arr[8] = (v2 = parseInt(uuid.slice(19, 23), 16)) >>> 8;
-  arr[9] = v2 & 255;
-  arr[10] = (v2 = parseInt(uuid.slice(24, 36), 16)) / 1099511627776 & 255;
-  arr[11] = v2 / 4294967296 & 255;
-  arr[12] = v2 >>> 24 & 255;
-  arr[13] = v2 >>> 16 & 255;
-  arr[14] = v2 >>> 8 & 255;
-  arr[15] = v2 & 255;
-  return arr;
-}
-var parse_default = parse;
-
-// node_modules/uuid/dist/esm-browser/v35.js
-function stringToBytes(str) {
-  str = unescape(encodeURIComponent(str));
-  const bytes = [];
-  for (let i2 = 0; i2 < str.length; ++i2) {
-    bytes.push(str.charCodeAt(i2));
-  }
-  return bytes;
-}
-var DNS = "6ba7b810-9dad-11d1-80b4-00c04fd430c8";
-var URL = "6ba7b811-9dad-11d1-80b4-00c04fd430c8";
-function v35(name, version, hashfunc) {
-  function generateUUID(value, namespace, buf, offset) {
-    var _namespace;
-    if (typeof value === "string") {
-      value = stringToBytes(value);
-    }
-    if (typeof namespace === "string") {
-      namespace = parse_default(namespace);
-    }
-    if (((_namespace = namespace) === null || _namespace === void 0 ? void 0 : _namespace.length) !== 16) {
-      throw TypeError("Namespace must be array-like (16 iterable integer values, 0-255)");
-    }
-    let bytes = new Uint8Array(16 + value.length);
-    bytes.set(namespace);
-    bytes.set(value, namespace.length);
-    bytes = hashfunc(bytes);
-    bytes[6] = bytes[6] & 15 | version;
-    bytes[8] = bytes[8] & 63 | 128;
-    if (buf) {
-      offset = offset || 0;
-      for (let i2 = 0; i2 < 16; ++i2) {
-        buf[offset + i2] = bytes[i2];
-      }
-      return buf;
-    }
-    return unsafeStringify(bytes);
-  }
-  try {
-    generateUUID.name = name;
-  } catch (err) {
-  }
-  generateUUID.DNS = DNS;
-  generateUUID.URL = URL;
-  return generateUUID;
-}
-
-// node_modules/uuid/dist/esm-browser/native.js
-var randomUUID = typeof crypto !== "undefined" && crypto.randomUUID && crypto.randomUUID.bind(crypto);
-var native_default = {
-  randomUUID
-};
-
-// node_modules/uuid/dist/esm-browser/v4.js
-function v4(options, buf, offset) {
-  if (native_default.randomUUID && !buf && !options) {
-    return native_default.randomUUID();
-  }
-  options = options || {};
-  const rnds = options.random || (options.rng || rng)();
-  rnds[6] = rnds[6] & 15 | 64;
-  rnds[8] = rnds[8] & 63 | 128;
-  if (buf) {
-    offset = offset || 0;
-    for (let i2 = 0; i2 < 16; ++i2) {
-      buf[offset + i2] = rnds[i2];
-    }
-    return buf;
-  }
-  return unsafeStringify(rnds);
-}
-var v4_default = v4;
-
-// node_modules/uuid/dist/esm-browser/sha1.js
-function f2(s2, x2, y2, z2) {
-  switch (s2) {
-    case 0:
-      return x2 & y2 ^ ~x2 & z2;
-    case 1:
-      return x2 ^ y2 ^ z2;
-    case 2:
-      return x2 & y2 ^ x2 & z2 ^ y2 & z2;
-    case 3:
-      return x2 ^ y2 ^ z2;
-  }
-}
-function ROTL(x2, n2) {
-  return x2 << n2 | x2 >>> 32 - n2;
-}
-function sha1(bytes) {
-  const K = [1518500249, 1859775393, 2400959708, 3395469782];
-  const H2 = [1732584193, 4023233417, 2562383102, 271733878, 3285377520];
-  if (typeof bytes === "string") {
-    const msg = unescape(encodeURIComponent(bytes));
-    bytes = [];
-    for (let i2 = 0; i2 < msg.length; ++i2) {
-      bytes.push(msg.charCodeAt(i2));
-    }
-  } else if (!Array.isArray(bytes)) {
-    bytes = Array.prototype.slice.call(bytes);
-  }
-  bytes.push(128);
-  const l2 = bytes.length / 4 + 2;
-  const N2 = Math.ceil(l2 / 16);
-  const M2 = new Array(N2);
-  for (let i2 = 0; i2 < N2; ++i2) {
-    const arr = new Uint32Array(16);
-    for (let j2 = 0; j2 < 16; ++j2) {
-      arr[j2] = bytes[i2 * 64 + j2 * 4] << 24 | bytes[i2 * 64 + j2 * 4 + 1] << 16 | bytes[i2 * 64 + j2 * 4 + 2] << 8 | bytes[i2 * 64 + j2 * 4 + 3];
-    }
-    M2[i2] = arr;
-  }
-  M2[N2 - 1][14] = (bytes.length - 1) * 8 / Math.pow(2, 32);
-  M2[N2 - 1][14] = Math.floor(M2[N2 - 1][14]);
-  M2[N2 - 1][15] = (bytes.length - 1) * 8 & 4294967295;
-  for (let i2 = 0; i2 < N2; ++i2) {
-    const W2 = new Uint32Array(80);
-    for (let t2 = 0; t2 < 16; ++t2) {
-      W2[t2] = M2[i2][t2];
-    }
-    for (let t2 = 16; t2 < 80; ++t2) {
-      W2[t2] = ROTL(W2[t2 - 3] ^ W2[t2 - 8] ^ W2[t2 - 14] ^ W2[t2 - 16], 1);
-    }
-    let a2 = H2[0];
-    let b2 = H2[1];
-    let c2 = H2[2];
-    let d2 = H2[3];
-    let e = H2[4];
-    for (let t2 = 0; t2 < 80; ++t2) {
-      const s2 = Math.floor(t2 / 20);
-      const T = ROTL(a2, 5) + f2(s2, b2, c2, d2) + e + K[s2] + W2[t2] >>> 0;
-      e = d2;
-      d2 = c2;
-      c2 = ROTL(b2, 30) >>> 0;
-      b2 = a2;
-      a2 = T;
-    }
-    H2[0] = H2[0] + a2 >>> 0;
-    H2[1] = H2[1] + b2 >>> 0;
-    H2[2] = H2[2] + c2 >>> 0;
-    H2[3] = H2[3] + d2 >>> 0;
-    H2[4] = H2[4] + e >>> 0;
-  }
-  return [H2[0] >> 24 & 255, H2[0] >> 16 & 255, H2[0] >> 8 & 255, H2[0] & 255, H2[1] >> 24 & 255, H2[1] >> 16 & 255, H2[1] >> 8 & 255, H2[1] & 255, H2[2] >> 24 & 255, H2[2] >> 16 & 255, H2[2] >> 8 & 255, H2[2] & 255, H2[3] >> 24 & 255, H2[3] >> 16 & 255, H2[3] >> 8 & 255, H2[3] & 255, H2[4] >> 24 & 255, H2[4] >> 16 & 255, H2[4] >> 8 & 255, H2[4] & 255];
-}
-var sha1_default = sha1;
-
-// node_modules/uuid/dist/esm-browser/v5.js
-var v5 = v35("v5", 80, sha1_default);
-var v5_default = v5;
-
-// src/shared/hooks.ts
+var import_react15 = __toESM(require_react());
 var useForceUpdate = () => {
-  const [time, setTime] = import_react14.default.useState(0);
-  return [time, import_react14.default.useCallback(() => setTime(Date.now()), [])];
+  const [time, setTime] = import_react15.default.useState(0);
+  return [time, import_react15.default.useCallback(() => setTime(Date.now()), [])];
 };
 var useCompare = (value, runOnMount = true) => {
   const prevValue = usePrevious(value);
@@ -46596,14 +47167,14 @@ var useCompare = (value, runOnMount = true) => {
   return prevValue !== value;
 };
 var usePrevious = (value) => {
-  const ref = import_react14.default.useRef();
-  import_react14.default.useEffect(() => {
+  const ref = import_react15.default.useRef();
+  import_react15.default.useEffect(() => {
     ref.current = value;
   });
   return ref.current;
 };
 var useInputSelection = (inputRef, value) => {
-  import_react14.default.useEffect(() => {
+  import_react15.default.useEffect(() => {
     function setSelection() {
       if (inputRef.current) {
         inputRef.current.selectionStart = value.length;
@@ -46614,24 +47185,23 @@ var useInputSelection = (inputRef, value) => {
   }, [inputRef]);
 };
 var useUUID = () => {
-  const [uuid] = import_react14.default.useState(v4_default());
+  const [uuid] = import_react15.default.useState(v4_default());
   return uuid;
 };
 
-// src/react/table-app/table/index.tsx
-function Table2({ headerRows, bodyRows, footerRows }) {
-  const tableRef = import_react15.default.useRef(null);
+// src/react/loom-app/table/index.tsx
+var Table2 = import_react16.default.forwardRef(function Table3({ headerRows, bodyRows, footerRows }, ref) {
   const previousRowLength = usePrevious(bodyRows.length);
-  import_react15.default.useEffect(() => {
+  import_react16.default.useEffect(() => {
     var _a;
     if (previousRowLength === void 0)
       return;
     if (previousRowLength < bodyRows.length)
-      (_a = tableRef.current) == null ? void 0 : _a.scrollToIndex(bodyRows.length - 1);
+      (_a = ref.current) == null ? void 0 : _a.scrollToIndex(bodyRows.length - 1);
   }, [previousRowLength, bodyRows.length]);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TableVirtuoso, {
     tabIndex: -1,
-    ref: tableRef,
+    ref,
     overscan: 10,
     style: {
       width: "100%",
@@ -46659,7 +47229,7 @@ function Table2({ headerRows, bodyRows, footerRows }) {
       children: row.cells.map((cell) => {
         const { id: id2, content } = cell;
         return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("td", {
-          className: "NLT__footer-td",
+          className: "DataLoom__footer-td",
           css: import_emotion_react_cjs.css`
 										padding: 0px;
 									`,
@@ -46704,13 +47274,13 @@ function Table2({ headerRows, bodyRows, footerRows }) {
 									border-bottom: 0;
 								}
 							`,
-          className: "NLT__body-td",
+          className: "DataLoom__body-td",
           children: content
         }, cellId);
       });
     }
   });
-}
+});
 var Components = {
   Table: (_a) => {
     var _b = _a, { style } = _b, props = __objRest(_b, ["style"]);
@@ -46721,7 +47291,7 @@ var Components = {
 				`
     }, props), {
       style,
-      className: "NLT__table"
+      className: "DataLoom__table"
     }));
   },
   TableRow: (_c) => {
@@ -46730,14 +47300,14 @@ var Components = {
       style
     }));
   },
-  TableBody: import_react15.default.forwardRef((_e, ref) => {
+  TableBody: import_react16.default.forwardRef((_e, ref) => {
     var _f = _e, { style } = _f, props = __objRest(_f, ["style"]);
     return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("tbody", __spreadProps(__spreadValues({}, props), {
       style,
       ref
     }));
   }),
-  TableFoot: import_react15.default.forwardRef((_g, ref) => {
+  TableFoot: import_react16.default.forwardRef((_g, ref) => {
     var _h = _g, { style } = _h, props = __objRest(_h, ["style"]);
     return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("tfoot", __spreadProps(__spreadValues({
       css: import_emotion_react_cjs.css`
@@ -46749,17 +47319,12 @@ var Components = {
 					border-bottom: 1px solid var(--table-border-color);
 				}
 
-				& > tr:first-of-type > td:nth-of-type(1) {
-					border-bottom: 0;
-				}
-
 				& > tr:first-of-type > td:nth-of-type(2) {
 					border-left: 1px solid var(--table-border-color);
 				}
 
 				& > tr:first-of-type > td:last-child {
 					border-left: 1px solid var(--table-border-color);
-					border-bottom: 0;
 				}
 			`
     }, props), {
@@ -46768,15 +47333,11 @@ var Components = {
     }));
   })
 };
+var table_default = Table2;
 
 // src/react/shared/icon/index.tsx
-var import_react17 = __toESM(require_react());
-
-// src/obsidian-shim/build/set-icon.ts
-var import_obsidian3 = require("obsidian");
-var setIcon = (div, name) => {
-  (0, import_obsidian3.setIcon)(div, name);
-};
+var import_obsidian = require("obsidian");
+var import_react18 = __toESM(require_react());
 
 // src/shared/render/utils.ts
 var replaceNewLinesWithBr = (markdown) => {
@@ -46827,7 +47388,7 @@ function Icon({
   size = "md",
   color = "unset"
 }) {
-  const ref = import_react17.default.useRef(null);
+  const ref = import_react18.default.useRef(null);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
     ref: (node) => {
       ref.current = node;
@@ -46845,7 +47406,7 @@ function Icon({
         div.style.width = "1.1rem";
         div.style.height = "1.1rem";
       }
-      setIcon(div, lucideId);
+      (0, import_obsidian.setIcon)(div, lucideId);
       appendOrReplaceFirstChild(node, div);
     }
   });
@@ -46853,166 +47414,6 @@ function Icon({
 
 // src/react/shared/menu-trigger/index.tsx
 var import_react20 = __toESM(require_react());
-
-// src/shared/menu/menu-context.tsx
-var import_react18 = __toESM(require_react());
-
-// src/shared/menu/focus-visible.ts
-var focusMenuElement = (menuId) => {
-  const el = document.querySelector(
-    `[data-menu-id="${menuId}"]`
-  );
-  if (el) {
-    el.focus();
-    addFocusVisibleClass(el);
-  }
-};
-var addFocusVisibleClass = (el) => {
-  if (el)
-    el.classList.add("NLT__focus-visible");
-};
-var removeFocusVisibleClass = () => {
-  const el = document.querySelector(".NLT__focus-visible");
-  if (el)
-    el.classList.remove("NLT__focus-visible");
-};
-var getFocusableLayerEl = (appId, topMenu) => {
-  const appEl = document.querySelector(`.NLT__app[data-id="${appId}"]`);
-  if (!appEl)
-    return null;
-  let layerEl = appEl;
-  if (topMenu) {
-    const { id: id2 } = topMenu;
-    const menuEl = document.querySelector(`.NLT__menu[data-id="${id2}"]`);
-    if (menuEl)
-      layerEl = menuEl;
-  }
-  return layerEl;
-};
-var focusNextElement = (layerEl, focusableEls) => {
-  const focusedEl = document.activeElement;
-  if (focusedEl) {
-    const currentIndex = Array.from(focusableEls).indexOf(focusedEl);
-    if (currentIndex !== -1) {
-      let index = currentIndex + 1;
-      if (index > focusableEls.length - 1)
-        index = 0;
-      focusableEls[index].focus();
-      return;
-    }
-  }
-  const selectedEl = layerEl.querySelector(".NLT__selected");
-  if (selectedEl) {
-    selectedEl.focus();
-  } else {
-    focusableEls[0].focus();
-  }
-};
-
-// src/shared/menu/menu-context.tsx
-var MenuContext = import_react18.default.createContext(null);
-var useMenuState = () => {
-  const value = import_react18.default.useContext(MenuContext);
-  if (value === null) {
-    throw new Error(
-      "useMenu() called without a <MenuProvider /> in the tree."
-    );
-  }
-  return value;
-};
-function MenuProvider({ children }) {
-  const [currentMenus, setCurrentMenus] = import_react18.default.useState([]);
-  const logger = useLogger();
-  const [menuCloseRequest, setMenuCloseRequest] = import_react18.default.useState(null);
-  const isMenuOpen = import_react18.default.useCallback(
-    (menu) => {
-      return currentMenus.find((m2) => m2.id === menu.id) !== void 0;
-    },
-    [currentMenus]
-  );
-  const hasOpenMenu = import_react18.default.useCallback(() => {
-    return currentMenus.length !== 0;
-  }, [currentMenus]);
-  const getTopMenu = import_react18.default.useCallback(() => {
-    if (currentMenus.length === 0)
-      return null;
-    return currentMenus[currentMenus.length - 1];
-  }, [currentMenus]);
-  const canOpenMenu = import_react18.default.useCallback(
-    (menu) => {
-      return currentMenus.find((m2) => m2.level === menu.level) === void 0 || currentMenus.length === 0;
-    },
-    [currentMenus]
-  );
-  const openMenu = import_react18.default.useCallback(
-    (menu) => {
-      if (!canOpenMenu(menu))
-        return;
-      setCurrentMenus((prev) => [...prev, menu]);
-      removeFocusVisibleClass();
-    },
-    [canOpenMenu]
-  );
-  function closeAllMenus(shouldFocusTrigger = true) {
-    logger("MenuProvider closeAllMenus");
-    if (currentMenus.length === 0)
-      return;
-    const menu = currentMenus[0];
-    if (shouldFocusTrigger) {
-      const { id: id2 } = menu;
-      focusMenuElement(id2);
-    }
-    setCurrentMenus([]);
-    setMenuCloseRequest(null);
-  }
-  const closeTopMenu = import_react18.default.useCallback(
-    (options) => {
-      logger("MenuProvider closeTopMenu");
-      const { shouldFocusTrigger = true } = options || {};
-      const menu = getTopMenu();
-      if (!menu)
-        return;
-      if (shouldFocusTrigger) {
-        const { id: id2 } = menu;
-        focusMenuElement(id2);
-      }
-      setCurrentMenus((prev) => prev.slice(0, prev.length - 1));
-      setMenuCloseRequest(null);
-    },
-    [getTopMenu, logger]
-  );
-  const requestCloseTopMenu = import_react18.default.useCallback(
-    (type) => {
-      const menu = getTopMenu();
-      if (!menu)
-        return;
-      if (menu.shouldRequestOnClose) {
-        setMenuCloseRequest({
-          id: menu.id,
-          requestTime: Date.now(),
-          type
-        });
-        return;
-      }
-      closeTopMenu();
-    },
-    [closeTopMenu, getTopMenu]
-  );
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuContext.Provider, {
-    value: {
-      topMenu: getTopMenu(),
-      hasOpenMenu,
-      isMenuOpen,
-      openMenu,
-      canOpenMenu,
-      menuCloseRequest,
-      requestCloseTopMenu,
-      closeTopMenu,
-      closeAllMenus
-    },
-    children
-  });
-}
 
 // src/shared/keyboard-event.ts
 var isWindowsUndoDown = (e) => e.ctrlKey && e.key === "z";
@@ -47094,7 +47495,7 @@ var MenuTrigger = ({
   }
   const { id: id2 } = menu;
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "NLT__menu-trigger NLT__focusable",
+    className: "DataLoom__menu-trigger DataLoom__focusable",
     ref,
     css: import_emotion_react_cjs.css`
 				width: ${isCell ? "100%" : "unset"};
@@ -47111,13 +47512,78 @@ var MenuTrigger = ({
 };
 var menu_trigger_default = MenuTrigger;
 
+// src/shared/spacing/index.ts
+var getSpacing = (size) => {
+  let spacing = "";
+  if (size === "sm") {
+    spacing = "var(--nlt-spacing--sm)";
+  } else if (size === "md") {
+    spacing = "var(--nlt-spacing--md)";
+  } else if (size === "lg") {
+    spacing = "var(--nlt-spacing--lg)";
+  } else if (size === "xl") {
+    spacing = "var(--nlt-spacing--xl)";
+  } else if (size === "2xl") {
+    spacing = "var(--nlt-spacing--2xl)";
+  } else if (size === "3xl") {
+    spacing = "var(--nlt-spacing--3xl)";
+  } else if (size === "4xl") {
+    spacing = "var(--nlt-spacing--4xl)";
+  }
+  return spacing;
+};
+
+// src/react/shared/stack/index.tsx
+function Stack({
+  spacing = "md",
+  justify,
+  align,
+  grow,
+  children,
+  width = "unset",
+  height = "unset",
+  minHeight = "unset",
+  isHorizontal = false
+}) {
+  let justifyContent = justify;
+  if (justifyContent === void 0) {
+    if (!isHorizontal)
+      justifyContent = "center";
+    else
+      justifyContent = "flex-start";
+  }
+  let alignItems = align;
+  if (alignItems === void 0) {
+    if (isHorizontal)
+      alignItems = "center";
+    else
+      alignItems = "flex-start";
+  }
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    css: import_emotion_react_cjs.css`
+				display: flex;
+				flex-direction: ${isHorizontal ? "row" : "column"};
+				flex-grow: ${grow ? 1 : 0};
+				justify-content: ${justifyContent};
+				align-items: ${alignItems};
+				${isHorizontal ? "column-gap" : "row-gap"}: ${getSpacing(
+      spacing
+    )};
+				width: ${width};
+				height: ${height};
+				min-height: ${minHeight};
+			`,
+    children
+  });
+}
+
 // src/react/shared/button/index.tsx
 var buttonStyle = import_emotion_react_cjs.css`
 	display: flex;
 	align-items: center;
 	width: max-content !important;
 	height: max-content;
-	padding: 10px !important; /* Prevent tablet styles */
+	padding: 6px !important;
 	white-space: nowrap;
 	color: var(--text-normal);
 	margin-right: 0;
@@ -47138,21 +47604,20 @@ var linkStyle = import_emotion_react_cjs.css`
 		box-shadow: var(--input-shadow) !important;
 	}
 `;
-var iconStyle = import_emotion_react_cjs.css`
+var textStyle = import_emotion_react_cjs.css`
 	background-color: transparent !important;
 	box-shadow: none !important;
-	padding: 6px !important;
 
 	&: hover {
-		box-shadow: var(--input-shadow) !important;
+		background-color: var(--background-modifier-hover) !important;
 	}
 `;
 var smallStyle = import_emotion_react_cjs.css`
 	padding: 2px !important;
 `;
 function Button({
+  variant = "text",
   isFocusable = true,
-  isLink,
   isSmall,
   invertFocusColor,
   children,
@@ -47173,33 +47638,39 @@ function Button({
       onClick == null ? void 0 : onClick();
     }
   }
-  let className = "NLT__button";
+  let className = "DataLoom__button";
   if (isFocusable) {
-    className += " NLT__focusable";
+    className += " DataLoom__focusable";
     if (invertFocusColor)
-      className += " NLT__focusable--inverted";
+      className += " DataLoom__focusable--inverted";
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("button", {
     tabIndex: isFocusable ? 0 : -1,
     className,
     css: import_emotion_react_cjs.css`
 				${buttonStyle}
-				${isLink ? linkStyle : void 0}
-				${icon !== void 0 ? iconStyle : void 0}
+				${variant == "link" ? linkStyle : void 0}
+				${variant == "text" ? textStyle : void 0}
 				${isSmall ? smallStyle : void 0}
 			`,
     "aria-label": ariaLabel,
     onKeyDown: handleKeyDown,
     onMouseDown,
     onClick: handleClick,
-    children: icon !== void 0 ? icon : children
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+      isHorizontal: true,
+      children: [
+        icon && icon,
+        children
+      ]
+    })
   });
 }
 
 // src/react/shared/menu-button/index.tsx
 function MenuButton({
+  variant,
   menu,
-  isLink = false,
   ariaLabel,
   icon,
   children,
@@ -47213,7 +47684,7 @@ function MenuButton({
     onMouseDown,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
       isFocusable: false,
-      isLink,
+      variant,
       icon,
       ariaLabel,
       children
@@ -47221,11 +47692,11 @@ function MenuButton({
   });
 }
 
-// src/react/table-app/row-options/components/RowMenu/index.tsx
+// src/react/loom-app/row-options/components/RowMenu/index.tsx
 var import_react34 = __toESM(require_react());
 
 // src/react/shared/menu/index.tsx
-var import_react25 = __toESM(require_react());
+var import_react26 = __toESM(require_react());
 var import_react_dom3 = __toESM(require_react_dom());
 
 // src/shared/conversion.ts
@@ -47243,16 +47714,16 @@ var stringToCurrencyString = (value, type) => {
 };
 
 // src/shared/menu/utils.ts
-var import_react23 = __toESM(require_react());
+var import_react24 = __toESM(require_react());
 
 // src/shared/menu/constants.ts
 var MENU_SHIFT_PADDING = 5;
 
-// src/obsidian-shim/build/render-utils.ts
-var import_react22 = __toESM(require_react());
+// src/shared/render-utils.ts
+var import_react23 = __toESM(require_react());
+var import_obsidian3 = require("obsidian");
 
 // src/shared/render/embed.ts
-var import_obsidian4 = require("obsidian");
 var handleLinkClick = (event) => {
   const targetEl = event.target;
   const closestAnchor = targetEl.tagName === "A" ? targetEl : targetEl.closest("a");
@@ -47267,38 +47738,45 @@ var handleLinkClick = (event) => {
       app.workspace.openLinkText(href, "", newLeaf);
   }
 };
-var renderEmbedMarkdown = (leaf, markdown) => __async(void 0, null, function* () {
+
+// src/shared/render-embed.ts
+var import_obsidian2 = require("obsidian");
+var renderText = (leaf, value) => __async(void 0, null, function* () {
+  const div = document.createElement("div");
+  div.style.width = "100%";
+  div.style.height = "100%";
   try {
     const view = leaf.view;
-    if (view instanceof import_obsidian4.MarkdownView || view instanceof NLTView) {
-      const div = document.body.createDiv();
-      div.style.height = "100%";
-      div.style.width = "100%";
-      yield import_obsidian4.MarkdownRenderer.renderMarkdown(
-        markdown,
+    if (view instanceof import_obsidian2.MarkdownView || view instanceof DataLoomView) {
+      yield import_obsidian2.MarkdownRenderer.renderMarkdown(
+        value,
         div,
         view.file.path,
         view
       );
-      return div;
     }
   } catch (e) {
     console.error(e);
   }
-  return null;
+  return div;
 });
+var renderEmbed = (leaf, value) => __async(void 0, null, function* () {
+  return renderText(leaf, value);
+});
+
+// src/shared/render-utils.ts
 var renderMarkdown = (leaf, markdown) => __async(void 0, null, function* () {
   const div = document.createElement("div");
   div.style.height = "100%";
   div.style.width = "100%";
   const view = leaf == null ? void 0 : leaf.view;
-  if (view instanceof NLTView)
+  if (view instanceof DataLoomView)
     div.classList.add("markdown-rendered");
   try {
     const updated = replaceNewLinesWithBr(markdown);
     const view2 = leaf == null ? void 0 : leaf.view;
-    if (view2 instanceof import_obsidian4.MarkdownView || view2 instanceof NLTView) {
-      yield import_obsidian4.MarkdownRenderer.renderMarkdown(
+    if (view2 instanceof import_obsidian3.MarkdownView || view2 instanceof DataLoomView) {
+      yield import_obsidian3.MarkdownRenderer.renderMarkdown(
         updated,
         div,
         view2.file.path,
@@ -47320,7 +47798,7 @@ var renderMarkdown = (leaf, markdown) => __async(void 0, null, function* () {
           e.stopPropagation();
           app.workspace.trigger("hover-link", {
             event: e,
-            source: NOTION_LIKE_TABLES_VIEW,
+            source: DATA_LOOM_VIEW,
             hoverParent: view2.containerEl,
             targetEl: el,
             linktext: href,
@@ -47335,28 +47813,19 @@ var renderMarkdown = (leaf, markdown) => __async(void 0, null, function* () {
   }
   return div;
 });
-
-// src/obsidian-shim/build/render-utils.ts
-var import_obsidian5 = require("obsidian");
-var useLeafContainer = () => {
-  const { leaf } = useMountState();
-  return leaf.view.containerEl;
-};
-var isOnMobile = () => {
-  return import_obsidian5.Platform.isMobile;
-};
-var useRenderMarkdown = (markdown, isEmbed) => {
-  const containerRef = import_react22.default.useRef(null);
-  const renderRef = import_react22.default.useRef(null);
-  const { leaf } = useMountState();
-  import_react22.default.useEffect(() => {
+var useRenderMarkdown = (markdown, options) => {
+  const { isEmbed = false, isExternalLink = false } = options != null ? options : {};
+  const containerRef = import_react23.default.useRef(null);
+  const renderRef = import_react23.default.useRef(null);
+  const { mountLeaf } = useMountState();
+  import_react23.default.useEffect(() => {
     function updateContainerRef() {
       return __async(this, null, function* () {
         let el = null;
         if (isEmbed) {
-          el = yield renderEmbedMarkdown(leaf, markdown);
+          el = yield renderEmbed(mountLeaf, markdown);
         } else {
-          el = yield renderMarkdown(leaf, markdown);
+          el = yield renderMarkdown(mountLeaf, markdown);
         }
         if (el) {
           renderRef.current = el;
@@ -47366,11 +47835,17 @@ var useRenderMarkdown = (markdown, isEmbed) => {
       });
     }
     updateContainerRef();
-  }, [markdown, leaf, isEmbed]);
+  }, [markdown, mountLeaf, isExternalLink, isEmbed]);
   return {
     containerRef,
     renderRef
   };
+};
+var isOnMobile = () => {
+  return import_obsidian3.Platform.isMobile;
+};
+var getResourcePath = (filePath) => {
+  return app.vault.adapter.getResourcePath(filePath);
 };
 
 // src/shared/menu/utils.ts
@@ -47389,8 +47864,9 @@ var getElementPosition = (el) => {
   };
 };
 var useShiftMenu = (triggerRef, menuRef, isOpen, options) => {
-  const viewContentEl = useLeafContainer();
-  import_react23.default.useEffect(() => {
+  const { mountLeaf } = useMountState();
+  const viewContentEl = mountLeaf.view.containerEl;
+  import_react24.default.useEffect(() => {
     function shiftMenuIntoView() {
       if (menuRef.current === null)
         return;
@@ -47437,7 +47913,7 @@ var useShiftMenu = (triggerRef, menuRef, isOpen, options) => {
   });
 };
 var useMenuTriggerPosition = () => {
-  const ref = import_react23.default.useRef(null);
+  const ref = import_react24.default.useRef(null);
   const position = getElementPosition(ref.current);
   return { triggerRef: ref, triggerPosition: position };
 };
@@ -47462,28 +47938,12 @@ var shiftElementIntoContainer = (container, element) => {
   };
 };
 
-// src/obsidian-shim/build/menu-events.ts
-var import_react24 = __toESM(require_react());
-
-// src/shared/events.ts
-var obsidianEvent = (name) => {
-  return "notion-like-tables-" + name;
-};
-var EVENT_COLUMN_ADD = obsidianEvent("add-column");
-var EVENT_COLUMN_DELETE = obsidianEvent("delete-column");
-var EVENT_ROW_ADD = obsidianEvent("add-row");
-var EVENT_ROW_DELETE = obsidianEvent("delete-row");
-var EVENT_REFRESH_TABLES = obsidianEvent("refresh-tables");
-var EVENT_OUTSIDE_CLICK = obsidianEvent("outside-click");
-var EVENT_OUTSIDE_KEYDOWN = obsidianEvent("outside-keydown");
-var EVENT_DOWNLOAD_CSV = obsidianEvent("download-csv");
-var EVENT_DOWNLOAD_MARKDOWN = obsidianEvent("download-markdown");
-
-// src/obsidian-shim/build/menu-events.ts
+// src/shared/loom-state/use-menu-events.ts
+var import_react25 = __toESM(require_react());
 var useMenuEvents = (id2, isOpen, isTextHighlighted) => {
   const logger = useLogger();
   const { requestCloseTopMenu, closeTopMenu, topMenu } = useMenuState();
-  import_react24.default.useEffect(() => {
+  import_react25.default.useEffect(() => {
     function handleOutsideKeyDown(e) {
       logger("Menu handleOutsideKeyDown");
       if ((topMenu == null ? void 0 : topMenu.id) !== id2)
@@ -47499,7 +47959,7 @@ var useMenuEvents = (id2, isOpen, isTextHighlighted) => {
     }
     return () => app.workspace.off(EVENT_OUTSIDE_CLICK, handleOutsideKeyDown);
   }, [isOpen, logger, closeTopMenu, requestCloseTopMenu, id2, topMenu]);
-  import_react24.default.useEffect(() => {
+  import_react25.default.useEffect(() => {
     function handleOutsideClick() {
       logger("Menu handleOutsideClick");
       if ((topMenu == null ? void 0 : topMenu.id) !== id2)
@@ -47517,7 +47977,7 @@ var useMenuEvents = (id2, isOpen, isTextHighlighted) => {
 };
 
 // src/react/shared/menu/index.tsx
-var Menu = import_react25.default.forwardRef(function Menu2({
+var Menu = import_react26.default.forwardRef(function Menu2({
   id: id2,
   isOpen,
   hideBorder = false,
@@ -47530,7 +47990,7 @@ var Menu = import_react25.default.forwardRef(function Menu2({
   children
 }, ref) {
   const { topMenu, closeTopMenu, requestCloseTopMenu } = useMenuState();
-  const isTextHighlighted = import_react25.default.useRef(false);
+  const isTextHighlighted = import_react26.default.useRef(false);
   const logger = useLogger();
   useMenuEvents(id2, isOpen, isTextHighlighted.current);
   function handleMouseDown() {
@@ -47560,7 +48020,7 @@ var Menu = import_react25.default.forwardRef(function Menu2({
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(import_emotion_react_jsx_runtime_cjs.Fragment, {
     children: isOpen && import_react_dom3.default.createPortal(
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-        className: "NLT__menu",
+        className: "DataLoom__menu",
         "data-id": id2,
         css: import_emotion_react_cjs.css`
 							width: 0;
@@ -47579,7 +48039,7 @@ var Menu = import_react25.default.forwardRef(function Menu2({
 								max-height: ${maxHeight !== 0 ? numToPx(maxHeight) : "unset"};
 								overflow-y: ${maxHeight !== 0 ? "scroll" : "unset"};
 								background-color: var(--background-primary);
-								box-shadow: ${hideBorder ? "unset" : "0px 0px 0px 2px var(--background-modifier-border);"}
+								box-shadow: ${hideBorder ? "unset" : "0px 0px 0px 2px var(--background-modifier-border)"};
 								font-weight: 400;
 							`,
           onClick: handleClick,
@@ -47594,71 +48054,6 @@ var Menu = import_react25.default.forwardRef(function Menu2({
   });
 });
 var menu_default = Menu;
-
-// src/shared/spacing/index.ts
-var getSpacing = (size) => {
-  let spacing = "";
-  if (size === "sm") {
-    spacing = "var(--nlt-spacing--sm)";
-  } else if (size === "md") {
-    spacing = "var(--nlt-spacing--md)";
-  } else if (size === "lg") {
-    spacing = "var(--nlt-spacing--lg)";
-  } else if (size === "xl") {
-    spacing = "var(--nlt-spacing--xl)";
-  } else if (size === "2xl") {
-    spacing = "var(--nlt-spacing--2xl)";
-  } else if (size === "3xl") {
-    spacing = "var(--nlt-spacing--3xl)";
-  } else if (size === "4xl") {
-    spacing = "var(--nlt-spacing--4xl)";
-  }
-  return spacing;
-};
-
-// src/react/shared/stack/index.tsx
-function Stack({
-  spacing = "md",
-  justify,
-  align,
-  grow,
-  children,
-  width = "unset",
-  height = "unset",
-  minHeight = "unset",
-  isVertical
-}) {
-  let justifyContent = justify;
-  if (justifyContent === void 0) {
-    if (isVertical)
-      justifyContent = "center";
-    else
-      justifyContent = "flex-start";
-  }
-  let alignItems = align;
-  if (alignItems === void 0) {
-    if (!isVertical)
-      alignItems = "center";
-    else
-      alignItems = "flex-start";
-  }
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    css: import_emotion_react_cjs.css`
-				display: flex;
-				flex-direction: ${isVertical ? "column" : "row"};
-				flex-grow: ${grow ? 1 : 0};
-				justify-content: ${justifyContent};
-				align-items: ${alignItems};
-				${isVertical ? "row-gap" : "column-gap"}: ${getSpacing(
-      spacing
-    )};
-				width: ${width};
-				height: ${height};
-				min-height: ${minHeight};
-			`,
-    children
-  });
-}
 
 // src/react/shared/flex/index.tsx
 function Flex({
@@ -47699,13 +48094,13 @@ var useOverflow = (shouldWrapOverflow) => {
 
 // src/react/shared/text/index.tsx
 function Text({ value, variant, size = "sm", maxWidth }) {
-  let className = "NLT__p";
+  let className = "DataLoom__p";
   if (variant === "faint")
-    className += " NLT__text-faint";
+    className += " DataLoom__text-faint";
   if (variant === "muted")
-    className += " NLT__text-muted";
+    className += " DataLoom__text-muted";
   if (variant === "semibold")
-    className += " NLT__text-semibold";
+    className += " DataLoom__text-semibold";
   let fontSize = "";
   if (size === "xs") {
     fontSize = "var(--nlt-font-size--xs)";
@@ -47749,26 +48144,12 @@ function Padding({
     renderPb = getSpacing(p2);
     renderPl = getSpacing(p2);
     renderPr = getSpacing(p2);
-  } else if (px || py) {
-    if (px) {
-      const spacing = getSpacing(px);
-      renderPl = spacing;
-      renderPr = spacing;
-    }
-    if (py) {
-      const spacing = getSpacing(py);
-      renderPt = spacing;
-      renderPb = spacing;
-    }
-  } else if (pb || pt || pl || pr) {
-    if (pb) {
-      const spacing = getSpacing(pb);
-      renderPb = spacing;
-    }
-    if (pt) {
-      const spacing = getSpacing(pt);
-      renderPt = spacing;
-    }
+  }
+  if (px) {
+    const spacing = getSpacing(px);
+    renderPl = spacing;
+    renderPr = spacing;
+  } else if (pl || pr) {
     if (pl) {
       const spacing = getSpacing(pl);
       renderPl = spacing;
@@ -47776,6 +48157,20 @@ function Padding({
     if (pr) {
       const spacing = getSpacing(pr);
       renderPr = spacing;
+    }
+  }
+  if (py) {
+    const spacing = getSpacing(py);
+    renderPt = spacing;
+    renderPb = spacing;
+  } else if (pt || pb) {
+    if (pt) {
+      const spacing = getSpacing(pt);
+      renderPt = spacing;
+    }
+    if (pb) {
+      const spacing = getSpacing(pb);
+      renderPb = spacing;
     }
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
@@ -47818,16 +48213,14 @@ function MenuItem({
   function handleKeyDown(e) {
     if (e.key === "Enter") {
       e.stopPropagation();
-      if (!onClick)
-        return;
-      onClick();
+      onClick == null ? void 0 : onClick();
     }
   }
-  let className = "NLT__menu-item NLT__selectable";
+  let className = "DataLoom__menu-item DataLoom__selectable";
   if (isSelected)
-    className += " NLT__selected";
+    className += " DataLoom__selected";
   if (isFocusable)
-    className += " NLT__focusable";
+    className += " DataLoom__focusable";
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
     ref,
     tabIndex: 0,
@@ -47845,6 +48238,7 @@ function MenuItem({
       justify: "space-between",
       children: [
         /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+          isHorizontal: true,
           children: [
             lucideId !== void 0 && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
               width: "unset",
@@ -47867,7 +48261,7 @@ function MenuItem({
   });
 }
 
-// src/react/table-app/row-options/components/RowMenu/index.tsx
+// src/react/loom-app/row-options/components/RowMenu/index.tsx
 var RowMenu = import_react34.default.forwardRef(function RowMenu2({ id: id2, rowId, isOpen, top, left, onDeleteClick }, ref) {
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_default, {
     id: id2,
@@ -47876,7 +48270,7 @@ var RowMenu = import_react34.default.forwardRef(function RowMenu2({ id: id2, row
     left,
     ref,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-      className: "NLT__row-menu",
+      className: "DataLoom__row-menu",
       children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
         lucideId: "trash-2",
         name: "Delete",
@@ -47915,7 +48309,7 @@ var useMenu = (level, options) => {
   };
 };
 
-// src/react/table-app/row-options/index.tsx
+// src/react/loom-app/row-options/index.tsx
 function RowOptions({ rowId, onDeleteClick }) {
   const { menu, isMenuOpen, menuRef, closeTopMenu } = useMenu(0 /* ONE */);
   const { triggerRef, triggerPosition } = useMenuTriggerPosition();
@@ -47923,7 +48317,7 @@ function RowOptions({ rowId, onDeleteClick }) {
     openDirection: "right"
   });
   const { dragData, touchDropZone, setDragData, setTouchDropZone } = useDragContext();
-  const { tableState, setTableState } = useTableState();
+  const { LoomState: LoomState8, setLoomState } = useLoomState();
   function handleDeleteClick(rowId2) {
     onDeleteClick(rowId2);
     closeTopMenu();
@@ -47990,7 +48384,7 @@ function RowOptions({ rowId, onDeleteClick }) {
       const touchY = e.changedTouches[0].clientY;
       const isInsideDropZone = touchX >= touchDropZone.left && touchX <= touchDropZone.right && touchY >= touchDropZone.top && touchY <= touchDropZone.bottom;
       if (isInsideDropZone) {
-        dropDrag(touchDropZone.id, dragData, tableState, setTableState);
+        dropDrag(touchDropZone.id, dragData, LoomState8, setLoomState);
       }
     }
     endDrag();
@@ -48003,19 +48397,19 @@ function RowOptions({ rowId, onDeleteClick }) {
   function addDragHover(rowEl) {
     const children = rowEl.querySelectorAll("td:not(:last-child)");
     for (let i2 = 0; i2 < children.length; i2++) {
-      children[i2].classList.add("NLT__tr--drag-over");
+      children[i2].classList.add("DataLoom__tr--drag-over");
     }
   }
   function removeDragHover() {
-    const children = document.querySelectorAll(".NLT__tr--drag-over");
+    const children = document.querySelectorAll(".DataLoom__tr--drag-over");
     for (let i2 = 0; i2 < children.length; i2++) {
-      children[i2].classList.remove("NLT__tr--drag-over");
+      children[i2].classList.remove("DataLoom__tr--drag-over");
     }
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
     children: [
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-        className: "NLT__row-options",
+        className: "DataLoom__row-options",
         css: import_emotion_react_cjs.css`
 					width: 100%;
 					height: 100%;
@@ -48054,7 +48448,7 @@ function RowOptions({ rowId, onDeleteClick }) {
   });
 }
 
-// src/react/table-app/option-bar/sort-button.tsx
+// src/react/loom-app/option-bar/sort-button.tsx
 function SortBubble({
   sortDir,
   markdown,
@@ -48071,9 +48465,11 @@ function SortBubble({
 			`,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
       spacing: "lg",
+      isHorizontal: true,
       children: [
         /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
           spacing: "sm",
+          isHorizontal: true,
           children: [
             sortDir === "asc" /* ASC */ ? /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Icon, {
               lucideId: "arrow-up"
@@ -48107,18 +48503,19 @@ function SortBubble({
 }
 
 // src/react/shared/switch/index.tsx
-function Switch({ isChecked, ariaLabel, onToggle }) {
+function Switch({ id: id2, value, ariaLabel, onToggle }) {
   const { isDarkMode } = useAppSelector((state) => state.global);
   function handleKeyDown(e) {
     if (e.key === "Enter") {
       e.stopPropagation();
-      onToggle(!isChecked);
+      onToggle(!value);
     }
   }
-  let className = "checkbox-container NLT__switch NLT__focusable";
-  if (isChecked)
+  let className = "checkbox-container DataLoom__switch DataLoom__focusable";
+  if (value)
     className += " is-enabled";
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    id: id2,
     tabIndex: 0,
     className,
     css: import_emotion_react_cjs.css`
@@ -48129,7 +48526,7 @@ function Switch({ isChecked, ariaLabel, onToggle }) {
 				}
 			`,
     "aria-label": ariaLabel,
-    onClick: () => onToggle(!isChecked),
+    onClick: () => onToggle(!value),
     onKeyDown: handleKeyDown,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
       type: "checkbox"
@@ -48162,7 +48559,7 @@ function Wrap({
   });
 }
 
-// src/react/table-app/option-bar/toggle-column-menu.tsx
+// src/react/loom-app/option-bar/toggle-column-menu.tsx
 var import_react40 = __toESM(require_react());
 var ToggleColumnMenu = import_react40.default.forwardRef(
   function ToggleColumnMenu2({ id: id2, top, left, isOpen, columns, onToggle }, ref) {
@@ -48173,12 +48570,11 @@ var ToggleColumnMenu = import_react40.default.forwardRef(
       left,
       ref,
       children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-        className: "NLT__toggle-column-menu",
+        className: "DataLoom__toggle-column-menu",
         children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
           p: "md",
           children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Stack, {
             spacing: "md",
-            isVertical: true,
             children: columns.map((column) => {
               const { id: id3, markdown, isVisible } = column;
               return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Wrap, {
@@ -48190,7 +48586,7 @@ var ToggleColumnMenu = import_react40.default.forwardRef(
                     maxWidth: "250px"
                   }),
                   /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Switch, {
-                    isChecked: isVisible,
+                    value: isVisible,
                     onToggle: () => onToggle(id3)
                   })
                 ]
@@ -48204,7 +48600,7 @@ var ToggleColumnMenu = import_react40.default.forwardRef(
 );
 var toggle_column_menu_default = ToggleColumnMenu;
 
-// src/react/table-app/option-bar/toggle-column.tsx
+// src/react/loom-app/option-bar/toggle-column.tsx
 var import_react41 = __toESM(require_react());
 var areEqual = (prevProps, nextProps) => {
   const toggleMatches = prevProps.onToggle == nextProps.onToggle;
@@ -48222,7 +48618,6 @@ var ToggleColumn = ({ columns, onToggle }) => {
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
         ref: triggerRef,
         children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuButton, {
-          isLink: true,
           menu,
           children: "Toggle"
         })
@@ -48241,10 +48636,10 @@ var ToggleColumn = ({ columns, onToggle }) => {
 };
 var toggle_column_default = import_react41.default.memo(ToggleColumn, areEqual);
 
-// src/react/table-app/option-bar/filter/filter.tsx
+// src/react/loom-app/option-bar/filter/filter.tsx
 var import_react48 = __toESM(require_react());
 
-// src/react/table-app/shared-styles.ts
+// src/react/loom-app/shared-styles.ts
 var selectStyle = import_emotion_react_cjs.css`
 	&:focus {
 		box-shadow: none !important;
@@ -48287,7 +48682,7 @@ var transparentInputStyle = import_emotion_react_cjs.css`
 	${baseInputStyle}
 	background-color: transparent !important;
 	border: 0px !important;
-	padding: 5px 0px;
+	padding: 5px;
 `;
 var borderInputStyle = import_emotion_react_cjs.css`
 	${baseInputStyle}
@@ -48296,7 +48691,7 @@ var borderInputStyle = import_emotion_react_cjs.css`
 	background-color: var(--background-secondary);
 `;
 
-// src/react/table-app/option-bar/filter/filter-type-select.tsx
+// src/react/loom-app/option-bar/filter/filter-type-select.tsx
 function FilterRowDropdown({
   id: id2,
   cellType,
@@ -48310,7 +48705,7 @@ function FilterRowDropdown({
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("select", {
     tabIndex: 0,
-    className: "NLT__focusable",
+    className: "DataLoom__focusable",
     css: import_emotion_react_cjs.css`
 				${selectStyle}
 			`,
@@ -48410,7 +48805,7 @@ function FilterRowDropdown({
   });
 }
 
-// src/react/table-app/option-bar/filter/filter-column-select.tsx
+// src/react/loom-app/option-bar/filter/filter-column-select.tsx
 function FilterColumnDropdown({
   id: id2,
   columns,
@@ -48424,7 +48819,7 @@ function FilterColumnDropdown({
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("select", {
     tabIndex: 0,
-    className: "NLT__focusable",
+    className: "DataLoom__focusable",
     css: import_emotion_react_cjs.css`
 				${selectStyle}
 				max-width: 175px;
@@ -48448,12 +48843,7 @@ function FilterColumnDropdown({
 // node_modules/react-select/dist/react-select.cjs.mjs
 var import_react_select_cjs_default = __toESM(require_react_select_cjs_default(), 1);
 
-// src/shared/table-state/constants.ts
-var MIN_COLUMN_WIDTH = 40;
-var CHECKBOX_MARKDOWN_CHECKED = "[x]";
-var CHECKBOX_MARKDOWN_UNCHECKED = "[ ]";
-
-// src/react/table-app/option-bar/filter/filter-text-input.tsx
+// src/react/loom-app/option-bar/filter/filter-text-input.tsx
 function FilterTextInput({
   id: id2,
   text,
@@ -48471,7 +48861,7 @@ function FilterTextInput({
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
     children: [
       cellType !== "checkbox" /* CHECKBOX */ && cellType !== "tag" /* TAG */ && cellType !== "multi-tag" /* MULTI_TAG */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
-        className: "NLT__focusable",
+        className: "DataLoom__focusable",
         css: import_emotion_react_cjs.css`
 							${baseInputStyle}
 							width: 150px !important;
@@ -48482,7 +48872,7 @@ function FilterTextInput({
       }),
       cellType === "checkbox" /* CHECKBOX */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("select", {
         tabIndex: 0,
-        className: "NLT__focusable",
+        className: "DataLoom__focusable",
         css: import_emotion_react_cjs.css`
 						${selectStyle}
 					`,
@@ -48505,7 +48895,7 @@ function FilterTextInput({
         ]
       }),
       (cellType === "tag" /* TAG */ || cellType === "multi-tag" /* MULTI_TAG */) && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(import_react_select_cjs_default._default, {
-        className: "react-select NLT__focusable",
+        className: "react-select DataLoom__focusable",
         styles: {
           placeholder: (baseStyles) => __spreadProps(__spreadValues({}, baseStyles), {
             fontSize: "var(--font-ui-small)"
@@ -48590,7 +48980,7 @@ function FilterTextInput({
   });
 }
 
-// src/react/table-app/option-bar/filter/filter-row.tsx
+// src/react/loom-app/option-bar/filter/filter-row.tsx
 function FilterRow({
   id: id2,
   columns,
@@ -48636,6 +49026,7 @@ function FilterRow({
         justify: "flex-end",
         align: "center",
         spacing: "lg",
+        isHorizontal: true,
         children: [
           /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
             icon: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Icon, {
@@ -48645,7 +49036,7 @@ function FilterRow({
             onClick: () => onDeleteClick(id2)
           }),
           /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Switch, {
-            isChecked: isEnabled,
+            value: isEnabled,
             ariaLabel: isEnabled ? "Disable filter rule" : "Enable filter rule",
             onToggle: () => onToggle(id2)
           })
@@ -48655,7 +49046,7 @@ function FilterRow({
   });
 }
 
-// src/react/table-app/option-bar/filter/filter-menu.tsx
+// src/react/loom-app/option-bar/filter/filter-menu.tsx
 var import_react46 = __toESM(require_react());
 var FilterMenu = import_react46.default.forwardRef(function FilterMenu2({
   id: id2,
@@ -48680,7 +49071,7 @@ var FilterMenu = import_react46.default.forwardRef(function FilterMenu2({
     maxHeight: 255,
     ref,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-      className: "NLT__filter-menu",
+      className: "DataLoom__filter-menu",
       css: import_emotion_react_cjs.css`
 					width: ${isMobileSize() ? "calc(100vw - 30px)" : "unset"};
 				`,
@@ -48688,7 +49079,6 @@ var FilterMenu = import_react46.default.forwardRef(function FilterMenu2({
         p: "md",
         children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
           spacing: "lg",
-          isVertical: true,
           children: [
             filterRules.map((rule) => {
               const {
@@ -48724,6 +49114,7 @@ var FilterMenu = import_react46.default.forwardRef(function FilterMenu2({
               }, id3);
             }),
             /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+              isHorizontal: true,
               children: [
                 /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
                   icon: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Icon, {
@@ -48745,7 +49136,7 @@ var FilterMenu = import_react46.default.forwardRef(function FilterMenu2({
 });
 var filter_menu_default = FilterMenu;
 
-// src/react/table-app/option-bar/filter/filter.tsx
+// src/react/loom-app/option-bar/filter/filter.tsx
 var areEqual2 = (prevProps, nextProps) => {
   const columnsMatch = JSON.stringify(prevProps.columns) === JSON.stringify(nextProps.columns);
   const filterRulesMatch = JSON.stringify(prevProps.filterRules) === JSON.stringify(nextProps.filterRules);
@@ -48782,7 +49173,6 @@ var Filter = ({
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
         ref: triggerRef,
         children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuButton, {
-          isLink: true,
           menu,
           children: "Filter"
         })
@@ -48808,14 +49198,15 @@ var Filter = ({
 };
 var filter_default = import_react48.default.memo(Filter, areEqual2);
 
-// src/react/table-app/option-bar/search-bar.tsx
+// src/react/loom-app/option-bar/search-bar.tsx
 function SearchBar() {
-  const { searchText, setSearchText, isSearchBarVisible, toggleSearchBar } = useTableState();
+  const { searchText, setSearchText, isSearchBarVisible, toggleSearchBar } = useLoomState();
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
     spacing: "lg",
+    isHorizontal: true,
     children: [
       isSearchBarVisible && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
-        className: "NLT__focusable",
+        className: "DataLoom__focusable",
         css: import_emotion_react_cjs.css`
 						${baseInputStyle}
 						max-width: 200px;
@@ -48837,24 +49228,7 @@ function SearchBar() {
   });
 }
 
-// src/react/shared/divider/index.tsx
-function Divider({
-  isVertical = false,
-  width = "100%",
-  height = "100%"
-}) {
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("hr", {
-    css: import_emotion_react_cjs.css`
-				margin: 0;
-				width: ${!isVertical ? width : "unset"};
-				height: ${isVertical === true ? height : "unset"};
-				border-top: ${isVertical === false ? "1px solid var(--hr-color)" : "unset"};
-				border-left: ${isVertical === true ? "1px var(--hr-color) solid" : "unset"};
-			`
-  });
-}
-
-// src/react/table-app/option-bar/active-filter-bubble.tsx
+// src/react/loom-app/option-bar/active-filter-bubble.tsx
 function ActiveFilterBubble({ numActive }) {
   if (numActive === 0)
     return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(import_emotion_react_jsx_runtime_cjs.Fragment, {});
@@ -48874,7 +49248,7 @@ function ActiveFilterBubble({ numActive }) {
   });
 }
 
-// src/shared/table-state/filter-by-rules.ts
+// src/shared/loom-state/filter-by-rules.ts
 var isCellTypeFilterable = (cellType) => {
   switch (cellType) {
     case "text" /* TEXT */:
@@ -48983,396 +49357,206 @@ var doesTextMatch = (markdown, ruleText, filterType) => {
   }
 };
 
-// src/react/table-app/option-bar/index.tsx
-var SortBubbleList = ({
-  headerCells,
-  columns,
-  onRemoveClick
-}) => {
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Stack, {
-    spacing: "sm",
-    children: headerCells.map((cell, i2) => {
-      const column = columns.find((c2) => c2.id === cell.columnId);
-      if (!column)
-        throw new ColumNotFoundError(cell.columnId);
-      const { markdown, columnId } = cell;
-      const { sortDir } = column;
-      return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(SortBubble, {
-        sortDir,
-        markdown,
-        onRemoveClick: () => onRemoveClick(columnId)
-      }, i2);
-    })
-  });
-};
-function OptionBar({
-  headerCells,
-  columns,
-  filterRules,
-  onSortRemoveClick,
-  onColumnToggle,
-  onRuleToggle,
-  onRuleColumnChange,
-  onRuleFilterTypeChange,
-  onRuleTextChange,
-  onRuleDeleteClick,
-  onRuleAddClick,
-  onRuleTagsChange
-}) {
-  const sortedCells = headerCells.filter((cell) => {
-    const columnId = cell.columnId;
-    const column = columns.find((c2) => c2.id === columnId);
-    if (!column)
-      throw new ColumNotFoundError(columnId);
-    return column.sortDir !== "default" /* NONE */;
-  });
-  const activeRules = filterRules.filter((rule) => rule.isEnabled);
-  const columnsWithMarkdown = columns.map((column) => {
-    const headerCell = headerCells.find(
-      (cell) => cell.columnId === column.id
-    );
-    if (!headerCell)
-      throw new CellNotFoundError({
-        columnId: column.id
-      });
-    return __spreadProps(__spreadValues({}, column), {
-      markdown: headerCell.markdown
-    });
-  });
-  const filterableColumns = columnsWithMarkdown.filter(
-    (column) => {
-      const { type } = column;
-      return isCellTypeFilterable(type);
-    }
-  );
-  const sortedColumn = columns.find((c2) => c2.sortDir !== "default" /* NONE */);
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "NLT__option-bar",
-    css: import_emotion_react_cjs.css`
-				width: 100%;
-				padding-left: var(--nlt-spacing--lg);
-				padding-bottom: var(--nlt-spacing--md);
-				padding-top: var(--nlt-spacing--md);
-				border-bottom: 1px solid var(--background-modifier-border);
-			`,
-    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
-      px: "xl",
-      children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Stack, {
-        spacing: "lg",
-        isVertical: true,
-        align: "center",
-        minHeight: "40px",
-        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Wrap, {
-          justify: { base: "space-between", mobile: "flex-end" },
-          children: [
-            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
-              spacing: "md",
-              children: [
-                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(SortBubbleList, {
-                  headerCells: sortedCells,
-                  columns,
-                  onRemoveClick: onSortRemoveClick
-                }),
-                activeRules.length !== 0 && sortedColumn !== void 0 && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Divider, {
-                  isVertical: true,
-                  height: "1.5rem"
-                }),
-                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ActiveFilterBubble, {
-                  numActive: activeRules.length
-                })
-              ]
-            }),
-            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
-              spacing: "sm",
-              justify: "flex-end",
-              children: [
-                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(SearchBar, {}),
-                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(filter_default, {
-                  columns: filterableColumns,
-                  filterRules,
-                  onAddClick: onRuleAddClick,
-                  onToggle: onRuleToggle,
-                  onColumnChange: onRuleColumnChange,
-                  onFilterTypeChange: onRuleFilterTypeChange,
-                  onTextChange: onRuleTextChange,
-                  onDeleteClick: onRuleDeleteClick,
-                  onTagsChange: onRuleTagsChange
-                }),
-                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(toggle_column_default, {
-                  columns: columnsWithMarkdown,
-                  onToggle: onColumnToggle
-                })
-              ]
-            })
-          ]
-        })
+// src/obsidian/export-modal.tsx
+var import_obsidian6 = require("obsidian");
+var import_client = __toESM(require_client());
+
+// src/react/export-app/index.tsx
+var import_react53 = __toESM(require_react());
+
+// src/shared/export/types.ts
+var ExportType = /* @__PURE__ */ ((ExportType2) => {
+  ExportType2["UNSELECTED"] = "Select an option";
+  ExportType2["MARKDOWN"] = "Markdown";
+  ExportType2["CSV"] = "CSV";
+  return ExportType2;
+})(ExportType || {});
+
+// src/react/export-app/export-type-select.tsx
+function ExportTypeSelect({ value, onChange }) {
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+    spacing: "xl",
+    children: [
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("label", {
+        htmlFor: "type-select",
+        children: "File Type"
+      }),
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("select", {
+        id: "type-select",
+        css: import_emotion_react_cjs.css`
+					background-color: var(
+						--background-secondary-alt
+					) !important;
+				`,
+        value,
+        onChange: (e) => onChange(e.target.value),
+        children: Object.values(ExportType).map((type) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("option", {
+          value: type,
+          children: type
+        }, type))
       })
-    })
+    ]
   });
 }
 
-// src/react/table-app/function-cell/function-menu.tsx
-var import_react53 = __toESM(require_react());
+// src/react/export-app/content-textarea.tsx
+function ContentTextArea({ value }) {
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("textarea", {
+    readOnly: true,
+    css: import_emotion_react_cjs.css`
+				width: 100%;
+				height: 200px;
+				resize: vertical;
+			`,
+    value
+  });
+}
 
-// src/shared/table-state/display-name.ts
-var getShortDisplayNameForGeneralFunction = (value) => {
-  switch (value) {
-    case "count-all" /* COUNT_ALL */:
-      return "Count";
-    case "count-not-empty" /* COUNT_NOT_EMPTY */:
-      return "Not empty";
-    case "count-values" /* COUNT_VALUES */:
-      return "Values";
-    case "count-empty" /* COUNT_EMPTY */:
-      return "Empty";
-    case "count-unique" /* COUNT_UNIQUE */:
-      return "Unique";
-    case "none" /* NONE */:
-      return "None";
-    case "percent-empty" /* PERCENT_EMPTY */:
-      return "Empty";
-    case "percent-not-empty" /* PERCENT_NOT_EMPTY */:
-      return "Not empty";
-    default:
-      return "";
+// node_modules/markdown-table/index.js
+function markdownTable(table, options = {}) {
+  const align = (options.align || []).concat();
+  const stringLength = options.stringLength || defaultStringLength;
+  const alignments = [];
+  const cellMatrix = [];
+  const sizeMatrix = [];
+  const longestCellByColumn = [];
+  let mostCellsPerRow = 0;
+  let rowIndex = -1;
+  while (++rowIndex < table.length) {
+    const row2 = [];
+    const sizes2 = [];
+    let columnIndex2 = -1;
+    if (table[rowIndex].length > mostCellsPerRow) {
+      mostCellsPerRow = table[rowIndex].length;
+    }
+    while (++columnIndex2 < table[rowIndex].length) {
+      const cell = serialize(table[rowIndex][columnIndex2]);
+      if (options.alignDelimiters !== false) {
+        const size = stringLength(cell);
+        sizes2[columnIndex2] = size;
+        if (longestCellByColumn[columnIndex2] === void 0 || size > longestCellByColumn[columnIndex2]) {
+          longestCellByColumn[columnIndex2] = size;
+        }
+      }
+      row2.push(cell);
+    }
+    cellMatrix[rowIndex] = row2;
+    sizeMatrix[rowIndex] = sizes2;
   }
-};
-var getShortDisplayNameForFunctionType = (value) => {
-  if (isGeneralFunction(value))
-    return getShortDisplayNameForGeneralFunction(value);
-  return getDisplayNameForNumberFunction(value);
-};
-var getAriaLabelForGeneralFunction = (value) => {
-  switch (value) {
-    case "count-all" /* COUNT_ALL */:
-      return "Counts the total number of rows";
-    case "count-empty" /* COUNT_EMPTY */:
-      return "Counts the number of rows with an empty cell value";
-    case "count-not-empty" /* COUNT_NOT_EMPTY */:
-      return "Counts the number of rows with a non-empty cell value";
-    case "count-unique" /* COUNT_UNIQUE */:
-      return "Counts the number of unique values in the column";
-    case "count-values" /* COUNT_VALUES */:
-      return "Counts the number of values in the column";
-    case "percent-empty" /* PERCENT_EMPTY */:
-      return "Displays the percentage of rows with an empty cell value";
-    case "percent-not-empty" /* PERCENT_NOT_EMPTY */:
-      return "Displays the percentage of rows with a non-empty cell value";
-    default:
-      return "";
-  }
-};
-var getAriaLabelForNumberFunction = (value) => {
-  switch (value) {
-    case "sum" /* SUM */:
-      return "Computes the sum of the cells in the column";
-    case "avg" /* AVG */:
-      return "Computes the average of the cells in the column";
-    case "min" /* MIN */:
-      return "Computes the minimum of the cells in the column";
-    case "max" /* MAX */:
-      return "Computes the maximum of the cells in the column";
-    case "median" /* MEDIAN */:
-      return "Computes the median of the cells in the column";
-    case "range" /* RANGE */:
-      return "Computes the range (max - min) of the cells in the column";
-    default:
-      return "";
-  }
-};
-var getDisplayNameForGeneralFunction = (value) => {
-  switch (value) {
-    case "count-all" /* COUNT_ALL */:
-      return "Count all";
-    case "count-not-empty" /* COUNT_NOT_EMPTY */:
-      return "Count not empty";
-    case "count-values" /* COUNT_VALUES */:
-      return "Count values";
-    case "count-empty" /* COUNT_EMPTY */:
-      return "Count empty";
-    case "count-unique" /* COUNT_UNIQUE */:
-      return "Count unique";
-    case "none" /* NONE */:
-      return "None";
-    case "percent-empty" /* PERCENT_EMPTY */:
-      return "Percent empty";
-    case "percent-not-empty" /* PERCENT_NOT_EMPTY */:
-      return "Percent not empty";
-    default:
-      return "";
-  }
-};
-var getDisplayNameForNumberFunction = (value) => {
-  switch (value) {
-    case "sum" /* SUM */:
-      return "Sum";
-    case "avg" /* AVG */:
-      return "Average";
-    case "min" /* MIN */:
-      return "Min";
-    case "max" /* MAX */:
-      return "Max";
-    case "median" /* MEDIAN */:
-      return "Median";
-    case "range" /* RANGE */:
-      return "Range";
-    default:
-      return "";
-  }
-};
-var getDisplayNameForDateFormat = (format) => {
-  switch (format) {
-    case "dd/mm/yyyy" /* DD_MM_YYYY */:
-      return "Day/Month/Year";
-    case "mm/dd/yyyy" /* MM_DD_YYYY */:
-      return "Month/Day/Year";
-    case "yyyy/mm/dd" /* YYYY_MM_DD */:
-      return "Year/Month/Day";
-    case "full" /* FULL */:
-      return "Full";
-    case "relative" /* RELATIVE */:
-      return "Relative";
-    default:
-      return "";
-  }
-};
-var getDisplayNameForCurrencyType = (type) => {
-  switch (type) {
-    case "USD" /* UNITED_STATES */:
-      return "United States Dollar";
-    case "CAD" /* CANADA */:
-      return "Canadian Dollar";
-    case "AUD" /* AUSTRALIA */:
-      return "Australian Dollar";
-    case "SGB" /* SINGAPORE */:
-      return "Singapore Dollar";
-    case "CNY" /* CHINA */:
-      return "Yuan";
-    case "JPY" /* JAPAN */:
-      return "Yen";
-    case "COP" /* COLOMBIA */:
-      return "Colombian Peso";
-    case "EUR" /* EUROPE */:
-      return "Euro";
-    case "SEK" /* SWEDEN */:
-      return "Swedish Krona";
-    case "DKK" /* DENMARK */:
-      return "Danish Krone";
-    case "NOK" /* NORWAY */:
-      return "Norwegian Krone";
-    case "ISK" /* ICELAND */:
-      return "Icelandic Kr\xF3na";
-    case "BRL" /* BRAZIL */:
-      return "Real";
-    case "GBP" /* POUND */:
-      return "Pound";
-    case "INR" /* INDIA */:
-      return "Rupee";
-    case "ARS" /* ARGENTINA */:
-      return "Argentine Peso";
-    case "MXN" /* MEXICO */:
-      return "Mexican Peso";
-    case "RUB" /* RUSSIA */:
-      return "Ruble";
-    default:
-      return "";
-  }
-};
-var getDisplayNameForCellType = (type) => {
-  switch (type) {
-    case "text" /* TEXT */:
-      return "Text";
-    case "embed" /* EMBED */:
-      return "Embed";
-    case "file" /* FILE */:
-      return "File";
-    case "number" /* NUMBER */:
-      return "Number";
-    case "checkbox" /* CHECKBOX */:
-      return "Checkbox";
-    case "date" /* DATE */:
-      return "Date";
-    case "last-edited-time" /* LAST_EDITED_TIME */:
-      return "Last edited";
-    case "creation-time" /* CREATION_TIME */:
-      return "Creation";
-    case "tag" /* TAG */:
-      return "Tag";
-    case "multi-tag" /* MULTI_TAG */:
-      return "Multi-tag";
-    case "currency" /* CURRENCY */:
-      return "Currency";
-    default:
-      return "";
-  }
-};
-
-// src/react/table-app/function-cell/function-menu.tsx
-var FunctionMenu = import_react53.default.forwardRef(
-  function FunctionMenu2({ id: id2, value, cellType, isOpen, top, left, onClick }, ref) {
-    return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_default, {
-      ref,
-      id: id2,
-      isOpen,
-      top,
-      left,
-      children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
-        className: "NLT__function-menu",
-        children: [
-          Object.values(GeneralFunction).map((type) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
-            name: getDisplayNameForGeneralFunction(type),
-            ariaLabel: getAriaLabelForGeneralFunction(type),
-            onClick: () => onClick(type),
-            isSelected: type === value
-          }, type)),
-          (cellType === "number" /* NUMBER */ || cellType === "currency" /* CURRENCY */) && Object.values(NumberFunction).map((type) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
-            ariaLabel: getAriaLabelForNumberFunction(type),
-            name: getDisplayNameForNumberFunction(type),
-            onClick: () => onClick(type),
-            isSelected: type === value
-          }, type))
-        ]
-      })
-    });
-  }
-);
-var function_menu_default = FunctionMenu;
-
-// src/react/table-app/function-cell/arithmetic.ts
-var getAverage = (values) => {
-  return getSum(values) / values.length;
-};
-var getSum = (values) => {
-  return values.reduce((sum, a2) => sum + a2, 0);
-};
-var getMaximum = (values) => {
-  return Math.max(...values);
-};
-var getMinimum = (values) => {
-  return Math.min(...values);
-};
-var getMedian = (values) => {
-  const sortedValues = values.sort((a2, b2) => a2 - b2);
-  const middle = Math.floor(values.length / 2);
-  if (values.length % 2 === 0) {
-    return (sortedValues[middle - 1] + sortedValues[middle]) / 2;
+  let columnIndex = -1;
+  if (typeof align === "object" && "length" in align) {
+    while (++columnIndex < mostCellsPerRow) {
+      alignments[columnIndex] = toAlignment(align[columnIndex]);
+    }
   } else {
-    return sortedValues[middle];
+    const code = toAlignment(align);
+    while (++columnIndex < mostCellsPerRow) {
+      alignments[columnIndex] = code;
+    }
   }
-};
-var getRange = (values) => {
-  return getMaximum(values) - getMinimum(values);
-};
+  columnIndex = -1;
+  const row = [];
+  const sizes = [];
+  while (++columnIndex < mostCellsPerRow) {
+    const code = alignments[columnIndex];
+    let before = "";
+    let after = "";
+    if (code === 99) {
+      before = ":";
+      after = ":";
+    } else if (code === 108) {
+      before = ":";
+    } else if (code === 114) {
+      after = ":";
+    }
+    let size = options.alignDelimiters === false ? 1 : Math.max(
+      1,
+      longestCellByColumn[columnIndex] - before.length - after.length
+    );
+    const cell = before + "-".repeat(size) + after;
+    if (options.alignDelimiters !== false) {
+      size = before.length + size + after.length;
+      if (size > longestCellByColumn[columnIndex]) {
+        longestCellByColumn[columnIndex] = size;
+      }
+      sizes[columnIndex] = size;
+    }
+    row[columnIndex] = cell;
+  }
+  cellMatrix.splice(1, 0, row);
+  sizeMatrix.splice(1, 0, sizes);
+  rowIndex = -1;
+  const lines = [];
+  while (++rowIndex < cellMatrix.length) {
+    const row2 = cellMatrix[rowIndex];
+    const sizes2 = sizeMatrix[rowIndex];
+    columnIndex = -1;
+    const line = [];
+    while (++columnIndex < mostCellsPerRow) {
+      const cell = row2[columnIndex] || "";
+      let before = "";
+      let after = "";
+      if (options.alignDelimiters !== false) {
+        const size = longestCellByColumn[columnIndex] - (sizes2[columnIndex] || 0);
+        const code = alignments[columnIndex];
+        if (code === 114) {
+          before = " ".repeat(size);
+        } else if (code === 99) {
+          if (size % 2) {
+            before = " ".repeat(size / 2 + 0.5);
+            after = " ".repeat(size / 2 - 0.5);
+          } else {
+            before = " ".repeat(size / 2);
+            after = before;
+          }
+        } else {
+          after = " ".repeat(size);
+        }
+      }
+      if (options.delimiterStart !== false && !columnIndex) {
+        line.push("|");
+      }
+      if (options.padding !== false && !(options.alignDelimiters === false && cell === "") && (options.delimiterStart !== false || columnIndex)) {
+        line.push(" ");
+      }
+      if (options.alignDelimiters !== false) {
+        line.push(before);
+      }
+      line.push(cell);
+      if (options.alignDelimiters !== false) {
+        line.push(after);
+      }
+      if (options.padding !== false) {
+        line.push(" ");
+      }
+      if (options.delimiterEnd !== false || columnIndex !== mostCellsPerRow - 1) {
+        line.push("|");
+      }
+    }
+    lines.push(
+      options.delimiterEnd === false ? line.join("").replace(/ +$/, "") : line.join("")
+    );
+  }
+  return lines.join("\n");
+}
+function serialize(value) {
+  return value === null || value === void 0 ? "" : String(value);
+}
+function defaultStringLength(value) {
+  return value.length;
+}
+function toAlignment(value) {
+  const code = typeof value === "string" ? value.codePointAt(0) : 0;
+  return code === 67 || code === 99 ? 99 : code === 76 || code === 108 ? 108 : code === 82 || code === 114 ? 114 : 0;
+}
 
-// src/react/table-app/function-cell/utils.ts
-var NAMESPACE = "fa23ee5e-43ae-45e0-83ed-97c577913416";
-var hashString = (value) => {
-  return v5_default(value, NAMESPACE);
-};
-var round2Digits = (value) => {
-  if (value.toString().includes("."))
-    return parseFloat(value.toFixed(2));
-  return value;
+// src/shared/cell-content/checkbox-cell-content.ts
+var getCheckboxCellContent = (markdown, renderMarkdown2) => {
+  if (renderMarkdown2)
+    return markdown;
+  if (isCheckboxChecked(markdown))
+    return "true";
+  return "false";
 };
 
 // src/shared/cell-content/currency-cell-content.ts
@@ -49380,31 +49564,6 @@ var getCurrencyCellContent = (value, currencyType) => {
   if (isNumber(value))
     return stringToCurrencyString(value, currencyType);
   return "";
-};
-
-// src/react/table-app/function-cell/number-function.ts
-var getNumberFunctionContent = (values, cellType, currencyType, functionType) => {
-  const value = getNumberFunctionValue(values, functionType).toString();
-  if (cellType === "currency" /* CURRENCY */)
-    return getCurrencyCellContent(value, currencyType);
-  return value;
-};
-var getNumberFunctionValue = (values, type) => {
-  if (type === "avg" /* AVG */) {
-    return round2Digits(getAverage(values));
-  } else if (type === "max" /* MAX */) {
-    return getMaximum(values);
-  } else if (type === "min" /* MIN */) {
-    return getMinimum(values);
-  } else if (type === "range" /* RANGE */) {
-    return round2Digits(getRange(values));
-  } else if (type === "sum" /* SUM */) {
-    return round2Digits(getSum(values));
-  } else if (type === "median" /* MEDIAN */) {
-    return round2Digits(getMedian(values));
-  } else {
-    throw new Error("Unhandled number function");
-  }
 };
 
 // src/shared/date/constants.ts
@@ -49555,25 +49714,698 @@ var isValidDateFormat = (value, dateFormat) => {
   }
 };
 
-// src/react/table-app/function-cell/general-function.ts
-var getGeneralFunctionContent = (bodyRows, columnCells, columnTags, cellType, functionType, dateFormat) => {
-  return getGeneralFunctionValue(
+// src/shared/cell-content/date-cell-content.ts
+var getDateCellContent = (dateTime, format) => {
+  if (dateTime !== null)
+    return unixTimeToDateString(dateTime, format);
+  return "";
+};
+
+// src/shared/cell-content/embed-cell-content.ts
+var getEmbedCellContent = (value, options) => {
+  const {
+    shouldRenderMarkdown = true,
+    isExternalLink = false,
+    isExport = false
+  } = options != null ? options : {};
+  if (shouldRenderMarkdown) {
+    if (isExternalLink) {
+      if (isImage(value) || isYouTubeLink(value) || isTwitterLink(value)) {
+        return `![](${value})`;
+      }
+      if (value !== "")
+        return "Unsupported link";
+    } else {
+      if (value !== "") {
+        if (isExport)
+          return `![[${value}]]`;
+        return `![](${getResourcePath(value)})`;
+      }
+    }
+  }
+  return value;
+};
+
+// src/shared/cell-content/number-cell-content.ts
+var getNumberCellContent = (value) => {
+  if (isNumber(value))
+    return value;
+  return "";
+};
+
+// src/shared/cell-content/text-cell-content.ts
+var getTextCellContent = (markdown, renderMarkdown2) => {
+  if (!renderMarkdown2)
+    return markdown.replace(WIKI_LINK_REGEX, (_match, path) => {
+      return path;
+    });
+  return markdown;
+};
+
+// src/shared/cell-content/time-content.ts
+var getTimeCellContent = (dateTime, format) => {
+  if (dateTime !== null)
+    return unixTimeToDateTimeString(dateTime, format);
+  return "";
+};
+
+// src/shared/cell-content/index.ts
+var getTagCellContent = (column, cell) => {
+  return column.tags.filter((tag) => cell.tagIds.includes(tag.id)).map((tag) => tag.markdown).join(",");
+};
+var getCellContent = (column, row, cell, renderMarkdown2) => {
+  switch (column.type) {
+    case "text" /* TEXT */:
+    case "file" /* FILE */:
+      return getTextCellContent(cell.markdown, renderMarkdown2);
+    case "number" /* NUMBER */:
+      return getNumberCellContent(cell.markdown);
+    case "embed" /* EMBED */:
+      return getEmbedCellContent(cell.markdown, {
+        isExport: true,
+        isExternalLink: cell.isExternalLink,
+        shouldRenderMarkdown: renderMarkdown2
+      });
+    case "checkbox" /* CHECKBOX */:
+      return getCheckboxCellContent(cell.markdown, renderMarkdown2);
+    case "currency" /* CURRENCY */:
+      return getCurrencyCellContent(cell.markdown, column.currencyType);
+    case "tag" /* TAG */:
+    case "multi-tag" /* MULTI_TAG */:
+      return getTagCellContent(column, cell);
+    case "date" /* DATE */:
+      return getDateCellContent(cell.dateTime, column.dateFormat);
+    case "creation-time" /* CREATION_TIME */:
+      return getTimeCellContent(row.creationTime, column.dateFormat);
+    case "last-edited-time" /* LAST_EDITED_TIME */:
+      return getTimeCellContent(row.lastEditedTime, column.dateFormat);
+    default:
+      throw new Error("Unsupported cell type");
+  }
+};
+
+// src/shared/export/loom-state-to-array.tsx
+var serializeHeaderCells = (cells) => {
+  return cells.map((cell) => cell.markdown);
+};
+var serializeBodyCells = (columns, rows, cells, renderMarkdown2) => {
+  return rows.map((row) => {
+    const rowCells = cells.filter((cell) => cell.rowId === row.id);
+    return rowCells.map((cell) => {
+      const column = columns.find(
+        (column2) => column2.id === cell.columnId
+      );
+      if (!column)
+        throw new ColumNotFoundError(cell.columnId);
+      return getCellContent(column, row, cell, renderMarkdown2);
+    });
+  });
+};
+var LoomStateToArray = (LoomState8, renderMarkdown2) => {
+  const { headerCells, bodyCells, bodyRows, columns } = LoomState8.model;
+  const serializedHeaderCells = serializeHeaderCells(headerCells);
+  const serializedBodyCells = serializeBodyCells(
+    columns,
+    bodyRows,
+    bodyCells,
+    renderMarkdown2
+  );
+  return [serializedHeaderCells, ...serializedBodyCells];
+};
+
+// src/shared/export/export-to-markdown.tsx
+var exportToMarkdown = (LoomState8, renderMarkdown2) => {
+  const arr = LoomStateToArray(LoomState8, renderMarkdown2);
+  return markdownTable(arr);
+};
+
+// src/react/export-app/index.tsx
+var import_obsidian5 = require("obsidian");
+
+// src/shared/export/download-utils.ts
+var import_obsidian4 = require("obsidian");
+var getBlobTypeForExportType = (type) => {
+  switch (type) {
+    case "CSV" /* CSV */:
+      return "text/csv";
+    case "Markdown" /* MARKDOWN */:
+      return "text/markdown";
+    default:
+      throw new Error(`Unknown export type: ${type}`);
+  }
+};
+var getExportFileName = (filePath) => {
+  const replaceExtension = filePath.replace(`.${CURRENT_FILE_EXTENSION}`, "");
+  const replaceSlash = replaceExtension.replace(/\//g, "-");
+  const replaceSpaces = replaceSlash.replace(/ /g, "_");
+  const timestamp = (0, import_obsidian4.moment)().format("YYYY_MM_DD-HH_mm_ss");
+  return replaceSpaces + "-" + timestamp;
+};
+var downloadFile = (fileName, blobType, data) => {
+  const blob = new Blob([data], { type: blobType });
+  const url = window.URL.createObjectURL(blob);
+  const el = document.createElement("a");
+  el.setAttribute("href", url);
+  el.setAttribute("download", fileName);
+  el.style.display = "none";
+  document.body.appendChild(el);
+  el.click();
+  document.body.removeChild(el);
+};
+
+// src/shared/export/export-to-csv.tsx
+var import_papaparse = __toESM(require_papaparse_min());
+var exportToCSV = (LoomState8, renderMarkdown2) => {
+  const arr = LoomStateToArray(LoomState8, renderMarkdown2);
+  return import_papaparse.default.unparse(arr);
+};
+
+// src/react/export-app/index.tsx
+function ExportApp({ LoomState: LoomState8, loomFilePath }) {
+  const [exportType, setExportType] = import_react53.default.useState(
+    "Select an option" /* UNSELECTED */
+  );
+  const { exportRenderMarkdown } = useAppSelector(
+    (state) => state.global.settings
+  );
+  const [renderMarkdown2, setRenderMarkdown] = import_react53.default.useState(exportRenderMarkdown);
+  function handleCopyClick(value) {
+    return __async(this, null, function* () {
+      yield navigator.clipboard.writeText(value);
+      new import_obsidian5.Notice("Copied to clipboard");
+    });
+  }
+  function handleDownloadClick() {
+    const fileName = getExportFileName(loomFilePath);
+    const blobType = getBlobTypeForExportType(exportType);
+    downloadFile(fileName, blobType, content);
+  }
+  let content = "";
+  if (exportType === "Markdown" /* MARKDOWN */) {
+    content = exportToMarkdown(LoomState8, renderMarkdown2);
+  } else if (exportType === "CSV" /* CSV */) {
+    content = exportToCSV(LoomState8, renderMarkdown2);
+  }
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: "DataLoom__export-app",
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Padding, {
+      p: "xl",
+      children: [
+        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("h5", {
+          css: import_emotion_react_cjs.css`
+						margin-top: 0px;
+						margin-bottom: 0px;
+					`,
+          children: "DataLoom Export"
+        }),
+        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("hr", {
+          css: import_emotion_react_cjs.css`
+						margin: 1rem 0;
+					`
+        }),
+        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+          spacing: "xl",
+          children: [
+            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ExportTypeSelect, {
+              value: exportType,
+              onChange: setExportType
+            }),
+            exportType !== "Select an option" /* UNSELECTED */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
+              children: [
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ContentTextArea, {
+                  value: content
+                }),
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+                  spacing: "sm",
+                  children: [
+                    /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("label", {
+                      htmlFor: "render-markdown",
+                      children: "Render markdown"
+                    }),
+                    /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
+                      id: "render-markdown",
+                      type: "checkbox",
+                      checked: renderMarkdown2,
+                      onChange: () => setRenderMarkdown(!renderMarkdown2)
+                    })
+                  ]
+                }),
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+                  isHorizontal: true,
+                  children: [
+                    /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("button", {
+                      className: "mod-cta",
+                      onClick: handleDownloadClick,
+                      children: "Download"
+                    }),
+                    /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("button", {
+                      css: import_emotion_react_cjs.css`
+										background-color: var(
+											--background-secondary-alt
+										) !important;
+									`,
+                      onClick: () => handleCopyClick(content),
+                      children: "Copy to clipboard"
+                    })
+                  ]
+                })
+              ]
+            })
+          ]
+        })
+      ]
+    })
+  });
+}
+
+// src/obsidian/export-modal.tsx
+var ExportModal = class extends import_obsidian6.Modal {
+  constructor(app2, loomFile) {
+    super(app2);
+    this.app = app2;
+    this.loomFile = loomFile;
+  }
+  onOpen() {
+    this.renderApp();
+  }
+  renderApp() {
+    return __async(this, null, function* () {
+      try {
+        const data = yield app.vault.read(this.loomFile);
+        const state = deserializeLoomState(data);
+        this.root = (0, import_client.createRoot)(this.containerEl.children[1]);
+        this.root.render(
+          /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Provider_default, {
+            store,
+            children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ExportApp, {
+              LoomState: state,
+              loomFilePath: this.loomFile.path
+            })
+          })
+        );
+      } catch (err) {
+        new import_obsidian6.Notice("Error reading loom file data.");
+      }
+    });
+  }
+  onClose() {
+    if (this.root)
+      this.root.unmount();
+  }
+};
+
+// src/react/loom-app/option-bar/index.tsx
+var SortBubbleList = ({
+  headerCells,
+  columns,
+  onRemoveClick
+}) => {
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Stack, {
+    spacing: "sm",
+    isHorizontal: true,
+    children: headerCells.map((cell, i2) => {
+      const column = columns.find((c2) => c2.id === cell.columnId);
+      if (!column)
+        throw new ColumNotFoundError(cell.columnId);
+      const { markdown, columnId } = cell;
+      const { sortDir } = column;
+      return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(SortBubble, {
+        sortDir,
+        markdown,
+        onRemoveClick: () => onRemoveClick(columnId)
+      }, i2);
+    })
+  });
+};
+function OptionBar({
+  headerCells,
+  columns,
+  filterRules,
+  onSortRemoveClick,
+  onColumnToggle,
+  onRuleToggle,
+  onRuleColumnChange,
+  onRuleFilterTypeChange,
+  onRuleTextChange,
+  onRuleDeleteClick,
+  onRuleAddClick,
+  onRuleTagsChange
+}) {
+  const { loomFile } = useMountState();
+  const sortedCells = headerCells.filter((cell) => {
+    const columnId = cell.columnId;
+    const column = columns.find((c2) => c2.id === columnId);
+    if (!column)
+      throw new ColumNotFoundError(columnId);
+    return column.sortDir !== "default" /* NONE */;
+  });
+  const activeRules = filterRules.filter((rule) => rule.isEnabled);
+  const columnsWithMarkdown = columns.map((column) => {
+    const headerCell = headerCells.find(
+      (cell) => cell.columnId === column.id
+    );
+    if (!headerCell)
+      throw new CellNotFoundError({
+        columnId: column.id
+      });
+    return __spreadProps(__spreadValues({}, column), {
+      markdown: headerCell.markdown
+    });
+  });
+  const filterableColumns = columnsWithMarkdown.filter(
+    (column) => {
+      const { type } = column;
+      return isCellTypeFilterable(type);
+    }
+  );
+  const { isMarkdownView } = useMountState();
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: "DataLoom__option-bar",
+    css: import_emotion_react_cjs.css`
+				width: 100%;
+				border-bottom: 1px solid var(--background-modifier-border);
+			`,
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
+      px: isMarkdownView ? "unset" : "lg",
+      py: "md",
+      children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Stack, {
+        spacing: "lg",
+        align: "center",
+        minHeight: "40px",
+        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Wrap, {
+          justify: { base: "space-between", mobile: "flex-end" },
+          children: [
+            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+              spacing: "md",
+              isHorizontal: true,
+              children: [
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(SortBubbleList, {
+                  headerCells: sortedCells,
+                  columns,
+                  onRemoveClick: onSortRemoveClick
+                }),
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ActiveFilterBubble, {
+                  numActive: activeRules.length
+                })
+              ]
+            }),
+            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+              spacing: "sm",
+              justify: "flex-end",
+              isHorizontal: true,
+              children: [
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(SearchBar, {}),
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(filter_default, {
+                  columns: filterableColumns,
+                  filterRules,
+                  onAddClick: onRuleAddClick,
+                  onToggle: onRuleToggle,
+                  onColumnChange: onRuleColumnChange,
+                  onFilterTypeChange: onRuleFilterTypeChange,
+                  onTextChange: onRuleTextChange,
+                  onDeleteClick: onRuleDeleteClick,
+                  onTagsChange: onRuleTagsChange
+                }),
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(toggle_column_default, {
+                  columns: columnsWithMarkdown,
+                  onToggle: onColumnToggle
+                }),
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
+                  icon: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Icon, {
+                    lucideId: "download"
+                  }),
+                  onClick: () => {
+                    new ExportModal(app, loomFile).open();
+                  }
+                })
+              ]
+            })
+          ]
+        })
+      })
+    })
+  });
+}
+
+// src/react/loom-app/calculation-cell/calculation-menu.tsx
+var import_react56 = __toESM(require_react());
+
+// src/shared/loom-state/display-name.ts
+var getShortDisplayNameForCalculation = (value) => {
+  switch (value) {
+    case "count-all" /* COUNT_ALL */:
+      return "Count";
+    case "count-not-empty" /* COUNT_NOT_EMPTY */:
+      return "Not empty";
+    case "count-values" /* COUNT_VALUES */:
+      return "Values";
+    case "count-empty" /* COUNT_EMPTY */:
+      return "Empty";
+    case "count-unique" /* COUNT_UNIQUE */:
+      return "Unique";
+    case "none" /* NONE */:
+      return "None";
+    case "percent-empty" /* PERCENT_EMPTY */:
+      return "Empty";
+    case "percent-not-empty" /* PERCENT_NOT_EMPTY */:
+      return "Not empty";
+    default:
+      return "";
+  }
+};
+var getShortDisplayNameForCalculationType = (value) => {
+  if (isNumberCalcuation(value))
+    return getDisplayNameForNumberCalculation(value);
+  return getShortDisplayNameForCalculation(value);
+};
+var getAriaLabelForCalculation = (value) => {
+  switch (value) {
+    case "count-all" /* COUNT_ALL */:
+      return "Counts the total number of rows";
+    case "count-empty" /* COUNT_EMPTY */:
+      return "Counts the number of rows with an empty cell value";
+    case "count-not-empty" /* COUNT_NOT_EMPTY */:
+      return "Counts the number of rows with a non-empty cell value";
+    case "count-unique" /* COUNT_UNIQUE */:
+      return "Counts the number of unique values in the column";
+    case "count-values" /* COUNT_VALUES */:
+      return "Counts the number of values in the column";
+    case "percent-empty" /* PERCENT_EMPTY */:
+      return "Displays the percentage of rows with an empty cell value";
+    case "percent-not-empty" /* PERCENT_NOT_EMPTY */:
+      return "Displays the percentage of rows with a non-empty cell value";
+    default:
+      return "";
+  }
+};
+var getAriaLabelForNumberCalculation = (value) => {
+  switch (value) {
+    case "sum" /* SUM */:
+      return "Computes the sum of the cells in the column";
+    case "avg" /* AVG */:
+      return "Computes the average of the cells in the column";
+    case "min" /* MIN */:
+      return "Computes the minimum of the cells in the column";
+    case "max" /* MAX */:
+      return "Computes the maximum of the cells in the column";
+    case "median" /* MEDIAN */:
+      return "Computes the median of the cells in the column";
+    case "range" /* RANGE */:
+      return "Computes the range (max - min) of the cells in the column";
+    default:
+      return "";
+  }
+};
+var getDisplayNameForCalculation = (value) => {
+  switch (value) {
+    case "count-all" /* COUNT_ALL */:
+      return "Count all";
+    case "count-not-empty" /* COUNT_NOT_EMPTY */:
+      return "Count not empty";
+    case "count-values" /* COUNT_VALUES */:
+      return "Count values";
+    case "count-empty" /* COUNT_EMPTY */:
+      return "Count empty";
+    case "count-unique" /* COUNT_UNIQUE */:
+      return "Count unique";
+    case "none" /* NONE */:
+      return "None";
+    case "percent-empty" /* PERCENT_EMPTY */:
+      return "Percent empty";
+    case "percent-not-empty" /* PERCENT_NOT_EMPTY */:
+      return "Percent not empty";
+    default:
+      return "";
+  }
+};
+var getDisplayNameForNumberCalculation = (value) => {
+  switch (value) {
+    case "sum" /* SUM */:
+      return "Sum";
+    case "avg" /* AVG */:
+      return "Average";
+    case "min" /* MIN */:
+      return "Min";
+    case "max" /* MAX */:
+      return "Max";
+    case "median" /* MEDIAN */:
+      return "Median";
+    case "range" /* RANGE */:
+      return "Range";
+    default:
+      return "";
+  }
+};
+var getDisplayNameForDateFormat = (format) => {
+  switch (format) {
+    case "dd/mm/yyyy" /* DD_MM_YYYY */:
+      return "Day/Month/Year";
+    case "mm/dd/yyyy" /* MM_DD_YYYY */:
+      return "Month/Day/Year";
+    case "yyyy/mm/dd" /* YYYY_MM_DD */:
+      return "Year/Month/Day";
+    case "full" /* FULL */:
+      return "Full";
+    case "relative" /* RELATIVE */:
+      return "Relative";
+    default:
+      return "";
+  }
+};
+var getDisplayNameForCurrencyType = (type) => {
+  switch (type) {
+    case "USD" /* UNITED_STATES */:
+      return "United States Dollar";
+    case "CAD" /* CANADA */:
+      return "Canadian Dollar";
+    case "AUD" /* AUSTRALIA */:
+      return "Australian Dollar";
+    case "SGB" /* SINGAPORE */:
+      return "Singapore Dollar";
+    case "CNY" /* CHINA */:
+      return "Yuan";
+    case "JPY" /* JAPAN */:
+      return "Yen";
+    case "COP" /* COLOMBIA */:
+      return "Colombian Peso";
+    case "EUR" /* EUROPE */:
+      return "Euro";
+    case "SEK" /* SWEDEN */:
+      return "Swedish Krona";
+    case "DKK" /* DENMARK */:
+      return "Danish Krone";
+    case "NOK" /* NORWAY */:
+      return "Norwegian Krone";
+    case "ISK" /* ICELAND */:
+      return "Icelandic Kr\xF3na";
+    case "BRL" /* BRAZIL */:
+      return "Real";
+    case "GBP" /* POUND */:
+      return "Pound";
+    case "INR" /* INDIA */:
+      return "Rupee";
+    case "ARS" /* ARGENTINA */:
+      return "Argentine Peso";
+    case "MXN" /* MEXICO */:
+      return "Mexican Peso";
+    case "RUB" /* RUSSIA */:
+      return "Ruble";
+    default:
+      return "";
+  }
+};
+var getDisplayNameForCellType = (type) => {
+  switch (type) {
+    case "text" /* TEXT */:
+      return "Text";
+    case "embed" /* EMBED */:
+      return "Embed";
+    case "file" /* FILE */:
+      return "File";
+    case "number" /* NUMBER */:
+      return "Number";
+    case "checkbox" /* CHECKBOX */:
+      return "Checkbox";
+    case "date" /* DATE */:
+      return "Date";
+    case "last-edited-time" /* LAST_EDITED_TIME */:
+      return "Last edited";
+    case "creation-time" /* CREATION_TIME */:
+      return "Creation";
+    case "tag" /* TAG */:
+      return "Tag";
+    case "multi-tag" /* MULTI_TAG */:
+      return "Multi-tag";
+    case "currency" /* CURRENCY */:
+      return "Currency";
+    default:
+      return "";
+  }
+};
+
+// src/react/loom-app/calculation-cell/calculation-menu.tsx
+var CalculationMenu = import_react56.default.forwardRef(
+  function CalculationMenu2({ id: id2, value, cellType, isOpen, top, left, onClick }, ref) {
+    return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_default, {
+      ref,
+      id: id2,
+      isOpen,
+      top,
+      left,
+      children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
+        className: "DataLoom__function-menu",
+        children: [
+          Object.values(Calculation).map((type) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
+            name: getDisplayNameForCalculation(type),
+            ariaLabel: getAriaLabelForCalculation(type),
+            onClick: () => onClick(type),
+            isSelected: type === value
+          }, type)),
+          (cellType === "number" /* NUMBER */ || cellType === "currency" /* CURRENCY */) && Object.values(NumberCalculation).map((type) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
+            ariaLabel: getAriaLabelForNumberCalculation(
+              type
+            ),
+            name: getDisplayNameForNumberCalculation(type),
+            onClick: () => onClick(type),
+            isSelected: type === value
+          }, type))
+        ]
+      })
+    });
+  }
+);
+var calculation_menu_default = CalculationMenu;
+
+// src/react/loom-app/calculation-cell/utils.ts
+var NAMESPACE = "fa23ee5e-43ae-45e0-83ed-97c577913416";
+var hashString = (value) => {
+  return v5_default(value, NAMESPACE);
+};
+var round2Digits = (value) => {
+  if (value.toString().includes("."))
+    return parseFloat(value.toFixed(2));
+  return value;
+};
+
+// src/react/loom-app/calculation-cell/calculation.ts
+var getCalculationContent = (bodyRows, columnCells, columnTags, cellType, calculationType, dateFormat) => {
+  return getCalculation(
     bodyRows,
     columnCells,
     columnTags,
     cellType,
-    functionType,
+    calculationType,
     dateFormat
   ).toString();
 };
-var getGeneralFunctionValue = (bodyRows, columnCells, columnTags, cellType, functionType, dateFormat) => {
-  if (functionType === "count-all" /* COUNT_ALL */) {
+var getCalculation = (bodyRows, columnCells, columnTags, cellType, calculationType, dateFormat) => {
+  if (calculationType === "count-all" /* COUNT_ALL */) {
     return countAll(bodyRows);
-  } else if (functionType === "count-empty" /* COUNT_EMPTY */) {
+  } else if (calculationType === "count-empty" /* COUNT_EMPTY */) {
     return countEmpty(columnCells, cellType);
-  } else if (functionType === "count-not-empty" /* COUNT_NOT_EMPTY */) {
+  } else if (calculationType === "count-not-empty" /* COUNT_NOT_EMPTY */) {
     return countNotEmpty(columnCells, cellType);
-  } else if (functionType === "count-unique" /* COUNT_UNIQUE */) {
+  } else if (calculationType === "count-unique" /* COUNT_UNIQUE */) {
     return countUnique(
       bodyRows,
       columnCells,
@@ -49581,16 +50413,16 @@ var getGeneralFunctionValue = (bodyRows, columnCells, columnTags, cellType, func
       cellType,
       dateFormat
     );
-  } else if (functionType === "count-values" /* COUNT_VALUES */) {
+  } else if (calculationType === "count-values" /* COUNT_VALUES */) {
     return countValues(columnCells, cellType);
-  } else if (functionType === "percent-empty" /* PERCENT_EMPTY */) {
+  } else if (calculationType === "percent-empty" /* PERCENT_EMPTY */) {
     return percentEmpty(columnCells, cellType);
-  } else if (functionType === "percent-not-empty" /* PERCENT_NOT_EMPTY */) {
+  } else if (calculationType === "percent-not-empty" /* PERCENT_NOT_EMPTY */) {
     return percentNotEmpty(columnCells, cellType);
-  } else if (functionType === "none" /* NONE */) {
+  } else if (calculationType === "none" /* NONE */) {
     return "";
   } else {
-    throw new Error("Unhandled general function");
+    throw new Error("Unhandled calculation type");
   }
 };
 var countAll = (bodyRows) => {
@@ -49631,14 +50463,16 @@ var countValues = (columnCells, cellType) => {
   return columnCells.map((cell) => countCellValues(cell, cellType)).reduce((accum, value) => accum + value, 0);
 };
 var percentEmpty = (columnCells, cellType) => {
+  if (columnCells.length === 0)
+    return "0%";
   const percent = countEmpty(columnCells, cellType) / columnCells.length * 100;
-  const normalized = round2Digits(percent);
-  return normalized + "%";
+  return round2Digits(percent) + "%";
 };
 var percentNotEmpty = (columnCells, cellType) => {
+  if (columnCells.length === 0)
+    return "0%";
   const percent = countNotEmpty(columnCells, cellType) / columnCells.length * 100;
-  const normalized = round2Digits(percent);
-  return normalized + "%";
+  return round2Digits(percent) + "%";
 };
 var getCellValues = (bodyRow, cell, columnTags, cellType, dateFormat) => {
   if (cellType === "text" /* TEXT */ || cellType === "embed" /* EMBED */ || cellType === "number" /* NUMBER */ || cellType === "currency" /* CURRENCY */ || cellType === "checkbox" /* CHECKBOX */ || cellType === "file" /* FILE */) {
@@ -49693,45 +50527,96 @@ var isCellContentEmpty = (cell, cellType) => {
   }
 };
 
-// src/react/table-app/function-cell/index.tsx
-function FunctionCell({
+// src/react/loom-app/calculation-cell/arithmetic.ts
+var getAverage = (values) => {
+  return getSum(values) / values.length;
+};
+var getSum = (values) => {
+  return values.reduce((sum, a2) => sum + a2, 0);
+};
+var getMaximum = (values) => {
+  return Math.max(...values);
+};
+var getMinimum = (values) => {
+  return Math.min(...values);
+};
+var getMedian = (values) => {
+  const sortedValues = values.sort((a2, b2) => a2 - b2);
+  const middle = Math.floor(values.length / 2);
+  if (values.length % 2 === 0) {
+    return (sortedValues[middle - 1] + sortedValues[middle]) / 2;
+  } else {
+    return sortedValues[middle];
+  }
+};
+var getRange = (values) => {
+  return getMaximum(values) - getMinimum(values);
+};
+
+// src/react/loom-app/calculation-cell/number-calculation.ts
+var getNumberCalculationContent = (values, cellType, currencyType, calculationType) => {
+  const value = getNumberCalculation(values, calculationType).toString();
+  if (cellType === "currency" /* CURRENCY */)
+    return getCurrencyCellContent(value, currencyType);
+  return value;
+};
+var getNumberCalculation = (values, type) => {
+  if (type === "avg" /* AVG */) {
+    return round2Digits(getAverage(values));
+  } else if (type === "max" /* MAX */) {
+    return getMaximum(values);
+  } else if (type === "min" /* MIN */) {
+    return getMinimum(values);
+  } else if (type === "range" /* RANGE */) {
+    return round2Digits(getRange(values));
+  } else if (type === "sum" /* SUM */) {
+    return round2Digits(getSum(values));
+  } else if (type === "median" /* MEDIAN */) {
+    return round2Digits(getMedian(values));
+  } else {
+    throw new Error("Unhandled number calculation type");
+  }
+};
+
+// src/react/loom-app/calculation-cell/index.tsx
+function CalculationCell({
   columnId,
   columnTags,
   bodyCells,
   dateFormat,
   bodyRows,
-  functionType,
+  calculationType,
   currencyType,
   cellType,
-  onFunctionTypeChange
+  onTypeChange
 }) {
   const { menu, isMenuOpen, menuRef, closeTopMenu } = useMenu(0 /* ONE */);
   const { triggerPosition, triggerRef } = useMenuTriggerPosition();
   useShiftMenu(triggerRef, menuRef, isMenuOpen);
-  function handleFunctionTypeClick(value) {
-    onFunctionTypeChange(columnId, value);
+  function handleTypeClick(value) {
+    onTypeChange(columnId, value);
     closeTopMenu();
   }
   const columnCells = bodyCells.filter((cell) => cell.columnId === columnId);
   let content = "";
-  if (isGeneralFunction(functionType)) {
-    content = getGeneralFunctionContent(
+  if (isNumberCalcuation(calculationType)) {
+    const cellValues = columnCells.filter((cell) => isNumber(cell.markdown)).map((cell) => parseFloat(cell.markdown));
+    if (cellValues.length !== 0)
+      content = getNumberCalculationContent(
+        cellValues,
+        cellType,
+        currencyType,
+        calculationType
+      );
+  } else {
+    content = getCalculationContent(
       bodyRows,
       columnCells,
       columnTags,
       cellType,
-      functionType,
+      calculationType,
       dateFormat
     );
-  } else {
-    const cellValues = columnCells.filter((cell) => isNumber(cell.markdown)).map((cell) => parseFloat(cell.markdown));
-    if (cellValues.length !== 0)
-      content = getNumberFunctionContent(
-        cellValues,
-        cellType,
-        currencyType,
-        functionType
-      );
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
     children: [
@@ -49739,19 +50624,28 @@ function FunctionCell({
         isCell: true,
         menu,
         children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
-          className: "NLT__function-cell NLT__selectable",
+          className: "DataLoom__function-cell DataLoom__selectable",
           ref: triggerRef,
+          css: import_emotion_react_cjs.css`
+						display: flex;
+						justify-content: flex-end;
+						cursor: pointer;
+						overflow: hidden;
+						padding: var(--nlt-cell-spacing-x)
+							var(--nlt-cell-spacing-y);
+					`,
           children: [
-            functionType === "none" /* NONE */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
+            calculationType === "none" /* NONE */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
               value: "Calculate",
               variant: "faint"
             }),
-            functionType !== "none" /* NONE */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+            calculationType !== "none" /* NONE */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
               spacing: "sm",
+              isHorizontal: true,
               children: [
                 /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
-                  value: getShortDisplayNameForFunctionType(
-                    functionType
+                  value: getShortDisplayNameForCalculationType(
+                    calculationType
                   ),
                   variant: "muted"
                 }),
@@ -49764,41 +50658,47 @@ function FunctionCell({
           ]
         })
       }),
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(function_menu_default, {
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(calculation_menu_default, {
         id: menu.id,
         top: triggerPosition.top,
         ref: menuRef,
         cellType,
         left: triggerPosition.left,
         isOpen: isMenuOpen,
-        value: functionType,
-        onClick: handleFunctionTypeClick
+        value: calculationType,
+        onClick: handleTypeClick
       })
     ]
   });
 }
 
-// src/react/table-app/body-cell/index.tsx
-var import_react81 = __toESM(require_react());
+// src/react/loom-app/body-cell/index.tsx
+var import_react90 = __toESM(require_react());
 
-// src/react/table-app/text-cell/index.tsx
+// src/react/loom-app/text-cell/index.tsx
 function TextCell({ markdown, shouldWrapOverflow }) {
-  const { containerRef, renderRef } = useRenderMarkdown(markdown, false);
+  const { containerRef, renderRef } = useRenderMarkdown(markdown);
   const overflowStyle = useOverflow(shouldWrapOverflow);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "NLT__text-cell",
-    css: overflowStyle,
+    className: "DataLoom__text-cell",
+    css: import_emotion_react_cjs.css`
+				width: 100%;
+				height: 100%;
+				${overflowStyle}
+			`,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
       css: import_emotion_react_cjs.css`
+					text-align: left;
+
 					p {
 						margin: 0;
-						text-align: left;
 					}
 
-					ul {
+					//.contains-task-list is from dataview
+					//it is what is rendered for a task list
+					ul:not(.contains-task-list) {
 						padding-left: var(--nlt-spacing--xl);
 						padding-right: 0;
-						margin: 0;
 					}
 				`,
       ref: (node) => {
@@ -49809,71 +50709,48 @@ function TextCell({ markdown, shouldWrapOverflow }) {
   });
 }
 
-// src/shared/color.ts
-var findColorClassName = (isDarkMode, color) => {
-  switch (color) {
-    case "light gray" /* LIGHT_GRAY */:
-      return isDarkMode ? "NLT__light-gray--dark" : "NLT__light-gray--light";
-    case "gray" /* GRAY */:
-      return isDarkMode ? "NLT__gray--dark" : "NLT__gray--light";
-    case "brown" /* BROWN */:
-      return isDarkMode ? "NLT__brown--dark" : "NLT__brown--light";
-    case "orange" /* ORANGE */:
-      return isDarkMode ? "NLT__orange--dark" : "NLT__orange--light";
-    case "yellow" /* YELLOW */:
-      return isDarkMode ? "NLT__yellow--dark" : "NLT__yellow--light";
-    case "green" /* GREEN */:
-      return isDarkMode ? "NLT__green--dark" : "NLT__green--light";
-    case "blue" /* BLUE */:
-      return isDarkMode ? "NLT__blue--dark" : "NLT__blue--light";
-    case "purple" /* PURPLE */:
-      return isDarkMode ? "NLT__purple--dark" : "NLT__purple--light";
-    case "pink" /* PINK */:
-      return isDarkMode ? "NLT__pink--dark" : "NLT__pink--light";
-    case "red" /* RED */:
-      return isDarkMode ? "NLT__red--dark" : "NLT__red--light";
-    default:
-      return "";
-  }
-};
-var randomColor = () => {
-  const index = Math.floor(Math.random() * Object.values(Color).length);
-  return Object.values(Color)[index];
-};
-
 // src/react/shared/tag/index.tsx
-function Tag6({
+function Tag8({
   id: id2,
   color,
   maxWidth,
   markdown,
-  showRemove,
+  showRemoveButton,
   onRemoveClick
 }) {
   const { isDarkMode } = useAppSelector((state) => state.global);
-  let tagClass = "NLT__tag";
+  let tagClass = "DataLoom__tag";
   tagClass += " " + findColorClassName(isDarkMode, color);
   if (onRemoveClick !== void 0 && id2 === void 0) {
     throw new Error(
       "An id must defined when the onRemoveClick handler is present."
     );
   }
-  let contentClassName = "NLT__tag-content";
+  let contentClassName = "DataLoom__tag-content";
   if (maxWidth !== void 0) {
-    contentClassName += " NLT__hide-overflow-ellipsis";
+    contentClassName += " DataLoom__hide-overflow-ellipsis";
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
     className: tagClass,
+    css: import_emotion_react_cjs.css`
+				display: flex;
+				align-items: center;
+				border-radius: 8px;
+				padding: var(--nlt-spacing--xs) var(--nlt-spacing--md);
+				width: max-content;
+				color: var(--text-normal);
+			`,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
       spacing: "sm",
       justify: "center",
+      isHorizontal: true,
       children: [
         /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", __spreadProps(__spreadValues({
           className: contentClassName
         }, maxWidth !== void 0 && { style: { maxWidth } }), {
           children: markdown
         })),
-        showRemove && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
+        showRemoveButton && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
           width: "max-content",
           children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
             isSmall: true,
@@ -49881,7 +50758,8 @@ function Tag6({
               lucideId: "x"
             }),
             onClick: () => {
-              onRemoveClick !== void 0 && onRemoveClick(id2);
+              if (id2 && onRemoveClick)
+                onRemoveClick(id2);
             }
           })
         })
@@ -49890,7 +50768,7 @@ function Tag6({
   });
 }
 
-// src/react/table-app/tag-cell/index.tsx
+// src/react/loom-app/tag-cell/index.tsx
 function TagCell({
   markdown,
   color,
@@ -49898,20 +50776,20 @@ function TagCell({
 }) {
   const overflowStyle = useOverflow(shouldWrapOverflow);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "NLT__tag-cell",
+    className: "DataLoom__tag-cell",
     css: overflowStyle,
-    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Tag6, {
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Tag8, {
       markdown,
       color
     })
   });
 }
 
-// src/react/table-app/checkbox-cell/index.tsx
+// src/react/loom-app/checkbox-cell/index.tsx
 function CheckboxCell({ value }) {
   const isChecked = isCheckboxChecked(value);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "NLT__checkbox-cell",
+    className: "DataLoom__checkbox-cell",
     css: import_emotion_react_cjs.css`
 				width: 100%;
 				padding: var(--nlt-cell-spacing);
@@ -49929,18 +50807,11 @@ function CheckboxCell({ value }) {
   });
 }
 
-// src/shared/cell-content/date-cell-content.ts
-var getDateCellContent = (dateTime, format) => {
-  if (dateTime !== null)
-    return unixTimeToDateString(dateTime, format);
-  return "";
-};
-
-// src/react/table-app/date-cell/index.tsx
+// src/react/loom-app/date-cell/index.tsx
 function DateCell({ value, format }) {
   const content = getDateCellContent(value, format);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "NLT__date-cell",
+    className: "DataLoom__date-cell",
     css: import_emotion_react_cjs.css`
 				width: 100%;
 				text-align: left;
@@ -49953,21 +50824,21 @@ function DateCell({ value, format }) {
   });
 }
 
-// src/react/table-app/number-cell/index.tsx
+// src/react/loom-app/number-cell/index.tsx
 function NumberCell({ value, shouldWrapOverflow }) {
   const overflowStyle = useOverflow(shouldWrapOverflow);
   let valueString = "";
   if (isNumber(value))
     valueString = value;
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "NLT__number-cell",
+    className: "DataLoom__number-cell",
     css: overflowStyle,
     children: valueString
   });
 }
 
-// src/react/table-app/number-cell-edit/index.tsx
-var import_react57 = __toESM(require_react());
+// src/react/loom-app/number-cell-edit/index.tsx
+var import_react62 = __toESM(require_react());
 function NumberCellEdit({
   menuCloseRequest,
   value,
@@ -49975,13 +50846,13 @@ function NumberCellEdit({
   onMenuClose
 }) {
   const initialValue = isNumber(value) ? value : "";
-  const [localValue, setLocalValue] = import_react57.default.useState(initialValue);
-  const inputRef = import_react57.default.useRef(null);
+  const [localValue, setLocalValue] = import_react62.default.useState(initialValue);
+  const inputRef = import_react62.default.useRef(null);
   useInputSelection(inputRef, localValue);
   const hasCloseRequestTimeChanged = useCompare(
     menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
   );
-  import_react57.default.useEffect(() => {
+  import_react62.default.useEffect(() => {
     if (hasCloseRequestTimeChanged && menuCloseRequest !== null) {
       if (localValue !== value)
         onChange(localValue);
@@ -49996,12 +50867,12 @@ function NumberCellEdit({
     onChange
   ]);
   function handleChange(inputValue) {
-    if (!isValidNumberInput(inputValue))
+    if (!isNumberInput(inputValue))
       return;
     setLocalValue(inputValue);
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "NLT__number-cell-edit",
+    className: "DataLoom__number-cell-edit",
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
       autoFocus: true,
       css: numberInputStyle,
@@ -50011,29 +50882,28 @@ function NumberCellEdit({
       value: localValue,
       onChange: (e) => handleChange(e.target.value),
       onBlur: (e) => {
-        e.target.classList.add("NLT__blur--cell");
+        e.target.classList.add("DataLoom__blur--cell");
       }
     })
   });
 }
 
-// src/react/table-app/text-cell-edit/index.tsx
-var import_react63 = __toESM(require_react());
+// src/react/loom-app/text-cell-edit/index.tsx
+var import_react70 = __toESM(require_react());
 
-// src/react/shared/suggest-menu/suggest-menu.tsx
-var import_react62 = __toESM(require_react());
+// src/react/loom-app/text-cell-edit/suggest-menu.tsx
+var import_react69 = __toESM(require_react());
 
-// src/react/shared/suggest-menu/suggest-menu-content.tsx
-var import_react60 = __toESM(require_react());
+// src/react/shared/suggest-list/index.tsx
+var import_react67 = __toESM(require_react());
 var import_fuzzysort = __toESM(require_fuzzysort());
 
-// src/react/shared/suggest-menu/suggest-item.tsx
-var import_react58 = __toESM(require_react());
+// src/react/shared/suggest-list/suggest-item.tsx
+var import_react63 = __toESM(require_react());
 
 // src/shared/event-system/event-system.ts
 var EventSystem = class {
   constructor() {
-    __publicField(this, "eventListeners");
     this.eventListeners = [];
   }
   addEventListener(name, callback, priority = 0) {
@@ -50058,25 +50928,25 @@ var EventSystem = class {
 };
 var nltEventSystem = new EventSystem();
 
-// src/react/shared/suggest-menu/suggest-item.tsx
-var SuggestItem = import_react58.default.forwardRef(
-  function SuggestItem2({ file, isHighlighted, isFileNameUnique, onItemClick }, ref) {
-    const handleClick = import_react58.default.useCallback(
+// src/react/shared/suggest-list/suggest-item.tsx
+var SuggestItem = import_react63.default.forwardRef(
+  function SuggestItem2({ index, file, isHighlighted, onItemClick }, ref) {
+    const handleClick = import_react63.default.useCallback(
       (e) => {
         e.stopPropagation();
-        onItemClick(file, isFileNameUnique);
+        onItemClick(file);
       },
-      [file, isFileNameUnique, onItemClick]
+      [file, onItemClick]
     );
-    import_react58.default.useEffect(() => {
+    import_react63.default.useEffect(() => {
       function handleKeyDown(e) {
         if (e.key === "Enter")
-          onItemClick(file, isFileNameUnique);
+          onItemClick(file);
       }
       if (isHighlighted)
         nltEventSystem.addEventListener("keydown", handleKeyDown, 1);
       return () => nltEventSystem.removeEventListener("keydown", handleKeyDown);
-    }, [isHighlighted, onItemClick, file, isFileNameUnique]);
+    }, [isHighlighted, onItemClick, file]);
     let name = "No match found";
     if (file) {
       if (file.extension === "md") {
@@ -50093,10 +50963,11 @@ var SuggestItem = import_react58.default.forwardRef(
     }
     return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
       tabIndex: 0,
-      className: "NLT__suggest-item NLT__focusable",
+      "data-index": index,
+      className: "DataLoom__suggest-item DataLoom__focusable",
       ref,
       css: import_emotion_react_cjs.css`
-					padding: 4px 6px;
+					padding: var(--nlt-spacing--sm) var(--nlt-spacing--lg);
 					margin: 2px 0;
 					background-color: ${isHighlighted ? "var(--background-modifier-hover)" : "var(--background-primary)"};
 					&:hover {
@@ -50121,10 +50992,203 @@ var SuggestItem = import_react58.default.forwardRef(
 );
 var suggest_item_default = SuggestItem;
 
-// src/react/shared/suggest-menu/constants.ts
+// src/react/shared/suggest-list/input.tsx
+function Input({ value, onChange }) {
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    css: import_emotion_react_cjs.css`
+				background-color: var(--background-secondary);
+				border-bottom: 1px solid var(--table-border-color);
+				padding: var(--nlt-spacing--sm) var(--nlt-spacing--lg);
+			`,
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
+      className: "DataLoom__focusable",
+      type: "text",
+      css: transparentInputStyle,
+      autoFocus: true,
+      value,
+      onChange: (e) => onChange(e.target.value)
+    })
+  });
+}
+
+// src/react/shared/divider/index.tsx
+function Divider({
+  isVertical = false,
+  width = "100%",
+  height = "100%"
+}) {
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("hr", {
+    css: import_emotion_react_cjs.css`
+				margin: 0;
+				width: ${!isVertical ? width : "unset"};
+				height: ${isVertical === true ? height : "unset"};
+				border-top: ${isVertical === false ? "1px solid var(--hr-color)" : "unset"};
+				border-left: ${isVertical === true ? "1px var(--hr-color) solid" : "unset"};
+			`
+  });
+}
+
+// src/react/shared/suggest-list/clear-button.tsx
+function ClearButton({ onClick }) {
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
+    children: [
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Divider, {}),
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
+        name: "Clear",
+        onClick
+      })
+    ]
+  });
+}
+
+// src/react/shared/suggest-list/create-button.tsx
+function CreateButton({ value, onClick }) {
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
+    children: [
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
+        name: `Create ${value}`,
+        onClick: () => onClick == null ? void 0 : onClick(value)
+      }),
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Divider, {})
+    ]
+  });
+}
+
+// src/react/shared/suggest-list/index.tsx
+function SuggestList({
+  hiddenExtensions = [],
+  showInput,
+  showCreate,
+  showClear,
+  filterValue,
+  onItemClick,
+  onClearClick,
+  onCreateClick
+}) {
+  const [localFilterValue, setLocalFilterValue] = import_react67.default.useState(
+    filterValue != null ? filterValue : ""
+  );
+  const highlightItemRef = import_react67.default.useRef(null);
+  const [highlightIndex, setHighlightIndex] = import_react67.default.useState(-1);
+  const logger = useLogger();
+  import_react67.default.useEffect(() => {
+    setLocalFilterValue(filterValue != null ? filterValue : "");
+  }, [filterValue]);
+  import_react67.default.useEffect(() => {
+    if (highlightItemRef.current) {
+      highlightItemRef.current.scrollIntoView({
+        behavior: "auto",
+        block: "nearest"
+      });
+    }
+  }, [highlightIndex]);
+  const files = app.vault.getFiles().filter((file) => !hiddenExtensions.includes(file.extension));
+  let filteredFiles = [];
+  if (localFilterValue !== "") {
+    const results = import_fuzzysort.default.go(localFilterValue, files, {
+      key: "path",
+      limit: 20
+    });
+    filteredFiles = results.map((result) => result.obj);
+  } else {
+    filteredFiles = files;
+    filteredFiles.sort((a2, b2) => b2.stat.mtime - a2.stat.mtime);
+    filteredFiles = filteredFiles.slice(0, 20);
+  }
+  import_react67.default.useEffect(() => {
+    function handleKeyDown() {
+      logger("SuggestMenuContent handleKeyDown");
+      const focusedEl = document.activeElement;
+      if (!focusedEl)
+        return;
+      if (focusedEl.classList.contains("DataLoom__suggest-item")) {
+        const index = focusedEl.getAttribute("data-index");
+        if (!index)
+          return;
+        setHighlightIndex(parseInt(index));
+        return;
+      }
+      setHighlightIndex(-1);
+    }
+    nltEventSystem.addEventListener("keydown", handleKeyDown);
+    return () => nltEventSystem.removeEventListener("keydown", handleKeyDown);
+  }, [filteredFiles.length, logger, highlightIndex]);
+  const doesFilterFileExist = filteredFiles.map((file) => file.path).includes(localFilterValue);
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
+    className: "DataLoom__suggest-menu",
+    css: import_emotion_react_cjs.css`
+				width: 100%;
+			`,
+    children: [
+      showInput && files.length > 0 && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Input, {
+        value: localFilterValue,
+        onChange: setLocalFilterValue
+      }),
+      showCreate && !doesFilterFileExist && localFilterValue !== "" && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(CreateButton, {
+        value: localFilterValue,
+        onClick: onCreateClick
+      }),
+      files.length > 0 && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
+        css: import_emotion_react_cjs.css`
+						max-height: 175px;
+						overflow-y: auto;
+					`,
+        children: [
+          filteredFiles.length === 0 && !showCreate && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(suggest_item_default, {
+            index: 0,
+            file: null,
+            ref: null,
+            isHighlighted: true,
+            onItemClick
+          }),
+          filteredFiles.length > 0 && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(import_emotion_react_jsx_runtime_cjs.Fragment, {
+            children: filteredFiles.map((file, index) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(suggest_item_default, {
+              index,
+              ref: highlightIndex === index ? highlightItemRef : null,
+              file,
+              isHighlighted: index === highlightIndex,
+              onItemClick
+            }, file.path))
+          })
+        ]
+      }),
+      files.length === 0 && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
+        px: "md",
+        pb: "md",
+        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
+          value: "No image files found"
+        })
+      }),
+      showClear && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ClearButton, {
+        onClick: onClearClick
+      })
+    ]
+  });
+}
+
+// src/react/loom-app/text-cell-edit/suggest-menu.tsx
+var SuggestMenu = import_react69.default.forwardRef(
+  function SuggestMenu2({ id: id2, isOpen, top, left, filterValue, onItemClick }, ref) {
+    return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_default, {
+      id: id2,
+      isOpen,
+      top,
+      left,
+      ref,
+      width: 275,
+      children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(SuggestList, {
+        filterValue,
+        onItemClick
+      })
+    });
+  }
+);
+var suggest_menu_default = SuggestMenu;
+
+// src/react/loom-app/text-cell-edit/constants.ts
 var DOUBLE_BRACKET_REGEX = new RegExp(/\[\[(.*?)]]/g);
 
-// src/react/shared/suggest-menu/utils.ts
+// src/react/loom-app/text-cell-edit/utils.ts
 var isSurroundedByDoubleBrackets = (inputValue, selectionStart) => {
   let match;
   const regex = structuredClone(DOUBLE_BRACKET_REGEX);
@@ -50189,163 +51253,14 @@ var removeClosingBracket = (previousValue, value, selectionStart) => {
   }
   return value;
 };
-var filterUniqueStrings = (arr) => {
-  const frequencyMap = /* @__PURE__ */ new Map();
-  arr.forEach((string) => {
-    frequencyMap.set(string, (frequencyMap.get(string) || 0) + 1);
-  });
-  const uniqueStrings = [];
-  for (const string of frequencyMap.keys()) {
-    if (frequencyMap.get(string) === 1) {
-      uniqueStrings.push(string);
-    }
-  }
-  return uniqueStrings;
-};
-
-// src/obsidian-shim/build/vault-file.ts
-var getVaultFiles = () => {
-  return app.vault.getFiles();
-};
-
-// src/react/shared/suggest-menu/suggest-menu-content.tsx
-function SuggestMenuContent({
-  showInput,
-  filterValue,
-  onItemClick
-}) {
-  const logger = useLogger();
-  const [localFilterValue, setLocalFilterValue] = import_react60.default.useState(
-    filterValue != null ? filterValue : ""
-  );
-  const highlightItemRef = import_react60.default.useRef(null);
-  const [highlightIndex, setHighlightIndex] = import_react60.default.useState(-1);
-  const files = getVaultFiles();
-  let filteredFiles = [];
-  if (localFilterValue !== "") {
-    const results = import_fuzzysort.default.go(localFilterValue, files, {
-      key: "path",
-      limit: 20
-    });
-    filteredFiles = results.map((result) => result.obj);
-  } else {
-    filteredFiles = files;
-    filteredFiles.sort((a2, b2) => b2.modifiedTime - a2.modifiedTime);
-    filteredFiles = filteredFiles.slice(0, 20);
-  }
-  import_react60.default.useEffect(() => {
-    setLocalFilterValue(filterValue != null ? filterValue : "");
-  }, [filterValue]);
-  import_react60.default.useEffect(() => {
-    if (highlightItemRef.current) {
-      highlightItemRef.current.scrollIntoView({
-        behavior: "auto",
-        block: "nearest"
-      });
-    }
-  }, [highlightIndex]);
-  import_react60.default.useEffect(() => {
-    function handleKeyDown(e) {
-      logger("SuggestMenuContent handleKeyDown");
-      if (e.key === "ArrowUp") {
-        e.preventDefault();
-        setHighlightIndex((prevIndex) => {
-          let index = prevIndex - 1;
-          if (index < 0)
-            index = filteredFiles.length - 1;
-          return index;
-        });
-      } else if (e.key === "ArrowDown") {
-        e.preventDefault();
-        setHighlightIndex((prevIndex) => {
-          let index = prevIndex + 1;
-          if (index > filteredFiles.length - 1)
-            index = 0;
-          return index;
-        });
-      } else if (e.key === "Tab") {
-        setHighlightIndex((prevIndex) => {
-          let index = prevIndex + 1;
-          if (index > filteredFiles.length - 1)
-            index = 0;
-          return index;
-        });
-      }
-    }
-    nltEventSystem.addEventListener("keydown", handleKeyDown);
-    return () => nltEventSystem.removeEventListener("keydown", handleKeyDown);
-  }, [filteredFiles.length, logger, highlightIndex]);
-  const fileNames = filteredFiles.map((file) => file.name);
-  const uniqueFileNames = filterUniqueStrings(fileNames);
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
-    className: "NLT__suggest-menu",
-    children: [
-      showInput && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-        css: import_emotion_react_cjs.css`
-						background-color: var(--background-secondary);
-						border-bottom: 1px solid var(--table-border-color);
-						padding: 4px 10px;
-					`,
-        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
-          css: transparentInputStyle,
-          autoFocus: true,
-          value: localFilterValue,
-          onChange: (e) => setLocalFilterValue(e.target.value)
-        })
-      }),
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
-        css: import_emotion_react_cjs.css`
-					max-height: 175px;
-					overflow-y: auto;
-				`,
-        children: [
-          filteredFiles.length === 0 && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(suggest_item_default, {
-            file: null,
-            ref: null,
-            isHighlighted: true,
-            isFileNameUnique: false,
-            onItemClick
-          }),
-          filteredFiles.length > 0 && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(import_emotion_react_jsx_runtime_cjs.Fragment, {
-            children: filteredFiles.map((file, index) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(suggest_item_default, {
-              ref: highlightIndex === index ? highlightItemRef : null,
-              file,
-              isHighlighted: index === highlightIndex,
-              isFileNameUnique: uniqueFileNames.includes(
-                file.name
-              ),
-              onItemClick
-            }, file.path))
-          })
-        ]
-      })
-    ]
-  });
-}
-
-// src/react/shared/suggest-menu/suggest-menu.tsx
-var SuggestMenu = import_react62.default.forwardRef(
-  function SuggestMenu2({ id: id2, isOpen, top, left, filterValue, onItemClick }, ref) {
-    return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_default, {
-      id: id2,
-      isOpen,
-      top,
-      left,
-      ref,
-      width: 275,
-      children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(SuggestMenuContent, {
-        filterValue,
-        onItemClick
-      })
-    });
-  }
-);
-var suggest_menu_default = SuggestMenu;
 
 // src/shared/link/link-utils.ts
 var getBasename = (filePath) => {
   const fileName = stripDirectory(filePath);
   return stripFileExtension(fileName);
+};
+var getExtension = (filePath) => {
+  return filePath.substring(filePath.lastIndexOf(".") + 1);
 };
 var stripFileExtension = (filePath) => {
   return filePath.substring(0, filePath.lastIndexOf("."));
@@ -50356,22 +51271,23 @@ var stripDirectory = (filePath) => {
 var isMarkdownFile = (extension) => {
   return extension === "md";
 };
-var getWikiLinkText = (fileInfo, isFileNameUnique) => {
-  const { basename, name, path, extension } = fileInfo;
+var getWikiLinkText = (path) => {
+  const basename = getBasename(path);
+  const extension = getExtension(path);
   let text = basename;
   if (!isMarkdownFile(extension)) {
-    text = name;
-    if (!isFileNameUnique)
+    text = stripDirectory(path);
+    if (path.includes("/"))
       text = `${path}|${basename}`;
   } else {
     const pathWithoutExtension = stripFileExtension(path);
-    if (!isFileNameUnique)
+    if (path.includes("/"))
       text = `${pathWithoutExtension}|${basename}`;
   }
   return text;
 };
 
-// src/react/table-app/text-cell-edit/index.tsx
+// src/react/loom-app/text-cell-edit/index.tsx
 function TextCellEdit({
   shouldWrapOverflow,
   menuCloseRequest,
@@ -50385,9 +51301,9 @@ function TextCellEdit({
   useShiftMenu(triggerRef, menuRef, isMenuOpen, {
     topOffset: 35
   });
-  const [localValue, setLocalValue] = import_react63.default.useState(value);
-  const inputRef = import_react63.default.useRef(null);
-  import_react63.default.useEffect(() => {
+  const [localValue, setLocalValue] = import_react70.default.useState(value);
+  const inputRef = import_react70.default.useRef(null);
+  import_react70.default.useEffect(() => {
     if (inputRef.current) {
       const selectionIndex = inputRef.current.selectionStart;
       if (localValue[selectionIndex - 1] === "]" && localValue[selectionIndex - 2] === "[") {
@@ -50404,7 +51320,7 @@ function TextCellEdit({
   const hasCloseRequestTimeChanged = useCompare(
     menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
   );
-  import_react63.default.useEffect(() => {
+  import_react70.default.useEffect(() => {
     if (hasCloseRequestTimeChanged && menuCloseRequest !== null) {
       if (localValue !== value)
         onChange(localValue);
@@ -50461,10 +51377,10 @@ function TextCellEdit({
     }
     setLocalValue(newValue);
   }
-  function handleSuggestItemClick(file, isFileNameUnique) {
+  function handleSuggestItemClick(file) {
     var _a2, _b2;
     if (file) {
-      const fileName = getWikiLinkText(file, isFileNameUnique);
+      const fileName = getWikiLinkText(file.path);
       const newValue = doubleBracketsInnerReplace(
         localValue,
         (_b2 = (_a2 = inputRef.current) == null ? void 0 : _a2.selectionStart) != null ? _b2 : 0,
@@ -50479,7 +51395,7 @@ function TextCellEdit({
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
     children: [
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-        className: "NLT__text-cell-edit",
+        className: "DataLoom__text-cell-edit",
         ref: triggerRef,
         css: import_emotion_react_cjs.css`
 					width: 100%;
@@ -50496,7 +51412,7 @@ function TextCellEdit({
           onKeyDown: handleKeyDown,
           onChange: handleTextareaChange,
           onBlur: (e) => {
-            e.target.classList.add("NLT__blur--cell");
+            e.target.classList.add("DataLoom__blur--cell");
           }
         })
       }),
@@ -50513,18 +51429,18 @@ function TextCellEdit({
   });
 }
 
-// src/react/table-app/tag-cell-edit/index.tsx
-var import_react72 = __toESM(require_react());
+// src/react/loom-app/tag-cell-edit/index.tsx
+var import_react79 = __toESM(require_react());
 
-// src/react/table-app/tag-cell-edit/menu-header.tsx
-var import_react66 = __toESM(require_react());
+// src/react/loom-app/tag-cell-edit/menu-header.tsx
+var import_react73 = __toESM(require_react());
 function MenuHeader({
   cellTags,
   inputValue,
   onInputValueChange,
   onRemoveTag
 }) {
-  const inputRef = import_react66.default.useRef(null);
+  const inputRef = import_react73.default.useRef(null);
   function handleInputChange(value) {
     if (value.match(/^\s/))
       return;
@@ -50539,16 +51455,16 @@ function MenuHeader({
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Wrap, {
       spacingX: "sm",
       children: [
-        cellTags.map((tag) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Tag6, {
+        cellTags.map((tag) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Tag8, {
           id: tag.id,
           color: tag.color,
           markdown: tag.markdown,
           maxWidth: "150px",
-          showRemove: true,
+          showRemoveButton: true,
           onRemoveClick: onRemoveTag
         }, tag.id)),
         /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
-          className: "NLT__focusable",
+          className: "DataLoom__focusable",
           css: transparentInputStyle,
           autoFocus: true,
           ref: inputRef,
@@ -50561,28 +51477,28 @@ function MenuHeader({
   });
 }
 
-// src/react/table-app/tag-cell-edit/create-tag.tsx
+// src/react/loom-app/tag-cell-edit/create-tag.tsx
 function CreateTag({ markdown, color, onTagAdd }) {
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    tabIndex: 0,
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("button", {
     css: import_emotion_react_cjs.css`
+				all: unset; //reset button style
 				display: flex;
 				align-items: center;
 				padding: 4px 6px;
 				width: 100%;
 				overflow: hidden;
+				box-shadow: none !important;
 			`,
-    className: "NLT__focusable NLT__selectable",
-    onClick: () => {
-      onTagAdd(markdown, color);
-    },
+    className: "DataLoom__focusable DataLoom__selectable",
+    onClick: () => onTagAdd(markdown, color),
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
       spacing: "sm",
+      isHorizontal: true,
       children: [
         /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
           children: "Create"
         }),
-        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Tag6, {
+        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Tag8, {
           markdown,
           color,
           maxWidth: "120px"
@@ -50592,24 +51508,24 @@ function CreateTag({ markdown, color, onTagAdd }) {
   });
 }
 
-// src/react/table-app/tag-color-menu/index.tsx
-var import_react69 = __toESM(require_react());
+// src/react/loom-app/tag-color-menu/index.tsx
+var import_react76 = __toESM(require_react());
 
 // src/shared/stringUtils.ts
 var uppercaseFirst = (input) => {
   return input.charAt(0).toUpperCase() + input.slice(1);
 };
 
-// src/react/table-app/tag-color-menu/components/color-item/index.tsx
-var import_react68 = __toESM(require_react());
+// src/react/loom-app/tag-color-menu/components/color-item/index.tsx
+var import_react75 = __toESM(require_react());
 function ColorItem({
   isDarkMode,
   color,
   isSelected,
   onColorClick
 }) {
-  const ref = import_react68.default.useRef(null);
-  import_react68.default.useEffect(() => {
+  const ref = import_react75.default.useRef(null);
+  import_react75.default.useEffect(() => {
     if (!ref.current)
       return;
     if (isSelected) {
@@ -50622,11 +51538,11 @@ function ColorItem({
       onColorClick(color);
     }
   }
-  let containerClass = "NLT__color-item NLT__focusable NLT__selectable";
+  let containerClass = "DataLoom__color-item DataLoom__focusable DataLoom__selectable";
   if (isSelected)
-    containerClass += " NLT__selected";
+    containerClass += " DataLoom__selected";
   const colorClass = findColorClassName(isDarkMode, color);
-  let squareClass = "NLT__color-item-square";
+  let squareClass = "DataLoom__color-item-square";
   squareClass += " " + colorClass;
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
     ref,
@@ -50647,8 +51563,8 @@ function ColorItem({
   });
 }
 
-// src/react/table-app/tag-color-menu/index.tsx
-var TagColorMenu = import_react69.default.forwardRef(
+// src/react/loom-app/tag-color-menu/index.tsx
+var TagColorMenu = import_react76.default.forwardRef(
   function TagColorMenu2({
     menuId,
     isOpen,
@@ -50666,10 +51582,9 @@ var TagColorMenu = import_react69.default.forwardRef(
       top,
       left,
       children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-        className: "NLT__tag-color-menu",
+        className: "DataLoom__tag-color-menu",
         children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
           spacing: "sm",
-          isVertical: true,
           children: [
             /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
               px: "lg",
@@ -50700,7 +51615,7 @@ var TagColorMenu = import_react69.default.forwardRef(
 );
 var tag_color_menu_default = TagColorMenu;
 
-// src/react/table-app/tag-cell-edit/selectable-tag.tsx
+// src/react/loom-app/tag-cell-edit/selectable-tag.tsx
 function SelectableTag({
   id: id2,
   markdown,
@@ -50724,6 +51639,19 @@ function SelectableTag({
     onDeleteClick(id2);
     closeTopMenu();
   }
+  function handleKeyDown(e) {
+    if (e.key === "Enter") {
+      e.stopPropagation();
+      onClick(id2);
+    }
+  }
+  function handleClick(e) {
+    const target = e.target;
+    if (target.classList.contains("DataLoom__menu-trigger"))
+      return;
+    e.stopPropagation();
+    onClick(id2);
+  }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
     children: [
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
@@ -50736,15 +51664,11 @@ function SelectableTag({
 					padding: var(--nlt-spacing--sm) var(--nlt-spacing--md);
 					overflow: hidden;
 				`,
-        className: "NLT__focusable NLT__selectable",
-        onClick: (e) => {
-          if (e.target === triggerRef.current) {
-            e.stopPropagation();
-            onClick(id2);
-          }
-        },
+        className: "DataLoom__focusable DataLoom__selectable",
+        onClick: handleClick,
+        onKeyDown: handleKeyDown,
         children: [
-          /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Tag6, {
+          /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Tag8, {
             markdown,
             color,
             maxWidth: "150px"
@@ -50771,7 +51695,7 @@ function SelectableTag({
   });
 }
 
-// src/react/table-app/tag-cell-edit/menu-body.tsx
+// src/react/loom-app/tag-cell-edit/menu-body.tsx
 function MenuBody({
   columnTags,
   inputValue,
@@ -50781,9 +51705,7 @@ function MenuBody({
   onTagColorChange,
   onTagDelete
 }) {
-  const tagWithSameCase = columnTags.find(
-    (tag) => tag.markdown === inputValue
-  );
+  const hasTagWithSameCase = columnTags.find((tag) => tag.markdown === inputValue) !== void 0;
   const filteredTags = columnTags.filter(
     (tag) => tag.markdown.toLowerCase().includes(inputValue.toLowerCase())
   );
@@ -50805,7 +51727,7 @@ function MenuBody({
 					width: 100%;
 				`,
         children: [
-          tagWithSameCase === void 0 && inputValue !== "" && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(CreateTag, {
+          !hasTagWithSameCase && inputValue !== "" && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(CreateTag, {
             markdown: inputValue,
             color: newTagColor,
             onTagAdd
@@ -50824,7 +51746,7 @@ function MenuBody({
   });
 }
 
-// src/react/table-app/tag-cell-edit/index.tsx
+// src/react/loom-app/tag-cell-edit/index.tsx
 function TagCellEdit({
   columnTags,
   cellTags,
@@ -50836,9 +51758,9 @@ function TagCellEdit({
   onRemoveTag,
   onMenuClose
 }) {
-  const [inputValue, setInputValue] = import_react72.default.useState("");
-  const [newTagColor, setNewTagColor] = import_react72.default.useState(randomColor());
-  const handleTagAdd = import_react72.default.useCallback(
+  const [inputValue, setInputValue] = import_react79.default.useState("");
+  const [newTagColor, setNewTagColor] = import_react79.default.useState(randomColor());
+  const handleTagAdd = import_react79.default.useCallback(
     (markdown, color) => {
       onTagAdd(markdown, color);
       setInputValue("");
@@ -50850,12 +51772,16 @@ function TagCellEdit({
   const hasCloseRequestTimeChanged = useCompare(
     menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
   );
-  import_react72.default.useEffect(() => {
+  import_react79.default.useEffect(() => {
     if (hasCloseRequestTimeChanged && menuCloseRequest !== null) {
       if (menuCloseRequest.type === "enter") {
-        const shouldAddTag = columnTags.find((tag) => tag.markdown === inputValue) === void 0;
-        if (shouldAddTag)
+        const doesTagExist = columnTags.find(
+          (tag) => tag.markdown === inputValue
+        );
+        if (!doesTagExist) {
           handleTagAdd(inputValue, newTagColor);
+          return;
+        }
       }
       onMenuClose();
     }
@@ -50873,7 +51799,7 @@ function TagCellEdit({
     onMenuClose();
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
-    className: "NLT__tag-cell-edit",
+    className: "DataLoom__tag-cell-edit",
     children: [
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuHeader, {
         inputValue,
@@ -50894,12 +51820,12 @@ function TagCellEdit({
   });
 }
 
-// src/react/table-app/date-cell-edit/index.tsx
-var import_react74 = __toESM(require_react());
+// src/react/loom-app/date-cell-edit/index.tsx
+var import_react81 = __toESM(require_react());
 
-// src/react/table-app/date-cell-edit/date-format-menu.tsx
-var import_react73 = __toESM(require_react());
-var DateFormatMenu = import_react73.default.forwardRef(
+// src/react/loom-app/date-cell-edit/date-format-menu.tsx
+var import_react80 = __toESM(require_react());
+var DateFormatMenu = import_react80.default.forwardRef(
   function DateFormatMenu2({ id: id2, top, left, isOpen, value, onChange }, ref) {
     return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_default, {
       ref,
@@ -50909,7 +51835,7 @@ var DateFormatMenu = import_react73.default.forwardRef(
       left,
       width: 175,
       children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-        className: "NLT__date-format-menu",
+        className: "DataLoom__date-format-menu",
         children: Object.values([
           "dd/mm/yyyy" /* DD_MM_YYYY */,
           "mm/dd/yyyy" /* MM_DD_YYYY */,
@@ -50927,7 +51853,7 @@ var DateFormatMenu = import_react73.default.forwardRef(
 );
 var date_format_menu_default = DateFormatMenu;
 
-// src/react/table-app/date-cell-edit/index.tsx
+// src/react/loom-app/date-cell-edit/index.tsx
 function DateCellEdit({
   value,
   menuCloseRequest,
@@ -50943,13 +51869,13 @@ function DateCellEdit({
     topOffset: 35,
     leftOffset: -50
   });
-  const [localValue, setLocalValue] = import_react74.default.useState(
+  const [localValue, setLocalValue] = import_react81.default.useState(
     value === null ? "" : unixTimeToDateString(value, dateFormat)
   );
-  const [isInputInvalid, setInputInvalid] = import_react74.default.useState(false);
-  const [closeTime, setCloseTime] = import_react74.default.useState(0);
-  const inputRef = import_react74.default.useRef(null);
-  import_react74.default.useEffect(() => {
+  const [isInputInvalid, setInputInvalid] = import_react81.default.useState(false);
+  const [closeTime, setCloseTime] = import_react81.default.useState(0);
+  const inputRef = import_react81.default.useRef(null);
+  import_react81.default.useEffect(() => {
     setLocalValue(
       value === null ? "" : unixTimeToDateString(value, dateFormat)
     );
@@ -50957,7 +51883,7 @@ function DateCellEdit({
   const hasCloseRequestTimeChanged = useCompare(
     menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
   );
-  import_react74.default.useEffect(() => {
+  import_react81.default.useEffect(() => {
     function validateInput() {
       let newValue = null;
       if (localValue !== "") {
@@ -50988,7 +51914,7 @@ function DateCellEdit({
     onDateTimeChange,
     onMenuClose
   ]);
-  import_react74.default.useEffect(() => {
+  import_react81.default.useEffect(() => {
     if (closeTime !== 0) {
       onMenuClose();
     }
@@ -51005,17 +51931,14 @@ function DateCellEdit({
     children: [
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
         ref: triggerRef,
-        className: "NLT__date-cell-edit",
+        className: "DataLoom__date-cell-edit",
         children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
-          spacing: "md",
-          isVertical: true,
           children: [
             /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
-              px: "md",
-              py: "md",
               children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
                 tabIndex: 0,
-                className: "NLT__focusable",
+                type: "text",
+                className: "DataLoom__focusable",
                 css: import_emotion_react_cjs.css`
 								${borderInputStyle}
 								${isInputInvalid ? "&:focus-visible { outline: 2px solid var(--background-modifier-error) !important; }" : ""}
@@ -51054,14 +51977,14 @@ function DateCellEdit({
   });
 }
 
-// src/react/table-app/multi-tag-cell/index.tsx
+// src/react/loom-app/multi-tag-cell/index.tsx
 function MultiTagCell({ cellTags, shouldWrapOverflow }) {
   const overflowStyle = useOverflow(shouldWrapOverflow);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "NLT__multi-tag-cell",
+    className: "DataLoom__multi-tag-cell",
     css: overflowStyle,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Wrap, {
-      children: cellTags.map((tag) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Tag6, {
+      children: cellTags.map((tag) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Tag8, {
         markdown: tag.markdown,
         color: tag.color
       }, tag.id))
@@ -51069,7 +51992,7 @@ function MultiTagCell({ cellTags, shouldWrapOverflow }) {
   });
 }
 
-// src/react/table-app/last-edited-time-cell/index.tsx
+// src/react/loom-app/last-edited-time-cell/index.tsx
 function LastEditedTimeCell({
   value,
   format,
@@ -51077,13 +52000,13 @@ function LastEditedTimeCell({
 }) {
   const overflowStyle = useOverflow(shouldWrapOverflow);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "NLT__last-edited-time-cell",
+    className: "DataLoom__last-edited-time-cell",
     css: overflowStyle,
     children: unixTimeToDateTimeString(value, format)
   });
 }
 
-// src/react/table-app/creation-time-cell/index.tsx
+// src/react/loom-app/creation-time-cell/index.tsx
 function CreationTimeCell({
   value,
   format,
@@ -51091,13 +52014,13 @@ function CreationTimeCell({
 }) {
   const overflowStyle = useOverflow(shouldWrapOverflow);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "NLT__creation-time-cell",
+    className: "DataLoom__creation-time-cell",
     css: overflowStyle,
     children: unixTimeToDateTimeString(value, format)
   });
 }
 
-// src/react/table-app/currency-cell/index.tsx
+// src/react/loom-app/currency-cell/index.tsx
 function CurrencyCell({
   value,
   currencyType,
@@ -51106,14 +52029,14 @@ function CurrencyCell({
   const content = getCurrencyCellContent(value, currencyType);
   const overflowStyle = useOverflow(shouldWrapOverflow);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "NLT__currency-cell",
+    className: "DataLoom__currency-cell",
     css: overflowStyle,
     children: content
   });
 }
 
-// src/react/table-app/currency-cell-edit/index.tsx
-var import_react76 = __toESM(require_react());
+// src/react/loom-app/currency-cell-edit/index.tsx
+var import_react83 = __toESM(require_react());
 function CurrencyCellEdit({
   value,
   menuCloseRequest,
@@ -51121,13 +52044,13 @@ function CurrencyCellEdit({
   onMenuClose
 }) {
   const initialValue = isNumber(value) ? value : "";
-  const [localValue, setLocalValue] = import_react76.default.useState(initialValue);
-  const inputRef = import_react76.default.useRef(null);
+  const [localValue, setLocalValue] = import_react83.default.useState(initialValue);
+  const inputRef = import_react83.default.useRef(null);
   useInputSelection(inputRef, localValue);
   const hasCloseRequestTimeChanged = useCompare(
     menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
   );
-  import_react76.default.useEffect(() => {
+  import_react83.default.useEffect(() => {
     if (hasCloseRequestTimeChanged && menuCloseRequest !== null) {
       if (localValue !== value)
         onChange(localValue);
@@ -51142,12 +52065,12 @@ function CurrencyCellEdit({
     onChange
   ]);
   function handleChange(inputValue) {
-    if (!isValidNumberInput(inputValue))
+    if (!isNumberInput(inputValue))
       return;
     setLocalValue(inputValue);
   }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "NLT__currency-cell-edit",
+    className: "DataLoom__currency-cell-edit",
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
       autoFocus: true,
       css: numberInputStyle,
@@ -51157,7 +52080,7 @@ function CurrencyCellEdit({
       value: localValue,
       onChange: (e) => handleChange(e.target.value),
       onBlur: (e) => {
-        e.target.classList.add("NLT__blur--cell");
+        e.target.classList.add("DataLoom__blur--cell");
       }
     })
   });
@@ -51184,13 +52107,13 @@ var getFileCellContent = (markdown) => {
   }
 };
 
-// src/react/table-app/file-cell/index.tsx
+// src/react/loom-app/file-cell/index.tsx
 function FileCell({ markdown, shouldWrapOverflow }) {
   const content = getFileCellContent(markdown);
-  const { containerRef, renderRef } = useRenderMarkdown(content, false);
+  const { containerRef, renderRef } = useRenderMarkdown(content);
   const overflowStyle = useOverflow(shouldWrapOverflow);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "NLT__file-cell",
+    className: "DataLoom__file-cell",
     css: overflowStyle,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
       css: import_emotion_react_cjs.css`
@@ -51207,46 +52130,55 @@ function FileCell({ markdown, shouldWrapOverflow }) {
   });
 }
 
-// src/react/table-app/file-cell-edit/index.tsx
+// src/react/loom-app/file-cell-edit/index.tsx
 function FileCellEdit({ onChange, onMenuClose }) {
-  function handleSuggestItemClick(file, isFileNameUnique) {
+  function handleSuggestItemClick(file) {
     if (file) {
       let fileName = file.basename;
-      if (file.extension !== "md")
-        fileName = file.name;
-      if (!isFileNameUnique)
-        fileName = `${file.path}|${fileName}`;
+      if (file.path.includes("/"))
+        fileName = `${file.path}|${file.basename}`;
       onChange(`[[${fileName}]]`);
     }
     onMenuClose();
   }
+  function handleClearClick() {
+    onChange("");
+    onMenuClose();
+  }
+  function handleCreateClick(value) {
+    let link = `[[${value}]]`;
+    if (value.includes("/")) {
+      const fileName = getBasename(value);
+      link = `${value}|${fileName}`;
+    }
+    onChange(link);
+    onMenuClose();
+  }
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "NLT__file-cell-edit",
-    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(SuggestMenuContent, {
+    className: "DataLoom__file-cell-edit",
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(SuggestList, {
       showInput: true,
-      onItemClick: handleSuggestItemClick
+      showClear: true,
+      showCreate: true,
+      onItemClick: handleSuggestItemClick,
+      onClearClick: handleClearClick,
+      onCreateClick: handleCreateClick
     })
   });
 }
 
-// src/shared/cell-content/embed-cell-content.ts
-var getEmbedCellContent = (markdown, renderMarkdown2) => {
-  if (isURL(markdown)) {
-    if (renderMarkdown2)
-      return `![](${markdown})`;
-    return markdown;
-  }
-  return "";
-};
-
-// src/react/table-app/embed-cell/index.tsx
-var EmbeddedLink = ({
-  markdown,
+// src/react/loom-app/embed-cell/embed.tsx
+function Embed({
+  isExternalLink,
+  content,
   aspectRatio,
   horizontalPadding,
   verticalPadding
-}) => {
-  const { containerRef, renderRef } = useRenderMarkdown(markdown, true);
+}) {
+  const { containerRef, renderRef } = useRenderMarkdown(content, {
+    isEmbed: true,
+    isExternalLink
+  });
   const paddingX = getSpacing(horizontalPadding);
   const paddingY = getSpacing(verticalPadding);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
@@ -51274,106 +52206,157 @@ var EmbeddedLink = ({
       appendOrReplaceFirstChild(node, renderRef.current);
     }
   });
-};
+}
+
+// src/react/loom-app/embed-cell/index.tsx
 function EmbedCell({
+  isExternalLink,
   markdown,
   aspectRatio,
   horizontalPadding,
   verticalPadding
 }) {
-  let isValidURL = true;
-  const content = getEmbedCellContent(markdown, true);
-  if (content === "")
-    isValidURL = false;
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
-    className: "NLT__embed-cell",
+  const content = getEmbedCellContent(markdown, {
+    shouldRenderMarkdown: true,
+    isExternalLink
+  });
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: "DataLoom__embed-cell",
     css: import_emotion_react_cjs.css`
 				width: 100%;
 				height: 100%;
+				overflow: hidden;
 			`,
-    children: [
-      isValidURL && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(EmbeddedLink, {
-        markdown: content,
-        aspectRatio,
-        horizontalPadding,
-        verticalPadding
-      }),
-      !isValidURL && markdown !== "" && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
-        value: "Invalid URL"
-      })
-    ]
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Embed, {
+      isExternalLink,
+      content,
+      aspectRatio,
+      horizontalPadding,
+      verticalPadding
+    })
   });
 }
 
-// src/react/table-app/embed-cell-edit/index.tsx
-var import_react79 = __toESM(require_react());
+// src/react/loom-app/embed-cell-edit/index.tsx
+var import_react89 = __toESM(require_react());
+
+// src/react/loom-app/embed-cell-edit/external-embed-input.tsx
+var import_react87 = __toESM(require_react());
+function ExternalEmbedInput({ value, onChange }) {
+  const inputRef = import_react87.default.useRef(null);
+  useInputSelection(inputRef, value);
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
+    autoFocus: true,
+    type: "text",
+    className: "DataLoom__focusable",
+    css: import_emotion_react_cjs.css`
+				${borderInputStyle}
+			`,
+    ref: inputRef,
+    value,
+    onChange: (e) => onChange(e.target.value)
+  });
+}
+
+// src/react/loom-app/embed-cell-edit/internal-embed-suggest.tsx
+function InternalEmbedSuggest({ onChange }) {
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(SuggestList, {
+    showInput: true,
+    hiddenExtensions: ["md", CURRENT_FILE_EXTENSION],
+    onItemClick: (item) => {
+      var _a;
+      return onChange((_a = item == null ? void 0 : item.path) != null ? _a : "");
+    }
+  });
+}
+
+// src/react/loom-app/embed-cell-edit/index.tsx
 function EmbedCellEdit({
-  shouldWrapOverflow,
   menuCloseRequest,
+  isExternalLink,
   value,
   onChange,
-  onMenuClose
+  onMenuClose,
+  onExternalLinkToggle
 }) {
-  const [localValue, setLocalValue] = import_react79.default.useState(value);
-  const inputRef = import_react79.default.useRef(null);
-  useInputSelection(inputRef, localValue);
+  const [externalLink, setExternalLink] = import_react89.default.useState(
+    isExternalLink ? value : ""
+  );
   const hasCloseRequestTimeChanged = useCompare(
     menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
   );
-  import_react79.default.useEffect(() => {
+  import_react89.default.useEffect(() => {
     if (hasCloseRequestTimeChanged && menuCloseRequest !== null) {
-      if (localValue !== value)
-        onChange(localValue);
+      if (isExternalLink) {
+        if (externalLink !== value)
+          onChange(externalLink);
+      }
       onMenuClose();
     }
   }, [
+    isExternalLink,
     value,
-    localValue,
+    externalLink,
     hasCloseRequestTimeChanged,
     menuCloseRequest,
     onMenuClose,
     onChange
   ]);
-  function handleTextareaChange(e) {
-    const inputValue = e.target.value;
-    setLocalValue(inputValue);
+  function handleSuggestChange(value2) {
+    onChange(value2);
+    onMenuClose();
   }
-  const overflowStyle = useOverflow(shouldWrapOverflow);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "NLT__embed-cell-edit",
-    css: import_emotion_react_cjs.css`
-				width: 100%;
-				height: 100%;
-			`,
-    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("textarea", {
-      autoFocus: true,
-      css: import_emotion_react_cjs.css`
-					${textAreaStyle}
-					${overflowStyle}
-				`,
-      ref: inputRef,
-      value: localValue,
-      onChange: handleTextareaChange,
-      onBlur: (e) => {
-        e.target.classList.add("NLT__blur--cell");
-      }
+    className: "DataLoom__embed-cell-edit",
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+      width: "100%",
+      spacing: "lg",
+      children: [
+        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
+          width: "100%",
+          px: "md",
+          pt: "md",
+          children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+            spacing: "sm",
+            width: "100%",
+            children: [
+              /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("label", {
+                htmlFor: "external-switch",
+                children: "External Link"
+              }),
+              /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Switch, {
+                id: "external-switch",
+                value: isExternalLink,
+                onToggle: onExternalLinkToggle
+              })
+            ]
+          })
+        }),
+        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Divider, {}),
+        isExternalLink && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
+          width: "100%",
+          px: "md",
+          pb: "md",
+          children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ExternalEmbedInput, {
+            value: externalLink,
+            onChange: setExternalLink
+          })
+        }),
+        !isExternalLink && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(InternalEmbedSuggest, {
+          onChange: handleSuggestChange
+        })
+      ]
     })
   });
 }
 
-// src/obsidian-shim/build/notification.ts
-var import_obsidian6 = require("obsidian");
-var Notification = class {
-  constructor(message) {
-    new import_obsidian6.Notice(message);
-  }
-};
-
-// src/react/table-app/body-cell/index.tsx
-function BodyCell5({
+// src/react/loom-app/body-cell/index.tsx
+var import_obsidian7 = require("obsidian");
+function BodyCell8({
   cellId,
   columnId,
   rowId,
+  isExternalLink,
   markdown,
   aspectRatio,
   verticalPadding,
@@ -51396,7 +52379,8 @@ function BodyCell5({
   onContentChange,
   onDateFormatChange,
   onDateTimeChange,
-  onTagAdd
+  onTagAdd,
+  onExternalLinkToggle
 }) {
   const shouldRequestOnClose = columnType === "text" /* TEXT */ || columnType === "embed" /* EMBED */ || columnType === "number" /* NUMBER */ || columnType === "currency" /* CURRENCY */ || columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */ || columnType === "date" /* DATE */;
   const { menu, isMenuOpen, menuCloseRequest, menuRef, closeTopMenu } = useMenu(0 /* ONE */, {
@@ -51408,7 +52392,7 @@ function BodyCell5({
     return __async(this, null, function* () {
       try {
         yield navigator.clipboard.writeText(markdown);
-        new Notification("Copied text to clipboard");
+        new import_obsidian7.Notice("Copied text to clipboard");
       } catch (err) {
         console.log(err);
       }
@@ -51442,6 +52426,9 @@ function BodyCell5({
       toggleCheckbox();
     }
   }
+  function handleExternalLinkToggle(value) {
+    onExternalLinkToggle(cellId, rowId, value);
+  }
   function handleTagAdd(markdown2, color) {
     if (markdown2 === "")
       return;
@@ -51466,7 +52453,7 @@ function BodyCell5({
   function handleTagClick(tagId) {
     onTagClick(cellId, rowId, tagId, columnType === "multi-tag" /* MULTI_TAG */);
   }
-  const handleInputChange = import_react81.default.useCallback(
+  const handleInputChange = import_react90.default.useCallback(
     (value) => {
       onContentChange(cellId, rowId, value);
     },
@@ -51478,31 +52465,31 @@ function BodyCell5({
   function handleDateFormatChange(value) {
     onDateFormatChange(columnId, value);
   }
-  const handleDateTimeChange = import_react81.default.useCallback(
+  const handleDateTimeChange = import_react90.default.useCallback(
     (value) => {
       onDateTimeChange(cellId, rowId, value);
     },
     [cellId, rowId, onDateTimeChange]
   );
-  const handleMenuClose = import_react81.default.useCallback(() => {
+  const handleMenuClose = import_react90.default.useCallback(() => {
     closeTopMenu();
   }, [closeTopMenu]);
   const { width: measuredWidth, height: measuredHeight } = triggerPosition;
   let menuHeight = measuredHeight;
-  if (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */ || columnType === "date" /* DATE */ || columnType === "number" /* NUMBER */ || columnType === "currency" /* CURRENCY */ || columnType === "file" /* FILE */) {
+  if (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */ || columnType === "date" /* DATE */ || columnType === "number" /* NUMBER */ || columnType === "currency" /* CURRENCY */ || columnType === "file" /* FILE */ || columnType === "embed" /* EMBED */) {
     menuHeight = 0;
   }
   let menuWidth = measuredWidth;
-  if (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */) {
+  if (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */ || columnType === "embed" /* EMBED */) {
     menuWidth = 250;
   } else if (columnType === "file" /* FILE */) {
     menuWidth = 275;
   } else if (columnType === "date" /* DATE */) {
     menuWidth = 175;
   }
-  let className = "NLT__body-td-container";
+  let className = "DataLoom__body-td-container";
   if (columnType === "last-edited-time" /* LAST_EDITED_TIME */ || columnType === "creation-time" /* CREATION_TIME */) {
-    className += " NLT__default-cursor";
+    className += " DataLoom__default-cursor";
   }
   const cellTags = columnTags.filter((tag) => cellTagIds.includes(tag.id));
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
@@ -51536,6 +52523,7 @@ function BodyCell5({
               shouldWrapOverflow
             }),
             columnType === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(EmbedCell, {
+              isExternalLink,
               markdown,
               verticalPadding,
               horizontalPadding,
@@ -51586,7 +52574,7 @@ function BodyCell5({
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(menu_default, {
         ref: menuRef,
         id: menu.id,
-        hideBorder: columnType === "text" /* TEXT */ || columnType === "embed" /* EMBED */ || columnType === "currency" /* CURRENCY */ || columnType === "number" /* NUMBER */,
+        hideBorder: columnType === "text" /* TEXT */ || columnType === "currency" /* CURRENCY */ || columnType === "number" /* NUMBER */,
         isOpen: isMenuOpen,
         top: triggerPosition.top,
         left: triggerPosition.left,
@@ -51601,11 +52589,12 @@ function BodyCell5({
             onMenuClose: handleMenuClose
           }),
           columnType === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(EmbedCellEdit, {
+            isExternalLink,
             menuCloseRequest,
-            shouldWrapOverflow,
             value: markdown,
             onChange: handleInputChange,
-            onMenuClose: handleMenuClose
+            onMenuClose: handleMenuClose,
+            onExternalLinkToggle: handleExternalLinkToggle
           }),
           columnType === "file" /* FILE */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(FileCellEdit, {
             onChange: handleInputChange,
@@ -51648,21 +52637,10 @@ function BodyCell5({
   });
 }
 
-// src/react/table-app/new-row-button/index.tsx
-function NewRowButton({ onClick }) {
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "NLT__new-row",
-    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
-      onClick: () => onClick(),
-      children: "New row"
-    })
-  });
-}
-
-// src/react/table-app/new-column-button/index.tsx
+// src/react/loom-app/new-column-button/index.tsx
 function NewColumnButton({ onClick }) {
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "NLT__new-column",
+    className: "DataLoom__new-column",
     css: import_emotion_react_cjs.css`
 				width: 50px;
 			`,
@@ -51676,8 +52654,8 @@ function NewColumnButton({ onClick }) {
   });
 }
 
-// src/react/table-app/header-cell/index.tsx
-var import_react89 = __toESM(require_react());
+// src/react/loom-app/header-cell/index.tsx
+var import_react98 = __toESM(require_react());
 
 // src/react/shared/icon/utils.tsx
 var getIconIdForCellType = (type) => {
@@ -51708,11 +52686,11 @@ var getIconIdForCellType = (type) => {
   }
 };
 
-// src/react/table-app/header-cell/use-column-resize.ts
-var import_react84 = __toESM(require_react());
+// src/react/loom-app/header-cell/use-column-resize.ts
+var import_react93 = __toESM(require_react());
 var useColumnResize = (columnId, onMove) => {
-  const { setResizingColumnId } = useTableState();
-  const mouseDownX = (0, import_react84.useRef)(0);
+  const { setResizingColumnId } = useLoomState();
+  const mouseDownX = (0, import_react93.useRef)(0);
   function handleMouseMove(e) {
     const dist = e.pageX - mouseDownX.current;
     onMove(dist);
@@ -51756,7 +52734,7 @@ var useColumnResize = (columnId, onMove) => {
   return { handleMouseDown, handleTouchStart };
 };
 
-// src/react/table-app/header-cell/resize-container.tsx
+// src/react/loom-app/header-cell/resize-container.tsx
 var containerStyle = import_emotion_react_cjs.css`
 	position: relative;
 `;
@@ -51797,7 +52775,7 @@ function ResizeContainer({
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
     css: containerStyle,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-      className: "NLT__resize-handle",
+      className: "DataLoom__resize-handle",
       css: [innerStyle, isDragging && dragStyle],
       onMouseDown: (e) => {
         onMenuClose();
@@ -51813,10 +52791,10 @@ function ResizeContainer({
   });
 }
 
-// src/react/table-app/header-cell-edit/index.tsx
-var import_react87 = __toESM(require_react());
+// src/react/loom-app/header-cell-edit/index.tsx
+var import_react96 = __toESM(require_react());
 
-// src/react/table-app/header-cell-edit/submenu.tsx
+// src/react/loom-app/header-cell-edit/submenu.tsx
 function Submenu({ title, children, onBackClick }) {
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
     children: [
@@ -51824,9 +52802,9 @@ function Submenu({ title, children, onBackClick }) {
         p: "md",
         children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
           spacing: "md",
-          isVertical: true,
           children: [
             /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+              isHorizontal: true,
               children: [
                 /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
                   icon: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Icon, {
@@ -51850,7 +52828,7 @@ function Submenu({ title, children, onBackClick }) {
   });
 }
 
-// src/react/table-app/header-cell-edit/option-submenu.tsx
+// src/react/loom-app/header-cell-edit/option-submenu.tsx
 function OptionSubmenu({
   type,
   currencyType,
@@ -51870,7 +52848,6 @@ function OptionSubmenu({
       pb: "lg",
       children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
         spacing: "lg",
-        isVertical: true,
         children: [
           type === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
             name: "Aspect Ratio",
@@ -51903,7 +52880,7 @@ function OptionSubmenu({
   });
 }
 
-// src/react/table-app/header-cell-edit/type-submenu.tsx
+// src/react/loom-app/header-cell-edit/type-submenu.tsx
 function TypeSubmenu({
   title,
   value,
@@ -51922,8 +52899,8 @@ function TypeSubmenu({
   });
 }
 
-// src/react/table-app/header-cell-edit/base-menu.tsx
-var import_react86 = __toESM(require_react());
+// src/react/loom-app/header-cell-edit/base-menu.tsx
+var import_react95 = __toESM(require_react());
 function BaseMenu({
   shouldWrapOverflow,
   columnName,
@@ -51935,10 +52912,11 @@ function BaseMenu({
   onSubmenuChange,
   onWrapOverflowToggle,
   onDeleteClick,
-  onColumnNameChange
+  onColumnNameChange,
+  onHideClick
 }) {
-  const lastKeyPressed = import_react86.default.useRef(null);
-  const inputRef = import_react86.default.useRef(null);
+  const lastKeyPressed = import_react95.default.useRef(null);
+  const inputRef = import_react95.default.useRef(null);
   useInputSelection(inputRef, columnName);
   function handleInputChange(inputValue) {
     onColumnNameChange(inputValue);
@@ -51949,11 +52927,9 @@ function BaseMenu({
   const hasOptions = columnType === "embed" /* EMBED */ || columnType === "date" /* DATE */ || columnType === "currency" /* CURRENCY */ || columnType === "last-edited-time" /* LAST_EDITED_TIME */ || columnType === "creation-time" /* CREATION_TIME */;
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
     spacing: "sm",
-    isVertical: true,
     children: [
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
         spacing: "sm",
-        isVertical: true,
         width: "100%",
         children: [
           /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
@@ -51961,7 +52937,8 @@ function BaseMenu({
             py: "sm",
             width: "100%",
             children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
-              className: "NLT__focusable",
+              type: "text",
+              className: "DataLoom__focusable",
               autoFocus: true,
               css: borderInputStyle,
               ref: inputRef,
@@ -52000,39 +52977,44 @@ function BaseMenu({
         onClick: () => onSortClick("desc" /* DESC */),
         isSelected: columnSortDir === "desc" /* DESC */
       }),
-      canDeleteColumn && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Divider, {}),
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
+        lucideId: "eye-off",
+        name: "Hide",
+        onClick: () => onHideClick()
+      }),
+      canDeleteColumn && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
+        lucideId: "trash",
+        name: "Delete",
+        onClick: () => onDeleteClick()
+      }),
+      columnType !== "embed" /* EMBED */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
         children: [
           /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Divider, {}),
-          /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuItem, {
-            lucideId: "trash",
-            name: "Delete",
-            onClick: () => onDeleteClick()
+          /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
+            px: "lg",
+            py: "md",
+            children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Flex, {
+              justify: "space-between",
+              align: "center",
+              children: [
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
+                  value: "Wrap content"
+                }),
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Switch, {
+                  value: shouldWrapOverflow,
+                  onToggle: (value) => onWrapOverflowToggle(columnId, value)
+                })
+              ]
+            })
           })
         ]
-      }),
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Divider, {}),
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
-        px: "lg",
-        py: "md",
-        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Flex, {
-          justify: "space-between",
-          align: "center",
-          children: [
-            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Text, {
-              value: "Wrap overflow"
-            }),
-            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Switch, {
-              isChecked: shouldWrapOverflow,
-              onToggle: (value) => onWrapOverflowToggle(columnId, value)
-            })
-          ]
-        })
       })
     ]
   });
 }
 
-// src/react/table-app/header-cell-edit/currency-submenu.tsx
+// src/react/loom-app/header-cell-edit/currency-submenu.tsx
 function CurrencySubmenu({
   title,
   value,
@@ -52050,7 +53032,7 @@ function CurrencySubmenu({
   });
 }
 
-// src/react/table-app/header-cell-edit/date-format-submenu.tsx
+// src/react/loom-app/header-cell-edit/date-format-submenu.tsx
 function DateFormatSubmenu({
   title,
   value,
@@ -52068,7 +53050,7 @@ function DateFormatSubmenu({
   });
 }
 
-// src/react/table-app/header-cell-edit/aspect-ratio-submenu.tsx
+// src/react/loom-app/header-cell-edit/aspect-ratio-submenu.tsx
 function AspectRatioSubmenu({
   title,
   value,
@@ -52086,7 +53068,7 @@ function AspectRatioSubmenu({
   });
 }
 
-// src/react/table-app/header-cell-edit/padding-submenu.tsx
+// src/react/loom-app/header-cell-edit/padding-submenu.tsx
 function PaddingSubmenu({
   title,
   value,
@@ -52104,8 +53086,8 @@ function PaddingSubmenu({
   });
 }
 
-// src/react/table-app/header-cell-edit/index.tsx
-var HeaderMenu = import_react87.default.forwardRef(function HeaderMenu2({
+// src/react/loom-app/header-cell-edit/index.tsx
+var HeaderMenu = import_react96.default.forwardRef(function HeaderMenu2({
   isOpen,
   id: id2,
   top,
@@ -52133,14 +53115,15 @@ var HeaderMenu = import_react87.default.forwardRef(function HeaderMenu2({
   onWrapOverflowToggle,
   onNameChange,
   onCurrencyChange,
-  onDateFormatChange
+  onDateFormatChange,
+  onHideClick
 }, ref) {
-  const [submenu, setSubmenu] = (0, import_react87.useState)(null);
-  const [localValue, setLocalValue] = (0, import_react87.useState)(markdown);
+  const [submenu, setSubmenu] = (0, import_react96.useState)(null);
+  const [localValue, setLocalValue] = (0, import_react96.useState)(markdown);
   const hasCloseRequestTimeChanged = useCompare(
     menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
   );
-  import_react87.default.useEffect(() => {
+  import_react96.default.useEffect(() => {
     if (hasCloseRequestTimeChanged && menuCloseRequest !== null) {
       if (submenu === null) {
         if (localValue !== markdown)
@@ -52182,6 +53165,11 @@ var HeaderMenu = import_react87.default.forwardRef(function HeaderMenu2({
     onMenuClose();
     setSubmenu(null);
   }
+  function handleHideClick() {
+    onHideClick(columnId);
+    onMenuClose();
+    setSubmenu(null);
+  }
   function handleDeleteClick() {
     onDeleteClick(columnId);
     onMenuClose();
@@ -52203,7 +53191,7 @@ var HeaderMenu = import_react87.default.forwardRef(function HeaderMenu2({
     ref,
     width: 175,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
-      className: "NLT__header-menu",
+      className: "DataLoom__header-menu",
       css: import_emotion_react_cjs.css`
 					color: var(--text-normal);
 				`,
@@ -52221,7 +53209,8 @@ var HeaderMenu = import_react87.default.forwardRef(function HeaderMenu2({
           onSortClick: handleSortClick,
           onSubmenuChange: setSubmenu,
           onWrapOverflowToggle,
-          onDeleteClick: handleDeleteClick
+          onDeleteClick: handleDeleteClick,
+          onHideClick: handleHideClick
         }),
         submenu === 1 /* OPTIONS */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(OptionSubmenu, {
           title: "Options",
@@ -52276,8 +53265,8 @@ var HeaderMenu = import_react87.default.forwardRef(function HeaderMenu2({
 });
 var header_cell_edit_default = HeaderMenu;
 
-// src/react/table-app/header-cell/index.tsx
-function HeaderCell2({
+// src/react/loom-app/header-cell/index.tsx
+function HeaderCell3({
   cellId,
   rowId,
   columnId,
@@ -52303,18 +53292,19 @@ function HeaderCell2({
   onWrapOverflowToggle,
   onNameChange,
   onCurrencyChange,
-  onDateFormatChange
+  onDateFormatChange,
+  onHideClick
 }) {
   const { menu, isMenuOpen, closeTopMenu, menuRef, menuCloseRequest } = useMenu(0 /* ONE */, { shouldRequestOnClose: true });
   const { triggerPosition, triggerRef } = useMenuTriggerPosition();
   useShiftMenu(triggerRef, menuRef, isMenuOpen);
   const [forceUpdateTime, forceUpdate] = useForceUpdate();
-  import_react89.default.useEffect(() => {
+  import_react98.default.useEffect(() => {
     if (width === "unset")
       forceUpdate();
   }, [width, forceUpdate]);
   const shouldUpdateWidth = useCompare(forceUpdateTime, false);
-  import_react89.default.useEffect(() => {
+  import_react98.default.useEffect(() => {
     if (shouldUpdateWidth) {
       const newWidth = numToPx(triggerPosition.width);
       onWidthChange(columnId, newWidth);
@@ -52324,9 +53314,9 @@ function HeaderCell2({
     closeTopMenu();
   }
   const lucideId = getIconIdForCellType(type);
-  let contentClassName = "NLT__th-content";
+  let contentClassName = "DataLoom__th-content";
   if (resizingColumnId == null)
-    contentClassName += " NLT__selectable";
+    contentClassName += " DataLoom__selectable";
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
     children: [
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(menu_trigger_default, {
@@ -52334,7 +53324,7 @@ function HeaderCell2({
         menu,
         shouldRun: resizingColumnId === null,
         children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
-          className: "NLT__th-container",
+          className: "DataLoom__th-container",
           ref: triggerRef,
           css: import_emotion_react_cjs.css`
 						display: flex;
@@ -52360,6 +53350,7 @@ function HeaderCell2({
               children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
                 spacing: "md",
                 align: "flex-start",
+                isHorizontal: true,
                 children: [
                   /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Icon, {
                     lucideId,
@@ -52410,147 +53401,14 @@ function HeaderCell2({
         onDateFormatChange,
         onVerticalPaddingClick,
         onHorizontalPaddingClick,
-        onAspectRatioClick
+        onAspectRatioClick,
+        onHideClick
       })
     ]
   });
 }
 
-// src/data/constants.ts
-var CURRENT_PLUGIN_VERSION = "6.18.5";
-var DEFAULT_TABLE_NAME = "Untitled";
-var TABLE_EXTENSION = "table";
-var EXTENSION_REGEX = new RegExp(/\.[a-z]*$/);
-var WIKI_LINK_REGEX = new RegExp(/\[\[([^|\]]+)(?:\|([\w-]+))?\]\]/g);
-
-// src/data/table-state-factory.ts
-var createColumn = (options) => {
-  const { cellType = "text" /* TEXT */ } = options || {};
-  return {
-    id: v4_default(),
-    sortDir: "default" /* NONE */,
-    isVisible: true,
-    width: "140px",
-    type: cellType,
-    currencyType: "USD" /* UNITED_STATES */,
-    dateFormat: "mm/dd/yyyy" /* MM_DD_YYYY */,
-    shouldWrapOverflow: false,
-    tags: [],
-    functionType: "none" /* NONE */,
-    aspectRatio: "16/9" /* SIXTEEN_BY_NINE */,
-    horizontalPadding: "unset" /* UNSET */,
-    verticalPadding: "unset" /* UNSET */
-  };
-};
-var createHeaderRow = () => {
-  return {
-    id: v4_default()
-  };
-};
-var createFooterRow = () => {
-  return {
-    id: v4_default()
-  };
-};
-var createBodyRow = (index) => {
-  const currentTime = Date.now();
-  return {
-    id: v4_default(),
-    index,
-    creationTime: currentTime,
-    lastEditedTime: currentTime
-  };
-};
-var createHeaderCell = (columnId, rowId) => {
-  return {
-    id: v4_default(),
-    columnId,
-    rowId,
-    markdown: "New Column"
-  };
-};
-var createBodyCell = (columnId, rowId, options = {}) => {
-  const { cellType, tagIds = [] } = options || {};
-  return {
-    id: v4_default(),
-    columnId,
-    rowId,
-    dateTime: null,
-    markdown: cellType === "checkbox" /* CHECKBOX */ ? CHECKBOX_MARKDOWN_UNCHECKED : "",
-    tagIds
-  };
-};
-var createFilterRule = (columnId) => {
-  return {
-    id: v4_default(),
-    columnId,
-    type: "is" /* IS */,
-    text: "",
-    tagIds: [],
-    isEnabled: true
-  };
-};
-var createFooterCell = (columnId, rowId) => {
-  return {
-    id: v4_default(),
-    columnId,
-    rowId
-  };
-};
-var createTag = (markdown, options) => {
-  const { color = randomColor() } = options || {};
-  return {
-    id: v4_default(),
-    markdown,
-    color
-  };
-};
-var createTableState = (numColumns, numRows, options) => {
-  const { cellType } = options || {};
-  const columns = [];
-  for (let i2 = 0; i2 < numColumns; i2++)
-    columns.push(createColumn({ cellType }));
-  const headerRows = [];
-  headerRows.push(createHeaderRow());
-  const headerCells = [];
-  for (let x2 = 0; x2 < numColumns; x2++) {
-    headerCells.push(createHeaderCell(columns[x2].id, headerRows[0].id));
-  }
-  const bodyRows = [];
-  for (let i2 = 0; i2 < numRows; i2++)
-    bodyRows.push(createBodyRow(i2));
-  const bodyCells = [];
-  for (let y2 = 0; y2 < numRows; y2++) {
-    for (let x2 = 0; x2 < numColumns; x2++) {
-      bodyCells.push(createBodyCell(columns[x2].id, bodyRows[y2].id));
-    }
-  }
-  const footerRows = [];
-  footerRows.push(createFooterRow());
-  footerRows.push(createFooterRow());
-  const footerCells = [];
-  for (let y2 = 0; y2 < 2; y2++) {
-    for (let x2 = 0; x2 < numColumns; x2++) {
-      footerCells.push(createFooterCell(columns[x2].id, footerRows[y2].id));
-    }
-  }
-  const filterRules = [];
-  return {
-    model: {
-      columns,
-      headerRows,
-      bodyRows,
-      footerRows,
-      headerCells,
-      bodyCells,
-      footerCells,
-      filterRules
-    },
-    pluginVersion: CURRENT_PLUGIN_VERSION
-  };
-};
-
-// src/shared/table-state/filter-state-operations.ts
+// src/shared/loom-state/filter-state-operations.ts
 var addRule = (prevState, columnId) => {
   const { model } = prevState;
   return __spreadProps(__spreadValues({}, prevState), {
@@ -52588,7 +53446,7 @@ var updateRule = (prevState, id2, key, value) => {
   });
 };
 
-// src/shared/table-state/use-filter-rules.ts
+// src/shared/loom-state/use-filter-rules.ts
 var useFilterRules = (onChange) => {
   const logger = useLogger();
   function handleRuleColumnChange(id2, columnId) {
@@ -52641,16 +53499,9 @@ var useFilterRules = (onChange) => {
   };
 };
 
-// src/shared/cell-content/time-content.ts
-var getTimeCellContent = (dateTime, format) => {
-  if (dateTime !== null)
-    return unixTimeToDateTimeString(dateTime, format);
-  return "";
-};
-
-// src/shared/table-state/filter-by-search.ts
-var filterBodyRowsBySearch = (tableState, filteredBodyRows, searchText) => {
-  const { columns, bodyCells, bodyRows } = tableState.model;
+// src/shared/loom-state/filter-by-search.ts
+var filterBodyRowsBySearch = (LoomState8, filteredBodyRows, searchText) => {
+  const { columns, bodyCells, bodyRows } = LoomState8.model;
   const columnMap = /* @__PURE__ */ new Map();
   columns.forEach((column) => columnMap.set(column.id, column));
   const rowMap = /* @__PURE__ */ new Map();
@@ -52743,18 +53594,11 @@ var matchLastEditedTimeCell = (lastEditedTime, dateFormat, searchText) => {
   return content.toLowerCase().includes(searchText);
 };
 
-// src/shared/table-state/use-column.ts
-var import_react91 = __toESM(require_react());
+// src/shared/loom-state/use-column.ts
+var import_react100 = __toESM(require_react());
 
 // src/shared/commands/column-add-command.ts
-var ColumnAddCommand = class extends TableStateCommand {
-  constructor() {
-    super(...arguments);
-    __publicField(this, "addedColumn");
-    __publicField(this, "addedHeaderCells");
-    __publicField(this, "addedBodyCells");
-    __publicField(this, "addedFooterCells");
-  }
+var ColumnAddCommand = class extends LoomStateCommand {
   execute(prevState) {
     super.onExecute();
     const {
@@ -52813,16 +53657,9 @@ var ColumnAddCommand = class extends TableStateCommand {
 };
 
 // src/shared/commands/column-delete-command.ts
-var ColumnDeleteCommand = class extends TableStateCommand {
+var ColumnDeleteCommand = class extends LoomStateCommand {
   constructor(options) {
     super();
-    __publicField(this, "columnId");
-    __publicField(this, "last");
-    __publicField(this, "deletedColumn");
-    __publicField(this, "deletedHeaderCells");
-    __publicField(this, "deletedBodyCells");
-    __publicField(this, "deletedFooterCells");
-    __publicField(this, "deletedFilterRules");
     const { id: id2, last: last2 } = options;
     if (id2 === void 0 && last2 === void 0)
       throw new DeleteCommandArgumentsError();
@@ -52924,14 +53761,10 @@ var ColumnDeleteCommand = class extends TableStateCommand {
 };
 
 // src/shared/commands/column-update-command.ts
-var ColumnUpdateCommand = class extends TableStateCommand {
+var ColumnUpdateCommand = class extends LoomStateCommand {
   constructor(columnId, key, options) {
     const { shouldSortRows = false, value } = options || {};
     super(shouldSortRows);
-    __publicField(this, "columnId");
-    __publicField(this, "key");
-    __publicField(this, "value");
-    __publicField(this, "previousValue");
     this.columnId = columnId;
     this.key = key;
     this.value = value;
@@ -52983,35 +53816,30 @@ var ColumnUpdateCommand = class extends TableStateCommand {
 };
 
 // src/shared/commands/column-type-update-command.ts
-var ColumnTypeUpdateCommand = class extends TableStateCommand {
+var ColumnTypeUpdateCommand = class extends LoomStateCommand {
   constructor(id2, type) {
     super();
-    __publicField(this, "columnId");
-    __publicField(this, "type");
-    __publicField(this, "previousType");
-    __publicField(this, "deletedFilterRules", []);
-    __publicField(this, "previousFunctionType");
-    __publicField(this, "newFunctionType");
-    __publicField(this, "updatedBodyCellTagIds", {
+    this.deletedFilterRules = [];
+    this.updatedBodyCellTagIds = {
       current: [],
       previous: []
-    });
-    __publicField(this, "updatedBodyCellMarkdown", {
+    };
+    this.updatedBodyCellMarkdown = {
       current: [],
       previous: []
-    });
-    __publicField(this, "addedTags", []);
+    };
+    this.addedTags = [];
     this.columnId = id2;
     this.type = type;
   }
   fromNumberOrCurrency(columns) {
     return columns.map((column) => {
       if (column.id === this.columnId) {
-        if (isNumberFunction(column.functionType)) {
-          this.previousFunctionType = column.functionType;
-          this.newFunctionType = "none" /* NONE */;
+        if (isNumberCalcuation(column.calculationType)) {
+          this.previousCalculationType = column.calculationType;
+          this.newCalculationType = "none" /* NONE */;
           return __spreadProps(__spreadValues({}, column), {
-            functionType: "none" /* NONE */
+            calculationType: "none" /* NONE */
           });
         }
       }
@@ -53286,7 +54114,7 @@ var ColumnTypeUpdateCommand = class extends TableStateCommand {
       if (column.id === this.columnId) {
         return __spreadProps(__spreadValues({}, column), {
           type: this.type,
-          functionType: this.newFunctionType ? this.newFunctionType : column.functionType,
+          calculationType: this.newCalculationType ? this.newCalculationType : column.calculationType,
           tags: [...column.tags, ...this.addedTags]
         });
       }
@@ -53333,7 +54161,7 @@ var ColumnTypeUpdateCommand = class extends TableStateCommand {
     const newColumns = columns.map((column) => {
       if (column.id === this.columnId) {
         return __spreadProps(__spreadValues({}, column), {
-          functionType: this.previousFunctionType ? this.previousFunctionType : column.functionType,
+          calculationType: this.previousCalculationType ? this.previousCalculationType : column.calculationType,
           type: this.previousType,
           tags: column.tags.filter(
             (t2) => this.addedTags.find(
@@ -53354,10 +54182,10 @@ var ColumnTypeUpdateCommand = class extends TableStateCommand {
   }
 };
 
-// src/shared/table-state/use-column.ts
+// src/shared/loom-state/use-column.ts
 var useColumn = () => {
   const logger = useLogger();
-  const { doCommand } = useTableState();
+  const { doCommand } = useLoomState();
   function handleNewColumnClick() {
     logger("handleNewColumnClick");
     doCommand(new ColumnAddCommand());
@@ -53414,7 +54242,7 @@ var useColumn = () => {
       })
     );
   }
-  const handleColumnToggle = import_react91.default.useCallback(
+  const handleColumnToggle = import_react100.default.useCallback(
     (columnId) => {
       logger("handleColumnToggle", {
         columnId
@@ -53423,20 +54251,28 @@ var useColumn = () => {
     },
     [doCommand, logger]
   );
+  function handleColumnHideClick(columnId) {
+    logger("handleColumnHideClick", {
+      columnId
+    });
+    doCommand(
+      new ColumnUpdateCommand(columnId, "isVisible", { value: false })
+    );
+  }
   function handleColumnDeleteClick(columnId) {
     logger("handleColumnDeleteClick", {
       columnId
     });
     doCommand(new ColumnDeleteCommand({ id: columnId }));
   }
-  function handleFunctionTypeChange(columnId, functionType) {
-    logger("handleFunctionTypeChange", {
+  function handleCalculationTypeChange(columnId, calculationType) {
+    logger("handleCalculationTypeChange", {
       columnId,
-      functionType
+      calculationType
     });
     doCommand(
-      new ColumnUpdateCommand(columnId, "functionType", {
-        value: functionType
+      new ColumnUpdateCommand(columnId, "calculationType", {
+        value: calculationType
       })
     );
   }
@@ -53510,19 +54346,18 @@ var useColumn = () => {
     handleSortRemoveClick,
     handleColumnWidthChange,
     handleWrapContentToggle,
-    handleFunctionTypeChange,
+    handleCalculationTypeChange,
     handleHorizontalPaddingClick,
     handleVerticalPaddingClick,
-    handleAspectRatioClick
+    handleAspectRatioClick,
+    handleColumnHideClick
   };
 };
 
 // src/shared/commands/row-add-command.ts
-var RowAddCommand = class extends TableStateCommand {
+var RowAddCommand = class extends LoomStateCommand {
   constructor() {
     super(true);
-    __publicField(this, "addedRow");
-    __publicField(this, "addedBodyCells");
   }
   execute(prevState) {
     super.onExecute();
@@ -53566,13 +54401,9 @@ var RowAddCommand = class extends TableStateCommand {
 };
 
 // src/shared/commands/row-delete-command.ts
-var RowDeleteCommand = class extends TableStateCommand {
+var RowDeleteCommand = class extends LoomStateCommand {
   constructor(options) {
     super();
-    __publicField(this, "rowId");
-    __publicField(this, "last");
-    __publicField(this, "deletedRow");
-    __publicField(this, "deletedCells");
     const { id: id2, last: last2 } = options;
     if (id2 === void 0 && last2 === void 0)
       throw new DeleteCommandArgumentsError();
@@ -53585,9 +54416,8 @@ var RowDeleteCommand = class extends TableStateCommand {
     if (bodyRows.length === 0)
       return prevState;
     let id2 = this.rowId;
-    if (this.last) {
+    if (this.last)
       id2 = bodyRows[bodyRows.length - 1].id;
-    }
     const rowToDelete = bodyRows.find((row) => row.id === id2);
     if (!rowToDelete)
       throw new RowNotFoundError(id2);
@@ -53595,15 +54425,31 @@ var RowDeleteCommand = class extends TableStateCommand {
       arrIndex: bodyRows.indexOf(rowToDelete),
       row: structuredClone(rowToDelete)
     };
+    let newBodyRows = bodyRows.filter((row) => row.id !== id2);
+    this.previousBodyRows = newBodyRows.filter((row) => row.index > this.deletedRow.row.index).map((row) => {
+      return {
+        id: row.id,
+        index: row.index
+      };
+    });
+    newBodyRows = newBodyRows.map((row) => {
+      if (row.index > this.deletedRow.row.index) {
+        return __spreadProps(__spreadValues({}, row), {
+          index: row.index - 1
+        });
+      }
+      return row;
+    });
     const cellsToDelete = bodyCells.filter((cell) => cell.rowId === id2);
     this.deletedCells = cellsToDelete.map((cell) => ({
       arrIndex: bodyCells.indexOf(cell),
       cell: structuredClone(cell)
     }));
+    const newBodyCells = bodyCells.filter((cell) => cell.rowId !== id2);
     return __spreadProps(__spreadValues({}, prevState), {
       model: __spreadProps(__spreadValues({}, prevState.model), {
-        bodyRows: bodyRows.filter((row) => row.id !== id2),
-        bodyCells: bodyCells.filter((cell) => cell.rowId !== id2)
+        bodyRows: newBodyRows,
+        bodyCells: newBodyCells
       })
     });
   }
@@ -53614,7 +54460,17 @@ var RowDeleteCommand = class extends TableStateCommand {
   undo(prevState) {
     super.onUndo();
     const { bodyRows, bodyCells } = prevState.model;
-    const updatedBodyRows = [...bodyRows];
+    const updatedBodyRows = [...bodyRows].map((row) => {
+      const wasUpdated = this.previousBodyRows.find(
+        (r2) => r2.id === row.id
+      );
+      if (wasUpdated) {
+        return __spreadProps(__spreadValues({}, row), {
+          index: wasUpdated.index
+        });
+      }
+      return row;
+    });
     updatedBodyRows.splice(
       this.deletedRow.arrIndex,
       0,
@@ -53633,12 +54489,12 @@ var RowDeleteCommand = class extends TableStateCommand {
   }
 };
 
-// src/shared/table-state/use-row.ts
-var import_react92 = __toESM(require_react());
+// src/shared/loom-state/use-row.ts
+var import_react101 = __toESM(require_react());
 var useRow = () => {
   const logger = useLogger();
-  const { doCommand } = useTableState();
-  const handleRowDeleteClick = import_react92.default.useCallback(
+  const { doCommand } = useLoomState();
+  const handleRowDeleteClick = import_react101.default.useCallback(
     (rowId) => {
       logger("handleRowDeleteClick", {
         rowId
@@ -53657,7 +54513,7 @@ var useRow = () => {
   };
 };
 
-// src/shared/table-state/row-state-operations.ts
+// src/shared/loom-state/row-state-operations.ts
 var rowLastEditedTime = (rows, rowId) => {
   const row = rows.find((row2) => row2.id === rowId);
   if (!row)
@@ -53676,15 +54532,9 @@ var rowLastEditedTimeUpdate = (rows, rowId, time = Date.now()) => {
 };
 
 // src/shared/commands/cell-body-update-command.ts
-var CellBodyUpdateCommand = class extends TableStateCommand {
+var CellBodyUpdateCommand = class extends LoomStateCommand {
   constructor(cellId, rowId, key, value) {
     super(true);
-    __publicField(this, "cellId");
-    __publicField(this, "rowId");
-    __publicField(this, "key");
-    __publicField(this, "value");
-    __publicField(this, "previousValue");
-    __publicField(this, "previousEditedTime");
     this.cellId = cellId;
     this.rowId = rowId;
     this.key = key;
@@ -53742,13 +54592,9 @@ var CellBodyUpdateCommand = class extends TableStateCommand {
 };
 
 // src/shared/commands/cell-header-update-command.ts
-var CellHeaderUpdateCommand = class extends TableStateCommand {
+var CellHeaderUpdateCommand = class extends LoomStateCommand {
   constructor(cellId, key, value) {
     super();
-    __publicField(this, "cellId");
-    __publicField(this, "key");
-    __publicField(this, "value");
-    __publicField(this, "previousValue");
     this.cellId = cellId;
     this.key = key;
     this.value = value;
@@ -53797,11 +54643,20 @@ var CellHeaderUpdateCommand = class extends TableStateCommand {
   }
 };
 
-// src/shared/table-state/use-cell.ts
-var import_react93 = __toESM(require_react());
+// src/shared/loom-state/use-cell.ts
+var import_react102 = __toESM(require_react());
 var useCell = () => {
   const logger = useLogger();
-  const { doCommand } = useTableState();
+  const { doCommand } = useLoomState();
+  function handleExternalLinkToggle(cellId, rowId, value) {
+    logger("handleExternalLinkToggle", {
+      cellId,
+      value
+    });
+    doCommand(
+      new CellBodyUpdateCommand(cellId, rowId, "isExternalLink", value)
+    );
+  }
   function handleHeaderCellContentChange(cellId, value) {
     logger("handleCellContentChange", {
       cellId,
@@ -53809,7 +54664,7 @@ var useCell = () => {
     });
     doCommand(new CellHeaderUpdateCommand(cellId, "markdown", value));
   }
-  const handleBodyCellContentChange = import_react93.default.useCallback(
+  const handleBodyCellContentChange = import_react102.default.useCallback(
     (cellId, rowId, value) => {
       logger("handleCellContentChange", {
         cellId,
@@ -53822,7 +54677,7 @@ var useCell = () => {
     },
     [logger, doCommand]
   );
-  const handleCellDateTimeChange = import_react93.default.useCallback(
+  const handleCellDateTimeChange = import_react102.default.useCallback(
     (cellId, rowId, value) => {
       logger("handleCellContentChange", {
         cellId,
@@ -53838,18 +54693,16 @@ var useCell = () => {
   return {
     handleHeaderCellContentChange,
     handleBodyCellContentChange,
-    handleCellDateTimeChange
+    handleCellDateTimeChange,
+    handleExternalLinkToggle
   };
 };
 
 // src/shared/commands/tag-delete-command.ts
-var TagDeleteCommand = class extends TableStateCommand {
+var TagDeleteCommand = class extends LoomStateCommand {
   constructor(columnId, tagId) {
-    super();
-    __publicField(this, "columnId");
-    __publicField(this, "tagId");
-    __publicField(this, "deletedTag");
-    __publicField(this, "previousCellTagIds", []);
+    super(true);
+    this.previousCellTagIds = [];
     this.columnId = columnId;
     this.tagId = tagId;
   }
@@ -53932,14 +54785,9 @@ var TagDeleteCommand = class extends TableStateCommand {
 };
 
 // src/shared/commands/tag-update-command.ts
-var TagUpdateCommand = class extends TableStateCommand {
+var TagUpdateCommand = class extends LoomStateCommand {
   constructor(columnId, tagId, key, value) {
-    super();
-    __publicField(this, "columnId");
-    __publicField(this, "tagId");
-    __publicField(this, "key");
-    __publicField(this, "value");
-    __publicField(this, "previousValue");
+    super(true);
     this.columnId = columnId;
     this.tagId = tagId;
     this.key = key;
@@ -54004,20 +54852,9 @@ var TagUpdateCommand = class extends TableStateCommand {
 };
 
 // src/shared/commands/tag-add-command.ts
-var TagAddCommand = class extends TableStateCommand {
+var TagAddCommand = class extends LoomStateCommand {
   constructor(cellId, columnId, rowId, markdown, color, isMultiTag) {
-    super();
-    __publicField(this, "cellId");
-    __publicField(this, "columnId");
-    __publicField(this, "rowId");
-    __publicField(this, "markdown");
-    __publicField(this, "color");
-    __publicField(this, "isMultiTag");
-    __publicField(this, "previousEditedTime");
-    __publicField(this, "newEditedTime");
-    __publicField(this, "addedTag");
-    __publicField(this, "previousCellTagIds");
-    __publicField(this, "newCellTagIds");
+    super(true);
     this.cellId = cellId;
     this.columnId = columnId;
     this.rowId = rowId;
@@ -54136,14 +54973,9 @@ var TagAddCommand = class extends TableStateCommand {
 };
 
 // src/shared/commands/tag-cell-remove-command.ts
-var TagCellRemoveCommand = class extends TableStateCommand {
+var TagCellRemoveCommand = class extends LoomStateCommand {
   constructor(cellId, rowId, tagId) {
-    super();
-    __publicField(this, "cellId");
-    __publicField(this, "rowId");
-    __publicField(this, "tagId");
-    __publicField(this, "previousEditedTime");
-    __publicField(this, "previousTagIdIndex");
+    super(true);
     this.cellId = cellId;
     this.rowId = rowId;
     this.tagId = tagId;
@@ -54200,15 +55032,9 @@ var TagCellRemoveCommand = class extends TableStateCommand {
 };
 
 // src/shared/commands/tag-cell-add-command.ts
-var TagCellAddCommand = class extends TableStateCommand {
+var TagCellAddCommand = class extends LoomStateCommand {
   constructor(cellId, rowId, tagId, isMultiTag) {
-    super();
-    __publicField(this, "cellId");
-    __publicField(this, "rowId");
-    __publicField(this, "tagId");
-    __publicField(this, "isMultiTag");
-    __publicField(this, "previousCellTagIds");
-    __publicField(this, "previousEditedTime");
+    super(true);
     this.cellId = cellId;
     this.rowId = rowId;
     this.tagId = tagId;
@@ -54270,14 +55096,9 @@ var TagCellAddCommand = class extends TableStateCommand {
 };
 
 // src/shared/commands/tag-cell-multiple-remove-command.ts
-var TagCellMultipleRemoveCommand = class extends TableStateCommand {
+var TagCellMultipleRemoveCommand = class extends LoomStateCommand {
   constructor(cellId, rowId, tagIds) {
-    super();
-    __publicField(this, "cellId");
-    __publicField(this, "rowId");
-    __publicField(this, "tagIds");
-    __publicField(this, "previousEditedTime");
-    __publicField(this, "previousTagIds");
+    super(true);
     this.cellId = cellId;
     this.rowId = rowId;
     this.tagIds = tagIds;
@@ -54332,9 +55153,9 @@ var TagCellMultipleRemoveCommand = class extends TableStateCommand {
   }
 };
 
-// src/shared/table-state/use-tag.ts
+// src/shared/loom-state/use-tag.ts
 var useTag = () => {
-  const { doCommand } = useTableState();
+  const { doCommand } = useLoomState();
   const logFunc = useLogger();
   function handleTagAdd(cellId, columnId, rowId, markdown, color, isMultiTag) {
     logFunc("handleTagAdd", {
@@ -54405,6 +55226,9 @@ var useTag = () => {
     handleTagDeleteClick
   };
 };
+
+// src/react/loom-app/app.tsx
+var import_react109 = __toESM(require_react());
 
 // src/shared/menu/arrow-move-focus.ts
 var moveMenuFocusUp = (focusableEls, currentIndex) => {
@@ -54477,20 +55301,20 @@ var moveFocusDown = (focusableEls, numColumns, numBodyRows, numSortedColumns, cu
   return focusableEls[currentIndex + numColumns + 1];
 };
 
-// src/obsidian-shim/build/export-events.ts
-var import_react94 = __toESM(require_react());
+// src/shared/loom-state/use-export-events.ts
+var import_react103 = __toESM(require_react());
 
 // src/shared/event-system/utils.ts
 var isEventForThisApp = (appId, allowOutsideEvents = false) => {
   const activeEl = document.activeElement;
   if (!activeEl)
     return false;
-  const appEl = activeEl.closest(".NLT__app");
+  const appEl = activeEl.closest(".DataLoom__app");
   if (appEl)
     return appEl.getAttribute("data-id") === appId;
   if (allowOutsideEvents)
     return true;
-  const menuEl = activeEl.closest(".NLT__menu");
+  const menuEl = activeEl.closest(".DataLoom__menu");
   if (menuEl) {
     const menuId = menuEl.getAttribute("data-id");
     const menuTrigger = document.querySelector(
@@ -54498,298 +55322,22 @@ var isEventForThisApp = (appId, allowOutsideEvents = false) => {
     );
     if (!menuTrigger)
       return false;
-    const appEl2 = menuTrigger.closest(".NLT__app");
+    const appEl2 = menuTrigger.closest(".DataLoom__app");
     if (appEl2)
       return appEl2.getAttribute("data-id") === appId;
   }
   return false;
 };
 
-// src/shared/export/download-utils.ts
-var import_obsidian7 = require("obsidian");
-
-// src/shared/export/types.ts
-var ExportType = /* @__PURE__ */ ((ExportType2) => {
-  ExportType2["UNSELECTED"] = "Select an option";
-  ExportType2["MARKDOWN"] = "Markdown";
-  ExportType2["CSV"] = "CSV";
-  return ExportType2;
-})(ExportType || {});
-
-// src/shared/export/download-utils.ts
-var getBlobTypeForExportType = (type) => {
-  switch (type) {
-    case "CSV" /* CSV */:
-      return "text/csv";
-    case "Markdown" /* MARKDOWN */:
-      return "text/markdown";
-    default:
-      throw new Error(`Unknown export type: ${type}`);
-  }
-};
-var getExportFileName = (filePath) => {
-  const replaceExtension = filePath.replace(`.${TABLE_EXTENSION}`, "");
-  const replaceSlash = replaceExtension.replace(/\//g, "-");
-  const replaceSpaces = replaceSlash.replace(/ /g, "_");
-  const timestamp = (0, import_obsidian7.moment)().format("YYYY_MM_DD-HH_mm_ss");
-  return replaceSpaces + "-" + timestamp;
-};
-var downloadFile = (fileName, blobType, data) => {
-  const blob = new Blob([data], { type: blobType });
-  const url = window.URL.createObjectURL(blob);
-  const el = document.createElement("a");
-  el.setAttribute("href", url);
-  el.setAttribute("download", fileName);
-  el.style.display = "none";
-  document.body.appendChild(el);
-  el.click();
-  document.body.removeChild(el);
-};
-
-// src/shared/export/export-to-csv.tsx
-var import_papaparse = __toESM(require_papaparse_min());
-
-// src/shared/cell-content/checkbox-cell-content.ts
-var getCheckboxCellContent = (markdown, renderMarkdown2) => {
-  if (renderMarkdown2)
-    return markdown;
-  if (isCheckboxChecked(markdown))
-    return "true";
-  return "false";
-};
-
-// src/shared/cell-content/number-cell-content.ts
-var getNumberCellContent = (value) => {
-  if (isNumber(value))
-    return value;
-  return "";
-};
-
-// src/shared/cell-content/text-cell-content.ts
-var getTextCellContent = (markdown, renderMarkdown2) => {
-  if (!renderMarkdown2)
-    return markdown.replace(WIKI_LINK_REGEX, (_match, path) => {
-      return path;
-    });
-  return markdown;
-};
-
-// src/shared/cell-content/index.ts
-var getTagCellContent = (column, cell) => {
-  return column.tags.filter((tag) => cell.tagIds.includes(tag.id)).map((tag) => tag.markdown).join(",");
-};
-var getCellContent = (column, row, cell, renderMarkdown2) => {
-  switch (column.type) {
-    case "text" /* TEXT */:
-    case "file" /* FILE */:
-      return getTextCellContent(cell.markdown, renderMarkdown2);
-    case "number" /* NUMBER */:
-      return getNumberCellContent(cell.markdown);
-    case "embed" /* EMBED */:
-      return getEmbedCellContent(cell.markdown, renderMarkdown2);
-    case "checkbox" /* CHECKBOX */:
-      return getCheckboxCellContent(cell.markdown, renderMarkdown2);
-    case "currency" /* CURRENCY */:
-      return getCurrencyCellContent(cell.markdown, column.currencyType);
-    case "tag" /* TAG */:
-    case "multi-tag" /* MULTI_TAG */:
-      return getTagCellContent(column, cell);
-    case "date" /* DATE */:
-      return getDateCellContent(cell.dateTime, column.dateFormat);
-    case "creation-time" /* CREATION_TIME */:
-      return getTimeCellContent(row.creationTime, column.dateFormat);
-    case "last-edited-time" /* LAST_EDITED_TIME */:
-      return getTimeCellContent(row.lastEditedTime, column.dateFormat);
-    default:
-      throw new Error("Unsupported cell type");
-  }
-};
-
-// src/shared/export/table-state-to-array.tsx
-var serializeHeaderCells = (cells) => {
-  return cells.map((cell) => cell.markdown);
-};
-var serializeBodyCells = (columns, rows, cells, renderMarkdown2) => {
-  return rows.map((row) => {
-    const rowCells = cells.filter((cell) => cell.rowId === row.id);
-    return rowCells.map((cell) => {
-      const column = columns.find(
-        (column2) => column2.id === cell.columnId
-      );
-      if (!column)
-        throw new ColumNotFoundError(cell.columnId);
-      return getCellContent(column, row, cell, renderMarkdown2);
-    });
-  });
-};
-var tableStateToArray = (tableState, renderMarkdown2) => {
-  const { headerCells, bodyCells, bodyRows, columns } = tableState.model;
-  const serializedHeaderCells = serializeHeaderCells(headerCells);
-  const serializedBodyCells = serializeBodyCells(
-    columns,
-    bodyRows,
-    bodyCells,
-    renderMarkdown2
-  );
-  return [serializedHeaderCells, ...serializedBodyCells];
-};
-
-// src/shared/export/export-to-csv.tsx
-var exportToCSV = (tableState, renderMarkdown2) => {
-  const arr = tableStateToArray(tableState, renderMarkdown2);
-  return import_papaparse.default.unparse(arr);
-};
-
-// node_modules/markdown-table/index.js
-function markdownTable(table, options = {}) {
-  const align = (options.align || []).concat();
-  const stringLength = options.stringLength || defaultStringLength;
-  const alignments = [];
-  const cellMatrix = [];
-  const sizeMatrix = [];
-  const longestCellByColumn = [];
-  let mostCellsPerRow = 0;
-  let rowIndex = -1;
-  while (++rowIndex < table.length) {
-    const row2 = [];
-    const sizes2 = [];
-    let columnIndex2 = -1;
-    if (table[rowIndex].length > mostCellsPerRow) {
-      mostCellsPerRow = table[rowIndex].length;
-    }
-    while (++columnIndex2 < table[rowIndex].length) {
-      const cell = serialize(table[rowIndex][columnIndex2]);
-      if (options.alignDelimiters !== false) {
-        const size = stringLength(cell);
-        sizes2[columnIndex2] = size;
-        if (longestCellByColumn[columnIndex2] === void 0 || size > longestCellByColumn[columnIndex2]) {
-          longestCellByColumn[columnIndex2] = size;
-        }
-      }
-      row2.push(cell);
-    }
-    cellMatrix[rowIndex] = row2;
-    sizeMatrix[rowIndex] = sizes2;
-  }
-  let columnIndex = -1;
-  if (typeof align === "object" && "length" in align) {
-    while (++columnIndex < mostCellsPerRow) {
-      alignments[columnIndex] = toAlignment(align[columnIndex]);
-    }
-  } else {
-    const code = toAlignment(align);
-    while (++columnIndex < mostCellsPerRow) {
-      alignments[columnIndex] = code;
-    }
-  }
-  columnIndex = -1;
-  const row = [];
-  const sizes = [];
-  while (++columnIndex < mostCellsPerRow) {
-    const code = alignments[columnIndex];
-    let before = "";
-    let after = "";
-    if (code === 99) {
-      before = ":";
-      after = ":";
-    } else if (code === 108) {
-      before = ":";
-    } else if (code === 114) {
-      after = ":";
-    }
-    let size = options.alignDelimiters === false ? 1 : Math.max(
-      1,
-      longestCellByColumn[columnIndex] - before.length - after.length
-    );
-    const cell = before + "-".repeat(size) + after;
-    if (options.alignDelimiters !== false) {
-      size = before.length + size + after.length;
-      if (size > longestCellByColumn[columnIndex]) {
-        longestCellByColumn[columnIndex] = size;
-      }
-      sizes[columnIndex] = size;
-    }
-    row[columnIndex] = cell;
-  }
-  cellMatrix.splice(1, 0, row);
-  sizeMatrix.splice(1, 0, sizes);
-  rowIndex = -1;
-  const lines = [];
-  while (++rowIndex < cellMatrix.length) {
-    const row2 = cellMatrix[rowIndex];
-    const sizes2 = sizeMatrix[rowIndex];
-    columnIndex = -1;
-    const line = [];
-    while (++columnIndex < mostCellsPerRow) {
-      const cell = row2[columnIndex] || "";
-      let before = "";
-      let after = "";
-      if (options.alignDelimiters !== false) {
-        const size = longestCellByColumn[columnIndex] - (sizes2[columnIndex] || 0);
-        const code = alignments[columnIndex];
-        if (code === 114) {
-          before = " ".repeat(size);
-        } else if (code === 99) {
-          if (size % 2) {
-            before = " ".repeat(size / 2 + 0.5);
-            after = " ".repeat(size / 2 - 0.5);
-          } else {
-            before = " ".repeat(size / 2);
-            after = before;
-          }
-        } else {
-          after = " ".repeat(size);
-        }
-      }
-      if (options.delimiterStart !== false && !columnIndex) {
-        line.push("|");
-      }
-      if (options.padding !== false && !(options.alignDelimiters === false && cell === "") && (options.delimiterStart !== false || columnIndex)) {
-        line.push(" ");
-      }
-      if (options.alignDelimiters !== false) {
-        line.push(before);
-      }
-      line.push(cell);
-      if (options.alignDelimiters !== false) {
-        line.push(after);
-      }
-      if (options.padding !== false) {
-        line.push(" ");
-      }
-      if (options.delimiterEnd !== false || columnIndex !== mostCellsPerRow - 1) {
-        line.push("|");
-      }
-    }
-    lines.push(
-      options.delimiterEnd === false ? line.join("").replace(/ +$/, "") : line.join("")
-    );
-  }
-  return lines.join("\n");
-}
-function serialize(value) {
-  return value === null || value === void 0 ? "" : String(value);
-}
-function defaultStringLength(value) {
-  return value.length;
-}
-function toAlignment(value) {
-  const code = typeof value === "string" ? value.codePointAt(0) : 0;
-  return code === 67 || code === 99 ? 99 : code === 76 || code === 108 ? 108 : code === 82 || code === 114 ? 114 : 0;
-}
-
-// src/shared/export/export-to-markdown.tsx
-var exportToMarkdown = (tableState, renderMarkdown2) => {
-  const arr = tableStateToArray(tableState, renderMarkdown2);
-  return markdownTable(arr);
-};
-
-// src/obsidian-shim/build/export-events.ts
+// src/shared/loom-state/use-export-events.ts
 var useExportEvents = (state) => {
-  const { filePath } = useMountState();
+  const { loomFile } = useMountState();
   const { appId } = useMountState();
-  const { exportRenderMarkdown } = useAppSelector((state2) => state2.global);
-  import_react94.default.useEffect(() => {
+  const { exportRenderMarkdown } = useAppSelector(
+    (state2) => state2.global.settings
+  );
+  const filePath = loomFile.path;
+  import_react103.default.useEffect(() => {
     function handleDownloadCSV() {
       if (isEventForThisApp(appId)) {
         setTimeout(() => {
@@ -54823,12 +55371,12 @@ var useExportEvents = (state) => {
   }, [filePath, state, appId, exportRenderMarkdown]);
 };
 
-// src/obsidian-shim/build/row-events.ts
-var import_react95 = __toESM(require_react());
+// src/shared/loom-state/use-row-events.ts
+var import_react104 = __toESM(require_react());
 var useRowEvents = () => {
   const { appId } = useMountState();
-  const { doCommand } = useTableState();
-  import_react95.default.useEffect(() => {
+  const { doCommand } = useLoomState();
+  import_react104.default.useEffect(() => {
     function handleRowAddEvent() {
       if (isEventForThisApp(appId))
         doCommand(new RowAddCommand());
@@ -54846,13 +55394,13 @@ var useRowEvents = () => {
   }, [doCommand, appId]);
 };
 
-// src/obsidian-shim/build/column-events.ts
-var import_react96 = __toESM(require_react());
+// src/shared/loom-state/use-column-events.ts
+var import_react105 = __toESM(require_react());
 var useColumnEvents = () => {
   const { appId } = useMountState();
-  const { doCommand } = useTableState();
+  const { doCommand } = useLoomState();
   const logger = useLogger();
-  import_react96.default.useEffect(() => {
+  import_react105.default.useEffect(() => {
     function handleColumnAddEvent() {
       if (isEventForThisApp(appId)) {
         logger("handleColumnAddEvent");
@@ -54874,20 +55422,112 @@ var useColumnEvents = () => {
   }, [doCommand, logger, appId]);
 };
 
-// src/react/table-app/index.tsx
-var TableApp = () => {
+// src/react/loom-app/new-row-button/index.tsx
+function NewRowButton({ onClick }) {
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
+    icon: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Icon, {
+      lucideId: "plus"
+    }),
+    ariaLabel: "New row",
+    onClick: () => onClick(),
+    children: "New"
+  });
+}
+
+// src/react/loom-app/bottom-bar/index.tsx
+var import_react107 = __toESM(require_react());
+function BottomBar({
+  appId,
+  onNewRowClick,
+  onScrollToTopClick,
+  onScrollToBottomClick
+}) {
+  const ref = import_react107.default.useRef(null);
+  const [spaceBetweenTableAndContainer, setSpaceBetweenTableAndContainer] = import_react107.default.useState(0);
+  import_react107.default.useEffect(() => {
+    let observer = null;
+    if (!ref.current)
+      return;
+    const tableEl = document.querySelector(`[data-id="${appId}"] table`);
+    if (!tableEl)
+      return;
+    const tableContainerEl = tableEl.parentElement;
+    if (!tableContainerEl)
+      return;
+    observer = new ResizeObserver(() => {
+      const containerRect = tableContainerEl.getBoundingClientRect();
+      const tableRect = tableEl.getBoundingClientRect();
+      let diff = containerRect.height - tableRect.height;
+      if (diff < 0)
+        diff = 0;
+      setSpaceBetweenTableAndContainer(diff);
+    });
+    observer.observe(tableEl);
+    return () => {
+      if (tableEl)
+        observer == null ? void 0 : observer.unobserve(tableEl);
+    };
+  }, [ref]);
+  const { isMarkdownView } = useMountState();
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: "DataLoom__bottom-bar",
+    css: import_emotion_react_cjs.css`
+				position: relative;
+				height: 60px;
+			`,
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+      ref,
+      css: import_emotion_react_cjs.css`
+					position: absolute;
+					top: -${numToPx(spaceBetweenTableAndContainer)};
+					width: 100%;
+				`,
+      children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Padding, {
+        px: isMarkdownView ? "unset" : "lg",
+        py: "md",
+        width: "100%",
+        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Flex, {
+          justify: "space-between",
+          children: [
+            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(NewRowButton, {
+              onClick: onNewRowClick
+            }),
+            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
+              isHorizontal: true,
+              spacing: "sm",
+              children: [
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
+                  onClick: onScrollToTopClick,
+                  children: "Top"
+                }),
+                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Button, {
+                  onClick: onScrollToBottomClick,
+                  children: "Bottom"
+                })
+              ]
+            })
+          ]
+        })
+      })
+    })
+  });
+}
+
+// src/react/loom-app/app.tsx
+function App2() {
   const { appId, isMarkdownView } = useMountState();
   const { topMenu, hasOpenMenu, requestCloseTopMenu } = useMenuState();
   const logger = useLogger();
   const {
-    tableState,
+    LoomState: LoomState8,
     resizingColumnId,
     searchText,
     commandRedo,
     commandUndo,
-    setTableState
-  } = useTableState();
-  useExportEvents(tableState);
+    setLoomState
+  } = useLoomState();
+  const tableRef = import_react109.default.useRef(null);
+  useExportEvents(LoomState8);
   useRowEvents();
   useColumnEvents();
   const {
@@ -54899,18 +55539,19 @@ var TableApp = () => {
     handleRuleToggle,
     handleRuleTagsChange,
     filterBodyRowsByRules: filterBodyRowsByRules2
-  } = useFilterRules(setTableState);
+  } = useFilterRules(setLoomState);
   const {
     handleNewColumnClick,
     handleColumnToggle,
     handleCurrencyChange,
     handleDateFormatChange,
     handleColumnDeleteClick,
+    handleColumnHideClick,
     handleColumnSortClick,
     handleColumnTypeClick,
     handleColumnWidthChange,
     handleSortRemoveClick,
-    handleFunctionTypeChange,
+    handleCalculationTypeChange,
     handleWrapContentToggle,
     handleAspectRatioClick,
     handleHorizontalPaddingClick,
@@ -54920,7 +55561,8 @@ var TableApp = () => {
   const {
     handleBodyCellContentChange,
     handleCellDateTimeChange,
-    handleHeaderCellContentChange
+    handleHeaderCellContentChange,
+    handleExternalLinkToggle
   } = useCell();
   const {
     handleTagCellAdd,
@@ -54933,7 +55575,7 @@ var TableApp = () => {
   const firstColumnId = useUUID();
   const lastColumnId = useUUID();
   function handleClick(e) {
-    logger("TableApp handleClick");
+    logger("LoomApp handleClick");
     e.stopPropagation();
     if (hasOpenMenu()) {
       requestCloseTopMenu("click");
@@ -54942,7 +55584,7 @@ var TableApp = () => {
     }
   }
   function handleKeyDown(e) {
-    logger("TableApp handleKeyDown");
+    logger("LoomApp handleKeyDown");
     e.stopPropagation();
     if (e.key === "Tab") {
       removeFocusVisibleClass();
@@ -54950,7 +55592,9 @@ var TableApp = () => {
       const layerEl = getFocusableLayerEl(appId, topMenu);
       if (!layerEl)
         return;
-      const focusableEls = layerEl.querySelectorAll(".NLT__focusable");
+      const focusableEls = layerEl.querySelectorAll(
+        ".DataLoom__focusable"
+      );
       if (focusableEls.length === 0)
         return;
       focusNextElement(layerEl, focusableEls);
@@ -54964,7 +55608,9 @@ var TableApp = () => {
       const layerEl = getFocusableLayerEl(appId, topMenu);
       if (!layerEl)
         return;
-      const focusableEls = layerEl.querySelectorAll(".NLT__focusable");
+      const focusableEls = layerEl.querySelectorAll(
+        ".DataLoom__focusable"
+      );
       if (focusableEls.length === 0)
         return;
       e.preventDefault();
@@ -54972,11 +55618,11 @@ var TableApp = () => {
       let index = -1;
       if (focusedEl)
         index = Array.from(focusableEls).indexOf(focusedEl);
-      const numVisibleColumns = tableState.model.columns.filter(
+      const numVisibleColumns = LoomState8.model.columns.filter(
         (column) => column.isVisible
       ).length;
-      const numBodyRows = tableState.model.bodyRows.length;
-      const numSortedColumns = tableState.model.columns.filter(
+      const numBodyRows = LoomState8.model.bodyRows.length;
+      const numSortedColumns = LoomState8.model.columns.filter(
         (column) => column.sortDir !== "default" /* NONE */
       ).length;
       let elementToFocus = null;
@@ -55021,6 +55667,14 @@ var TableApp = () => {
     }
     nltEventSystem.dispatchEvent("keydown", e);
   }
+  function handleScrollToTopClick() {
+    var _a;
+    (_a = tableRef.current) == null ? void 0 : _a.scrollToIndex(0);
+  }
+  function handleScrollToBottomClick() {
+    var _a;
+    (_a = tableRef.current) == null ? void 0 : _a.scrollToIndex(filteredBodyRows.length - 1);
+  }
   const {
     headerRows,
     footerRows,
@@ -55029,23 +55683,22 @@ var TableApp = () => {
     bodyCells,
     footerCells,
     filterRules
-  } = tableState.model;
-  let filteredBodyRows = filterBodyRowsByRules2(tableState);
+  } = LoomState8.model;
+  let filteredBodyRows = filterBodyRowsByRules2(LoomState8);
   filteredBodyRows = filterBodyRowsBySearch(
-    tableState,
+    LoomState8,
     filteredBodyRows,
     searchText
   );
   const visibleColumns = columns.filter((column) => column.isVisible);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
     "data-id": appId,
-    className: "NLT__app",
+    className: "DataLoom__app",
     css: import_emotion_react_cjs.css`
 				display: flex;
 				flex-direction: column;
 				width: 100%;
 				height: 100%;
-				padding: 10px 0px;
 				border-top: 1px solid var(--background-modifier-border);
 				border-bottom: ${isMarkdownView ? "1px solid var(--background-modifier-border)" : "unset"};
 			`,
@@ -55066,7 +55719,8 @@ var TableApp = () => {
         onRuleToggle: handleRuleToggle,
         onRuleTagsChange: handleRuleTagsChange
       }),
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Table2, {
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(table_default, {
+        ref: tableRef,
         headerRows: headerRows.map((row) => {
           return {
             id: row.id,
@@ -55104,7 +55758,7 @@ var TableApp = () => {
                 return {
                   id: cellId,
                   columnId,
-                  content: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(HeaderCell2, {
+                  content: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(HeaderCell3, {
                     cellId,
                     rowId,
                     dateFormat,
@@ -55130,7 +55784,8 @@ var TableApp = () => {
                     onCurrencyChange: handleCurrencyChange,
                     onVerticalPaddingClick: handleVerticalPaddingClick,
                     onHorizontalPaddingClick: handleHorizontalPaddingClick,
-                    onAspectRatioClick: handleAspectRatioClick
+                    onAspectRatioClick: handleAspectRatioClick,
+                    onHideClick: handleColumnHideClick
                   }, columnId)
                 };
               }),
@@ -55181,12 +55836,14 @@ var TableApp = () => {
                   id: cellId,
                   markdown,
                   dateTime,
-                  tagIds
+                  tagIds,
+                  isExternalLink
                 } = cell;
                 return {
                   id: cellId,
-                  content: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(BodyCell5, {
+                  content: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(BodyCell8, {
                     cellId,
+                    isExternalLink,
                     verticalPadding,
                     horizontalPadding,
                     aspectRatio,
@@ -55211,7 +55868,8 @@ var TableApp = () => {
                     onTagDelete: handleTagDeleteClick,
                     onDateTimeChange: handleCellDateTimeChange,
                     onDateFormatChange: handleDateFormatChange,
-                    onTagAdd: handleTagAdd
+                    onTagAdd: handleTagAdd,
+                    onExternalLinkToggle: handleExternalLinkToggle
                   }, cellId)
                 };
               }),
@@ -55239,7 +55897,7 @@ var TableApp = () => {
                     dateFormat,
                     width,
                     tags,
-                    functionType
+                    calculationType
                   } = column;
                   const cell = footerCells.find(
                     (cell2) => cell2.rowId === row.id && cell2.columnId === column.id
@@ -55258,11 +55916,11 @@ var TableApp = () => {
                   return {
                     id: cell.id,
                     content: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-                      className: "NLT__footer-td-container",
+                      className: "DataLoom__footer-td-container",
                       css: import_emotion_react_cjs.css`
 													width: ${width};
 												`,
-                      children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(FunctionCell, {
+                      children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(CalculationCell, {
                         columnId,
                         columnTags: tags,
                         cellId,
@@ -55270,9 +55928,9 @@ var TableApp = () => {
                         dateFormat,
                         bodyCells: columnBodyCells,
                         bodyRows: filteredBodyRows,
-                        functionType,
+                        calculationType,
                         cellType: type,
-                        onFunctionTypeChange: handleFunctionTypeChange
+                        onTypeChange: handleCalculationTypeChange
                       })
                     })
                   };
@@ -55286,590 +55944,74 @@ var TableApp = () => {
           }
           return {
             id: row.id,
-            cells: [
-              {
-                id: firstColumnId,
-                content: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(import_emotion_react_jsx_runtime_cjs.Fragment, {})
-              },
-              ...visibleColumns.map((column, i3) => {
-                const cell = footerCells.find(
-                  (cell2) => cell2.rowId === row.id && cell2.columnId === column.id
-                );
-                if (!cell)
-                  throw new CellNotFoundError({
-                    rowId: row.id,
-                    columnId: column.id
-                  });
-                if (i3 === 0) {
-                  return {
-                    id: cell.id,
-                    content: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-                      style: { width: column.width },
-                      children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(NewRowButton, {
-                        onClick: handleNewRowClick
-                      })
-                    })
-                  };
-                }
-                return {
-                  id: cell.id,
-                  content: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(import_emotion_react_jsx_runtime_cjs.Fragment, {})
-                };
-              }),
-              {
-                id: lastColumnId,
-                content: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(import_emotion_react_jsx_runtime_cjs.Fragment, {})
-              }
-            ]
+            cells: []
           };
         })
+      }),
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(BottomBar, {
+        appId,
+        onNewRowClick: handleNewRowClick,
+        onScrollToTopClick: handleScrollToTopClick,
+        onScrollToBottomClick: handleScrollToBottomClick
       })
     ]
   });
-};
-function AppWrapper({ store: store2, tableState, onSaveState }) {
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Provider_default, {
-    store: store2,
-    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TableStateProvider, {
-      initialState: tableState,
-      onSaveState,
-      children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuProvider, {
-        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(DragProvider, {
-          children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TableApp, {})
-        })
-      })
-    })
-  });
 }
 
-// src/obsidian-shim/build/notion-like-table.tsx
-function NotionLikeTable({
+// src/react/loom-app/index.tsx
+function LoomApp({
   appId,
-  leaf,
+  mountLeaf,
   isMarkdownView,
   store: store2,
-  filePath,
-  tableState,
+  loomFile,
+  LoomState: LoomState8,
   onSaveState
 }) {
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MountProvider, {
-    leaf,
+    mountLeaf,
     appId,
     isMarkdownView,
-    filePath,
-    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(AppWrapper, {
+    loomFile,
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Provider_default, {
       store: store2,
-      tableState,
-      onSaveState
-    })
-  });
-}
-
-// src/shared/types/types-6.7.0.ts
-var GeneralFunction2 = /* @__PURE__ */ ((GeneralFunction3) => {
-  GeneralFunction3["NONE"] = "none";
-  GeneralFunction3["COUNT_ALL"] = "count_all";
-  GeneralFunction3["COUNT_VALUES"] = "count_values";
-  GeneralFunction3["COUNT_UNIQUE"] = "count_unique";
-  GeneralFunction3["COUNT_EMPTY"] = "count_empty";
-  GeneralFunction3["COUNT_NOT_EMPTY"] = "count_not_empty";
-  GeneralFunction3["PERCENT_EMPTY"] = "percent_empty";
-  GeneralFunction3["PERCENT_NOT_EMPTY"] = "percent_not_empty";
-  return GeneralFunction3;
-})(GeneralFunction2 || {});
-var GeneralFunction670 = GeneralFunction2;
-
-// src/shared/types/types-6.1.0.ts
-var CurrencyType8 = /* @__PURE__ */ ((CurrencyType9) => {
-  CurrencyType9["UNITED_STATES"] = "USD";
-  CurrencyType9["CANADA"] = "CAD";
-  CurrencyType9["SINGAPORE"] = "SGB";
-  CurrencyType9["EUROPE"] = "EUR";
-  CurrencyType9["POUND"] = "GBP";
-  CurrencyType9["RUSSIA"] = "RUB";
-  CurrencyType9["AUSTRALIA"] = "AUD";
-  CurrencyType9["JAPAN"] = "JPY";
-  CurrencyType9["INDIA"] = "INR";
-  CurrencyType9["CHINA"] = "CNY";
-  CurrencyType9["BRAZIL"] = "BRL";
-  CurrencyType9["COLOMBIA"] = "COP";
-  CurrencyType9["MEXICO"] = "MXN";
-  CurrencyType9["ARGENTINA"] = "ARS";
-  return CurrencyType9;
-})(CurrencyType8 || {});
-var CurrencyType610 = CurrencyType8;
-
-// src/shared/types/types-6.2.0.ts
-var DateFormat8 = /* @__PURE__ */ ((DateFormat9) => {
-  DateFormat9["MM_DD_YYYY"] = "mm/dd/yyyy";
-  DateFormat9["DD_MM_YYYY"] = "dd/mm/yyyy";
-  DateFormat9["YYYY_MM_DD"] = "yyyy/mm/dd";
-  DateFormat9["FULL"] = "full";
-  DateFormat9["RELATIVE"] = "relative";
-  return DateFormat9;
-})(DateFormat8 || {});
-var DateFormat620 = DateFormat8;
-
-// src/shared/versioning.ts
-var legacyVersionToString = (version) => {
-  return version.toString().split("").join(".");
-};
-var isVersionLessThan = (oldVersion, newVersion) => {
-  const oldVersionArray = oldVersion.split(".");
-  const newVersionArray = newVersion.split(".");
-  for (let i2 = 0; i2 < oldVersionArray.length; i2++) {
-    const oldVersionNumber = parseInt(oldVersionArray[i2]);
-    const newVersionNumber = parseInt(newVersionArray[i2]);
-    if (oldVersionNumber < newVersionNumber) {
-      return true;
-    }
-    if (oldVersionNumber > newVersionNumber) {
-      return false;
-    }
-  }
-  return false;
-};
-
-// src/data/serialize-table-state.ts
-var serializeTableState = (tableState) => {
-  return JSON.stringify(tableState, null, 2);
-};
-var deserializeTableState = (data) => {
-  const parsedState = JSON.parse(data);
-  const untypedVersion = parsedState["pluginVersion"];
-  let pluginVersion = "";
-  if (typeof untypedVersion === "number") {
-    pluginVersion = legacyVersionToString(untypedVersion);
-  } else if (typeof untypedVersion === "string") {
-    pluginVersion = untypedVersion;
-  }
-  let currentState = parsedState;
-  if (isVersionLessThan(pluginVersion, "6.1.0")) {
-    const tableState2 = currentState;
-    const { columns } = tableState2.model;
-    columns.forEach((column) => {
-      const typedColumn = column;
-      typedColumn.currencyType = CurrencyType610.UNITED_STATES;
-    });
-  }
-  if (isVersionLessThan(pluginVersion, "6.2.0")) {
-    const tableState2 = currentState;
-    const { columns } = tableState2.model;
-    columns.forEach((column) => {
-      const typedColumn = column;
-      typedColumn.dateFormat = DateFormat620.YYYY_MM_DD;
-    });
-  }
-  if (isVersionLessThan(pluginVersion, "6.3.0")) {
-    const tableState2 = currentState;
-    const { columns, rows, cells } = tableState2.model;
-    columns.forEach((column) => {
-      const typedColumn = column;
-      if (typedColumn["hasAutoWidth"]) {
-        delete typedColumn.hasAutoWidth;
-      }
-    });
-    rows.forEach((row, i2) => {
-      const typedRow = row;
-      typedRow.index = i2;
-    });
-    columns.forEach((column) => {
-      const typedColumn = column;
-      typedColumn.isVisible = true;
-    });
-    cells.forEach((cell) => {
-      const typedCell = cell;
-      typedCell.dateTime = null;
-    });
-  }
-  if (isVersionLessThan(pluginVersion, "6.4.0")) {
-    const tableState2 = parsedState;
-    const { columns, tags, rows, cells } = tableState2.model;
-    const newState = __spreadProps(__spreadValues({}, tableState2), {
-      model: {
-        columns: [],
-        headerRows: [],
-        bodyRows: [],
-        footerRows: [],
-        headerCells: [],
-        bodyCells: [],
-        footerCells: [],
-        tags: []
-      }
-    });
-    newState.model.headerRows = [];
-    newState.model.headerRows.push(createHeaderRow());
-    newState.model.bodyRows = rows.filter((_row, i2) => i2 !== 0).map((row) => {
-      return {
-        id: row.id,
-        index: row.index - 1,
-        creationTime: row.creationTime,
-        lastEditedTime: row.lastEditedTime,
-        menuCellId: row.menuCellId
-      };
-    });
-    newState.model.footerRows = [];
-    newState.model.footerRows.push(createFooterRow());
-    newState.model.footerRows.push(createFooterRow());
-    newState.model.columns = columns.map((column) => {
-      return {
-        id: column.id,
-        sortDir: column.sortDir,
-        width: column.width,
-        type: column.type,
-        isVisible: column.isVisible,
-        dateFormat: column.dateFormat,
-        currencyType: column.currencyType,
-        shouldWrapOverflow: column.shouldWrapOverflow
-      };
-    });
-    newState.model.headerCells = cells.filter((cell) => cell.isHeader).map((cell) => {
-      return {
-        id: cell.id,
-        columnId: cell.columnId,
-        rowId: newState.model.headerRows[0].id,
-        markdown: cell.markdown
-      };
-    });
-    newState.model.bodyCells = cells.filter((cell) => !cell.isHeader).map((cell) => {
-      return {
-        id: cell.id,
-        columnId: cell.columnId,
-        rowId: cell.rowId,
-        dateTime: cell.dateTime,
-        markdown: cell.markdown
-      };
-    });
-    for (let i2 = 0; i2 < 2; i2++) {
-      columns.forEach((column) => {
-        newState.model.footerCells.push({
-          id: v4_default(),
-          columnId: column.id,
-          rowId: newState.model.footerRows[i2].id,
-          functionType: GeneralFunction670.NONE
-        });
-      });
-    }
-    newState.model.tags = tags;
-    currentState = newState;
-  }
-  if (isVersionLessThan(pluginVersion, "6.8.0")) {
-    const tableState2 = currentState;
-    const { model } = tableState2;
-    const { bodyCells, columns } = model;
-    const invalidState = currentState;
-    if (invalidState["bodyRows"]) {
-      delete invalidState.bodyRows;
-    }
-    const unknownModel = model;
-    const typedModal = unknownModel;
-    typedModal.filterRules = [];
-    bodyCells.forEach((cell) => {
-      const column = columns.find(
-        (column2) => column2.id === cell.columnId
-      );
-      if (!column)
-        throw new ColumNotFoundError(cell.columnId);
-      if (column.type === "checkbox" /* CHECKBOX */) {
-        if (cell.markdown === "") {
-          cell.markdown = CHECKBOX_MARKDOWN_UNCHECKED;
-        }
-      }
-    });
-  }
-  if (isVersionLessThan(pluginVersion, "6.9.1")) {
-    const tableState2 = currentState;
-    const { footerCells } = tableState2.model;
-    footerCells.forEach((cell) => {
-      const typedCell = cell;
-      if (typedCell["functionType"]) {
-        typedCell.functionType = typedCell.functionType.replace(/_/g, "-");
-      }
-    });
-  }
-  if (isVersionLessThan(pluginVersion, "6.10.0")) {
-    const tableState2 = currentState;
-    const { columns, tags, bodyCells, bodyRows } = tableState2.model;
-    columns.forEach((column) => {
-      const typedColumn = column;
-      typedColumn.tags = [];
-    });
-    bodyCells.forEach((cell) => {
-      const typedCell = cell;
-      typedCell.tagIds = [];
-    });
-    tags.forEach((tag) => {
-      const { id: id2, columnId, markdown, color } = tag;
-      const column = columns.find(
-        (column2) => column2.id === columnId
-      );
-      if (!column)
-        throw new ColumNotFoundError(columnId);
-      const typedColumn = column;
-      typedColumn.tags.push({
-        id: id2,
-        markdown,
-        color
-      });
-      tag.cellIds.forEach((cellId) => {
-        const cell = bodyCells.find(
-          (cell2) => cell2.id === cellId
-        );
-        if (!cell)
-          return;
-        const typedCell = cell;
-        typedCell.tagIds.push(id2);
-      });
-    });
-    const unknownModel = tableState2.model;
-    const typedModel = unknownModel;
-    delete typedModel.tags;
-    bodyRows.forEach((row) => {
-      const typedRow = row;
-      if (typedRow["menuCellId"]) {
-        delete typedRow.menuCellId;
-      }
-    });
-  }
-  if (isVersionLessThan(pluginVersion, "6.12.3")) {
-    const tableState2 = currentState;
-    const { columns, footerCells } = tableState2.model;
-    footerCells.forEach((cell) => {
-      const column = columns.find(
-        (column2) => column2.id === cell.columnId
-      );
-      if (!column)
-        throw new ColumNotFoundError(cell.columnId);
-      const unknownColumn = column;
-      const typedColumn = unknownColumn;
-      typedColumn.functionType = cell.functionType;
-      const unknownCell = cell;
-      const typedCell = unknownCell;
-      if (typedCell["functionType"]) {
-        delete typedCell.functionType;
-      }
-    });
-  }
-  if (isVersionLessThan(pluginVersion, "6.17.0")) {
-    const tableState2 = currentState;
-    const { columns } = tableState2.model;
-    columns.forEach((column) => {
-      const typedColumn = column;
-      typedColumn.isLocked = false;
-      typedColumn.aspectRatio = "16/9" /* SIXTEEN_BY_NINE */;
-      typedColumn.horizontalPadding = "unset";
-      typedColumn.verticalPadding = "unset";
-    });
-  }
-  const tableState = currentState;
-  tableState.pluginVersion = CURRENT_PLUGIN_VERSION;
-  return tableState;
-};
-
-// src/obsidian/nlt-export-modal.tsx
-var import_obsidian9 = require("obsidian");
-var import_client = __toESM(require_client());
-
-// src/react/export-app/index.tsx
-var import_react100 = __toESM(require_react());
-
-// src/react/export-app/export-type-select.tsx
-function ExportTypeSelect({ value, onChange }) {
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
-    isVertical: true,
-    spacing: "xl",
-    children: [
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("label", {
-        htmlFor: "type-select",
-        children: "File Type"
-      }),
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("select", {
-        id: "type-select",
-        css: import_emotion_react_cjs.css`
-					background-color: var(
-						--background-secondary-alt
-					) !important;
-				`,
-        value,
-        onChange: (e) => onChange(e.target.value),
-        children: Object.values(ExportType).map((type) => /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("option", {
-          value: type,
-          children: type
-        }, type))
-      })
-    ]
-  });
-}
-
-// src/react/export-app/content-textarea.tsx
-function ContentTextArea({ value }) {
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("textarea", {
-    readOnly: true,
-    css: import_emotion_react_cjs.css`
-				width: 100%;
-				height: 200px;
-				resize: vertical;
-			`,
-    value
-  });
-}
-
-// src/react/export-app/index.tsx
-var import_obsidian8 = require("obsidian");
-function ExportApp({ tableState, filePath }) {
-  const [exportType, setExportType] = import_react100.default.useState(
-    "Select an option" /* UNSELECTED */
-  );
-  const { exportRenderMarkdown } = useAppSelector((state) => state.global);
-  const [renderMarkdown2, setRenderMarkdown] = import_react100.default.useState(exportRenderMarkdown);
-  function handleCopyClick(value) {
-    return __async(this, null, function* () {
-      yield navigator.clipboard.writeText(value);
-      new import_obsidian8.Notice("Copied to clipboard");
-    });
-  }
-  function handleDownloadClick() {
-    const fileName = getExportFileName(filePath);
-    const blobType = getBlobTypeForExportType(exportType);
-    downloadFile(fileName, blobType, content);
-  }
-  let content = "";
-  if (exportType === "Markdown" /* MARKDOWN */) {
-    content = exportToMarkdown(tableState, renderMarkdown2);
-  } else if (exportType === "CSV" /* CSV */) {
-    content = exportToCSV(tableState, renderMarkdown2);
-  }
-  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
-    className: "NLT__export-app",
-    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Padding, {
-      p: "xl",
-      children: [
-        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("h5", {
-          css: import_emotion_react_cjs.css`
-						margin-top: 0px;
-						margin-bottom: 0px;
-					`,
-          children: "Notion-Like Tables Export"
-        }),
-        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("hr", {
-          css: import_emotion_react_cjs.css`
-						margin: 1rem 0;
-					`
-        }),
-        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
-          spacing: "xl",
-          isVertical: true,
-          children: [
-            /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ExportTypeSelect, {
-              value: exportType,
-              onChange: setExportType
-            }),
-            exportType !== "Select an option" /* UNSELECTED */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
-              children: [
-                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ContentTextArea, {
-                  value: content
-                }),
-                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
-                  isVertical: true,
-                  spacing: "sm",
-                  children: [
-                    /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("label", {
-                      htmlFor: "render-markdown",
-                      children: "Render markdown"
-                    }),
-                    /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
-                      id: "render-markdown",
-                      type: "checkbox",
-                      checked: renderMarkdown2,
-                      onChange: () => setRenderMarkdown(!renderMarkdown2)
-                    })
-                  ]
-                }),
-                /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
-                  children: [
-                    /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("button", {
-                      className: "mod-cta",
-                      onClick: handleDownloadClick,
-                      children: "Download"
-                    }),
-                    /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("button", {
-                      css: import_emotion_react_cjs.css`
-										background-color: var(
-											--background-secondary-alt
-										) !important;
-									`,
-                      onClick: () => handleCopyClick(content),
-                      children: "Copy to clipboard"
-                    })
-                  ]
-                })
-              ]
-            })
-          ]
-        })
-      ]
-    })
-  });
-}
-
-// src/obsidian/nlt-export-modal.tsx
-var NLTExportModal = class extends import_obsidian9.Modal {
-  constructor(app2, filePath) {
-    super(app2);
-    __publicField(this, "root");
-    __publicField(this, "filePath");
-    this.app = app2;
-    this.filePath = filePath;
-  }
-  onOpen() {
-    const container = this.containerEl.children[1];
-    const view = app.workspace.getActiveViewOfType(NLTView);
-    if (view) {
-      const data = view.getViewData();
-      const state = deserializeTableState(data);
-      this.root = (0, import_client.createRoot)(container);
-      this.root.render(
-        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(Provider_default, {
-          store,
-          children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(ExportApp, {
-            tableState: state,
-            filePath: this.filePath
+      children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(LoomStateProvider, {
+        initialState: LoomState8,
+        onSaveState,
+        children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuProvider, {
+          children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(DragProvider, {
+            children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(App2, {})
           })
         })
-      );
-    }
-  }
-  onClose() {
-    if (this.root)
-      this.root.unmount();
-  }
-};
+      })
+    })
+  });
+}
 
-// src/obsidian/nlt-view.tsx
-var NOTION_LIKE_TABLES_VIEW = "notion-like-tables";
-var NLTView = class extends import_obsidian10.TextFileView {
+// src/obsidian/dataloom-view.tsx
+if (false) {
+}
+var DATA_LOOM_VIEW = "dataloom";
+var DataLoomView = class extends import_obsidian8.TextFileView {
   constructor(leaf) {
     super(leaf);
-    __publicField(this, "root");
-    __publicField(this, "appId");
-    __publicField(this, "data");
-    __publicField(this, "handleRefreshEvent", (filePath, sourceAppId, state) => {
+    this.handleRefreshEvent = (filePath, sourceAppId, state) => {
       if (this.appId !== sourceAppId && filePath === this.file.path) {
-        const serialized = serializeTableState(state);
+        const serialized = serializeLoomState(state);
         this.setViewData(serialized, true);
       }
-    });
-    __publicField(this, "handleSaveTableState", (appId, state) => {
-      const serialized = serializeTableState(state);
+    };
+    this.handleSaveLoomState = (appId, state) => {
+      const serialized = serializeLoomState(state);
       this.data = serialized;
       this.requestSave();
       this.app.workspace.trigger(
-        EVENT_REFRESH_TABLES,
+        EVENT_REFRESH_APP,
         this.file.path,
         appId,
         state
       );
-    });
+    };
     this.root = null;
     this.data = "";
     this.appId = v4_default();
@@ -55881,20 +56023,17 @@ var NLTView = class extends import_obsidian10.TextFileView {
       this.root = (0, import_client2.createRoot)(container);
       this.addAction("settings", "Settings", () => {
         this.app.setting.open();
-        this.app.setting.openTabById("notion-like-tables");
-      });
-      this.addAction("download", "Export", () => {
-        new NLTExportModal(this.app, this.file.path).open();
+        this.app.setting.openTabById(DATA_LOOM_PLUGIN_ID);
       });
       this.app.workspace.on(
-        EVENT_REFRESH_TABLES,
+        EVENT_REFRESH_APP,
         this.handleRefreshEvent
       );
     });
   }
   onClose() {
     return __async(this, null, function* () {
-      this.app.workspace.off(EVENT_REFRESH_TABLES, this.handleRefreshEvent);
+      this.app.workspace.off(EVENT_REFRESH_APP, this.handleRefreshEvent);
       if (this.root) {
         this.root.unmount();
         this.root = null;
@@ -55903,7 +56042,7 @@ var NLTView = class extends import_obsidian10.TextFileView {
   }
   setViewData(data, clear) {
     this.data = data;
-    const state = deserializeTableState(data);
+    const state = deserializeLoomState(data);
     if (clear) {
       setTimeout(() => {
         if (this.root) {
@@ -55924,7 +56063,7 @@ var NLTView = class extends import_obsidian10.TextFileView {
     return this.data;
   }
   getViewType() {
-    return NOTION_LIKE_TABLES_VIEW;
+    return DATA_LOOM_VIEW;
   }
   getDisplayText() {
     var _a;
@@ -55938,23 +56077,22 @@ var NLTView = class extends import_obsidian10.TextFileView {
   renderApp(appId, state) {
     if (this.root) {
       this.root.render(
-        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(NotionLikeTable, {
-          leaf: this.leaf,
+        /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(LoomApp, {
+          mountLeaf: this.leaf,
           appId,
-          filePath: this.file.path,
+          loomFile: this.file,
           isMarkdownView: false,
           store,
-          tableState: state,
-          onSaveState: this.handleSaveTableState
+          LoomState: state,
+          onSaveState: this.handleSaveLoomState
         })
       );
     }
   }
 };
 
-// src/data/table-file.ts
-var import_obsidian11 = require("obsidian");
-var import_obsidian12 = require("obsidian");
+// src/data/loom-file.ts
+var import_obsidian9 = require("obsidian");
 
 // src/data/utils.ts
 var splitFileExtension = (filePath) => {
@@ -55967,7 +56105,7 @@ var splitFileExtension = (filePath) => {
   }
   return null;
 };
-var updateLinkReferences = (markdown, updatedFileInfo, oldPath, isFileNameUnique) => {
+var updateLinkReferences = (markdown, newPath, oldPath) => {
   return markdown.replace(WIKI_LINK_REGEX, (match, path) => {
     let comparePath = oldPath;
     if (!path.includes("/"))
@@ -55975,7 +56113,7 @@ var updateLinkReferences = (markdown, updatedFileInfo, oldPath, isFileNameUnique
     if (!path.match(EXTENSION_REGEX))
       comparePath = stripFileExtension(comparePath);
     if (comparePath === path) {
-      const linkText = getWikiLinkText(updatedFileInfo, isFileNameUnique);
+      const linkText = getWikiLinkText(newPath);
       return `[[${linkText}]]`;
     }
     return match;
@@ -56005,103 +56143,87 @@ var createFile = (filePath, data, numExisting = 0) => __async(void 0, null, func
   }
 });
 
-// src/data/table-file.ts
-var getActiveFileNameAndTimestamp = () => {
-  const activeView = app.workspace.getActiveViewOfType(import_obsidian11.MarkdownView);
-  if (!activeView)
-    return null;
-  const file = activeView.file;
-  if (!file)
-    return null;
-  return `${file.basename}-${(0, import_obsidian12.moment)().format().replaceAll(":", ".")}`;
-};
-var getFileName = (useActiveFileNameAndTimestamp) => {
-  let fileName = DEFAULT_TABLE_NAME;
-  if (useActiveFileNameAndTimestamp) {
-    const name = getActiveFileNameAndTimestamp();
-    if (name)
-      fileName = name;
-  }
-  return `${fileName}.${TABLE_EXTENSION}`;
+// src/data/loom-file.ts
+var getFileName = () => {
+  const fileName = DEFAULT_LOOM_NAME;
+  return `${fileName}.${CURRENT_FILE_EXTENSION}`;
 };
 var getFilePath = (folderPath, fileName) => {
   if (folderPath === "")
     return fileName;
   return folderPath + "/" + fileName;
 };
-var createTableFile = (options) => __async(void 0, null, function* () {
+var createLoomFile = (options) => __async(void 0, null, function* () {
   try {
     if (options.folderPath !== "") {
       if (app.vault.getAbstractFileByPath(options.folderPath) == null)
         yield createFolder(options.folderPath);
     }
-    const fileName = getFileName(options.useActiveFileNameAndTimestamp);
-    const tableState = createTableState(1, 1);
-    const serialized = serializeTableState(tableState);
+    const fileName = getFileName();
+    const LoomState8 = createLoomState(1, 1);
+    const serialized = serializeLoomState(LoomState8);
     const filePath = getFilePath(options.folderPath, fileName);
     return yield createFile(filePath, serialized);
   } catch (err) {
-    new import_obsidian11.Notice("Could not create Notion-Like table");
+    new import_obsidian9.Notice("Could not create loom file");
     throw err;
   }
 });
 
-// src/obsidian/nlt-embedded-plugin.tsx
+// src/obsidian/editing-view-plugin.tsx
 var import_view = require("@codemirror/view");
-var import_obsidian13 = require("obsidian");
 var import_client3 = __toESM(require_client());
 var import_lodash = __toESM(require_lodash());
 
 // src/obsidian/utils.ts
-var getEmbeddedTableLinkEls = (el) => {
+var getEmbeddedLoomLinkEls = (el) => {
   const embeddedLinkEls = el.querySelectorAll(".internal-embed");
-  const tableLinkEls = [];
+  const loomLinkEls = [];
   for (let i2 = 0; i2 < embeddedLinkEls.length; i2++) {
     const linkEl = embeddedLinkEls[i2];
     const src = linkEl.getAttribute("src");
-    if (src == null ? void 0 : src.endsWith(TABLE_EXTENSION))
-      tableLinkEls.push(linkEl);
+    if (src == null ? void 0 : src.endsWith(CURRENT_FILE_EXTENSION))
+      loomLinkEls.push(linkEl);
   }
-  return tableLinkEls;
+  return loomLinkEls;
 };
-var removeEmbeddedLinkChildren = (embeddedLinkEl) => {
-  if (embeddedLinkEl.children.length > 0) {
-    const firstChildEl = embeddedLinkEl.children[0];
-    if (firstChildEl.classList.contains("NLT__embedded-container"))
-      return;
-    for (let i2 = 0; i2 < embeddedLinkEl.children.length; i2++) {
-      embeddedLinkEl.removeChild(embeddedLinkEl.children[i2]);
-    }
+var hasLoadedEmbeddedLoom = (linkEl) => {
+  if (linkEl.children.length > 0) {
+    const firstChildEl = linkEl.children[0];
+    if (firstChildEl.classList.contains("DataLoom__embedded-container"))
+      return true;
   }
+  return false;
 };
-var findEmbeddedTableFile = (embeddedLinkEl) => {
+var findEmbeddedLoomFile = (linkEl) => {
   var _a;
-  const src = embeddedLinkEl.getAttribute("src");
-  const tableFile = app.vault.getFiles().find((file) => file.path === src);
-  if (tableFile === void 0)
+  const src = linkEl.getAttribute("src");
+  const loomFile = app.vault.getFiles().find((file) => file.path === src);
+  if (loomFile === void 0)
     return (_a = app.vault.getFiles().find((file) => file.name === src)) != null ? _a : null;
-  return tableFile != null ? tableFile : null;
+  return loomFile != null ? loomFile : null;
 };
-var getEmbeddedTableWidth = (embeddedLinkEl) => {
-  const width = embeddedLinkEl.getAttribute("width");
-  if (width === null || width === "1")
-    return "100%";
+var getEmbeddedLoomWidth = (linkEl, defaultWidth) => {
+  const width = linkEl.getAttribute("width");
+  if (width === null || width === "0")
+    return defaultWidth;
   return numToPx(width);
 };
-var getEmbeddedTableHeight = (embeddedLinkEl) => {
-  const height = embeddedLinkEl.getAttribute("height");
-  if (height === null || height === "1")
-    return "340px";
+var getEmbeddedLoomHeight = (linkEl, defaultHeight) => {
+  const height = linkEl.getAttribute("height");
+  if (height === null || height === "0")
+    return defaultHeight;
   return numToPx(height);
 };
 
-// src/obsidian/nlt-embedded-plugin.tsx
-var NLTEmbeddedPlugin = class {
-  constructor() {
-    __publicField(this, "tableApps");
-    __publicField(this, "handleRefreshEvent", (filePath, sourceAppId, state) => {
-      const app2 = this.tableApps.find(
-        (app3) => app3.id !== sourceAppId && app3.file.path === filePath
+// src/obsidian/editing-view-plugin.tsx
+if (false) {
+}
+var EditingViewPlugin = class {
+  constructor(view) {
+    this.handleRefreshEvent = (sourceFilePath, sourceAppId, state) => {
+      const app2 = this.loomApps.find(
+        (app3) => app3.id !== sourceAppId && app3.file.path === sourceFilePath
       );
       if (!app2)
         return;
@@ -56114,133 +56236,460 @@ var NLTEmbeddedPlugin = class {
         app2.root = (0, import_client3.createRoot)(parentEl);
         this.renderApp(id2, leaf, file, app2.root, state);
       }, 0);
-    });
-    this.tableApps = [];
+    };
+    this.editorView = view;
+    this.loomApps = [];
     this.setupEventListeners();
   }
   update() {
-    const activeView = app.workspace.getActiveViewOfType(import_obsidian13.MarkdownView);
-    if (!activeView)
+    const markdownLeaves = app.workspace.getLeavesOfType("markdown");
+    const activeLeaf = markdownLeaves.find(
+      (leaf) => leaf.view.editor.cm === this.editorView
+    );
+    if (!activeLeaf)
       return;
-    const embeddedTableLinkEls = getEmbeddedTableLinkEls(
+    const activeView = activeLeaf.view;
+    const embeddedLoomLinkEls = getEmbeddedLoomLinkEls(
       activeView.containerEl
     );
-    for (let i2 = 0; i2 < embeddedTableLinkEls.length; i2++) {
-      const linkEl = embeddedTableLinkEls[i2];
-      removeEmbeddedLinkChildren(linkEl);
-      const file = findEmbeddedTableFile(linkEl);
-      if (!file)
-        return;
-      const width = getEmbeddedTableWidth(linkEl);
-      const height = getEmbeddedTableHeight(linkEl);
+    for (let i2 = 0; i2 < embeddedLoomLinkEls.length; i2++) {
+      const linkEl = embeddedLoomLinkEls[i2];
+      const { defaultEmbedWidth, defaultEmbedHeight } = store.getState().global.settings;
+      const width = getEmbeddedLoomWidth(linkEl, defaultEmbedWidth);
+      const height = getEmbeddedLoomHeight(linkEl, defaultEmbedHeight);
       linkEl.style.width = width;
       linkEl.style.height = height;
-      if (this.tableApps.find((app2) => app2.file.path === file.path))
-        return;
+      if (hasLoadedEmbeddedLoom(linkEl))
+        continue;
+      linkEl.empty();
+      const file = findEmbeddedLoomFile(linkEl);
+      if (!file)
+        continue;
+      this.loomApps = this.loomApps.filter(
+        (app2) => app2.file.path !== file.path
+      );
       linkEl.style.backgroundColor = "var(--color-primary)";
       linkEl.style.cursor = "unset";
       linkEl.style.margin = "0px";
       linkEl.style.padding = "0px";
-      const tableContainerEl = linkEl.createDiv();
-      tableContainerEl.className = "NLT__embedded-container";
-      tableContainerEl.style.height = "100%";
-      tableContainerEl.style.width = "100%";
+      const loomContainerEl = linkEl.createDiv();
+      loomContainerEl.className = "DataLoom__embedded-container";
+      loomContainerEl.style.height = "100%";
+      loomContainerEl.style.width = "100%";
+      loomContainerEl.style.padding = "10px 0px";
       const appId = v4_default();
-      this.tableApps.push({
+      this.loomApps.push({
         id: appId,
         leaf: activeView.leaf,
-        parentEl: tableContainerEl,
+        parentEl: loomContainerEl,
         file
       });
-      this.setupTable(activeView, tableContainerEl, file, appId);
+      this.setupLoom(activeView, loomContainerEl, file, appId);
     }
   }
-  setupTable(activeView, tableContainerEl, file, appId) {
+  setupLoom(activeView, loomContainerEl, file, appId) {
     return __async(this, null, function* () {
-      tableContainerEl.addEventListener("click", (e) => {
+      loomContainerEl.addEventListener("click", (e) => {
         e.stopPropagation();
       });
       const data = yield app.vault.read(file);
-      const tableState = deserializeTableState(data);
-      const table = this.tableApps.find((app2) => app2.id === appId);
-      if (!table)
+      const LoomState8 = deserializeLoomState(data);
+      const loom = this.loomApps.find((app2) => app2.id === appId);
+      if (!loom)
         return;
-      table.root = (0, import_client3.createRoot)(tableContainerEl);
-      this.renderApp(appId, activeView.leaf, file, table.root, tableState);
+      loom.root = (0, import_client3.createRoot)(loomContainerEl);
+      this.renderApp(appId, activeView.leaf, file, loom.root, LoomState8);
     });
   }
-  handleSave(tableFile, appId, state) {
+  handleSave(loomFile, appId, state) {
     return __async(this, null, function* () {
-      const serialized = serializeTableState(state);
-      yield app.vault.modify(tableFile, serialized);
-      app.workspace.trigger(
-        EVENT_REFRESH_TABLES,
-        tableFile.path,
-        appId,
-        state
-      );
+      const serialized = serializeLoomState(state);
+      yield app.vault.modify(loomFile, serialized);
+      app.workspace.trigger(EVENT_REFRESH_APP, loomFile.path, appId, state);
     });
   }
-  renderApp(id2, leaf, tableFile, root, tableState) {
+  renderApp(id2, leaf, loomFile, root, LoomState8) {
     const throttleHandleSave = import_lodash.default.throttle(this.handleSave, 2e3);
     root.render(
-      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(NotionLikeTable, {
+      /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(LoomApp, {
         appId: id2,
         isMarkdownView: true,
-        filePath: tableFile.path,
-        leaf,
+        loomFile,
+        mountLeaf: leaf,
         store,
-        tableState,
-        onSaveState: (appId, state) => throttleHandleSave(tableFile, appId, state)
+        LoomState: LoomState8,
+        onSaveState: (appId, state) => throttleHandleSave(loomFile, appId, state)
       })
     );
   }
   setupEventListeners() {
-    app.workspace.on(EVENT_REFRESH_TABLES, this.handleRefreshEvent);
+    app.workspace.on(EVENT_REFRESH_APP, this.handleRefreshEvent);
+    app.workspace.on(EVENT_REFRESH_EDITING_VIEW, this.update);
   }
   destroy() {
-    this.tableApps.forEach((app2) => {
+    this.loomApps.forEach((app2) => {
       var _a;
       return (_a = app2.root) == null ? void 0 : _a.unmount();
     });
-    this.tableApps = [];
-    app.workspace.off(EVENT_REFRESH_TABLES, this.handleRefreshEvent);
+    this.loomApps = [];
+    app.workspace.off(EVENT_REFRESH_APP, this.handleRefreshEvent);
+    app.workspace.off(EVENT_REFRESH_EDITING_VIEW, this.update);
   }
 };
-var nltEmbeddedPlugin = import_view.ViewPlugin.fromClass(NLTEmbeddedPlugin);
+var editingViewPlugin = import_view.ViewPlugin.fromClass(EditingViewPlugin);
+
+// src/obsidian/welcome-modal.tsx
+var import_obsidian10 = require("obsidian");
+var WelcomeModal = class extends import_obsidian10.Modal {
+  constructor(app2) {
+    super(app2);
+  }
+  onOpen() {
+    const { contentEl } = this;
+    contentEl.createEl("h2", { text: "Welcome to DataLoom" });
+    contentEl.createDiv({
+      text: "Weave together data from diverse sources into a cohesive table view."
+    });
+    this.renderDivider(contentEl);
+    const titleEl = contentEl.createEl("h5", { text: "Learn how to use" });
+    titleEl.style.marginTop = "0em";
+    titleEl.style.marginBottom = "1em";
+    const cardContainerEl = contentEl.createDiv();
+    cardContainerEl.style.display = "flex";
+    cardContainerEl.style.flexDirection = "column";
+    cardContainerEl.style.rowGap = "1rem";
+    this.renderCard(
+      cardContainerEl,
+      "Quick start",
+      "Learn the basics of creating a loom",
+      "https://dataloom.xyz/getting-started/quick-start",
+      "table"
+    );
+    this.renderCard(
+      cardContainerEl,
+      "Embedded looms",
+      "Learn how to embed a loom into a markdown note",
+      "https://dataloom.xyz/other/embedding-looms",
+      "sticky-note"
+    );
+    this.renderCard(
+      cardContainerEl,
+      "Keyboard focus system",
+      "Learn how to navigate looms with your keyboard",
+      "https://dataloom.xyz/other/keyboard-focus-system",
+      "list-plus"
+    );
+  }
+  renderDivider(contentEl) {
+    const dividerEl = contentEl.createDiv();
+    dividerEl.style.margin = "1.5em 0";
+    dividerEl.style.borderTop = "1px solid var(--background-modifier-border)";
+  }
+  renderCard(contentEl, title, description, link, iconId) {
+    const cardEl = contentEl.createDiv();
+    cardEl.style.display = "flex";
+    cardEl.style.padding = "1em 1.5em";
+    cardEl.style.columnGap = "1.5em";
+    cardEl.style.alignItems = "center";
+    cardEl.style.border = "1px solid var(--background-modifier-border)";
+    const iconEl = cardEl.createDiv();
+    (0, import_obsidian10.setIcon)(iconEl, iconId);
+    iconEl.firstChild.style.width = "1.5em";
+    iconEl.firstChild.style.height = "1.5em";
+    const cardContainerEl = cardEl.createDiv();
+    const titleEl = cardContainerEl.createEl("h6", { text: title });
+    titleEl.style.margin = "0";
+    const descriptionEl = cardContainerEl.createEl("p", {
+      text: description
+    });
+    descriptionEl.style.marginTop = "0.25em";
+    descriptionEl.style.marginBottom = "0.5em";
+    cardContainerEl.createEl("a", { text: "Get started", href: link });
+  }
+  onClose() {
+    const { contentEl } = this;
+    contentEl.empty();
+  }
+};
+
+// src/obsidian/whats-new-modal.tsx
+var import_obsidian12 = require("obsidian");
+
+// src/data/network.ts
+var import_obsidian11 = require("obsidian");
+var getLastestGithubRelease = () => __async(void 0, null, function* () {
+  try {
+    const response = yield (0, import_obsidian11.requestUrl)({
+      url: "https://api.github.com/repos/trey-wallis/obsidian-dataloom/releases/latest",
+      method: "GET"
+    });
+    const body = response.json;
+    return body;
+  } catch (err) {
+    console.error(err);
+    new import_obsidian11.Notice("Error fetching latest release");
+    return null;
+  }
+});
+
+// src/obsidian/whats-new-modal.tsx
+var WhatsNewModal = class extends import_obsidian12.Modal {
+  constructor(app2) {
+    super(app2);
+  }
+  onOpen() {
+    return __async(this, null, function* () {
+      let { contentEl } = this;
+      contentEl.createEl("h2", { text: "DataLoom - What's New" });
+      this.renderDivider(contentEl);
+      this.renderContent(contentEl);
+    });
+  }
+  renderContent(contentEl) {
+    return __async(this, null, function* () {
+      const data = yield getLastestGithubRelease();
+      const { body, published_at, tag_name } = data;
+      if (data) {
+        const tagEl = contentEl.createEl("h5", {
+          text: `v${tag_name}`
+        });
+        tagEl.style.marginTop = "0.5em";
+        tagEl.style.marginBottom = "0";
+        const date = new Date(published_at);
+        tagEl.innerHTML += ` <span style="font-size: 0.75em; color: var(--text-muted);">(${date.toLocaleDateString()})</span>`;
+        const bodyEl = contentEl.createDiv();
+        const replacedText = this.replaceIssueNumbersWithLinks(body);
+        import_obsidian12.MarkdownRenderer.renderMarkdown(
+          replacedText,
+          bodyEl,
+          "",
+          new import_obsidian12.Component()
+        );
+        bodyEl.querySelectorAll("a").forEach((a2) => {
+          const issueNumber = this.extractIssueNumberFromURL(a2.getText());
+          if (issueNumber) {
+            a2.setText(issueNumber);
+          }
+        });
+        contentEl.createEl("a", {
+          text: "View all releases",
+          href: "https://github.com/trey-wallis/obsidian-dataloom/releases"
+        });
+      } else {
+        contentEl.createDiv({
+          text: "Couldn't fetch latest release from GitHub."
+        });
+      }
+    });
+  }
+  renderDivider(contentEl) {
+    const dividerEl = contentEl.createDiv();
+    dividerEl.style.margin = "1.5em 0";
+    dividerEl.style.borderTop = "1px solid var(--background-modifier-border)";
+  }
+  replaceIssueNumbersWithLinks(text) {
+    const regex = /#(\d+)/g;
+    const replacedText = text.replace(
+      regex,
+      "https://github.com/trey-wallis/obsidian-dataloom/issues/$1"
+    );
+    return replacedText;
+  }
+  extractIssueNumberFromURL(text) {
+    const regex = /\/(\d+)$/;
+    const matches = text.match(regex);
+    if (matches && matches.length > 1) {
+      return "#" + matches[1];
+    }
+    return null;
+  }
+  onClose() {
+    let { contentEl } = this;
+    contentEl.empty();
+  }
+};
+
+// src/obsidian/dataloom-settings-tab.ts
+var import_obsidian13 = require("obsidian");
+var import_obsidian14 = require("obsidian");
+var DataLoomSettingsTab = class extends import_obsidian13.PluginSettingTab {
+  constructor(app2, plugin) {
+    super(app2, plugin);
+    this.plugin = plugin;
+  }
+  renderFileSettings(containerEl) {
+    new import_obsidian14.Setting(containerEl).setName("File").setHeading();
+    const attachmentsFolderDesc = new DocumentFragment();
+    attachmentsFolderDesc.createSpan({}, (span) => {
+      span.innerHTML = `Create looms in the attachments folder defined in the Obsidian settings.<br><br>This can be changed in <span style="color: var(--text-accent);">Files & Links -> Default location for new attachments</span><br><br>Otherwise, the folder location below will be used.`;
+    });
+    new import_obsidian14.Setting(containerEl).setName("Create new looms in the attachments folder").setDesc(attachmentsFolderDesc).addToggle((cb) => {
+      cb.setValue(
+        this.plugin.settings.createAtObsidianAttachmentFolder
+      ).onChange((value) => __async(this, null, function* () {
+        this.plugin.settings.createAtObsidianAttachmentFolder = value;
+        yield this.plugin.saveSettings();
+        this.display();
+      }));
+    });
+    const defaultLocationDesc = new DocumentFragment();
+    defaultLocationDesc.createSpan({}, (span) => {
+      span.innerHTML = `Where newly created looms are placed. Please don't include a slash at the beginning or end of the value.<br>e.g. <strong>myfolder/subdirectory</strong><br><br>Default location is the vault root folder, if not specified.`;
+    });
+    if (this.plugin.settings.createAtObsidianAttachmentFolder === false) {
+      new import_obsidian14.Setting(containerEl).setName("Default location for new looms").setDesc(defaultLocationDesc).addText((cb) => {
+        cb.setValue(
+          this.plugin.settings.customFolderForNewFiles
+        ).onChange((value) => __async(this, null, function* () {
+          this.plugin.settings.customFolderForNewFiles = value;
+          yield this.plugin.saveSettings();
+        }));
+      });
+    }
+  }
+  renderExportSettings(containerEl) {
+    const exportRenderMarkdownDesc = new DocumentFragment();
+    exportRenderMarkdownDesc.createSpan({}, (span) => {
+      span.innerHTML = "If enabled, content will be exported as markdown. For example, if enabled, a checkbox cell's content will be exported as <strong>[ ]</strong> or <strong>[x]</strong>. If disabled, the content will be exported as <strong>true</strong> or <strong>false</strong>.";
+    });
+    new import_obsidian14.Setting(containerEl).setName("Export").setHeading();
+    new import_obsidian14.Setting(containerEl).setName("Export content as markdown").setDesc(exportRenderMarkdownDesc).addToggle((cb) => {
+      cb.setValue(this.plugin.settings.exportRenderMarkdown).onChange(
+        (value) => __async(this, null, function* () {
+          this.plugin.settings.exportRenderMarkdown = value;
+          yield this.plugin.saveSettings();
+        })
+      );
+    });
+  }
+  renderEmbeddedLoomSettings(containerEl) {
+    new import_obsidian14.Setting(containerEl).setName("Embedded Looms").setHeading();
+    const defaultEmbedWidthDesc = new DocumentFragment();
+    defaultEmbedWidthDesc.createSpan({}, (span) => {
+      span.innerHTML = "The default embedded loom width. Accepts valid HTML width values. Like <strong>100px<strong>, <strong>50%</strong>, etc.";
+    });
+    new import_obsidian14.Setting(containerEl).setName("Default embedded loom width").setDesc(defaultEmbedWidthDesc).addText((cb) => {
+      cb.setValue(this.plugin.settings.defaultEmbedWidth).onChange(
+        (value) => __async(this, null, function* () {
+          this.plugin.settings.defaultEmbedWidth = value;
+          yield this.plugin.saveSettings();
+        })
+      );
+    });
+    const defaultEmbedHeightDesc = new DocumentFragment();
+    defaultEmbedHeightDesc.createSpan({}, (span) => {
+      span.innerHTML = "The default embedded loom height. Accepts valid HTML width values. Like <strong>100px</strong>, <strong>50%</strong>, etc.";
+    });
+    new import_obsidian14.Setting(containerEl).setName("Default embedded loom height").setDesc(defaultEmbedHeightDesc).addText((cb) => {
+      cb.setValue(this.plugin.settings.defaultEmbedHeight).onChange(
+        (value) => __async(this, null, function* () {
+          this.plugin.settings.defaultEmbedHeight = value;
+          yield this.plugin.saveSettings();
+        })
+      );
+    });
+    containerEl.createSpan(
+      {},
+      (span) => span.innerHTML = `<strong style="color: var(--text-accent); font-size: 12px;">Please close and reopen your embedded looms for these settings to take effect</strong>`
+    );
+  }
+  renderDebugSettings(containerEl) {
+    new import_obsidian14.Setting(containerEl).setName("Debug").setHeading();
+    new import_obsidian14.Setting(containerEl).setName("Debug mode").setDesc(
+      "Turns on console.log for plugin events. This is useful for troubleshooting."
+    ).addToggle((cb) => {
+      cb.setValue(this.plugin.settings.shouldDebug).onChange(
+        (value) => __async(this, null, function* () {
+          this.plugin.settings.shouldDebug = value;
+          yield this.plugin.saveSettings();
+        })
+      );
+    });
+  }
+  display() {
+    const { containerEl } = this;
+    containerEl.empty();
+    this.renderFileSettings(containerEl);
+    this.renderExportSettings(containerEl);
+    this.renderEmbeddedLoomSettings(containerEl);
+    this.renderDebugSettings(containerEl);
+  }
+};
 
 // src/main.ts
 var DEFAULT_SETTINGS = {
   shouldDebug: false,
   createAtObsidianAttachmentFolder: false,
-  customFolderForNewTables: "",
-  nameWithActiveFileNameAndTimestamp: false,
-  exportRenderMarkdown: true
+  customFolderForNewFiles: "",
+  exportRenderMarkdown: true,
+  defaultEmbedWidth: "100%",
+  defaultEmbedHeight: "340px",
+  hasMigratedTo800: false,
+  showWelcomeModal: true,
+  pluginVersion: ""
 };
-var NLTPlugin = class extends import_obsidian14.Plugin {
-  constructor() {
-    super(...arguments);
-    __publicField(this, "settings");
-  }
+var DATA_LOOM_PLUGIN_ID = "notion-like-tables";
+var DataLoomPlugin = class extends import_obsidian15.Plugin {
   onload() {
     return __async(this, null, function* () {
       yield this.loadSettings();
-      this.registerView(NOTION_LIKE_TABLES_VIEW, (leaf) => new NLTView(leaf));
-      this.registerExtensions([TABLE_EXTENSION], NOTION_LIKE_TABLES_VIEW);
-      this.addRibbonIcon("table", "Create Notion-Like table", () => __async(this, null, function* () {
-        yield this.newTableFile(null);
+      this.registerView(DATA_LOOM_VIEW, (leaf) => new DataLoomView(leaf));
+      this.registerExtensions([CURRENT_FILE_EXTENSION], DATA_LOOM_VIEW);
+      this.addRibbonIcon("table", "Create new loom", () => __async(this, null, function* () {
+        yield this.newLoomFile(null);
       }));
-      this.addSettingTab(new NLTSettingsTab(this.app, this));
+      this.addSettingTab(new DataLoomSettingsTab(this.app, this));
       this.registerEmbeddedView();
       this.registerCommands();
       this.registerEvents();
       this.registerDOMEvents();
+      this.app.workspace.onLayoutReady(() => __async(this, null, function* () {
+        const isDark = hasDarkTheme();
+        store.dispatch(setDarkMode(isDark));
+        yield this.migrateLoomFiles();
+      }));
+      if (this.settings.pluginVersion !== this.manifest.version) {
+        new WhatsNewModal(this.app).open();
+      }
+      if (this.settings.showWelcomeModal) {
+        new WelcomeModal(app).open();
+        this.settings.showWelcomeModal = false;
+        yield this.saveSettings();
+      }
+      this.settings.pluginVersion = this.manifest.version;
+      yield this.saveSettings();
+    });
+  }
+  migrateLoomFiles() {
+    return __async(this, null, function* () {
+      if (!this.settings.hasMigratedTo800) {
+        const loomFiles = this.app.vault.getFiles().filter(
+          (file) => file.extension === "dashboard" || file.extension === "table"
+        );
+        for (let i2 = 0; i2 < loomFiles.length; i2++) {
+          const file = loomFiles[i2];
+          const newFilePath = file.path.replace(
+            `.${file.extension}`,
+            `.${CURRENT_FILE_EXTENSION}`
+          );
+          try {
+            yield this.app.vault.rename(file, newFilePath);
+          } catch (err) {
+            new import_obsidian15.Notice(
+              `Failed renaming ${file.path} to ${newFilePath}`
+            );
+            new import_obsidian15.Notice("Please rename this file manually");
+          }
+        }
+        this.settings.hasMigratedTo800 = true;
+        yield this.saveSettings();
+      }
     });
   }
   registerEmbeddedView() {
-    this.registerEditorExtension(nltEmbeddedPlugin);
+    this.registerEditorExtension(editingViewPlugin);
   }
-  newTableFile(contextMenuFolderPath, embedded) {
+  newLoomFile(contextMenuFolderPath, embedded) {
     return __async(this, null, function* () {
       let folderPath = "";
       if (contextMenuFolderPath) {
@@ -56250,16 +56699,15 @@ var NLTPlugin = class extends import_obsidian14.Plugin {
           "attachmentFolderPath"
         );
       } else {
-        folderPath = this.settings.customFolderForNewTables;
+        folderPath = this.settings.customFolderForNewFiles;
       }
-      const filePath = yield createTableFile({
-        folderPath,
-        useActiveFileNameAndTimestamp: this.settings.nameWithActiveFileNameAndTimestamp
+      const filePath = yield createLoomFile({
+        folderPath
       });
       if (embedded)
         return filePath;
       yield app.workspace.getLeaf(true).setViewState({
-        type: NOTION_LIKE_TABLES_VIEW,
+        type: DATA_LOOM_VIEW,
         active: true,
         state: { file: filePath }
       });
@@ -56287,10 +56735,10 @@ var NLTPlugin = class extends import_obsidian14.Plugin {
     );
     this.registerEvent(
       this.app.workspace.on("file-menu", (menu, file) => {
-        if (file instanceof import_obsidian14.TFolder) {
+        if (file instanceof import_obsidian15.TFolder) {
           menu.addItem((item) => {
-            item.setTitle("New Notion-Like table").setIcon("document").onClick(() => __async(this, null, function* () {
-              yield this.newTableFile(file.path);
+            item.setTitle("New loom").setIcon("document").onClick(() => __async(this, null, function* () {
+              yield this.newLoomFile(file.path);
             }));
           });
         }
@@ -56299,42 +56747,73 @@ var NLTPlugin = class extends import_obsidian14.Plugin {
     this.app.vault.on(
       "rename",
       (file, oldPath) => __async(this, null, function* () {
-        if (file instanceof import_obsidian14.TFile) {
-          const files = this.app.vault.getFiles();
-          const uniqueFileNames = filterUniqueStrings(
-            files.map((file2) => file2.name)
+        const leafs = app.workspace.getLeavesOfType("markdown");
+        leafs.forEach((leaf) => {
+          leaf.trigger(EVENT_REFRESH_EDITING_VIEW);
+        });
+        if (file instanceof import_obsidian15.TFile) {
+          const loomFiles = this.app.vault.getFiles().filter(
+            (file2) => file2.extension === CURRENT_FILE_EXTENSION
           );
-          const isUniqueFileName = uniqueFileNames.includes(
-            file.name
-          );
-          const tableFiles = files.filter(
-            (file2) => file2.extension === TABLE_EXTENSION
-          );
-          for (let i2 = 0; i2 < tableFiles.length; i2++) {
-            const tableFile = tableFiles[i2];
-            const content = yield tableFile.vault.read(
-              tableFiles[i2]
+          const loomsToUpdate = [];
+          let numLinks = 0;
+          for (const loomFile of loomFiles) {
+            const data = yield file.vault.read(loomFile);
+            const state = deserializeLoomState(data);
+            state.model.bodyCells.forEach((cell) => {
+              const regex = structuredClone(WIKI_LINK_REGEX);
+              let matches;
+              while ((matches = regex.exec(cell.markdown)) !== null) {
+                const path = matches[1];
+                if (oldPath.includes(path)) {
+                  const found = loomsToUpdate.find(
+                    (loom) => loom.file.path === loomFile.path
+                  );
+                  if (!found) {
+                    loomsToUpdate.push({
+                      file: loomFile,
+                      state
+                    });
+                  }
+                  numLinks++;
+                }
+              }
+            });
+          }
+          if (numLinks > 0) {
+            new import_obsidian15.Notice(
+              `Updating ${numLinks} link${numLinks > 1 ? "s" : ""} in ${loomsToUpdate.length} loom file${loomsToUpdate.length > 1 ? "s" : ""}.`
             );
-            const deserializedState = deserializeTableState(content);
-            const newState = structuredClone(deserializedState);
-            newState.model.bodyCells.forEach((cell) => {
+          }
+          for (let i2 = 0; i2 < loomsToUpdate.length; i2++) {
+            const { file: loomFile, state } = loomsToUpdate[i2];
+            if (this.settings.shouldDebug)
+              console.log("Updating links in file", {
+                path: loomFile.path
+              });
+            const newState = structuredClone(state);
+            newState.model.bodyCells.map((cell) => {
               const updatedMarkdown = updateLinkReferences(
                 cell.markdown,
-                file,
-                oldPath,
-                isUniqueFileName
+                file.path,
+                oldPath
               );
+              if (cell.markdown !== updatedMarkdown) {
+                if (this.settings.shouldDebug) {
+                  console.log("Updated link", {
+                    oldLink: cell.markdown,
+                    newLink: updatedMarkdown
+                  });
+                }
+              }
               cell.markdown = updatedMarkdown;
             });
-            if (JSON.stringify(deserializedState) !== JSON.stringify(newState)) {
-              const serializedState = serializeTableState(newState);
-              yield tableFile.vault.modify(
-                tableFile,
-                serializedState
-              );
+            if (JSON.stringify(state) !== JSON.stringify(newState)) {
+              const serializedState = serializeLoomState(newState);
+              yield file.vault.modify(loomFile, serializedState);
               app.workspace.trigger(
-                EVENT_REFRESH_TABLES,
-                tableFile.path,
+                EVENT_REFRESH_APP,
+                loomFile.path,
                 -1,
                 newState
               );
@@ -56343,27 +56822,22 @@ var NLTPlugin = class extends import_obsidian14.Plugin {
         }
       })
     );
-    this.app.workspace.onLayoutReady(() => {
-      const isDark = hasDarkTheme();
-      store.dispatch(setDarkMode(isDark));
-      store.dispatch(setDebugMode(this.settings.shouldDebug));
-    });
   }
   registerCommands() {
     this.addCommand({
-      id: "nlt-create-table",
-      name: "Create table",
+      id: "dataloom-create",
+      name: "Create loom",
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "=" }],
       callback: () => __async(this, null, function* () {
-        yield this.newTableFile(null);
+        yield this.newLoomFile(null);
       })
     });
     this.addCommand({
-      id: "nlt-create-table-and-embed",
-      name: "Create table and embed it into current file",
+      id: "dataloom-create-and-embed",
+      name: "Create loom and embed it into current file",
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "+" }],
       editorCallback: (editor) => __async(this, null, function* () {
-        const filePath = yield this.newTableFile(null, true);
+        const filePath = yield this.newLoomFile(null, true);
         if (!filePath)
           return;
         const useMarkdownLinks = this.app.vault.getConfig(
@@ -56382,8 +56856,8 @@ var NLTPlugin = class extends import_obsidian14.Plugin {
       name: "Add column",
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "\\" }],
       checkCallback: (checking) => {
-        const nltView = this.app.workspace.getActiveViewOfType(NLTView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian14.MarkdownView);
+        const nltView = this.app.workspace.getActiveViewOfType(DataLoomView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian15.MarkdownView);
         if (nltView || markdownView) {
           if (!checking) {
             this.app.workspace.trigger(EVENT_COLUMN_ADD);
@@ -56398,8 +56872,8 @@ var NLTPlugin = class extends import_obsidian14.Plugin {
       name: "Delete column",
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "Backspace" }],
       checkCallback: (checking) => {
-        const nltView = this.app.workspace.getActiveViewOfType(NLTView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian14.MarkdownView);
+        const nltView = this.app.workspace.getActiveViewOfType(DataLoomView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian15.MarkdownView);
         if (nltView || markdownView) {
           if (!checking) {
             this.app.workspace.trigger(EVENT_COLUMN_DELETE);
@@ -56414,8 +56888,8 @@ var NLTPlugin = class extends import_obsidian14.Plugin {
       name: "Add row",
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "Enter" }],
       checkCallback: (checking) => {
-        const nltView = this.app.workspace.getActiveViewOfType(NLTView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian14.MarkdownView);
+        const nltView = this.app.workspace.getActiveViewOfType(DataLoomView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian15.MarkdownView);
         if (nltView || markdownView) {
           if (!checking)
             this.app.workspace.trigger(EVENT_ROW_ADD);
@@ -56429,8 +56903,8 @@ var NLTPlugin = class extends import_obsidian14.Plugin {
       name: "Delete row",
       hotkeys: [{ modifiers: ["Alt", "Shift"], key: "Backspace" }],
       checkCallback: (checking) => {
-        const nltView = this.app.workspace.getActiveViewOfType(NLTView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian14.MarkdownView);
+        const nltView = this.app.workspace.getActiveViewOfType(DataLoomView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian15.MarkdownView);
         if (nltView || markdownView) {
           if (!checking) {
             this.app.workspace.trigger(EVENT_ROW_DELETE);
@@ -56444,8 +56918,8 @@ var NLTPlugin = class extends import_obsidian14.Plugin {
       id: "nlt-export-markdown",
       name: "Export as markdown",
       checkCallback: (checking) => {
-        const nltView = this.app.workspace.getActiveViewOfType(NLTView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian14.MarkdownView);
+        const nltView = this.app.workspace.getActiveViewOfType(DataLoomView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian15.MarkdownView);
         if (nltView || markdownView) {
           if (!checking) {
             this.app.workspace.trigger(EVENT_DOWNLOAD_MARKDOWN);
@@ -56459,8 +56933,8 @@ var NLTPlugin = class extends import_obsidian14.Plugin {
       id: "nlt-export-csv",
       name: "Export as CSV",
       checkCallback: (checking) => {
-        const nltView = this.app.workspace.getActiveViewOfType(NLTView);
-        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian14.MarkdownView);
+        const nltView = this.app.workspace.getActiveViewOfType(DataLoomView);
+        const markdownView = this.app.workspace.getActiveViewOfType(import_obsidian15.MarkdownView);
         if (nltView || markdownView) {
           if (!checking) {
             this.app.workspace.trigger(EVENT_DOWNLOAD_CSV);
@@ -56478,19 +56952,18 @@ var NLTPlugin = class extends import_obsidian14.Plugin {
         DEFAULT_SETTINGS,
         yield this.loadData()
       );
-      store.dispatch(
-        setExportRenderMarkdown(this.settings.exportRenderMarkdown)
-      );
+      store.dispatch(setSettings(__spreadValues({}, this.settings)));
     });
   }
   saveSettings() {
     return __async(this, null, function* () {
       yield this.saveData(this.settings);
+      store.dispatch(setSettings(__spreadValues({}, this.settings)));
     });
   }
   onunload() {
     return __async(this, null, function* () {
-      this.app.workspace.detachLeavesOfType(NOTION_LIKE_TABLES_VIEW);
+      this.app.workspace.detachLeavesOfType(DATA_LOOM_VIEW);
     });
   }
 };

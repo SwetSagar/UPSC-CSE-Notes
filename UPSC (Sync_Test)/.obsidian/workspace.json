@@ -8,14 +8,39 @@
         "type": "tabs",
         "children": [
           {
-            "id": "aa1fd18de47ffd61",
+            "id": "0011e5fdfe6ad32a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05 GS-2/3. Social Justice/3.2 Issues Relating to development and management of Social Sector relating to Health, Education, HR; Issues Relating to Poverty and Hunger.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "52e7774348569437",
             "type": "leaf",
             "state": {
               "type": "home-tab-view",
               "state": {}
             }
+          },
+          {
+            "id": "87bc85101a39682a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05 GS-2/3. Social Justice/3.2 Issues Relating to development and management of Social Sector relating to Health, Education, HR; Issues Relating to Poverty and Hunger.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -34,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\" TRIMS",
+                "query": "\" TB",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +115,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "05 GS-2/3. Social Justice/3.2 Issues Relating to development and management of Social Sector relating to Health, Education, HR; Issues Relating to Poverty and Hunger.md"
+              }
             }
           },
           {
@@ -117,8 +144,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "548a9e20c43e4ddf",
@@ -142,6 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "05 GS-2/3. Social Justice/3.2 Issues Relating to development and management of Social Sector relating to Health, Education, HR; Issues Relating to Poverty and Hunger.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,6 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "05 GS-2/3. Social Justice/3.2 Issues Relating to development and management of Social Sector relating to Health, Education, HR; Issues Relating to Poverty and Hunger.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -184,11 +212,10 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 272.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "digitalgarden:Digital Garden Publication Center": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -197,27 +224,54 @@
       "markdown-importer:Open format converter": false,
       "workspaces:Manage workspace layouts": false,
       "templater-obsidian:Templater": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-gallery:Gallery": false,
-      "obsidian-tts:Text to Speech": false,
-      "chronology:Open Chronology": false,
       "file-forgetting-curve-obsidian:View - File Forgetting Curve": false,
-      "gpt3-notes:GPT-3 Notes": false,
       "obsidian-wordpress:WordPress Publish": false,
       "obsidian-full-calendar:Open Full Calendar": false,
-      "custom-sort:Toggle custom sorting": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "omnisearch:Omnisearch": false,
-      "notion-like-tables:Create Notion-Like table": false,
-      "open-gate:Access denied": false,
-      "open-gate:RSS Feeds": false,
       "obsidian-local-images-plus:Local Images Plus  0.15.7\r\nDownload media files": false,
       "webpage-html-export:Export Vault to HTML": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-tts:Text to Speech": false,
+      "digitalgarden:Digital Garden Publication Center": false,
+      "omnisearch:Omnisearch": false,
+      "notion-like-tables:Create new loom": false,
+      "custom-sort:Toggle custom sorting": false,
+      "chronology:Open Chronology": false,
+      "open-gate:Access denied": false,
+      "open-gate:RSS Feeds": false,
+      "gpt3-notes:GPT-3 Notes": false
     }
   },
-  "active": "aa1fd18de47ffd61",
+  "active": "87bc85101a39682a",
   "lastOpenFiles": [
+    "05 GS-2/3. Social Justice/3.1 Welfare Schemes for vulnerable sections of the population by the centre and States and performance of these schemes, mechanisms, laws, institutions and bodies constituted for the protection and betterment of vulnerable sections..md",
+    "05 GS-2/3. Social Justice/3.2 Issues Relating to development and management of Social Sector relating to Health, Education, HR; Issues Relating to Poverty and Hunger.md",
+    "06 GS-3/1. Economy/1.3 Infrastructure, Liberalisation, Land Reforms in India.md",
+    "09 Web Clippings/Explained  Combining social welfare and capital markets through SSE - The Hindu.md",
+    "05 GS-2/2. Governance/2.4 Role of Civil Services.md",
+    "05 GS-2/2. Governance/2.3 Governance, Transparency, E-Governance.md",
+    "05 GS-2/2. Governance/2.2 Development Process and Development Industries - role of NGO, SHG, various groups etc..md",
+    "05 GS-2/2. Governance/2.1 Govt Policies and Intervention in sectors.md",
+    "02 Prelims/Prelims Facts 2 March 2020-March 2021.md",
+    "05 GS-2/1. Polity/1.7 Statutory, Regulatory and Various Quasi Judicial Bodies, Appointment in them.md",
+    "05 GS-2/1. Polity/Prelims PYQ.md",
+    "05 GS-2/1. Polity/1.6 Salient Features of Representation of Peoples Act 1951.md",
+    "05 GS-2/1. Polity/1.5 Structure, Organisation and functioning of Executive and Judiciary Ministries and Department of the Govt; pressure groups and formal, informal associations and their role in Polity.md",
+    "05 GS-2/1. Polity/1.4 Parliament and State legislatures - Structure, functioning, conduct of business, powers & privileges and issues arising out of these. Comparison of Constitutions etc.md",
+    "05 GS-2/1. Polity/1.3 Separation of Power between various organs, dispute redressal mechanisms. Judiciary.md",
+    "05 GS-2/1. Polity/1.2 Functions Responsibility of Union and States, Issues with Federal Structure, Devolution of powers and finances etc..md",
+    "05 GS-2/1. Polity/1.1 Indian Constitution - historical underpinnings, evolution, features, amendments, significant provisions and basic structure, Devolution etc.md",
+    "04 GS-1/3 👨‍👨‍👦‍👦Society/3.3 Communalism, Regionalism, Secularism.md",
+    "04 GS-1/3 👨‍👨‍👦‍👦Society/3.2 Role of Women and Women's organisation, population and other associated Issues, poverty and development issues, Urbanization, their problems and remedies..md",
+    "04 GS-1/3 👨‍👨‍👦‍👦Society/3.1 Salient featues of Indian Society, Diversity of India. Effects of globalisation on Indian Society, Social Empowerment..md",
+    "04 GS-1/2. 🌏 Geography/2.3 World Physical Geography.md",
+    "04 GS-1/2. 🌏 Geography/2.2 Earthquakes, Tsunami etc (Geophysical Phenomena).md",
+    "04 GS-1/2. 🌏 Geography/2.1 Distribution of Natural Resources, Factors for location for Industries.md",
+    "04 GS-1/1. 📜History/1.3 World History will include events from 18th century viz IR, WW, redrawal of national boundaries, colonization, decolonisationn, etc.md",
+    "04 GS-1/1. 📜History/1.2 Modern Indian History from about the middle of the 18th century until present significant events, personalities, issues. The Freedom Struggle..md",
+    "04 GS-1/1. 📜History/1.1 Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.md",
     "Attachements/Globalisation and Social Change NCERT.pdf",
     "Attachements/77 - Pressure Groups.pdf",
     "Attachements/76 - Anti Defection Law.pdf",
@@ -229,36 +283,10 @@
     "Attachements/71 - Elections.pdf",
     "Attachements/70 - Role of Regional Parties.pdf",
     "Attachements/44.png",
-    "Attachements/69 - Political Parties.pdf",
     "Attachements/Hallur.jpg",
     "Attachements/Govt Initiatives for Defence Indigenisation.png",
     "Attachements/Palavoy.jpg",
-    "Attachements/Regulating Act of 1773 2022-09-09 14.55.26.excalidraw.md",
     "Attachements/set-of-fresh-herbs-vector-id520879102-1.jpg",
-    "06 GS-3/1. Economy/1.3 Infrastructure, Liberalisation, Land Reforms in India.md",
-    "06 GS-3/1. Economy/1.2 Inclusive Growth and Budgeting.md",
-    "06 GS-3/1. Economy/1.1 Indian Economy and issues relating to planning, mobilisation of resources, growth dev and employement.md",
-    "05 GS-2/4. International Relations/4.4 Effects of Foreign Countries Policies.md",
-    "05 GS-2/4. International Relations/4.3 International Bodies, their structure, mandate etc.md",
-    "05 GS-2/4. International Relations/4.2 Bilateral, Regional, Global Grouping.md",
-    "05 GS-2/4. International Relations/4.1 India and its neighbourhood - relations.md",
-    "05 GS-2/3. Social Justice/3.2 Issues Relating to development and management of Social Sector relating to Health, Education, HR; Issues Relating to Poverty and Hunger.md",
-    "05 GS-2/3. Social Justice/3.1 Welfare Schemes for vulnerable sections of the population by the centre and States and performance of these schemes, mechanisms, laws, institutions and bodies constituted for the protection and betterment of vulnerable sections..md",
-    "05 GS-2/2. Governance/2.4 Role of Civil Services.md",
-    "05 GS-2/2. Governance/2.3 Governance, Transparency, E-Governance.md",
-    "05 GS-2/2. Governance/2.2 Development Process and Development Industries - role of NGO, SHG, various groups etc..md",
-    "05 GS-2/2. Governance/2.1 Govt Policies and Intervention in sectors.md",
-    "05 GS-2/1. Polity/1.7 Statutory, Regulatory and Various Quasi Judicial Bodies, Appointment in them.md",
-    "05 GS-2/1. Polity/1.6 Salient Features of Representation of Peoples Act 1951.md",
-    "05 GS-2/1. Polity/1.5 Structure, Organisation and functioning of Executive and Judiciary Ministries and Department of the Govt; pressure groups and formal, informal associations and their role in Polity.md",
-    "05 GS-2/1. Polity/1.4 Parliament and State legislatures - Structure, functioning, conduct of business, powers & privileges and issues arising out of these. Comparison of Constitutions etc.md",
-    "05 GS-2/1. Polity/1.3 Separation of Power between various organs, dispute redressal mechanisms. Judiciary.md",
-    "05 GS-2/1. Polity/1.2 Functions Responsibility of Union and States, Issues with Federal Structure, Devolution of powers and finances etc..md",
-    "05 GS-2/1. Polity/1.1 Indian Constitution - historical underpinnings, evolution, features, amendments, significant provisions and basic structure, Devolution etc.md",
-    "08.2 Medieval-India/10. Economy-Society-16-17-Century/10.7 Conditions of Peasants and Women.md",
-    "08.2 Medieval-India/10. Economy-Society-16-17-Century/10.6 Banking, Insurance and Credit Systems.md",
-    "08.2 Medieval-India/10. Economy-Society-16-17-Century/10.5 Indian-Mercantile-Classes.md",
-    "08.2 Medieval-India/10. Economy-Society-16-17-Century/10.4 Trade Revolution.md",
     "Canvas/Defence Indigenisation Issue.canvas",
     "Canvas/Development Financial Institution.canvas",
     "Attachements/Pasted image 20230405112519.png",

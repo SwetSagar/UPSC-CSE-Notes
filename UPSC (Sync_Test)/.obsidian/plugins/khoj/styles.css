@@ -8,9 +8,9 @@ If your plugin does not need CSS, delete this file.
 */
 
 :root {
-    --khoj-chat-blue: #017eff;
+    --khoj-chat-primary: #ffb300;
     --khoj-chat-dark-grey: #475569;
-}
+ }
 
 .khoj-chat {
     display: grid;
@@ -29,7 +29,7 @@ If your plugin does not need CSS, delete this file.
 
 #khoj-chat-title {
     font-weight: 200;
-    color: var(--khoj-chat-blue);
+    color: var(--khoj-chat-primary);
 }
 
 #khoj-chat-body {
@@ -69,7 +69,7 @@ If your plugin does not need CSS, delete this file.
 /* color chat bubble by khoj blue */
 .khoj-chat-message-text.khoj {
     color: var(--text-on-accent);
-    background: var(--khoj-chat-blue);
+    background: var(--khoj-chat-primary);
     margin-left: auto;
     white-space: pre-line;
 }
@@ -80,7 +80,7 @@ If your plugin does not need CSS, delete this file.
     bottom: -2px;
     left: -7px;
     border: 10px solid transparent;
-    border-top-color: var(--khoj-chat-blue);
+    border-top-color: var(--khoj-chat-primary);
     border-bottom: 0;
     transform: rotate(-60deg);
 }
@@ -148,9 +148,9 @@ If your plugin does not need CSS, delete this file.
 
 .khoj-result-file {
     font-weight: 600;
-  }
+}
 
-  .khoj-result-entry {
+.khoj-result-entry {
     color: var(--text-muted);
     margin-left: 2em;
     padding-left: 0.5em;
@@ -160,17 +160,25 @@ If your plugin does not need CSS, delete this file.
     border-left-style: solid;
     border-left-color: var(--color-accent-2);
     white-space: normal;
-  }
+}
 
-  .khoj-result-entry > * {
+.khoj-result-entry > * {
     font-size: var(--font-ui-medium);
-  }
+}
 
-  .khoj-result-entry > p {
+.khoj-result-entry > p {
     margin-top: 0.2em;
     margin-bottom: 0.2em;
-  }
+}
 
-  .khoj-result-entry p br {
+.khoj-result-entry p br {
     display: none;
-  }
+}
+
+.khoj-info-hint {
+    color: var(--text-muted);
+    font-size: var(--font-ui-small);
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 0.5em;
+}

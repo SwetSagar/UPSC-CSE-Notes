@@ -14082,6 +14082,17 @@ function getGardenPathForNote(vaultPath, rules) {
 function escapeRegExp(string) {
   return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
+function fixSvgForXmlSerializer(svgElement) {
+  const styles = svgElement.getElementsByTagName("style");
+  if (styles.length > 0) {
+    for (let i = 0; i < styles.length; i++) {
+      const style = styles[i];
+      if (!style.textContent.trim()) {
+        style.textContent = "/**/";
+      }
+    }
+  }
+}
 
 // src/Validator.ts
 var import_obsidian = __toModule(require("obsidian"));
@@ -14708,6 +14719,7 @@ ${headerSection}
         const svgDoc = parser.parseFromString(svgText, "image/svg+xml");
         const svgElement = svgDoc.getElementsByTagName("svg")[0];
         svgElement.setAttribute("width", size);
+        fixSvgForXmlSerializer(svgElement);
         const svgSerializer = new XMLSerializer();
         return svgSerializer.serializeToString(svgDoc);
       }

@@ -4438,7 +4438,7 @@ var AutoCompleteSuggest = class extends import_obsidian3.EditorSuggest {
       () => buildLogMessage("Update front matter token", performance.now() - start)
     );
   }
-  onTrigger(cursor, editor, file) {
+  onTrigger(cursor, editor) {
     var _a, _b, _c, _d, _e, _f;
     const start = performance.now();
     const showDebugLog = (message) => {
@@ -4457,8 +4457,10 @@ var AutoCompleteSuggest = class extends import_obsidian3.EditorSuggest {
       onReturnNull("Don't show suggestions for IME");
       return null;
     }
+    const currentFrontMatter = this.settings.enableFrontMatterComplement ? this.appHelper.getCurrentFrontMatter() : void 0;
+    showDebugLog(`Current front matter is ${currentFrontMatter}`);
     const cl = this.appHelper.getCurrentLine(editor);
-    if (equalsAsLiterals(this.previousCurrentLine, cl) && !this.runManually) {
+    if (equalsAsLiterals(this.previousCurrentLine, cl) && !this.runManually && !currentFrontMatter) {
       this.previousCurrentLine = cl;
       onReturnNull("Don't show suggestions because there are no changes");
       return null;
@@ -4515,8 +4517,6 @@ var AutoCompleteSuggest = class extends import_obsidian3.EditorSuggest {
       );
       return null;
     }
-    const currentFrontMatter = this.settings.enableFrontMatterComplement ? this.appHelper.getCurrentFrontMatter() : void 0;
-    showDebugLog(`Current front matter is ${currentFrontMatter}`);
     if (!this.runManually && !currentFrontMatter && currentToken.length < this.minNumberTriggered) {
       onReturnNull(
         "Don't show suggestions because currentToken is less than minNumberTriggered option"

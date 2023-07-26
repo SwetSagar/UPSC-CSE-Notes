@@ -1,4 +1,13 @@
 {
+  "shouldDebug": false,
+  "createAtObsidianAttachmentFolder": false,
+  "customFolderForNewFiles": "",
+  "exportRenderMarkdown": true,
+  "defaultEmbedWidth": "100%",
+  "defaultEmbedHeight": "340px",
+  "hasMigratedTo800": true,
+  "showWelcomeModal": false,
+  "pluginVersion": "8.0.0",
   "appData": {},
   "state": {
     "04 GS-1/1. 📜History/Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.md": {
