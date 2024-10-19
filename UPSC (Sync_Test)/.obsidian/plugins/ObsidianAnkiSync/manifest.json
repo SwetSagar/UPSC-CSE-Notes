@@ -1,9 +1,0 @@
-{
-    "id": "ObsidianAnkiSync",
-    "name": "Obsidian Anki Sync",
-    "version": "1.0.0",
-    "description": "Obsidian plugin to make flashcards and sync them to Anki.",
-    "author": "debanjandhar12",
-    "authorUrl": "https://github.com/debanjandhar12",
-    "isDesktopOnly": true
-  }
