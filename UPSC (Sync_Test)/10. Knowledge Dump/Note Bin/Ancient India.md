@@ -144,24 +144,43 @@ uid: f7cd9e34b6ff37edd7ed3105f39bb76c
 
 **Ashokan Empire**
 Sannidhata - treasurer
+
 Samharata - collector of revenue, helped by Bhagadhuk
+
 **Amatya - civil servants/ admin personnel**
+
 Rajuka - punishing or rewarding people
+
 Adhyaksha - 27 are mentioned in Arthashastra, heads of dept
- Akshapataladhyaksha - accountant general/currency
- Sitadhyaksha - agriculture
- Akaradhyaksha - mining
- Navadhyaksha - Ports
- Panyadhyaksha - Commerce
- Samshadyaksha - Markets
- Sulkadhyaksha - customs and tolls
+
+Akshapataladhyaksha - accountant general/currency
+
+Sitadhyaksha - agriculture
+ 
+Akaradhyaksha - mining
+ 
+Navadhyaksha - Ports
+ 
+Panyadhyaksha - Commerce
+ 
+Samshadyaksha - Markets
+ 
+Sulkadhyaksha - customs and tolls
+
 Pradeshika - overall incharge of a district
+
 Rajuka - surveyor/ assessor of land
+
 Yukta - subordinates, secretaries, accountants
+
 Gopa - Accountant to a group of village
+
 Sthanika - worked directly under Pradesika
+
 Grambhojaka/Gramini/Gramika - head of village assisted by Gram Viddhas
+
 Pramukha - president of a guild/sreni
+
 Jetthaka - was elected member of guild or alderman
 
 
