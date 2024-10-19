@@ -64,7 +64,7 @@ uid: f7cd9e34b6ff37edd7ed3105f39bb76c
 |    <br>Ibn-Batuta    	|    <br>A great scholar   and traveller from South Africa who came to India in A.D. 1333 during the   reign of Mohammad Tughlak and wrote about him.    	|
 |    <br>Iqta    	|    <br>It was the   land-grant system adopted by Ala-ud-din Khilji to grant his officers as   reward for services rendered. Qutabuddin Aibak was assigned the first iqta in   India by Mohd of Ghor.    	|
 |    <br>Jati    	|    <br>Family or a group   of people defined by their profession.    	|
-|    <br>Jimutavahana    	|    <br>A famous jurist of   medieval India (fifteenth century). His work Dayabhaga is a commentary on the   srutis, specially on Manu.    	|
+|    <br>Jimutavahana    	|    <br>A famous jurist of   medieval India (fifteenth century). His work Dayabhaga is a commentary on the shastras, specially on Manu.    	|
 |    <br>Kalachuri era    	|    <br>counted from A.D.   248, it was mostly current in Central India. Their capital was Tripuri near   Jabalpur. Kalachuris were the feudatories of the Pratiharas but soon acquired   independence.    	|
 |    <br>Kaliyuga    	|    <br>The fourth and   final age of the aeon.    	|
 |    <br>Kalpa    	|    <br>A day- of Brahma   equivalent to 4,320 million earth years.    	|
