@@ -1,4 +1,4 @@
-# UPSC_CSE_Notes
+# UPSC Civil Service Examination Notes
 
 ## About
 
@@ -10,3 +10,7 @@ Notes that I made while preparing for UPSC Civil Services Examination. The notes
 3. Geography Part 1 : https://ankiweb.net/shared/info/92043266
 4. Geography Part 2 : https://ankiweb.net/shared/info/1271512123
 5. History Optional Map : https://ankiweb.net/shared/info/403721131
+
+
+## Index
+
