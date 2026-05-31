@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UPSC CSE Notes</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f1e8;
+      --panel: #fffdf8;
+      --line: #d8cfbf;
+      --text: #1f1f1f;
+      --muted: #625b4f;
+      --accent: #7a2e1d;
+      --accent-soft: #f1dfd5;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background:
+        radial-gradient(circle at top left, #fff7df 0, transparent 28%),
+        linear-gradient(180deg, #efe7da 0%, var(--bg) 100%);
+      color: var(--text);
+    }
+
+    main {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+    }
+
+    .hero,
+    .panel {
+      background: color-mix(in srgb, var(--panel) 92%, white 8%);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      box-shadow: 0 10px 30px rgba(64, 43, 18, 0.08);
+    }
+
+    .hero {
+      padding: 28px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(2rem, 4vw, 3.6rem);
+      line-height: 1;
+      letter-spacing: -0.04em;
+    }
+
+    p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .links {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+    }
+
+    .links a {
+      color: var(--accent);
+      text-decoration: none;
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      border: 1px solid #e2c4b8;
+    }
+
+    .panel {
+      padding: 20px;
+    }
+
+    .toolbar {
+      display: grid;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+
+    input {
+      width: 100%;
+      padding: 14px 16px;
+      border-radius: 12px;
+      border: 1px solid var(--line);
+      font: inherit;
+      font-size: 1rem;
+      background: #fff;
+      color: var(--text);
+    }
+
+    .meta {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 10px;
+    }
+
+    li a {
+      display: block;
+      padding: 14px 16px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: #fff;
+      text-decoration: none;
+      color: var(--text);
+    }
+
+    li a:hover {
+      border-color: #b79a87;
+      transform: translateY(-1px);
+      box-shadow: 0 8px 18px rgba(64, 43, 18, 0.07);
+    }
+
+    .path {
+      display: block;
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-top: 4px;
+      word-break: break-word;
+    }
+
+    .status {
+      color: var(--muted);
+      padding: 14px 2px 2px;
+    }
+
+    @media (max-width: 640px) {
+      main {
+        padding: 18px 14px 40px;
+      }
+
+      .hero,
+      .panel {
+        border-radius: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <h1>UPSC CSE Notes</h1>
+      <p>
+        GitHub Pages landing page for browsing the repository's Markdown files.
+        Files open directly as raw Markdown assets served from this repo.
+      </p>
+      <div class="links">
+        <a href="./README.md">Open README</a>
+        <a href="https://github.com/SwetSagar/UPSC-CSE-Notes">View Repository</a>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="toolbar">
+        <input id="search" type="search" placeholder="Search note titles or paths">
+        <div class="meta">
+          <span id="count">Loading index...</span>
+          <span>Source: branch <code>main</code></span>
+        </div>
+      </div>
+
+      <ul id="results" aria-live="polite"></ul>
+      <p id="status" class="status"></p>
+    </section>
+  </main>
+
+  <script>
+    const owner = "SwetSagar";
+    const repo = "UPSC-CSE-Notes";
+    const branch = "main";
+    const apiUrl = `https://api.github.com/repos/${owner}/${repo}/git/trees/${branch}?recursive=1`;
+    const searchInput = document.getElementById("search");
+    const resultsEl = document.getElementById("results");
+    const countEl = document.getElementById("count");
+    const statusEl = document.getElementById("status");
+
+    let markdownFiles = [];
+
+    function escapeHtml(value) {
+      return value
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#39;");
+    }
+
+    function encodePath(path) {
+      return path.split("/").map(encodeURIComponent).join("/");
+    }
+
+    function displayName(path) {
+      const parts = path.split("/");
+      return parts[parts.length - 1];
+    }
+
+    function render(list) {
+      countEl.textContent = `${list.length} Markdown files`;
+
+      if (!list.length) {
+        resultsEl.innerHTML = "";
+        statusEl.textContent = "No matching files.";
+        return;
+      }
+
+      statusEl.textContent = "";
+      resultsEl.innerHTML = list.map((path) => {
+        const href = `./${encodePath(path)}`;
+        return `
+          <li>
+            <a href="${href}">
+              ${escapeHtml(displayName(path))}
+              <span class="path">${escapeHtml(path)}</span>
+            </a>
+          </li>
+        `;
+      }).join("");
+    }
+
+    function applyFilter() {
+      const term = searchInput.value.trim().toLowerCase();
+
+      if (!term) {
+        render(markdownFiles);
+        return;
+      }
+
+      const filtered = markdownFiles.filter((path) =>
+        path.toLowerCase().includes(term)
+      );
+      render(filtered);
+    }
+
+    async function loadIndex() {
+      try {
+        const response = await fetch(apiUrl, {
+          headers: { "Accept": "application/vnd.github+json" }
+        });
+
+        if (!response.ok) {
+          throw new Error(`GitHub API responded with ${response.status}`);
+        }
+
+        const data = await response.json();
+        markdownFiles = (data.tree || [])
+          .filter((entry) => entry.type === "blob" && /\.md(?:own)?$/i.test(entry.path))
+          .sort((a, b) => a.path.localeCompare(b.path))
+          .map((entry) => entry.path);
+
+        render(markdownFiles);
+      } catch (error) {
+        countEl.textContent = "Index unavailable";
+        statusEl.textContent =
+          "Could not load the GitHub file index automatically. You can still open Markdown files directly if you know the path.";
+      }
+    }
+
+    searchInput.addEventListener("input", applyFilter);
+    loadIndex();
+  </script>
+</body>
+</html>
