@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "b9da84c51819a026",
+    "type": "split",
+    "children": [
+      {
+        "id": "7e84e38c60eb12e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69ba08c69f79c6c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "08.1 Ancient-History/2. Pre-and-Proto-History/2.2 Hunting and Gathering (Palaeolithic and Mesolithic).md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2.2 Hunting and Gathering (Palaeolithic and Mesolithic)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f4da2eaee1a4acf5",
+    "type": "split",
+    "children": [
+      {
+        "id": "3a2f35d80519c8c9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "035b4d95c8264004",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b4a0b535ae730231",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "2e8d48302a75ca0a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 360.5
+  },
+  "right": {
+    "id": "10e47e4fb58efeba",
+    "type": "split",
+    "children": [
+      {
+        "id": "d63cf965f7030476",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "30d9c2b8f20d50a9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Untitled.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Untitled"
+            }
+          },
+          {
+            "id": "2ad504de261bef6a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "08.1 Ancient-History/2. Pre-and-Proto-History/2.2 Hunting and Gathering (Palaeolithic and Mesolithic).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2.2 Hunting and Gathering (Palaeolithic and Mesolithic)"
+            }
+          },
+          {
+            "id": "efe42b83e174ee10",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7713c2a91d1d5101",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "08.1 Ancient-History/2. Pre-and-Proto-History/2.2 Hunting and Gathering (Palaeolithic and Mesolithic).md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2.2 Hunting and Gathering (Palaeolithic and Mesolithic)"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 304.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "webpage-html-export:Export as HTML": false
+    }
+  },
+  "active": "69ba08c69f79c6c3",
+  "lastOpenFiles": [
+    "08.1 Ancient-History/2. Pre-and-Proto-History/2.1 Geographical Factors.md",
+    "08.1 Ancient-History/1. Sources/1.3 Greek, Chinese and Arab Foreign Accounts.md",
+    "08.1 Ancient-History/1. Sources/1.2 Literary Sources.md",
+    "08.1 Ancient-History/1. Sources/1.1 Archaeological-Sources.md",
+    "Mock Test Analysis.md",
+    "01 Subject Wise Notes/🌏 Geography Static Notes/1. Geomorphology and Climatology/1.1 Earth.md",
+    "10. Knowledge Dump/Note Bin/Bodies-and-Founders.md",
+    "Untitled.base",
+    "Untitled 2.base",
+    "Untitled 1.base",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
+    "Cultural Facts.md",
+    "Untitled.canvas",
+    "01 Subject Wise Notes/🌏 Geography Static Notes/2. Indian Geography/Prelims PYQ.md",
+    "05 GS-2/1. Polity/1.4 Parliament and State legislatures - Structure, functioning, conduct of business, powers & privileges and issues arising out of these. Comparison of Constitutions etc.md",
+    "05 GS-2/1. Polity/1.7 Statutory, Regulatory and Various Quasi Judicial Bodies, Appointment in them.md",
+    "05 GS-2/1. Polity/Prelims PYQ.md",
+    "05 GS-2/1. Polity/1.2 Functions Responsibility of Union and States, Issues with Federal Structure, Devolution of powers and finances etc..md",
+    "05 GS-2/1. Polity/1.1 Indian Constitution - historical underpinnings, evolution, features, amendments, significant provisions and basic structure, Devolution etc.md",
+    "05 GS-2/1. Polity/1.3 Separation of Power between various organs, dispute redressal mechanisms. Judiciary.md",
+    "05 GS-2/1. Polity/1.6 Salient Features of Representation of Peoples Act 1951.md",
+    "05 GS-2/1. Polity/1.5 Structure, Organisation and functioning of Executive and Judiciary Ministries and Department of the Govt; pressure groups and formal, informal associations and their role in Polity.md",
+    "04 GS-1/3 👨‍👨‍👦‍👦Society/3.3 Communalism, Regionalism, Secularism.md",
+    "04 GS-1/3 👨‍👨‍👦‍👦Society/3.1 Salient featues of Indian Society, Diversity of India. Effects of globalisation on Indian Society, Social Empowerment..md",
+    "04 GS-1/3 👨‍👨‍👦‍👦Society/3.2 Role of Women and Women's organisation, population and other associated Issues, poverty and development issues, Urbanization, their problems and remedies..md",
+    "02 Prelims/PYQ  Analysis and Rules/Tricks, Hacks and Unsaid Rules.md",
+    "02 Prelims/PYQ  Analysis and Rules/2019.md",
+    "02 Prelims/PYQ  Analysis and Rules/2014.md",
+    "02 Prelims/PYQ  Analysis and Rules/2011.md",
+    "02 Prelims/PYQ  Analysis and Rules/2018.md",
+    "02 Prelims/PYQ  Analysis and Rules/2015.md",
+    "Attachements/Temple Architecture in India Nitin Singhania 1.pdf",
+    "Attachements/iess301.pdf",
+    "Attachements/0.23616900_1549019909_35-20190215-english.jpg",
+    "Attachements/Pasted image 20220107115926.png",
+    "Attachements/Pasted image 20220921180447.png",
+    "Attachements/Pasted image 20230111185139.png",
+    "Attachements/Burzahom.jpg",
+    "Attachements/Pasted image 20220211222148.png",
+    "Attachements/Globalisation and Social Change NCERT.pdf",
+    "Attachements/Unit-11.pdf",
+    "Attachements/Pasted image 20230119121425.png",
+    "Attachements/Pasted image 20220921132935.png",
+    "Attachements/Pasted image 20220107150007.png",
+    "Attachements/Pasted image 20220909100428.png",
+    "Attachements/Challenges of Cultural Diversity (Communalism etc).pdf",
+    "Attachements/kegy209 1.pdf",
+    "Attachements/Unit-39.pdf"
+  ]
+}
