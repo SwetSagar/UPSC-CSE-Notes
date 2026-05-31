@@ -1,5 +1,6 @@
 {
   "main": {
+<<<<<<< Updated upstream
     "id": "b9da84c51819a026",
     "type": "split",
     "children": [
@@ -9,16 +10,35 @@
         "children": [
           {
             "id": "69ba08c69f79c6c3",
+=======
+    "id": "61254bdd3803c450",
+    "type": "split",
+    "children": [
+      {
+        "id": "dabb8c224111c11b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9cd00ac24ed6fb34",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< Updated upstream
                 "file": "08.1 Ancient-History/2. Pre-and-Proto-History/2.2 Hunting and Gathering (Palaeolithic and Mesolithic).md",
+=======
+                "file": "01 Subject Wise Notes/💶 Economy/001 Economy and Economics.md",
+>>>>>>> Stashed changes
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< Updated upstream
               "title": "2.2 Hunting and Gathering (Palaeolithic and Mesolithic)"
+=======
+              "title": "001 Economy and Economics"
+>>>>>>> Stashed changes
             }
           }
         ]
@@ -27,6 +47,7 @@
     "direction": "vertical"
   },
   "left": {
+<<<<<<< Updated upstream
     "id": "f4da2eaee1a4acf5",
     "type": "split",
     "children": [
@@ -36,19 +57,38 @@
         "children": [
           {
             "id": "035b4d95c8264004",
+=======
+    "id": "e5fb562ffd76216a",
+    "type": "split",
+    "children": [
+      {
+        "id": "48b1a726d595225c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b6222677aa1b4ee0",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
+<<<<<<< Updated upstream
                 "sortOrder": "alphabetical",
                 "autoReveal": false
+=======
+                "sortOrder": "alphabetical"
+>>>>>>> Stashed changes
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
           },
           {
+<<<<<<< Updated upstream
             "id": "b4a0b535ae730231",
+=======
+            "id": "bc464042c643a035",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +105,11 @@
             }
           },
           {
+<<<<<<< Updated upstream
             "id": "2e8d48302a75ca0a",
+=======
+            "id": "56c390c3d52b14f0",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,6 +122,7 @@
       }
     ],
     "direction": "horizontal",
+<<<<<<< Updated upstream
     "width": 360.5
   },
   "right": {
@@ -90,11 +135,29 @@
         "children": [
           {
             "id": "30d9c2b8f20d50a9",
+=======
+    "width": 300
+  },
+  "right": {
+    "id": "b6189c36dc7d51f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "33048cf74233d54c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1499c0515c461ab2",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Untitled.canvas",
+=======
+                "file": "08.1 Ancient-History/1. Sources/1.2 Literary Sources.md",
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,44 +167,73 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
+<<<<<<< Updated upstream
               "title": "Backlinks for Untitled"
             }
           },
           {
             "id": "2ad504de261bef6a",
+=======
+              "title": "Backlinks for 1.2 Literary Sources"
+            }
+          },
+          {
+            "id": "4d8b15eab64a1547",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< Updated upstream
                 "file": "08.1 Ancient-History/2. Pre-and-Proto-History/2.2 Hunting and Gathering (Palaeolithic and Mesolithic).md",
+=======
+                "file": "08.1 Ancient-History/1. Sources/1.2 Literary Sources.md",
+>>>>>>> Stashed changes
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
+<<<<<<< Updated upstream
               "title": "Outgoing links from 2.2 Hunting and Gathering (Palaeolithic and Mesolithic)"
             }
           },
           {
             "id": "efe42b83e174ee10",
+=======
+              "title": "Outgoing links from 1.2 Literary Sources"
+            }
+          },
+          {
+            "id": "5cf21e7c4fb23708",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
+<<<<<<< Updated upstream
                 "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
+=======
+                "useHierarchy": true
+>>>>>>> Stashed changes
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
+<<<<<<< Updated upstream
             "id": "7713c2a91d1d5101",
+=======
+            "id": "2eb8d7387d34be1b",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< Updated upstream
                 "file": "08.1 Ancient-History/2. Pre-and-Proto-History/2.2 Hunting and Gathering (Palaeolithic and Mesolithic).md",
                 "followCursor": false,
                 "showSearch": false,
@@ -161,11 +253,29 @@
   "left-ribbon": {
     "hiddenItems": {
       "bases:Create new base": false,
+=======
+                "file": "08.1 Ancient-History/1. Sources/1.2 Literary Sources.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 1.2 Literary Sources"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+>>>>>>> Stashed changes
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
+<<<<<<< Updated upstream
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "webpage-html-export:Export as HTML": false
@@ -222,5 +332,38 @@
     "Attachements/Challenges of Cultural Diversity (Communalism etc).pdf",
     "Attachements/kegy209 1.pdf",
     "Attachements/Unit-39.pdf"
+=======
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "9cd00ac24ed6fb34",
+  "lastOpenFiles": [
+    "08.3 Modern-History/15. Economic-Dev-Political-Change/15.1 Economic Development and Political Change.md",
+    "08.3 Modern-History/15. Economic-Dev-Political-Change/15.2 Land-Reforms.md",
+    "08.2 Medieval-India/1. Early-750-1200-AD/1.2 Origin and the Rise of Rajputs.md",
+    "08.2 Medieval-India/1. Early-750-1200-AD/1.1 Major-Political-Development-in-Northern-India.md",
+    "08.1 Ancient-History/2. Pre-and-Proto-History/2.2 Hunting and Gathering (Palaeolithic and Mesolithic).md",
+    "08.1 Ancient-History/2. Pre-and-Proto-History/2.1 Geographical Factors.md",
+    "08.1 Ancient-History/1. Sources/1.3 Greek, Chinese and Arab Foreign Accounts.md",
+    "08.1 Ancient-History/1. Sources/1.1 Archaeological-Sources.md",
+    "08.1 Ancient-History/1. Sources/1.2 Literary Sources.md",
+    "03 Essay/1 Important Topics Content, Intro, Conclusion.md",
+    "00 Homepage/Homepage.md",
+    "00 Homepage/Bookshelf.md",
+    "09 Web Clippings/UAPA Membership.md",
+    "09 Web Clippings/Today’s Paper News, Breaking News, Top headlines - The HinduBusinessLine.md",
+    "09 Web Clippings/Microearthquakes TH.md",
+    "09 Web Clippings/RNA DNA.md",
+    "09 Web Clippings/Landslide Atlas of India Which states, regions are most vulnerable  Explained News,The Indian Express.md",
+    "09 Web Clippings/Japan PM Fumio Kishida meets Modi, says will announce new Indo-Pacific plan  Reader View.md",
+    "09 Web Clippings/India Ups Its Game in the Middle East – The Diplomat.md",
+    "09 Web Clippings/India unveils 'dynamic' foreign trade policy, eyes $2 trn exports by 2030.md",
+    "09 Web Clippings/India misses RE capacity target due to low solar rooftop, wind energy project installations Parliamentary panel - The Hindu.md",
+    "09 Web Clippings/Heat Action Plans HAP.md",
+    "09 Web Clippings/France-India-UAE Trilateral India’s Minilateral Engagements Ticks Up – The Diplomat.md",
+    "09 Web Clippings/Explained  Combining social welfare and capital markets through SSE - The Hindu.md",
+    "09 Web Clippings/Disqualification of Rahul Gandhi.md",
+    "09 Web Clippings/Comparative Analysis of Impeachment Procedure of President of India and the U.S..md"
+>>>>>>> Stashed changes
   ]
 }

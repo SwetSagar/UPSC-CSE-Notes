@@ -26,8 +26,12 @@
   "workspaces": false,
   "file-recovery": true,
   "publish": false,
+<<<<<<< Updated upstream
   "sync": false,
   "webviewer": false,
   "footnotes": false,
   "bases": true
+=======
+  "sync": false
+>>>>>>> Stashed changes
 }
