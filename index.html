@@ -1,282 +1,531 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>UPSC CSE Notes</title>
-  <style>
-    :root {
-      color-scheme: light;
-      --bg: #f5f1e8;
-      --panel: #fffdf8;
-      --line: #d8cfbf;
-      --text: #1f1f1f;
-      --muted: #625b4f;
-      --accent: #7a2e1d;
-      --accent-soft: #f1dfd5;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      font-family: Georgia, "Times New Roman", serif;
-      background:
-        radial-gradient(circle at top left, #fff7df 0, transparent 28%),
-        linear-gradient(180deg, #efe7da 0%, var(--bg) 100%);
-      color: var(--text);
-    }
-
-    main {
-      max-width: 1080px;
-      margin: 0 auto;
-      padding: 32px 20px 64px;
-    }
-
-    .hero,
-    .panel {
-      background: color-mix(in srgb, var(--panel) 92%, white 8%);
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      box-shadow: 0 10px 30px rgba(64, 43, 18, 0.08);
-    }
-
-    .hero {
-      padding: 28px;
-      margin-bottom: 20px;
-    }
-
-    h1 {
-      margin: 0 0 10px;
-      font-size: clamp(2rem, 4vw, 3.6rem);
-      line-height: 1;
-      letter-spacing: -0.04em;
-    }
-
-    p {
-      margin: 0;
-      color: var(--muted);
-      line-height: 1.6;
-    }
-
-    .links {
-      display: flex;
-      gap: 12px;
-      flex-wrap: wrap;
-      margin-top: 18px;
-    }
-
-    .links a {
-      color: var(--accent);
-      text-decoration: none;
-      padding: 10px 14px;
-      border-radius: 999px;
-      background: var(--accent-soft);
-      border: 1px solid #e2c4b8;
-    }
-
-    .panel {
-      padding: 20px;
-    }
-
-    .toolbar {
-      display: grid;
-      gap: 12px;
-      margin-bottom: 18px;
-    }
-
-    input {
-      width: 100%;
-      padding: 14px 16px;
-      border-radius: 12px;
-      border: 1px solid var(--line);
-      font: inherit;
-      font-size: 1rem;
-      background: #fff;
-      color: var(--text);
-    }
-
-    .meta {
-      display: flex;
-      justify-content: space-between;
-      gap: 12px;
-      flex-wrap: wrap;
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      display: grid;
-      gap: 10px;
-    }
-
-    li a {
-      display: block;
-      padding: 14px 16px;
-      border-radius: 14px;
-      border: 1px solid var(--line);
-      background: #fff;
-      text-decoration: none;
-      color: var(--text);
-    }
-
-    li a:hover {
-      border-color: #b79a87;
-      transform: translateY(-1px);
-      box-shadow: 0 8px 18px rgba(64, 43, 18, 0.07);
-    }
-
-    .path {
-      display: block;
-      color: var(--muted);
-      font-size: 0.9rem;
-      margin-top: 4px;
-      word-break: break-word;
-    }
-
-    .status {
-      color: var(--muted);
-      padding: 14px 2px 2px;
-    }
-
-    @media (max-width: 640px) {
-      main {
-        padding: 18px 14px 40px;
-      }
-
-      .hero,
-      .panel {
-        border-radius: 14px;
-      }
-    }
-  </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UPSC CSE Notes</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
+    <style>
+         :root {
+            color-scheme: light;
+            --bg: #f5f1e8;
+            --panel: #fffdf8;
+            --line: #d8cfbf;
+            --text: #1f1f1f;
+            --muted: #625b4f;
+            --accent: #7a2e1d;
+            --accent-soft: #f1dfd5;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            font-family: Georgia, "Times New Roman", serif;
+            background: radial-gradient(circle at top left, #fff7df 0, transparent 28%), linear-gradient(180deg, #efe7da 0%, var(--bg) 100%);
+            color: var(--text);
+            display: flex;
+        }
+        
+        .sidebar {
+            width: 300px;
+            background: var(--panel);
+            border-right: 1px solid var(--line);
+            overflow-y: auto;
+            padding: 20px;
+            height: 100vh;
+            box-shadow: 0 0 20px rgba(64, 43, 18, 0.05);
+        }
+        
+        .content {
+            flex: 1;
+            overflow-y: auto;
+            height: 100vh;
+        }
+        
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 30px;
+        }
+        
+        .hero {
+            background: color-mix(in srgb, var(--panel) 92%, white 8%);
+            border: 1px solid var(--line);
+            border-radius: 18px;
+            box-shadow: 0 10px 30px rgba(64, 43, 18, 0.08);
+            padding: 28px;
+            margin-bottom: 40px;
+        }
+        
+        h1 {
+            margin: 0 0 10px;
+            font-size: clamp(2rem, 4vw, 3.6rem);
+            line-height: 1;
+            letter-spacing: -0.04em;
+        }
+        
+        .hero>p {
+            margin: 0;
+            color: var(--muted);
+            line-height: 1.6;
+        }
+        
+        .markdown-content {
+            display: none;
+        }
+        
+        .markdown-content.active {
+            display: block;
+        }
+        
+        .markdown-content h1,
+        .markdown-content h2,
+        .markdown-content h3,
+        .markdown-content h4,
+        .markdown-content h5,
+        .markdown-content h6 {
+            margin-top: 24px;
+            margin-bottom: 12px;
+            line-height: 1.3;
+        }
+        
+        .markdown-content h1 {
+            font-size: 2em;
+            border-bottom: 2px solid var(--accent-soft);
+            padding-bottom: 8px;
+        }
+        
+        .markdown-content h2 {
+            font-size: 1.6em;
+            color: var(--accent);
+        }
+        
+        .markdown-content h3 {
+            font-size: 1.3em;
+            color: var(--accent);
+        }
+        
+        .markdown-content p {
+            line-height: 1.7;
+            margin: 12px 0;
+        }
+        
+        .markdown-content ul,
+        .markdown-content ol {
+            margin: 12px 0;
+            padding-left: 24px;
+        }
+        
+        .markdown-content li {
+            margin: 6px 0;
+            line-height: 1.6;
+        }
+        
+        .markdown-content code {
+            background: var(--accent-soft);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: "Courier New", monospace;
+            font-size: 0.9em;
+        }
+        
+        .markdown-content pre {
+            background: #f0f0f0;
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            padding: 12px;
+            overflow-x: auto;
+            margin: 12px 0;
+        }
+        
+        .markdown-content pre code {
+            background: none;
+            padding: 0;
+            border-radius: 0;
+        }
+        
+        .markdown-content blockquote {
+            border-left: 4px solid var(--accent);
+            margin: 12px 0;
+            padding-left: 16px;
+            color: var(--muted);
+            font-style: italic;
+        }
+        
+        .markdown-content table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 12px 0;
+        }
+        
+        .markdown-content th,
+        .markdown-content td {
+            border: 1px solid var(--line);
+            padding: 10px;
+            text-align: left;
+        }
+        
+        .markdown-content th {
+            background: var(--accent-soft);
+            font-weight: bold;
+        }
+        
+        .markdown-content a {
+            color: var(--accent);
+            text-decoration: none;
+            border-bottom: 1px dotted var(--accent);
+        }
+        
+        .markdown-content a:hover {
+            border-bottom-style: solid;
+        }
+        
+        .sidebar h2 {
+            margin: 0 0 16px;
+            font-size: 1.2em;
+            color: var(--accent);
+        }
+        
+        .nav-group {
+            margin-bottom: 16px;
+        }
+        
+        .nav-group-title {
+            cursor: pointer;
+            padding: 10px;
+            margin: 8px -10px;
+            border-radius: 6px;
+            font-weight: 600;
+            user-select: none;
+            color: var(--accent);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: background 0.2s;
+        }
+        
+        .nav-group-title:hover {
+            background: var(--accent-soft);
+        }
+        
+        .nav-group-title.collapsed .chevron::after {
+            content: '▶';
+        }
+        
+        .nav-group-title:not(.collapsed) .chevron::after {
+            content: '▼';
+        }
+        
+        .nav-items {
+            padding-left: 12px;
+            max-height: 1000px;
+            overflow: hidden;
+            transition: max-height 0.3s;
+        }
+        
+        .nav-group-title.collapsed+.nav-items {
+            max-height: 0;
+        }
+        
+        .nav-item {
+            padding: 8px 10px;
+            margin: 4px 0;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.95em;
+            color: var(--text);
+            transition: background 0.2s;
+            word-break: break-word;
+        }
+        
+        .nav-item:hover {
+            background: var(--accent-soft);
+        }
+        
+        .nav-item.active {
+            background: var(--accent);
+            color: white;
+        }
+        
+        .loading {
+            text-align: center;
+            color: var(--muted);
+            padding: 40px;
+        }
+        
+        .error {
+            background: #fee;
+            border: 1px solid #fcc;
+            color: #c33;
+            padding: 16px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .links {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 18px;
+        }
+        
+        .links a {
+            color: var(--accent);
+            text-decoration: none;
+            padding: 10px 14px;
+            border-radius: 999px;
+            background: var(--accent-soft);
+            border: 1px solid #e2c4b8;
+            font-size: 0.9em;
+        }
+        
+        .links a:hover {
+            background: #e8cfc4;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                flex-direction: column;
+            }
+            .sidebar {
+                width: 100%;
+                height: auto;
+                border-right: none;
+                border-bottom: 1px solid var(--line);
+                max-height: 40vh;
+            }
+            .content {
+                height: auto;
+            }
+            main {
+                padding: 20px;
+            }
+            .hero {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
 </head>
+
 <body>
-  <main>
-    <section class="hero">
-      <h1>UPSC CSE Notes</h1>
-      <p>
-        GitHub Pages landing page for browsing the repository's Markdown files.
-        Files open directly as raw Markdown assets served from this repo.
-      </p>
-      <div class="links">
-        <a href="./README.md">Open README</a>
-        <a href="https://github.com/SwetSagar/UPSC-CSE-Notes">View Repository</a>
-      </div>
-    </section>
+    <div class="sidebar">
+        <h2>📚 Navigation</h2>
+        <div id="navigation"></div>
+    </div>
 
-    <section class="panel">
-      <div class="toolbar">
-        <input id="search" type="search" placeholder="Search note titles or paths">
-        <div class="meta">
-          <span id="count">Loading index...</span>
-          <span>Source: branch <code>main</code></span>
-        </div>
-      </div>
+    <div class="content">
+        <main>
+            <div class="hero" id="hero">
+                <h1>UPSC Civil Service Examination Notes</h1>
+                <p>Comprehensive notes covering GS subjects and History Optional. Start exploring by selecting a topic from the sidebar.</p>
+                <div class="links">
+                    <a href="https://ankiweb.net/shared/info/1558080665">GS Decks Part 1</a>
+                    <a href="https://ankiweb.net/shared/info/1256276970">GS Decks Part 2</a>
+                    <a href="https://ankiweb.net/shared/info/92043266">Geography Part 1</a>
+                    <a href="https://ankiweb.net/shared/info/1271512123">Geography Part 2</a>
+                    <a href="https://ankiweb.net/shared/info/403721131">History Optional Map</a>
+                </div>
+            </div>
 
-      <ul id="results" aria-live="polite"></ul>
-      <p id="status" class="status"></p>
-    </section>
-  </main>
+            <div id="content-container"></div>
+        </main>
+    </div>
 
-  <script>
-    const owner = "SwetSagar";
-    const repo = "UPSC-CSE-Notes";
-    const branch = "main";
-    const apiUrl = `https://api.github.com/repos/${owner}/${repo}/git/trees/${branch}?recursive=1`;
-    const searchInput = document.getElementById("search");
-    const resultsEl = document.getElementById("results");
-    const countEl = document.getElementById("count");
-    const statusEl = document.getElementById("status");
+    <script>
+        const UPSC_FOLDER = "UPSC (Sync_Test)";
+        const IGNORE_PATTERNS = [
+            /^\./,
+            /\.base$/,
+            /\.opml$/,
+            /Untitled/,
+        ];
 
-    let markdownFiles = [];
+        let folderStructure = {};
+        let allFiles = [];
 
-    function escapeHtml(value) {
-      return value
-        .replaceAll("&", "&amp;")
-        .replaceAll("<", "&lt;")
-        .replaceAll(">", "&gt;")
-        .replaceAll('"', "&quot;")
-        .replaceAll("'", "&#39;");
-    }
+        async function buildNavigation() {
+            try {
+                const response = await fetch('https://api.github.com/repos/SwetSagar/UPSC-CSE-Notes/git/trees/main?recursive=1');
+                const data = await response.json();
 
-    function encodePath(path) {
-      return path.split("/").map(encodeURIComponent).join("/");
-    }
+                allFiles = (data.tree || [])
+                    .filter(entry => entry.type === "blob" && entry.path.endsWith('.md'))
+                    .map(entry => entry.path);
 
-    function displayName(path) {
-      const parts = path.split("/");
-      return parts[parts.length - 1];
-    }
-
-    function render(list) {
-      countEl.textContent = `${list.length} Markdown files`;
-
-      if (!list.length) {
-        resultsEl.innerHTML = "";
-        statusEl.textContent = "No matching files.";
-        return;
-      }
-
-      statusEl.textContent = "";
-      resultsEl.innerHTML = list.map((path) => {
-        const href = `./${encodePath(path)}`;
-        return `
-          <li>
-            <a href="${href}">
-              ${escapeHtml(displayName(path))}
-              <span class="path">${escapeHtml(path)}</span>
-            </a>
-          </li>
-        `;
-      }).join("");
-    }
-
-    function applyFilter() {
-      const term = searchInput.value.trim().toLowerCase();
-
-      if (!term) {
-        render(markdownFiles);
-        return;
-      }
-
-      const filtered = markdownFiles.filter((path) =>
-        path.toLowerCase().includes(term)
-      );
-      render(filtered);
-    }
-
-    async function loadIndex() {
-      try {
-        const response = await fetch(apiUrl, {
-          headers: { "Accept": "application/vnd.github+json" }
-        });
-
-        if (!response.ok) {
-          throw new Error(`GitHub API responded with ${response.status}`);
+                // Build hierarchical structure from files
+                folderStructure = buildHierarchy(allFiles);
+                renderNavigation();
+            } catch (e) {
+                console.error("Error building navigation:", e);
+                // Fallback structure
+                folderStructure = {
+                    "01 Subject Wise Notes": {},
+                    "02 Prelims": {},
+                    "03 Essay": {},
+                    "04 GS-1": {},
+                    "05 GS-2": {},
+                    "06 GS-3": {},
+                    "07 GS-4": {},
+                    "08.1 Ancient-History": {},
+                    "08.2 Medieval-India": {},
+                    "08.3 Modern-History": {},
+                    "08.4 World-History": {},
+                    "09 Web Clippings": {},
+                    "10. Knowledge Dump": {}
+                };
+                renderNavigation();
+            }
         }
 
-        const data = await response.json();
-        markdownFiles = (data.tree || [])
-          .filter((entry) => entry.type === "blob" && /\.md(?:own)?$/i.test(entry.path))
-          .sort((a, b) => a.path.localeCompare(b.path))
-          .map((entry) => entry.path);
+        function buildHierarchy(files) {
+            const hierarchy = {};
 
-        render(markdownFiles);
-      } catch (error) {
-        countEl.textContent = "Index unavailable";
-        statusEl.textContent =
-          "Could not load the GitHub file index automatically. You can still open Markdown files directly if you know the path.";
-      }
-    }
+            files.forEach(file => {
+                if (!file.includes(UPSC_FOLDER)) return;
+                if (IGNORE_PATTERNS.some(p => p.test(file))) return;
 
-    searchInput.addEventListener("input", applyFilter);
-    loadIndex();
-  </script>
+                const parts = file.split('/');
+                const upscIndex = parts.indexOf(UPSC_FOLDER);
+                if (upscIndex === -1) return;
+
+                const relativeParts = parts.slice(upscIndex + 1);
+                let current = hierarchy;
+
+                for (let i = 0; i < relativeParts.length - 1; i++) {
+                    const part = relativeParts[i];
+                    if (!current[part]) current[part] = {};
+                    current = current[part];
+                }
+
+                const fileName = relativeParts[relativeParts.length - 1];
+                if (!current._files) current._files = [];
+                current._files.push(fileName);
+            });
+
+            return hierarchy;
+        }
+
+        function renderNavigation() {
+            const nav = document.getElementById('navigation');
+            nav.innerHTML = '';
+
+            Object.keys(folderStructure).forEach(section => {
+                const subsections = folderStructure[section];
+                const group = document.createElement('div');
+                group.className = 'nav-group';
+
+                const title = document.createElement('div');
+                title.className = 'nav-group-title';
+                title.innerHTML = '<span class="chevron"></span>' + escapeHtml(section);
+                title.onclick = (e) => {
+                    e.stopPropagation();
+                    title.classList.toggle('collapsed');
+                };
+
+                const items = document.createElement('div');
+                items.className = 'nav-items';
+
+                // Check if has files directly
+                if (subsections._files) {
+                    subsections._files.forEach(file => {
+                        createNavItem(items, section, file, null);
+                    });
+                }
+
+                // Add subsections
+                Object.keys(subsections).filter(k => k !== '_files').forEach(subsection => {
+                    const subTitle = document.createElement('div');
+                    subTitle.className = 'nav-group-title';
+                    subTitle.style.fontSize = '0.9em';
+                    subTitle.innerHTML = '<span class="chevron"></span>' + escapeHtml(subsection);
+                    subTitle.onclick = (e) => {
+                        e.stopPropagation();
+                        subTitle.classList.toggle('collapsed');
+                    };
+
+                    const subItems = document.createElement('div');
+                    subItems.className = 'nav-items';
+                    subItems.style.paddingLeft = '24px';
+
+                    const subContent = subsections[subsection];
+                    if (subContent._files) {
+                        subContent._files.forEach(file => {
+                            createNavItem(subItems, section, file, subsection);
+                        });
+                    }
+
+                    items.appendChild(subTitle);
+                    items.appendChild(subItems);
+                });
+
+                group.appendChild(title);
+                group.appendChild(items);
+                nav.appendChild(group);
+            });
+        }
+
+        function createNavItem(container, section, file, subsection) {
+            const item = document.createElement('div');
+            item.className = 'nav-item';
+            item.textContent = file.replace(/\.md$/, '');
+            item.onclick = () => {
+                const path = subsection ?
+                    `${UPSC_FOLDER}/${section}/${subsection}/${file}` :
+                    `${UPSC_FOLDER}/${section}/${file}`;
+                loadMarkdown(path, item);
+            };
+            container.appendChild(item);
+        }
+
+        async function loadMarkdown(filePath, navItem) {
+            const contentContainer = document.getElementById('content-container');
+            const hero = document.getElementById('hero');
+
+            hero.style.display = 'none';
+            contentContainer.innerHTML = '<div class="loading">Loading...</div>';
+
+            try {
+                const response = await fetch(`https://raw.githubusercontent.com/SwetSagar/UPSC-CSE-Notes/main/${filePath}`);
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+
+                const markdown = await response.text();
+                const html = marked.parse(markdown);
+                const sanitized = DOMPurify.sanitize(html);
+
+                contentContainer.innerHTML = `<div class="markdown-content active">${sanitized}</div>`;
+
+                document.querySelectorAll('.nav-item.active').forEach(item => {
+                    item.classList.remove('active');
+                });
+                navItem.classList.add('active');
+
+                window.scrollTo(0, 0);
+            } catch (error) {
+                contentContainer.innerHTML = `
+          <div class="error">
+            <strong>Error loading file:</strong> ${escapeHtml(filePath)}<br>
+            ${escapeHtml(error.message)}
+          </div>
+        `;
+            }
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        document.addEventListener('DOMContentLoaded', buildNavigation);
+    </script>
 </body>
+
 </html>
